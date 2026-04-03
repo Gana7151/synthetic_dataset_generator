@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-01-19</PrimaryBirthDt>
+      <SpouseBirthDt>1984-04-02</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45883</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>57631</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>458835639</PrimarySSN>
+      <SpouseSSN>576313458</SpouseSSN>
+      <NameLine1Txt>Brett Drake</NameLine1Txt>
+      <SpouseNameLine1Txt>Darryl Drake</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BRET</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DARR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7908 MELISSA CREEK</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>576313458</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">176800</WagesAmt>
+      <WagesSalariesAndTipsAmt>176800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">740</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1269</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">46781</BusinessIncomeAmt>
+      <TotalIncomeAmt>225589</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>224963</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9356</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37056</TotalDeductionsAmt>
+      <TaxableIncomeAmt>187907</TaxableIncomeAmt>
+      <TaxAmt>31954</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>31954</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>31954</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1253</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1253</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33207</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>38896</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>38896</WithholdingTaxAmt>
+      <TotalPaymentsAmt>38896</TotalPaymentsAmt>
+      <OverpaidAmt>5689</OverpaidAmt>
+      <RefundAmt>5689</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1253</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1253</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>740</InterestAmt>
+      <TotalInterestAmt>740</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1269</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1269</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>70500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>70500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2753</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1387</CarAndTruckExpensesAmt>
+      <InsuranceAmt>960</InsuranceAmt>
+      <OfficeExpensesAmt>1886</OfficeExpensesAmt>
+      <SuppliesAmt>1822</SuppliesAmt>
+      <UtilitiesAmt>931</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13980</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>23719</TotalExpensesAmt>
+      <NetProfitOrLossAmt>46781</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>46781</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>46781</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>43202</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1253</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>626</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>46781</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>46781</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9356</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>458835639</EmployeeSSN>
+      <EmployerEIN>835596000</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2884 Tracy Union</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brett Drake</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2884 Tracy Union</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>176800</WagesAmt>
+      <WithholdingAmt>38896</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>176800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2564</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

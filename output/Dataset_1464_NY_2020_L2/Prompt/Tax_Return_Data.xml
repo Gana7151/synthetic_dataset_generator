@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-03-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>78770</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>787704744</PrimarySSN>
+      <NameLine1Txt>Michael Powell</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6070 STACEY BRANCH</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Karen</DependentFirstNm>
+        <DependentLastNm>Powell</DependentLastNm>
+        <DependentNameControlTxt>KARE</DependentNameControlTxt>
+        <DependentSSN>141212886</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">77900</WagesAmt>
+      <WagesSalariesAndTipsAmt>77900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">771</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1625</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">52421</BusinessIncomeAmt>
+      <TotalIncomeAmt>132716</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>129013</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10484</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22884</TotalDeductionsAmt>
+      <TaxableIncomeAmt>106129</TaxableIncomeAmt>
+      <TaxAmt>19550</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19550</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>17550</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7407</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7407</TotalOtherTaxesAmt>
+      <TotalTaxAmt>24957</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9348</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9348</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9348</TotalPaymentsAmt>
+      <AmountOwedAmt>15609</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7407</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7407</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>771</InterestAmt>
+      <TotalInterestAmt>771</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1625</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1625</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>70000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>70000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1192</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1263</CarAndTruckExpensesAmt>
+      <InsuranceAmt>471</InsuranceAmt>
+      <OfficeExpensesAmt>1384</OfficeExpensesAmt>
+      <SuppliesAmt>1059</SuppliesAmt>
+      <UtilitiesAmt>533</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8177</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14079</TotalExpensesAmt>
+      <NetProfitOrLossAmt>52421</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>52421</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>52421</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>48411</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7407</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3703</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Karen Powell</ChildFirstAndLastName>
+        <ChildSSN>141212886</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>52421</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>52421</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10484</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3500</DepreciationAmt>
+      <TotalDepreciationAmt>3500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>787704744</EmployeeSSN>
+      <EmployerEIN>207081608</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7971 Zachary Village</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Powell</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7971 Zachary Village</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>77900</WagesAmt>
+      <WithholdingAmt>9348</WithholdingAmt>
+      <SocialSecurityWagesAmt>77900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4830</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>77900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1130</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

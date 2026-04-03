@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1975-11-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>71151</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>711516508</PrimarySSN>
+      <NameLine1Txt>John Anderson</NameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2343 JASON MOUNTAIN</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84200</WagesAmt>
+      <WagesSalariesAndTipsAmt>84200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">607</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>84807</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84807</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>71857</TaxableIncomeAmt>
+      <TaxAmt>11425</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11425</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11425</TaxLessCreditsAmt>
+      <TotalTaxAmt>11425</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13472</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13472</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13472</TotalPaymentsAmt>
+      <OverpaidAmt>2047</OverpaidAmt>
+      <RefundAmt>2047</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>607</InterestAmt>
+      <TotalInterestAmt>607</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>711516508</EmployeeSSN>
+      <EmployerEIN>828737862</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1071 Bradley Turnpike</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1071 Bradley Turnpike</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84200</WagesAmt>
+      <WithholdingAmt>13472</WithholdingAmt>
+      <SocialSecurityWagesAmt>84200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5220</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1221</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-07-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>57787</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>577878159</PrimarySSN>
+      <NameLine1Txt>John Barber</NameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9445 LYNCH LODGE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84200</WagesAmt>
+      <WagesSalariesAndTipsAmt>84200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>84200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>71800</TaxableIncomeAmt>
+      <TaxAmt>11586</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11586</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11586</TaxLessCreditsAmt>
+      <TotalTaxAmt>11586</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13472</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13472</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13472</TotalPaymentsAmt>
+      <OverpaidAmt>1886</OverpaidAmt>
+      <RefundAmt>1886</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>577878159</EmployeeSSN>
+      <EmployerEIN>139524194</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>464 Alexander Drives</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John Barber</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>464 Alexander Drives</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84200</WagesAmt>
+      <WithholdingAmt>13472</WithholdingAmt>
+      <SocialSecurityWagesAmt>84200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5220</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1221</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>926</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

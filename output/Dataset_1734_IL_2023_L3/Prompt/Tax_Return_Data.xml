@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-09-26</PrimaryBirthDt>
+      <SpouseBirthDt>1980-03-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>31330</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>39934</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>313303190</PrimarySSN>
+      <SpouseSSN>399342405</SpouseSSN>
+      <NameLine1Txt>Kelly Griffith</NameLine1Txt>
+      <SpouseNameLine1Txt>Victoria Griffith</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>VICT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5475 SMITH FORT</AddressLine1Txt>
+        <CityNm>NAPERVILLE</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>399342405</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Crystal</DependentFirstNm>
+        <DependentLastNm>Griffith</DependentLastNm>
+        <DependentNameControlTxt>CRYS</DependentNameControlTxt>
+        <DependentSSN>318679091</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">158500</WagesAmt>
+      <WagesSalariesAndTipsAmt>158500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1436</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4333</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">102884</BusinessIncomeAmt>
+      <TotalIncomeAmt>267153</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>265670</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">20577</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>48277</TotalDeductionsAmt>
+      <TaxableIncomeAmt>217393</TaxableIncomeAmt>
+      <TaxAmt>38974</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>38974</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>36974</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2966</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2966</TotalOtherTaxesAmt>
+      <TotalTaxAmt>39972</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>25360</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>25360</WithholdingTaxAmt>
+      <TotalPaymentsAmt>25360</TotalPaymentsAmt>
+      <AmountOwedAmt>14612</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2966</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2966</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1436</InterestAmt>
+      <TotalInterestAmt>1436</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4333</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4333</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541219</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BOOK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Bookkeeping</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>145800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>145800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2598</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1472</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1521</InsuranceAmt>
+      <OfficeExpensesAmt>3745</OfficeExpensesAmt>
+      <SuppliesAmt>3987</SuppliesAmt>
+      <UtilitiesAmt>2432</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>27161</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>42916</TotalExpensesAmt>
+      <NetProfitOrLossAmt>102884</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>102884</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>102884</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>95013</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2966</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1483</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Crystal Griffith</ChildFirstAndLastName>
+        <ChildSSN>318679091</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>102884</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>102884</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>20577</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>313303190</EmployeeSSN>
+      <EmployerEIN>427740883</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7042 Jennifer Radial</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kelly Griffith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7042 Jennifer Radial</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>158500</WagesAmt>
+      <WithholdingAmt>25360</WithholdingAmt>
+      <SocialSecurityWagesAmt>158500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9827</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>158500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2298</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

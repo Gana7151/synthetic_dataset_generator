@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-02-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33224</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>332243655</PrimarySSN>
+      <NameLine1Txt>Melanie Erickson</NameLine1Txt>
+      <PrimaryNameControlTxt>MELA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3435 VERONICA VILLAGE</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Erickson</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>580845357</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dale</DependentFirstNm>
+        <DependentLastNm>Erickson</DependentLastNm>
+        <DependentNameControlTxt>DALE</DependentNameControlTxt>
+        <DependentSSN>674249682</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">75500</WagesAmt>
+      <WagesSalariesAndTipsAmt>75500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">474</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">285</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">56111</BusinessIncomeAmt>
+      <TotalIncomeAmt>132371</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>128407</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11222</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23772</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104635</TaxableIncomeAmt>
+      <TaxAmt>19133</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3950</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3950</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19133</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15183</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7928</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7928</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23112</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9060</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9060</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9060</TotalPaymentsAmt>
+      <AmountOwedAmt>14052</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7928</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7928</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>474</InterestAmt>
+      <TotalInterestAmt>474</TotalInterestAmt>
+      <OrdinaryDividendsAmt>285</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>285</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>77400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>77400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1927</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>590</CarAndTruckExpensesAmt>
+      <InsuranceAmt>819</InsuranceAmt>
+      <OfficeExpensesAmt>1379</OfficeExpensesAmt>
+      <SuppliesAmt>1294</SuppliesAmt>
+      <UtilitiesAmt>649</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14631</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>21289</TotalExpensesAmt>
+      <NetProfitOrLossAmt>56111</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>56111</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>56111</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>51819</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7928</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3964</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Erickson</ChildFirstAndLastName>
+        <ChildSSN>580845357</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dale Erickson</ChildFirstAndLastName>
+        <ChildSSN>674249682</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3950</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3950</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>56111</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>56111</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11222</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>332243655</EmployeeSSN>
+      <EmployerEIN>304475470</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7367 Brian Throughway</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melanie Erickson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7367 Brian Throughway</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75500</WagesAmt>
+      <WithholdingAmt>9060</WithholdingAmt>
+      <SocialSecurityWagesAmt>75500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4681</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1095</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

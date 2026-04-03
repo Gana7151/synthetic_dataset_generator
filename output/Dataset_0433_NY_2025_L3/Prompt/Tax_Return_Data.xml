@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1951-08-12</PrimaryBirthDt>
+      <SpouseBirthDt>1946-09-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68290</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>75381</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>682907865</PrimarySSN>
+      <SpouseSSN>753814061</SpouseSSN>
+      <NameLine1Txt>Michael Carey</NameLine1Txt>
+      <SpouseNameLine1Txt>Chad Carey</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHAD</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9126 GOMEZ PARK</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>753814061</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kristy</DependentFirstNm>
+        <DependentLastNm>Carey</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>449369522</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sarah</DependentFirstNm>
+        <DependentLastNm>Carey</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>748681546</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Carey</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>806891714</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Adam</DependentFirstNm>
+        <DependentLastNm>Carey</DependentLastNm>
+        <DependentNameControlTxt>ADAM</DependentNameControlTxt>
+        <DependentSSN>831646512</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">300917</WagesAmt>
+      <WagesSalariesAndTipsAmt>300917</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1647</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">966</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">81409</BusinessIncomeAmt>
+      <TotalIncomeAmt>384939</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>369020</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>34700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16282</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>50982</TotalDeductionsAmt>
+      <TaxableIncomeAmt>318038</TaxableIncomeAmt>
+      <TaxAmt>62023</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>62023</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>53223</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2180</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2180</TotalOtherTaxesAmt>
+      <TotalTaxAmt>56538</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>58852</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>58852</WithholdingTaxAmt>
+      <TotalPaymentsAmt>58852</TotalPaymentsAmt>
+      <OverpaidAmt>2314</OverpaidAmt>
+      <RefundAmt>2314</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2180</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2180</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1647</InterestAmt>
+      <TotalInterestAmt>1647</TotalInterestAmt>
+      <OrdinaryDividendsAmt>966</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>966</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>14269</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>560</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>14829</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>129500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>129500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4064</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3405</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3385</InsuranceAmt>
+      <OfficeExpensesAmt>3009</OfficeExpensesAmt>
+      <SuppliesAmt>3620</SuppliesAmt>
+      <UtilitiesAmt>2040</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>25368</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>44891</TotalExpensesAmt>
+      <NetProfitOrLossAmt>81409</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>81409</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>81409</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>75181</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2180</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1090</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kristy Carey</ChildFirstAndLastName>
+        <ChildSSN>449369522</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sarah Carey</ChildFirstAndLastName>
+        <ChildSSN>748681546</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Carey</ChildFirstAndLastName>
+        <ChildSSN>806891714</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Adam Carey</ChildFirstAndLastName>
+        <ChildSSN>831646512</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>81409</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>81409</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16282</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3200</DepreciationAmt>
+      <TotalDepreciationAmt>3200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>682907865</EmployeeSSN>
+      <EmployerEIN>545131012</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8594 Clark Valleys</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Carey</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8594 Clark Valleys</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>178417</WagesAmt>
+      <WithholdingAmt>39252</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>178417</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2587</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>22763</SocialSecurityTipsAmt>
+      <OvertimePayAmt>9054</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>753814061</EmployeeSSN>
+      <EmployerEIN>643775525</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3064 Lopez Courts</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Chad Carey</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3064 Lopez Courts</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>122500</WagesAmt>
+      <WithholdingAmt>19600</WithholdingAmt>
+      <SocialSecurityWagesAmt>122500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7595</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>122500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1776</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

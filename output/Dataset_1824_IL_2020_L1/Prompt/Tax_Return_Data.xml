@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-01-23</PrimaryBirthDt>
+      <SpouseBirthDt>1984-09-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72815</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>23479</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>728158115</PrimarySSN>
+      <SpouseSSN>234797443</SpouseSSN>
+      <NameLine1Txt>Mary Lynch</NameLine1Txt>
+      <SpouseNameLine1Txt>Megan Lynch</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MARY</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MEGA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2403 RODRIGUEZ FALLS</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>234797443</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patrick</DependentFirstNm>
+        <DependentLastNm>Lynch</DependentLastNm>
+        <DependentNameControlTxt>PATR</DependentNameControlTxt>
+        <DependentSSN>349369291</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">44800</WagesAmt>
+      <WagesSalariesAndTipsAmt>44800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>44800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>44800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>20000</TaxableIncomeAmt>
+      <TaxAmt>2005</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2005</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5</TaxLessCreditsAmt>
+      <TotalTaxAmt>5</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5376</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5376</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5376</TotalPaymentsAmt>
+      <OverpaidAmt>5371</OverpaidAmt>
+      <RefundAmt>5371</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patrick Lynch</ChildFirstAndLastName>
+        <ChildSSN>349369291</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>234797443</EmployeeSSN>
+      <EmployerEIN>662290872</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8530 Miguel Lane</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Megan Lynch</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8530 Miguel Lane</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>44800</WagesAmt>
+      <WithholdingAmt>5376</WithholdingAmt>
+      <SocialSecurityWagesAmt>44800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2778</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>44800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>650</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

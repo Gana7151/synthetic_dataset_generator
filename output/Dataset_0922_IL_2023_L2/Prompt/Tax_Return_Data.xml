@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-06-13</PrimaryBirthDt>
+      <SpouseBirthDt>1977-09-17</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87612</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>47391</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>876126917</PrimarySSN>
+      <SpouseSSN>473918470</SpouseSSN>
+      <NameLine1Txt>Charles Hickman</NameLine1Txt>
+      <SpouseNameLine1Txt>Alexander Hickman</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHAR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ALEX</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4529 CHANDLER KNOLLS</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>473918470</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Hickman</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>712721386</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Seth</DependentFirstNm>
+        <DependentLastNm>Hickman</DependentLastNm>
+        <DependentNameControlTxt>SETH</DependentNameControlTxt>
+        <DependentSSN>822231706</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Hickman</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>844589300</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">121800</WagesAmt>
+      <WagesSalariesAndTipsAmt>121800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">388</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">498</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54379</BusinessIncomeAmt>
+      <TotalIncomeAmt>177065</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>173956</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10876</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38576</TotalDeductionsAmt>
+      <TaxableIncomeAmt>135380</TaxableIncomeAmt>
+      <TaxAmt>20399</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20399</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14399</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6218</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6218</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20617</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14616</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14616</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14616</TotalPaymentsAmt>
+      <AmountOwedAmt>6001</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6218</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6218</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>388</InterestAmt>
+      <TotalInterestAmt>388</TotalInterestAmt>
+      <OrdinaryDividendsAmt>498</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>498</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hickman's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HICK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>79300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>79300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2413</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>307</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1277</InsuranceAmt>
+      <OfficeExpensesAmt>1246</OfficeExpensesAmt>
+      <SuppliesAmt>1858</SuppliesAmt>
+      <UtilitiesAmt>1067</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14953</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>23121</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54379</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54379</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54379</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>50219</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6218</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3109</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Hickman</ChildFirstAndLastName>
+        <ChildSSN>712721386</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Seth Hickman</ChildFirstAndLastName>
+        <ChildSSN>822231706</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Hickman</ChildFirstAndLastName>
+        <ChildSSN>844589300</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54379</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54379</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10876</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hickman's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1800</DepreciationAmt>
+      <TotalDepreciationAmt>1800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>876126917</EmployeeSSN>
+      <EmployerEIN>487839028</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6109 Rivera Groves</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Charles Hickman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6109 Rivera Groves</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>70900</WagesAmt>
+      <WithholdingAmt>8508</WithholdingAmt>
+      <SocialSecurityWagesAmt>70900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4396</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>70900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1028</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>473918470</EmployeeSSN>
+      <EmployerEIN>465861585</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7843 Anna Underpass</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alexander Hickman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7843 Anna Underpass</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>50900</WagesAmt>
+      <WithholdingAmt>6108</WithholdingAmt>
+      <SocialSecurityWagesAmt>50900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3156</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>50900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>738</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

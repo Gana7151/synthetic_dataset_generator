@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-12-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>83138</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>831383485</PrimarySSN>
+      <NameLine1Txt>Heather Baker</NameLine1Txt>
+      <PrimaryNameControlTxt>HEAT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3277 SHERYL SPURS</AddressLine1Txt>
+        <CityNm>NAPERVILLE</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jill</DependentFirstNm>
+        <DependentLastNm>Baker</DependentLastNm>
+        <DependentNameControlTxt>JILL</DependentNameControlTxt>
+        <DependentSSN>211749077</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">46800</WagesAmt>
+      <WagesSalariesAndTipsAmt>46800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">101</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">953</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">27449</BusinessIncomeAmt>
+      <TotalIncomeAmt>75304</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>73364</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5490</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19340</TotalDeductionsAmt>
+      <TaxableIncomeAmt>54024</TaxableIncomeAmt>
+      <TaxAmt>7193</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7193</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5193</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3878</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3878</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9071</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5616</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5616</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5616</TotalPaymentsAmt>
+      <AmountOwedAmt>3455</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3878</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3878</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>101</InterestAmt>
+      <TotalInterestAmt>101</TotalInterestAmt>
+      <OrdinaryDividendsAmt>953</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>953</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>722</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>923</CarAndTruckExpensesAmt>
+      <InsuranceAmt>761</InsuranceAmt>
+      <OfficeExpensesAmt>738</OfficeExpensesAmt>
+      <SuppliesAmt>863</SuppliesAmt>
+      <UtilitiesAmt>314</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7230</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11551</TotalExpensesAmt>
+      <NetProfitOrLossAmt>27449</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>27449</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>27449</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>25349</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3878</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1939</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jill Baker</ChildFirstAndLastName>
+        <ChildSSN>211749077</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>27449</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>27449</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5490</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>831383485</EmployeeSSN>
+      <EmployerEIN>821513388</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7299 Marshall Meadow</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Heather Baker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7299 Marshall Meadow</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46800</WagesAmt>
+      <WithholdingAmt>5616</WithholdingAmt>
+      <SocialSecurityWagesAmt>46800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2902</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>679</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

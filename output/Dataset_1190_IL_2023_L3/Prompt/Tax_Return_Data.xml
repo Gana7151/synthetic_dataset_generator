@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-10-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>55759</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>557592957</PrimarySSN>
+      <NameLine1Txt>Michelle Russell</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4908 DARLENE STREAM</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Samantha</DependentFirstNm>
+        <DependentLastNm>Russell</DependentLastNm>
+        <DependentNameControlTxt>SAMA</DependentNameControlTxt>
+        <DependentSSN>228924678</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Russell</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>894569304</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Monica</DependentFirstNm>
+        <DependentLastNm>Russell</DependentLastNm>
+        <DependentNameControlTxt>MONI</DependentNameControlTxt>
+        <DependentSSN>309309948</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">57500</WagesAmt>
+      <WagesSalariesAndTipsAmt>57500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1863</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">243</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">80418</BusinessIncomeAmt>
+      <TotalIncomeAmt>140024</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>134343</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16084</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29934</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104409</TaxableIncomeAmt>
+      <TaxAmt>18458</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18458</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>12458</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">11363</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>11363</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23821</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6900</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6900</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6900</TotalPaymentsAmt>
+      <AmountOwedAmt>16921</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">11363</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>11363</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1863</InterestAmt>
+      <TotalInterestAmt>1863</TotalInterestAmt>
+      <OrdinaryDividendsAmt>243</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>243</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>110100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>110100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3155</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4263</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1265</InsuranceAmt>
+      <OfficeExpensesAmt>2044</OfficeExpensesAmt>
+      <SuppliesAmt>3456</SuppliesAmt>
+      <UtilitiesAmt>971</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14528</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29682</TotalExpensesAmt>
+      <NetProfitOrLossAmt>80418</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>80418</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>80418</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>74266</SEBaseAmt>
+      <SelfEmploymentTaxAmt>11363</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5681</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Samantha Russell</ChildFirstAndLastName>
+        <ChildSSN>228924678</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Russell</ChildFirstAndLastName>
+        <ChildSSN>894569304</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Monica Russell</ChildFirstAndLastName>
+        <ChildSSN>309309948</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>80418</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>80418</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16084</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>557592957</EmployeeSSN>
+      <EmployerEIN>955795251</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4530 Natasha Points</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michelle Russell</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4530 Natasha Points</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>57500</WagesAmt>
+      <WithholdingAmt>6900</WithholdingAmt>
+      <SocialSecurityWagesAmt>57500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3565</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>57500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>834</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

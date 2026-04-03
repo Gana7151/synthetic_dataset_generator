@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-01-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50691</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>506916420</PrimarySSN>
+      <NameLine1Txt>Derek Howe</NameLine1Txt>
+      <PrimaryNameControlTxt>DERE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>728 JILLIAN ALLEY</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sheila</DependentFirstNm>
+        <DependentLastNm>Howe</DependentLastNm>
+        <DependentNameControlTxt>SHEI</DependentNameControlTxt>
+        <DependentSSN>463968778</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Natalie</DependentFirstNm>
+        <DependentLastNm>Howe</DependentLastNm>
+        <DependentNameControlTxt>NATA</DependentNameControlTxt>
+        <DependentSSN>690331287</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sara</DependentFirstNm>
+        <DependentLastNm>Howe</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>877619122</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">110400</WagesAmt>
+      <WagesSalariesAndTipsAmt>110400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2296</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4553</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">91568</BusinessIncomeAmt>
+      <TotalIncomeAmt>208817</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>203517</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18314</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34064</TotalDeductionsAmt>
+      <TaxableIncomeAmt>169453</TaxableIncomeAmt>
+      <TaxAmt>33516</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6450</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6450</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>33516</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>27066</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10599</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10599</TotalOtherTaxesAmt>
+      <TotalTaxAmt>37665</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17664</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17664</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17664</TotalPaymentsAmt>
+      <AmountOwedAmt>20001</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10599</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10599</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2296</InterestAmt>
+      <TotalInterestAmt>2296</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4553</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4553</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>135900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>135900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2776</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3130</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1824</InsuranceAmt>
+      <OfficeExpensesAmt>2794</OfficeExpensesAmt>
+      <SuppliesAmt>4258</SuppliesAmt>
+      <UtilitiesAmt>2268</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23282</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>40332</TotalExpensesAmt>
+      <NetProfitOrLossAmt>91568</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>91568</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>91568</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>84563</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10599</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5300</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sheila Howe</ChildFirstAndLastName>
+        <ChildSSN>463968778</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Natalie Howe</ChildFirstAndLastName>
+        <ChildSSN>690331287</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sara Howe</ChildFirstAndLastName>
+        <ChildSSN>877619122</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6450</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6450</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>91568</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>91568</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18314</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>506916420</EmployeeSSN>
+      <EmployerEIN>722476345</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8576 Hoover Hill</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Derek Howe</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8576 Hoover Hill</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>110400</WagesAmt>
+      <WithholdingAmt>17664</WithholdingAmt>
+      <SocialSecurityWagesAmt>110400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6845</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>110400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1601</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

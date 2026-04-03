@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-02-27</PrimaryBirthDt>
+      <SpouseBirthDt>1960-06-19</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11331</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>67649</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>113312671</PrimarySSN>
+      <SpouseSSN>676495713</SpouseSSN>
+      <NameLine1Txt>John Stanton</NameLine1Txt>
+      <SpouseNameLine1Txt>Mark Stanton</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARK</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8079 TRACY LANE</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>676495713</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Stanton</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>343312320</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Cathy</DependentFirstNm>
+        <DependentLastNm>Stanton</DependentLastNm>
+        <DependentNameControlTxt>CATH</DependentNameControlTxt>
+        <DependentSSN>442059016</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kenneth</DependentFirstNm>
+        <DependentLastNm>Stanton</DependentLastNm>
+        <DependentNameControlTxt>KENN</DependentNameControlTxt>
+        <DependentSSN>477220835</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jonathan</DependentFirstNm>
+        <DependentLastNm>Stanton</DependentLastNm>
+        <DependentNameControlTxt>JONA</DependentNameControlTxt>
+        <DependentSSN>836611577</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">57400</WagesAmt>
+      <WagesSalariesAndTipsAmt>57400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2150</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">105</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">60468</BusinessIncomeAmt>
+      <TotalIncomeAmt>120123</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>115851</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12094</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>39794</TotalDeductionsAmt>
+      <TaxableIncomeAmt>76057</TaxableIncomeAmt>
+      <TaxAmt>8687</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8687</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>687</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8544</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8544</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9231</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6888</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6888</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6888</TotalPaymentsAmt>
+      <AmountOwedAmt>2343</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8544</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8544</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2150</InterestAmt>
+      <TotalInterestAmt>2150</TotalInterestAmt>
+      <OrdinaryDividendsAmt>105</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>105</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>86800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>86800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2128</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3391</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1214</InsuranceAmt>
+      <OfficeExpensesAmt>2150</OfficeExpensesAmt>
+      <SuppliesAmt>2472</SuppliesAmt>
+      <UtilitiesAmt>1145</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13832</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>26332</TotalExpensesAmt>
+      <NetProfitOrLossAmt>60468</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>60468</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>60468</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>55842</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8544</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4272</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Stanton</ChildFirstAndLastName>
+        <ChildSSN>343312320</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cathy Stanton</ChildFirstAndLastName>
+        <ChildSSN>442059016</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kenneth Stanton</ChildFirstAndLastName>
+        <ChildSSN>477220835</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jonathan Stanton</ChildFirstAndLastName>
+        <ChildSSN>836611577</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>60468</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>60468</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12094</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>676495713</EmployeeSSN>
+      <EmployerEIN>129018872</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4182 Daniel Ridges</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mark Stanton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4182 Daniel Ridges</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>57400</WagesAmt>
+      <WithholdingAmt>6888</WithholdingAmt>
+      <SocialSecurityWagesAmt>57400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3559</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>57400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>832</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

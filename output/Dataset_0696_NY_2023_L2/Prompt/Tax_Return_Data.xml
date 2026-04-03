@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-01-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68627</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>686279191</PrimarySSN>
+      <NameLine1Txt>Adrian Lee</NameLine1Txt>
+      <PrimaryNameControlTxt>ADRI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1304 ROMERO GREENS</AddressLine1Txt>
+        <CityNm>ROCHESTER</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Hannah</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>HANN</DependentNameControlTxt>
+        <DependentSSN>196966017</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>412778936</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>589398424</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">43500</WagesAmt>
+      <WagesSalariesAndTipsAmt>43500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">719</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">834</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">56555</BusinessIncomeAmt>
+      <TotalIncomeAmt>101609</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>97613</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11311</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25161</TotalDeductionsAmt>
+      <TaxableIncomeAmt>72452</TaxableIncomeAmt>
+      <TaxAmt>11247</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11247</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5247</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7991</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7991</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13238</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5220</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5220</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5220</TotalPaymentsAmt>
+      <AmountOwedAmt>8018</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7991</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7991</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>719</InterestAmt>
+      <TotalInterestAmt>719</TotalInterestAmt>
+      <OrdinaryDividendsAmt>834</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>834</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Lee's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>LEE'</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>77800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>77800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1633</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>495</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1576</InsuranceAmt>
+      <OfficeExpensesAmt>1323</OfficeExpensesAmt>
+      <SuppliesAmt>1145</SuppliesAmt>
+      <UtilitiesAmt>475</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14598</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>21245</TotalExpensesAmt>
+      <NetProfitOrLossAmt>56555</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>56555</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>56555</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>52229</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7991</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3995</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Hannah Lee</ChildFirstAndLastName>
+        <ChildSSN>196966017</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Lee</ChildFirstAndLastName>
+        <ChildSSN>412778936</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Lee</ChildFirstAndLastName>
+        <ChildSSN>589398424</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>56555</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>56555</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11311</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>686279191</EmployeeSSN>
+      <EmployerEIN>228655393</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>938 Walters Glen</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adrian Lee</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>938 Walters Glen</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>43500</WagesAmt>
+      <WithholdingAmt>5220</WithholdingAmt>
+      <SocialSecurityWagesAmt>43500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2697</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>43500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>631</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-01-16</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>44244</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>442448671</PrimarySSN>
+      <NameLine1Txt>Adrienne Lawson</NameLine1Txt>
+      <PrimaryNameControlTxt>ADRI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5511 BROWN COVE</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">128200</WagesAmt>
+      <WagesSalariesAndTipsAmt>128200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1048</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">679</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">44276</BusinessIncomeAmt>
+      <TotalIncomeAmt>174203</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>172705</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8855</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21405</TotalDeductionsAmt>
+      <TaxableIncomeAmt>151300</TaxableIncomeAmt>
+      <TaxAmt>30333</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>30333</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>30333</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2996</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2996</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33329</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>20512</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>20512</WithholdingTaxAmt>
+      <TotalPaymentsAmt>20512</TotalPaymentsAmt>
+      <AmountOwedAmt>12817</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2996</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2996</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1048</InterestAmt>
+      <TotalInterestAmt>1048</TotalInterestAmt>
+      <OrdinaryDividendsAmt>679</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>679</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1744</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1056</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1327</InsuranceAmt>
+      <OfficeExpensesAmt>1597</OfficeExpensesAmt>
+      <SuppliesAmt>1106</SuppliesAmt>
+      <UtilitiesAmt>501</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11093</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18424</TotalExpensesAmt>
+      <NetProfitOrLossAmt>44276</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>44276</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>44276</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>40889</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2996</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1498</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>44276</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>44276</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8855</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>442448671</EmployeeSSN>
+      <EmployerEIN>628121881</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2990 Jake Course</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adrienne Lawson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2990 Jake Course</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>128200</WagesAmt>
+      <WithholdingAmt>20512</WithholdingAmt>
+      <SocialSecurityWagesAmt>128200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7948</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>128200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1859</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

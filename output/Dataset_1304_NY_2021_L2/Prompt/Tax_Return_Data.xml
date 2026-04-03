@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-06-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74279</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>742792497</PrimarySSN>
+      <NameLine1Txt>Angela Clark</NameLine1Txt>
+      <PrimaryNameControlTxt>ANGE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1848 JACOBS WAYS</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Alan</DependentFirstNm>
+        <DependentLastNm>Clark</DependentLastNm>
+        <DependentNameControlTxt>ALAN</DependentNameControlTxt>
+        <DependentSSN>476097577</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>April</DependentFirstNm>
+        <DependentLastNm>Clark</DependentLastNm>
+        <DependentNameControlTxt>APRI</DependentNameControlTxt>
+        <DependentSSN>615295504</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">30800</WagesAmt>
+      <WagesSalariesAndTipsAmt>30800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">97</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">426</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">48193</BusinessIncomeAmt>
+      <TotalIncomeAmt>79516</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>76111</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9639</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22189</TotalDeductionsAmt>
+      <TaxableIncomeAmt>53922</TaxableIncomeAmt>
+      <TaxAmt>7611</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5950</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5950</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7611</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1661</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6809</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6809</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8471</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2464</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2464</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2464</TotalPaymentsAmt>
+      <AmountOwedAmt>6007</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6809</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6809</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>97</InterestAmt>
+      <TotalInterestAmt>97</TotalInterestAmt>
+      <OrdinaryDividendsAmt>426</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>426</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Clark's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CLAR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>70900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>70900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1178</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>926</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1366</InsuranceAmt>
+      <OfficeExpensesAmt>1723</OfficeExpensesAmt>
+      <SuppliesAmt>2120</SuppliesAmt>
+      <UtilitiesAmt>989</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10605</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18907</TotalExpensesAmt>
+      <NetProfitOrLossAmt>48193</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>48193</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>48193</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>44506</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6809</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3405</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Alan Clark</ChildFirstAndLastName>
+        <ChildSSN>476097577</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>April Clark</ChildFirstAndLastName>
+        <ChildSSN>615295504</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5950</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5950</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>48193</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>48193</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9639</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Clark's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3800</DepreciationAmt>
+      <TotalDepreciationAmt>3800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>742792497</EmployeeSSN>
+      <EmployerEIN>225910514</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1029 Cortez Spur</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Angela Clark</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1029 Cortez Spur</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>30800</WagesAmt>
+      <WithholdingAmt>2464</WithholdingAmt>
+      <SocialSecurityWagesAmt>30800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1910</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>30800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>447</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

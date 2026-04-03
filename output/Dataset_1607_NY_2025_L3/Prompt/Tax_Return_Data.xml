@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-10-15</PrimaryBirthDt>
+      <SpouseBirthDt>1966-01-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>49045</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>85015</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>490459922</PrimarySSN>
+      <SpouseSSN>850155767</SpouseSSN>
+      <NameLine1Txt>Ryan Wallace</NameLine1Txt>
+      <SpouseNameLine1Txt>Robert Wallace</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RYAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ROBE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5325 NATASHA VIEWS</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>850155767</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sergio</DependentFirstNm>
+        <DependentLastNm>Wallace</DependentLastNm>
+        <DependentNameControlTxt>SERG</DependentNameControlTxt>
+        <DependentSSN>292841216</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jacob</DependentFirstNm>
+        <DependentLastNm>Wallace</DependentLastNm>
+        <DependentNameControlTxt>JACO</DependentNameControlTxt>
+        <DependentSSN>258407146</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">234701</WagesAmt>
+      <WagesSalariesAndTipsAmt>234701</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">788</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">751</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">92483</BusinessIncomeAmt>
+      <TotalIncomeAmt>328723</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>315256</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18497</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>49997</TotalDeductionsAmt>
+      <TaxableIncomeAmt>265259</TaxableIncomeAmt>
+      <TaxAmt>49356</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>49356</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>44956</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2477</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2477</TotalOtherTaxesAmt>
+      <TotalTaxAmt>48064</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>47584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>47584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>47584</TotalPaymentsAmt>
+      <AmountOwedAmt>480</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2477</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2477</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>788</InterestAmt>
+      <TotalInterestAmt>788</TotalInterestAmt>
+      <OrdinaryDividendsAmt>751</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>751</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>12228</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>12228</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>140800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>140800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2973</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3673</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2468</InsuranceAmt>
+      <OfficeExpensesAmt>2865</OfficeExpensesAmt>
+      <SuppliesAmt>5513</SuppliesAmt>
+      <UtilitiesAmt>2535</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>26890</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>46917</TotalExpensesAmt>
+      <NetProfitOrLossAmt>92483</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>92483</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>92483</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>85408</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2477</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1238</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sergio Wallace</ChildFirstAndLastName>
+        <ChildSSN>292841216</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jacob Wallace</ChildFirstAndLastName>
+        <ChildSSN>258407146</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>92483</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>92483</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18497</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1400</DepreciationAmt>
+      <TotalDepreciationAmt>1400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>490459922</EmployeeSSN>
+      <EmployerEIN>871002853</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>106 Russell Cliff</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Wallace</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>106 Russell Cliff</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>194201</WagesAmt>
+      <WithholdingAmt>42724</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>194201</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2816</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>15101</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>850155767</EmployeeSSN>
+      <EmployerEIN>925810576</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9587 Callahan Knolls</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Robert Wallace</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9587 Callahan Knolls</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>40500</WagesAmt>
+      <WithholdingAmt>4860</WithholdingAmt>
+      <SocialSecurityWagesAmt>40500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2511</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>40500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>587</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

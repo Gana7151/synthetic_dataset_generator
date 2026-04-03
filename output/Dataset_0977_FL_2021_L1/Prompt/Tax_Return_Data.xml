@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1967-07-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66699</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>666992223</PrimarySSN>
+      <NameLine1Txt>Jasmine Park</NameLine1Txt>
+      <PrimaryNameControlTxt>JASM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9717 CYNTHIA MISSION</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">43700</WagesAmt>
+      <WagesSalariesAndTipsAmt>43700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>43700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>43700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>31150</TaxableIncomeAmt>
+      <TaxAmt>3539</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3539</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3539</TaxLessCreditsAmt>
+      <TotalTaxAmt>3539</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5244</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5244</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5244</TotalPaymentsAmt>
+      <OverpaidAmt>1705</OverpaidAmt>
+      <RefundAmt>1705</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>666992223</EmployeeSSN>
+      <EmployerEIN>639405317</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1398 Chen Isle</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jasmine Park</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1398 Chen Isle</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>43700</WagesAmt>
+      <WithholdingAmt>5244</WithholdingAmt>
+      <SocialSecurityWagesAmt>43700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2709</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>43700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>634</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

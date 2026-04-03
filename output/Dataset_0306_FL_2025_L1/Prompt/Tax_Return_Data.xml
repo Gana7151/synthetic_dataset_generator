@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-07-13</PrimaryBirthDt>
+      <SpouseBirthDt>1992-03-19</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>13290</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>55997</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>132909480</PrimarySSN>
+      <SpouseSSN>559977160</SpouseSSN>
+      <NameLine1Txt>Miranda Robinson</NameLine1Txt>
+      <SpouseNameLine1Txt>Jodi Robinson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MIRA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JODI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2666 MOORE GLEN</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>559977160</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">81700</WagesAmt>
+      <WagesSalariesAndTipsAmt>81700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">142</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>81842</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>81842</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>50342</TaxableIncomeAmt>
+      <TaxAmt>5564</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5564</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5564</TaxLessCreditsAmt>
+      <TotalTaxAmt>5564</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13072</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13072</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13072</TotalPaymentsAmt>
+      <OverpaidAmt>7508</OverpaidAmt>
+      <RefundAmt>7508</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>142</InterestAmt>
+      <TotalInterestAmt>142</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>559977160</EmployeeSSN>
+      <EmployerEIN>732175582</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>780 Neal Manors</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jodi Robinson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>780 Neal Manors</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>81700</WagesAmt>
+      <WithholdingAmt>13072</WithholdingAmt>
+      <SocialSecurityWagesAmt>81700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5065</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>81700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1185</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

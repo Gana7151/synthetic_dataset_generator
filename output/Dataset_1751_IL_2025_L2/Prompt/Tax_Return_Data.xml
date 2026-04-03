@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1997-08-13</PrimaryBirthDt>
+      <SpouseBirthDt>1969-09-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87692</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>36737</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>876924148</PrimarySSN>
+      <SpouseSSN>367373947</SpouseSSN>
+      <NameLine1Txt>Tiffany David</NameLine1Txt>
+      <SpouseNameLine1Txt>Timothy David</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TIFF</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TIMO</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5687 JOHNSON CANYON</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>367373947</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christina</DependentFirstNm>
+        <DependentLastNm>David</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>313499512</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kimberly</DependentFirstNm>
+        <DependentLastNm>David</DependentLastNm>
+        <DependentNameControlTxt>KIMB</DependentNameControlTxt>
+        <DependentSSN>146058237</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">36900</WagesAmt>
+      <WagesSalariesAndTipsAmt>36900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">364</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">789</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">39861</BusinessIncomeAmt>
+      <TotalIncomeAmt>77915</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>75098</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7972</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>39472</TotalDeductionsAmt>
+      <TaxableIncomeAmt>35626</TaxableIncomeAmt>
+      <TaxAmt>3798</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3798</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3798</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3798</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5632</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5632</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5632</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2952</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2952</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2952</TotalPaymentsAmt>
+      <AmountOwedAmt>2680</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5632</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5632</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>364</InterestAmt>
+      <TotalInterestAmt>364</TotalInterestAmt>
+      <OrdinaryDividendsAmt>789</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>789</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>58100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>58100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1576</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>281</CarAndTruckExpensesAmt>
+      <InsuranceAmt>808</InsuranceAmt>
+      <OfficeExpensesAmt>1334</OfficeExpensesAmt>
+      <SuppliesAmt>1571</SuppliesAmt>
+      <UtilitiesAmt>721</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7148</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13439</TotalExpensesAmt>
+      <NetProfitOrLossAmt>39861</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>39861</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>39861</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>36812</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5632</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2816</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christina David</ChildFirstAndLastName>
+        <ChildSSN>313499512</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kimberly David</ChildFirstAndLastName>
+        <ChildSSN>146058237</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3798</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3798</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>39861</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>39861</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7972</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>367373947</EmployeeSSN>
+      <EmployerEIN>344252261</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4296 Evans Spring</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Timothy David</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4296 Evans Spring</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>36900</WagesAmt>
+      <WithholdingAmt>2952</WithholdingAmt>
+      <SocialSecurityWagesAmt>36900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2288</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>36900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>535</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-05-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>42952</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>429522544</PrimarySSN>
+      <NameLine1Txt>William Henderson</NameLine1Txt>
+      <PrimaryNameControlTxt>WILL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7489 DONALD HOLLOW</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jonathan</DependentFirstNm>
+        <DependentLastNm>Henderson</DependentLastNm>
+        <DependentNameControlTxt>JONA</DependentNameControlTxt>
+        <DependentSSN>708783328</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">168600</WagesAmt>
+      <WagesSalariesAndTipsAmt>168600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1578</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2486</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">64147</BusinessIncomeAmt>
+      <TotalIncomeAmt>236811</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>235952</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12829</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34729</TotalDeductionsAmt>
+      <TaxableIncomeAmt>201223</TaxableIncomeAmt>
+      <TaxAmt>40384</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">250</ChildTaxCreditAmt>
+      <TotalCreditsAmt>250</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>40384</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>40134</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1718</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1718</TotalOtherTaxesAmt>
+      <TotalTaxAmt>42103</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>37092</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>37092</WithholdingTaxAmt>
+      <TotalPaymentsAmt>37092</TotalPaymentsAmt>
+      <AmountOwedAmt>5011</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1718</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1718</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1578</InterestAmt>
+      <TotalInterestAmt>1578</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2486</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2486</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Henderson's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HEND</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>83100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>83100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1512</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>576</CarAndTruckExpensesAmt>
+      <InsuranceAmt>784</InsuranceAmt>
+      <OfficeExpensesAmt>1157</OfficeExpensesAmt>
+      <SuppliesAmt>1903</SuppliesAmt>
+      <UtilitiesAmt>540</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12481</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18953</TotalExpensesAmt>
+      <NetProfitOrLossAmt>64147</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>64147</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>64147</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>59240</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1718</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>859</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jonathan Henderson</ChildFirstAndLastName>
+        <ChildSSN>708783328</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>250</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>250</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>64147</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>64147</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12829</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>429522544</EmployeeSSN>
+      <EmployerEIN>631160842</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>818 Jake Divide</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>William Henderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>818 Jake Divide</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>168600</WagesAmt>
+      <WithholdingAmt>37092</WithholdingAmt>
+      <SocialSecurityWagesAmt>168600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10453</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>168600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2445</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

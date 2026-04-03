@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-10-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>47189</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>471895288</PrimarySSN>
+      <NameLine1Txt>Maria Patel</NameLine1Txt>
+      <PrimaryNameControlTxt>MARI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3729 EATON KNOLLS</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">149100</WagesAmt>
+      <WagesSalariesAndTipsAmt>149100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">387</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1660</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">73051</BusinessIncomeAmt>
+      <TotalIncomeAmt>224198</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>222011</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14610</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29210</TotalDeductionsAmt>
+      <TaxableIncomeAmt>192801</TaxableIncomeAmt>
+      <TaxAmt>39383</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>39383</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>39383</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4374</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4374</TotalOtherTaxesAmt>
+      <TotalTaxAmt>43906</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23856</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23856</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23856</TotalPaymentsAmt>
+      <AmountOwedAmt>20050</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4374</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4374</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>387</InterestAmt>
+      <TotalInterestAmt>387</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1660</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1660</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Patel's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>101900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>101900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1550</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1052</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1095</InsuranceAmt>
+      <OfficeExpensesAmt>1916</OfficeExpensesAmt>
+      <SuppliesAmt>1478</SuppliesAmt>
+      <UtilitiesAmt>645</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>21113</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28849</TotalExpensesAmt>
+      <NetProfitOrLossAmt>73051</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>73051</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>73051</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>67463</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4374</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2187</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>73051</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>73051</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14610</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>471895288</EmployeeSSN>
+      <EmployerEIN>951993376</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3370 Bryan Lane</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Maria Patel</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3370 Bryan Lane</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>149100</WagesAmt>
+      <WithholdingAmt>23856</WithholdingAmt>
+      <SocialSecurityWagesAmt>149100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9244</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>149100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2162</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1640</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

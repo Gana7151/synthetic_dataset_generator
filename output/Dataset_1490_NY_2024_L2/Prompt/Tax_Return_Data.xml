@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-06-08</PrimaryBirthDt>
+      <SpouseBirthDt>1985-08-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>70668</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13103</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>706682738</PrimarySSN>
+      <SpouseSSN>131036820</SpouseSSN>
+      <NameLine1Txt>Traci Lucas</NameLine1Txt>
+      <SpouseNameLine1Txt>Hannah Lucas</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TRAC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>HANN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1890 WILLIAMS RIDGE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>131036820</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Lucas</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>224058108</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Lucas</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>170739452</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">209000</WagesAmt>
+      <WagesSalariesAndTipsAmt>209000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">444</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1364</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">42540</BusinessIncomeAmt>
+      <TotalIncomeAmt>253348</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>252778</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8508</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37708</TotalDeductionsAmt>
+      <TaxableIncomeAmt>215070</TaxableIncomeAmt>
+      <TaxAmt>37702</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>37702</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>33702</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1139</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1139</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34841</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>33440</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>33440</WithholdingTaxAmt>
+      <TotalPaymentsAmt>33440</TotalPaymentsAmt>
+      <AmountOwedAmt>1401</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1139</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1139</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>444</InterestAmt>
+      <TotalInterestAmt>444</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1364</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1364</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>61400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>61400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1647</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1401</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1121</InsuranceAmt>
+      <OfficeExpensesAmt>1524</OfficeExpensesAmt>
+      <SuppliesAmt>1996</SuppliesAmt>
+      <UtilitiesAmt>427</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8544</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16660</TotalExpensesAmt>
+      <NetProfitOrLossAmt>42540</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>42540</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>42540</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39286</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1139</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>570</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Lucas</ChildFirstAndLastName>
+        <ChildSSN>224058108</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Lucas</ChildFirstAndLastName>
+        <ChildSSN>170739452</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>42540</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>42540</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8508</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2200</DepreciationAmt>
+      <TotalDepreciationAmt>2200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>706682738</EmployeeSSN>
+      <EmployerEIN>341952024</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6741 Brian Radial</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Traci Lucas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6741 Brian Radial</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>112600</WagesAmt>
+      <WithholdingAmt>18016</WithholdingAmt>
+      <SocialSecurityWagesAmt>112600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6981</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>112600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1633</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>131036820</EmployeeSSN>
+      <EmployerEIN>361934382</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9183 Boyd Manors</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Hannah Lucas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9183 Boyd Manors</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>96400</WagesAmt>
+      <WithholdingAmt>15424</WithholdingAmt>
+      <SocialSecurityWagesAmt>96400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5977</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>96400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1398</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

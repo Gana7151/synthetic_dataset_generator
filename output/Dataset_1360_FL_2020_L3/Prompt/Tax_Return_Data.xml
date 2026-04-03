@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-06-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66613</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>666138713</PrimarySSN>
+      <NameLine1Txt>Peter Pena</NameLine1Txt>
+      <PrimaryNameControlTxt>PETE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6913 JOHN HIGHWAY</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ryan</DependentFirstNm>
+        <DependentLastNm>Pena</DependentLastNm>
+        <DependentNameControlTxt>RYAN</DependentNameControlTxt>
+        <DependentSSN>118526726</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Richard</DependentFirstNm>
+        <DependentLastNm>Pena</DependentLastNm>
+        <DependentNameControlTxt>RICH</DependentNameControlTxt>
+        <DependentSSN>819733290</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">57500</WagesAmt>
+      <WagesSalariesAndTipsAmt>57500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2042</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">402</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">36328</BusinessIncomeAmt>
+      <TotalIncomeAmt>96272</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>93706</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7266</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19666</TotalDeductionsAmt>
+      <TaxableIncomeAmt>74040</TaxableIncomeAmt>
+      <TaxAmt>12079</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12079</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8079</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5133</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5133</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13212</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6900</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6900</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6900</TotalPaymentsAmt>
+      <AmountOwedAmt>6312</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5133</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5133</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2042</InterestAmt>
+      <TotalInterestAmt>2042</TotalInterestAmt>
+      <OrdinaryDividendsAmt>402</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>402</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Pena's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PENA</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>49300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>49300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1117</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1311</CarAndTruckExpensesAmt>
+      <InsuranceAmt>371</InsuranceAmt>
+      <OfficeExpensesAmt>880</OfficeExpensesAmt>
+      <SuppliesAmt>655</SuppliesAmt>
+      <UtilitiesAmt>679</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6959</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11972</TotalExpensesAmt>
+      <NetProfitOrLossAmt>36328</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>36328</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>36328</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>33549</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5133</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2566</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ryan Pena</ChildFirstAndLastName>
+        <ChildSSN>118526726</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Richard Pena</ChildFirstAndLastName>
+        <ChildSSN>819733290</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>36328</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>36328</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7266</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Pena's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1000</DepreciationAmt>
+      <TotalDepreciationAmt>1000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>666138713</EmployeeSSN>
+      <EmployerEIN>349142627</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6207 Morrison Shores</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Peter Pena</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6207 Morrison Shores</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>57500</WagesAmt>
+      <WithholdingAmt>6900</WithholdingAmt>
+      <SocialSecurityWagesAmt>57500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3565</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>57500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>834</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

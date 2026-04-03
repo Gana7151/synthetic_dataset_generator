@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-07-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72139</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>721391447</PrimarySSN>
+      <NameLine1Txt>Robert Miller</NameLine1Txt>
+      <PrimaryNameControlTxt>ROBE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3818 HERRERA RAPID</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Henry</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>HENR</DependentNameControlTxt>
+        <DependentSSN>480218842</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lauren</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>783428068</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">183700</WagesAmt>
+      <WagesSalariesAndTipsAmt>183700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1567</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">158</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37275</BusinessIncomeAmt>
+      <TotalIncomeAmt>222701</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>222201</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7455</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20405</TotalDeductionsAmt>
+      <TaxableIncomeAmt>201796</TaxableIncomeAmt>
+      <TaxAmt>44806</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2900</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2900</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>44806</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>41906</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">998</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>998</TotalOtherTaxesAmt>
+      <TotalTaxAmt>43068</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>40414</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>40414</WithholdingTaxAmt>
+      <TotalPaymentsAmt>40414</TotalPaymentsAmt>
+      <AmountOwedAmt>2654</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">998</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>998</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1567</InterestAmt>
+      <TotalInterestAmt>1567</TotalInterestAmt>
+      <OrdinaryDividendsAmt>158</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>158</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>64000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>64000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1429</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>747</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1365</InsuranceAmt>
+      <OfficeExpensesAmt>1020</OfficeExpensesAmt>
+      <SuppliesAmt>1537</SuppliesAmt>
+      <UtilitiesAmt>1261</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14766</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22125</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37275</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37275</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37275</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>34423</SEBaseAmt>
+      <SelfEmploymentTaxAmt>998</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>499</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Henry Miller</ChildFirstAndLastName>
+        <ChildSSN>480218842</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lauren Miller</ChildFirstAndLastName>
+        <ChildSSN>783428068</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2900</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2900</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37275</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37275</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7455</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>721391447</EmployeeSSN>
+      <EmployerEIN>346908719</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7525 Johnson Curve</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Robert Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7525 Johnson Curve</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>183700</WagesAmt>
+      <WithholdingAmt>40414</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>183700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2664</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

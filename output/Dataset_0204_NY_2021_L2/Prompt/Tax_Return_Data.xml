@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-06-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>31016</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>310161197</PrimarySSN>
+      <NameLine1Txt>Joseph Brewer</NameLine1Txt>
+      <PrimaryNameControlTxt>JOSE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1188 ORR VIEW</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Erin</DependentFirstNm>
+        <DependentLastNm>Brewer</DependentLastNm>
+        <DependentNameControlTxt>ERIN</DependentNameControlTxt>
+        <DependentSSN>706042253</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">39200</WagesAmt>
+      <WagesSalariesAndTipsAmt>39200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">320</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1958</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">41802</BusinessIncomeAmt>
+      <TotalIncomeAmt>83280</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>80327</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8360</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20910</TotalDeductionsAmt>
+      <TaxableIncomeAmt>59417</TaxableIncomeAmt>
+      <TaxAmt>8820</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3350</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3350</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8820</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5470</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5906</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5906</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11377</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3136</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3136</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3136</TotalPaymentsAmt>
+      <AmountOwedAmt>8241</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5906</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5906</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>320</InterestAmt>
+      <TotalInterestAmt>320</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1958</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1958</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>58800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>58800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1781</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1520</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1198</InsuranceAmt>
+      <OfficeExpensesAmt>1316</OfficeExpensesAmt>
+      <SuppliesAmt>1171</SuppliesAmt>
+      <UtilitiesAmt>434</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8078</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15498</TotalExpensesAmt>
+      <NetProfitOrLossAmt>41802</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>41802</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>41802</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>38604</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5906</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2953</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Erin Brewer</ChildFirstAndLastName>
+        <ChildSSN>706042253</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3350</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3350</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>41802</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>41802</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8360</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1500</DepreciationAmt>
+      <TotalDepreciationAmt>1500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>310161197</EmployeeSSN>
+      <EmployerEIN>764420921</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>964 Bailey Corners</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joseph Brewer</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>964 Bailey Corners</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39200</WagesAmt>
+      <WithholdingAmt>3136</WithholdingAmt>
+      <SocialSecurityWagesAmt>39200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2430</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>568</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

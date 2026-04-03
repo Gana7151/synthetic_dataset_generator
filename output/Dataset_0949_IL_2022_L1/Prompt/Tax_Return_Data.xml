@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-02-19</PrimaryBirthDt>
+      <SpouseBirthDt>1959-01-15</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>19871</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>70720</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>198713378</PrimarySSN>
+      <SpouseSSN>707205565</SpouseSSN>
+      <NameLine1Txt>Brenda Mendez</NameLine1Txt>
+      <SpouseNameLine1Txt>Amy Mendez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BREN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>AMY</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6456 SOSA STRAVENUE</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>707205565</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">63600</WagesAmt>
+      <WagesSalariesAndTipsAmt>63600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>37700</TaxableIncomeAmt>
+      <TaxAmt>4113</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4113</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4113</TaxLessCreditsAmt>
+      <TotalTaxAmt>4113</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7632</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7632</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7632</TotalPaymentsAmt>
+      <OverpaidAmt>3519</OverpaidAmt>
+      <RefundAmt>3519</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>707205565</EmployeeSSN>
+      <EmployerEIN>757778027</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2571 Myers Shores</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amy Mendez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2571 Myers Shores</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63600</WagesAmt>
+      <WithholdingAmt>7632</WithholdingAmt>
+      <SocialSecurityWagesAmt>63600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3943</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>922</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

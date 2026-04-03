@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-06-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>67058</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>670585334</PrimarySSN>
+      <NameLine1Txt>Joanne Hampton</NameLine1Txt>
+      <PrimaryNameControlTxt>JOAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3647 SMITH BRIDGE</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ashley</DependentFirstNm>
+        <DependentLastNm>Hampton</DependentLastNm>
+        <DependentNameControlTxt>ASHL</DependentNameControlTxt>
+        <DependentSSN>169225919</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">34900</WagesAmt>
+      <WagesSalariesAndTipsAmt>34900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>34900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>34900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>21950</TaxableIncomeAmt>
+      <TaxAmt>2428</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2428</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>428</TaxLessCreditsAmt>
+      <TotalTaxAmt>428</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2792</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2792</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2792</TotalPaymentsAmt>
+      <OverpaidAmt>2364</OverpaidAmt>
+      <RefundAmt>2364</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ashley Hampton</ChildFirstAndLastName>
+        <ChildSSN>169225919</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>670585334</EmployeeSSN>
+      <EmployerEIN>592760141</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3148 Charles Branch</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joanne Hampton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3148 Charles Branch</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>34900</WagesAmt>
+      <WithholdingAmt>2792</WithholdingAmt>
+      <SocialSecurityWagesAmt>34900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2164</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>34900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>506</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>384</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

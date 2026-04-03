@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-01-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56361</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>563618266</PrimarySSN>
+      <NameLine1Txt>Lance Snow</NameLine1Txt>
+      <PrimaryNameControlTxt>LANC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>347 WOLF STATION</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Snow</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>331664772</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Snow</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>438910070</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Andrew</DependentFirstNm>
+        <DependentLastNm>Snow</DependentLastNm>
+        <DependentNameControlTxt>ANDR</DependentNameControlTxt>
+        <DependentSSN>819857523</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Julia</DependentFirstNm>
+        <DependentLastNm>Snow</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>620881963</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">50700</WagesAmt>
+      <WagesSalariesAndTipsAmt>50700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1000</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">715</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">83209</BusinessIncomeAmt>
+      <TotalIncomeAmt>135623</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>129745</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16642</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29592</TotalDeductionsAmt>
+      <TaxableIncomeAmt>100153</TaxableIncomeAmt>
+      <TaxAmt>17872</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17872</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9872</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">11757</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>11757</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21629</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6084</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6084</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6084</TotalPaymentsAmt>
+      <AmountOwedAmt>15545</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">11757</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>11757</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1000</InterestAmt>
+      <TotalInterestAmt>1000</TotalInterestAmt>
+      <OrdinaryDividendsAmt>715</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>715</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>119700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>119700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3366</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3141</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2837</InsuranceAmt>
+      <OfficeExpensesAmt>2710</OfficeExpensesAmt>
+      <SuppliesAmt>3830</SuppliesAmt>
+      <UtilitiesAmt>861</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19746</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>36491</TotalExpensesAmt>
+      <NetProfitOrLossAmt>83209</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>83209</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>83209</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>76844</SEBaseAmt>
+      <SelfEmploymentTaxAmt>11757</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5879</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Snow</ChildFirstAndLastName>
+        <ChildSSN>331664772</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Snow</ChildFirstAndLastName>
+        <ChildSSN>438910070</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Andrew Snow</ChildFirstAndLastName>
+        <ChildSSN>819857523</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julia Snow</ChildFirstAndLastName>
+        <ChildSSN>620881963</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>83209</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>83209</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16642</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>563618266</EmployeeSSN>
+      <EmployerEIN>205030867</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1578 Joanne Plaza</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lance Snow</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1578 Joanne Plaza</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>50700</WagesAmt>
+      <WithholdingAmt>6084</WithholdingAmt>
+      <SocialSecurityWagesAmt>50700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3143</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>50700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>735</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>558</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

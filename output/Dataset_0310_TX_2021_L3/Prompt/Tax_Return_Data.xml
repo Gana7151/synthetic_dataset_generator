@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-09-22</PrimaryBirthDt>
+      <SpouseBirthDt>1948-09-16</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10701</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>80220</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>107011102</PrimarySSN>
+      <SpouseSSN>802200127</SpouseSSN>
+      <NameLine1Txt>Jessica Walker</NameLine1Txt>
+      <SpouseNameLine1Txt>Douglas Walker</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DOUG</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3650 MICHAEL CROSSROAD</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>802200127</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Benjamin</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>BENJ</DependentNameControlTxt>
+        <DependentSSN>706289531</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>183731558</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Nicholas</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>NICH</DependentNameControlTxt>
+        <DependentSSN>725697830</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">206300</WagesAmt>
+      <WagesSalariesAndTipsAmt>206300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">832</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">340</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">94566</BusinessIncomeAmt>
+      <TotalIncomeAmt>302038</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>300772</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18913</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44013</TotalDeductionsAmt>
+      <TaxableIncomeAmt>256759</TaxableIncomeAmt>
+      <TaxAmt>49664</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2700</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2700</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>49664</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>46964</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2533</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2533</TotalOtherTaxesAmt>
+      <TotalTaxAmt>49889</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>33008</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>33008</WithholdingTaxAmt>
+      <TotalPaymentsAmt>33008</TotalPaymentsAmt>
+      <AmountOwedAmt>16881</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2533</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2533</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>832</InterestAmt>
+      <TotalInterestAmt>832</TotalInterestAmt>
+      <OrdinaryDividendsAmt>340</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>340</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>126100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>126100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3091</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2907</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1211</InsuranceAmt>
+      <OfficeExpensesAmt>1464</OfficeExpensesAmt>
+      <SuppliesAmt>3334</SuppliesAmt>
+      <UtilitiesAmt>1682</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17845</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31534</TotalExpensesAmt>
+      <NetProfitOrLossAmt>94566</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>94566</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>94566</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>87332</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2533</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1266</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Benjamin Walker</ChildFirstAndLastName>
+        <ChildSSN>706289531</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Walker</ChildFirstAndLastName>
+        <ChildSSN>183731558</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicholas Walker</ChildFirstAndLastName>
+        <ChildSSN>725697830</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2700</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2700</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>94566</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>94566</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18913</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>107011102</EmployeeSSN>
+      <EmployerEIN>228807387</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6031 Melton Mews</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6031 Melton Mews</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>93200</WagesAmt>
+      <WithholdingAmt>14912</WithholdingAmt>
+      <SocialSecurityWagesAmt>93200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5778</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>93200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1351</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>802200127</EmployeeSSN>
+      <EmployerEIN>249580143</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>624 Laura Wells</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Douglas Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>624 Laura Wells</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>113100</WagesAmt>
+      <WithholdingAmt>18096</WithholdingAmt>
+      <SocialSecurityWagesAmt>113100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7012</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>113100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1640</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

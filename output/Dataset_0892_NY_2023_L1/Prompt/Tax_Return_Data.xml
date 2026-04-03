@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-10-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>12565</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>125658637</PrimarySSN>
+      <NameLine1Txt>Samuel Stark</NameLine1Txt>
+      <PrimaryNameControlTxt>SAMU</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3023 JUAN COVE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">56200</WagesAmt>
+      <WagesSalariesAndTipsAmt>56200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>56200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>56200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>42350</TaxableIncomeAmt>
+      <TaxAmt>4862</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4862</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4862</TaxLessCreditsAmt>
+      <TotalTaxAmt>4862</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6744</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6744</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6744</TotalPaymentsAmt>
+      <OverpaidAmt>1882</OverpaidAmt>
+      <RefundAmt>1882</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>125658637</EmployeeSSN>
+      <EmployerEIN>471155375</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4355 Christopher Ferry</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Samuel Stark</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4355 Christopher Ferry</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>56200</WagesAmt>
+      <WithholdingAmt>6744</WithholdingAmt>
+      <SocialSecurityWagesAmt>56200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3484</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>56200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>815</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

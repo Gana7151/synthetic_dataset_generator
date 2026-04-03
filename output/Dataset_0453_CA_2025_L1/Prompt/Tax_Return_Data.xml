@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-09-11</PrimaryBirthDt>
+      <SpouseBirthDt>1960-08-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>58530</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>73631</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>585301791</PrimarySSN>
+      <SpouseSSN>736317666</SpouseSSN>
+      <NameLine1Txt>Latoya Townsend</NameLine1Txt>
+      <SpouseNameLine1Txt>Brian Townsend</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>LATO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>BRIA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5856 WONG RUE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>736317666</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">63200</WagesAmt>
+      <WagesSalariesAndTipsAmt>63200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>31700</TaxableIncomeAmt>
+      <TaxAmt>3327</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3327</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3327</TaxLessCreditsAmt>
+      <TotalTaxAmt>3327</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7584</TotalPaymentsAmt>
+      <OverpaidAmt>4257</OverpaidAmt>
+      <RefundAmt>4257</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>736317666</EmployeeSSN>
+      <EmployerEIN>765093900</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3266 Jason Station</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brian Townsend</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3266 Jason Station</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63200</WagesAmt>
+      <WithholdingAmt>7584</WithholdingAmt>
+      <SocialSecurityWagesAmt>63200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>916</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>695</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

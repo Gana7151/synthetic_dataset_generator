@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-05-27</PrimaryBirthDt>
+      <SpouseBirthDt>1975-04-06</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>16753</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>66916</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>167530337</PrimarySSN>
+      <SpouseSSN>669162271</SpouseSSN>
+      <NameLine1Txt>Matthew Davis</NameLine1Txt>
+      <SpouseNameLine1Txt>Ryan Davis</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MATT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>RYAN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6837 SPENCER CAMP</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>669162271</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Edward</DependentFirstNm>
+        <DependentLastNm>Davis</DependentLastNm>
+        <DependentNameControlTxt>EDWA</DependentNameControlTxt>
+        <DependentSSN>794323051</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Johnny</DependentFirstNm>
+        <DependentLastNm>Davis</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>384454742</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Davis</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>419404323</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Meghan</DependentFirstNm>
+        <DependentLastNm>Davis</DependentLastNm>
+        <DependentNameControlTxt>MEGH</DependentNameControlTxt>
+        <DependentSSN>758396254</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">60800</WagesAmt>
+      <WagesSalariesAndTipsAmt>60800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">863</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">804</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">36398</BusinessIncomeAmt>
+      <TotalIncomeAmt>98865</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>96293</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7280</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32380</TotalDeductionsAmt>
+      <TaxableIncomeAmt>63913</TaxableIncomeAmt>
+      <TaxAmt>7272</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7272</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7272</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7272</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5143</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5143</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5143</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7296</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7296</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7296</TotalPaymentsAmt>
+      <OverpaidAmt>2153</OverpaidAmt>
+      <RefundAmt>2153</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5143</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5143</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>863</InterestAmt>
+      <TotalInterestAmt>863</TotalInterestAmt>
+      <OrdinaryDividendsAmt>804</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>804</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>47900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>47900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>835</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>170</CarAndTruckExpensesAmt>
+      <InsuranceAmt>820</InsuranceAmt>
+      <OfficeExpensesAmt>838</OfficeExpensesAmt>
+      <SuppliesAmt>1316</SuppliesAmt>
+      <UtilitiesAmt>583</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6940</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11502</TotalExpensesAmt>
+      <NetProfitOrLossAmt>36398</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>36398</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>36398</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>33614</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5143</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2571</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Edward Davis</ChildFirstAndLastName>
+        <ChildSSN>794323051</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Johnny Davis</ChildFirstAndLastName>
+        <ChildSSN>384454742</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Davis</ChildFirstAndLastName>
+        <ChildSSN>419404323</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Meghan Davis</ChildFirstAndLastName>
+        <ChildSSN>758396254</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7272</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7272</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>36398</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>36398</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7280</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>669162271</EmployeeSSN>
+      <EmployerEIN>245955446</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9997 Stephanie Track</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Davis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9997 Stephanie Track</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60800</WagesAmt>
+      <WithholdingAmt>7296</WithholdingAmt>
+      <SocialSecurityWagesAmt>60800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3770</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>882</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

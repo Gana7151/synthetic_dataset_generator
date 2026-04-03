@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-04-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>54514</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>545148905</PrimarySSN>
+      <NameLine1Txt>Karina Ramos</NameLine1Txt>
+      <PrimaryNameControlTxt>KARI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6280 MORALES LAND</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Brendan</DependentFirstNm>
+        <DependentLastNm>Ramos</DependentLastNm>
+        <DependentNameControlTxt>BREN</DependentNameControlTxt>
+        <DependentSSN>858786115</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Ramos</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>805096817</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">33800</WagesAmt>
+      <WagesSalariesAndTipsAmt>33800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">543</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1646</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">47689</BusinessIncomeAmt>
+      <TotalIncomeAmt>83678</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>80309</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9538</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22088</TotalDeductionsAmt>
+      <TaxableIncomeAmt>58221</TaxableIncomeAmt>
+      <TaxAmt>8557</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6350</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6350</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8557</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2207</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6738</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6738</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8945</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2704</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2704</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2704</TotalPaymentsAmt>
+      <AmountOwedAmt>6241</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6738</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6738</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>543</InterestAmt>
+      <TotalInterestAmt>543</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1646</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1646</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>73200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>73200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1697</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>982</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1022</InsuranceAmt>
+      <OfficeExpensesAmt>1410</OfficeExpensesAmt>
+      <SuppliesAmt>2048</SuppliesAmt>
+      <UtilitiesAmt>852</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14000</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22011</TotalExpensesAmt>
+      <NetProfitOrLossAmt>47689</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>47689</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>47689</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>44041</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6738</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3369</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brendan Ramos</ChildFirstAndLastName>
+        <ChildSSN>858786115</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Ramos</ChildFirstAndLastName>
+        <ChildSSN>805096817</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6350</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6350</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>47689</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>47689</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9538</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3500</DepreciationAmt>
+      <TotalDepreciationAmt>3500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>545148905</EmployeeSSN>
+      <EmployerEIN>949659485</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6567 Rebekah Dale</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Karina Ramos</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6567 Rebekah Dale</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>33800</WagesAmt>
+      <WithholdingAmt>2704</WithholdingAmt>
+      <SocialSecurityWagesAmt>33800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2096</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>33800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>490</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

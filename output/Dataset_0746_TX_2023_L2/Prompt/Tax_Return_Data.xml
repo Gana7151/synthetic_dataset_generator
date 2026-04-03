@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1964-01-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66112</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>661127801</PrimarySSN>
+      <NameLine1Txt>Tracy Anderson</NameLine1Txt>
+      <PrimaryNameControlTxt>TRAC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4616 JACKSON SUMMIT</AddressLine1Txt>
+        <CityNm>FORT WORTH</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>218915370</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">111100</WagesAmt>
+      <WagesSalariesAndTipsAmt>111100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">323</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">525</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">20062</BusinessIncomeAmt>
+      <TotalIncomeAmt>132010</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>130593</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4012</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17862</TotalDeductionsAmt>
+      <TaxableIncomeAmt>112731</TaxableIncomeAmt>
+      <TaxAmt>20455</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20455</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18455</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2835</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2835</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21290</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17776</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17776</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17776</TotalPaymentsAmt>
+      <AmountOwedAmt>3514</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2835</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2835</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>323</InterestAmt>
+      <TotalInterestAmt>323</TotalInterestAmt>
+      <OrdinaryDividendsAmt>525</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>525</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>37400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>37400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>765</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1513</CarAndTruckExpensesAmt>
+      <InsuranceAmt>540</InsuranceAmt>
+      <OfficeExpensesAmt>715</OfficeExpensesAmt>
+      <SuppliesAmt>1302</SuppliesAmt>
+      <UtilitiesAmt>667</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7436</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12938</TotalExpensesAmt>
+      <NetProfitOrLossAmt>20062</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>20062</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>20062</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>18527</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2835</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1417</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Anderson</ChildFirstAndLastName>
+        <ChildSSN>218915370</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>20062</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>20062</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4012</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4400</DepreciationAmt>
+      <TotalDepreciationAmt>4400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>661127801</EmployeeSSN>
+      <EmployerEIN>863001911</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1293 Cook Path</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tracy Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1293 Cook Path</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>111100</WagesAmt>
+      <WithholdingAmt>17776</WithholdingAmt>
+      <SocialSecurityWagesAmt>111100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6888</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>111100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1611</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

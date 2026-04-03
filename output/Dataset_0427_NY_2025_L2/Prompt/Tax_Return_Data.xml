@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-10-01</PrimaryBirthDt>
+      <SpouseBirthDt>1954-01-04</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>60434</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>22258</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>604342305</PrimarySSN>
+      <SpouseSSN>222585771</SpouseSSN>
+      <NameLine1Txt>Donald Smith</NameLine1Txt>
+      <SpouseNameLine1Txt>Justin Smith</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>DONA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JUST</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5804 MELISSA GLENS</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>222585771</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>562450531</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Paul</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>PAUL</DependentNameControlTxt>
+        <DependentSSN>747898440</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">68600</WagesAmt>
+      <WagesSalariesAndTipsAmt>68600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">137</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1176</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">41398</BusinessIncomeAmt>
+      <TotalIncomeAmt>111311</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>108386</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8280</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>39780</TotalDeductionsAmt>
+      <TaxableIncomeAmt>68606</TaxableIncomeAmt>
+      <TaxAmt>7756</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7756</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3356</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5849</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5849</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9205</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8232</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8232</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8232</TotalPaymentsAmt>
+      <AmountOwedAmt>973</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5849</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5849</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>137</InterestAmt>
+      <TotalInterestAmt>137</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1176</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1176</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>59100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>59100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1183</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1411</CarAndTruckExpensesAmt>
+      <InsuranceAmt>820</InsuranceAmt>
+      <OfficeExpensesAmt>859</OfficeExpensesAmt>
+      <SuppliesAmt>951</SuppliesAmt>
+      <UtilitiesAmt>579</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7099</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12902</TotalExpensesAmt>
+      <NetProfitOrLossAmt>41398</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>41398</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>41398</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>38231</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5849</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2925</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Smith</ChildFirstAndLastName>
+        <ChildSSN>562450531</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Paul Smith</ChildFirstAndLastName>
+        <ChildSSN>747898440</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>41398</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>41398</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8280</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>222585771</EmployeeSSN>
+      <EmployerEIN>778001145</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9276 Petty Drives</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Justin Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9276 Petty Drives</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>68600</WagesAmt>
+      <WithholdingAmt>8232</WithholdingAmt>
+      <SocialSecurityWagesAmt>68600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4253</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>68600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>995</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

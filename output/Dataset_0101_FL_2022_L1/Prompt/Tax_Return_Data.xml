@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-08-09</PrimaryBirthDt>
+      <SpouseBirthDt>1970-11-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62297</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>53197</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>622970777</PrimarySSN>
+      <SpouseSSN>531979017</SpouseSSN>
+      <NameLine1Txt>Molly Jenkins</NameLine1Txt>
+      <SpouseNameLine1Txt>Michael Jenkins</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MOLL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5168 ELLIS ISLAND</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>531979017</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">77000</WagesAmt>
+      <WagesSalariesAndTipsAmt>77000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">393</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>77393</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>77393</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>51493</TaxableIncomeAmt>
+      <TaxAmt>5768</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5768</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5768</TaxLessCreditsAmt>
+      <TotalTaxAmt>5768</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9240</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9240</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9240</TotalPaymentsAmt>
+      <OverpaidAmt>3472</OverpaidAmt>
+      <RefundAmt>3472</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>393</InterestAmt>
+      <TotalInterestAmt>393</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>531979017</EmployeeSSN>
+      <EmployerEIN>932638431</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>671 Trevor Green</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Jenkins</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>671 Trevor Green</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>77000</WagesAmt>
+      <WithholdingAmt>9240</WithholdingAmt>
+      <SocialSecurityWagesAmt>77000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4774</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>77000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1116</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

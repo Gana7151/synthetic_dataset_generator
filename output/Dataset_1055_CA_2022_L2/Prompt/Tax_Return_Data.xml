@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1959-06-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73033</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>730339872</PrimarySSN>
+      <NameLine1Txt>Tasha Elliott</NameLine1Txt>
+      <PrimaryNameControlTxt>TASH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1527 BAKER MOUNTAIN</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>George</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>GEOR</DependentNameControlTxt>
+        <DependentSSN>467432680</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kerry</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>KERR</DependentNameControlTxt>
+        <DependentSSN>119790703</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">49300</WagesAmt>
+      <WagesSalariesAndTipsAmt>49300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">298</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1016</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">18496</BusinessIncomeAmt>
+      <TotalIncomeAmt>69109</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>67803</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3699</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>16649</TotalDeductionsAmt>
+      <TaxableIncomeAmt>51154</TaxableIncomeAmt>
+      <TaxAmt>6871</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6871</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2871</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2613</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2613</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5484</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5916</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5916</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5916</TotalPaymentsAmt>
+      <OverpaidAmt>432</OverpaidAmt>
+      <RefundAmt>432</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2613</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2613</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>298</InterestAmt>
+      <TotalInterestAmt>298</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1016</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1016</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Elliott's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ELLI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>28800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>28800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>436</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>609</CarAndTruckExpensesAmt>
+      <InsuranceAmt>360</InsuranceAmt>
+      <OfficeExpensesAmt>564</OfficeExpensesAmt>
+      <SuppliesAmt>462</SuppliesAmt>
+      <UtilitiesAmt>271</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3702</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6404</TotalExpensesAmt>
+      <NetProfitOrLossAmt>18496</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>18496</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>18496</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>17081</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2613</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1307</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>George Elliott</ChildFirstAndLastName>
+        <ChildSSN>467432680</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kerry Elliott</ChildFirstAndLastName>
+        <ChildSSN>119790703</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>18496</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>18496</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3699</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Elliott's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3900</DepreciationAmt>
+      <TotalDepreciationAmt>3900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>730339872</EmployeeSSN>
+      <EmployerEIN>635524910</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1470 Ortega Branch</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tasha Elliott</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1470 Ortega Branch</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>49300</WagesAmt>
+      <WithholdingAmt>5916</WithholdingAmt>
+      <SocialSecurityWagesAmt>49300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3057</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>49300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>715</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>542</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

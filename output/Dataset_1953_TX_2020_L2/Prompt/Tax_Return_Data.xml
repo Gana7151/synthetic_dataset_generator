@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-01-07</PrimaryBirthDt>
+      <SpouseBirthDt>1974-05-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73427</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>58688</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>734273221</PrimarySSN>
+      <SpouseSSN>586884854</SpouseSSN>
+      <NameLine1Txt>Juan Gonzalez</NameLine1Txt>
+      <SpouseNameLine1Txt>Jodi Gonzalez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JUAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JODI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6442 ROBERT CORNERS</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>586884854</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Anna</DependentFirstNm>
+        <DependentLastNm>Gonzalez</DependentLastNm>
+        <DependentNameControlTxt>ANNA</DependentNameControlTxt>
+        <DependentSSN>747148919</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dennis</DependentFirstNm>
+        <DependentLastNm>Gonzalez</DependentLastNm>
+        <DependentNameControlTxt>DENN</DependentNameControlTxt>
+        <DependentSSN>333689821</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">162100</WagesAmt>
+      <WagesSalariesAndTipsAmt>162100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">250</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1303</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">25721</BusinessIncomeAmt>
+      <TotalIncomeAmt>189374</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>189030</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5144</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29944</TotalDeductionsAmt>
+      <TaxableIncomeAmt>159086</TaxableIncomeAmt>
+      <TaxAmt>26579</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>26579</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>22579</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">689</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>689</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23268</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>22944</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>22944</WithholdingTaxAmt>
+      <TotalPaymentsAmt>22944</TotalPaymentsAmt>
+      <AmountOwedAmt>324</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">689</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>689</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>250</InterestAmt>
+      <TotalInterestAmt>250</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1303</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1303</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>40700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>40700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1190</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1213</CarAndTruckExpensesAmt>
+      <InsuranceAmt>773</InsuranceAmt>
+      <OfficeExpensesAmt>921</OfficeExpensesAmt>
+      <SuppliesAmt>937</SuppliesAmt>
+      <UtilitiesAmt>689</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6256</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11979</TotalExpensesAmt>
+      <NetProfitOrLossAmt>25721</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>25721</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>25721</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23753</SEBaseAmt>
+      <SelfEmploymentTaxAmt>689</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>344</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Anna Gonzalez</ChildFirstAndLastName>
+        <ChildSSN>747148919</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dennis Gonzalez</ChildFirstAndLastName>
+        <ChildSSN>333689821</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>25721</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>25721</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5144</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3000</DepreciationAmt>
+      <TotalDepreciationAmt>3000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>734273221</EmployeeSSN>
+      <EmployerEIN>131349938</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4152 Rogers Land</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Juan Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4152 Rogers Land</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>87300</WagesAmt>
+      <WithholdingAmt>13968</WithholdingAmt>
+      <SocialSecurityWagesAmt>87300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5413</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>87300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1266</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>586884854</EmployeeSSN>
+      <EmployerEIN>654958748</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3506 Mccarthy Coves</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jodi Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3506 Mccarthy Coves</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74800</WagesAmt>
+      <WithholdingAmt>8976</WithholdingAmt>
+      <SocialSecurityWagesAmt>74800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4638</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1085</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

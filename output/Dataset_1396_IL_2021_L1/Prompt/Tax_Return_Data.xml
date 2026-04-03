@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-02-19</PrimaryBirthDt>
+      <SpouseBirthDt>1973-04-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20192</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>16441</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>201929731</PrimarySSN>
+      <SpouseSSN>164416855</SpouseSSN>
+      <NameLine1Txt>Patrick Williams</NameLine1Txt>
+      <SpouseNameLine1Txt>Olivia Williams</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>PATR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>OLIV</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7224 MARIA SUMMIT</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>164416855</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">42600</WagesAmt>
+      <WagesSalariesAndTipsAmt>42600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>42600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>42600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>17500</TaxableIncomeAmt>
+      <TaxAmt>1750</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1750</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1750</TaxLessCreditsAmt>
+      <TotalTaxAmt>1750</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5112</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5112</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5112</TotalPaymentsAmt>
+      <OverpaidAmt>3362</OverpaidAmt>
+      <RefundAmt>3362</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>201929731</EmployeeSSN>
+      <EmployerEIN>456054200</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3253 Brady Corners</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Patrick Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3253 Brady Corners</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>42600</WagesAmt>
+      <WithholdingAmt>5112</WithholdingAmt>
+      <SocialSecurityWagesAmt>42600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2641</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>42600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>618</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

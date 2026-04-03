@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-03-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>31545</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>315454441</PrimarySSN>
+      <NameLine1Txt>Sarah Ruiz</NameLine1Txt>
+      <PrimaryNameControlTxt>SARA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>667 BROWN CRESCENT</AddressLine1Txt>
+        <CityNm>PLANO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">57300</WagesAmt>
+      <WagesSalariesAndTipsAmt>57300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>57300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>57300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>44350</TaxableIncomeAmt>
+      <TaxAmt>5374</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5374</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5374</TaxLessCreditsAmt>
+      <TotalTaxAmt>5374</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6876</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6876</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6876</TotalPaymentsAmt>
+      <OverpaidAmt>1502</OverpaidAmt>
+      <RefundAmt>1502</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>315454441</EmployeeSSN>
+      <EmployerEIN>423752791</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2611 Wanda Valleys</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sarah Ruiz</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2611 Wanda Valleys</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>57300</WagesAmt>
+      <WithholdingAmt>6876</WithholdingAmt>
+      <SocialSecurityWagesAmt>57300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3553</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>57300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>831</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

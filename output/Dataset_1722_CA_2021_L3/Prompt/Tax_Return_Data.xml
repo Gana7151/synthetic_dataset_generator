@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1957-07-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>80359</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>803595503</PrimarySSN>
+      <NameLine1Txt>Kimberly Sims</NameLine1Txt>
+      <PrimaryNameControlTxt>KIMB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5547 ROBERT ROW</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Amanda</DependentFirstNm>
+        <DependentLastNm>Sims</DependentLastNm>
+        <DependentNameControlTxt>AMAN</DependentNameControlTxt>
+        <DependentSSN>683376569</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">60400</WagesAmt>
+      <WagesSalariesAndTipsAmt>60400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1324</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3256</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">39139</BusinessIncomeAmt>
+      <TotalIncomeAmt>104119</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>101354</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7828</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20378</TotalDeductionsAmt>
+      <TaxableIncomeAmt>80976</TaxableIncomeAmt>
+      <TaxAmt>13563</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2300</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2300</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13563</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11263</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5530</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5530</TotalOtherTaxesAmt>
+      <TotalTaxAmt>16793</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7248</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7248</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7248</TotalPaymentsAmt>
+      <AmountOwedAmt>9545</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5530</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5530</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1324</InterestAmt>
+      <TotalInterestAmt>1324</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3256</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3256</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Sims's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SIMS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>54000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>54000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>898</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1682</CarAndTruckExpensesAmt>
+      <InsuranceAmt>463</InsuranceAmt>
+      <OfficeExpensesAmt>529</OfficeExpensesAmt>
+      <SuppliesAmt>876</SuppliesAmt>
+      <UtilitiesAmt>540</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6373</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11361</TotalExpensesAmt>
+      <NetProfitOrLossAmt>39139</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>39139</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>39139</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>36145</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5530</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2765</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amanda Sims</ChildFirstAndLastName>
+        <ChildSSN>683376569</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2300</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2300</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>39139</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>39139</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7828</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Sims's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3500</DepreciationAmt>
+      <TotalDepreciationAmt>3500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>803595503</EmployeeSSN>
+      <EmployerEIN>948354863</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4215 Christina Orchard</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kimberly Sims</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4215 Christina Orchard</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60400</WagesAmt>
+      <WithholdingAmt>7248</WithholdingAmt>
+      <SocialSecurityWagesAmt>60400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3745</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>876</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>664</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

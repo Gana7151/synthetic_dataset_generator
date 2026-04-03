@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-07-23</PrimaryBirthDt>
+      <SpouseBirthDt>1955-05-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>32687</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>59789</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>326876062</PrimarySSN>
+      <SpouseSSN>597890810</SpouseSSN>
+      <NameLine1Txt>Shelley Martin</NameLine1Txt>
+      <SpouseNameLine1Txt>Tyler Martin</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SHEL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TYLE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1689 DANIEL VIADUCT</AddressLine1Txt>
+        <CityNm>ROCHESTER</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>597890810</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">179400</WagesAmt>
+      <WagesSalariesAndTipsAmt>179400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1793</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1461</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54398</BusinessIncomeAmt>
+      <TotalIncomeAmt>237052</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>236324</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10880</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35980</TotalDeductionsAmt>
+      <TaxableIncomeAmt>200344</TaxableIncomeAmt>
+      <TaxAmt>36125</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>36125</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>36125</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1457</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1457</TotalOtherTaxesAmt>
+      <TotalTaxAmt>37581</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>39468</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>39468</WithholdingTaxAmt>
+      <TotalPaymentsAmt>39468</TotalPaymentsAmt>
+      <OverpaidAmt>1887</OverpaidAmt>
+      <RefundAmt>1887</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1457</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1457</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1793</InterestAmt>
+      <TotalInterestAmt>1793</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1461</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1461</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>79000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>79000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1308</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2454</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1966</InsuranceAmt>
+      <OfficeExpensesAmt>1152</OfficeExpensesAmt>
+      <SuppliesAmt>2332</SuppliesAmt>
+      <UtilitiesAmt>817</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14573</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24602</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54398</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54398</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54398</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>50237</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1457</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>728</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54398</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54398</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10880</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>597890810</EmployeeSSN>
+      <EmployerEIN>721100884</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8836 Martinez Causeway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tyler Martin</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8836 Martinez Causeway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>179400</WagesAmt>
+      <WithholdingAmt>39468</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>179400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2601</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

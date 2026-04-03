@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-11-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>78272</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>782725843</PrimarySSN>
+      <NameLine1Txt>Diana Gamble</NameLine1Txt>
+      <PrimaryNameControlTxt>DIAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2152 HUANG ROW</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Dylan</DependentFirstNm>
+        <DependentLastNm>Gamble</DependentLastNm>
+        <DependentNameControlTxt>DYLA</DependentNameControlTxt>
+        <DependentSSN>149343849</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116000</WagesAmt>
+      <WagesSalariesAndTipsAmt>116000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">75</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">638</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">27901</BusinessIncomeAmt>
+      <TotalIncomeAmt>144614</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>142895</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5580</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24230</TotalDeductionsAmt>
+      <TaxableIncomeAmt>118665</TaxableIncomeAmt>
+      <TaxAmt>21118</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>21118</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>19118</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3438</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3438</TotalOtherTaxesAmt>
+      <TotalTaxAmt>22556</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18560</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18560</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18560</TotalPaymentsAmt>
+      <AmountOwedAmt>3996</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3438</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3438</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>75</InterestAmt>
+      <TotalInterestAmt>75</TotalInterestAmt>
+      <OrdinaryDividendsAmt>638</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>638</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>629</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>488</CarAndTruckExpensesAmt>
+      <InsuranceAmt>570</InsuranceAmt>
+      <OfficeExpensesAmt>597</OfficeExpensesAmt>
+      <SuppliesAmt>581</SuppliesAmt>
+      <UtilitiesAmt>359</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6675</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9899</TotalExpensesAmt>
+      <NetProfitOrLossAmt>27901</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>27901</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>27901</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>25767</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3438</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1719</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dylan Gamble</ChildFirstAndLastName>
+        <ChildSSN>149343849</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>27901</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>27901</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5580</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3300</DepreciationAmt>
+      <TotalDepreciationAmt>3300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>782725843</EmployeeSSN>
+      <EmployerEIN>273955571</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2888 Martin Mills</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Diana Gamble</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2888 Martin Mills</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116000</WagesAmt>
+      <WithholdingAmt>18560</WithholdingAmt>
+      <SocialSecurityWagesAmt>116000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7192</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1682</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

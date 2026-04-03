@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-02-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>54828</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>548284297</PrimarySSN>
+      <NameLine1Txt>Crystal Pitts</NameLine1Txt>
+      <PrimaryNameControlTxt>CRYS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>698 LAURA MILL</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sarah</DependentFirstNm>
+        <DependentLastNm>Pitts</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>507951759</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Thomas</DependentFirstNm>
+        <DependentLastNm>Pitts</DependentLastNm>
+        <DependentNameControlTxt>THOM</DependentNameControlTxt>
+        <DependentSSN>239510112</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Erin</DependentFirstNm>
+        <DependentLastNm>Pitts</DependentLastNm>
+        <DependentNameControlTxt>ERIN</DependentNameControlTxt>
+        <DependentSSN>589025982</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brooke</DependentFirstNm>
+        <DependentLastNm>Pitts</DependentLastNm>
+        <DependentNameControlTxt>BROO</DependentNameControlTxt>
+        <DependentSSN>599549541</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">196500</WagesAmt>
+      <WagesSalariesAndTipsAmt>196500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">647</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">912</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33581</BusinessIncomeAmt>
+      <TotalIncomeAmt>231640</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>231190</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>20800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6716</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27516</TotalDeductionsAmt>
+      <TaxableIncomeAmt>203674</TaxableIncomeAmt>
+      <TaxAmt>42402</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6450</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6450</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>42402</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>35952</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">899</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>899</TotalOtherTaxesAmt>
+      <TotalTaxAmt>37099</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>43230</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>43230</WithholdingTaxAmt>
+      <TotalPaymentsAmt>43230</TotalPaymentsAmt>
+      <OverpaidAmt>6131</OverpaidAmt>
+      <RefundAmt>6131</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">899</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>899</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>647</InterestAmt>
+      <TotalInterestAmt>647</TotalInterestAmt>
+      <OrdinaryDividendsAmt>912</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>912</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>55700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>55700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1866</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>801</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1335</InsuranceAmt>
+      <OfficeExpensesAmt>1478</OfficeExpensesAmt>
+      <SuppliesAmt>1543</SuppliesAmt>
+      <UtilitiesAmt>588</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10608</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18219</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33581</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33581</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33581</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>31012</SEBaseAmt>
+      <SelfEmploymentTaxAmt>899</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>450</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sarah Pitts</ChildFirstAndLastName>
+        <ChildSSN>507951759</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Thomas Pitts</ChildFirstAndLastName>
+        <ChildSSN>239510112</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Erin Pitts</ChildFirstAndLastName>
+        <ChildSSN>589025982</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brooke Pitts</ChildFirstAndLastName>
+        <ChildSSN>599549541</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6450</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6450</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33581</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33581</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6716</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3900</DepreciationAmt>
+      <TotalDepreciationAmt>3900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>548284297</EmployeeSSN>
+      <EmployerEIN>242522496</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8261 Green Light</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Crystal Pitts</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8261 Green Light</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>196500</WagesAmt>
+      <WithholdingAmt>43230</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>196500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2849</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

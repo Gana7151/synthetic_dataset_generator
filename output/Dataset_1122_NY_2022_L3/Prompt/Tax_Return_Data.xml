@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-08-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45583</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>455833253</PrimarySSN>
+      <NameLine1Txt>Joseph Galloway</NameLine1Txt>
+      <PrimaryNameControlTxt>JOSE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8829 JUAN PRAIRIE</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Valerie</DependentFirstNm>
+        <DependentLastNm>Galloway</DependentLastNm>
+        <DependentNameControlTxt>VALE</DependentNameControlTxt>
+        <DependentSSN>533185173</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jaclyn</DependentFirstNm>
+        <DependentLastNm>Galloway</DependentLastNm>
+        <DependentNameControlTxt>JACL</DependentNameControlTxt>
+        <DependentSSN>289520056</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">52900</WagesAmt>
+      <WagesSalariesAndTipsAmt>52900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2403</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1772</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">39658</BusinessIncomeAmt>
+      <TotalIncomeAmt>96733</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>93931</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7932</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20882</TotalDeductionsAmt>
+      <TaxableIncomeAmt>73049</TaxableIncomeAmt>
+      <TaxAmt>11688</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11688</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7688</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5604</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5604</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13291</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6348</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6348</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6348</TotalPaymentsAmt>
+      <AmountOwedAmt>6943</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5604</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5604</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2403</InterestAmt>
+      <TotalInterestAmt>2403</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1772</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1772</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>50300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>50300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1024</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1124</CarAndTruckExpensesAmt>
+      <InsuranceAmt>408</InsuranceAmt>
+      <OfficeExpensesAmt>936</OfficeExpensesAmt>
+      <SuppliesAmt>858</SuppliesAmt>
+      <UtilitiesAmt>524</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5768</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>10642</TotalExpensesAmt>
+      <NetProfitOrLossAmt>39658</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>39658</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>39658</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>36624</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5604</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2802</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Valerie Galloway</ChildFirstAndLastName>
+        <ChildSSN>533185173</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jaclyn Galloway</ChildFirstAndLastName>
+        <ChildSSN>289520056</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>39658</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>39658</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7932</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>455833253</EmployeeSSN>
+      <EmployerEIN>597843292</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4365 Joseph Courts</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joseph Galloway</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4365 Joseph Courts</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>52900</WagesAmt>
+      <WithholdingAmt>6348</WithholdingAmt>
+      <SocialSecurityWagesAmt>52900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3280</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>52900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>767</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

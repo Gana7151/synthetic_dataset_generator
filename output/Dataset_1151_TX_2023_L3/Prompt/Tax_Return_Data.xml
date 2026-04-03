@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-09-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87133</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>871339788</PrimarySSN>
+      <NameLine1Txt>Raymond Henry</NameLine1Txt>
+      <PrimaryNameControlTxt>RAYM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6774 LOPEZ FORDS</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Henry</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>668010175</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tammy</DependentFirstNm>
+        <DependentLastNm>Henry</DependentLastNm>
+        <DependentNameControlTxt>TAMM</DependentNameControlTxt>
+        <DependentSSN>596115811</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">182200</WagesAmt>
+      <WagesSalariesAndTipsAmt>182200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">924</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3214</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">41977</BusinessIncomeAmt>
+      <TotalIncomeAmt>228316</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>227754</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8395</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22245</TotalDeductionsAmt>
+      <TaxableIncomeAmt>205509</TaxableIncomeAmt>
+      <TaxAmt>44595</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2650</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2650</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>44595</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>41945</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1124</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1124</TotalOtherTaxesAmt>
+      <TotalTaxAmt>43258</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>40084</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>40084</WithholdingTaxAmt>
+      <TotalPaymentsAmt>40084</TotalPaymentsAmt>
+      <AmountOwedAmt>3174</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1124</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1124</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>924</InterestAmt>
+      <TotalInterestAmt>924</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3214</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3214</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Henry's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HENR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>60500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>60500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1292</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1901</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1253</InsuranceAmt>
+      <OfficeExpensesAmt>1498</OfficeExpensesAmt>
+      <SuppliesAmt>2178</SuppliesAmt>
+      <UtilitiesAmt>498</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9903</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18523</TotalExpensesAmt>
+      <NetProfitOrLossAmt>41977</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>41977</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>41977</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>38766</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1124</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>562</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Henry</ChildFirstAndLastName>
+        <ChildSSN>668010175</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tammy Henry</ChildFirstAndLastName>
+        <ChildSSN>596115811</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2650</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2650</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>41977</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>41977</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8395</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>871339788</EmployeeSSN>
+      <EmployerEIN>387701157</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3681 Flores Isle</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Raymond Henry</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3681 Flores Isle</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>182200</WagesAmt>
+      <WithholdingAmt>40084</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>182200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2642</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

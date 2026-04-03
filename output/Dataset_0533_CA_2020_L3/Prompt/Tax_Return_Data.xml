@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-11-12</PrimaryBirthDt>
+      <SpouseBirthDt>1953-08-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>17262</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>14957</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>172620946</PrimarySSN>
+      <SpouseSSN>149575461</SpouseSSN>
+      <NameLine1Txt>Nathan Curtis</NameLine1Txt>
+      <SpouseNameLine1Txt>Jennifer Curtis</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>NATH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4473 ARELLANO DAM</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>149575461</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Curtis</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>677839693</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">181500</WagesAmt>
+      <WagesSalariesAndTipsAmt>181500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">880</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2283</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40588</BusinessIncomeAmt>
+      <TotalIncomeAmt>225251</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>224708</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8118</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32918</TotalDeductionsAmt>
+      <TaxableIncomeAmt>191790</TaxableIncomeAmt>
+      <TaxAmt>34189</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>34189</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>32189</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1087</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1087</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33276</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>29040</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>29040</WithholdingTaxAmt>
+      <TotalPaymentsAmt>29040</TotalPaymentsAmt>
+      <AmountOwedAmt>4236</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1087</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1087</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>880</InterestAmt>
+      <TotalInterestAmt>880</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2283</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2283</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>51700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>51700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>763</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1488</CarAndTruckExpensesAmt>
+      <InsuranceAmt>801</InsuranceAmt>
+      <OfficeExpensesAmt>535</OfficeExpensesAmt>
+      <SuppliesAmt>623</SuppliesAmt>
+      <UtilitiesAmt>562</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6340</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11112</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40588</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40588</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40588</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>37483</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1087</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>544</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Curtis</ChildFirstAndLastName>
+        <ChildSSN>677839693</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40588</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40588</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8118</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>172620946</EmployeeSSN>
+      <EmployerEIN>598584130</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>945 Jennifer Key</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nathan Curtis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>945 Jennifer Key</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>82700</WagesAmt>
+      <WithholdingAmt>13232</WithholdingAmt>
+      <SocialSecurityWagesAmt>82700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5127</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>82700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1199</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>910</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>149575461</EmployeeSSN>
+      <EmployerEIN>569622148</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6404 Vang Green</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jennifer Curtis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6404 Vang Green</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>98800</WagesAmt>
+      <WithholdingAmt>15808</WithholdingAmt>
+      <SocialSecurityWagesAmt>98800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6126</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>98800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1433</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1087</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

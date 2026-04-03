@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-05-14</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66967</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>669677501</PrimarySSN>
+      <NameLine1Txt>Barbara Joyce</NameLine1Txt>
+      <PrimaryNameControlTxt>BARB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8592 TAYLOR PORT</AddressLine1Txt>
+        <CityNm>ROCHESTER</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Joyce</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>430146223</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">103300</WagesAmt>
+      <WagesSalariesAndTipsAmt>103300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">204</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1204</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24855</BusinessIncomeAmt>
+      <TotalIncomeAmt>129564</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>127808</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4971</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17921</TotalDeductionsAmt>
+      <TaxableIncomeAmt>109887</TaxableIncomeAmt>
+      <TaxAmt>20208</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20208</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18208</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3512</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3512</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21720</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16528</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16528</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16528</TotalPaymentsAmt>
+      <AmountOwedAmt>5192</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3512</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3512</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>204</InterestAmt>
+      <TotalInterestAmt>204</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1204</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1204</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Joyce's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>JOYC</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>40800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>40800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>680</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>955</CarAndTruckExpensesAmt>
+      <InsuranceAmt>827</InsuranceAmt>
+      <OfficeExpensesAmt>457</OfficeExpensesAmt>
+      <SuppliesAmt>1025</SuppliesAmt>
+      <UtilitiesAmt>349</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7052</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11345</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24855</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24855</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24855</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22954</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3512</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1756</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Joyce</ChildFirstAndLastName>
+        <ChildSSN>430146223</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24855</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24855</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4971</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Joyce's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>669677501</EmployeeSSN>
+      <EmployerEIN>223286570</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6535 David Junctions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Barbara Joyce</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6535 David Junctions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>103300</WagesAmt>
+      <WithholdingAmt>16528</WithholdingAmt>
+      <SocialSecurityWagesAmt>103300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6405</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>103300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1498</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

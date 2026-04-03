@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-12-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74226</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>742266086</PrimarySSN>
+      <NameLine1Txt>Grace Valentine</NameLine1Txt>
+      <PrimaryNameControlTxt>GRAC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6898 HARPER CROSSING</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Valentine</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>577081933</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">190400</WagesAmt>
+      <WagesSalariesAndTipsAmt>190400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2239</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1637</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">53877</BusinessIncomeAmt>
+      <TotalIncomeAmt>248153</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>247432</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>20800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10775</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31575</TotalDeductionsAmt>
+      <TaxableIncomeAmt>215857</TaxableIncomeAmt>
+      <TaxAmt>46300</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>46300</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>46300</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1443</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1443</TotalOtherTaxesAmt>
+      <TotalTaxAmt>48105</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>41888</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>41888</WithholdingTaxAmt>
+      <TotalPaymentsAmt>41888</TotalPaymentsAmt>
+      <AmountOwedAmt>6217</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1443</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1443</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2239</InterestAmt>
+      <TotalInterestAmt>2239</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1637</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1637</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>78000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>78000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2306</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2539</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1396</InsuranceAmt>
+      <OfficeExpensesAmt>1655</OfficeExpensesAmt>
+      <SuppliesAmt>2757</SuppliesAmt>
+      <UtilitiesAmt>997</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12473</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24123</TotalExpensesAmt>
+      <NetProfitOrLossAmt>53877</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>53877</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>53877</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>49755</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1443</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>721</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>53877</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>53877</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10775</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>742266086</EmployeeSSN>
+      <EmployerEIN>762500731</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>261 Rodriguez Lodge</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Grace Valentine</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>261 Rodriguez Lodge</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>190400</WagesAmt>
+      <WithholdingAmt>41888</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>190400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2761</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

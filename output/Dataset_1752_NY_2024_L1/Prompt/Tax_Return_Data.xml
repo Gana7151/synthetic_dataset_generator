@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-07-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>34089</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>340897802</PrimarySSN>
+      <NameLine1Txt>Lisa Dennis</NameLine1Txt>
+      <PrimaryNameControlTxt>LISA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8630 KIMBERLY LOOP</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">36700</WagesAmt>
+      <WagesSalariesAndTipsAmt>36700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>36700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>36700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>22100</TaxableIncomeAmt>
+      <TaxAmt>2420</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2420</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2420</TaxLessCreditsAmt>
+      <TotalTaxAmt>2420</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2936</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2936</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2936</TotalPaymentsAmt>
+      <OverpaidAmt>516</OverpaidAmt>
+      <RefundAmt>516</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>340897802</EmployeeSSN>
+      <EmployerEIN>749677436</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7267 Kathleen Orchard</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Dennis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7267 Kathleen Orchard</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>36700</WagesAmt>
+      <WithholdingAmt>2936</WithholdingAmt>
+      <SocialSecurityWagesAmt>36700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2275</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>36700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>532</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

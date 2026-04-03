@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-06-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24982</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>249823498</PrimarySSN>
+      <NameLine1Txt>Levi Thomas</NameLine1Txt>
+      <PrimaryNameControlTxt>LEVI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9948 MARIO WALKS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Melissa</DependentFirstNm>
+        <DependentLastNm>Thomas</DependentLastNm>
+        <DependentNameControlTxt>MELI</DependentNameControlTxt>
+        <DependentSSN>163477047</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">178900</WagesAmt>
+      <WagesSalariesAndTipsAmt>178900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1322</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3570</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">65946</BusinessIncomeAmt>
+      <TotalIncomeAmt>249739</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>248855</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13189</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25739</TotalDeductionsAmt>
+      <TaxableIncomeAmt>223116</TaxableIncomeAmt>
+      <TaxAmt>52635</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>52635</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>52635</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1766</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1766</TotalOtherTaxesAmt>
+      <TotalTaxAmt>54759</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>39358</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>39358</WithholdingTaxAmt>
+      <TotalPaymentsAmt>39358</TotalPaymentsAmt>
+      <AmountOwedAmt>15401</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1766</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1766</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1322</InterestAmt>
+      <TotalInterestAmt>1322</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3570</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3570</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541219</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BOOK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Bookkeeping</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>97700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>97700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2001</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3657</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1016</InsuranceAmt>
+      <OfficeExpensesAmt>2762</OfficeExpensesAmt>
+      <SuppliesAmt>2170</SuppliesAmt>
+      <UtilitiesAmt>1471</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16277</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29354</TotalExpensesAmt>
+      <NetProfitOrLossAmt>65946</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>65946</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>65946</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>60901</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1766</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>883</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>65946</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>65946</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13189</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2400</DepreciationAmt>
+      <TotalDepreciationAmt>2400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>249823498</EmployeeSSN>
+      <EmployerEIN>455229054</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2985 Briana Passage</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Levi Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2985 Briana Passage</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>178900</WagesAmt>
+      <WithholdingAmt>39358</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>178900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2594</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1411</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

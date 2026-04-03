@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-05-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24368</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>243680735</PrimarySSN>
+      <NameLine1Txt>Mark Armstrong</NameLine1Txt>
+      <PrimaryNameControlTxt>MARK</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1881 MORALES DAM</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">61200</WagesAmt>
+      <WagesSalariesAndTipsAmt>61200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>61200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>47350</TaxableIncomeAmt>
+      <TaxAmt>5724</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5724</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5724</TaxLessCreditsAmt>
+      <TotalTaxAmt>5724</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7344</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7344</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7344</TotalPaymentsAmt>
+      <OverpaidAmt>1620</OverpaidAmt>
+      <RefundAmt>1620</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>243680735</EmployeeSSN>
+      <EmployerEIN>755531669</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7356 Turner Square</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mark Armstrong</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7356 Turner Square</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>61200</WagesAmt>
+      <WithholdingAmt>7344</WithholdingAmt>
+      <SocialSecurityWagesAmt>61200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3794</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>61200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>887</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

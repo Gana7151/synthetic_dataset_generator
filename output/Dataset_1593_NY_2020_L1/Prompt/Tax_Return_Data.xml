@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1960-08-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>57533</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>575331011</PrimarySSN>
+      <NameLine1Txt>Deborah Herrera</NameLine1Txt>
+      <PrimaryNameControlTxt>DEBO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1496 VICTORIA RADIAL</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">46400</WagesAmt>
+      <WagesSalariesAndTipsAmt>46400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>46400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>46400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34000</TaxableIncomeAmt>
+      <TaxAmt>3882</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3882</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3882</TaxLessCreditsAmt>
+      <TotalTaxAmt>3882</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5568</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5568</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5568</TotalPaymentsAmt>
+      <OverpaidAmt>1686</OverpaidAmt>
+      <RefundAmt>1686</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>575331011</EmployeeSSN>
+      <EmployerEIN>869578252</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>643 Mary Fort</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Deborah Herrera</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>643 Mary Fort</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46400</WagesAmt>
+      <WithholdingAmt>5568</WithholdingAmt>
+      <SocialSecurityWagesAmt>46400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2877</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>673</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-06-01</PrimaryBirthDt>
+      <SpouseBirthDt>1975-03-09</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>35706</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>76983</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>357065219</PrimarySSN>
+      <SpouseSSN>769839954</SpouseSSN>
+      <NameLine1Txt>Kenneth Owens</NameLine1Txt>
+      <SpouseNameLine1Txt>Mary Owens</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KENN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARY</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8214 LANCE VISTA</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>769839954</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Lynn</DependentFirstNm>
+        <DependentLastNm>Owens</DependentLastNm>
+        <DependentNameControlTxt>LYNN</DependentNameControlTxt>
+        <DependentSSN>752936067</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brandon</DependentFirstNm>
+        <DependentLastNm>Owens</DependentLastNm>
+        <DependentNameControlTxt>BRAN</DependentNameControlTxt>
+        <DependentSSN>346607441</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">160900</WagesAmt>
+      <WagesSalariesAndTipsAmt>160900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">562</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">763</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24285</BusinessIncomeAmt>
+      <TotalIncomeAmt>186510</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>186184</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4857</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29957</TotalDeductionsAmt>
+      <TaxableIncomeAmt>156227</TaxableIncomeAmt>
+      <TaxAmt>25867</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>25867</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>21067</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">650</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>650</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21717</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23556</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23556</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23556</TotalPaymentsAmt>
+      <OverpaidAmt>1839</OverpaidAmt>
+      <RefundAmt>1839</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">650</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>650</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>562</InterestAmt>
+      <TotalInterestAmt>562</TotalInterestAmt>
+      <OrdinaryDividendsAmt>763</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>763</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>40400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>40400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1194</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1356</CarAndTruckExpensesAmt>
+      <InsuranceAmt>808</InsuranceAmt>
+      <OfficeExpensesAmt>1272</OfficeExpensesAmt>
+      <SuppliesAmt>915</SuppliesAmt>
+      <UtilitiesAmt>334</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7536</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13415</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24285</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24285</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24285</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22427</SEBaseAmt>
+      <SelfEmploymentTaxAmt>650</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>325</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lynn Owens</ChildFirstAndLastName>
+        <ChildSSN>752936067</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brandon Owens</ChildFirstAndLastName>
+        <ChildSSN>346607441</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24285</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24285</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4857</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2700</DepreciationAmt>
+      <TotalDepreciationAmt>2700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>357065219</EmployeeSSN>
+      <EmployerEIN>485264064</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1905 Marie Circle</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kenneth Owens</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1905 Marie Circle</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>106200</WagesAmt>
+      <WithholdingAmt>16992</WithholdingAmt>
+      <SocialSecurityWagesAmt>106200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6584</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>106200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1540</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>769839954</EmployeeSSN>
+      <EmployerEIN>341543605</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6799 Patricia Extensions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mary Owens</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6799 Patricia Extensions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>54700</WagesAmt>
+      <WithholdingAmt>6564</WithholdingAmt>
+      <SocialSecurityWagesAmt>54700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3391</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>54700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>793</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

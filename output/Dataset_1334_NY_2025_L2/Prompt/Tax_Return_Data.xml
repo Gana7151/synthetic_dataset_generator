@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-09-09</PrimaryBirthDt>
+      <SpouseBirthDt>1996-11-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>14484</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>65296</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>144842337</PrimarySSN>
+      <SpouseSSN>652967525</SpouseSSN>
+      <NameLine1Txt>Timothy Jones</NameLine1Txt>
+      <SpouseNameLine1Txt>Marilyn Jones</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TIMO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8068 JOHN ROUTE</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>652967525</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>Jones</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>231958364</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">104300</WagesAmt>
+      <WagesSalariesAndTipsAmt>104300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">255</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">341</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">29920</BusinessIncomeAmt>
+      <TotalIncomeAmt>134816</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>132702</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5984</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37484</TotalDeductionsAmt>
+      <TaxableIncomeAmt>95218</TaxableIncomeAmt>
+      <TaxAmt>10949</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10949</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8749</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4228</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4228</TotalOtherTaxesAmt>
+      <TotalTaxAmt>12977</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16688</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16688</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16688</TotalPaymentsAmt>
+      <OverpaidAmt>3711</OverpaidAmt>
+      <RefundAmt>3711</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4228</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4228</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>255</InterestAmt>
+      <TotalInterestAmt>255</TotalInterestAmt>
+      <OrdinaryDividendsAmt>341</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>341</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>46000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>46000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>752</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>999</CarAndTruckExpensesAmt>
+      <InsuranceAmt>578</InsuranceAmt>
+      <OfficeExpensesAmt>725</OfficeExpensesAmt>
+      <SuppliesAmt>961</SuppliesAmt>
+      <UtilitiesAmt>376</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7089</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11480</TotalExpensesAmt>
+      <NetProfitOrLossAmt>29920</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>29920</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>29920</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>27631</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4228</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2114</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>John Jones</ChildFirstAndLastName>
+        <ChildSSN>231958364</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>29920</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>29920</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5984</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>144842337</EmployeeSSN>
+      <EmployerEIN>342804261</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9543 Jessica Views</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Timothy Jones</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9543 Jessica Views</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>104300</WagesAmt>
+      <WithholdingAmt>16688</WithholdingAmt>
+      <SocialSecurityWagesAmt>104300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6467</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>104300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1512</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

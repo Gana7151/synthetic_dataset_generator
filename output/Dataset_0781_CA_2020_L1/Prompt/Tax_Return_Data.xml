@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-01-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>54741</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>547414284</PrimarySSN>
+      <NameLine1Txt>Chad Johnson</NameLine1Txt>
+      <PrimaryNameControlTxt>CHAD</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7256 WILSON MOUNTAIN</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">28000</WagesAmt>
+      <WagesSalariesAndTipsAmt>28000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>28000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>28000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>15600</TaxableIncomeAmt>
+      <TaxAmt>1674</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1674</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1674</TaxLessCreditsAmt>
+      <TotalTaxAmt>1674</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2240</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2240</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2240</TotalPaymentsAmt>
+      <OverpaidAmt>566</OverpaidAmt>
+      <RefundAmt>566</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>547414284</EmployeeSSN>
+      <EmployerEIN>346710206</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2004 Heather Fort</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Chad Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2004 Heather Fort</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>28000</WagesAmt>
+      <WithholdingAmt>2240</WithholdingAmt>
+      <SocialSecurityWagesAmt>28000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1736</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>28000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>406</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>308</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

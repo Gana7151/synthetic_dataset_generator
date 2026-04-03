@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-09-16</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>77352</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>773525078</PrimarySSN>
+      <NameLine1Txt>Jessica Mccormick</NameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3772 WALLACE PLAIN</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Stephanie</DependentFirstNm>
+        <DependentLastNm>Mccormick</DependentLastNm>
+        <DependentNameControlTxt>STEP</DependentNameControlTxt>
+        <DependentSSN>152072880</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">49300</WagesAmt>
+      <WagesSalariesAndTipsAmt>49300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">152</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>49452</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>49452</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>15750</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33702</TaxableIncomeAmt>
+      <TaxAmt>3806</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3806</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1606</TaxLessCreditsAmt>
+      <TotalTaxAmt>1606</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5916</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5916</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5916</TotalPaymentsAmt>
+      <OverpaidAmt>4310</OverpaidAmt>
+      <RefundAmt>4310</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>152</InterestAmt>
+      <TotalInterestAmt>152</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Stephanie Mccormick</ChildFirstAndLastName>
+        <ChildSSN>152072880</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>773525078</EmployeeSSN>
+      <EmployerEIN>945182998</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4010 Michelle Lights</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Mccormick</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4010 Michelle Lights</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>49300</WagesAmt>
+      <WithholdingAmt>5916</WithholdingAmt>
+      <SocialSecurityWagesAmt>49300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3057</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>49300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>715</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

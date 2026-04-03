@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-03-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38946</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>389466902</PrimarySSN>
+      <NameLine1Txt>Veronica Wolfe</NameLine1Txt>
+      <PrimaryNameControlTxt>VERO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9916 MICHAEL SHORES</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Keith</DependentFirstNm>
+        <DependentLastNm>Wolfe</DependentLastNm>
+        <DependentNameControlTxt>KEIT</DependentNameControlTxt>
+        <DependentSSN>283207963</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Cheryl</DependentFirstNm>
+        <DependentLastNm>Wolfe</DependentLastNm>
+        <DependentNameControlTxt>CHER</DependentNameControlTxt>
+        <DependentSSN>212836962</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Johnny</DependentFirstNm>
+        <DependentLastNm>Wolfe</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>562456414</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">107750</WagesAmt>
+      <WagesSalariesAndTipsAmt>107750</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">647</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">647</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40180</BusinessIncomeAmt>
+      <TotalIncomeAmt>149224</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>133886</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8036</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23786</TotalDeductionsAmt>
+      <TaxableIncomeAmt>110100</TaxableIncomeAmt>
+      <TaxAmt>19271</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19271</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>12671</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5677</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5677</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18348</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17240</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17240</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17240</TotalPaymentsAmt>
+      <AmountOwedAmt>1108</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5677</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5677</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>647</InterestAmt>
+      <TotalInterestAmt>647</TotalInterestAmt>
+      <OrdinaryDividendsAmt>647</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>647</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>12500</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>12500</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>59500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>59500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1805</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1507</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1076</InsuranceAmt>
+      <OfficeExpensesAmt>1198</OfficeExpensesAmt>
+      <SuppliesAmt>1952</SuppliesAmt>
+      <UtilitiesAmt>813</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8769</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17120</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40180</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40180</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40180</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>37106</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5677</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2839</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Keith Wolfe</ChildFirstAndLastName>
+        <ChildSSN>283207963</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cheryl Wolfe</ChildFirstAndLastName>
+        <ChildSSN>212836962</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Johnny Wolfe</ChildFirstAndLastName>
+        <ChildSSN>562456414</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40180</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40180</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8036</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2200</DepreciationAmt>
+      <TotalDepreciationAmt>2200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>389466902</EmployeeSSN>
+      <EmployerEIN>737007149</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5491 Taylor Lock</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Veronica Wolfe</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5491 Taylor Lock</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>107750</WagesAmt>
+      <WithholdingAmt>17240</WithholdingAmt>
+      <SocialSecurityWagesAmt>107750</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6680</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>107750</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1562</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>15850</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

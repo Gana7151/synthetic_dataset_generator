@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-02-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>89365</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>893655353</PrimarySSN>
+      <NameLine1Txt>James Moreno</NameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8879 PORTER MOUNTAINS</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">34800</WagesAmt>
+      <WagesSalariesAndTipsAmt>34800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>34800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>34800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>21850</TaxableIncomeAmt>
+      <TaxAmt>2416</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2416</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2416</TaxLessCreditsAmt>
+      <TotalTaxAmt>2416</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2784</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2784</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2784</TotalPaymentsAmt>
+      <OverpaidAmt>368</OverpaidAmt>
+      <RefundAmt>368</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>893655353</EmployeeSSN>
+      <EmployerEIN>733206634</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9482 Rodriguez Ports</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Moreno</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9482 Rodriguez Ports</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>34800</WagesAmt>
+      <WithholdingAmt>2784</WithholdingAmt>
+      <SocialSecurityWagesAmt>34800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2158</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>34800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>505</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

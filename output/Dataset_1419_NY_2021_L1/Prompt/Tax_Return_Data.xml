@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1964-04-17</PrimaryBirthDt>
+      <SpouseBirthDt>1967-01-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>21255</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>11741</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>212557662</PrimarySSN>
+      <SpouseSSN>117411843</SpouseSSN>
+      <NameLine1Txt>Ashley Walton</NameLine1Txt>
+      <SpouseNameLine1Txt>Melissa Walton</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ASHL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MELI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1656 AYALA CAMP</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>117411843</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christine</DependentFirstNm>
+        <DependentLastNm>Walton</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>865663040</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">25400</WagesAmt>
+      <WagesSalariesAndTipsAmt>25400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>25400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>25400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>300</TaxableIncomeAmt>
+      <TaxAmt>30</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">30</ChildTaxCreditAmt>
+      <TotalCreditsAmt>30</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>30</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2032</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2032</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2032</TotalPaymentsAmt>
+      <OverpaidAmt>2032</OverpaidAmt>
+      <RefundAmt>2032</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christine Walton</ChildFirstAndLastName>
+        <ChildSSN>865663040</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>30</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>30</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>117411843</EmployeeSSN>
+      <EmployerEIN>816731286</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6673 Anderson Land</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melissa Walton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6673 Anderson Land</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>25400</WagesAmt>
+      <WithholdingAmt>2032</WithholdingAmt>
+      <SocialSecurityWagesAmt>25400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1575</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>25400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>368</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

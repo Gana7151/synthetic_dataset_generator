@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-11-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87919</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>879195221</PrimarySSN>
+      <NameLine1Txt>Adam Graves</NameLine1Txt>
+      <PrimaryNameControlTxt>ADAM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6429 STEVEN FOREST</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Amanda</DependentFirstNm>
+        <DependentLastNm>Graves</DependentLastNm>
+        <DependentNameControlTxt>AMAN</DependentNameControlTxt>
+        <DependentSSN>574170673</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brian</DependentFirstNm>
+        <DependentLastNm>Graves</DependentLastNm>
+        <DependentNameControlTxt>BRIA</DependentNameControlTxt>
+        <DependentSSN>180617958</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">59300</WagesAmt>
+      <WagesSalariesAndTipsAmt>59300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1941</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">673</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">69492</BusinessIncomeAmt>
+      <TotalIncomeAmt>131405</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>126496</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13898</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26448</TotalDeductionsAmt>
+      <TaxableIncomeAmt>100048</TaxableIncomeAmt>
+      <TaxAmt>18032</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4050</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4050</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18032</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13982</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9819</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9819</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23801</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7116</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7116</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7116</TotalPaymentsAmt>
+      <AmountOwedAmt>16685</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9819</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9819</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1941</InterestAmt>
+      <TotalInterestAmt>1941</TotalInterestAmt>
+      <OrdinaryDividendsAmt>673</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>673</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>101000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>101000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1948</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1949</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2499</InsuranceAmt>
+      <OfficeExpensesAmt>2102</OfficeExpensesAmt>
+      <SuppliesAmt>3163</SuppliesAmt>
+      <UtilitiesAmt>790</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19057</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31508</TotalExpensesAmt>
+      <NetProfitOrLossAmt>69492</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>69492</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>69492</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64176</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9819</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4909</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amanda Graves</ChildFirstAndLastName>
+        <ChildSSN>574170673</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brian Graves</ChildFirstAndLastName>
+        <ChildSSN>180617958</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4050</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4050</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>69492</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>69492</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13898</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>879195221</EmployeeSSN>
+      <EmployerEIN>689471914</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5742 Christopher Dale</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adam Graves</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5742 Christopher Dale</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59300</WagesAmt>
+      <WithholdingAmt>7116</WithholdingAmt>
+      <SocialSecurityWagesAmt>59300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3677</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>860</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

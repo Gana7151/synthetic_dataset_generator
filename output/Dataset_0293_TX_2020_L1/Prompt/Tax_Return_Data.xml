@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-02-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>59125</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>591258409</PrimarySSN>
+      <NameLine1Txt>Kenneth Johnson</NameLine1Txt>
+      <PrimaryNameControlTxt>KENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>562 DEANNA CAMP</AddressLine1Txt>
+        <CityNm>PLANO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">80000</WagesAmt>
+      <WagesSalariesAndTipsAmt>80000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>80000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>80000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>67600</TaxableIncomeAmt>
+      <TaxAmt>10662</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10662</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>10662</TaxLessCreditsAmt>
+      <TotalTaxAmt>10662</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9600</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9600</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9600</TotalPaymentsAmt>
+      <AmountOwedAmt>1062</AmountOwedAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>591258409</EmployeeSSN>
+      <EmployerEIN>382744108</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7533 Spence Place</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kenneth Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7533 Spence Place</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>80000</WagesAmt>
+      <WithholdingAmt>9600</WithholdingAmt>
+      <SocialSecurityWagesAmt>80000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4960</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>80000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1160</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

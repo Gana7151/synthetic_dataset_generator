@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-09-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62293</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>622931515</PrimarySSN>
+      <NameLine1Txt>Jody Huber</NameLine1Txt>
+      <PrimaryNameControlTxt>JODY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2474 JILL GREENS</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Huber</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>383844468</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">164600</WagesAmt>
+      <WagesSalariesAndTipsAmt>164600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1944</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2091</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">92788</BusinessIncomeAmt>
+      <TotalIncomeAmt>261424</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>260181</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18558</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37958</TotalDeductionsAmt>
+      <TaxableIncomeAmt>222223</TaxableIncomeAmt>
+      <TaxAmt>50032</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>50032</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>50032</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2485</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2485</TotalOtherTaxesAmt>
+      <TotalTaxAmt>52969</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>36212</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>36212</WithholdingTaxAmt>
+      <TotalPaymentsAmt>36212</TotalPaymentsAmt>
+      <AmountOwedAmt>16757</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2485</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2485</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1944</InterestAmt>
+      <TotalInterestAmt>1944</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2091</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2091</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Huber's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HUBE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>126800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>126800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2097</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4034</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1303</InsuranceAmt>
+      <OfficeExpensesAmt>2041</OfficeExpensesAmt>
+      <SuppliesAmt>2081</SuppliesAmt>
+      <UtilitiesAmt>816</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17640</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30012</TotalExpensesAmt>
+      <NetProfitOrLossAmt>92788</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>92788</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>92788</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>85690</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2485</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1242</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>92788</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>92788</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18558</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Huber's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>622931515</EmployeeSSN>
+      <EmployerEIN>486277044</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1708 Armstrong Dam</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jody Huber</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1708 Armstrong Dam</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>164600</WagesAmt>
+      <WithholdingAmt>36212</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>164600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2387</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

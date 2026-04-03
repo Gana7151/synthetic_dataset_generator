@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1954-01-18</PrimaryBirthDt>
+      <SpouseBirthDt>1950-04-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>42712</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>88444</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>427129654</PrimarySSN>
+      <SpouseSSN>884444585</SpouseSSN>
+      <NameLine1Txt>Anna Nash</NameLine1Txt>
+      <SpouseNameLine1Txt>Tammy Nash</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ANNA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TAMM</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1976 DESIREE RADIAL</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>884444585</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Nash</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>767260935</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Nash</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>427543557</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Molly</DependentFirstNm>
+        <DependentLastNm>Nash</DependentLastNm>
+        <DependentNameControlTxt>MOLL</DependentNameControlTxt>
+        <DependentSSN>191080932</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">128500</WagesAmt>
+      <WagesSalariesAndTipsAmt>128500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">547</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2731</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">62918</BusinessIncomeAmt>
+      <TotalIncomeAmt>194696</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>192967</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12584</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37684</TotalDeductionsAmt>
+      <TaxableIncomeAmt>155283</TaxableIncomeAmt>
+      <TaxAmt>25659</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7500</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7500</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>25659</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18159</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3458</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3458</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21617</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>20560</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>20560</WithholdingTaxAmt>
+      <TotalPaymentsAmt>20560</TotalPaymentsAmt>
+      <AmountOwedAmt>1057</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3458</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3458</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>547</InterestAmt>
+      <TotalInterestAmt>547</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2731</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2731</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>99800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>99800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3508</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3195</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1109</InsuranceAmt>
+      <OfficeExpensesAmt>2876</OfficeExpensesAmt>
+      <SuppliesAmt>1822</SuppliesAmt>
+      <UtilitiesAmt>1040</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20532</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34082</TotalExpensesAmt>
+      <NetProfitOrLossAmt>62918</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>62918</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>62918</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58105</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3458</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1729</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Nash</ChildFirstAndLastName>
+        <ChildSSN>767260935</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Nash</ChildFirstAndLastName>
+        <ChildSSN>427543557</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Molly Nash</ChildFirstAndLastName>
+        <ChildSSN>191080932</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7500</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7500</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>62918</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>62918</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12584</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2800</DepreciationAmt>
+      <TotalDepreciationAmt>2800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>427129654</EmployeeSSN>
+      <EmployerEIN>841059584</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5174 John Park</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Anna Nash</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5174 John Park</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>128500</WagesAmt>
+      <WithholdingAmt>20560</WithholdingAmt>
+      <SocialSecurityWagesAmt>128500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7967</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>128500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1863</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

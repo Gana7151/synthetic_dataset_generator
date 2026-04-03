@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1960-01-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74115</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>741157125</PrimarySSN>
+      <NameLine1Txt>Tim Green</NameLine1Txt>
+      <PrimaryNameControlTxt>TIM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7402 GABRIEL FIELD</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christine</DependentFirstNm>
+        <DependentLastNm>Green</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>535119980</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">38900</WagesAmt>
+      <WagesSalariesAndTipsAmt>38900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">150</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">273</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">34907</BusinessIncomeAmt>
+      <TotalIncomeAmt>74230</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>65764</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>17750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6981</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24731</TotalDeductionsAmt>
+      <TaxableIncomeAmt>41033</TaxableIncomeAmt>
+      <TaxAmt>4686</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4686</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2486</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4932</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4932</TotalOtherTaxesAmt>
+      <TotalTaxAmt>7418</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3112</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3112</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3112</TotalPaymentsAmt>
+      <AmountOwedAmt>4306</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4932</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4932</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>150</InterestAmt>
+      <TotalInterestAmt>150</TotalInterestAmt>
+      <OrdinaryDividendsAmt>273</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>273</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <SeniorDeduction>
+        <DeductionAmt>6000</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>6000</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>49800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>49800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1338</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1290</CarAndTruckExpensesAmt>
+      <InsuranceAmt>634</InsuranceAmt>
+      <OfficeExpensesAmt>1358</OfficeExpensesAmt>
+      <SuppliesAmt>966</SuppliesAmt>
+      <UtilitiesAmt>523</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8784</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14893</TotalExpensesAmt>
+      <NetProfitOrLossAmt>34907</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>34907</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>34907</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>32237</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4932</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2466</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christine Green</ChildFirstAndLastName>
+        <ChildSSN>535119980</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>34907</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>34907</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6981</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>741157125</EmployeeSSN>
+      <EmployerEIN>736596778</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2778 Lindsey Pine</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tim Green</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2778 Lindsey Pine</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>38900</WagesAmt>
+      <WithholdingAmt>3112</WithholdingAmt>
+      <SocialSecurityWagesAmt>38900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2412</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>38900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>564</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

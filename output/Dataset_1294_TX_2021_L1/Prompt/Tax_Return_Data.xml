@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-02-17</PrimaryBirthDt>
+      <SpouseBirthDt>1963-03-16</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>18668</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>20665</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>186681323</PrimarySSN>
+      <SpouseSSN>206656754</SpouseSSN>
+      <NameLine1Txt>Sara Alexander</NameLine1Txt>
+      <SpouseNameLine1Txt>Brian Alexander</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SARA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>BRIA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7547 SALAS THROUGHWAY</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>206656754</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39900</WagesAmt>
+      <WagesSalariesAndTipsAmt>39900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">583</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>40483</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>40483</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>15383</TaxableIncomeAmt>
+      <TaxAmt>1538</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1538</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1538</TaxLessCreditsAmt>
+      <TotalTaxAmt>1538</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3192</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3192</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3192</TotalPaymentsAmt>
+      <OverpaidAmt>1654</OverpaidAmt>
+      <RefundAmt>1654</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>583</InterestAmt>
+      <TotalInterestAmt>583</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>186681323</EmployeeSSN>
+      <EmployerEIN>641954142</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Land Development</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3927 Tanner Knoll</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sara Alexander</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3927 Tanner Knoll</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39900</WagesAmt>
+      <WithholdingAmt>3192</WithholdingAmt>
+      <SocialSecurityWagesAmt>39900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2474</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>579</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

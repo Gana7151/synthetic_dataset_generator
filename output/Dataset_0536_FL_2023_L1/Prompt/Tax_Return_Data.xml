@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-11-07</PrimaryBirthDt>
+      <SpouseBirthDt>1983-07-25</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>18138</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>43706</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>181388657</PrimarySSN>
+      <SpouseSSN>437062773</SpouseSSN>
+      <NameLine1Txt>Ryan Holland</NameLine1Txt>
+      <SpouseNameLine1Txt>Katherine Holland</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RYAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KATH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8780 SMITH RAMP</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>437062773</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">59300</WagesAmt>
+      <WagesSalariesAndTipsAmt>59300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">612</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>59912</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>59912</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>32212</TaxableIncomeAmt>
+      <TaxAmt>3425</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3425</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3425</TaxLessCreditsAmt>
+      <TotalTaxAmt>3425</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7116</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7116</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7116</TotalPaymentsAmt>
+      <OverpaidAmt>3691</OverpaidAmt>
+      <RefundAmt>3691</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>612</InterestAmt>
+      <TotalInterestAmt>612</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>437062773</EmployeeSSN>
+      <EmployerEIN>748523329</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3738 Monica Trace</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Katherine Holland</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3738 Monica Trace</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59300</WagesAmt>
+      <WithholdingAmt>7116</WithholdingAmt>
+      <SocialSecurityWagesAmt>59300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3677</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>860</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

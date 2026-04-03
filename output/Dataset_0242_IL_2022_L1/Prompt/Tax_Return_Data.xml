@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-12-05</PrimaryBirthDt>
+      <SpouseBirthDt>1959-01-18</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27428</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>28530</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>274282285</PrimarySSN>
+      <SpouseSSN>285302788</SpouseSSN>
+      <NameLine1Txt>Kim Curry</NameLine1Txt>
+      <SpouseNameLine1Txt>Connor Curry</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KIM</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CONN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8680 MARTINEZ ISLE</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>285302788</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">78200</WagesAmt>
+      <WagesSalariesAndTipsAmt>78200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>78200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>78200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>52300</TaxableIncomeAmt>
+      <TaxAmt>5865</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5865</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5865</TaxLessCreditsAmt>
+      <TotalTaxAmt>5865</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9384</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9384</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9384</TotalPaymentsAmt>
+      <OverpaidAmt>3519</OverpaidAmt>
+      <RefundAmt>3519</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>285302788</EmployeeSSN>
+      <EmployerEIN>206107092</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3494 Mcgrath Plains</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Connor Curry</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3494 Mcgrath Plains</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78200</WagesAmt>
+      <WithholdingAmt>9384</WithholdingAmt>
+      <SocialSecurityWagesAmt>78200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4848</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1134</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

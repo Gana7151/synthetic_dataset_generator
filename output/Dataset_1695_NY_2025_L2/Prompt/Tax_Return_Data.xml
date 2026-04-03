@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-05-25</PrimaryBirthDt>
+      <SpouseBirthDt>1987-04-21</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26532</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>21284</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>265328225</PrimarySSN>
+      <SpouseSSN>212842688</SpouseSSN>
+      <NameLine1Txt>Kimberly Hall</NameLine1Txt>
+      <SpouseNameLine1Txt>Shannon Hall</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KIMB</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SHAN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5445 MEREDITH PLAZA</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>212842688</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Tina</DependentFirstNm>
+        <DependentLastNm>Hall</DependentLastNm>
+        <DependentNameControlTxt>TINA</DependentNameControlTxt>
+        <DependentSSN>247991822</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Pamela</DependentFirstNm>
+        <DependentLastNm>Hall</DependentLastNm>
+        <DependentNameControlTxt>PAME</DependentNameControlTxt>
+        <DependentSSN>190753384</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">161000</WagesAmt>
+      <WagesSalariesAndTipsAmt>161000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">191</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1500</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17626</BusinessIncomeAmt>
+      <TotalIncomeAmt>180317</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>179145</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3525</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35025</TotalDeductionsAmt>
+      <TaxableIncomeAmt>144120</TaxableIncomeAmt>
+      <TaxAmt>21534</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>21534</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>17134</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2344</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2344</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19479</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23900</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23900</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23900</TotalPaymentsAmt>
+      <OverpaidAmt>4421</OverpaidAmt>
+      <RefundAmt>4421</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2344</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2344</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>191</InterestAmt>
+      <TotalInterestAmt>191</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1500</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1500</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hall's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HALL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>26700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>26700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>714</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1029</CarAndTruckExpensesAmt>
+      <InsuranceAmt>536</InsuranceAmt>
+      <OfficeExpensesAmt>492</OfficeExpensesAmt>
+      <SuppliesAmt>807</SuppliesAmt>
+      <UtilitiesAmt>390</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3506</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7474</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17626</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17626</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17626</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>16278</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2344</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1172</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tina Hall</ChildFirstAndLastName>
+        <ChildSSN>247991822</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Pamela Hall</ChildFirstAndLastName>
+        <ChildSSN>190753384</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17626</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17626</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3525</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hall's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1600</DepreciationAmt>
+      <TotalDepreciationAmt>1600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>265328225</EmployeeSSN>
+      <EmployerEIN>935629542</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2465 James Knoll</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kimberly Hall</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2465 James Knoll</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>114500</WagesAmt>
+      <WithholdingAmt>18320</WithholdingAmt>
+      <SocialSecurityWagesAmt>114500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7099</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>114500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1660</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>212842688</EmployeeSSN>
+      <EmployerEIN>911780327</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5216 Angela Neck</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Shannon Hall</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5216 Angela Neck</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46500</WagesAmt>
+      <WithholdingAmt>5580</WithholdingAmt>
+      <SocialSecurityWagesAmt>46500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2883</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>674</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

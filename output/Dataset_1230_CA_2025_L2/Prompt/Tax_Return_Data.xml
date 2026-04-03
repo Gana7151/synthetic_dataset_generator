@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-09-08</PrimaryBirthDt>
+      <SpouseBirthDt>1992-08-19</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37576</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>87045</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>375769579</PrimarySSN>
+      <SpouseSSN>870451008</SpouseSSN>
+      <NameLine1Txt>Sherry Gordon</NameLine1Txt>
+      <SpouseNameLine1Txt>Christine Gordon</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SHER</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHRI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8379 BYRD SHORE</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>870451008</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michelle</DependentFirstNm>
+        <DependentLastNm>Gordon</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>439275916</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Morgan</DependentFirstNm>
+        <DependentLastNm>Gordon</DependentLastNm>
+        <DependentNameControlTxt>MORG</DependentNameControlTxt>
+        <DependentSSN>202900408</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Philip</DependentFirstNm>
+        <DependentLastNm>Gordon</DependentLastNm>
+        <DependentNameControlTxt>PHIL</DependentNameControlTxt>
+        <DependentSSN>863676292</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">78800</WagesAmt>
+      <WagesSalariesAndTipsAmt>78800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">651</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1880</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">18870</BusinessIncomeAmt>
+      <TotalIncomeAmt>100201</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>98868</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3774</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35274</TotalDeductionsAmt>
+      <TaxableIncomeAmt>63594</TaxableIncomeAmt>
+      <TaxAmt>7154</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7154</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>554</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2666</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2666</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3220</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9456</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9456</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9456</TotalPaymentsAmt>
+      <OverpaidAmt>6236</OverpaidAmt>
+      <RefundAmt>6236</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2666</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2666</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>651</InterestAmt>
+      <TotalInterestAmt>651</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1880</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1880</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>28700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>28700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>576</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>580</CarAndTruckExpensesAmt>
+      <InsuranceAmt>329</InsuranceAmt>
+      <OfficeExpensesAmt>537</OfficeExpensesAmt>
+      <SuppliesAmt>434</SuppliesAmt>
+      <UtilitiesAmt>226</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3148</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>5830</TotalExpensesAmt>
+      <NetProfitOrLossAmt>18870</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>18870</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>18870</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>17426</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2666</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1333</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michelle Gordon</ChildFirstAndLastName>
+        <ChildSSN>439275916</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Morgan Gordon</ChildFirstAndLastName>
+        <ChildSSN>202900408</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Philip Gordon</ChildFirstAndLastName>
+        <ChildSSN>863676292</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>18870</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>18870</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3774</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>375769579</EmployeeSSN>
+      <EmployerEIN>761032908</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1596 Lori Inlet</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sherry Gordon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1596 Lori Inlet</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78800</WagesAmt>
+      <WithholdingAmt>9456</WithholdingAmt>
+      <SocialSecurityWagesAmt>78800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4886</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1143</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>867</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-04-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10393</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>103939086</PrimarySSN>
+      <NameLine1Txt>Sean Cox</NameLine1Txt>
+      <PrimaryNameControlTxt>SEAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8276 JOHN INLET</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Cory</DependentFirstNm>
+        <DependentLastNm>Cox</DependentLastNm>
+        <DependentNameControlTxt>CORY</DependentNameControlTxt>
+        <DependentSSN>329143408</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Victoria</DependentFirstNm>
+        <DependentLastNm>Cox</DependentLastNm>
+        <DependentNameControlTxt>VICT</DependentNameControlTxt>
+        <DependentSSN>735187240</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">65200</WagesAmt>
+      <WagesSalariesAndTipsAmt>65200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1290</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1595</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">70913</BusinessIncomeAmt>
+      <TotalIncomeAmt>138998</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>133988</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14183</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29933</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104055</TaxableIncomeAmt>
+      <TaxAmt>17820</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17820</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13420</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10020</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10020</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23440</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7824</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7824</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7824</TotalPaymentsAmt>
+      <AmountOwedAmt>15616</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10020</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10020</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1290</InterestAmt>
+      <TotalInterestAmt>1290</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1595</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1595</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>111000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>111000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3880</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3173</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2760</InsuranceAmt>
+      <OfficeExpensesAmt>3058</OfficeExpensesAmt>
+      <SuppliesAmt>2204</SuppliesAmt>
+      <UtilitiesAmt>1272</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19840</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>36187</TotalExpensesAmt>
+      <NetProfitOrLossAmt>70913</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>70913</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>70913</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>65488</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10020</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5010</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cory Cox</ChildFirstAndLastName>
+        <ChildSSN>329143408</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Victoria Cox</ChildFirstAndLastName>
+        <ChildSSN>735187240</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>70913</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>70913</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14183</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3900</DepreciationAmt>
+      <TotalDepreciationAmt>3900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>103939086</EmployeeSSN>
+      <EmployerEIN>713766529</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Land Development</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6041 Allison Road</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sean Cox</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6041 Allison Road</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>65200</WagesAmt>
+      <WithholdingAmt>7824</WithholdingAmt>
+      <SocialSecurityWagesAmt>65200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4042</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>65200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>945</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

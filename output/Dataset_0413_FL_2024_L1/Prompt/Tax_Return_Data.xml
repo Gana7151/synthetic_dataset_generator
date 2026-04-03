@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-02-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11452</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>114529086</PrimarySSN>
+      <NameLine1Txt>Melissa Shields</NameLine1Txt>
+      <PrimaryNameControlTxt>MELI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5649 WALL DRIVE</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">76900</WagesAmt>
+      <WagesSalariesAndTipsAmt>76900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>76900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>76900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62300</TaxableIncomeAmt>
+      <TaxAmt>8759</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8759</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8759</TaxLessCreditsAmt>
+      <TotalTaxAmt>8759</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9228</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9228</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9228</TotalPaymentsAmt>
+      <OverpaidAmt>469</OverpaidAmt>
+      <RefundAmt>469</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>114529086</EmployeeSSN>
+      <EmployerEIN>811021291</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3442 Stacy Cliff</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melissa Shields</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3442 Stacy Cliff</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>76900</WagesAmt>
+      <WithholdingAmt>9228</WithholdingAmt>
+      <SocialSecurityWagesAmt>76900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4768</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>76900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1115</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

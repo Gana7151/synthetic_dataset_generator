@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-06-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>47944</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>479441269</PrimarySSN>
+      <NameLine1Txt>Alisha Orozco</NameLine1Txt>
+      <PrimaryNameControlTxt>ALIS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4987 BROWN PLAZA</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Luis</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>LUIS</DependentNameControlTxt>
+        <DependentSSN>857632289</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Roy</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>ROY</DependentNameControlTxt>
+        <DependentSSN>135353385</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tara</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>TARA</DependentNameControlTxt>
+        <DependentSSN>395186788</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Gregory</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>GREG</DependentNameControlTxt>
+        <DependentSSN>739777860</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">102500</WagesAmt>
+      <WagesSalariesAndTipsAmt>102500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2619</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1308</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">63715</BusinessIncomeAmt>
+      <TotalIncomeAmt>170141</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>165711</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12743</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26593</TotalDeductionsAmt>
+      <TaxableIncomeAmt>139118</TaxableIncomeAmt>
+      <TaxAmt>26788</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>26788</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18788</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8861</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8861</TotalOtherTaxesAmt>
+      <TotalTaxAmt>27649</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16400</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16400</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16400</TotalPaymentsAmt>
+      <AmountOwedAmt>11249</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8861</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8861</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2619</InterestAmt>
+      <TotalInterestAmt>2619</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1308</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1308</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>91900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>91900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2860</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4157</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1997</InsuranceAmt>
+      <OfficeExpensesAmt>2269</OfficeExpensesAmt>
+      <SuppliesAmt>1572</SuppliesAmt>
+      <UtilitiesAmt>1159</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14171</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28185</TotalExpensesAmt>
+      <NetProfitOrLossAmt>63715</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>63715</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>63715</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58841</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8861</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4431</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Luis Orozco</ChildFirstAndLastName>
+        <ChildSSN>857632289</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Roy Orozco</ChildFirstAndLastName>
+        <ChildSSN>135353385</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tara Orozco</ChildFirstAndLastName>
+        <ChildSSN>395186788</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gregory Orozco</ChildFirstAndLastName>
+        <ChildSSN>739777860</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>63715</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>63715</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12743</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>479441269</EmployeeSSN>
+      <EmployerEIN>646733030</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7594 Justin Ferry</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alisha Orozco</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7594 Justin Ferry</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>102500</WagesAmt>
+      <WithholdingAmt>16400</WithholdingAmt>
+      <SocialSecurityWagesAmt>102500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6355</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>102500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1486</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

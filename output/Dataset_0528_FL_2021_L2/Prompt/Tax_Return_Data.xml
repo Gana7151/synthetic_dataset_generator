@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-03-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62289</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>622893617</PrimarySSN>
+      <NameLine1Txt>Erin Meza</NameLine1Txt>
+      <PrimaryNameControlTxt>ERIN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5215 ELLEN HARBOR</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Traci</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>TRAC</DependentNameControlTxt>
+        <DependentSSN>649453334</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Douglas</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>DOUG</DependentNameControlTxt>
+        <DependentSSN>666171329</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kathy</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>KATH</DependentNameControlTxt>
+        <DependentSSN>599841440</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">46300</WagesAmt>
+      <WagesSalariesAndTipsAmt>46300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">98</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">674</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">53005</BusinessIncomeAmt>
+      <TotalIncomeAmt>100077</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>96332</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10601</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23151</TotalDeductionsAmt>
+      <TaxableIncomeAmt>73181</TaxableIncomeAmt>
+      <TaxAmt>11848</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7950</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7950</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11848</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3898</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7489</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7489</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11388</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5556</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5556</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5556</TotalPaymentsAmt>
+      <AmountOwedAmt>5832</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7489</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7489</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>98</InterestAmt>
+      <TotalInterestAmt>98</TotalInterestAmt>
+      <OrdinaryDividendsAmt>674</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>674</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>71300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>71300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1600</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>74</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1191</InsuranceAmt>
+      <OfficeExpensesAmt>941</OfficeExpensesAmt>
+      <SuppliesAmt>1316</SuppliesAmt>
+      <UtilitiesAmt>540</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12633</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18295</TotalExpensesAmt>
+      <NetProfitOrLossAmt>53005</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>53005</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>53005</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>48950</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7489</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3745</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Traci Meza</ChildFirstAndLastName>
+        <ChildSSN>649453334</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Douglas Meza</ChildFirstAndLastName>
+        <ChildSSN>666171329</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kathy Meza</ChildFirstAndLastName>
+        <ChildSSN>599841440</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7950</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7950</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>53005</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>53005</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10601</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>622893617</EmployeeSSN>
+      <EmployerEIN>946131535</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1966 Fuller Road</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Erin Meza</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1966 Fuller Road</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46300</WagesAmt>
+      <WithholdingAmt>5556</WithholdingAmt>
+      <SocialSecurityWagesAmt>46300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2871</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>671</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

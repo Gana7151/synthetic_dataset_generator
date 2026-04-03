@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-03-17</PrimaryBirthDt>
+      <SpouseBirthDt>1971-04-01</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33067</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>84565</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>330670931</PrimarySSN>
+      <SpouseSSN>845659446</SpouseSSN>
+      <NameLine1Txt>Lauren Friedman</NameLine1Txt>
+      <SpouseNameLine1Txt>Brandon Friedman</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>LAUR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>BRAN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5575 DANIEL FALLS</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>845659446</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">44900</WagesAmt>
+      <WagesSalariesAndTipsAmt>44900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>44900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>44900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>19800</TaxableIncomeAmt>
+      <TaxAmt>1980</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1980</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1980</TaxLessCreditsAmt>
+      <TotalTaxAmt>1980</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5388</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5388</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5388</TotalPaymentsAmt>
+      <OverpaidAmt>3408</OverpaidAmt>
+      <RefundAmt>3408</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>845659446</EmployeeSSN>
+      <EmployerEIN>429214902</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5853 Gregory Curve</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brandon Friedman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5853 Gregory Curve</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>44900</WagesAmt>
+      <WithholdingAmt>5388</WithholdingAmt>
+      <SocialSecurityWagesAmt>44900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2784</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>44900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>651</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

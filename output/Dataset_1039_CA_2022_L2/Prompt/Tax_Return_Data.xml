@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-08-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>31563</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>315633116</PrimarySSN>
+      <NameLine1Txt>Edward Rios</NameLine1Txt>
+      <PrimaryNameControlTxt>EDWA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5875 MELISSA VILLE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Rios</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>705877190</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">38400</WagesAmt>
+      <WagesSalariesAndTipsAmt>38400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">388</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1866</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">14302</BusinessIncomeAmt>
+      <TotalIncomeAmt>54956</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>53945</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2860</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>15810</TotalDeductionsAmt>
+      <TaxableIncomeAmt>38135</TaxableIncomeAmt>
+      <TaxAmt>4371</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4371</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2371</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2021</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2021</TotalOtherTaxesAmt>
+      <TotalTaxAmt>4392</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3072</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3072</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3072</TotalPaymentsAmt>
+      <AmountOwedAmt>1320</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2021</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2021</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>388</InterestAmt>
+      <TotalInterestAmt>388</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1866</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1866</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Rios's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>RIOS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>24700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>24700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>489</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>339</CarAndTruckExpensesAmt>
+      <InsuranceAmt>343</InsuranceAmt>
+      <OfficeExpensesAmt>529</OfficeExpensesAmt>
+      <SuppliesAmt>555</SuppliesAmt>
+      <UtilitiesAmt>262</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>2981</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>5498</TotalExpensesAmt>
+      <NetProfitOrLossAmt>14302</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>14302</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>14302</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>13208</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2021</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1010</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Rios</ChildFirstAndLastName>
+        <ChildSSN>705877190</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>14302</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>14302</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2860</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Rios's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4900</DepreciationAmt>
+      <TotalDepreciationAmt>4900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>315633116</EmployeeSSN>
+      <EmployerEIN>455379843</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1388 Mathew Route</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Edward Rios</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1388 Mathew Route</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>38400</WagesAmt>
+      <WithholdingAmt>3072</WithholdingAmt>
+      <SocialSecurityWagesAmt>38400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2381</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>38400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>557</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>422</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-08-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>15258</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>152588053</PrimarySSN>
+      <NameLine1Txt>Joanna Smith</NameLine1Txt>
+      <PrimaryNameControlTxt>JOAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3779 GLOVER GLENS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kenneth</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>KENN</DependentNameControlTxt>
+        <DependentSSN>825849714</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jeffrey</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>JEFF</DependentNameControlTxt>
+        <DependentSSN>177505196</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ashley</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>ASHL</DependentNameControlTxt>
+        <DependentSSN>387026090</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">62500</WagesAmt>
+      <WagesSalariesAndTipsAmt>62500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">830</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1906</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">29132</BusinessIncomeAmt>
+      <TotalIncomeAmt>94368</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>92310</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5826</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24626</TotalDeductionsAmt>
+      <TaxableIncomeAmt>67684</TaxableIncomeAmt>
+      <TaxAmt>9187</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">9187</ChildTaxCreditAmt>
+      <TotalCreditsAmt>9187</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9187</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4116</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4116</TotalOtherTaxesAmt>
+      <TotalTaxAmt>4116</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7500</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7500</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7500</TotalPaymentsAmt>
+      <OverpaidAmt>3384</OverpaidAmt>
+      <RefundAmt>3384</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4116</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4116</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>830</InterestAmt>
+      <TotalInterestAmt>830</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1906</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1906</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>45100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>45100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1080</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>57</CarAndTruckExpensesAmt>
+      <InsuranceAmt>697</InsuranceAmt>
+      <OfficeExpensesAmt>1079</OfficeExpensesAmt>
+      <SuppliesAmt>1063</SuppliesAmt>
+      <UtilitiesAmt>479</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6713</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11168</TotalExpensesAmt>
+      <NetProfitOrLossAmt>29132</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>29132</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>29132</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26903</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4116</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2058</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kenneth Smith</ChildFirstAndLastName>
+        <ChildSSN>825849714</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeffrey Smith</ChildFirstAndLastName>
+        <ChildSSN>177505196</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ashley Smith</ChildFirstAndLastName>
+        <ChildSSN>387026090</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>9187</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>9187</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>29132</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>29132</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5826</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>152588053</EmployeeSSN>
+      <EmployerEIN>208921364</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3965 Davis Junctions</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joanna Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3965 Davis Junctions</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62500</WagesAmt>
+      <WithholdingAmt>7500</WithholdingAmt>
+      <SocialSecurityWagesAmt>62500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3875</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>906</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

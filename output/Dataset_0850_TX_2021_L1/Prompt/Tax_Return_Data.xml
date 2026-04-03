@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-11-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>49450</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>494504188</PrimarySSN>
+      <NameLine1Txt>Caleb Gordon</NameLine1Txt>
+      <PrimaryNameControlTxt>CALE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9975 ROWE ALLEY</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">64700</WagesAmt>
+      <WagesSalariesAndTipsAmt>64700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>64700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>64700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>52150</TaxableIncomeAmt>
+      <TaxAmt>7222</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7222</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7222</TaxLessCreditsAmt>
+      <TotalTaxAmt>7222</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7764</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7764</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7764</TotalPaymentsAmt>
+      <OverpaidAmt>542</OverpaidAmt>
+      <RefundAmt>542</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>494504188</EmployeeSSN>
+      <EmployerEIN>883636707</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8213 Sabrina Falls</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Caleb Gordon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8213 Sabrina Falls</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>64700</WagesAmt>
+      <WithholdingAmt>7764</WithholdingAmt>
+      <SocialSecurityWagesAmt>64700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4011</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>64700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>938</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-07-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>58169</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>581694851</PrimarySSN>
+      <NameLine1Txt>Eric Morgan</NameLine1Txt>
+      <PrimaryNameControlTxt>ERIC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1241 WOOD INLET</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">49300</WagesAmt>
+      <WagesSalariesAndTipsAmt>49300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>49300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>49300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34700</TaxableIncomeAmt>
+      <TaxAmt>3932</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3932</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3932</TaxLessCreditsAmt>
+      <TotalTaxAmt>3932</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5916</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5916</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5916</TotalPaymentsAmt>
+      <OverpaidAmt>1984</OverpaidAmt>
+      <RefundAmt>1984</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>581694851</EmployeeSSN>
+      <EmployerEIN>512554298</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8804 Davis Ville</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Eric Morgan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8804 Davis Ville</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>49300</WagesAmt>
+      <WithholdingAmt>5916</WithholdingAmt>
+      <SocialSecurityWagesAmt>49300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3057</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>49300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>715</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

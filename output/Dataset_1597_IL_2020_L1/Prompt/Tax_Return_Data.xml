@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-05-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>16481</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>164816930</PrimarySSN>
+      <NameLine1Txt>Kayla Tran</NameLine1Txt>
+      <PrimaryNameControlTxt>KAYL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9410 COLLIER MISSION</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">55200</WagesAmt>
+      <WagesSalariesAndTipsAmt>55200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">793</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>55993</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>55993</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>43593</TaxableIncomeAmt>
+      <TaxAmt>5380</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5380</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5380</TaxLessCreditsAmt>
+      <TotalTaxAmt>5380</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6624</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6624</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6624</TotalPaymentsAmt>
+      <OverpaidAmt>1244</OverpaidAmt>
+      <RefundAmt>1244</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>793</InterestAmt>
+      <TotalInterestAmt>793</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>164816930</EmployeeSSN>
+      <EmployerEIN>207572048</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1478 Sandra Radial</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kayla Tran</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1478 Sandra Radial</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>55200</WagesAmt>
+      <WithholdingAmt>6624</WithholdingAmt>
+      <SocialSecurityWagesAmt>55200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3422</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>55200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>800</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-06-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20932</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>209320660</PrimarySSN>
+      <NameLine1Txt>Cassie Williams</NameLine1Txt>
+      <PrimaryNameControlTxt>CASS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4521 SULLIVAN COURT</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Nicholas</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>NICH</DependentNameControlTxt>
+        <DependentSSN>120023304</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Timothy</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>TIMO</DependentNameControlTxt>
+        <DependentSSN>178943351</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>511471386</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">43300</WagesAmt>
+      <WagesSalariesAndTipsAmt>43300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">780</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">491</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17729</BusinessIncomeAmt>
+      <TotalIncomeAmt>62300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61048</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3546</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>16096</TotalDeductionsAmt>
+      <TaxableIncomeAmt>44952</TaxableIncomeAmt>
+      <TaxAmt>5638</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5638</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5638</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5638</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2505</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2505</TotalOtherTaxesAmt>
+      <TotalTaxAmt>2505</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5196</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5196</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5196</TotalPaymentsAmt>
+      <OverpaidAmt>2691</OverpaidAmt>
+      <RefundAmt>2691</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2505</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2505</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>780</InterestAmt>
+      <TotalInterestAmt>780</TotalInterestAmt>
+      <OrdinaryDividendsAmt>491</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>491</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Williams's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WILL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>29700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>29700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>732</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>662</CarAndTruckExpensesAmt>
+      <InsuranceAmt>440</InsuranceAmt>
+      <OfficeExpensesAmt>570</OfficeExpensesAmt>
+      <SuppliesAmt>497</SuppliesAmt>
+      <UtilitiesAmt>321</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4049</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7271</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17729</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17729</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17729</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>16373</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2505</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1253</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicholas Williams</ChildFirstAndLastName>
+        <ChildSSN>120023304</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Timothy Williams</ChildFirstAndLastName>
+        <ChildSSN>178943351</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Williams</ChildFirstAndLastName>
+        <ChildSSN>511471386</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5638</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5638</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17729</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17729</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3546</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Williams's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4700</DepreciationAmt>
+      <TotalDepreciationAmt>4700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>209320660</EmployeeSSN>
+      <EmployerEIN>753562618</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8675 Lara Fords</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Cassie Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8675 Lara Fords</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>43300</WagesAmt>
+      <WithholdingAmt>5196</WithholdingAmt>
+      <SocialSecurityWagesAmt>43300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2685</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>43300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>628</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

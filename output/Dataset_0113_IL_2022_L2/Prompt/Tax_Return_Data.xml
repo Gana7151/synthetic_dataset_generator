@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-08-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>55196</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>551969566</PrimarySSN>
+      <NameLine1Txt>Cody Leonard</NameLine1Txt>
+      <PrimaryNameControlTxt>CODY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1312 YORK VILLAGES</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Shannon</DependentFirstNm>
+        <DependentLastNm>Leonard</DependentLastNm>
+        <DependentNameControlTxt>SHAN</DependentNameControlTxt>
+        <DependentSSN>406688855</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">71600</WagesAmt>
+      <WagesSalariesAndTipsAmt>71600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">658</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">908</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">38104</BusinessIncomeAmt>
+      <TotalIncomeAmt>111271</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>108579</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7621</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20571</TotalDeductionsAmt>
+      <TaxableIncomeAmt>88008</TaxableIncomeAmt>
+      <TaxAmt>14979</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>14979</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>12979</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5384</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5384</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18363</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8592</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8592</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8592</TotalPaymentsAmt>
+      <AmountOwedAmt>9771</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5384</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5384</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>658</InterestAmt>
+      <TotalInterestAmt>658</TotalInterestAmt>
+      <OrdinaryDividendsAmt>908</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>908</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>51400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>51400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1152</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>166</CarAndTruckExpensesAmt>
+      <InsuranceAmt>882</InsuranceAmt>
+      <OfficeExpensesAmt>1041</OfficeExpensesAmt>
+      <SuppliesAmt>860</SuppliesAmt>
+      <UtilitiesAmt>533</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8662</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13296</TotalExpensesAmt>
+      <NetProfitOrLossAmt>38104</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>38104</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>38104</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>35189</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5384</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2692</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Shannon Leonard</ChildFirstAndLastName>
+        <ChildSSN>406688855</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>38104</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>38104</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7621</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>551969566</EmployeeSSN>
+      <EmployerEIN>656020560</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4403 Cuevas Landing</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Cody Leonard</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4403 Cuevas Landing</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71600</WagesAmt>
+      <WithholdingAmt>8592</WithholdingAmt>
+      <SocialSecurityWagesAmt>71600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4439</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1038</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

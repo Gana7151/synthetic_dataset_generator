@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-06-12</PrimaryBirthDt>
+      <SpouseBirthDt>1952-09-13</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>32456</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>89174</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>324564538</PrimarySSN>
+      <SpouseSSN>891747562</SpouseSSN>
+      <NameLine1Txt>Andres Hernandez</NameLine1Txt>
+      <SpouseNameLine1Txt>Amy Hernandez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ANDR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>AMY</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3523 ADAMS VIADUCT</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>891747562</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">29900</WagesAmt>
+      <WagesSalariesAndTipsAmt>29900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">183</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>30083</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>30083</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>5283</TaxableIncomeAmt>
+      <TaxAmt>528</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>528</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>528</TaxLessCreditsAmt>
+      <TotalTaxAmt>528</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2392</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2392</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2392</TotalPaymentsAmt>
+      <OverpaidAmt>1864</OverpaidAmt>
+      <RefundAmt>1864</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>183</InterestAmt>
+      <TotalInterestAmt>183</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>891747562</EmployeeSSN>
+      <EmployerEIN>763160549</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>386 Hull Green</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amy Hernandez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>386 Hull Green</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>29900</WagesAmt>
+      <WithholdingAmt>2392</WithholdingAmt>
+      <SocialSecurityWagesAmt>29900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>29900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>434</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>329</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

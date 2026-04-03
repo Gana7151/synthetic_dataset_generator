@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-08-03</PrimaryBirthDt>
+      <SpouseBirthDt>1975-10-01</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50651</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>30706</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>506513683</PrimarySSN>
+      <SpouseSSN>307066313</SpouseSSN>
+      <NameLine1Txt>Cynthia Lucas</NameLine1Txt>
+      <SpouseNameLine1Txt>Kenneth Lucas</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CYNT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>854 ALLISON WELL</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>307066313</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Yvonne</DependentFirstNm>
+        <DependentLastNm>Lucas</DependentLastNm>
+        <DependentNameControlTxt>YVON</DependentNameControlTxt>
+        <DependentSSN>806031714</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Debra</DependentFirstNm>
+        <DependentLastNm>Lucas</DependentLastNm>
+        <DependentNameControlTxt>DEBR</DependentNameControlTxt>
+        <DependentSSN>606107826</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Wendy</DependentFirstNm>
+        <DependentLastNm>Lucas</DependentLastNm>
+        <DependentNameControlTxt>WEND</DependentNameControlTxt>
+        <DependentSSN>771015215</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">117100</WagesAmt>
+      <WagesSalariesAndTipsAmt>117100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">772</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1919</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">48734</BusinessIncomeAmt>
+      <TotalIncomeAmt>168525</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>166595</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9747</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34547</TotalDeductionsAmt>
+      <TaxableIncomeAmt>132048</TaxableIncomeAmt>
+      <TaxAmt>20631</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20631</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14631</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3860</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3860</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18490</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18736</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18736</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18736</TotalPaymentsAmt>
+      <OverpaidAmt>246</OverpaidAmt>
+      <RefundAmt>246</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3860</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3860</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>772</InterestAmt>
+      <TotalInterestAmt>772</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1919</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1919</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>63900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>63900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1815</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1059</CarAndTruckExpensesAmt>
+      <InsuranceAmt>921</InsuranceAmt>
+      <OfficeExpensesAmt>1391</OfficeExpensesAmt>
+      <SuppliesAmt>1375</SuppliesAmt>
+      <UtilitiesAmt>462</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8143</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15166</TotalExpensesAmt>
+      <NetProfitOrLossAmt>48734</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>48734</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>48734</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>45006</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3860</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1930</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Yvonne Lucas</ChildFirstAndLastName>
+        <ChildSSN>806031714</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Debra Lucas</ChildFirstAndLastName>
+        <ChildSSN>606107826</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Wendy Lucas</ChildFirstAndLastName>
+        <ChildSSN>771015215</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>48734</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>48734</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9747</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>307066313</EmployeeSSN>
+      <EmployerEIN>128378531</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>812 Scott Coves</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kenneth Lucas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>812 Scott Coves</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>117100</WagesAmt>
+      <WithholdingAmt>18736</WithholdingAmt>
+      <SocialSecurityWagesAmt>117100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7260</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>117100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1698</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

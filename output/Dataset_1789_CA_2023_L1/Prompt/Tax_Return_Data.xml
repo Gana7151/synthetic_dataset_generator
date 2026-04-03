@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-10-05</PrimaryBirthDt>
+      <SpouseBirthDt>1959-05-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10343</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>16263</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>103432739</PrimarySSN>
+      <SpouseSSN>162630869</SpouseSSN>
+      <NameLine1Txt>Stacey Sullivan</NameLine1Txt>
+      <SpouseNameLine1Txt>Lisa Sullivan</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STAC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LISA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4142 CHAPMAN MANORS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>162630869</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">61500</WagesAmt>
+      <WagesSalariesAndTipsAmt>61500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>61500</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61500</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33800</TaxableIncomeAmt>
+      <TaxAmt>3616</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3616</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3616</TaxLessCreditsAmt>
+      <TotalTaxAmt>3616</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7380</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7380</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7380</TotalPaymentsAmt>
+      <OverpaidAmt>3764</OverpaidAmt>
+      <RefundAmt>3764</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>162630869</EmployeeSSN>
+      <EmployerEIN>745856511</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2736 Gary Motorway</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Sullivan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2736 Gary Motorway</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>61500</WagesAmt>
+      <WithholdingAmt>7380</WithholdingAmt>
+      <SocialSecurityWagesAmt>61500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3813</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>61500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>892</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>676</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

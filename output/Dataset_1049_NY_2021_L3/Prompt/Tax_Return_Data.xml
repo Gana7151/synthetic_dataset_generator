@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1998-09-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85388</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>853880960</PrimarySSN>
+      <NameLine1Txt>Jean Ramirez</NameLine1Txt>
+      <PrimaryNameControlTxt>JEAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7852 SANCHEZ SHORES</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Diane</DependentFirstNm>
+        <DependentLastNm>Ramirez</DependentLastNm>
+        <DependentNameControlTxt>DIAN</DependentNameControlTxt>
+        <DependentSSN>306389999</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">128200</WagesAmt>
+      <WagesSalariesAndTipsAmt>128200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">542</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1118</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">67452</BusinessIncomeAmt>
+      <TotalIncomeAmt>197312</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>195503</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13490</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26040</TotalDeductionsAmt>
+      <TaxableIncomeAmt>169463</TaxableIncomeAmt>
+      <TaxAmt>35055</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>35055</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>35055</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3617</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3617</TotalOtherTaxesAmt>
+      <TotalTaxAmt>38672</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>20512</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>20512</WithholdingTaxAmt>
+      <TotalPaymentsAmt>20512</TotalPaymentsAmt>
+      <AmountOwedAmt>18160</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3617</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3617</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>542</InterestAmt>
+      <TotalInterestAmt>542</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1118</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1118</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Ramirez's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>RAMI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>100000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>100000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3029</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4464</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1705</InsuranceAmt>
+      <OfficeExpensesAmt>1921</OfficeExpensesAmt>
+      <SuppliesAmt>2320</SuppliesAmt>
+      <UtilitiesAmt>1076</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16833</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31348</TotalExpensesAmt>
+      <NetProfitOrLossAmt>67452</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>67452</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>67452</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>62292</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3617</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1808</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>67452</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>67452</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13490</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Ramirez's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1200</DepreciationAmt>
+      <TotalDepreciationAmt>1200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>853880960</EmployeeSSN>
+      <EmployerEIN>952102578</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3050 Kayla Dale</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jean Ramirez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3050 Kayla Dale</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>128200</WagesAmt>
+      <WithholdingAmt>20512</WithholdingAmt>
+      <SocialSecurityWagesAmt>128200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7948</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>128200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1859</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

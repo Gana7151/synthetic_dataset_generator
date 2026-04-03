@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-03-05</PrimaryBirthDt>
+      <SpouseBirthDt>1981-04-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>32666</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>37911</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>326668758</PrimarySSN>
+      <SpouseSSN>379110255</SpouseSSN>
+      <NameLine1Txt>Rebecca Cook</NameLine1Txt>
+      <SpouseNameLine1Txt>Kristi Cook</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>REBE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KRIS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8149 JONES CLIFF</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>379110255</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jeremy</DependentFirstNm>
+        <DependentLastNm>Cook</DependentLastNm>
+        <DependentNameControlTxt>JERE</DependentNameControlTxt>
+        <DependentSSN>694828018</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">70700</WagesAmt>
+      <WagesSalariesAndTipsAmt>70700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>70700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61583</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>30083</TaxableIncomeAmt>
+      <TaxAmt>3133</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3133</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>933</TaxLessCreditsAmt>
+      <TotalTaxAmt>933</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8484</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8484</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8484</TotalPaymentsAmt>
+      <OverpaidAmt>7551</OverpaidAmt>
+      <RefundAmt>7551</RefundAmt>
+    </IRS1040>
+    <Schedule1A documentId="Schedule1A">
+      <CarLoanInterestDeduction>
+        <DeductionAmt>9117</DeductionAmt>
+        <VIN>1DD28LUR4SZ202028</VIN>
+      </CarLoanInterestDeduction>
+      <TotalSchedule1AAmt>9117</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeremy Cook</ChildFirstAndLastName>
+        <ChildSSN>694828018</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>379110255</EmployeeSSN>
+      <EmployerEIN>242167980</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3264 Denise Oval</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kristi Cook</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3264 Denise Oval</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>70700</WagesAmt>
+      <WithholdingAmt>8484</WithholdingAmt>
+      <SocialSecurityWagesAmt>70700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4383</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>70700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1025</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

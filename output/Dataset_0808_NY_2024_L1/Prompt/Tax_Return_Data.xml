@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-07-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>55815</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>558158858</PrimarySSN>
+      <NameLine1Txt>Philip Burns</NameLine1Txt>
+      <PrimaryNameControlTxt>PHIL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9673 FREEMAN ISLE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">75000</WagesAmt>
+      <WagesSalariesAndTipsAmt>75000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>75000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>75000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>60400</TaxableIncomeAmt>
+      <TaxAmt>8341</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8341</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8341</TaxLessCreditsAmt>
+      <TotalTaxAmt>8341</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9000</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9000</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9000</TotalPaymentsAmt>
+      <OverpaidAmt>659</OverpaidAmt>
+      <RefundAmt>659</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>558158858</EmployeeSSN>
+      <EmployerEIN>463916125</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8743 Webb Circle</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Philip Burns</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8743 Webb Circle</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75000</WagesAmt>
+      <WithholdingAmt>9000</WithholdingAmt>
+      <SocialSecurityWagesAmt>75000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4650</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1088</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

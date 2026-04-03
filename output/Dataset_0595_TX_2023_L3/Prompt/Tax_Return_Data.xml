@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-04-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74473</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>744737868</PrimarySSN>
+      <NameLine1Txt>Lisa Johnson</NameLine1Txt>
+      <PrimaryNameControlTxt>LISA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7730 GEOFFREY PASSAGE</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Janet</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>JANE</DependentNameControlTxt>
+        <DependentSSN>110338136</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Carol</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>CARO</DependentNameControlTxt>
+        <DependentSSN>242901970</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jake</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>JAKE</DependentNameControlTxt>
+        <DependentSSN>128333375</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">153400</WagesAmt>
+      <WagesSalariesAndTipsAmt>153400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">408</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1517</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">68431</BusinessIncomeAmt>
+      <TotalIncomeAmt>223756</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>222418</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13686</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27536</TotalDeductionsAmt>
+      <TaxableIncomeAmt>194882</TaxableIncomeAmt>
+      <TaxAmt>41194</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4900</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4900</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>41194</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>36294</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2676</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2676</TotalOtherTaxesAmt>
+      <TotalTaxAmt>39119</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>24544</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>24544</WithholdingTaxAmt>
+      <TotalPaymentsAmt>24544</TotalPaymentsAmt>
+      <AmountOwedAmt>14575</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2676</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2676</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>408</InterestAmt>
+      <TotalInterestAmt>408</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1517</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1517</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>104500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>104500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1673</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3316</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1117</InsuranceAmt>
+      <OfficeExpensesAmt>2591</OfficeExpensesAmt>
+      <SuppliesAmt>2303</SuppliesAmt>
+      <UtilitiesAmt>848</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19721</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31569</TotalExpensesAmt>
+      <NetProfitOrLossAmt>68431</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>68431</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>68431</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>63196</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2676</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1338</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Janet Johnson</ChildFirstAndLastName>
+        <ChildSSN>110338136</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carol Johnson</ChildFirstAndLastName>
+        <ChildSSN>242901970</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jake Johnson</ChildFirstAndLastName>
+        <ChildSSN>128333375</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4900</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4900</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>68431</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>68431</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13686</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4500</DepreciationAmt>
+      <TotalDepreciationAmt>4500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>744737868</EmployeeSSN>
+      <EmployerEIN>652043877</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>947 Justin River</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>947 Justin River</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>153400</WagesAmt>
+      <WithholdingAmt>24544</WithholdingAmt>
+      <SocialSecurityWagesAmt>153400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9511</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>153400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2224</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

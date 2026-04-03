@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-10-27</PrimaryBirthDt>
+      <SpouseBirthDt>1994-04-07</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>16494</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>38627</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>164943821</PrimarySSN>
+      <SpouseSSN>386273752</SpouseSSN>
+      <NameLine1Txt>Jessica Cobb</NameLine1Txt>
+      <SpouseNameLine1Txt>Seth Cobb</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SETH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8489 DONNA SPRING</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>386273752</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patrick</DependentFirstNm>
+        <DependentLastNm>Cobb</DependentLastNm>
+        <DependentNameControlTxt>PATR</DependentNameControlTxt>
+        <DependentSSN>825460591</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">65000</WagesAmt>
+      <WagesSalariesAndTipsAmt>65000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>65000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>65000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>39900</TaxableIncomeAmt>
+      <TaxAmt>4390</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4390</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>790</TaxLessCreditsAmt>
+      <TotalTaxAmt>790</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7800</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7800</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7800</TotalPaymentsAmt>
+      <OverpaidAmt>7010</OverpaidAmt>
+      <RefundAmt>7010</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patrick Cobb</ChildFirstAndLastName>
+        <ChildSSN>825460591</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>164943821</EmployeeSSN>
+      <EmployerEIN>523686741</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7583 Anne Ferry</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Cobb</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7583 Anne Ferry</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>65000</WagesAmt>
+      <WithholdingAmt>7800</WithholdingAmt>
+      <SocialSecurityWagesAmt>65000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4030</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>65000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>942</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>715</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

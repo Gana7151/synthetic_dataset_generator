@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-10-05</PrimaryBirthDt>
+      <SpouseBirthDt>1978-12-09</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50014</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>23763</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>500145402</PrimarySSN>
+      <SpouseSSN>237633352</SpouseSSN>
+      <NameLine1Txt>Jessica Patel</NameLine1Txt>
+      <SpouseNameLine1Txt>Dennis Patel</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4376 BLAKE SQUARES</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>237633352</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">59000</WagesAmt>
+      <WagesSalariesAndTipsAmt>59000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">194</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>59194</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>59194</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34094</TaxableIncomeAmt>
+      <TaxAmt>3693</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3693</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3693</TaxLessCreditsAmt>
+      <TotalTaxAmt>3693</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7080</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7080</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7080</TotalPaymentsAmt>
+      <OverpaidAmt>3387</OverpaidAmt>
+      <RefundAmt>3387</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>194</InterestAmt>
+      <TotalInterestAmt>194</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>500145402</EmployeeSSN>
+      <EmployerEIN>599650663</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6495 Noah Loaf</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Patel</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6495 Noah Loaf</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59000</WagesAmt>
+      <WithholdingAmt>7080</WithholdingAmt>
+      <SocialSecurityWagesAmt>59000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3658</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>856</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

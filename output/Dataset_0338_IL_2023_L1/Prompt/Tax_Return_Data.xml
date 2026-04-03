@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-06-03</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>69402</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>694022745</PrimarySSN>
+      <NameLine1Txt>Lance Smith</NameLine1Txt>
+      <PrimaryNameControlTxt>LANC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>353 STRICKLAND TRAIL</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">72700</WagesAmt>
+      <WagesSalariesAndTipsAmt>72700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>72700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>72700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>58850</TaxableIncomeAmt>
+      <TaxAmt>8254</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8254</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8254</TaxLessCreditsAmt>
+      <TotalTaxAmt>8254</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8724</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8724</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8724</TotalPaymentsAmt>
+      <OverpaidAmt>470</OverpaidAmt>
+      <RefundAmt>470</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>694022745</EmployeeSSN>
+      <EmployerEIN>623284923</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6016 Lewis Skyway</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lance Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6016 Lewis Skyway</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>72700</WagesAmt>
+      <WithholdingAmt>8724</WithholdingAmt>
+      <SocialSecurityWagesAmt>72700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4507</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>72700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1054</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

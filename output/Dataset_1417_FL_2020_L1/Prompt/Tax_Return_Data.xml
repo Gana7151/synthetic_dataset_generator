@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-08-20</PrimaryBirthDt>
+      <SpouseBirthDt>1970-02-06</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27414</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>22596</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>274140160</PrimarySSN>
+      <SpouseSSN>225969082</SpouseSSN>
+      <NameLine1Txt>Regina Young</NameLine1Txt>
+      <SpouseNameLine1Txt>Kayla Young</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>REGI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KAYL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4092 MONICA CENTERS</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>225969082</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">71400</WagesAmt>
+      <WagesSalariesAndTipsAmt>71400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">253</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>71653</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>71653</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>46853</TaxableIncomeAmt>
+      <TaxAmt>5227</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5227</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5227</TaxLessCreditsAmt>
+      <TotalTaxAmt>5227</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8568</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8568</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8568</TotalPaymentsAmt>
+      <OverpaidAmt>3341</OverpaidAmt>
+      <RefundAmt>3341</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>253</InterestAmt>
+      <TotalInterestAmt>253</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>225969082</EmployeeSSN>
+      <EmployerEIN>654541146</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7401 Smith Rue</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kayla Young</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7401 Smith Rue</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71400</WagesAmt>
+      <WithholdingAmt>8568</WithholdingAmt>
+      <SocialSecurityWagesAmt>71400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4427</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1035</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

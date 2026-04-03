@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-01-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27994</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>279942446</PrimarySSN>
+      <NameLine1Txt>Richard Nelson</NameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5549 JEFFREY EXTENSIONS</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Benjamin</DependentFirstNm>
+        <DependentLastNm>Nelson</DependentLastNm>
+        <DependentNameControlTxt>BENJ</DependentNameControlTxt>
+        <DependentSSN>102251633</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Michelle</DependentFirstNm>
+        <DependentLastNm>Nelson</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>444745846</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">204990</WagesAmt>
+      <WagesSalariesAndTipsAmt>204990</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1956</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1639</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">36631</BusinessIncomeAmt>
+      <TotalIncomeAmt>245216</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>235357</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>23625</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7326</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>30951</TotalDeductionsAmt>
+      <TaxableIncomeAmt>204406</TaxableIncomeAmt>
+      <TaxAmt>40734</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2650</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2650</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>40734</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38084</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">981</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>981</TotalOtherTaxesAmt>
+      <TotalTaxAmt>39414</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>45098</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>45098</WithholdingTaxAmt>
+      <TotalPaymentsAmt>45098</TotalPaymentsAmt>
+      <OverpaidAmt>5684</OverpaidAmt>
+      <RefundAmt>5684</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">981</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>981</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1956</InterestAmt>
+      <TotalInterestAmt>1956</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1639</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1639</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>9368</DeductionAmt>
+      </TipsDeduction>
+      <TotalSchedule1AAmt>9368</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Nelson's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>NELS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>52000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>52000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>704</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>274</CarAndTruckExpensesAmt>
+      <InsuranceAmt>453</InsuranceAmt>
+      <OfficeExpensesAmt>773</OfficeExpensesAmt>
+      <SuppliesAmt>1387</SuppliesAmt>
+      <UtilitiesAmt>395</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10083</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14069</TotalExpensesAmt>
+      <NetProfitOrLossAmt>36631</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>36631</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>36631</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>33829</SEBaseAmt>
+      <SelfEmploymentTaxAmt>981</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>491</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Benjamin Nelson</ChildFirstAndLastName>
+        <ChildSSN>102251633</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michelle Nelson</ChildFirstAndLastName>
+        <ChildSSN>444745846</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2650</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2650</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>36631</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>36631</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7326</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Nelson's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1300</DepreciationAmt>
+      <TotalDepreciationAmt>1300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>279942446</EmployeeSSN>
+      <EmployerEIN>278270826</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6513 Alexis Glen</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Nelson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6513 Alexis Glen</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>204990</WagesAmt>
+      <WithholdingAmt>45098</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>204990</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2972</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>18890</SocialSecurityTipsAmt>
+      <StateDisabilityInsuranceAmt>2255</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

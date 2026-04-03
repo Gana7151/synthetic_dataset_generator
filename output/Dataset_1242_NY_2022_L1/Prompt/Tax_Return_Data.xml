@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-06-08</PrimaryBirthDt>
+      <SpouseBirthDt>1977-09-25</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33212</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>38061</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>332127624</PrimarySSN>
+      <SpouseSSN>380619326</SpouseSSN>
+      <NameLine1Txt>Gary Davis</NameLine1Txt>
+      <SpouseNameLine1Txt>Karen Davis</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>GARY</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KARE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1891 BRIAN LIGHT</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>380619326</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">60500</WagesAmt>
+      <WagesSalariesAndTipsAmt>60500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">442</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>60942</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>60942</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>35042</TaxableIncomeAmt>
+      <TaxAmt>3794</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3794</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3794</TaxLessCreditsAmt>
+      <TotalTaxAmt>3794</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7260</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7260</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7260</TotalPaymentsAmt>
+      <OverpaidAmt>3466</OverpaidAmt>
+      <RefundAmt>3466</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>442</InterestAmt>
+      <TotalInterestAmt>442</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>332127624</EmployeeSSN>
+      <EmployerEIN>938082172</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7259 Reilly Street</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gary Davis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7259 Reilly Street</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60500</WagesAmt>
+      <WithholdingAmt>7260</WithholdingAmt>
+      <SocialSecurityWagesAmt>60500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3751</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>877</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-03-28</PrimaryBirthDt>
+      <SpouseBirthDt>1990-05-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66734</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>23473</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>667349431</PrimarySSN>
+      <SpouseSSN>234736314</SpouseSSN>
+      <NameLine1Txt>Joshua Wall</NameLine1Txt>
+      <SpouseNameLine1Txt>Michelle Wall</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOSH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1706 LOPEZ CIRCLE</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>234736314</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">224600</WagesAmt>
+      <WagesSalariesAndTipsAmt>224600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">529</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2034</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">48766</BusinessIncomeAmt>
+      <TotalIncomeAmt>275929</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>275276</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9753</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35653</TotalDeductionsAmt>
+      <TaxableIncomeAmt>239623</TaxableIncomeAmt>
+      <TaxAmt>45181</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>45181</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>45181</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1306</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1306</TotalOtherTaxesAmt>
+      <TotalTaxAmt>46663</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>44102</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>44102</WithholdingTaxAmt>
+      <TotalPaymentsAmt>44102</TotalPaymentsAmt>
+      <AmountOwedAmt>2561</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1306</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1306</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>529</InterestAmt>
+      <TotalInterestAmt>529</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2034</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2034</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>77500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>77500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2562</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1626</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1472</InsuranceAmt>
+      <OfficeExpensesAmt>1797</OfficeExpensesAmt>
+      <SuppliesAmt>1476</SuppliesAmt>
+      <UtilitiesAmt>1284</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16317</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>26534</TotalExpensesAmt>
+      <NetProfitOrLossAmt>48766</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>48766</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>48766</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>45035</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1306</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>653</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>48766</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>48766</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9753</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2200</DepreciationAmt>
+      <TotalDepreciationAmt>2200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>667349431</EmployeeSSN>
+      <EmployerEIN>855812986</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6853 Shelly Vista</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joshua Wall</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6853 Shelly Vista</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>53100</WagesAmt>
+      <WithholdingAmt>6372</WithholdingAmt>
+      <SocialSecurityWagesAmt>53100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3292</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>53100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>770</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>234736314</EmployeeSSN>
+      <EmployerEIN>661387787</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>934 Shelly Extension</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michelle Wall</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>934 Shelly Extension</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>171500</WagesAmt>
+      <WithholdingAmt>37730</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>171500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2487</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

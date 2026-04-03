@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-08-04</PrimaryBirthDt>
+      <SpouseBirthDt>1955-12-04</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>84486</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>25176</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>844866001</PrimarySSN>
+      <SpouseSSN>251760500</SpouseSSN>
+      <NameLine1Txt>Joseph Cook</NameLine1Txt>
+      <SpouseNameLine1Txt>Debbie Cook</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOSE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DEBB</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7693 CALEB VIA</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>251760500</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patrick</DependentFirstNm>
+        <DependentLastNm>Cook</DependentLastNm>
+        <DependentNameControlTxt>PATR</DependentNameControlTxt>
+        <DependentSSN>300660696</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Cook</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>155603756</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Cook</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>469684515</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lauren</DependentFirstNm>
+        <DependentLastNm>Cook</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>279153221</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">125100</WagesAmt>
+      <WagesSalariesAndTipsAmt>125100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">558</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1949</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">87755</BusinessIncomeAmt>
+      <TotalIncomeAmt>215362</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>213089</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17551</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>42651</TotalDeductionsAmt>
+      <TaxableIncomeAmt>170438</TaxableIncomeAmt>
+      <TaxAmt>28993</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">9450</ChildTaxCreditAmt>
+      <TotalCreditsAmt>9450</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>28993</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>19543</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4545</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4545</TotalOtherTaxesAmt>
+      <TotalTaxAmt>24088</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>20016</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>20016</WithholdingTaxAmt>
+      <TotalPaymentsAmt>20016</TotalPaymentsAmt>
+      <AmountOwedAmt>4072</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4545</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4545</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>558</InterestAmt>
+      <TotalInterestAmt>558</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1949</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1949</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>128400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>128400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3759</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>955</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2865</InsuranceAmt>
+      <OfficeExpensesAmt>3915</OfficeExpensesAmt>
+      <SuppliesAmt>4655</SuppliesAmt>
+      <UtilitiesAmt>2176</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>22320</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>40645</TotalExpensesAmt>
+      <NetProfitOrLossAmt>87755</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>87755</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>87755</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>81042</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4545</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2273</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patrick Cook</ChildFirstAndLastName>
+        <ChildSSN>300660696</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Cook</ChildFirstAndLastName>
+        <ChildSSN>155603756</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Cook</ChildFirstAndLastName>
+        <ChildSSN>469684515</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lauren Cook</ChildFirstAndLastName>
+        <ChildSSN>279153221</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>9450</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>9450</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>87755</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>87755</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17551</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>251760500</EmployeeSSN>
+      <EmployerEIN>598145557</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7136 Ramirez Viaduct</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Debbie Cook</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7136 Ramirez Viaduct</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>125100</WagesAmt>
+      <WithholdingAmt>20016</WithholdingAmt>
+      <SocialSecurityWagesAmt>125100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7756</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>125100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1814</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

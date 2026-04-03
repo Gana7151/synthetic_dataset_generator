@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1960-09-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50981</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>509812072</PrimarySSN>
+      <NameLine1Txt>Rodney Winters</NameLine1Txt>
+      <PrimaryNameControlTxt>RODN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3769 SMITH TERRACE</AddressLine1Txt>
+        <CityNm>NAPERVILLE</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">55200</WagesAmt>
+      <WagesSalariesAndTipsAmt>55200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">195</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>55395</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>55395</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>41545</TaxableIncomeAmt>
+      <TaxAmt>4765</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4765</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4765</TaxLessCreditsAmt>
+      <TotalTaxAmt>4765</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6624</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6624</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6624</TotalPaymentsAmt>
+      <OverpaidAmt>1859</OverpaidAmt>
+      <RefundAmt>1859</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>195</InterestAmt>
+      <TotalInterestAmt>195</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>509812072</EmployeeSSN>
+      <EmployerEIN>413554977</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8912 Danielle Hills</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rodney Winters</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8912 Danielle Hills</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>55200</WagesAmt>
+      <WithholdingAmt>6624</WithholdingAmt>
+      <SocialSecurityWagesAmt>55200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3422</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>55200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>800</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

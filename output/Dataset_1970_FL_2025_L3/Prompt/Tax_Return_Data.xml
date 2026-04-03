@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-06-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>82353</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>823537158</PrimarySSN>
+      <NameLine1Txt>Barbara Scott</NameLine1Txt>
+      <PrimaryNameControlTxt>BARB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>606 MATTHEW TRACE</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kimberly</DependentFirstNm>
+        <DependentLastNm>Scott</DependentLastNm>
+        <DependentNameControlTxt>KIMB</DependentNameControlTxt>
+        <DependentSSN>391855967</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Scott</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>557376418</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">132300</WagesAmt>
+      <WagesSalariesAndTipsAmt>132300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1519</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">605</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">107389</BusinessIncomeAmt>
+      <TotalIncomeAmt>241812</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>237659</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">21478</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37228</TotalDeductionsAmt>
+      <TaxableIncomeAmt>200431</TaxableIncomeAmt>
+      <TaxAmt>41201</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2550</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2550</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>41201</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38651</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8307</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8307</TotalOtherTaxesAmt>
+      <TotalTaxAmt>47241</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21168</TotalPaymentsAmt>
+      <AmountOwedAmt>26073</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8307</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8307</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1519</InterestAmt>
+      <TotalInterestAmt>1519</TotalInterestAmt>
+      <OrdinaryDividendsAmt>605</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>605</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Scott's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SCOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>148200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>148200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2697</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>612</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1828</InsuranceAmt>
+      <OfficeExpensesAmt>2510</OfficeExpensesAmt>
+      <SuppliesAmt>3564</SuppliesAmt>
+      <UtilitiesAmt>1823</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>26777</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>39811</TotalExpensesAmt>
+      <NetProfitOrLossAmt>107389</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>107389</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>107389</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>99174</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8307</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4154</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kimberly Scott</ChildFirstAndLastName>
+        <ChildSSN>391855967</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Scott</ChildFirstAndLastName>
+        <ChildSSN>557376418</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2550</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2550</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>107389</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>107389</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>21478</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Scott's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1000</DepreciationAmt>
+      <TotalDepreciationAmt>1000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>823537158</EmployeeSSN>
+      <EmployerEIN>463142158</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9681 Michael Wells</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Barbara Scott</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9681 Michael Wells</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>132300</WagesAmt>
+      <WithholdingAmt>21168</WithholdingAmt>
+      <SocialSecurityWagesAmt>132300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8203</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>132300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1918</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

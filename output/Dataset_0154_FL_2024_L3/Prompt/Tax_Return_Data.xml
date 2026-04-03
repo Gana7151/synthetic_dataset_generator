@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-02-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27993</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>279933892</PrimarySSN>
+      <NameLine1Txt>Ann Rodriguez</NameLine1Txt>
+      <PrimaryNameControlTxt>ANN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2271 VEGA CIRCLE</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Rodriguez</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>470996080</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">137000</WagesAmt>
+      <WagesSalariesAndTipsAmt>137000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1321</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1801</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">47044</BusinessIncomeAmt>
+      <TotalIncomeAmt>187166</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>184577</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9409</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24009</TotalDeductionsAmt>
+      <TaxableIncomeAmt>160568</TaxableIncomeAmt>
+      <TaxAmt>31579</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>31579</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>29579</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5178</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5178</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34757</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21920</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21920</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21920</TotalPaymentsAmt>
+      <AmountOwedAmt>12837</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5178</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5178</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1321</InterestAmt>
+      <TotalInterestAmt>1321</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1801</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1801</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1228</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1407</CarAndTruckExpensesAmt>
+      <InsuranceAmt>629</InsuranceAmt>
+      <OfficeExpensesAmt>1338</OfficeExpensesAmt>
+      <SuppliesAmt>1710</SuppliesAmt>
+      <UtilitiesAmt>724</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8220</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15256</TotalExpensesAmt>
+      <NetProfitOrLossAmt>47044</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>47044</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>47044</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>43445</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5178</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2589</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Rodriguez</ChildFirstAndLastName>
+        <ChildSSN>470996080</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>47044</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>47044</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9409</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>279933892</EmployeeSSN>
+      <EmployerEIN>836557208</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4897 Kimberly Oval</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ann Rodriguez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4897 Kimberly Oval</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>137000</WagesAmt>
+      <WithholdingAmt>21920</WithholdingAmt>
+      <SocialSecurityWagesAmt>137000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8494</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>137000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1986</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

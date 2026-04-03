@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-01-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87471</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>874714452</PrimarySSN>
+      <NameLine1Txt>Amy Peters</NameLine1Txt>
+      <PrimaryNameControlTxt>AMY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4666 LOPEZ TRACE</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Peters</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>706384954</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sara</DependentFirstNm>
+        <DependentLastNm>Peters</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>310875187</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Maria</DependentFirstNm>
+        <DependentLastNm>Peters</DependentLastNm>
+        <DependentNameControlTxt>MARI</DependentNameControlTxt>
+        <DependentSSN>495729385</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">42900</WagesAmt>
+      <WagesSalariesAndTipsAmt>42900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">993</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">931</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85132</BusinessIncomeAmt>
+      <TotalIncomeAmt>129956</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>123942</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17026</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35826</TotalDeductionsAmt>
+      <TaxableIncomeAmt>88116</TaxableIncomeAmt>
+      <TaxAmt>13717</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">9050</ChildTaxCreditAmt>
+      <TotalCreditsAmt>9050</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13717</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4667</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">12029</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>12029</TotalOtherTaxesAmt>
+      <TotalTaxAmt>16695</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5148</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5148</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5148</TotalPaymentsAmt>
+      <AmountOwedAmt>11547</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">12029</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>12029</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>993</InterestAmt>
+      <TotalInterestAmt>993</TotalInterestAmt>
+      <OrdinaryDividendsAmt>931</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>931</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>131400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>131400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4170</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3154</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2128</InsuranceAmt>
+      <OfficeExpensesAmt>2752</OfficeExpensesAmt>
+      <SuppliesAmt>4733</SuppliesAmt>
+      <UtilitiesAmt>1664</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23267</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>41868</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85132</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85132</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85132</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78619</SEBaseAmt>
+      <SelfEmploymentTaxAmt>12029</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6014</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Peters</ChildFirstAndLastName>
+        <ChildSSN>706384954</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sara Peters</ChildFirstAndLastName>
+        <ChildSSN>310875187</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Maria Peters</ChildFirstAndLastName>
+        <ChildSSN>495729385</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>9050</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>9050</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85132</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85132</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17026</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4400</DepreciationAmt>
+      <TotalDepreciationAmt>4400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>874714452</EmployeeSSN>
+      <EmployerEIN>653339153</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3599 William Isle</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amy Peters</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3599 William Isle</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>42900</WagesAmt>
+      <WithholdingAmt>5148</WithholdingAmt>
+      <SocialSecurityWagesAmt>42900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2660</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>42900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>622</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

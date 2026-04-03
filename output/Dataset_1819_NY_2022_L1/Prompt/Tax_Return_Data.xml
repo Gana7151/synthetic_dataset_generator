@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-10-28</PrimaryBirthDt>
+      <SpouseBirthDt>1993-01-20</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>30029</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34093</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>300294667</PrimarySSN>
+      <SpouseSSN>340936032</SpouseSSN>
+      <NameLine1Txt>Nicole Farley</NameLine1Txt>
+      <SpouseNameLine1Txt>Eileen Farley</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>NICO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>EILE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4924 PRICE GROVE</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>340936032</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">55200</WagesAmt>
+      <WagesSalariesAndTipsAmt>55200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>55200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>55200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>29300</TaxableIncomeAmt>
+      <TaxAmt>3105</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3105</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3105</TaxLessCreditsAmt>
+      <TotalTaxAmt>3105</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6624</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6624</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6624</TotalPaymentsAmt>
+      <OverpaidAmt>3519</OverpaidAmt>
+      <RefundAmt>3519</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>340936032</EmployeeSSN>
+      <EmployerEIN>133256243</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6957 Bethany Unions</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Eileen Farley</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6957 Bethany Unions</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>55200</WagesAmt>
+      <WithholdingAmt>6624</WithholdingAmt>
+      <SocialSecurityWagesAmt>55200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3422</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>55200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>800</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

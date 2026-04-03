@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1990-11-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>17556</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>175564640</PrimarySSN>
+      <NameLine1Txt>Amber Anderson</NameLine1Txt>
+      <PrimaryNameControlTxt>AMBE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>419 MATTHEW WAY</AddressLine1Txt>
+        <CityNm>ROCKFORD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">33000</WagesAmt>
+      <WagesSalariesAndTipsAmt>33000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>33000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>33000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>20450</TaxableIncomeAmt>
+      <TaxAmt>2255</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2255</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2255</TaxLessCreditsAmt>
+      <TotalTaxAmt>2255</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2640</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2640</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2640</TotalPaymentsAmt>
+      <OverpaidAmt>385</OverpaidAmt>
+      <RefundAmt>385</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>175564640</EmployeeSSN>
+      <EmployerEIN>944512593</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>922 Jennifer Underpass</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amber Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>922 Jennifer Underpass</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>33000</WagesAmt>
+      <WithholdingAmt>2640</WithholdingAmt>
+      <SocialSecurityWagesAmt>33000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2046</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>33000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>478</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

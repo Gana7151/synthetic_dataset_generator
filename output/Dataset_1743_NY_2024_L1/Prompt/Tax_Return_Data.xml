@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1996-09-14</PrimaryBirthDt>
+      <SpouseBirthDt>1954-09-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11866</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>29333</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>118665147</PrimarySSN>
+      <SpouseSSN>293334726</SpouseSSN>
+      <NameLine1Txt>Teresa Hanna</NameLine1Txt>
+      <SpouseNameLine1Txt>Stephanie Hanna</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TERE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>STEP</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1490 MITCHELL PLAZA</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>293334726</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">61700</WagesAmt>
+      <WagesSalariesAndTipsAmt>61700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>61700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>32500</TaxableIncomeAmt>
+      <TaxAmt>3436</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3436</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3436</TaxLessCreditsAmt>
+      <TotalTaxAmt>3436</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7404</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7404</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7404</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>293334726</EmployeeSSN>
+      <EmployerEIN>552948585</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1600 Christian Cliff</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephanie Hanna</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1600 Christian Cliff</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>61700</WagesAmt>
+      <WithholdingAmt>7404</WithholdingAmt>
+      <SocialSecurityWagesAmt>61700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3825</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>61700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>895</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-03-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27650</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>276506939</PrimarySSN>
+      <NameLine1Txt>Sergio Shea</NameLine1Txt>
+      <PrimaryNameControlTxt>SERG</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7492 EDWARDS COURTS</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">46800</WagesAmt>
+      <WagesSalariesAndTipsAmt>46800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>46800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>46800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34400</TaxableIncomeAmt>
+      <TaxAmt>3930</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3930</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3930</TaxLessCreditsAmt>
+      <TotalTaxAmt>3930</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5616</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5616</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5616</TotalPaymentsAmt>
+      <OverpaidAmt>1686</OverpaidAmt>
+      <RefundAmt>1686</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>276506939</EmployeeSSN>
+      <EmployerEIN>126479968</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8207 Brandy Streets</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sergio Shea</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8207 Brandy Streets</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46800</WagesAmt>
+      <WithholdingAmt>5616</WithholdingAmt>
+      <SocialSecurityWagesAmt>46800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2902</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>679</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

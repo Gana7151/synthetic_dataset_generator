@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-05-25</PrimaryBirthDt>
+      <SpouseBirthDt>1969-01-01</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>30428</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>62074</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>304283186</PrimarySSN>
+      <SpouseSSN>620740837</SpouseSSN>
+      <NameLine1Txt>Destiny White</NameLine1Txt>
+      <SpouseNameLine1Txt>Matthew White</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>DEST</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MATT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>572 ESPINOZA STRAVENUE</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>620740837</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>670616671</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Eric</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>ERIC</DependentNameControlTxt>
+        <DependentSSN>575253419</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Randy</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>RAND</DependentNameControlTxt>
+        <DependentSSN>785523277</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Alejandra</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>ALEJ</DependentNameControlTxt>
+        <DependentSSN>387140115</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">388100</WagesAmt>
+      <WagesSalariesAndTipsAmt>388100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">639</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2696</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">74836</BusinessIncomeAmt>
+      <TotalIncomeAmt>466270</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>465268</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14967</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>46467</TotalDeductionsAmt>
+      <TaxableIncomeAmt>418801</TaxableIncomeAmt>
+      <TaxAmt>88142</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5550</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5550</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>88142</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>82592</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2004</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2004</TotalOtherTaxesAmt>
+      <TotalTaxAmt>86461</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>85382</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>85382</WithholdingTaxAmt>
+      <TotalPaymentsAmt>85382</TotalPaymentsAmt>
+      <AmountOwedAmt>1079</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2004</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2004</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>639</InterestAmt>
+      <TotalInterestAmt>639</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2696</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2696</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>112500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>112500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2624</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1991</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2445</InsuranceAmt>
+      <OfficeExpensesAmt>3354</OfficeExpensesAmt>
+      <SuppliesAmt>3639</SuppliesAmt>
+      <UtilitiesAmt>1880</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20031</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>35964</TotalExpensesAmt>
+      <NetProfitOrLossAmt>74836</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>74836</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>74836</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>69111</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2004</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1002</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>John White</ChildFirstAndLastName>
+        <ChildSSN>670616671</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Eric White</ChildFirstAndLastName>
+        <ChildSSN>575253419</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Randy White</ChildFirstAndLastName>
+        <ChildSSN>785523277</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Alejandra White</ChildFirstAndLastName>
+        <ChildSSN>387140115</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5550</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5550</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>74836</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>74836</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14967</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1700</DepreciationAmt>
+      <TotalDepreciationAmt>1700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>304283186</EmployeeSSN>
+      <EmployerEIN>202794422</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4413 Morrison Ridge</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Destiny White</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4413 Morrison Ridge</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>199500</WagesAmt>
+      <WithholdingAmt>43890</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>199500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2893</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>620740837</EmployeeSSN>
+      <EmployerEIN>819148176</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3677 King Keys</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Matthew White</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3677 King Keys</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>188600</WagesAmt>
+      <WithholdingAmt>41492</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>188600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2735</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

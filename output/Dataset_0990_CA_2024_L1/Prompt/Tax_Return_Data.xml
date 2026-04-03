@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-09-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>69191</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>691914196</PrimarySSN>
+      <NameLine1Txt>Lauren Hunter</NameLine1Txt>
+      <PrimaryNameControlTxt>LAUR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1102 COLE VILLE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">80600</WagesAmt>
+      <WagesSalariesAndTipsAmt>80600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>80600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>80600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>66000</TaxableIncomeAmt>
+      <TaxAmt>9573</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9573</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9573</TaxLessCreditsAmt>
+      <TotalTaxAmt>9573</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>12896</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>12896</WithholdingTaxAmt>
+      <TotalPaymentsAmt>12896</TotalPaymentsAmt>
+      <OverpaidAmt>3323</OverpaidAmt>
+      <RefundAmt>3323</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>691914196</EmployeeSSN>
+      <EmployerEIN>548980438</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4566 Melissa Cliff</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lauren Hunter</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4566 Melissa Cliff</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>80600</WagesAmt>
+      <WithholdingAmt>12896</WithholdingAmt>
+      <SocialSecurityWagesAmt>80600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4997</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>80600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1169</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>887</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

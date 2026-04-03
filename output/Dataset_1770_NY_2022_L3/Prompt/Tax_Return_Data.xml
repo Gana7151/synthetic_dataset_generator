@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-09-04</PrimaryBirthDt>
+      <SpouseBirthDt>1975-08-26</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74492</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>38793</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>744929788</PrimarySSN>
+      <SpouseSSN>387936245</SpouseSSN>
+      <NameLine1Txt>Bethany Rodriguez</NameLine1Txt>
+      <SpouseNameLine1Txt>Jennifer Rodriguez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BETH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3083 BALLARD DRIVE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>387936245</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">186700</WagesAmt>
+      <WagesSalariesAndTipsAmt>186700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2112</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">803</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">44051</BusinessIncomeAmt>
+      <TotalIncomeAmt>233666</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>233076</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8810</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34710</TotalDeductionsAmt>
+      <TaxableIncomeAmt>198366</TaxableIncomeAmt>
+      <TaxAmt>35279</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>35279</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>35279</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1180</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1180</TotalOtherTaxesAmt>
+      <TotalTaxAmt>36459</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>41074</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>41074</WithholdingTaxAmt>
+      <TotalPaymentsAmt>41074</TotalPaymentsAmt>
+      <OverpaidAmt>4615</OverpaidAmt>
+      <RefundAmt>4615</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1180</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1180</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2112</InterestAmt>
+      <TotalInterestAmt>2112</TotalInterestAmt>
+      <OrdinaryDividendsAmt>803</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>803</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Rodriguez's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>RODR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>64700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>64700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1364</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2547</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1140</InsuranceAmt>
+      <OfficeExpensesAmt>1334</OfficeExpensesAmt>
+      <SuppliesAmt>1459</SuppliesAmt>
+      <UtilitiesAmt>818</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10887</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>19549</TotalExpensesAmt>
+      <NetProfitOrLossAmt>44051</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>44051</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>44051</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>40681</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1180</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>590</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>44051</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>44051</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8810</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Rodriguez's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1100</DepreciationAmt>
+      <TotalDepreciationAmt>1100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>387936245</EmployeeSSN>
+      <EmployerEIN>239642680</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7961 Erickson Branch</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jennifer Rodriguez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7961 Erickson Branch</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>186700</WagesAmt>
+      <WithholdingAmt>41074</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>186700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2707</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

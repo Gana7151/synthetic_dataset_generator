@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-07-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>30711</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>307112606</PrimarySSN>
+      <NameLine1Txt>Stephanie Graham</NameLine1Txt>
+      <PrimaryNameControlTxt>STEP</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3552 HARDY MALL</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84300</WagesAmt>
+      <WagesSalariesAndTipsAmt>84300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">413</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">187</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">108975</BusinessIncomeAmt>
+      <TotalIncomeAmt>193875</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>187710</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">21795</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35645</TotalDeductionsAmt>
+      <TaxableIncomeAmt>152065</TaxableIncomeAmt>
+      <TaxAmt>29896</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>29896</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>29896</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">12330</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>12330</TotalOtherTaxesAmt>
+      <TotalTaxAmt>42226</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13488</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13488</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13488</TotalPaymentsAmt>
+      <AmountOwedAmt>28738</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">12330</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>12330</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>413</InterestAmt>
+      <TotalInterestAmt>413</TotalInterestAmt>
+      <OrdinaryDividendsAmt>187</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>187</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Graham's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>GRAH</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>138800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>138800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2131</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2890</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1066</InsuranceAmt>
+      <OfficeExpensesAmt>1739</OfficeExpensesAmt>
+      <SuppliesAmt>1709</SuppliesAmt>
+      <UtilitiesAmt>994</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19296</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29825</TotalExpensesAmt>
+      <NetProfitOrLossAmt>108975</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>108975</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>108975</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>100638</SEBaseAmt>
+      <SelfEmploymentTaxAmt>12330</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6165</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>108975</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>108975</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>21795</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>307112606</EmployeeSSN>
+      <EmployerEIN>594509496</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>961 Watson Motorway</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephanie Graham</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>961 Watson Motorway</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84300</WagesAmt>
+      <WithholdingAmt>13488</WithholdingAmt>
+      <SocialSecurityWagesAmt>84300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5227</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1222</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>927</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

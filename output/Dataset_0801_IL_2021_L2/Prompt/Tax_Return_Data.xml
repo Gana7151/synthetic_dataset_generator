@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-12-05</PrimaryBirthDt>
+      <SpouseBirthDt>1977-10-20</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>25054</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>35537</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>250545460</PrimarySSN>
+      <SpouseSSN>355373584</SpouseSSN>
+      <NameLine1Txt>James Lee</NameLine1Txt>
+      <SpouseNameLine1Txt>Karen Lee</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KARE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5153 JAMES CAMP</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>355373584</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Megan</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>MEGA</DependentNameControlTxt>
+        <DependentSSN>728863460</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Amy</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>AMY</DependentNameControlTxt>
+        <DependentSSN>620251725</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mark</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>MARK</DependentNameControlTxt>
+        <DependentSSN>322047301</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">79400</WagesAmt>
+      <WagesSalariesAndTipsAmt>79400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">540</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1566</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">25750</BusinessIncomeAmt>
+      <TotalIncomeAmt>107256</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>105437</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5150</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>30250</TotalDeductionsAmt>
+      <TaxableIncomeAmt>75187</TaxableIncomeAmt>
+      <TaxAmt>8624</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8624</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8624</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8624</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3638</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3638</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3638</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8076</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8076</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8076</TotalPaymentsAmt>
+      <OverpaidAmt>4438</OverpaidAmt>
+      <RefundAmt>4438</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3638</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3638</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>540</InterestAmt>
+      <TotalInterestAmt>540</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1566</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1566</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Lee's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>LEE'</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1204</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>9</CarAndTruckExpensesAmt>
+      <InsuranceAmt>558</InsuranceAmt>
+      <OfficeExpensesAmt>578</OfficeExpensesAmt>
+      <SuppliesAmt>1163</SuppliesAmt>
+      <UtilitiesAmt>641</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7197</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11350</TotalExpensesAmt>
+      <NetProfitOrLossAmt>25750</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>25750</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>25750</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23780</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3638</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1819</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Megan Lee</ChildFirstAndLastName>
+        <ChildSSN>728863460</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amy Lee</ChildFirstAndLastName>
+        <ChildSSN>620251725</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mark Lee</ChildFirstAndLastName>
+        <ChildSSN>322047301</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8624</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8624</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>25750</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>25750</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5150</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Lee's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4700</DepreciationAmt>
+      <TotalDepreciationAmt>4700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>250545460</EmployeeSSN>
+      <EmployerEIN>928454608</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9339 Jeffrey Manors</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Lee</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9339 Jeffrey Manors</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>43100</WagesAmt>
+      <WithholdingAmt>5172</WithholdingAmt>
+      <SocialSecurityWagesAmt>43100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2672</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>43100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>625</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>355373584</EmployeeSSN>
+      <EmployerEIN>942802162</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6093 Silva Dam</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Karen Lee</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6093 Silva Dam</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>36300</WagesAmt>
+      <WithholdingAmt>2904</WithholdingAmt>
+      <SocialSecurityWagesAmt>36300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2251</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>36300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>526</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

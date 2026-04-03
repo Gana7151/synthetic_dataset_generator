@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-10-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29025</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>290251299</PrimarySSN>
+      <NameLine1Txt>Sean Flowers</NameLine1Txt>
+      <PrimaryNameControlTxt>SEAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4310 ELIZABETH DIVIDE</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">106100</WagesAmt>
+      <WagesSalariesAndTipsAmt>106100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">860</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">626</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">31048</BusinessIncomeAmt>
+      <TotalIncomeAmt>138634</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>136441</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6210</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18760</TotalDeductionsAmt>
+      <TaxableIncomeAmt>117681</TaxableIncomeAmt>
+      <TaxAmt>22264</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>22264</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>22264</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4387</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4387</TotalOtherTaxesAmt>
+      <TotalTaxAmt>26651</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16976</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16976</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16976</TotalPaymentsAmt>
+      <AmountOwedAmt>9675</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4387</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4387</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>860</InterestAmt>
+      <TotalInterestAmt>860</TotalInterestAmt>
+      <OrdinaryDividendsAmt>626</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>626</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>43800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>43800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1361</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>357</CarAndTruckExpensesAmt>
+      <InsuranceAmt>526</InsuranceAmt>
+      <OfficeExpensesAmt>985</OfficeExpensesAmt>
+      <SuppliesAmt>1397</SuppliesAmt>
+      <UtilitiesAmt>407</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7719</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12752</TotalExpensesAmt>
+      <NetProfitOrLossAmt>31048</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>31048</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>31048</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>28673</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4387</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2193</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>31048</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>31048</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6210</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>290251299</EmployeeSSN>
+      <EmployerEIN>342604935</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4288 Nolan Centers</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sean Flowers</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4288 Nolan Centers</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>106100</WagesAmt>
+      <WithholdingAmt>16976</WithholdingAmt>
+      <SocialSecurityWagesAmt>106100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6578</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>106100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1538</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1167</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

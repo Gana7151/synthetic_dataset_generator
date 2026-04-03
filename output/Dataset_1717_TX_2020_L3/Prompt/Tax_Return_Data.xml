@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-05-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>40647</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>406476450</PrimarySSN>
+      <NameLine1Txt>Carlos Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>CARL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3145 HARRIS VILLAGE</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Theresa</DependentFirstNm>
+        <DependentLastNm>Navarro</DependentLastNm>
+        <DependentNameControlTxt>THER</DependentNameControlTxt>
+        <DependentSSN>576142105</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">173600</WagesAmt>
+      <WagesSalariesAndTipsAmt>173600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">901</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4465</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">28806</BusinessIncomeAmt>
+      <TotalIncomeAmt>207772</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>207386</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5761</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18161</TotalDeductionsAmt>
+      <TaxableIncomeAmt>189225</TaxableIncomeAmt>
+      <TaxAmt>41568</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1650</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1650</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>41568</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>39918</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">771</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>771</TotalOtherTaxesAmt>
+      <TotalTaxAmt>40691</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>38192</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>38192</WithholdingTaxAmt>
+      <TotalPaymentsAmt>38192</TotalPaymentsAmt>
+      <AmountOwedAmt>2499</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">771</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>771</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>901</InterestAmt>
+      <TotalInterestAmt>901</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4465</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4465</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Navarro's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>NAVA</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>698</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1140</CarAndTruckExpensesAmt>
+      <InsuranceAmt>546</InsuranceAmt>
+      <OfficeExpensesAmt>511</OfficeExpensesAmt>
+      <SuppliesAmt>898</SuppliesAmt>
+      <UtilitiesAmt>242</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5659</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9694</TotalExpensesAmt>
+      <NetProfitOrLossAmt>28806</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>28806</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>28806</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26602</SEBaseAmt>
+      <SelfEmploymentTaxAmt>771</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>386</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Theresa Navarro</ChildFirstAndLastName>
+        <ChildSSN>576142105</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1650</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1650</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>28806</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>28806</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5761</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Navarro's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3000</DepreciationAmt>
+      <TotalDepreciationAmt>3000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>406476450</EmployeeSSN>
+      <EmployerEIN>389737860</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4984 Pope Skyway</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Carlos Navarro</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4984 Pope Skyway</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>173600</WagesAmt>
+      <WithholdingAmt>38192</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>173600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2517</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

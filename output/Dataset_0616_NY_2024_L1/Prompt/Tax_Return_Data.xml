@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-02-09</PrimaryBirthDt>
+      <SpouseBirthDt>1961-08-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>40561</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>54717</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>405611129</PrimarySSN>
+      <SpouseSSN>547177324</SpouseSSN>
+      <NameLine1Txt>Theresa King</NameLine1Txt>
+      <SpouseNameLine1Txt>Maurice King</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>THER</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MAUR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>930 MILLER BURG</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>547177324</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">63900</WagesAmt>
+      <WagesSalariesAndTipsAmt>63900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34700</TaxableIncomeAmt>
+      <TaxAmt>3700</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3700</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3700</TaxLessCreditsAmt>
+      <TotalTaxAmt>3700</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7668</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7668</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7668</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>547177324</EmployeeSSN>
+      <EmployerEIN>664305373</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5332 Heather Walk</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Maurice King</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5332 Heather Walk</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63900</WagesAmt>
+      <WithholdingAmt>7668</WithholdingAmt>
+      <SocialSecurityWagesAmt>63900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3962</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>927</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

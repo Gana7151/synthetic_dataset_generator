@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-03-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>18062</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>180621178</PrimarySSN>
+      <NameLine1Txt>Katherine Robinson</NameLine1Txt>
+      <PrimaryNameControlTxt>KATH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8718 ANDREW COURT</AddressLine1Txt>
+        <CityNm>NAPERVILLE</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">66200</WagesAmt>
+      <WagesSalariesAndTipsAmt>66200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1982</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1853</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37642</BusinessIncomeAmt>
+      <TotalIncomeAmt>107677</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>105018</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7528</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19928</TotalDeductionsAmt>
+      <TaxableIncomeAmt>85090</TaxableIncomeAmt>
+      <TaxAmt>14510</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>14510</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14510</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5319</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5319</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19828</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7944</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7944</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7944</TotalPaymentsAmt>
+      <AmountOwedAmt>11884</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5319</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5319</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1982</InterestAmt>
+      <TotalInterestAmt>1982</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1853</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1853</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>49900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>49900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>613</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1343</CarAndTruckExpensesAmt>
+      <InsuranceAmt>845</InsuranceAmt>
+      <OfficeExpensesAmt>761</OfficeExpensesAmt>
+      <SuppliesAmt>958</SuppliesAmt>
+      <UtilitiesAmt>654</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7084</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12258</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37642</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37642</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37642</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>34762</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5319</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2659</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37642</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37642</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7528</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>180621178</EmployeeSSN>
+      <EmployerEIN>599399595</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3482 Ruiz Inlet</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Katherine Robinson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3482 Ruiz Inlet</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66200</WagesAmt>
+      <WithholdingAmt>7944</WithholdingAmt>
+      <SocialSecurityWagesAmt>66200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4104</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>960</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-08-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81608</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>816086598</PrimarySSN>
+      <NameLine1Txt>Gregory Orozco</NameLine1Txt>
+      <PrimaryNameControlTxt>GREG</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8591 MARTIN MOTORWAY</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Thomas</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>THOM</DependentNameControlTxt>
+        <DependentSSN>115470037</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dylan</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>DYLA</DependentNameControlTxt>
+        <DependentSSN>774222957</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Orozco</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>790211413</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">164400</WagesAmt>
+      <WagesSalariesAndTipsAmt>164400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2395</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1965</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">61299</BusinessIncomeAmt>
+      <TotalIncomeAmt>230059</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>229238</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12260</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31060</TotalDeductionsAmt>
+      <TaxableIncomeAmt>198178</TaxableIncomeAmt>
+      <TaxAmt>42794</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>42794</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38394</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1642</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1642</TotalOtherTaxesAmt>
+      <TotalTaxAmt>40225</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>36168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>36168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>36168</TotalPaymentsAmt>
+      <AmountOwedAmt>4057</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1642</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1642</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2395</InterestAmt>
+      <TotalInterestAmt>2395</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1965</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1965</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Orozco's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>OROZ</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>83800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>83800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2061</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>133</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1340</InsuranceAmt>
+      <OfficeExpensesAmt>1943</OfficeExpensesAmt>
+      <SuppliesAmt>1548</SuppliesAmt>
+      <UtilitiesAmt>837</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14639</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22501</TotalExpensesAmt>
+      <NetProfitOrLossAmt>61299</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>61299</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>61299</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>56610</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1642</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>821</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Thomas Orozco</ChildFirstAndLastName>
+        <ChildSSN>115470037</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dylan Orozco</ChildFirstAndLastName>
+        <ChildSSN>774222957</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Orozco</ChildFirstAndLastName>
+        <ChildSSN>790211413</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>61299</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>61299</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12260</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>816086598</EmployeeSSN>
+      <EmployerEIN>245444428</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6734 Natalie Road</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gregory Orozco</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6734 Natalie Road</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>164400</WagesAmt>
+      <WithholdingAmt>36168</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>164400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2384</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1411</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

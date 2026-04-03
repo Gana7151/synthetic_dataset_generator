@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-03-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68970</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>689706416</PrimarySSN>
+      <NameLine1Txt>Jessica Blackburn</NameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7345 MARY FORGES</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>Blackburn</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>183996758</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Blackburn</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>887520390</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">54500</WagesAmt>
+      <WagesSalariesAndTipsAmt>54500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1966</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1850</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">72410</BusinessIncomeAmt>
+      <TotalIncomeAmt>130726</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>125611</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14482</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27432</TotalDeductionsAmt>
+      <TaxableIncomeAmt>98179</TaxableIncomeAmt>
+      <TaxAmt>17398</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17398</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13398</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10231</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10231</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23630</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6540</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6540</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6540</TotalPaymentsAmt>
+      <AmountOwedAmt>17090</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10231</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10231</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1966</InterestAmt>
+      <TotalInterestAmt>1966</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1850</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1850</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Blackburn's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BLAC</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>97000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>97000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1365</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>974</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1572</InsuranceAmt>
+      <OfficeExpensesAmt>1106</OfficeExpensesAmt>
+      <SuppliesAmt>1574</SuppliesAmt>
+      <UtilitiesAmt>797</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12402</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>19790</TotalExpensesAmt>
+      <NetProfitOrLossAmt>72410</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>72410</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>72410</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>66871</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10231</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5116</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>John Blackburn</ChildFirstAndLastName>
+        <ChildSSN>183996758</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Blackburn</ChildFirstAndLastName>
+        <ChildSSN>887520390</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>72410</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>72410</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14482</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Blackburn's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>689706416</EmployeeSSN>
+      <EmployerEIN>943093722</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7526 Hampton Corners</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Blackburn</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7526 Hampton Corners</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>54500</WagesAmt>
+      <WithholdingAmt>6540</WithholdingAmt>
+      <SocialSecurityWagesAmt>54500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3379</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>54500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>790</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

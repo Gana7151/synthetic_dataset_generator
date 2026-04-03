@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-06-15</PrimaryBirthDt>
+      <SpouseBirthDt>1997-12-26</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>52049</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>15885</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>520496390</PrimarySSN>
+      <SpouseSSN>158852482</SpouseSSN>
+      <NameLine1Txt>Kristen Simpson</NameLine1Txt>
+      <SpouseNameLine1Txt>James Simpson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KRIS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JAME</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2055 CAMPBELL MOUNT</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>158852482</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Robin</DependentFirstNm>
+        <DependentLastNm>Simpson</DependentLastNm>
+        <DependentNameControlTxt>ROBI</DependentNameControlTxt>
+        <DependentSSN>621880174</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Scott</DependentFirstNm>
+        <DependentLastNm>Simpson</DependentLastNm>
+        <DependentNameControlTxt>SCOT</DependentNameControlTxt>
+        <DependentSSN>204207942</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Russell</DependentFirstNm>
+        <DependentLastNm>Simpson</DependentLastNm>
+        <DependentNameControlTxt>RUSS</DependentNameControlTxt>
+        <DependentSSN>148925940</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Roger</DependentFirstNm>
+        <DependentLastNm>Simpson</DependentLastNm>
+        <DependentNameControlTxt>ROGE</DependentNameControlTxt>
+        <DependentSSN>322838685</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">201687</WagesAmt>
+      <WagesSalariesAndTipsAmt>201687</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1324</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">718</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">93831</BusinessIncomeAmt>
+      <TotalIncomeAmt>297560</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>276516</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18766</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>50266</TotalDeductionsAmt>
+      <TaxableIncomeAmt>226250</TaxableIncomeAmt>
+      <TaxAmt>39994</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>39994</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>31194</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2513</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2513</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34052</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>32270</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>32270</WithholdingTaxAmt>
+      <TotalPaymentsAmt>32270</TotalPaymentsAmt>
+      <AmountOwedAmt>1782</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2513</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2513</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1324</InterestAmt>
+      <TotalInterestAmt>1324</TotalInterestAmt>
+      <OrdinaryDividendsAmt>718</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>718</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>8068</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>11720</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>19787</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>138300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>138300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4031</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>5006</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2487</InsuranceAmt>
+      <OfficeExpensesAmt>2852</OfficeExpensesAmt>
+      <SuppliesAmt>3042</SuppliesAmt>
+      <UtilitiesAmt>1352</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23199</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>41969</TotalExpensesAmt>
+      <NetProfitOrLossAmt>93831</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>93831</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>93831</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>86653</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2513</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1256</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robin Simpson</ChildFirstAndLastName>
+        <ChildSSN>621880174</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Scott Simpson</ChildFirstAndLastName>
+        <ChildSSN>204207942</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Russell Simpson</ChildFirstAndLastName>
+        <ChildSSN>148925940</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Roger Simpson</ChildFirstAndLastName>
+        <ChildSSN>322838685</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>93831</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>93831</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18766</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2500</DepreciationAmt>
+      <TotalDepreciationAmt>2500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>520496390</EmployeeSSN>
+      <EmployerEIN>817316069</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1037 Chad Forges</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kristen Simpson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1037 Chad Forges</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>87387</WagesAmt>
+      <WithholdingAmt>13982</WithholdingAmt>
+      <SocialSecurityWagesAmt>87387</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5418</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>87387</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1267</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>8068</SocialSecurityTipsAmt>
+      <OvertimePayAmt>11720</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>158852482</EmployeeSSN>
+      <EmployerEIN>928914876</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9896 Lynn Hills</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Simpson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9896 Lynn Hills</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>114300</WagesAmt>
+      <WithholdingAmt>18288</WithholdingAmt>
+      <SocialSecurityWagesAmt>114300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7087</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>114300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1657</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

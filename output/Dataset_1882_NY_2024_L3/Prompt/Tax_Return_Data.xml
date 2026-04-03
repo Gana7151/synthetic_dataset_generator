@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-08-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>52902</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>529029167</PrimarySSN>
+      <NameLine1Txt>Richard Rowe</NameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9231 DOUGLAS SKYWAY</AddressLine1Txt>
+        <CityNm>ROCHESTER</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Brenda</DependentFirstNm>
+        <DependentLastNm>Rowe</DependentLastNm>
+        <DependentNameControlTxt>BREN</DependentNameControlTxt>
+        <DependentSSN>574662400</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Rowe</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>321587502</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">199200</WagesAmt>
+      <WagesSalariesAndTipsAmt>199200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">429</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1546</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">34387</BusinessIncomeAmt>
+      <TotalIncomeAmt>235562</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>235101</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6877</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21477</TotalDeductionsAmt>
+      <TaxableIncomeAmt>213624</TaxableIncomeAmt>
+      <TaxAmt>46046</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2250</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2250</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>46046</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>43796</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">921</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>921</TotalOtherTaxesAmt>
+      <TotalTaxAmt>44996</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>43824</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>43824</WithholdingTaxAmt>
+      <TotalPaymentsAmt>43824</TotalPaymentsAmt>
+      <AmountOwedAmt>1172</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">921</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>921</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>429</InterestAmt>
+      <TotalInterestAmt>429</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1546</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1546</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>52600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>52600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>837</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>778</CarAndTruckExpensesAmt>
+      <InsuranceAmt>954</InsuranceAmt>
+      <OfficeExpensesAmt>1051</OfficeExpensesAmt>
+      <SuppliesAmt>1556</SuppliesAmt>
+      <UtilitiesAmt>488</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10849</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16513</TotalExpensesAmt>
+      <NetProfitOrLossAmt>34387</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>34387</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>34387</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>31756</SEBaseAmt>
+      <SelfEmploymentTaxAmt>921</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>460</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brenda Rowe</ChildFirstAndLastName>
+        <ChildSSN>574662400</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Rowe</ChildFirstAndLastName>
+        <ChildSSN>321587502</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2250</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2250</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>34387</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>34387</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6877</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1700</DepreciationAmt>
+      <TotalDepreciationAmt>1700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>529029167</EmployeeSSN>
+      <EmployerEIN>532355380</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>101 Russell Mall</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Rowe</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>101 Russell Mall</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>199200</WagesAmt>
+      <WithholdingAmt>43824</WithholdingAmt>
+      <SocialSecurityWagesAmt>168600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10453</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>199200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2888</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

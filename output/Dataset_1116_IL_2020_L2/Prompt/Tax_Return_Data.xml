@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-12-05</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>46439</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>464398604</PrimarySSN>
+      <NameLine1Txt>Anthony Davis</NameLine1Txt>
+      <PrimaryNameControlTxt>ANTH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5408 PIERCE WAY</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Davis</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>486123973</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">82200</WagesAmt>
+      <WagesSalariesAndTipsAmt>82200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">622</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">550</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">42917</BusinessIncomeAmt>
+      <TotalIncomeAmt>126289</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>123257</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8583</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20983</TotalDeductionsAmt>
+      <TaxableIncomeAmt>102274</TaxableIncomeAmt>
+      <TaxAmt>18625</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18625</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>16625</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6064</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6064</TotalOtherTaxesAmt>
+      <TotalTaxAmt>22689</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13152</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13152</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13152</TotalPaymentsAmt>
+      <AmountOwedAmt>9537</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6064</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6064</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>622</InterestAmt>
+      <TotalInterestAmt>622</TotalInterestAmt>
+      <OrdinaryDividendsAmt>550</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>550</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Davis's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DAVI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>63000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>63000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1965</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1138</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1013</InsuranceAmt>
+      <OfficeExpensesAmt>1441</OfficeExpensesAmt>
+      <SuppliesAmt>1897</SuppliesAmt>
+      <UtilitiesAmt>352</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9577</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17383</TotalExpensesAmt>
+      <NetProfitOrLossAmt>42917</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>42917</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>42917</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39634</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6064</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3032</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Davis</ChildFirstAndLastName>
+        <ChildSSN>486123973</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>42917</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>42917</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8583</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Davis's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2700</DepreciationAmt>
+      <TotalDepreciationAmt>2700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>464398604</EmployeeSSN>
+      <EmployerEIN>563949014</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7395 Reilly Ports</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Anthony Davis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7395 Reilly Ports</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>82200</WagesAmt>
+      <WithholdingAmt>13152</WithholdingAmt>
+      <SocialSecurityWagesAmt>82200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5096</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>82200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1192</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

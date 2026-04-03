@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-11-23</PrimaryBirthDt>
+      <SpouseBirthDt>1957-10-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50161</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>16426</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>501613786</PrimarySSN>
+      <SpouseSSN>164262880</SpouseSSN>
+      <NameLine1Txt>Brandi Mason</NameLine1Txt>
+      <SpouseNameLine1Txt>Thomas Mason</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BRAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>THOM</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4060 ERIC PLAZA</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>164262880</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">59800</WagesAmt>
+      <WagesSalariesAndTipsAmt>59800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>59800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>59800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>35000</TaxableIncomeAmt>
+      <TaxAmt>3805</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3805</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3805</TaxLessCreditsAmt>
+      <TotalTaxAmt>3805</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7176</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7176</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7176</TotalPaymentsAmt>
+      <OverpaidAmt>3371</OverpaidAmt>
+      <RefundAmt>3371</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>164262880</EmployeeSSN>
+      <EmployerEIN>811196414</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1453 Duane Stream</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Thomas Mason</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1453 Duane Stream</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59800</WagesAmt>
+      <WithholdingAmt>7176</WithholdingAmt>
+      <SocialSecurityWagesAmt>59800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3708</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>867</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

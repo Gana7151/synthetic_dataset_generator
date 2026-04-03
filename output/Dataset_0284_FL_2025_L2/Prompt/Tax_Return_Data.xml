@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1999-10-16</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>47281</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>472813205</PrimarySSN>
+      <NameLine1Txt>Brandon Strong</NameLine1Txt>
+      <PrimaryNameControlTxt>BRAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2166 MARY PARKWAY</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Courtney</DependentFirstNm>
+        <DependentLastNm>Strong</DependentLastNm>
+        <DependentNameControlTxt>COUR</DependentNameControlTxt>
+        <DependentSSN>103756784</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Andrew</DependentFirstNm>
+        <DependentLastNm>Strong</DependentLastNm>
+        <DependentNameControlTxt>ANDR</DependentNameControlTxt>
+        <DependentSSN>442260475</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">140441</WagesAmt>
+      <WagesSalariesAndTipsAmt>140441</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">82</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1779</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">61969</BusinessIncomeAmt>
+      <TotalIncomeAmt>204271</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>183116</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>23625</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12394</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36019</TotalDeductionsAmt>
+      <TaxableIncomeAmt>147097</TaxableIncomeAmt>
+      <TaxAmt>26411</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>26411</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>22011</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6081</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6081</TotalOtherTaxesAmt>
+      <TotalTaxAmt>28093</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>22471</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>22471</WithholdingTaxAmt>
+      <TotalPaymentsAmt>22471</TotalPaymentsAmt>
+      <AmountOwedAmt>5622</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6081</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6081</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>82</InterestAmt>
+      <TotalInterestAmt>82</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1779</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1779</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>18114</DeductionAmt>
+      </TipsDeduction>
+      <TotalSchedule1AAmt>18114</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>78900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>78900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1326</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1860</CarAndTruckExpensesAmt>
+      <InsuranceAmt>646</InsuranceAmt>
+      <OfficeExpensesAmt>965</OfficeExpensesAmt>
+      <SuppliesAmt>1846</SuppliesAmt>
+      <UtilitiesAmt>943</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9345</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16931</TotalExpensesAmt>
+      <NetProfitOrLossAmt>61969</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>61969</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>61969</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>57228</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6081</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3041</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Courtney Strong</ChildFirstAndLastName>
+        <ChildSSN>103756784</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Andrew Strong</ChildFirstAndLastName>
+        <ChildSSN>442260475</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>61969</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>61969</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12394</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>472813205</EmployeeSSN>
+      <EmployerEIN>811292587</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5022 Scott Extensions</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brandon Strong</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5022 Scott Extensions</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>140441</WagesAmt>
+      <WithholdingAmt>22471</WithholdingAmt>
+      <SocialSecurityWagesAmt>140441</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8707</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>140441</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2036</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>23541</SocialSecurityTipsAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

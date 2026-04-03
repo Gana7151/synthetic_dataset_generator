@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-09-01</PrimaryBirthDt>
+      <SpouseBirthDt>1975-02-18</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>21414</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>33034</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>214144284</PrimarySSN>
+      <SpouseSSN>330340639</SpouseSSN>
+      <NameLine1Txt>Kevin Cox</NameLine1Txt>
+      <SpouseNameLine1Txt>Joseph Cox</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KEVI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOSE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2847 APRIL GREEN</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>330340639</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Victor</DependentFirstNm>
+        <DependentLastNm>Cox</DependentLastNm>
+        <DependentNameControlTxt>VICT</DependentNameControlTxt>
+        <DependentSSN>699474933</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">66600</WagesAmt>
+      <WagesSalariesAndTipsAmt>66600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">532</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>67132</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>67132</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>35632</TaxableIncomeAmt>
+      <TaxAmt>3799</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3799</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1599</TaxLessCreditsAmt>
+      <TotalTaxAmt>1599</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7992</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7992</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7992</TotalPaymentsAmt>
+      <OverpaidAmt>6393</OverpaidAmt>
+      <RefundAmt>6393</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>532</InterestAmt>
+      <TotalInterestAmt>532</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Victor Cox</ChildFirstAndLastName>
+        <ChildSSN>699474933</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>330340639</EmployeeSSN>
+      <EmployerEIN>428398282</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6466 Kelly Burgs</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joseph Cox</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6466 Kelly Burgs</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66600</WagesAmt>
+      <WithholdingAmt>7992</WithholdingAmt>
+      <SocialSecurityWagesAmt>66600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4129</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>966</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

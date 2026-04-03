@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-08-04</PrimaryBirthDt>
+      <SpouseBirthDt>1988-05-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37041</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>44483</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>370413325</PrimarySSN>
+      <SpouseSSN>444830596</SpouseSSN>
+      <NameLine1Txt>Amanda Ferguson</NameLine1Txt>
+      <SpouseNameLine1Txt>Robert Ferguson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>AMAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ROBE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6535 ANNETTE CREEK</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>444830596</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">289500</WagesAmt>
+      <WagesSalariesAndTipsAmt>289500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1620</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1916</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">62421</BusinessIncomeAmt>
+      <TotalIncomeAmt>355457</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>354621</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12484</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41684</TotalDeductionsAmt>
+      <TaxableIncomeAmt>312937</TaxableIncomeAmt>
+      <TaxAmt>61190</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>61190</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>61190</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1672</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1672</TotalOtherTaxesAmt>
+      <TotalTaxAmt>63736</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>56070</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>56070</WithholdingTaxAmt>
+      <TotalPaymentsAmt>56070</TotalPaymentsAmt>
+      <AmountOwedAmt>7666</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1672</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1672</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1620</InterestAmt>
+      <TotalInterestAmt>1620</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1916</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1916</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Ferguson's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FERG</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>83300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>83300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2203</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1298</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1337</InsuranceAmt>
+      <OfficeExpensesAmt>1095</OfficeExpensesAmt>
+      <SuppliesAmt>2092</SuppliesAmt>
+      <UtilitiesAmt>1104</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11750</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>20879</TotalExpensesAmt>
+      <NetProfitOrLossAmt>62421</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>62421</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>62421</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>57646</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1672</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>836</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>62421</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>62421</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12484</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>370413325</EmployeeSSN>
+      <EmployerEIN>689389302</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>628 Brown Island</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amanda Ferguson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>628 Brown Island</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>127000</WagesAmt>
+      <WithholdingAmt>20320</WithholdingAmt>
+      <SocialSecurityWagesAmt>127000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7874</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>127000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1842</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>444830596</EmployeeSSN>
+      <EmployerEIN>756921560</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1745 Mallory Summit</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Robert Ferguson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1745 Mallory Summit</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>162500</WagesAmt>
+      <WithholdingAmt>35750</WithholdingAmt>
+      <SocialSecurityWagesAmt>162500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10075</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>162500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2356</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

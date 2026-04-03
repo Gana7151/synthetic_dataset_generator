@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-08-03</PrimaryBirthDt>
+      <SpouseBirthDt>1963-05-09</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>22425</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>78370</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>224253576</PrimarySSN>
+      <SpouseSSN>783704862</SpouseSSN>
+      <NameLine1Txt>Tom Thompson</NameLine1Txt>
+      <SpouseNameLine1Txt>Terrance Thompson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TOM</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TERR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2863 FRANK NECK</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>783704862</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">27900</WagesAmt>
+      <WagesSalariesAndTipsAmt>27900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>27900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>27900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>2000</TaxableIncomeAmt>
+      <TaxAmt>200</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>200</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>200</TaxLessCreditsAmt>
+      <TotalTaxAmt>200</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2232</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2232</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2232</TotalPaymentsAmt>
+      <OverpaidAmt>2032</OverpaidAmt>
+      <RefundAmt>2032</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>783704862</EmployeeSSN>
+      <EmployerEIN>469560886</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>804 Kirsten Lane</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Terrance Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>804 Kirsten Lane</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>27900</WagesAmt>
+      <WithholdingAmt>2232</WithholdingAmt>
+      <SocialSecurityWagesAmt>27900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1730</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>27900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>405</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

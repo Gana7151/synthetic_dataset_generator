@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-06-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>83171</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>831710879</PrimarySSN>
+      <NameLine1Txt>Christopher Horn</NameLine1Txt>
+      <PrimaryNameControlTxt>CHRI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9599 BENJAMIN UNIONS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Gina</DependentFirstNm>
+        <DependentLastNm>Horn</DependentLastNm>
+        <DependentNameControlTxt>GINA</DependentNameControlTxt>
+        <DependentSSN>332974989</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Crystal</DependentFirstNm>
+        <DependentLastNm>Horn</DependentLastNm>
+        <DependentNameControlTxt>CRYS</DependentNameControlTxt>
+        <DependentSSN>472079669</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">71100</WagesAmt>
+      <WagesSalariesAndTipsAmt>71100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">272</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1779</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17137</BusinessIncomeAmt>
+      <TotalIncomeAmt>90288</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>89078</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>23625</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3427</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27052</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62026</TaxableIncomeAmt>
+      <TaxAmt>7103</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7103</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2703</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2421</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2421</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5124</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8532</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8532</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8532</TotalPaymentsAmt>
+      <OverpaidAmt>3408</OverpaidAmt>
+      <RefundAmt>3408</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2421</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2421</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>272</InterestAmt>
+      <TotalInterestAmt>272</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1779</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1779</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Horn's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HORN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>28700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>28700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>726</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>292</CarAndTruckExpensesAmt>
+      <InsuranceAmt>422</InsuranceAmt>
+      <OfficeExpensesAmt>433</OfficeExpensesAmt>
+      <SuppliesAmt>391</SuppliesAmt>
+      <UtilitiesAmt>313</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4286</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6863</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17137</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17137</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17137</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>15826</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2421</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1211</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gina Horn</ChildFirstAndLastName>
+        <ChildSSN>332974989</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Crystal Horn</ChildFirstAndLastName>
+        <ChildSSN>472079669</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17137</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17137</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3427</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Horn's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4700</DepreciationAmt>
+      <TotalDepreciationAmt>4700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>831710879</EmployeeSSN>
+      <EmployerEIN>563514815</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8130 Bowman Shoals</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Christopher Horn</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8130 Bowman Shoals</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71100</WagesAmt>
+      <WithholdingAmt>8532</WithholdingAmt>
+      <SocialSecurityWagesAmt>71100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4408</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1031</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>782</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-10-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86046</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>860469548</PrimarySSN>
+      <NameLine1Txt>Kimberly Travis</NameLine1Txt>
+      <PrimaryNameControlTxt>KIMB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1997 JAMES MILL</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Richard</DependentFirstNm>
+        <DependentLastNm>Travis</DependentLastNm>
+        <DependentNameControlTxt>RICH</DependentNameControlTxt>
+        <DependentSSN>494904688</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Debra</DependentFirstNm>
+        <DependentLastNm>Travis</DependentLastNm>
+        <DependentNameControlTxt>DEBR</DependentNameControlTxt>
+        <DependentSSN>822170044</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Travis</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>750868607</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">77300</WagesAmt>
+      <WagesSalariesAndTipsAmt>77300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">694</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">664</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">28758</BusinessIncomeAmt>
+      <TotalIncomeAmt>107415</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>105383</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5752</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20352</TotalDeductionsAmt>
+      <TaxableIncomeAmt>85031</TaxableIncomeAmt>
+      <TaxAmt>13760</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13760</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7760</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4063</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4063</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11823</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9276</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9276</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9276</TotalPaymentsAmt>
+      <AmountOwedAmt>2547</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4063</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4063</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>694</InterestAmt>
+      <TotalInterestAmt>694</TotalInterestAmt>
+      <OrdinaryDividendsAmt>664</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>664</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>43500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>43500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>662</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>729</CarAndTruckExpensesAmt>
+      <InsuranceAmt>731</InsuranceAmt>
+      <OfficeExpensesAmt>963</OfficeExpensesAmt>
+      <SuppliesAmt>813</SuppliesAmt>
+      <UtilitiesAmt>591</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7353</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11842</TotalExpensesAmt>
+      <NetProfitOrLossAmt>28758</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>28758</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>28758</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26558</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4063</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2032</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Richard Travis</ChildFirstAndLastName>
+        <ChildSSN>494904688</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Debra Travis</ChildFirstAndLastName>
+        <ChildSSN>822170044</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Travis</ChildFirstAndLastName>
+        <ChildSSN>750868607</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>28758</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>28758</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5752</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2900</DepreciationAmt>
+      <TotalDepreciationAmt>2900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>860469548</EmployeeSSN>
+      <EmployerEIN>232122899</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4486 Turner Trail</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kimberly Travis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4486 Turner Trail</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>77300</WagesAmt>
+      <WithholdingAmt>9276</WithholdingAmt>
+      <SocialSecurityWagesAmt>77300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4793</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>77300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1121</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

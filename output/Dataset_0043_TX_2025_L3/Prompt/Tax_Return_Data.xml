@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-05-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10969</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>109697547</PrimarySSN>
+      <NameLine1Txt>Chase Mcclain</NameLine1Txt>
+      <PrimaryNameControlTxt>CHAS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8289 LAUREN ALLEY</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kathleen</DependentFirstNm>
+        <DependentLastNm>Mcclain</DependentLastNm>
+        <DependentNameControlTxt>KATH</DependentNameControlTxt>
+        <DependentSSN>250774644</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">89400</WagesAmt>
+      <WagesSalariesAndTipsAmt>89400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1112</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2124</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">109419</BusinessIncomeAmt>
+      <TotalIncomeAmt>202055</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>195214</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">21884</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37634</TotalDeductionsAmt>
+      <TaxableIncomeAmt>157580</TaxableIncomeAmt>
+      <TaxAmt>30666</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>30666</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>28466</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">13681</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>13681</TotalOtherTaxesAmt>
+      <TotalTaxAmt>42148</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14304</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14304</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14304</TotalPaymentsAmt>
+      <AmountOwedAmt>27844</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">13681</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>13681</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1112</InterestAmt>
+      <TotalInterestAmt>1112</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2124</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2124</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>142800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>142800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3388</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4622</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2297</InsuranceAmt>
+      <OfficeExpensesAmt>3051</OfficeExpensesAmt>
+      <SuppliesAmt>3369</SuppliesAmt>
+      <UtilitiesAmt>1067</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15587</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>33381</TotalExpensesAmt>
+      <NetProfitOrLossAmt>109419</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>109419</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>109419</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>101048</SEBaseAmt>
+      <SelfEmploymentTaxAmt>13681</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6841</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kathleen Mcclain</ChildFirstAndLastName>
+        <ChildSSN>250774644</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>109419</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>109419</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>21884</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>109697547</EmployeeSSN>
+      <EmployerEIN>459024252</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3634 Valencia Rue</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Chase Mcclain</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3634 Valencia Rue</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>89400</WagesAmt>
+      <WithholdingAmt>14304</WithholdingAmt>
+      <SocialSecurityWagesAmt>89400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5543</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>89400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1296</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

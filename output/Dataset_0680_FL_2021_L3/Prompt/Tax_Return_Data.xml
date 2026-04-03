@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-05-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>65288</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>652883654</PrimarySSN>
+      <NameLine1Txt>Ryan Brown</NameLine1Txt>
+      <PrimaryNameControlTxt>RYAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9247 WOLF ROADS</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mike</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>MIKE</DependentNameControlTxt>
+        <DependentSSN>325791856</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sharon</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>SHAR</DependentNameControlTxt>
+        <DependentSSN>461568959</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lawrence</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>LAWR</DependentNameControlTxt>
+        <DependentSSN>149168897</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brian</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>BRIA</DependentNameControlTxt>
+        <DependentSSN>316668263</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">73500</WagesAmt>
+      <WagesSalariesAndTipsAmt>73500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1835</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">399</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">65119</BusinessIncomeAmt>
+      <TotalIncomeAmt>140853</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>136252</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13024</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25574</TotalDeductionsAmt>
+      <TaxableIncomeAmt>110678</TaxableIncomeAmt>
+      <TaxAmt>20584</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">9550</ChildTaxCreditAmt>
+      <TotalCreditsAmt>9550</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20584</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11034</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9201</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9201</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20235</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8820</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8820</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8820</TotalPaymentsAmt>
+      <AmountOwedAmt>11415</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9201</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9201</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1835</InterestAmt>
+      <TotalInterestAmt>1835</TotalInterestAmt>
+      <OrdinaryDividendsAmt>399</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>399</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Brown's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BROW</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>93200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>93200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2615</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3684</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1944</InsuranceAmt>
+      <OfficeExpensesAmt>1490</OfficeExpensesAmt>
+      <SuppliesAmt>1830</SuppliesAmt>
+      <UtilitiesAmt>1533</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14985</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28081</TotalExpensesAmt>
+      <NetProfitOrLossAmt>65119</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>65119</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>65119</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>60137</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9201</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4601</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mike Brown</ChildFirstAndLastName>
+        <ChildSSN>325791856</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sharon Brown</ChildFirstAndLastName>
+        <ChildSSN>461568959</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lawrence Brown</ChildFirstAndLastName>
+        <ChildSSN>149168897</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brian Brown</ChildFirstAndLastName>
+        <ChildSSN>316668263</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>9550</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>9550</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>65119</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>65119</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13024</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>652883654</EmployeeSSN>
+      <EmployerEIN>686506214</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7547 Zimmerman Curve</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Brown</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7547 Zimmerman Curve</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>73500</WagesAmt>
+      <WithholdingAmt>8820</WithholdingAmt>
+      <SocialSecurityWagesAmt>73500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4557</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>73500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1066</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

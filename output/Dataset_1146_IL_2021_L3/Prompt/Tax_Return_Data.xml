@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-11-03</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>23501</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>235012464</PrimarySSN>
+      <NameLine1Txt>Lawrence Pruitt</NameLine1Txt>
+      <PrimaryNameControlTxt>LAWR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1865 SEAN WALK</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Pruitt</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>709083720</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">121500</WagesAmt>
+      <WagesSalariesAndTipsAmt>121500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1782</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3673</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">80862</BusinessIncomeAmt>
+      <TotalIncomeAmt>207818</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>205414</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16172</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28722</TotalDeductionsAmt>
+      <TaxableIncomeAmt>176692</TaxableIncomeAmt>
+      <TaxAmt>37369</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>37369</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>37369</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4807</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4807</TotalOtherTaxesAmt>
+      <TotalTaxAmt>42175</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19440</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19440</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19440</TotalPaymentsAmt>
+      <AmountOwedAmt>22735</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4807</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4807</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1782</InterestAmt>
+      <TotalInterestAmt>1782</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3673</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3673</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>120800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>120800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4535</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>976</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1872</InsuranceAmt>
+      <OfficeExpensesAmt>2603</OfficeExpensesAmt>
+      <SuppliesAmt>4531</SuppliesAmt>
+      <UtilitiesAmt>1698</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23723</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>39938</TotalExpensesAmt>
+      <NetProfitOrLossAmt>80862</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>80862</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>80862</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>74676</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4807</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2403</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>80862</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>80862</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16172</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>235012464</EmployeeSSN>
+      <EmployerEIN>944286988</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5832 Joseph Hills</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lawrence Pruitt</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5832 Joseph Hills</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>121500</WagesAmt>
+      <WithholdingAmt>19440</WithholdingAmt>
+      <SocialSecurityWagesAmt>121500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7533</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>121500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1762</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

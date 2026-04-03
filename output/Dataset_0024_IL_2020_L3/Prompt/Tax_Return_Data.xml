@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-11-15</PrimaryBirthDt>
+      <SpouseBirthDt>1989-04-19</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>88850</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>84382</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>888503899</PrimarySSN>
+      <SpouseSSN>843822741</SpouseSSN>
+      <NameLine1Txt>Michael Gonzales</NameLine1Txt>
+      <SpouseNameLine1Txt>Marcus Gonzales</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4431 DAVID HILLS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>843822741</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Fred</DependentFirstNm>
+        <DependentLastNm>Gonzales</DependentLastNm>
+        <DependentNameControlTxt>FRED</DependentNameControlTxt>
+        <DependentSSN>153227603</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Deborah</DependentFirstNm>
+        <DependentLastNm>Gonzales</DependentLastNm>
+        <DependentNameControlTxt>DEBO</DependentNameControlTxt>
+        <DependentSSN>864978725</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Luis</DependentFirstNm>
+        <DependentLastNm>Gonzales</DependentLastNm>
+        <DependentNameControlTxt>LUIS</DependentNameControlTxt>
+        <DependentSSN>368198691</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">287900</WagesAmt>
+      <WagesSalariesAndTipsAmt>287900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">831</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3014</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">84438</BusinessIncomeAmt>
+      <TotalIncomeAmt>376183</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>375053</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16888</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41688</TotalDeductionsAmt>
+      <TaxableIncomeAmt>333365</TaxableIncomeAmt>
+      <TaxAmt>68708</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>68708</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>62708</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2261</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2261</TotalOtherTaxesAmt>
+      <TotalTaxAmt>66012</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>57272</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>57272</WithholdingTaxAmt>
+      <TotalPaymentsAmt>57272</TotalPaymentsAmt>
+      <AmountOwedAmt>8740</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2261</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2261</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>831</InterestAmt>
+      <TotalInterestAmt>831</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3014</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3014</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>122400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>122400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3463</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1110</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1779</InsuranceAmt>
+      <OfficeExpensesAmt>3091</OfficeExpensesAmt>
+      <SuppliesAmt>2376</SuppliesAmt>
+      <UtilitiesAmt>1591</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>24552</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>37962</TotalExpensesAmt>
+      <NetProfitOrLossAmt>84438</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>84438</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>84438</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>77978</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2261</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1131</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Fred Gonzales</ChildFirstAndLastName>
+        <ChildSSN>153227603</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Deborah Gonzales</ChildFirstAndLastName>
+        <ChildSSN>864978725</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Luis Gonzales</ChildFirstAndLastName>
+        <ChildSSN>368198691</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>84438</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>84438</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16888</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>888503899</EmployeeSSN>
+      <EmployerEIN>811688161</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1695 Jamie Views</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Gonzales</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1695 Jamie Views</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>101100</WagesAmt>
+      <WithholdingAmt>16176</WithholdingAmt>
+      <SocialSecurityWagesAmt>101100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6268</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>101100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1466</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>843822741</EmployeeSSN>
+      <EmployerEIN>948244164</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4566 Shelly Extension</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Marcus Gonzales</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4566 Shelly Extension</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>186800</WagesAmt>
+      <WithholdingAmt>41096</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>186800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2709</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-11-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>14070</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>140700684</PrimarySSN>
+      <NameLine1Txt>Bobby Williams</NameLine1Txt>
+      <PrimaryNameControlTxt>BOBB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6916 DAVID HEIGHTS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Rebecca</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>REBE</DependentNameControlTxt>
+        <DependentSSN>305927049</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Cassandra</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>CASS</DependentNameControlTxt>
+        <DependentSSN>665307515</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">62264</WagesAmt>
+      <WagesSalariesAndTipsAmt>62264</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1502</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">864</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">56880</BusinessIncomeAmt>
+      <TotalIncomeAmt>121510</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>99328</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11376</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27126</TotalDeductionsAmt>
+      <TaxableIncomeAmt>72202</TaxableIncomeAmt>
+      <TaxAmt>10798</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10798</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6398</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8037</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8037</TotalOtherTaxesAmt>
+      <TotalTaxAmt>14435</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7472</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7472</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7472</TotalPaymentsAmt>
+      <AmountOwedAmt>6963</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8037</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8037</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1502</InterestAmt>
+      <TotalInterestAmt>1502</TotalInterestAmt>
+      <OrdinaryDividendsAmt>864</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>864</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>13798</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>4367</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>18164</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>84700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>84700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3290</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1959</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2081</InsuranceAmt>
+      <OfficeExpensesAmt>1391</OfficeExpensesAmt>
+      <SuppliesAmt>2997</SuppliesAmt>
+      <UtilitiesAmt>1293</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14809</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>27820</TotalExpensesAmt>
+      <NetProfitOrLossAmt>56880</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>56880</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>56880</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>52529</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8037</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4018</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Rebecca Williams</ChildFirstAndLastName>
+        <ChildSSN>305927049</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cassandra Williams</ChildFirstAndLastName>
+        <ChildSSN>665307515</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>56880</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>56880</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11376</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>140700684</EmployeeSSN>
+      <EmployerEIN>669054096</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2243 Johnson Turnpike</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Bobby Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2243 Johnson Turnpike</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62264</WagesAmt>
+      <WithholdingAmt>7472</WithholdingAmt>
+      <SocialSecurityWagesAmt>62264</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3860</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62264</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>903</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>13798</SocialSecurityTipsAmt>
+      <OvertimePayAmt>4367</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

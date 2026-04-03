@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-06-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33459</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>334593905</PrimarySSN>
+      <NameLine1Txt>Jacqueline Powell</NameLine1Txt>
+      <PrimaryNameControlTxt>JACQ</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9365 SHELLEY SUMMIT</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Shannon</DependentFirstNm>
+        <DependentLastNm>Powell</DependentLastNm>
+        <DependentNameControlTxt>SHAN</DependentNameControlTxt>
+        <DependentSSN>228408546</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Samantha</DependentFirstNm>
+        <DependentLastNm>Powell</DependentLastNm>
+        <DependentNameControlTxt>SAMA</DependentNameControlTxt>
+        <DependentSSN>265433624</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">70300</WagesAmt>
+      <WagesSalariesAndTipsAmt>70300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">194</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1761</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">51132</BusinessIncomeAmt>
+      <TotalIncomeAmt>123388</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>119775</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10226</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29626</TotalDeductionsAmt>
+      <TaxableIncomeAmt>90149</TaxableIncomeAmt>
+      <TaxAmt>13972</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13972</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9972</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7225</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7225</TotalOtherTaxesAmt>
+      <TotalTaxAmt>17197</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8436</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8436</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8436</TotalPaymentsAmt>
+      <AmountOwedAmt>8761</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7225</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7225</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>194</InterestAmt>
+      <TotalInterestAmt>194</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1761</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1761</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>73200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>73200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2052</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2424</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1205</InsuranceAmt>
+      <OfficeExpensesAmt>1537</OfficeExpensesAmt>
+      <SuppliesAmt>1099</SuppliesAmt>
+      <UtilitiesAmt>501</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9550</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18368</TotalExpensesAmt>
+      <NetProfitOrLossAmt>51132</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>51132</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>51132</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>47220</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7225</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3612</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Shannon Powell</ChildFirstAndLastName>
+        <ChildSSN>228408546</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Samantha Powell</ChildFirstAndLastName>
+        <ChildSSN>265433624</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>51132</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>51132</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10226</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3700</DepreciationAmt>
+      <TotalDepreciationAmt>3700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>334593905</EmployeeSSN>
+      <EmployerEIN>767636108</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9588 Alexander Vista</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jacqueline Powell</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9588 Alexander Vista</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>70300</WagesAmt>
+      <WithholdingAmt>8436</WithholdingAmt>
+      <SocialSecurityWagesAmt>70300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4359</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>70300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1019</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-09-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37994</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>379943504</PrimarySSN>
+      <NameLine1Txt>Raymond Scott</NameLine1Txt>
+      <PrimaryNameControlTxt>RAYM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7064 GABRIELA HARBOR</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">155300</WagesAmt>
+      <WagesSalariesAndTipsAmt>155300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">816</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2619</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">82650</BusinessIncomeAmt>
+      <TotalIncomeAmt>241386</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>240279</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16530</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28930</TotalDeductionsAmt>
+      <TaxableIncomeAmt>211349</TaxableIncomeAmt>
+      <TaxAmt>48767</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>48767</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>48767</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2213</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2213</TotalOtherTaxesAmt>
+      <TotalTaxAmt>51265</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>24848</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>24848</WithholdingTaxAmt>
+      <TotalPaymentsAmt>24848</TotalPaymentsAmt>
+      <AmountOwedAmt>26417</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2213</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2213</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>816</InterestAmt>
+      <TotalInterestAmt>816</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2619</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2619</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>112900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>112900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3267</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>294</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1058</InsuranceAmt>
+      <OfficeExpensesAmt>1906</OfficeExpensesAmt>
+      <SuppliesAmt>2931</SuppliesAmt>
+      <UtilitiesAmt>1438</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19356</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30250</TotalExpensesAmt>
+      <NetProfitOrLossAmt>82650</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>82650</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>82650</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>76327</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2213</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1107</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>82650</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>82650</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16530</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>379943504</EmployeeSSN>
+      <EmployerEIN>639885482</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2360 Best Ramp</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Raymond Scott</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2360 Best Ramp</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>155300</WagesAmt>
+      <WithholdingAmt>24848</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>155300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2252</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

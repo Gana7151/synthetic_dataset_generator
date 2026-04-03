@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-07-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85845</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>858459927</PrimarySSN>
+      <NameLine1Txt>Nancy Fischer</NameLine1Txt>
+      <PrimaryNameControlTxt>NANC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5344 PATRICK SHOAL</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">63100</WagesAmt>
+      <WagesSalariesAndTipsAmt>63100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">718</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63818</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63818</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>15750</TotalDeductionsAmt>
+      <TaxableIncomeAmt>48068</TaxableIncomeAmt>
+      <TaxAmt>5530</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5530</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5530</TaxLessCreditsAmt>
+      <TotalTaxAmt>5530</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7572</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7572</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7572</TotalPaymentsAmt>
+      <OverpaidAmt>2042</OverpaidAmt>
+      <RefundAmt>2042</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>718</InterestAmt>
+      <TotalInterestAmt>718</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>858459927</EmployeeSSN>
+      <EmployerEIN>302334314</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4448 Christopher Meadows</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nancy Fischer</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4448 Christopher Meadows</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63100</WagesAmt>
+      <WithholdingAmt>7572</WithholdingAmt>
+      <SocialSecurityWagesAmt>63100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3912</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>915</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>694</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-01-20</PrimaryBirthDt>
+      <SpouseBirthDt>1951-01-02</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62195</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>63229</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>621956552</PrimarySSN>
+      <SpouseSSN>632298048</SpouseSSN>
+      <NameLine1Txt>Vanessa Evans</NameLine1Txt>
+      <SpouseNameLine1Txt>Crystal Evans</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>VANE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CRYS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1587 JACKSON REST</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>632298048</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">73100</WagesAmt>
+      <WagesSalariesAndTipsAmt>73100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">413</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>73513</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>73513</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>47613</TaxableIncomeAmt>
+      <TaxAmt>5303</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5303</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5303</TaxLessCreditsAmt>
+      <TotalTaxAmt>5303</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8772</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8772</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8772</TotalPaymentsAmt>
+      <OverpaidAmt>3469</OverpaidAmt>
+      <RefundAmt>3469</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>413</InterestAmt>
+      <TotalInterestAmt>413</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>632298048</EmployeeSSN>
+      <EmployerEIN>829321254</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3592 Jason Rapid</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Crystal Evans</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3592 Jason Rapid</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>73100</WagesAmt>
+      <WithholdingAmt>8772</WithholdingAmt>
+      <SocialSecurityWagesAmt>73100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4532</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>73100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1060</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

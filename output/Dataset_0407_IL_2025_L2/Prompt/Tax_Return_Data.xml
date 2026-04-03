@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-10-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>65640</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>656401022</PrimarySSN>
+      <NameLine1Txt>Robert Parker</NameLine1Txt>
+      <PrimaryNameControlTxt>ROBE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5646 TRAVIS PRAIRIE</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Parker</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>539217955</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">64600</WagesAmt>
+      <WagesSalariesAndTipsAmt>64600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">609</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">955</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">43268</BusinessIncomeAmt>
+      <TotalIncomeAmt>109432</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>106376</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8654</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24404</TotalDeductionsAmt>
+      <TaxableIncomeAmt>81972</TaxableIncomeAmt>
+      <TaxAmt>12948</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12948</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>10748</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6114</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6114</TotalOtherTaxesAmt>
+      <TotalTaxAmt>16861</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7752</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7752</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7752</TotalPaymentsAmt>
+      <AmountOwedAmt>9109</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6114</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6114</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>609</InterestAmt>
+      <TotalInterestAmt>609</TotalInterestAmt>
+      <OrdinaryDividendsAmt>955</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>955</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Parker's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PARK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1563</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1973</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1292</InsuranceAmt>
+      <OfficeExpensesAmt>1321</OfficeExpensesAmt>
+      <SuppliesAmt>1956</SuppliesAmt>
+      <UtilitiesAmt>802</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7625</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16532</TotalExpensesAmt>
+      <NetProfitOrLossAmt>43268</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>43268</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>43268</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39958</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6114</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3057</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Parker</ChildFirstAndLastName>
+        <ChildSSN>539217955</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>43268</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>43268</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8654</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Parker's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2600</DepreciationAmt>
+      <TotalDepreciationAmt>2600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>656401022</EmployeeSSN>
+      <EmployerEIN>667144993</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4767 Rivers Pass</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Robert Parker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4767 Rivers Pass</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>64600</WagesAmt>
+      <WithholdingAmt>7752</WithholdingAmt>
+      <SocialSecurityWagesAmt>64600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4005</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>64600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>937</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

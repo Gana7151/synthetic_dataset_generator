@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-06-18</PrimaryBirthDt>
+      <SpouseBirthDt>1975-10-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51630</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>74819</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>516305679</PrimarySSN>
+      <SpouseSSN>748195197</SpouseSSN>
+      <NameLine1Txt>Jeremy Mccarty</NameLine1Txt>
+      <SpouseNameLine1Txt>James Mccarty</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JERE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JAME</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7080 WELLS SPURS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>748195197</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Julie</DependentFirstNm>
+        <DependentLastNm>Mccarty</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>848037101</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mariah</DependentFirstNm>
+        <DependentLastNm>Mccarty</DependentLastNm>
+        <DependentNameControlTxt>MARI</DependentNameControlTxt>
+        <DependentSSN>513765438</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Benjamin</DependentFirstNm>
+        <DependentLastNm>Mccarty</DependentLastNm>
+        <DependentNameControlTxt>BENJ</DependentNameControlTxt>
+        <DependentSSN>741662572</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">45400</WagesAmt>
+      <WagesSalariesAndTipsAmt>45400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">192</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1940</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">29365</BusinessIncomeAmt>
+      <TotalIncomeAmt>76896</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>74822</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5873</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31773</TotalDeductionsAmt>
+      <TaxableIncomeAmt>43049</TaxableIncomeAmt>
+      <TaxAmt>4755</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4755</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4755</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4755</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4149</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4149</TotalOtherTaxesAmt>
+      <TotalTaxAmt>4149</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5448</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5448</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5448</TotalPaymentsAmt>
+      <OverpaidAmt>1299</OverpaidAmt>
+      <RefundAmt>1299</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4149</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4149</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>192</InterestAmt>
+      <TotalInterestAmt>192</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1940</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1940</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>601</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1119</CarAndTruckExpensesAmt>
+      <InsuranceAmt>265</InsuranceAmt>
+      <OfficeExpensesAmt>608</OfficeExpensesAmt>
+      <SuppliesAmt>878</SuppliesAmt>
+      <UtilitiesAmt>377</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4287</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>8135</TotalExpensesAmt>
+      <NetProfitOrLossAmt>29365</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>29365</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>29365</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>27119</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4149</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2075</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julie Mccarty</ChildFirstAndLastName>
+        <ChildSSN>848037101</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mariah Mccarty</ChildFirstAndLastName>
+        <ChildSSN>513765438</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Benjamin Mccarty</ChildFirstAndLastName>
+        <ChildSSN>741662572</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4755</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4755</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>29365</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>29365</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5873</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2400</DepreciationAmt>
+      <TotalDepreciationAmt>2400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>748195197</EmployeeSSN>
+      <EmployerEIN>734508762</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8963 Cindy Plains</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Mccarty</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8963 Cindy Plains</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>45400</WagesAmt>
+      <WithholdingAmt>5448</WithholdingAmt>
+      <SocialSecurityWagesAmt>45400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2815</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>45400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>658</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>499</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

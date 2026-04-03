@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-08-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72576</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>725763366</PrimarySSN>
+      <NameLine1Txt>Gregory Gonzalez</NameLine1Txt>
+      <PrimaryNameControlTxt>GREG</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8604 BOYD RADIAL</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">157362</WagesAmt>
+      <WagesSalariesAndTipsAmt>157362</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">584</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1150</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">114203</BusinessIncomeAmt>
+      <TotalIncomeAmt>273299</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>268376</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">22841</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38591</TotalDeductionsAmt>
+      <TaxableIncomeAmt>229785</TaxableIncomeAmt>
+      <TaxAmt>50594</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>50594</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>50594</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5382</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5382</TotalOtherTaxesAmt>
+      <TotalTaxAmt>56542</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>25178</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>25178</WithholdingTaxAmt>
+      <TotalPaymentsAmt>25178</TotalPaymentsAmt>
+      <AmountOwedAmt>31364</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5382</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5382</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>584</InterestAmt>
+      <TotalInterestAmt>584</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1150</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1150</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>2232</DeductionAmt>
+      </TipsDeduction>
+      <TotalSchedule1AAmt>2232</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>146400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>146400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3217</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2726</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2115</InsuranceAmt>
+      <OfficeExpensesAmt>1622</OfficeExpensesAmt>
+      <SuppliesAmt>1752</SuppliesAmt>
+      <UtilitiesAmt>634</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17231</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29297</TotalExpensesAmt>
+      <NetProfitOrLossAmt>114203</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>114203</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>114203</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>105466</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5382</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2691</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>114203</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>114203</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>22841</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2900</DepreciationAmt>
+      <TotalDepreciationAmt>2900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>725763366</EmployeeSSN>
+      <EmployerEIN>732872845</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8542 Patrick Stream</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gregory Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8542 Patrick Stream</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>157362</WagesAmt>
+      <WithholdingAmt>25178</WithholdingAmt>
+      <SocialSecurityWagesAmt>157362</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9756</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>157362</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2282</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>14562</SocialSecurityTipsAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

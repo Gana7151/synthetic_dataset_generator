@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-12-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>78499</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>784992109</PrimarySSN>
+      <NameLine1Txt>Jay Robinson</NameLine1Txt>
+      <PrimaryNameControlTxt>JAY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7754 LISA THROUGHWAY</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">79800</WagesAmt>
+      <WagesSalariesAndTipsAmt>79800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>79800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>79800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>65200</TaxableIncomeAmt>
+      <TaxAmt>9397</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9397</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9397</TaxLessCreditsAmt>
+      <TotalTaxAmt>9397</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9576</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9576</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9576</TotalPaymentsAmt>
+      <OverpaidAmt>179</OverpaidAmt>
+      <RefundAmt>179</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>784992109</EmployeeSSN>
+      <EmployerEIN>227790254</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2126 Devin Corners</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jay Robinson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2126 Devin Corners</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>79800</WagesAmt>
+      <WithholdingAmt>9576</WithholdingAmt>
+      <SocialSecurityWagesAmt>79800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4948</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>79800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1157</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>878</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-11-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20656</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>206565668</PrimarySSN>
+      <NameLine1Txt>Jermaine Miller</NameLine1Txt>
+      <PrimaryNameControlTxt>JERM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4785 JENNIFER COURTS</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39400</WagesAmt>
+      <WagesSalariesAndTipsAmt>39400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>39400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>39400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>27000</TaxableIncomeAmt>
+      <TaxAmt>3042</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3042</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3042</TaxLessCreditsAmt>
+      <TotalTaxAmt>3042</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3152</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3152</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3152</TotalPaymentsAmt>
+      <OverpaidAmt>110</OverpaidAmt>
+      <RefundAmt>110</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>206565668</EmployeeSSN>
+      <EmployerEIN>944900511</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6008 Ramsey Field</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jermaine Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6008 Ramsey Field</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39400</WagesAmt>
+      <WithholdingAmt>3152</WithholdingAmt>
+      <SocialSecurityWagesAmt>39400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2443</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>571</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

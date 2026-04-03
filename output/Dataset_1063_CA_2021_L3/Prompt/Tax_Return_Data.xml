@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-05-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>35897</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>358971299</PrimarySSN>
+      <NameLine1Txt>Misty Taylor</NameLine1Txt>
+      <PrimaryNameControlTxt>MIST</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7990 RYAN INLET</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>574784983</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jerry</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>JERR</DependentNameControlTxt>
+        <DependentSSN>603175751</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">78500</WagesAmt>
+      <WagesSalariesAndTipsAmt>78500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1156</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1497</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">82061</BusinessIncomeAmt>
+      <TotalIncomeAmt>163214</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>158129</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16412</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28962</TotalDeductionsAmt>
+      <TaxableIncomeAmt>129167</TaxableIncomeAmt>
+      <TaxAmt>25021</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1850</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1850</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>25021</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>23171</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10171</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10171</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33342</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9420</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9420</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9420</TotalPaymentsAmt>
+      <AmountOwedAmt>23922</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10171</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10171</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1156</InterestAmt>
+      <TotalInterestAmt>1156</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1497</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1497</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Taylor's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TAYL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>119300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>119300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3354</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3818</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2489</InsuranceAmt>
+      <OfficeExpensesAmt>1972</OfficeExpensesAmt>
+      <SuppliesAmt>3886</SuppliesAmt>
+      <UtilitiesAmt>1864</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15356</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>32739</TotalExpensesAmt>
+      <NetProfitOrLossAmt>82061</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>82061</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>82061</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>75783</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10171</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5085</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Taylor</ChildFirstAndLastName>
+        <ChildSSN>574784983</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jerry Taylor</ChildFirstAndLastName>
+        <ChildSSN>603175751</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1850</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1850</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>82061</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>82061</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16412</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Taylor's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4500</DepreciationAmt>
+      <TotalDepreciationAmt>4500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>358971299</EmployeeSSN>
+      <EmployerEIN>915600011</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>799 Allen Hollow</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Misty Taylor</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>799 Allen Hollow</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78500</WagesAmt>
+      <WithholdingAmt>9420</WithholdingAmt>
+      <SocialSecurityWagesAmt>78500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4867</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1138</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>864</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

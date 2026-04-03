@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1947-11-01</PrimaryBirthDt>
+      <SpouseBirthDt>1984-07-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>80672</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>18452</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>806726712</PrimarySSN>
+      <SpouseSSN>184525592</SpouseSSN>
+      <NameLine1Txt>Michael Miller</NameLine1Txt>
+      <SpouseNameLine1Txt>Patrick Miller</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>PATR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7250 MARY MOUNTAIN</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>184525592</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">236900</WagesAmt>
+      <WagesSalariesAndTipsAmt>236900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1697</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2694</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">50552</BusinessIncomeAmt>
+      <TotalIncomeAmt>291843</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>291166</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10110</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35210</TotalDeductionsAmt>
+      <TaxableIncomeAmt>255956</TaxableIncomeAmt>
+      <TaxAmt>49472</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>49472</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>49472</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1354</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1354</TotalOtherTaxesAmt>
+      <TotalTaxAmt>51128</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>45968</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>45968</WithholdingTaxAmt>
+      <TotalPaymentsAmt>45968</TotalPaymentsAmt>
+      <AmountOwedAmt>5160</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1354</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1354</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1697</InterestAmt>
+      <TotalInterestAmt>1697</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2694</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2694</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Miller's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MILL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>72200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>72200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1597</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1373</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1304</InsuranceAmt>
+      <OfficeExpensesAmt>924</OfficeExpensesAmt>
+      <SuppliesAmt>2057</SuppliesAmt>
+      <UtilitiesAmt>403</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9890</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17548</TotalExpensesAmt>
+      <NetProfitOrLossAmt>50552</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>50552</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>50552</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>46685</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1354</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>677</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>50552</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>50552</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10110</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Miller's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4100</DepreciationAmt>
+      <TotalDepreciationAmt>4100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>806726712</EmployeeSSN>
+      <EmployerEIN>522077932</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2405 Jones Inlet</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2405 Jones Inlet</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>61500</WagesAmt>
+      <WithholdingAmt>7380</WithholdingAmt>
+      <SocialSecurityWagesAmt>61500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3813</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>61500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>892</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>184525592</EmployeeSSN>
+      <EmployerEIN>883273027</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8323 Clay Summit</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Patrick Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8323 Clay Summit</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>175400</WagesAmt>
+      <WithholdingAmt>38588</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>175400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2543</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

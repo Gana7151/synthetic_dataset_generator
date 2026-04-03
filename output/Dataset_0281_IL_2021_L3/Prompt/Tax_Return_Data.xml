@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1959-12-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73206</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>732064776</PrimarySSN>
+      <NameLine1Txt>Kenneth Fisher</NameLine1Txt>
+      <PrimaryNameControlTxt>KENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8560 TIFFANY HEIGHTS</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Dana</DependentFirstNm>
+        <DependentLastNm>Fisher</DependentLastNm>
+        <DependentNameControlTxt>DANA</DependentNameControlTxt>
+        <DependentSSN>123105881</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Fisher</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>383411155</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Fisher</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>455351425</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Fisher</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>673671771</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">63200</WagesAmt>
+      <WagesSalariesAndTipsAmt>63200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1424</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1336</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">70286</BusinessIncomeAmt>
+      <TotalIncomeAmt>136245</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>131280</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14057</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26607</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104673</TaxableIncomeAmt>
+      <TaxAmt>19142</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">9200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>9200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19142</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9942</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9931</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9931</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19874</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7584</TotalPaymentsAmt>
+      <AmountOwedAmt>12290</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9931</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9931</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1424</InterestAmt>
+      <TotalInterestAmt>1424</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1336</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1336</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>95900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>95900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2836</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1283</CarAndTruckExpensesAmt>
+      <InsuranceAmt>813</InsuranceAmt>
+      <OfficeExpensesAmt>1518</OfficeExpensesAmt>
+      <SuppliesAmt>3023</SuppliesAmt>
+      <UtilitiesAmt>839</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15302</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>25614</TotalExpensesAmt>
+      <NetProfitOrLossAmt>70286</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>70286</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>70286</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64909</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9931</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4966</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dana Fisher</ChildFirstAndLastName>
+        <ChildSSN>123105881</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Fisher</ChildFirstAndLastName>
+        <ChildSSN>383411155</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Fisher</ChildFirstAndLastName>
+        <ChildSSN>455351425</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Fisher</ChildFirstAndLastName>
+        <ChildSSN>673671771</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>9200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>9200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>70286</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>70286</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14057</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>732064776</EmployeeSSN>
+      <EmployerEIN>616175969</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3743 Callahan Point</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kenneth Fisher</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3743 Callahan Point</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63200</WagesAmt>
+      <WithholdingAmt>7584</WithholdingAmt>
+      <SocialSecurityWagesAmt>63200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>916</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

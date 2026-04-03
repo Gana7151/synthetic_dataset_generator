@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-03-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33280</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>332807992</PrimarySSN>
+      <NameLine1Txt>Christina Alexander</NameLine1Txt>
+      <PrimaryNameControlTxt>CHRI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4402 JOHNSON STRAVENUE</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>685550810</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">167300</WagesAmt>
+      <WagesSalariesAndTipsAmt>167300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2107</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2184</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">96773</BusinessIncomeAmt>
+      <TotalIncomeAmt>268363</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>266987</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19355</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41255</TotalDeductionsAmt>
+      <TaxableIncomeAmt>225732</TaxableIncomeAmt>
+      <TaxAmt>48227</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>48227</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>48227</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2753</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2753</TotalOtherTaxesAmt>
+      <TotalTaxAmt>51490</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>36806</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>36806</WithholdingTaxAmt>
+      <TotalPaymentsAmt>36806</TotalPaymentsAmt>
+      <AmountOwedAmt>14684</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2753</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2753</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2107</InterestAmt>
+      <TotalInterestAmt>2107</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2184</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2184</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Alexander's Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ALEX</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>131100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>131100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3703</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1907</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2216</InsuranceAmt>
+      <OfficeExpensesAmt>2076</OfficeExpensesAmt>
+      <SuppliesAmt>3412</SuppliesAmt>
+      <UtilitiesAmt>1418</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19595</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34327</TotalExpensesAmt>
+      <NetProfitOrLossAmt>96773</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>96773</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>96773</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>89370</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2753</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1376</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>96773</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>96773</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19355</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>332807992</EmployeeSSN>
+      <EmployerEIN>722331071</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>166 Pace Highway</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Christina Alexander</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>166 Pace Highway</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>167300</WagesAmt>
+      <WithholdingAmt>36806</WithholdingAmt>
+      <SocialSecurityWagesAmt>167300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10373</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>167300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2426</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

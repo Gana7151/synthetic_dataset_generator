@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-11-13</PrimaryBirthDt>
+      <SpouseBirthDt>1961-07-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>32009</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13005</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>320096514</PrimarySSN>
+      <SpouseSSN>130058150</SpouseSSN>
+      <NameLine1Txt>William Bennett</NameLine1Txt>
+      <SpouseNameLine1Txt>Julia Bennett</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>WILL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JULI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2967 MCCALL LOAF</AddressLine1Txt>
+        <CityNm>ROCKFORD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>130058150</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Shawn</DependentFirstNm>
+        <DependentLastNm>Bennett</DependentLastNm>
+        <DependentNameControlTxt>SHAW</DependentNameControlTxt>
+        <DependentSSN>690061033</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Bennett</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>307350400</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Carl</DependentFirstNm>
+        <DependentLastNm>Bennett</DependentLastNm>
+        <DependentNameControlTxt>CARL</DependentNameControlTxt>
+        <DependentSSN>806580032</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">178500</WagesAmt>
+      <WagesSalariesAndTipsAmt>178500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">330</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1497</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">35981</BusinessIncomeAmt>
+      <TotalIncomeAmt>216308</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>215826</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7196</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31996</TotalDeductionsAmt>
+      <TaxableIncomeAmt>183830</TaxableIncomeAmt>
+      <TaxAmt>32278</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>32278</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>26278</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">964</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>964</TotalOtherTaxesAmt>
+      <TotalTaxAmt>27242</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>26048</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>26048</WithholdingTaxAmt>
+      <TotalPaymentsAmt>26048</TotalPaymentsAmt>
+      <AmountOwedAmt>1194</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">964</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>964</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>330</InterestAmt>
+      <TotalInterestAmt>330</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1497</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1497</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bennett's Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BENN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>54800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>54800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1666</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1614</CarAndTruckExpensesAmt>
+      <InsuranceAmt>524</InsuranceAmt>
+      <OfficeExpensesAmt>1127</OfficeExpensesAmt>
+      <SuppliesAmt>1574</SuppliesAmt>
+      <UtilitiesAmt>659</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6855</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14019</TotalExpensesAmt>
+      <NetProfitOrLossAmt>35981</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>35981</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>35981</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>33228</SEBaseAmt>
+      <SelfEmploymentTaxAmt>964</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>482</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Shawn Bennett</ChildFirstAndLastName>
+        <ChildSSN>690061033</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Bennett</ChildFirstAndLastName>
+        <ChildSSN>307350400</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carl Bennett</ChildFirstAndLastName>
+        <ChildSSN>806580032</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>35981</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>35981</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7196</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bennett's Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>320096514</EmployeeSSN>
+      <EmployerEIN>831793470</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4794 Herrera Forks</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>William Bennett</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4794 Herrera Forks</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>115700</WagesAmt>
+      <WithholdingAmt>18512</WithholdingAmt>
+      <SocialSecurityWagesAmt>115700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7173</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>115700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1678</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>130058150</EmployeeSSN>
+      <EmployerEIN>618926818</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9022 Kevin Rapids</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Julia Bennett</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9022 Kevin Rapids</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62800</WagesAmt>
+      <WithholdingAmt>7536</WithholdingAmt>
+      <SocialSecurityWagesAmt>62800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3894</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>911</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

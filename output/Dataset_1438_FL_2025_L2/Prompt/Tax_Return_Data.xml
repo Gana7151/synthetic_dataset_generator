@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-08-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>23893</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>238939967</PrimarySSN>
+      <NameLine1Txt>Deborah Lee</NameLine1Txt>
+      <PrimaryNameControlTxt>DEBO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8756 NICHOLAS PARKWAYS</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Monica</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>MONI</DependentNameControlTxt>
+        <DependentSSN>726323141</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Charles</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>CHAR</DependentNameControlTxt>
+        <DependentSSN>466023058</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Debbie</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>DEBB</DependentNameControlTxt>
+        <DependentSSN>268624924</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">98446</WagesAmt>
+      <WagesSalariesAndTipsAmt>98446</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">688</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1840</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">55505</BusinessIncomeAmt>
+      <TotalIncomeAmt>156479</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>140705</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11101</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26851</TotalDeductionsAmt>
+      <TaxableIncomeAmt>113854</TaxableIncomeAmt>
+      <TaxAmt>20172</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20172</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13572</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7843</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7843</TotalOtherTaxesAmt>
+      <TotalTaxAmt>21415</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>15751</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>15751</WithholdingTaxAmt>
+      <TotalPaymentsAmt>15751</TotalPaymentsAmt>
+      <AmountOwedAmt>5664</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7843</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7843</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>688</InterestAmt>
+      <TotalInterestAmt>688</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1840</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1840</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>11852</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>11852</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>72100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>72100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>891</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2353</CarAndTruckExpensesAmt>
+      <InsuranceAmt>921</InsuranceAmt>
+      <OfficeExpensesAmt>873</OfficeExpensesAmt>
+      <SuppliesAmt>1096</SuppliesAmt>
+      <UtilitiesAmt>909</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9552</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16595</TotalExpensesAmt>
+      <NetProfitOrLossAmt>55505</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>55505</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>55505</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>51259</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7843</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3921</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Monica Lee</ChildFirstAndLastName>
+        <ChildSSN>726323141</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Charles Lee</ChildFirstAndLastName>
+        <ChildSSN>466023058</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Debbie Lee</ChildFirstAndLastName>
+        <ChildSSN>268624924</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>55505</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>55505</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11101</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>238939967</EmployeeSSN>
+      <EmployerEIN>139994281</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2021 Williams Crest</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Deborah Lee</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2021 Williams Crest</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>98446</WagesAmt>
+      <WithholdingAmt>15751</WithholdingAmt>
+      <SocialSecurityWagesAmt>98446</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6104</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>98446</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1427</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>19646</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

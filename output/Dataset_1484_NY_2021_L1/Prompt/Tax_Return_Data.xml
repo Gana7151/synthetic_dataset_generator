@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-03-16</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68958</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>689581871</PrimarySSN>
+      <NameLine1Txt>Sharon Bell</NameLine1Txt>
+      <PrimaryNameControlTxt>SHAR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2252 JULIA HILLS</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39600</WagesAmt>
+      <WagesSalariesAndTipsAmt>39600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">222</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>39822</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>39822</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>27272</TaxableIncomeAmt>
+      <TaxAmt>3074</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3074</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3074</TaxLessCreditsAmt>
+      <TotalTaxAmt>3074</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3168</TotalPaymentsAmt>
+      <OverpaidAmt>94</OverpaidAmt>
+      <RefundAmt>94</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>222</InterestAmt>
+      <TotalInterestAmt>222</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>689581871</EmployeeSSN>
+      <EmployerEIN>207071341</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8615 Justin Drives</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sharon Bell</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8615 Justin Drives</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39600</WagesAmt>
+      <WithholdingAmt>3168</WithholdingAmt>
+      <SocialSecurityWagesAmt>39600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2455</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>574</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

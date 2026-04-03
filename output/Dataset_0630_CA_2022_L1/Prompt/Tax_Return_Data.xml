@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-02-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68621</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>686214821</PrimarySSN>
+      <NameLine1Txt>Luis Craig</NameLine1Txt>
+      <PrimaryNameControlTxt>LUIS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6196 DAVID ROUTE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">73500</WagesAmt>
+      <WagesSalariesAndTipsAmt>73500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>73500</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>73500</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>60550</TaxableIncomeAmt>
+      <TaxAmt>8938</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8938</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8938</TaxLessCreditsAmt>
+      <TotalTaxAmt>8938</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8820</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8820</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8820</TotalPaymentsAmt>
+      <AmountOwedAmt>118</AmountOwedAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>686214821</EmployeeSSN>
+      <EmployerEIN>615249191</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8014 Mathis Key</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Luis Craig</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8014 Mathis Key</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>73500</WagesAmt>
+      <WithholdingAmt>8820</WithholdingAmt>
+      <SocialSecurityWagesAmt>73500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4557</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>73500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1066</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>808</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

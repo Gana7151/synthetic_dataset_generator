@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-02-21</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51699</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>516995124</PrimarySSN>
+      <NameLine1Txt>Stacey Jimenez</NameLine1Txt>
+      <PrimaryNameControlTxt>STAC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1356 CORTEZ UNDERPASS</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">191200</WagesAmt>
+      <WagesSalariesAndTipsAmt>191200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2056</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1872</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">62885</BusinessIncomeAmt>
+      <TotalIncomeAmt>258013</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>257171</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12577</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24977</TotalDeductionsAmt>
+      <TaxableIncomeAmt>232194</TaxableIncomeAmt>
+      <TaxAmt>56063</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>56063</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>56063</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1684</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1684</TotalOtherTaxesAmt>
+      <TotalTaxAmt>58190</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>42064</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>42064</WithholdingTaxAmt>
+      <TotalPaymentsAmt>42064</TotalPaymentsAmt>
+      <AmountOwedAmt>16126</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1684</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1684</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2056</InterestAmt>
+      <TotalInterestAmt>2056</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1872</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1872</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>96700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>96700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3793</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3540</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1700</InsuranceAmt>
+      <OfficeExpensesAmt>2603</OfficeExpensesAmt>
+      <SuppliesAmt>3847</SuppliesAmt>
+      <UtilitiesAmt>1685</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16647</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>33815</TotalExpensesAmt>
+      <NetProfitOrLossAmt>62885</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>62885</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>62885</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58074</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1684</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>842</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>62885</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>62885</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12577</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>516995124</EmployeeSSN>
+      <EmployerEIN>202419102</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4783 Jose Junction</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stacey Jimenez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4783 Jose Junction</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>191200</WagesAmt>
+      <WithholdingAmt>42064</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>191200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2772</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

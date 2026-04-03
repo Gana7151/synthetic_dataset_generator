@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-12-04</PrimaryBirthDt>
+      <SpouseBirthDt>1982-07-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>78033</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>51469</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>780332196</PrimarySSN>
+      <SpouseSSN>514692317</SpouseSSN>
+      <NameLine1Txt>Mary Galloway</NameLine1Txt>
+      <SpouseNameLine1Txt>Tyler Galloway</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MARY</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TYLE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2589 WILKINS RIDGES</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>514692317</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">63000</WagesAmt>
+      <WagesSalariesAndTipsAmt>63000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33800</TaxableIncomeAmt>
+      <TaxAmt>3592</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3592</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3592</TaxLessCreditsAmt>
+      <TotalTaxAmt>3592</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7560</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7560</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7560</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>780332196</EmployeeSSN>
+      <EmployerEIN>757746260</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2893 Philip Spurs</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mary Galloway</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2893 Philip Spurs</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63000</WagesAmt>
+      <WithholdingAmt>7560</WithholdingAmt>
+      <SocialSecurityWagesAmt>63000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3906</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>914</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

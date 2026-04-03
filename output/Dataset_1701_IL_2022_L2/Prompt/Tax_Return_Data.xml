@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-01-22</PrimaryBirthDt>
+      <SpouseBirthDt>1979-09-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26891</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>79255</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>268918561</PrimarySSN>
+      <SpouseSSN>792551349</SpouseSSN>
+      <NameLine1Txt>Lisa Gilbert</NameLine1Txt>
+      <SpouseNameLine1Txt>Charles Gilbert</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>LISA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHAR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3668 SMITH TRAFFICWAY</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>792551349</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Beth</DependentFirstNm>
+        <DependentLastNm>Gilbert</DependentLastNm>
+        <DependentNameControlTxt>BETH</DependentNameControlTxt>
+        <DependentSSN>122857621</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Anthony</DependentFirstNm>
+        <DependentLastNm>Gilbert</DependentLastNm>
+        <DependentNameControlTxt>ANTH</DependentNameControlTxt>
+        <DependentSSN>274254256</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brandy</DependentFirstNm>
+        <DependentLastNm>Gilbert</DependentLastNm>
+        <DependentNameControlTxt>BRAN</DependentNameControlTxt>
+        <DependentSSN>584554808</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116300</WagesAmt>
+      <WagesSalariesAndTipsAmt>116300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">361</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1828</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">13737</BusinessIncomeAmt>
+      <TotalIncomeAmt>132225</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>131255</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2747</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28647</TotalDeductionsAmt>
+      <TaxableIncomeAmt>102608</TaxableIncomeAmt>
+      <TaxAmt>13808</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13808</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7808</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1941</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1941</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9749</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18608</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18608</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18608</TotalPaymentsAmt>
+      <OverpaidAmt>8859</OverpaidAmt>
+      <RefundAmt>8859</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1941</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1941</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>361</InterestAmt>
+      <TotalInterestAmt>361</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1828</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1828</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>22800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>22800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>283</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>247</CarAndTruckExpensesAmt>
+      <InsuranceAmt>236</InsuranceAmt>
+      <OfficeExpensesAmt>503</OfficeExpensesAmt>
+      <SuppliesAmt>674</SuppliesAmt>
+      <UtilitiesAmt>149</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3571</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>5663</TotalExpensesAmt>
+      <NetProfitOrLossAmt>13737</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>13737</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>13737</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>12686</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1941</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>970</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Beth Gilbert</ChildFirstAndLastName>
+        <ChildSSN>122857621</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Anthony Gilbert</ChildFirstAndLastName>
+        <ChildSSN>274254256</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brandy Gilbert</ChildFirstAndLastName>
+        <ChildSSN>584554808</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>13737</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>13737</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2747</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3400</DepreciationAmt>
+      <TotalDepreciationAmt>3400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>268918561</EmployeeSSN>
+      <EmployerEIN>521046815</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1668 Johnson Path</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Gilbert</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1668 Johnson Path</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116300</WagesAmt>
+      <WithholdingAmt>18608</WithholdingAmt>
+      <SocialSecurityWagesAmt>116300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7211</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1686</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

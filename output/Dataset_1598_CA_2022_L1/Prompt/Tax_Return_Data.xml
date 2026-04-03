@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-10-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85959</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>859599283</PrimarySSN>
+      <NameLine1Txt>Tonya Swanson</NameLine1Txt>
+      <PrimaryNameControlTxt>TONY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9220 HUNT ISLAND</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">82700</WagesAmt>
+      <WagesSalariesAndTipsAmt>82700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">396</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>83096</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>83096</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>70146</TaxableIncomeAmt>
+      <TaxAmt>11049</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11049</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11049</TaxLessCreditsAmt>
+      <TotalTaxAmt>11049</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13232</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13232</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13232</TotalPaymentsAmt>
+      <OverpaidAmt>2183</OverpaidAmt>
+      <RefundAmt>2183</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>396</InterestAmt>
+      <TotalInterestAmt>396</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>859599283</EmployeeSSN>
+      <EmployerEIN>741946638</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4415 Wilson Meadow</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tonya Swanson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4415 Wilson Meadow</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>82700</WagesAmt>
+      <WithholdingAmt>13232</WithholdingAmt>
+      <SocialSecurityWagesAmt>82700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5127</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>82700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1199</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>910</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

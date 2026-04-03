@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-03-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>28742</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>287420183</PrimarySSN>
+      <NameLine1Txt>Kayla Martinez</NameLine1Txt>
+      <PrimaryNameControlTxt>KAYL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4264 MONTGOMERY ALLEY</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>246346887</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>558531532</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Katelyn</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>KATE</DependentNameControlTxt>
+        <DependentSSN>827998509</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Renee</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>RENE</DependentNameControlTxt>
+        <DependentSSN>450074932</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">49800</WagesAmt>
+      <WagesSalariesAndTipsAmt>49800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2554</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3127</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">43321</BusinessIncomeAmt>
+      <TotalIncomeAmt>98802</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>95741</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8664</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21614</TotalDeductionsAmt>
+      <TaxableIncomeAmt>74127</TaxableIncomeAmt>
+      <TaxAmt>11925</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11925</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3925</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6121</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6121</TotalOtherTaxesAmt>
+      <TotalTaxAmt>10046</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5976</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5976</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5976</TotalPaymentsAmt>
+      <AmountOwedAmt>4070</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6121</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6121</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2554</InterestAmt>
+      <TotalInterestAmt>2554</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3127</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3127</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>65800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>65800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1289</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2831</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1086</InsuranceAmt>
+      <OfficeExpensesAmt>2150</OfficeExpensesAmt>
+      <SuppliesAmt>1324</SuppliesAmt>
+      <UtilitiesAmt>581</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13218</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22479</TotalExpensesAmt>
+      <NetProfitOrLossAmt>43321</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>43321</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>43321</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>40007</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6121</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3061</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Martinez</ChildFirstAndLastName>
+        <ChildSSN>246346887</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Martinez</ChildFirstAndLastName>
+        <ChildSSN>558531532</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Katelyn Martinez</ChildFirstAndLastName>
+        <ChildSSN>827998509</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Renee Martinez</ChildFirstAndLastName>
+        <ChildSSN>450074932</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>43321</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>43321</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8664</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>287420183</EmployeeSSN>
+      <EmployerEIN>436292759</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9904 Sharon Estates</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kayla Martinez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9904 Sharon Estates</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>49800</WagesAmt>
+      <WithholdingAmt>5976</WithholdingAmt>
+      <SocialSecurityWagesAmt>49800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3088</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>49800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>722</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>548</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

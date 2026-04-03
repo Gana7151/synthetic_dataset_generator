@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1949-02-08</PrimaryBirthDt>
+      <SpouseBirthDt>1963-04-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37261</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>55294</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>372615794</PrimarySSN>
+      <SpouseSSN>552941105</SpouseSSN>
+      <NameLine1Txt>Ann Miller</NameLine1Txt>
+      <SpouseNameLine1Txt>Leon Miller</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ANN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LEON</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8169 CAMERON TRACK</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>552941105</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Steven</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>STEV</DependentNameControlTxt>
+        <DependentSSN>816429509</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Nancy</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>NANC</DependentNameControlTxt>
+        <DependentSSN>302891891</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kelly</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>KELL</DependentNameControlTxt>
+        <DependentSSN>857822816</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Samuel</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>SAMU</DependentNameControlTxt>
+        <DependentSSN>832866638</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">94000</WagesAmt>
+      <WagesSalariesAndTipsAmt>94000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1753</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">551</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">93051</BusinessIncomeAmt>
+      <TotalIncomeAmt>189355</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>184823</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18610</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44510</TotalDeductionsAmt>
+      <TaxableIncomeAmt>140313</TaxableIncomeAmt>
+      <TaxAmt>22103</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>22103</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14103</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9064</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9064</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23167</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>15040</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>15040</WithholdingTaxAmt>
+      <TotalPaymentsAmt>15040</TotalPaymentsAmt>
+      <AmountOwedAmt>8127</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9064</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9064</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1753</InterestAmt>
+      <TotalInterestAmt>1753</TotalInterestAmt>
+      <OrdinaryDividendsAmt>551</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>551</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>143900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>143900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3891</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2977</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3407</InsuranceAmt>
+      <OfficeExpensesAmt>2111</OfficeExpensesAmt>
+      <SuppliesAmt>3149</SuppliesAmt>
+      <UtilitiesAmt>2738</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>29976</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>48249</TotalExpensesAmt>
+      <NetProfitOrLossAmt>93051</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>93051</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>93051</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>85933</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9064</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4532</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Steven Miller</ChildFirstAndLastName>
+        <ChildSSN>816429509</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nancy Miller</ChildFirstAndLastName>
+        <ChildSSN>302891891</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kelly Miller</ChildFirstAndLastName>
+        <ChildSSN>857822816</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Samuel Miller</ChildFirstAndLastName>
+        <ChildSSN>832866638</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>93051</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>93051</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18610</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2600</DepreciationAmt>
+      <TotalDepreciationAmt>2600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>552941105</EmployeeSSN>
+      <EmployerEIN>823835207</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>965 Tyler Spurs</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Leon Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>965 Tyler Spurs</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>94000</WagesAmt>
+      <WithholdingAmt>15040</WithholdingAmt>
+      <SocialSecurityWagesAmt>94000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5828</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>94000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1363</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

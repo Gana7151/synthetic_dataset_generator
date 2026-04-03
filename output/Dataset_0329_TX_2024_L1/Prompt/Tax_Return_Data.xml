@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-02-10</PrimaryBirthDt>
+      <SpouseBirthDt>1964-12-17</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33811</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>17387</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>338112174</PrimarySSN>
+      <SpouseSSN>173873825</SpouseSSN>
+      <NameLine1Txt>Michael Morgan</NameLine1Txt>
+      <SpouseNameLine1Txt>George Morgan</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>GEOR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8321 BRANDT CANYON</AddressLine1Txt>
+        <CityNm>PLANO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>173873825</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">62400</WagesAmt>
+      <WagesSalariesAndTipsAmt>62400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>62400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>62400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33200</TaxableIncomeAmt>
+      <TaxAmt>3520</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3520</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3520</TaxLessCreditsAmt>
+      <TotalTaxAmt>3520</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7488</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7488</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7488</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>173873825</EmployeeSSN>
+      <EmployerEIN>779539673</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7099 Matthews Oval</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>George Morgan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7099 Matthews Oval</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62400</WagesAmt>
+      <WithholdingAmt>7488</WithholdingAmt>
+      <SocialSecurityWagesAmt>62400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3869</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>905</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

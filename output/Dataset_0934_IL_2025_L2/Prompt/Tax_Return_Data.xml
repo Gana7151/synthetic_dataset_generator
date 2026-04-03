@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1995-01-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56617</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>566174006</PrimarySSN>
+      <NameLine1Txt>Allen Murray</NameLine1Txt>
+      <PrimaryNameControlTxt>ALLE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1085 MICHELLE JUNCTIONS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Diane</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>DIAN</DependentNameControlTxt>
+        <DependentSSN>374287379</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Linda</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>LIND</DependentNameControlTxt>
+        <DependentSSN>874433389</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christina</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>222321721</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">62000</WagesAmt>
+      <WagesSalariesAndTipsAmt>62000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">324</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">341</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33383</BusinessIncomeAmt>
+      <TotalIncomeAmt>96048</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>93690</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6677</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22427</TotalDeductionsAmt>
+      <TaxableIncomeAmt>71262</TaxableIncomeAmt>
+      <TaxAmt>10592</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10592</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3992</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4717</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4717</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8709</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7440</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7440</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7440</TotalPaymentsAmt>
+      <AmountOwedAmt>1269</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4717</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4717</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>324</InterestAmt>
+      <TotalInterestAmt>324</TotalInterestAmt>
+      <OrdinaryDividendsAmt>341</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>341</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Murray's Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MURR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>45200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>45200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1370</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1686</CarAndTruckExpensesAmt>
+      <InsuranceAmt>479</InsuranceAmt>
+      <OfficeExpensesAmt>906</OfficeExpensesAmt>
+      <SuppliesAmt>679</SuppliesAmt>
+      <UtilitiesAmt>485</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6212</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11817</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33383</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33383</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33383</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30829</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4717</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2358</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Diane Murray</ChildFirstAndLastName>
+        <ChildSSN>374287379</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Linda Murray</ChildFirstAndLastName>
+        <ChildSSN>874433389</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christina Murray</ChildFirstAndLastName>
+        <ChildSSN>222321721</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33383</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33383</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6677</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>566174006</EmployeeSSN>
+      <EmployerEIN>541684795</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5939 Alexander Lakes</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Allen Murray</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5939 Alexander Lakes</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62000</WagesAmt>
+      <WithholdingAmt>7440</WithholdingAmt>
+      <SocialSecurityWagesAmt>62000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3844</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>899</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

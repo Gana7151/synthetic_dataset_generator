@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-01-21</PrimaryBirthDt>
+      <SpouseBirthDt>1990-09-26</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>82439</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34438</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>824391493</PrimarySSN>
+      <SpouseSSN>344380240</SpouseSSN>
+      <NameLine1Txt>Joshua Johnson</NameLine1Txt>
+      <SpouseNameLine1Txt>Vanessa Johnson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOSH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>VANE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4284 CORY HEIGHTS</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>344380240</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">269800</WagesAmt>
+      <WagesSalariesAndTipsAmt>269800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1732</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">414</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">101238</BusinessIncomeAmt>
+      <TotalIncomeAmt>373183</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>371828</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">20248</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>46148</TotalDeductionsAmt>
+      <TaxableIncomeAmt>325680</TaxableIncomeAmt>
+      <TaxAmt>65834</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>65834</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>65834</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2711</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2711</TotalOtherTaxesAmt>
+      <TotalTaxAmt>69565</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>52246</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>52246</WithholdingTaxAmt>
+      <TotalPaymentsAmt>52246</TotalPaymentsAmt>
+      <AmountOwedAmt>17319</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2711</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2711</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1732</InterestAmt>
+      <TotalInterestAmt>1732</TotalInterestAmt>
+      <OrdinaryDividendsAmt>414</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>414</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Johnson's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>JOHN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>141500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>141500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2380</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2183</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1932</InsuranceAmt>
+      <OfficeExpensesAmt>2344</OfficeExpensesAmt>
+      <SuppliesAmt>4005</SuppliesAmt>
+      <UtilitiesAmt>2132</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>25286</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>40262</TotalExpensesAmt>
+      <NetProfitOrLossAmt>101238</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>101238</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>101238</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>93493</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2711</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1356</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>101238</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>101238</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>20248</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>824391493</EmployeeSSN>
+      <EmployerEIN>745577616</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4263 Martinez Key</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joshua Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4263 Martinez Key</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>198700</WagesAmt>
+      <WithholdingAmt>43714</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>198700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2881</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>344380240</EmployeeSSN>
+      <EmployerEIN>424832036</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7141 Matthew Camp</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Vanessa Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7141 Matthew Camp</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71100</WagesAmt>
+      <WithholdingAmt>8532</WithholdingAmt>
+      <SocialSecurityWagesAmt>71100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4408</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1031</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

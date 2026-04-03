@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-01-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>34024</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>340249662</PrimarySSN>
+      <NameLine1Txt>Charles Murray</NameLine1Txt>
+      <PrimaryNameControlTxt>CHAR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>770 HUDSON TUNNEL</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Edward</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>EDWA</DependentNameControlTxt>
+        <DependentSSN>711472573</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kristina</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>374988360</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brian</DependentFirstNm>
+        <DependentLastNm>Murray</DependentLastNm>
+        <DependentNameControlTxt>BRIA</DependentNameControlTxt>
+        <DependentSSN>788581127</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">106700</WagesAmt>
+      <WagesSalariesAndTipsAmt>106700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">174</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">374</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54098</BusinessIncomeAmt>
+      <TotalIncomeAmt>161346</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>158383</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10820</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23370</TotalDeductionsAmt>
+      <TaxableIncomeAmt>135013</TaxableIncomeAmt>
+      <TaxAmt>26424</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5450</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5450</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>26424</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>20974</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5925</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5925</TotalOtherTaxesAmt>
+      <TotalTaxAmt>26899</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17072</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17072</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17072</TotalPaymentsAmt>
+      <AmountOwedAmt>9827</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5925</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5925</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>174</InterestAmt>
+      <TotalInterestAmt>174</TotalInterestAmt>
+      <OrdinaryDividendsAmt>374</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>374</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Murray's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MURR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>72300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>72300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1980</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>440</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1112</InsuranceAmt>
+      <OfficeExpensesAmt>1295</OfficeExpensesAmt>
+      <SuppliesAmt>1067</SuppliesAmt>
+      <UtilitiesAmt>681</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10127</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16702</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54098</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54098</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54098</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>49960</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5925</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2963</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Edward Murray</ChildFirstAndLastName>
+        <ChildSSN>711472573</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kristina Murray</ChildFirstAndLastName>
+        <ChildSSN>374988360</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brian Murray</ChildFirstAndLastName>
+        <ChildSSN>788581127</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5450</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5450</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54098</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54098</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10820</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Murray's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1500</DepreciationAmt>
+      <TotalDepreciationAmt>1500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>340249662</EmployeeSSN>
+      <EmployerEIN>951973542</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5190 Mallory Cliff</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Charles Murray</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5190 Mallory Cliff</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>106700</WagesAmt>
+      <WithholdingAmt>17072</WithholdingAmt>
+      <SocialSecurityWagesAmt>106700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6615</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>106700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1547</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

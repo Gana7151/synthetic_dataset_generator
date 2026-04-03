@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-03-21</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51217</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>512173113</PrimarySSN>
+      <NameLine1Txt>Roy May</NameLine1Txt>
+      <PrimaryNameControlTxt>ROY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7302 JERRY CAMP</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patty</DependentFirstNm>
+        <DependentLastNm>May</DependentLastNm>
+        <DependentNameControlTxt>PATT</DependentNameControlTxt>
+        <DependentSSN>855708733</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brittany</DependentFirstNm>
+        <DependentLastNm>May</DependentLastNm>
+        <DependentNameControlTxt>BRIT</DependentNameControlTxt>
+        <DependentSSN>540698870</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">93200</WagesAmt>
+      <WagesSalariesAndTipsAmt>93200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">226</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">445</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23828</BusinessIncomeAmt>
+      <TotalIncomeAmt>117699</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>116015</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4766</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26666</TotalDeductionsAmt>
+      <TaxableIncomeAmt>89349</TaxableIncomeAmt>
+      <TaxAmt>13016</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13016</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9016</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3367</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3367</TotalOtherTaxesAmt>
+      <TotalTaxAmt>12383</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14912</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14912</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14912</TotalPaymentsAmt>
+      <OverpaidAmt>2529</OverpaidAmt>
+      <RefundAmt>2529</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3367</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3367</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>226</InterestAmt>
+      <TotalInterestAmt>226</TotalInterestAmt>
+      <OrdinaryDividendsAmt>445</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>445</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>33000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>33000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>471</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1101</CarAndTruckExpensesAmt>
+      <InsuranceAmt>526</InsuranceAmt>
+      <OfficeExpensesAmt>760</OfficeExpensesAmt>
+      <SuppliesAmt>651</SuppliesAmt>
+      <UtilitiesAmt>349</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5314</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9172</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23828</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23828</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23828</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22005</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3367</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1683</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patty May</ChildFirstAndLastName>
+        <ChildSSN>855708733</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brittany May</ChildFirstAndLastName>
+        <ChildSSN>540698870</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23828</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23828</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4766</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>512173113</EmployeeSSN>
+      <EmployerEIN>325166106</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Land Development</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2934 Courtney Shoal</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Roy May</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2934 Courtney Shoal</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>93200</WagesAmt>
+      <WithholdingAmt>14912</WithholdingAmt>
+      <SocialSecurityWagesAmt>93200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5778</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>93200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1351</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

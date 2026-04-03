@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-11-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>83766</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>837669541</PrimarySSN>
+      <NameLine1Txt>Tara Romero</NameLine1Txt>
+      <PrimaryNameControlTxt>TARA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>135 MARIE VIADUCT</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84300</WagesAmt>
+      <WagesSalariesAndTipsAmt>84300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>84300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>69700</TaxableIncomeAmt>
+      <TaxAmt>10387</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10387</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>10387</TaxLessCreditsAmt>
+      <TotalTaxAmt>10387</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13488</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13488</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13488</TotalPaymentsAmt>
+      <OverpaidAmt>3101</OverpaidAmt>
+      <RefundAmt>3101</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>837669541</EmployeeSSN>
+      <EmployerEIN>624915295</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2290 Theresa Streets</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tara Romero</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2290 Theresa Streets</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84300</WagesAmt>
+      <WithholdingAmt>13488</WithholdingAmt>
+      <SocialSecurityWagesAmt>84300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5227</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1222</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

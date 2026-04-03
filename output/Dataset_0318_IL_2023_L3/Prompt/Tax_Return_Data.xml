@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-05-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>17049</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>170498862</PrimarySSN>
+      <NameLine1Txt>Nathaniel Elliott</NameLine1Txt>
+      <PrimaryNameControlTxt>NATH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7774 RICHARD MEADOWS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>300840381</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>117406311</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brian</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>BRIA</DependentNameControlTxt>
+        <DependentSSN>341030113</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Amanda</DependentFirstNm>
+        <DependentLastNm>Elliott</DependentLastNm>
+        <DependentNameControlTxt>AMAN</DependentNameControlTxt>
+        <DependentSSN>466922038</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">174200</WagesAmt>
+      <WagesSalariesAndTipsAmt>174200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2122</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1792</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">46293</BusinessIncomeAmt>
+      <TotalIncomeAmt>224407</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>223787</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9259</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23109</TotalDeductionsAmt>
+      <TaxableIncomeAmt>200678</TaxableIncomeAmt>
+      <TaxAmt>43049</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6850</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6850</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>43049</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>36199</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1240</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1240</TotalOtherTaxesAmt>
+      <TotalTaxAmt>37591</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>38324</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>38324</WithholdingTaxAmt>
+      <TotalPaymentsAmt>38324</TotalPaymentsAmt>
+      <OverpaidAmt>733</OverpaidAmt>
+      <RefundAmt>733</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1240</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1240</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2122</InterestAmt>
+      <TotalInterestAmt>2122</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1792</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1792</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>60200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>60200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1178</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1737</CarAndTruckExpensesAmt>
+      <InsuranceAmt>844</InsuranceAmt>
+      <OfficeExpensesAmt>827</OfficeExpensesAmt>
+      <SuppliesAmt>950</SuppliesAmt>
+      <UtilitiesAmt>394</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7977</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13907</TotalExpensesAmt>
+      <NetProfitOrLossAmt>46293</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>46293</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>46293</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>42752</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1240</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>620</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Elliott</ChildFirstAndLastName>
+        <ChildSSN>300840381</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Elliott</ChildFirstAndLastName>
+        <ChildSSN>117406311</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brian Elliott</ChildFirstAndLastName>
+        <ChildSSN>341030113</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amanda Elliott</ChildFirstAndLastName>
+        <ChildSSN>466922038</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6850</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6850</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>46293</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>46293</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9259</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>170498862</EmployeeSSN>
+      <EmployerEIN>381885155</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>567 Sharon Mews</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nathaniel Elliott</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>567 Sharon Mews</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>174200</WagesAmt>
+      <WithholdingAmt>38324</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>174200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2526</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

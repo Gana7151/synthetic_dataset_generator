@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-07-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>15537</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>155379079</PrimarySSN>
+      <NameLine1Txt>Adam Molina</NameLine1Txt>
+      <PrimaryNameControlTxt>ADAM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1482 WALKER VIADUCT</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">35900</WagesAmt>
+      <WagesSalariesAndTipsAmt>35900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>35900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>35900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>23500</TaxableIncomeAmt>
+      <TaxAmt>2622</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2622</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2622</TaxLessCreditsAmt>
+      <TotalTaxAmt>2622</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2872</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2872</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2872</TotalPaymentsAmt>
+      <OverpaidAmt>250</OverpaidAmt>
+      <RefundAmt>250</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>155379079</EmployeeSSN>
+      <EmployerEIN>959186418</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9042 Tracey Glens</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adam Molina</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9042 Tracey Glens</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>35900</WagesAmt>
+      <WithholdingAmt>2872</WithholdingAmt>
+      <SocialSecurityWagesAmt>35900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2226</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>35900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>521</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1996-01-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>22622</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>226227589</PrimarySSN>
+      <NameLine1Txt>Jennifer Rodgers</NameLine1Txt>
+      <PrimaryNameControlTxt>JENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6822 MIKE RUE</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Erika</DependentFirstNm>
+        <DependentLastNm>Rodgers</DependentLastNm>
+        <DependentNameControlTxt>ERIK</DependentNameControlTxt>
+        <DependentSSN>385140204</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Rodgers</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>149492480</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">35100</WagesAmt>
+      <WagesSalariesAndTipsAmt>35100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">426</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1068</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">49621</BusinessIncomeAmt>
+      <TotalIncomeAmt>86214</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>82709</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9924</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28574</TotalDeductionsAmt>
+      <TaxableIncomeAmt>54135</TaxableIncomeAmt>
+      <TaxAmt>6258</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6258</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2258</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7011</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7011</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9269</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2808</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2808</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2808</TotalPaymentsAmt>
+      <AmountOwedAmt>6461</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7011</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7011</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>426</InterestAmt>
+      <TotalInterestAmt>426</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1068</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1068</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>63100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>63100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1400</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>919</CarAndTruckExpensesAmt>
+      <InsuranceAmt>923</InsuranceAmt>
+      <OfficeExpensesAmt>1065</OfficeExpensesAmt>
+      <SuppliesAmt>1046</SuppliesAmt>
+      <UtilitiesAmt>676</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7450</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13479</TotalExpensesAmt>
+      <NetProfitOrLossAmt>49621</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>49621</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>49621</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>45825</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7011</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3506</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Erika Rodgers</ChildFirstAndLastName>
+        <ChildSSN>385140204</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Rodgers</ChildFirstAndLastName>
+        <ChildSSN>149492480</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>49621</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>49621</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9924</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>226227589</EmployeeSSN>
+      <EmployerEIN>775406438</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>796 Davis Falls</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jennifer Rodgers</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>796 Davis Falls</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>35100</WagesAmt>
+      <WithholdingAmt>2808</WithholdingAmt>
+      <SocialSecurityWagesAmt>35100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2176</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>35100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>509</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

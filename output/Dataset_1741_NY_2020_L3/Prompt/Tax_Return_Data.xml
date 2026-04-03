@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-10-20</PrimaryBirthDt>
+      <SpouseBirthDt>1978-08-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11435</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>68255</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>114354179</PrimarySSN>
+      <SpouseSSN>682555483</SpouseSSN>
+      <NameLine1Txt>Amber Dorsey</NameLine1Txt>
+      <SpouseNameLine1Txt>Lisa Dorsey</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>AMBE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LISA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7626 BAIRD GLENS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>682555483</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Dorsey</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>640230095</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Anthony</DependentFirstNm>
+        <DependentLastNm>Dorsey</DependentLastNm>
+        <DependentNameControlTxt>ANTH</DependentNameControlTxt>
+        <DependentSSN>624769781</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Charles</DependentFirstNm>
+        <DependentLastNm>Dorsey</DependentLastNm>
+        <DependentNameControlTxt>CHAR</DependentNameControlTxt>
+        <DependentSSN>830579208</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sherry</DependentFirstNm>
+        <DependentLastNm>Dorsey</DependentLastNm>
+        <DependentNameControlTxt>SHER</DependentNameControlTxt>
+        <DependentSSN>479777826</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">170300</WagesAmt>
+      <WagesSalariesAndTipsAmt>170300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">776</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1826</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85990</BusinessIncomeAmt>
+      <TotalIncomeAmt>258892</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>257741</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17198</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41998</TotalDeductionsAmt>
+      <TaxableIncomeAmt>215743</TaxableIncomeAmt>
+      <TaxAmt>39937</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>39937</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>31937</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2303</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2303</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34240</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>37466</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>37466</WithholdingTaxAmt>
+      <TotalPaymentsAmt>37466</TotalPaymentsAmt>
+      <OverpaidAmt>3226</OverpaidAmt>
+      <RefundAmt>3226</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2303</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2303</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>776</InterestAmt>
+      <TotalInterestAmt>776</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1826</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1826</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Dorsey's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DORS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>112000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>112000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2428</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1937</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1918</InsuranceAmt>
+      <OfficeExpensesAmt>2241</OfficeExpensesAmt>
+      <SuppliesAmt>2510</SuppliesAmt>
+      <UtilitiesAmt>1187</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12089</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24310</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85990</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85990</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85990</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>79412</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2303</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1151</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Dorsey</ChildFirstAndLastName>
+        <ChildSSN>640230095</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Anthony Dorsey</ChildFirstAndLastName>
+        <ChildSSN>624769781</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Charles Dorsey</ChildFirstAndLastName>
+        <ChildSSN>830579208</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sherry Dorsey</ChildFirstAndLastName>
+        <ChildSSN>479777826</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85990</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85990</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17198</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Dorsey's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1700</DepreciationAmt>
+      <TotalDepreciationAmt>1700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>682555483</EmployeeSSN>
+      <EmployerEIN>201964438</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6620 Steven Road</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Dorsey</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6620 Steven Road</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>170300</WagesAmt>
+      <WithholdingAmt>37466</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>170300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2469</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

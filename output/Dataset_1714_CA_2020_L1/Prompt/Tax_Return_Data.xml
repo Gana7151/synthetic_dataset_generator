@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1952-06-22</PrimaryBirthDt>
+      <SpouseBirthDt>1987-01-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37577</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>43779</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>375776348</PrimarySSN>
+      <SpouseSSN>437796050</SpouseSSN>
+      <NameLine1Txt>Jennifer Gordon</NameLine1Txt>
+      <SpouseNameLine1Txt>Thomas Gordon</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JENN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>THOM</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9729 ROBINSON CORNERS</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>437796050</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84900</WagesAmt>
+      <WagesSalariesAndTipsAmt>84900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">112</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>85012</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>85012</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>60212</TaxableIncomeAmt>
+      <TaxAmt>6830</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6830</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6830</TaxLessCreditsAmt>
+      <TotalTaxAmt>6830</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13584</TotalPaymentsAmt>
+      <OverpaidAmt>6754</OverpaidAmt>
+      <RefundAmt>6754</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>112</InterestAmt>
+      <TotalInterestAmt>112</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>437796050</EmployeeSSN>
+      <EmployerEIN>517971752</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6157 Michael Mountain</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Thomas Gordon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6157 Michael Mountain</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84900</WagesAmt>
+      <WithholdingAmt>13584</WithholdingAmt>
+      <SocialSecurityWagesAmt>84900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5264</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1231</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>934</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

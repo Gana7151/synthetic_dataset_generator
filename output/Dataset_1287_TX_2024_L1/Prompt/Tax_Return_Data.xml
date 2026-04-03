@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-01-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>52706</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>527068956</PrimarySSN>
+      <NameLine1Txt>Michael Davenport</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9141 ELLEN KNOLL</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">42200</WagesAmt>
+      <WagesSalariesAndTipsAmt>42200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>42200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>42200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>27600</TaxableIncomeAmt>
+      <TaxAmt>3080</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3080</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3080</TaxLessCreditsAmt>
+      <TotalTaxAmt>3080</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5064</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5064</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5064</TotalPaymentsAmt>
+      <OverpaidAmt>1984</OverpaidAmt>
+      <RefundAmt>1984</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>527068956</EmployeeSSN>
+      <EmployerEIN>468284252</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1270 Michael Crossing</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Davenport</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1270 Michael Crossing</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>42200</WagesAmt>
+      <WithholdingAmt>5064</WithholdingAmt>
+      <SocialSecurityWagesAmt>42200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2616</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>42200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>612</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

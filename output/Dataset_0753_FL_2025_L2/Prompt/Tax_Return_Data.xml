@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1948-05-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>53912</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>539124207</PrimarySSN>
+      <NameLine1Txt>Brian Roberts</NameLine1Txt>
+      <PrimaryNameControlTxt>BRIA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6022 ROSE MEWS</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>472333320</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>898090977</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">68052</WagesAmt>
+      <WagesSalariesAndTipsAmt>68052</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">365</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1533</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">36396</BusinessIncomeAmt>
+      <TotalIncomeAmt>106346</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>94504</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>17750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7279</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25029</TotalDeductionsAmt>
+      <TaxableIncomeAmt>69475</TaxableIncomeAmt>
+      <TaxAmt>10199</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10199</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5799</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5143</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5143</TotalOtherTaxesAmt>
+      <TotalTaxAmt>10941</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8166</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8166</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8166</TotalPaymentsAmt>
+      <AmountOwedAmt>2775</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5143</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5143</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>365</InterestAmt>
+      <TotalInterestAmt>365</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1533</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1533</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>5152</DeductionAmt>
+      </OvertimeDeduction>
+      <SeniorDeduction>
+        <DeductionAmt>4119</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>9271</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Roberts's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ROBE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>50700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>50700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1020</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1230</CarAndTruckExpensesAmt>
+      <InsuranceAmt>827</InsuranceAmt>
+      <OfficeExpensesAmt>546</OfficeExpensesAmt>
+      <SuppliesAmt>1039</SuppliesAmt>
+      <UtilitiesAmt>471</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7571</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12704</TotalExpensesAmt>
+      <NetProfitOrLossAmt>36396</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>36396</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>36396</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>33612</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5143</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2571</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Roberts</ChildFirstAndLastName>
+        <ChildSSN>472333320</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Roberts</ChildFirstAndLastName>
+        <ChildSSN>898090977</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>36396</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>36396</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7279</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Roberts's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1600</DepreciationAmt>
+      <TotalDepreciationAmt>1600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>539124207</EmployeeSSN>
+      <EmployerEIN>917290652</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3004 Shawn Grove</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brian Roberts</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3004 Shawn Grove</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>68052</WagesAmt>
+      <WithholdingAmt>8166</WithholdingAmt>
+      <SocialSecurityWagesAmt>68052</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4219</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>68052</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>987</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>5152</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

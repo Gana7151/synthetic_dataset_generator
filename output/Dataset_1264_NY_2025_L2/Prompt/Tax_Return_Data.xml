@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-03-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24146</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>241467701</PrimarySSN>
+      <NameLine1Txt>Tiffany Wilson</NameLine1Txt>
+      <PrimaryNameControlTxt>TIFF</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2286 SCOTT SPRINGS</AddressLine1Txt>
+        <CityNm>ROCHESTER</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>547406435</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">83861</WagesAmt>
+      <WagesSalariesAndTipsAmt>83861</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">370</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1393</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17505</BusinessIncomeAmt>
+      <TotalIncomeAmt>103129</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84718</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3501</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19251</TotalDeductionsAmt>
+      <TaxableIncomeAmt>65467</TaxableIncomeAmt>
+      <TaxAmt>9317</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9317</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7117</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2473</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2473</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9590</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13418</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13418</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13418</TotalPaymentsAmt>
+      <OverpaidAmt>3828</OverpaidAmt>
+      <RefundAmt>3828</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2473</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2473</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>370</InterestAmt>
+      <TotalInterestAmt>370</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1393</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1393</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>8961</DeductionAmt>
+      </OvertimeDeduction>
+      <CarLoanInterestDeduction>
+        <DeductionAmt>8213</DeductionAmt>
+        <VIN>5W3JX4LNXSK670912</VIN>
+      </CarLoanInterestDeduction>
+      <TotalSchedule1AAmt>17174</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541219</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BOOK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Bookkeeping</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>25500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>25500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>699</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>652</CarAndTruckExpensesAmt>
+      <InsuranceAmt>447</InsuranceAmt>
+      <OfficeExpensesAmt>435</OfficeExpensesAmt>
+      <SuppliesAmt>311</SuppliesAmt>
+      <UtilitiesAmt>318</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3333</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6195</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17505</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17505</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17505</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>16166</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2473</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1237</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Wilson</ChildFirstAndLastName>
+        <ChildSSN>547406435</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17505</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17505</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3501</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1800</DepreciationAmt>
+      <TotalDepreciationAmt>1800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>241467701</EmployeeSSN>
+      <EmployerEIN>531151278</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3579 Young Extensions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tiffany Wilson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3579 Young Extensions</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>83861</WagesAmt>
+      <WithholdingAmt>13418</WithholdingAmt>
+      <SocialSecurityWagesAmt>83861</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5199</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>83861</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1216</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>8961</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

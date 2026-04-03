@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1990-01-07</PrimaryBirthDt>
+      <SpouseBirthDt>1967-10-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>40621</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>37291</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>406216122</PrimarySSN>
+      <SpouseSSN>372913234</SpouseSSN>
+      <NameLine1Txt>Grant Knight</NameLine1Txt>
+      <SpouseNameLine1Txt>Jeffrey Knight</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>GRAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JEFF</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3229 ASHLEY AVENUE</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>372913234</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sarah</DependentFirstNm>
+        <DependentLastNm>Knight</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>622106995</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Douglas</DependentFirstNm>
+        <DependentLastNm>Knight</DependentLastNm>
+        <DependentNameControlTxt>DOUG</DependentNameControlTxt>
+        <DependentSSN>450770777</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">342700</WagesAmt>
+      <WagesSalariesAndTipsAmt>342700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1301</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">389</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">96776</BusinessIncomeAmt>
+      <TotalIncomeAmt>441166</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>439870</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19355</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>45255</TotalDeductionsAmt>
+      <TaxableIncomeAmt>394615</TaxableIncomeAmt>
+      <TaxAmt>86740</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2050</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2050</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>86740</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>84690</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2592</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2592</TotalOtherTaxesAmt>
+      <TotalTaxAmt>88920</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>75394</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>75394</WithholdingTaxAmt>
+      <TotalPaymentsAmt>75394</TotalPaymentsAmt>
+      <AmountOwedAmt>13526</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2592</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2592</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1301</InterestAmt>
+      <TotalInterestAmt>1301</TotalInterestAmt>
+      <OrdinaryDividendsAmt>389</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>389</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>147400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>147400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3685</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3606</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2760</InsuranceAmt>
+      <OfficeExpensesAmt>3898</OfficeExpensesAmt>
+      <SuppliesAmt>4832</SuppliesAmt>
+      <UtilitiesAmt>1645</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>30198</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>50624</TotalExpensesAmt>
+      <NetProfitOrLossAmt>96776</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>96776</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>96776</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>89373</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2592</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1296</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sarah Knight</ChildFirstAndLastName>
+        <ChildSSN>622106995</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Douglas Knight</ChildFirstAndLastName>
+        <ChildSSN>450770777</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2050</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2050</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>96776</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>96776</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19355</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>406216122</EmployeeSSN>
+      <EmployerEIN>776385838</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5732 Charles Park</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Grant Knight</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5732 Charles Park</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>182100</WagesAmt>
+      <WithholdingAmt>40062</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>182100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2640</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>372913234</EmployeeSSN>
+      <EmployerEIN>483275434</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2095 Smith Extension</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jeffrey Knight</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2095 Smith Extension</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>160600</WagesAmt>
+      <WithholdingAmt>35332</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>160600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2329</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

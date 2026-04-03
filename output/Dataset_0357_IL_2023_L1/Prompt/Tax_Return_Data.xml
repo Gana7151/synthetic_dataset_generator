@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-01-17</PrimaryBirthDt>
+      <SpouseBirthDt>1981-12-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>67704</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>40783</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>677046118</PrimarySSN>
+      <SpouseSSN>407839616</SpouseSSN>
+      <NameLine1Txt>Janet Wade</NameLine1Txt>
+      <SpouseNameLine1Txt>Matthew Wade</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JANE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MATT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>335 KATHY THROUGHWAY</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>407839616</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">32500</WagesAmt>
+      <WagesSalariesAndTipsAmt>32500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>32500</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>32500</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>4800</TaxableIncomeAmt>
+      <TaxAmt>480</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>480</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>480</TaxLessCreditsAmt>
+      <TotalTaxAmt>480</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2600</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2600</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2600</TotalPaymentsAmt>
+      <OverpaidAmt>2120</OverpaidAmt>
+      <RefundAmt>2120</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>407839616</EmployeeSSN>
+      <EmployerEIN>624534714</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>458 John Landing</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Matthew Wade</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>458 John Landing</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>32500</WagesAmt>
+      <WithholdingAmt>2600</WithholdingAmt>
+      <SocialSecurityWagesAmt>32500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2015</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>32500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>471</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

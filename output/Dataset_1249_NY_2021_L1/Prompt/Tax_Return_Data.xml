@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-02-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45344</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>453443014</PrimarySSN>
+      <NameLine1Txt>Scott Thomas</NameLine1Txt>
+      <PrimaryNameControlTxt>SCOT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9617 RACHEL FORGE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">66800</WagesAmt>
+      <WagesSalariesAndTipsAmt>66800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">107</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>66907</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>66907</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>54357</TaxableIncomeAmt>
+      <TaxAmt>7707</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7707</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7707</TaxLessCreditsAmt>
+      <TotalTaxAmt>7707</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8016</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8016</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8016</TotalPaymentsAmt>
+      <OverpaidAmt>309</OverpaidAmt>
+      <RefundAmt>309</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>107</InterestAmt>
+      <TotalInterestAmt>107</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>453443014</EmployeeSSN>
+      <EmployerEIN>777880221</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4810 Mclean Shoal</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Scott Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4810 Mclean Shoal</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66800</WagesAmt>
+      <WithholdingAmt>8016</WithholdingAmt>
+      <SocialSecurityWagesAmt>66800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4142</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>969</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

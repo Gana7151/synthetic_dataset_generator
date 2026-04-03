@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-05-09</PrimaryBirthDt>
+      <SpouseBirthDt>1971-01-17</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>19888</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>59973</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>198887388</PrimarySSN>
+      <SpouseSSN>599734136</SpouseSSN>
+      <NameLine1Txt>Joshua Brown</NameLine1Txt>
+      <SpouseNameLine1Txt>Laurie Brown</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOSH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LAUR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>571 ANDERSON GLENS</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>599734136</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">35000</WagesAmt>
+      <WagesSalariesAndTipsAmt>35000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>35000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>35000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>7300</TaxableIncomeAmt>
+      <TaxAmt>730</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>730</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>730</TaxLessCreditsAmt>
+      <TotalTaxAmt>730</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2800</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2800</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2800</TotalPaymentsAmt>
+      <OverpaidAmt>2070</OverpaidAmt>
+      <RefundAmt>2070</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>198887388</EmployeeSSN>
+      <EmployerEIN>957750414</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4383 Heather Square</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joshua Brown</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4383 Heather Square</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>35000</WagesAmt>
+      <WithholdingAmt>2800</WithholdingAmt>
+      <SocialSecurityWagesAmt>35000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2170</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>35000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>508</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

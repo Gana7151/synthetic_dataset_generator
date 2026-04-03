@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-09-02</PrimaryBirthDt>
+      <SpouseBirthDt>1966-02-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27835</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34668</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>278352722</PrimarySSN>
+      <SpouseSSN>346686530</SpouseSSN>
+      <NameLine1Txt>Samantha Hernandez</NameLine1Txt>
+      <SpouseNameLine1Txt>Stephanie Hernandez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SAMA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>STEP</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7873 ROWLAND MOTORWAY</AddressLine1Txt>
+        <CityNm>PLANO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>346686530</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Amy</DependentFirstNm>
+        <DependentLastNm>Hernandez</DependentLastNm>
+        <DependentNameControlTxt>AMY</DependentNameControlTxt>
+        <DependentSSN>122156900</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">97600</WagesAmt>
+      <WagesSalariesAndTipsAmt>97600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">263</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">855</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">32054</BusinessIncomeAmt>
+      <TotalIncomeAmt>130772</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>128508</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6411</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31211</TotalDeductionsAmt>
+      <TaxableIncomeAmt>97297</TaxableIncomeAmt>
+      <TaxAmt>12985</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12985</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>10985</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4529</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4529</TotalOtherTaxesAmt>
+      <TotalTaxAmt>15514</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>10160</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>10160</WithholdingTaxAmt>
+      <TotalPaymentsAmt>10160</TotalPaymentsAmt>
+      <AmountOwedAmt>5354</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4529</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4529</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>263</InterestAmt>
+      <TotalInterestAmt>263</TotalInterestAmt>
+      <OrdinaryDividendsAmt>855</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>855</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>46900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>46900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>584</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>396</CarAndTruckExpensesAmt>
+      <InsuranceAmt>695</InsuranceAmt>
+      <OfficeExpensesAmt>605</OfficeExpensesAmt>
+      <SuppliesAmt>834</SuppliesAmt>
+      <UtilitiesAmt>349</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7583</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11046</TotalExpensesAmt>
+      <NetProfitOrLossAmt>32054</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>32054</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>32054</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>29602</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4529</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2265</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amy Hernandez</ChildFirstAndLastName>
+        <ChildSSN>122156900</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>32054</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>32054</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6411</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3800</DepreciationAmt>
+      <TotalDepreciationAmt>3800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>278352722</EmployeeSSN>
+      <EmployerEIN>867840997</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7605 Mccarthy Row</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Samantha Hernandez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7605 Mccarthy Row</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>58800</WagesAmt>
+      <WithholdingAmt>7056</WithholdingAmt>
+      <SocialSecurityWagesAmt>58800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3646</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>58800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>853</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>346686530</EmployeeSSN>
+      <EmployerEIN>633806393</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8268 Smith Skyway</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephanie Hernandez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8268 Smith Skyway</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>38800</WagesAmt>
+      <WithholdingAmt>3104</WithholdingAmt>
+      <SocialSecurityWagesAmt>38800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2406</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>38800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>563</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

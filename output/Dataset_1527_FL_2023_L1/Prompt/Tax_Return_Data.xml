@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-06-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>55615</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>556153678</PrimarySSN>
+      <NameLine1Txt>Heidi Logan</NameLine1Txt>
+      <PrimaryNameControlTxt>HEID</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7046 ROBIN FOREST</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">26400</WagesAmt>
+      <WagesSalariesAndTipsAmt>26400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>26400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>26400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>12550</TaxableIncomeAmt>
+      <TaxAmt>1286</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1286</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1286</TaxLessCreditsAmt>
+      <TotalTaxAmt>1286</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2112</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2112</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2112</TotalPaymentsAmt>
+      <OverpaidAmt>826</OverpaidAmt>
+      <RefundAmt>826</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>556153678</EmployeeSSN>
+      <EmployerEIN>423078419</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4578 Carlos Valley</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Heidi Logan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4578 Carlos Valley</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>26400</WagesAmt>
+      <WithholdingAmt>2112</WithholdingAmt>
+      <SocialSecurityWagesAmt>26400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1637</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>26400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>383</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

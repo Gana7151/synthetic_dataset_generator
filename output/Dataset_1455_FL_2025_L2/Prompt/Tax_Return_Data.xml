@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-01-12</PrimaryBirthDt>
+      <SpouseBirthDt>1977-04-20</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27563</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>49856</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>275633523</PrimarySSN>
+      <SpouseSSN>498562271</SpouseSSN>
+      <NameLine1Txt>Sarah Henderson</NameLine1Txt>
+      <SpouseNameLine1Txt>Annette Henderson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SARA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ANNE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3617 AMBER WELLS</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>498562271</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Evan</DependentFirstNm>
+        <DependentLastNm>Henderson</DependentLastNm>
+        <DependentNameControlTxt>EVAN</DependentNameControlTxt>
+        <DependentSSN>505074269</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Henderson</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>779802076</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116500</WagesAmt>
+      <WagesSalariesAndTipsAmt>116500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">487</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1516</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">14852</BusinessIncomeAmt>
+      <TotalIncomeAmt>133355</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>132305</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2970</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34470</TotalDeductionsAmt>
+      <TaxableIncomeAmt>97835</TaxableIncomeAmt>
+      <TaxAmt>11352</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11352</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6952</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2099</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2099</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9050</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18640</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18640</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18640</TotalPaymentsAmt>
+      <OverpaidAmt>9590</OverpaidAmt>
+      <RefundAmt>9590</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2099</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2099</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>487</InterestAmt>
+      <TotalInterestAmt>487</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1516</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1516</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>28900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>28900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>530</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>840</CarAndTruckExpensesAmt>
+      <InsuranceAmt>398</InsuranceAmt>
+      <OfficeExpensesAmt>516</OfficeExpensesAmt>
+      <SuppliesAmt>810</SuppliesAmt>
+      <UtilitiesAmt>433</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5921</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9448</TotalExpensesAmt>
+      <NetProfitOrLossAmt>14852</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>14852</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>14852</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>13716</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2099</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1049</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Evan Henderson</ChildFirstAndLastName>
+        <ChildSSN>505074269</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Henderson</ChildFirstAndLastName>
+        <ChildSSN>779802076</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>14852</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>14852</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2970</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>498562271</EmployeeSSN>
+      <EmployerEIN>548888841</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6493 Smith Dale</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Annette Henderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6493 Smith Dale</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116500</WagesAmt>
+      <WithholdingAmt>18640</WithholdingAmt>
+      <SocialSecurityWagesAmt>116500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7223</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1689</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

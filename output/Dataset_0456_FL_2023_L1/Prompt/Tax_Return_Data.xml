@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-06-10</PrimaryBirthDt>
+      <SpouseBirthDt>1970-02-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81584</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>46553</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>815845251</PrimarySSN>
+      <SpouseSSN>465535519</SpouseSSN>
+      <NameLine1Txt>Christina Howard</NameLine1Txt>
+      <SpouseNameLine1Txt>Laurie Howard</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHRI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LAUR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4659 MARTIN PARKWAY</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>465535519</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Howard</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>325908817</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">26300</WagesAmt>
+      <WagesSalariesAndTipsAmt>26300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>26300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>26300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>0</TaxableIncomeAmt>
+      <TaxAmt>0</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>0</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2104</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2104</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2104</TotalPaymentsAmt>
+      <OverpaidAmt>2104</OverpaidAmt>
+      <RefundAmt>2104</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>465535519</EmployeeSSN>
+      <EmployerEIN>413854300</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2646 Ballard Mill</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Laurie Howard</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2646 Ballard Mill</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>26300</WagesAmt>
+      <WithholdingAmt>2104</WithholdingAmt>
+      <SocialSecurityWagesAmt>26300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1631</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>26300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>381</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

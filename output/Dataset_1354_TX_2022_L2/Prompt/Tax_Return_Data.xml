@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-12-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>55637</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>556371548</PrimarySSN>
+      <NameLine1Txt>Becky Richardson</NameLine1Txt>
+      <PrimaryNameControlTxt>BECK</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4805 ZIMMERMAN EXPRESSWAY</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Nicole</DependentFirstNm>
+        <DependentLastNm>Richardson</DependentLastNm>
+        <DependentNameControlTxt>NICO</DependentNameControlTxt>
+        <DependentSSN>850685793</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Maureen</DependentFirstNm>
+        <DependentLastNm>Richardson</DependentLastNm>
+        <DependentNameControlTxt>MAUR</DependentNameControlTxt>
+        <DependentSSN>436152520</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">84600</WagesAmt>
+      <WagesSalariesAndTipsAmt>84600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">270</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">382</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">12734</BusinessIncomeAmt>
+      <TotalIncomeAmt>97986</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>97087</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2547</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>15497</TotalDeductionsAmt>
+      <TaxableIncomeAmt>81590</TaxableIncomeAmt>
+      <TaxAmt>13567</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13567</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9567</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1799</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1799</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11366</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13536</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13536</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13536</TotalPaymentsAmt>
+      <OverpaidAmt>2170</OverpaidAmt>
+      <RefundAmt>2170</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1799</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1799</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>270</InterestAmt>
+      <TotalInterestAmt>270</TotalInterestAmt>
+      <OrdinaryDividendsAmt>382</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>382</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>21600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>21600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>657</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>933</CarAndTruckExpensesAmt>
+      <InsuranceAmt>350</InsuranceAmt>
+      <OfficeExpensesAmt>614</OfficeExpensesAmt>
+      <SuppliesAmt>819</SuppliesAmt>
+      <UtilitiesAmt>198</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3795</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7366</TotalExpensesAmt>
+      <NetProfitOrLossAmt>12734</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>12734</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>12734</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>11760</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1799</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>900</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicole Richardson</ChildFirstAndLastName>
+        <ChildSSN>850685793</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Maureen Richardson</ChildFirstAndLastName>
+        <ChildSSN>436152520</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>12734</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>12734</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2547</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1500</DepreciationAmt>
+      <TotalDepreciationAmt>1500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>556371548</EmployeeSSN>
+      <EmployerEIN>422097125</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1986 Samuel Parkway</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Becky Richardson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1986 Samuel Parkway</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84600</WagesAmt>
+      <WithholdingAmt>13536</WithholdingAmt>
+      <SocialSecurityWagesAmt>84600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5245</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1227</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

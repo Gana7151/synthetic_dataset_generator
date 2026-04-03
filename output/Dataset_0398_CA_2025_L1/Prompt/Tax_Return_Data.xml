@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-02-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26249</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>262499693</PrimarySSN>
+      <NameLine1Txt>Natasha Williams</NameLine1Txt>
+      <PrimaryNameControlTxt>NATA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6921 THOMAS CURVE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">60800</WagesAmt>
+      <WagesSalariesAndTipsAmt>60800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>60800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>60800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>15750</TotalDeductionsAmt>
+      <TaxableIncomeAmt>45050</TaxableIncomeAmt>
+      <TaxAmt>5168</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5168</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5168</TaxLessCreditsAmt>
+      <TotalTaxAmt>5168</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7296</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7296</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7296</TotalPaymentsAmt>
+      <OverpaidAmt>2128</OverpaidAmt>
+      <RefundAmt>2128</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>262499693</EmployeeSSN>
+      <EmployerEIN>722617284</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2455 Angela Turnpike</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Natasha Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2455 Angela Turnpike</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60800</WagesAmt>
+      <WithholdingAmt>7296</WithholdingAmt>
+      <SocialSecurityWagesAmt>60800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3770</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>882</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>669</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

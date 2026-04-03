@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2005-05-05</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>34899</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>348996961</PrimarySSN>
+      <NameLine1Txt>Edward Thompson</NameLine1Txt>
+      <PrimaryNameControlTxt>EDWA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6085 DEANNA GARDEN</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>669388875</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>652208422</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>873475420</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">60800</WagesAmt>
+      <WagesSalariesAndTipsAmt>60800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">136</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">585</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">14114</BusinessIncomeAmt>
+      <TotalIncomeAmt>75635</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>74638</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2823</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18573</TotalDeductionsAmt>
+      <TaxableIncomeAmt>56065</TaxableIncomeAmt>
+      <TaxAmt>7248</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7248</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>648</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1994</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1994</TotalOtherTaxesAmt>
+      <TotalTaxAmt>2643</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7296</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7296</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7296</TotalPaymentsAmt>
+      <OverpaidAmt>4653</OverpaidAmt>
+      <RefundAmt>4653</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1994</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1994</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>136</InterestAmt>
+      <TotalInterestAmt>136</TotalInterestAmt>
+      <OrdinaryDividendsAmt>585</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>585</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>21700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>21700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>791</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>243</CarAndTruckExpensesAmt>
+      <InsuranceAmt>444</InsuranceAmt>
+      <OfficeExpensesAmt>675</OfficeExpensesAmt>
+      <SuppliesAmt>427</SuppliesAmt>
+      <UtilitiesAmt>319</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4687</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7586</TotalExpensesAmt>
+      <NetProfitOrLossAmt>14114</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>14114</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>14114</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>13034</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1994</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>997</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Thompson</ChildFirstAndLastName>
+        <ChildSSN>669388875</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Thompson</ChildFirstAndLastName>
+        <ChildSSN>652208422</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Thompson</ChildFirstAndLastName>
+        <ChildSSN>873475420</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>14114</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>14114</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2823</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>348996961</EmployeeSSN>
+      <EmployerEIN>431409122</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8421 Raymond Circle</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Edward Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8421 Raymond Circle</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60800</WagesAmt>
+      <WithholdingAmt>7296</WithholdingAmt>
+      <SocialSecurityWagesAmt>60800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3770</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>882</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

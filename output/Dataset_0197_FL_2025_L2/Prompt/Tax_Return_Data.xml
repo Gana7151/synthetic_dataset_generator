@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1959-01-02</PrimaryBirthDt>
+      <SpouseBirthDt>1987-09-09</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73010</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>47220</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>730108046</PrimarySSN>
+      <SpouseSSN>472202080</SpouseSSN>
+      <NameLine1Txt>Edwin Ryan</NameLine1Txt>
+      <SpouseNameLine1Txt>Elizabeth Ryan</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>EDWI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ELIZ</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4941 THOMPSON BRIDGE</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>472202080</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Tracy</DependentFirstNm>
+        <DependentLastNm>Ryan</DependentLastNm>
+        <DependentNameControlTxt>TRAC</DependentNameControlTxt>
+        <DependentSSN>470809808</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">93300</WagesAmt>
+      <WagesSalariesAndTipsAmt>93300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">651</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1661</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37413</BusinessIncomeAmt>
+      <TotalIncomeAmt>133025</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>124382</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>33100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7483</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>40583</TotalDeductionsAmt>
+      <TaxableIncomeAmt>83799</TaxableIncomeAmt>
+      <TaxAmt>9579</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9579</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7379</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5286</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5286</TotalOtherTaxesAmt>
+      <TotalTaxAmt>12665</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14928</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14928</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14928</TotalPaymentsAmt>
+      <OverpaidAmt>2263</OverpaidAmt>
+      <RefundAmt>2263</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5286</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5286</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>651</InterestAmt>
+      <TotalInterestAmt>651</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1661</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1661</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <SeniorDeduction>
+        <DeductionAmt>6000</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>6000</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Ryan's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>RYAN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>57700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>57700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1769</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1693</CarAndTruckExpensesAmt>
+      <InsuranceAmt>567</InsuranceAmt>
+      <OfficeExpensesAmt>665</OfficeExpensesAmt>
+      <SuppliesAmt>869</SuppliesAmt>
+      <UtilitiesAmt>687</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9437</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15687</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37413</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37413</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37413</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>34551</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5286</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2643</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tracy Ryan</ChildFirstAndLastName>
+        <ChildSSN>470809808</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37413</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37413</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7483</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Ryan's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>730108046</EmployeeSSN>
+      <EmployerEIN>748201024</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1667 Jeremiah Stream</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Edwin Ryan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1667 Jeremiah Stream</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>93300</WagesAmt>
+      <WithholdingAmt>14928</WithholdingAmt>
+      <SocialSecurityWagesAmt>93300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5785</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>93300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1353</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

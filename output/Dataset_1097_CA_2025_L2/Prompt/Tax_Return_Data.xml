@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1990-11-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72406</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>724063416</PrimarySSN>
+      <NameLine1Txt>Amanda Baker</NameLine1Txt>
+      <PrimaryNameControlTxt>AMAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6257 JEFFREY BURG</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mark</DependentFirstNm>
+        <DependentLastNm>Baker</DependentLastNm>
+        <DependentNameControlTxt>MARK</DependentNameControlTxt>
+        <DependentSSN>637626792</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kelly</DependentFirstNm>
+        <DependentLastNm>Baker</DependentLastNm>
+        <DependentNameControlTxt>KELL</DependentNameControlTxt>
+        <DependentSSN>109310229</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jermaine</DependentFirstNm>
+        <DependentLastNm>Baker</DependentLastNm>
+        <DependentNameControlTxt>JERM</DependentNameControlTxt>
+        <DependentSSN>877979947</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">75000</WagesAmt>
+      <WagesSalariesAndTipsAmt>75000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">156</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">263</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">44587</BusinessIncomeAmt>
+      <TotalIncomeAmt>120006</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>116856</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>23625</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8917</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32542</TotalDeductionsAmt>
+      <TaxableIncomeAmt>84314</TaxableIncomeAmt>
+      <TaxAmt>11724</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11724</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5124</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6300</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6300</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11424</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9000</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9000</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9000</TotalPaymentsAmt>
+      <AmountOwedAmt>2424</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6300</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6300</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>156</InterestAmt>
+      <TotalInterestAmt>156</TotalInterestAmt>
+      <OrdinaryDividendsAmt>263</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>263</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Baker's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BAKE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>65800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>65800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2210</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1347</CarAndTruckExpensesAmt>
+      <InsuranceAmt>812</InsuranceAmt>
+      <OfficeExpensesAmt>1668</OfficeExpensesAmt>
+      <SuppliesAmt>1177</SuppliesAmt>
+      <UtilitiesAmt>974</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10625</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18813</TotalExpensesAmt>
+      <NetProfitOrLossAmt>44587</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>44587</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>44587</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>41176</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6300</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3150</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mark Baker</ChildFirstAndLastName>
+        <ChildSSN>637626792</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kelly Baker</ChildFirstAndLastName>
+        <ChildSSN>109310229</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jermaine Baker</ChildFirstAndLastName>
+        <ChildSSN>877979947</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>44587</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>44587</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8917</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Baker's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2400</DepreciationAmt>
+      <TotalDepreciationAmt>2400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>724063416</EmployeeSSN>
+      <EmployerEIN>665139047</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4648 Vickie Highway</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amanda Baker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4648 Vickie Highway</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75000</WagesAmt>
+      <WithholdingAmt>9000</WithholdingAmt>
+      <SocialSecurityWagesAmt>75000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4650</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1088</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>825</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

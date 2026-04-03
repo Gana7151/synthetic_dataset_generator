@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-01-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>19531</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>195315422</PrimarySSN>
+      <NameLine1Txt>Grace English</NameLine1Txt>
+      <PrimaryNameControlTxt>GRAC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2502 HARRIS AVENUE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">55563</WagesAmt>
+      <WagesSalariesAndTipsAmt>55563</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2249</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1835</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85338</BusinessIncomeAmt>
+      <TotalIncomeAmt>144985</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>132393</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17068</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32818</TotalDeductionsAmt>
+      <TaxableIncomeAmt>99575</TaxableIncomeAmt>
+      <TaxAmt>16821</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>16821</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>16821</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">12058</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>12058</TotalOtherTaxesAmt>
+      <TotalTaxAmt>28878</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6668</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6668</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6668</TotalPaymentsAmt>
+      <AmountOwedAmt>22210</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">12058</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>12058</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2249</InterestAmt>
+      <TotalInterestAmt>2249</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1835</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1835</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>6563</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>6563</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>English's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ENGL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>114400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>114400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1841</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>619</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1129</InsuranceAmt>
+      <OfficeExpensesAmt>1516</OfficeExpensesAmt>
+      <SuppliesAmt>2000</SuppliesAmt>
+      <UtilitiesAmt>1236</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16721</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>25062</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85338</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85338</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85338</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78810</SEBaseAmt>
+      <SelfEmploymentTaxAmt>12058</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6029</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85338</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85338</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17068</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>English's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>195315422</EmployeeSSN>
+      <EmployerEIN>101328766</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7976 Harvey Lodge</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Grace English</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7976 Harvey Lodge</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>55563</WagesAmt>
+      <WithholdingAmt>6668</WithholdingAmt>
+      <SocialSecurityWagesAmt>55563</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3445</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>55563</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>806</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>6563</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

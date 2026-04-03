@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-09-14</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>68356</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>683560921</PrimarySSN>
+      <NameLine1Txt>John Miller</NameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7884 GWENDOLYN LOCKS</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">60800</WagesAmt>
+      <WagesSalariesAndTipsAmt>60800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>60800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>60800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>47850</TaxableIncomeAmt>
+      <TaxAmt>6144</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6144</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6144</TaxLessCreditsAmt>
+      <TotalTaxAmt>6144</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7296</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7296</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7296</TotalPaymentsAmt>
+      <OverpaidAmt>1152</OverpaidAmt>
+      <RefundAmt>1152</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>683560921</EmployeeSSN>
+      <EmployerEIN>775179124</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9013 Horn Pines</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9013 Horn Pines</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60800</WagesAmt>
+      <WithholdingAmt>7296</WithholdingAmt>
+      <SocialSecurityWagesAmt>60800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3770</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>882</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

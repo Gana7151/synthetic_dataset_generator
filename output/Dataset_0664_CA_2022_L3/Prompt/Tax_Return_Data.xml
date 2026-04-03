@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-03-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>17987</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>179870252</PrimarySSN>
+      <NameLine1Txt>Allison Lopez</NameLine1Txt>
+      <PrimaryNameControlTxt>ALLI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>746 KELLY CENTER</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">161200</WagesAmt>
+      <WagesSalariesAndTipsAmt>161200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">794</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">718</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85916</BusinessIncomeAmt>
+      <TotalIncomeAmt>248628</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>247478</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17183</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>30133</TotalDeductionsAmt>
+      <TaxableIncomeAmt>217345</TaxableIncomeAmt>
+      <TaxAmt>49824</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>49824</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>49824</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2301</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2301</TotalOtherTaxesAmt>
+      <TotalTaxAmt>52490</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>35464</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>35464</WithholdingTaxAmt>
+      <TotalPaymentsAmt>35464</TotalPaymentsAmt>
+      <AmountOwedAmt>17026</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2301</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2301</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>794</InterestAmt>
+      <TotalInterestAmt>794</TotalInterestAmt>
+      <OrdinaryDividendsAmt>718</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>718</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>118100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>118100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1748</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>407</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2001</InsuranceAmt>
+      <OfficeExpensesAmt>1434</OfficeExpensesAmt>
+      <SuppliesAmt>1702</SuppliesAmt>
+      <UtilitiesAmt>1918</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>22974</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>32184</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85916</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85916</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85916</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>79343</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2301</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1150</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85916</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85916</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17183</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>179870252</EmployeeSSN>
+      <EmployerEIN>375879051</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4557 Garcia Crest</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Allison Lopez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4557 Garcia Crest</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>161200</WagesAmt>
+      <WithholdingAmt>35464</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>161200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2337</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1602</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

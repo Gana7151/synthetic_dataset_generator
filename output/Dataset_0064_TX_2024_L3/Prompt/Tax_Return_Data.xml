@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-08-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56951</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>569512709</PrimarySSN>
+      <NameLine1Txt>Joseph Garcia</NameLine1Txt>
+      <PrimaryNameControlTxt>JOSE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3383 STACY WALK</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Tracey</DependentFirstNm>
+        <DependentLastNm>Garcia</DependentLastNm>
+        <DependentNameControlTxt>TRAC</DependentNameControlTxt>
+        <DependentSSN>408401317</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">54400</WagesAmt>
+      <WagesSalariesAndTipsAmt>54400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1284</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1405</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">76646</BusinessIncomeAmt>
+      <TotalIncomeAmt>133735</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>128320</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">15329</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29929</TotalDeductionsAmt>
+      <TaxableIncomeAmt>98391</TaxableIncomeAmt>
+      <TaxAmt>16699</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>16699</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14699</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10830</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10830</TotalOtherTaxesAmt>
+      <TotalTaxAmt>25529</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6528</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6528</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6528</TotalPaymentsAmt>
+      <AmountOwedAmt>19001</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10830</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10830</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1284</InterestAmt>
+      <TotalInterestAmt>1284</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1405</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1405</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>113500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>113500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3665</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4218</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1282</InsuranceAmt>
+      <OfficeExpensesAmt>1758</OfficeExpensesAmt>
+      <SuppliesAmt>3811</SuppliesAmt>
+      <UtilitiesAmt>934</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>21186</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>36854</TotalExpensesAmt>
+      <NetProfitOrLossAmt>76646</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>76646</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>76646</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>70783</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10830</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5415</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tracey Garcia</ChildFirstAndLastName>
+        <ChildSSN>408401317</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>76646</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>76646</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>15329</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>569512709</EmployeeSSN>
+      <EmployerEIN>817279004</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>181 Mcpherson Manor</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joseph Garcia</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>181 Mcpherson Manor</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>54400</WagesAmt>
+      <WithholdingAmt>6528</WithholdingAmt>
+      <SocialSecurityWagesAmt>54400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3373</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>54400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>789</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

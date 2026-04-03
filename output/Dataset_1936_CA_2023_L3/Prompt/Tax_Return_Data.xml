@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-07-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62035</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>620350521</PrimarySSN>
+      <NameLine1Txt>Brian Ellis</NameLine1Txt>
+      <PrimaryNameControlTxt>BRIA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3972 GRAY CIRCLE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Heather</DependentFirstNm>
+        <DependentLastNm>Ellis</DependentLastNm>
+        <DependentNameControlTxt>HEAT</DependentNameControlTxt>
+        <DependentSSN>560921886</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">110200</WagesAmt>
+      <WagesSalariesAndTipsAmt>110200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">887</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3843</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">95272</BusinessIncomeAmt>
+      <TotalIncomeAmt>210202</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>205826</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19054</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32904</TotalDeductionsAmt>
+      <TaxableIncomeAmt>172922</TaxableIncomeAmt>
+      <TaxAmt>34901</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1750</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1750</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>34901</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>33151</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8752</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8752</TotalOtherTaxesAmt>
+      <TotalTaxAmt>41903</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17632</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17632</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17632</TotalPaymentsAmt>
+      <AmountOwedAmt>24271</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8752</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8752</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>887</InterestAmt>
+      <TotalInterestAmt>887</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3843</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3843</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>147500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>147500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3693</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>5828</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2219</InsuranceAmt>
+      <OfficeExpensesAmt>2513</OfficeExpensesAmt>
+      <SuppliesAmt>4255</SuppliesAmt>
+      <UtilitiesAmt>1399</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>30621</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>50528</TotalExpensesAmt>
+      <NetProfitOrLossAmt>95272</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>95272</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>95272</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>87984</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8752</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4376</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Heather Ellis</ChildFirstAndLastName>
+        <ChildSSN>560921886</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1750</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1750</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>95272</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>95272</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19054</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1700</DepreciationAmt>
+      <TotalDepreciationAmt>1700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>620350521</EmployeeSSN>
+      <EmployerEIN>589032681</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>220 Patricia Points</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brian Ellis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>220 Patricia Points</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>110200</WagesAmt>
+      <WithholdingAmt>17632</WithholdingAmt>
+      <SocialSecurityWagesAmt>110200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6832</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>110200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1598</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1212</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

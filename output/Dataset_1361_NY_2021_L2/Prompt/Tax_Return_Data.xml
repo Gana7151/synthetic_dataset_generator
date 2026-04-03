@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1957-07-24</PrimaryBirthDt>
+      <SpouseBirthDt>1962-10-19</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>43172</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>49006</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>431721781</PrimarySSN>
+      <SpouseSSN>490068430</SpouseSSN>
+      <NameLine1Txt>Scott Sims</NameLine1Txt>
+      <SpouseNameLine1Txt>Nathan Sims</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SCOT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>NATH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2892 STEPHANIE POINTS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>490068430</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Cynthia</DependentFirstNm>
+        <DependentLastNm>Sims</DependentLastNm>
+        <DependentNameControlTxt>CYNT</DependentNameControlTxt>
+        <DependentSSN>886501074</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mitchell</DependentFirstNm>
+        <DependentLastNm>Sims</DependentLastNm>
+        <DependentNameControlTxt>MITC</DependentNameControlTxt>
+        <DependentSSN>552987038</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Sims</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>635859154</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">32100</WagesAmt>
+      <WagesSalariesAndTipsAmt>32100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">648</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1587</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">35275</BusinessIncomeAmt>
+      <TotalIncomeAmt>69610</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>67118</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7055</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32155</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34963</TaxableIncomeAmt>
+      <TaxAmt>3798</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3798</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3798</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3798</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4984</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4984</TotalOtherTaxesAmt>
+      <TotalTaxAmt>4984</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2568</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2568</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2568</TotalPaymentsAmt>
+      <AmountOwedAmt>2416</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4984</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4984</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>648</InterestAmt>
+      <TotalInterestAmt>648</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1587</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1587</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>53900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>53900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1832</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2122</CarAndTruckExpensesAmt>
+      <InsuranceAmt>671</InsuranceAmt>
+      <OfficeExpensesAmt>756</OfficeExpensesAmt>
+      <SuppliesAmt>1042</SuppliesAmt>
+      <UtilitiesAmt>881</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8521</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15825</TotalExpensesAmt>
+      <NetProfitOrLossAmt>35275</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>35275</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>35275</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>32576</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4984</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2492</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cynthia Sims</ChildFirstAndLastName>
+        <ChildSSN>886501074</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mitchell Sims</ChildFirstAndLastName>
+        <ChildSSN>552987038</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Sims</ChildFirstAndLastName>
+        <ChildSSN>635859154</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3798</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3798</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>35275</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>35275</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7055</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2800</DepreciationAmt>
+      <TotalDepreciationAmt>2800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>490068430</EmployeeSSN>
+      <EmployerEIN>873376304</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6803 Mays Gateway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nathan Sims</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6803 Mays Gateway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>32100</WagesAmt>
+      <WithholdingAmt>2568</WithholdingAmt>
+      <SocialSecurityWagesAmt>32100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1990</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>32100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>465</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

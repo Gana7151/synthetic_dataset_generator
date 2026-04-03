@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1955-09-18</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>12743</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>127433460</PrimarySSN>
+      <NameLine1Txt>Kimberly Newman</NameLine1Txt>
+      <PrimaryNameControlTxt>KIMB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4473 ANTHONY MILLS</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">78100</WagesAmt>
+      <WagesSalariesAndTipsAmt>78100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">139</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>78239</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>72434</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>17750</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>17750</TotalDeductionsAmt>
+      <TaxableIncomeAmt>54684</TaxableIncomeAmt>
+      <TaxAmt>6944</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6944</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6944</TaxLessCreditsAmt>
+      <TotalTaxAmt>6944</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9372</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9372</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9372</TotalPaymentsAmt>
+      <OverpaidAmt>2428</OverpaidAmt>
+      <RefundAmt>2428</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>139</InterestAmt>
+      <TotalInterestAmt>139</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <SeniorDeduction>
+        <DeductionAmt>5806</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>5806</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>127433460</EmployeeSSN>
+      <EmployerEIN>415505602</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>807 Ingram Loaf</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kimberly Newman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>807 Ingram Loaf</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78100</WagesAmt>
+      <WithholdingAmt>9372</WithholdingAmt>
+      <SocialSecurityWagesAmt>78100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4842</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1132</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

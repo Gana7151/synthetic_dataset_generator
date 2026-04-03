@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-10-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29459</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>294599755</PrimarySSN>
+      <NameLine1Txt>Paul Brown</NameLine1Txt>
+      <PrimaryNameControlTxt>PAUL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6310 GEORGE UNION</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>630031588</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">63400</WagesAmt>
+      <WagesSalariesAndTipsAmt>63400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>63400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>63400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>51000</TaxableIncomeAmt>
+      <TaxAmt>7010</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7010</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5010</TaxLessCreditsAmt>
+      <TotalTaxAmt>5010</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7608</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7608</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7608</TotalPaymentsAmt>
+      <OverpaidAmt>2598</OverpaidAmt>
+      <RefundAmt>2598</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>John Brown</ChildFirstAndLastName>
+        <ChildSSN>630031588</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>294599755</EmployeeSSN>
+      <EmployerEIN>665743834</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7323 Danielle Pass</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Paul Brown</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7323 Danielle Pass</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>63400</WagesAmt>
+      <WithholdingAmt>7608</WithholdingAmt>
+      <SocialSecurityWagesAmt>63400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3931</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>63400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>919</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

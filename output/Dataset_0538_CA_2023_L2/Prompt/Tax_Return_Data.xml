@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-06-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33201</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>332018548</PrimarySSN>
+      <NameLine1Txt>Kathleen King</NameLine1Txt>
+      <PrimaryNameControlTxt>KATH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2975 MELANIE COMMON</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>King</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>283292949</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Carmen</DependentFirstNm>
+        <DependentLastNm>King</DependentLastNm>
+        <DependentNameControlTxt>CARM</DependentNameControlTxt>
+        <DependentSSN>347370676</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">90000</WagesAmt>
+      <WagesSalariesAndTipsAmt>90000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">146</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1087</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40247</BusinessIncomeAmt>
+      <TotalIncomeAmt>131481</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>128637</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8049</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21899</TotalDeductionsAmt>
+      <TaxableIncomeAmt>106738</TaxableIncomeAmt>
+      <TaxAmt>19017</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19017</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15017</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5687</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5687</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20704</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14400</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14400</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14400</TotalPaymentsAmt>
+      <AmountOwedAmt>6304</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5687</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5687</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>146</InterestAmt>
+      <TotalInterestAmt>146</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1087</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1087</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>51400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>51400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1115</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>452</CarAndTruckExpensesAmt>
+      <InsuranceAmt>602</InsuranceAmt>
+      <OfficeExpensesAmt>980</OfficeExpensesAmt>
+      <SuppliesAmt>715</SuppliesAmt>
+      <UtilitiesAmt>489</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6800</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11153</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40247</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40247</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40247</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>37168</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5687</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2843</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily King</ChildFirstAndLastName>
+        <ChildSSN>283292949</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carmen King</ChildFirstAndLastName>
+        <ChildSSN>347370676</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40247</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40247</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8049</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>332018548</EmployeeSSN>
+      <EmployerEIN>388266199</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4346 Pope Crescent</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kathleen King</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4346 Pope Crescent</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>90000</WagesAmt>
+      <WithholdingAmt>14400</WithholdingAmt>
+      <SocialSecurityWagesAmt>90000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5580</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>90000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1305</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>990</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

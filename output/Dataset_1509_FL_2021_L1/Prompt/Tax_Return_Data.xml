@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1975-02-22</PrimaryBirthDt>
+      <SpouseBirthDt>1977-11-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>30569</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>45434</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>305697093</PrimarySSN>
+      <SpouseSSN>454346519</SpouseSSN>
+      <NameLine1Txt>Brenda Berger</NameLine1Txt>
+      <SpouseNameLine1Txt>Maria Berger</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BREN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6033 WHITE MOUNTAIN</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>454346519</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">75600</WagesAmt>
+      <WagesSalariesAndTipsAmt>75600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>75600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>75600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>50500</TaxableIncomeAmt>
+      <TaxAmt>5662</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5662</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5662</TaxLessCreditsAmt>
+      <TotalTaxAmt>5662</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9072</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9072</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9072</TotalPaymentsAmt>
+      <OverpaidAmt>3410</OverpaidAmt>
+      <RefundAmt>3410</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>305697093</EmployeeSSN>
+      <EmployerEIN>228611174</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7727 Robert Shoals</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brenda Berger</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7727 Robert Shoals</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75600</WagesAmt>
+      <WithholdingAmt>9072</WithholdingAmt>
+      <SocialSecurityWagesAmt>75600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4687</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1096</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

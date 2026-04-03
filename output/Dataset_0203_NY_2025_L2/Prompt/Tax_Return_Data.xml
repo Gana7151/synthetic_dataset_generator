@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-02-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10109</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>101090197</PrimarySSN>
+      <NameLine1Txt>Abigail Turner</NameLine1Txt>
+      <PrimaryNameControlTxt>ABIG</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3940 ALEXANDER MOUNTAINS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jeremy</DependentFirstNm>
+        <DependentLastNm>Turner</DependentLastNm>
+        <DependentNameControlTxt>JERE</DependentNameControlTxt>
+        <DependentSSN>475437459</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dennis</DependentFirstNm>
+        <DependentLastNm>Turner</DependentLastNm>
+        <DependentNameControlTxt>DENN</DependentNameControlTxt>
+        <DependentSSN>838612405</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">101897</WagesAmt>
+      <WagesSalariesAndTipsAmt>101897</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">642</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1945</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">36849</BusinessIncomeAmt>
+      <TotalIncomeAmt>141333</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>109733</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7370</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23120</TotalDeductionsAmt>
+      <TaxableIncomeAmt>86613</TaxableIncomeAmt>
+      <TaxAmt>13969</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13969</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9569</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5207</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5207</TotalOtherTaxesAmt>
+      <TotalTaxAmt>14775</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16304</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16304</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16304</TotalPaymentsAmt>
+      <OverpaidAmt>1529</OverpaidAmt>
+      <RefundAmt>1529</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5207</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5207</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>642</InterestAmt>
+      <TotalInterestAmt>642</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1945</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1945</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>22295</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>6702</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>28997</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>58600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>58600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>992</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1425</CarAndTruckExpensesAmt>
+      <InsuranceAmt>773</InsuranceAmt>
+      <OfficeExpensesAmt>1059</OfficeExpensesAmt>
+      <SuppliesAmt>1091</SuppliesAmt>
+      <UtilitiesAmt>565</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12846</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18751</TotalExpensesAmt>
+      <NetProfitOrLossAmt>36849</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>36849</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>36849</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>34030</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5207</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2603</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeremy Turner</ChildFirstAndLastName>
+        <ChildSSN>475437459</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dennis Turner</ChildFirstAndLastName>
+        <ChildSSN>838612405</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>36849</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>36849</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7370</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3000</DepreciationAmt>
+      <TotalDepreciationAmt>3000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>101090197</EmployeeSSN>
+      <EmployerEIN>628796695</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1352 Edward Spur</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Abigail Turner</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1352 Edward Spur</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>101897</WagesAmt>
+      <WithholdingAmt>16304</WithholdingAmt>
+      <SocialSecurityWagesAmt>101897</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6318</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>101897</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1478</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>22295</SocialSecurityTipsAmt>
+      <OvertimePayAmt>6702</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

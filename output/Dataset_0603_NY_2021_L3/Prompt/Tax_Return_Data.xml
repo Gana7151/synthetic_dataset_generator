@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-03-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87864</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>878641492</PrimarySSN>
+      <NameLine1Txt>Dakota Armstrong</NameLine1Txt>
+      <PrimaryNameControlTxt>DAKO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9482 REBECCA SUMMIT</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Armstrong</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>583080627</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Armstrong</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>517945173</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Armstrong</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>436376868</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lisa</DependentFirstNm>
+        <DependentLastNm>Armstrong</DependentLastNm>
+        <DependentNameControlTxt>LISA</DependentNameControlTxt>
+        <DependentSSN>504146319</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">132000</WagesAmt>
+      <WagesSalariesAndTipsAmt>132000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1429</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">130</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">73395</BusinessIncomeAmt>
+      <TotalIncomeAmt>206954</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>205301</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14679</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27229</TotalDeductionsAmt>
+      <TaxableIncomeAmt>178072</TaxableIncomeAmt>
+      <TaxAmt>37810</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6700</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6700</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>37810</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>31110</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3305</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3305</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34415</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21120</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21120</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21120</TotalPaymentsAmt>
+      <AmountOwedAmt>13295</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3305</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3305</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1429</InterestAmt>
+      <TotalInterestAmt>1429</TotalInterestAmt>
+      <OrdinaryDividendsAmt>130</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>130</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Armstrong's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ARMS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>103100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>103100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1650</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2703</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1040</InsuranceAmt>
+      <OfficeExpensesAmt>1471</OfficeExpensesAmt>
+      <SuppliesAmt>2242</SuppliesAmt>
+      <UtilitiesAmt>776</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19823</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29705</TotalExpensesAmt>
+      <NetProfitOrLossAmt>73395</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>73395</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>73395</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>67780</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3305</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1652</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Armstrong</ChildFirstAndLastName>
+        <ChildSSN>583080627</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Armstrong</ChildFirstAndLastName>
+        <ChildSSN>517945173</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Armstrong</ChildFirstAndLastName>
+        <ChildSSN>436376868</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lisa Armstrong</ChildFirstAndLastName>
+        <ChildSSN>504146319</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6700</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6700</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>73395</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>73395</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14679</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>878641492</EmployeeSSN>
+      <EmployerEIN>597168825</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8238 Richard Radial</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Dakota Armstrong</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8238 Richard Radial</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>132000</WagesAmt>
+      <WithholdingAmt>21120</WithholdingAmt>
+      <SocialSecurityWagesAmt>132000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8184</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>132000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1914</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-05-17</PrimaryBirthDt>
+      <SpouseBirthDt>1977-01-26</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>64379</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>26769</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>643794089</PrimarySSN>
+      <SpouseSSN>267690150</SpouseSSN>
+      <NameLine1Txt>Sandra Taylor</NameLine1Txt>
+      <SpouseNameLine1Txt>Marcus Taylor</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SAND</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>407 HOLLY MEADOW</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>267690150</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39800</WagesAmt>
+      <WagesSalariesAndTipsAmt>39800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>39800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>39800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>10600</TaxableIncomeAmt>
+      <TaxAmt>1060</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1060</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1060</TaxLessCreditsAmt>
+      <TotalTaxAmt>1060</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3184</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3184</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3184</TotalPaymentsAmt>
+      <OverpaidAmt>2124</OverpaidAmt>
+      <RefundAmt>2124</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>267690150</EmployeeSSN>
+      <EmployerEIN>125845853</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5914 Jessica Mountain</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Marcus Taylor</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5914 Jessica Mountain</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39800</WagesAmt>
+      <WithholdingAmt>3184</WithholdingAmt>
+      <SocialSecurityWagesAmt>39800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2468</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>577</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

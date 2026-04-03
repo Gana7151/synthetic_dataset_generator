@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-04-18</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>69955</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>699552004</PrimarySSN>
+      <NameLine1Txt>Timothy Mays</NameLine1Txt>
+      <PrimaryNameControlTxt>TIMO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5358 LOPEZ VALLEY</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kayla</DependentFirstNm>
+        <DependentLastNm>Mays</DependentLastNm>
+        <DependentNameControlTxt>KAYL</DependentNameControlTxt>
+        <DependentSSN>240701252</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Julia</DependentFirstNm>
+        <DependentLastNm>Mays</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>237309704</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">68100</WagesAmt>
+      <WagesSalariesAndTipsAmt>68100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">381</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">216</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">25422</BusinessIncomeAmt>
+      <TotalIncomeAmt>94119</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84756</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5084</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20834</TotalDeductionsAmt>
+      <TaxableIncomeAmt>63922</TaxableIncomeAmt>
+      <TaxAmt>8977</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8977</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4577</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3592</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3592</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8169</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8172</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8172</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8172</TotalPaymentsAmt>
+      <OverpaidAmt>3</OverpaidAmt>
+      <RefundAmt>3</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3592</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3592</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>381</InterestAmt>
+      <TotalInterestAmt>381</TotalInterestAmt>
+      <OrdinaryDividendsAmt>216</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>216</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <CarLoanInterestDeduction>
+        <DeductionAmt>7567</DeductionAmt>
+        <VIN>4PG9R2WA5RE602446</VIN>
+      </CarLoanInterestDeduction>
+      <TotalSchedule1AAmt>7567</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1376</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>965</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1067</InsuranceAmt>
+      <OfficeExpensesAmt>1139</OfficeExpensesAmt>
+      <SuppliesAmt>1119</SuppliesAmt>
+      <UtilitiesAmt>654</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7058</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13378</TotalExpensesAmt>
+      <NetProfitOrLossAmt>25422</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>25422</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>25422</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23477</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3592</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1796</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kayla Mays</ChildFirstAndLastName>
+        <ChildSSN>240701252</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julia Mays</ChildFirstAndLastName>
+        <ChildSSN>237309704</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>25422</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>25422</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5084</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2900</DepreciationAmt>
+      <TotalDepreciationAmt>2900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>699552004</EmployeeSSN>
+      <EmployerEIN>321615362</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5967 Maria Tunnel</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Timothy Mays</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5967 Maria Tunnel</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>68100</WagesAmt>
+      <WithholdingAmt>8172</WithholdingAmt>
+      <SocialSecurityWagesAmt>68100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4222</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>68100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>987</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

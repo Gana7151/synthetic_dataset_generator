@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-11-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20292</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>202923354</PrimarySSN>
+      <NameLine1Txt>Krystal Smith</NameLine1Txt>
+      <PrimaryNameControlTxt>KRYS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7668 ELIZABETH VIA</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Courtney</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>COUR</DependentNameControlTxt>
+        <DependentSSN>795804870</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">71600</WagesAmt>
+      <WagesSalariesAndTipsAmt>71600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>71600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>71600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>59050</TaxableIncomeAmt>
+      <TaxAmt>8740</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8740</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5140</TaxLessCreditsAmt>
+      <TotalTaxAmt>5140</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8592</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8592</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8592</TotalPaymentsAmt>
+      <OverpaidAmt>3452</OverpaidAmt>
+      <RefundAmt>3452</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Courtney Smith</ChildFirstAndLastName>
+        <ChildSSN>795804870</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>202923354</EmployeeSSN>
+      <EmployerEIN>236135953</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9977 Deborah Village</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Krystal Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9977 Deborah Village</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71600</WagesAmt>
+      <WithholdingAmt>8592</WithholdingAmt>
+      <SocialSecurityWagesAmt>71600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4439</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1038</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

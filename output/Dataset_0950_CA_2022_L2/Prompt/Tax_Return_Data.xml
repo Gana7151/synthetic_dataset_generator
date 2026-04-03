@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-02-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26979</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>269797172</PrimarySSN>
+      <NameLine1Txt>Cameron Garcia</NameLine1Txt>
+      <PrimaryNameControlTxt>CAME</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>216 MCDONALD BYPASS</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Thomas</DependentFirstNm>
+        <DependentLastNm>Garcia</DependentLastNm>
+        <DependentNameControlTxt>THOM</DependentNameControlTxt>
+        <DependentSSN>719853508</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">59600</WagesAmt>
+      <WagesSalariesAndTipsAmt>59600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">600</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1352</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">52907</BusinessIncomeAmt>
+      <TotalIncomeAmt>114459</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>110721</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10581</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29981</TotalDeductionsAmt>
+      <TaxableIncomeAmt>80740</TaxableIncomeAmt>
+      <TaxAmt>11880</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11880</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9880</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7476</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7476</TotalOtherTaxesAmt>
+      <TotalTaxAmt>17355</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7152</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7152</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7152</TotalPaymentsAmt>
+      <AmountOwedAmt>10203</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7476</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7476</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>600</InterestAmt>
+      <TotalInterestAmt>600</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1352</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1352</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>69600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>69600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>979</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2270</CarAndTruckExpensesAmt>
+      <InsuranceAmt>780</InsuranceAmt>
+      <OfficeExpensesAmt>1438</OfficeExpensesAmt>
+      <SuppliesAmt>1430</SuppliesAmt>
+      <UtilitiesAmt>456</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9340</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16693</TotalExpensesAmt>
+      <NetProfitOrLossAmt>52907</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>52907</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>52907</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>48860</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7476</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3738</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Thomas Garcia</ChildFirstAndLastName>
+        <ChildSSN>719853508</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>52907</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>52907</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10581</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>269797172</EmployeeSSN>
+      <EmployerEIN>626069284</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7144 Howard Ports</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Cameron Garcia</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7144 Howard Ports</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59600</WagesAmt>
+      <WithholdingAmt>7152</WithholdingAmt>
+      <SocialSecurityWagesAmt>59600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3695</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>864</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>656</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-07-15</PrimaryBirthDt>
+      <SpouseBirthDt>1954-07-01</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38869</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>61164</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>388691635</PrimarySSN>
+      <SpouseSSN>611642284</SpouseSSN>
+      <NameLine1Txt>Michael Kelly</NameLine1Txt>
+      <SpouseNameLine1Txt>Robert Kelly</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ROBE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5857 HUDSON FLAT</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>611642284</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Kelly</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>540226739</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">249352</WagesAmt>
+      <WagesSalariesAndTipsAmt>249352</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2357</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3231</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">100997</BusinessIncomeAmt>
+      <TotalIncomeAmt>355937</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>340427</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">20199</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>51699</TotalDeductionsAmt>
+      <TaxableIncomeAmt>288728</TaxableIncomeAmt>
+      <TaxAmt>54989</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>54989</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>52789</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2705</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2705</TotalOtherTaxesAmt>
+      <TotalTaxAmt>56327</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>48192</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>48192</WithholdingTaxAmt>
+      <TotalPaymentsAmt>48192</TotalPaymentsAmt>
+      <AmountOwedAmt>8135</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2705</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2705</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2357</InterestAmt>
+      <TotalInterestAmt>2357</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3231</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3231</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>14158</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>14158</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>138000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>138000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3073</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4978</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1714</InsuranceAmt>
+      <OfficeExpensesAmt>3006</OfficeExpensesAmt>
+      <SuppliesAmt>3439</SuppliesAmt>
+      <UtilitiesAmt>757</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20036</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>37003</TotalExpensesAmt>
+      <NetProfitOrLossAmt>100997</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>100997</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>100997</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>93271</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2705</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1352</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Kelly</ChildFirstAndLastName>
+        <ChildSSN>540226739</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>100997</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>100997</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>20199</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>388691635</EmployeeSSN>
+      <EmployerEIN>751874751</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8151 Blankenship Harbors</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Kelly</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8151 Blankenship Harbors</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66652</WagesAmt>
+      <WithholdingAmt>7998</WithholdingAmt>
+      <SocialSecurityWagesAmt>66652</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4132</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66652</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>966</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>19752</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>611642284</EmployeeSSN>
+      <EmployerEIN>557315515</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5061 Renee Islands</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Robert Kelly</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5061 Renee Islands</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>182700</WagesAmt>
+      <WithholdingAmt>40194</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>182700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2649</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

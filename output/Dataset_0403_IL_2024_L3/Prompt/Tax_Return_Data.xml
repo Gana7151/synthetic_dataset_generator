@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-12-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>79432</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>794321071</PrimarySSN>
+      <NameLine1Txt>Lisa Robinson</NameLine1Txt>
+      <PrimaryNameControlTxt>LISA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4155 JOSEPH PLAZA</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Robinson</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>638319682</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">132300</WagesAmt>
+      <WagesSalariesAndTipsAmt>132300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">739</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3472</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">91288</BusinessIncomeAmt>
+      <TotalIncomeAmt>227798</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>224325</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18258</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>40158</TotalDeductionsAmt>
+      <TaxableIncomeAmt>184167</TaxableIncomeAmt>
+      <TaxAmt>35549</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>35549</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>34749</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6946</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6946</TotalOtherTaxesAmt>
+      <TotalTaxAmt>41845</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21168</TotalPaymentsAmt>
+      <AmountOwedAmt>20677</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6946</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6946</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>739</InterestAmt>
+      <TotalInterestAmt>739</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3472</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3472</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>118300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>118300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2131</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3044</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1608</InsuranceAmt>
+      <OfficeExpensesAmt>2408</OfficeExpensesAmt>
+      <SuppliesAmt>1895</SuppliesAmt>
+      <UtilitiesAmt>692</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15234</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>27012</TotalExpensesAmt>
+      <NetProfitOrLossAmt>91288</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>91288</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>91288</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>84304</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6946</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3473</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Robinson</ChildFirstAndLastName>
+        <ChildSSN>638319682</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>91288</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>91288</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18258</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>794321071</EmployeeSSN>
+      <EmployerEIN>843960300</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3027 Houston Station</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Robinson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3027 Houston Station</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>132300</WagesAmt>
+      <WithholdingAmt>21168</WithholdingAmt>
+      <SocialSecurityWagesAmt>132300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8203</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>132300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1918</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

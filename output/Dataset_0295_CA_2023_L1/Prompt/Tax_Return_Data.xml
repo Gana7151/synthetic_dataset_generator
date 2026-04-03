@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-08-04</PrimaryBirthDt>
+      <SpouseBirthDt>1988-07-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51423</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>17860</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>514238235</PrimarySSN>
+      <SpouseSSN>178601899</SpouseSSN>
+      <NameLine1Txt>Erica Turner</NameLine1Txt>
+      <SpouseNameLine1Txt>Ryan Turner</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ERIC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>RYAN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9880 MARY FORGES</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>178601899</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">45800</WagesAmt>
+      <WagesSalariesAndTipsAmt>45800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>45800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>45800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>18100</TaxableIncomeAmt>
+      <TaxAmt>1810</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1810</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1810</TaxLessCreditsAmt>
+      <TotalTaxAmt>1810</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5496</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5496</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5496</TotalPaymentsAmt>
+      <OverpaidAmt>3686</OverpaidAmt>
+      <RefundAmt>3686</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>178601899</EmployeeSSN>
+      <EmployerEIN>457195859</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>880 Gary Ridges</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Turner</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>880 Gary Ridges</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>45800</WagesAmt>
+      <WithholdingAmt>5496</WithholdingAmt>
+      <SocialSecurityWagesAmt>45800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2840</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>45800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>664</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>504</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

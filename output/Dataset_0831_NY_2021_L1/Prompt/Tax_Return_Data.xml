@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1949-12-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81054</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>810546445</PrimarySSN>
+      <NameLine1Txt>Melinda Ortiz</NameLine1Txt>
+      <PrimaryNameControlTxt>MELI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>576 BLAKE COURTS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">74200</WagesAmt>
+      <WagesSalariesAndTipsAmt>74200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>74200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>74200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>61650</TaxableIncomeAmt>
+      <TaxAmt>9312</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9312</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9312</TaxLessCreditsAmt>
+      <TotalTaxAmt>9312</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8904</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8904</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8904</TotalPaymentsAmt>
+      <AmountOwedAmt>408</AmountOwedAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>810546445</EmployeeSSN>
+      <EmployerEIN>882418796</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2458 Michael Valleys</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melinda Ortiz</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2458 Michael Valleys</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74200</WagesAmt>
+      <WithholdingAmt>8904</WithholdingAmt>
+      <SocialSecurityWagesAmt>74200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4600</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1076</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-09-07</PrimaryBirthDt>
+      <SpouseBirthDt>1971-04-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86465</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>74850</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>864654509</PrimarySSN>
+      <SpouseSSN>748503322</SpouseSSN>
+      <NameLine1Txt>Rickey Alvarez</NameLine1Txt>
+      <SpouseNameLine1Txt>Joseph Alvarez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RICK</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOSE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>986 RAMOS GLEN</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>748503322</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">71500</WagesAmt>
+      <WagesSalariesAndTipsAmt>71500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">666</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>72166</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>72166</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>46266</TaxableIncomeAmt>
+      <TaxAmt>5141</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5141</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5141</TaxLessCreditsAmt>
+      <TotalTaxAmt>5141</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8580</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8580</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8580</TotalPaymentsAmt>
+      <OverpaidAmt>3439</OverpaidAmt>
+      <RefundAmt>3439</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>666</InterestAmt>
+      <TotalInterestAmt>666</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>748503322</EmployeeSSN>
+      <EmployerEIN>713405372</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5398 Michelle Loop</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joseph Alvarez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5398 Michelle Loop</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71500</WagesAmt>
+      <WithholdingAmt>8580</WithholdingAmt>
+      <SocialSecurityWagesAmt>71500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4433</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1037</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>786</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

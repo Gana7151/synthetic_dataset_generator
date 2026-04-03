@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-12-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>76148</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>761487262</PrimarySSN>
+      <NameLine1Txt>Tracy Wilson</NameLine1Txt>
+      <PrimaryNameControlTxt>TRAC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8573 ALEXIS PORT</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Andrea</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>ANDR</DependentNameControlTxt>
+        <DependentSSN>132175756</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sean</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>SEAN</DependentNameControlTxt>
+        <DependentSSN>687900061</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">124800</WagesAmt>
+      <WagesSalariesAndTipsAmt>124800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1152</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">392</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">64205</BusinessIncomeAmt>
+      <TotalIncomeAmt>190549</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>188312</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12841</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25791</TotalDeductionsAmt>
+      <TaxableIncomeAmt>162521</TaxableIncomeAmt>
+      <TaxAmt>32841</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>32841</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>28841</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4472</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4472</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33313</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19968</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19968</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19968</TotalPaymentsAmt>
+      <AmountOwedAmt>13345</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4472</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4472</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1152</InterestAmt>
+      <TotalInterestAmt>1152</TotalInterestAmt>
+      <OrdinaryDividendsAmt>392</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>392</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>92100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>92100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2054</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>349</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1187</InsuranceAmt>
+      <OfficeExpensesAmt>2474</OfficeExpensesAmt>
+      <SuppliesAmt>3202</SuppliesAmt>
+      <UtilitiesAmt>1334</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17295</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>27895</TotalExpensesAmt>
+      <NetProfitOrLossAmt>64205</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>64205</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>64205</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>59293</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4472</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2236</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Andrea Wilson</ChildFirstAndLastName>
+        <ChildSSN>132175756</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sean Wilson</ChildFirstAndLastName>
+        <ChildSSN>687900061</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>64205</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>64205</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12841</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>761487262</EmployeeSSN>
+      <EmployerEIN>722363600</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4886 Karen Hill</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tracy Wilson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4886 Karen Hill</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>124800</WagesAmt>
+      <WithholdingAmt>19968</WithholdingAmt>
+      <SocialSecurityWagesAmt>124800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7738</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>124800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1810</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1373</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

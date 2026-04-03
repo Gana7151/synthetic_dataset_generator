@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-10-12</PrimaryBirthDt>
+      <SpouseBirthDt>1947-12-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>65471</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>72990</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>654718642</PrimarySSN>
+      <SpouseSSN>729905274</SpouseSSN>
+      <NameLine1Txt>Michele Conley</NameLine1Txt>
+      <SpouseNameLine1Txt>James Conley</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JAME</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4318 MICHELLE FALLS</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>729905274</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Rebecca</DependentFirstNm>
+        <DependentLastNm>Conley</DependentLastNm>
+        <DependentNameControlTxt>REBE</DependentNameControlTxt>
+        <DependentSSN>208646391</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Amy</DependentFirstNm>
+        <DependentLastNm>Conley</DependentLastNm>
+        <DependentNameControlTxt>AMY</DependentNameControlTxt>
+        <DependentSSN>782243177</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Connor</DependentFirstNm>
+        <DependentLastNm>Conley</DependentLastNm>
+        <DependentNameControlTxt>CONN</DependentNameControlTxt>
+        <DependentSSN>895629592</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tiffany</DependentFirstNm>
+        <DependentLastNm>Conley</DependentLastNm>
+        <DependentNameControlTxt>TIFF</DependentNameControlTxt>
+        <DependentSSN>614840196</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">296700</WagesAmt>
+      <WagesSalariesAndTipsAmt>296700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1305</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1103</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85465</BusinessIncomeAmt>
+      <TotalIncomeAmt>384573</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>383429</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17093</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>42193</TotalDeductionsAmt>
+      <TaxableIncomeAmt>341236</TaxableIncomeAmt>
+      <TaxAmt>70850</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">350</ChildTaxCreditAmt>
+      <TotalCreditsAmt>350</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>70850</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>70500</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2289</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2289</TotalOtherTaxesAmt>
+      <TotalTaxAmt>73919</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>58632</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>58632</WithholdingTaxAmt>
+      <TotalPaymentsAmt>58632</TotalPaymentsAmt>
+      <AmountOwedAmt>15287</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2289</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2289</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1305</InterestAmt>
+      <TotalInterestAmt>1305</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1103</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1103</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>116400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>116400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2468</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1127</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2108</InsuranceAmt>
+      <OfficeExpensesAmt>3064</OfficeExpensesAmt>
+      <SuppliesAmt>3349</SuppliesAmt>
+      <UtilitiesAmt>1419</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17400</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30935</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85465</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85465</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85465</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78927</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2289</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1144</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Rebecca Conley</ChildFirstAndLastName>
+        <ChildSSN>208646391</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amy Conley</ChildFirstAndLastName>
+        <ChildSSN>782243177</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Connor Conley</ChildFirstAndLastName>
+        <ChildSSN>895629592</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tiffany Conley</ChildFirstAndLastName>
+        <ChildSSN>614840196</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>350</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>350</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85465</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85465</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17093</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>654718642</EmployeeSSN>
+      <EmployerEIN>246390845</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9346 Moore Turnpike</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michele Conley</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9346 Moore Turnpike</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>110700</WagesAmt>
+      <WithholdingAmt>17712</WithholdingAmt>
+      <SocialSecurityWagesAmt>110700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6863</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>110700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1605</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>729905274</EmployeeSSN>
+      <EmployerEIN>954613789</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4803 David Flats</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Conley</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4803 David Flats</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>186000</WagesAmt>
+      <WithholdingAmt>40920</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>186000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2697</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

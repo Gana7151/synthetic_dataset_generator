@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1999-02-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>25695</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>256952770</PrimarySSN>
+      <NameLine1Txt>Jessica Martinez</NameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6284 CARL KEYS</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">75300</WagesAmt>
+      <WagesSalariesAndTipsAmt>75300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>75300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>75300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62900</TaxableIncomeAmt>
+      <TaxAmt>9628</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9628</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9628</TaxLessCreditsAmt>
+      <TotalTaxAmt>9628</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9036</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9036</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9036</TotalPaymentsAmt>
+      <AmountOwedAmt>592</AmountOwedAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>256952770</EmployeeSSN>
+      <EmployerEIN>438917008</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1800 Ramos Union</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Martinez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1800 Ramos Union</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75300</WagesAmt>
+      <WithholdingAmt>9036</WithholdingAmt>
+      <SocialSecurityWagesAmt>75300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4669</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1092</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

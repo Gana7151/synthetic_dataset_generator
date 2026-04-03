@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-12-25</PrimaryBirthDt>
+      <SpouseBirthDt>1990-10-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>82432</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>69605</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>824321697</PrimarySSN>
+      <SpouseSSN>696052088</SpouseSSN>
+      <NameLine1Txt>Steven Beasley</NameLine1Txt>
+      <SpouseNameLine1Txt>Gregory Beasley</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STEV</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>GREG</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6028 SYDNEY PLACE</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>696052088</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Derek</DependentFirstNm>
+        <DependentLastNm>Beasley</DependentLastNm>
+        <DependentNameControlTxt>DERE</DependentNameControlTxt>
+        <DependentSSN>863215919</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kelly</DependentFirstNm>
+        <DependentLastNm>Beasley</DependentLastNm>
+        <DependentNameControlTxt>KELL</DependentNameControlTxt>
+        <DependentSSN>743682474</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Bobby</DependentFirstNm>
+        <DependentLastNm>Beasley</DependentLastNm>
+        <DependentNameControlTxt>BOBB</DependentNameControlTxt>
+        <DependentSSN>298419125</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">248100</WagesAmt>
+      <WagesSalariesAndTipsAmt>248100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2163</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4660</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">52566</BusinessIncomeAmt>
+      <TotalIncomeAmt>307488</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>306784</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10513</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35613</TotalDeductionsAmt>
+      <TaxableIncomeAmt>271171</TaxableIncomeAmt>
+      <TaxAmt>53123</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>53123</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>51923</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1408</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1408</TotalOtherTaxesAmt>
+      <TotalTaxAmt>53751</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>39696</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>39696</WithholdingTaxAmt>
+      <TotalPaymentsAmt>39696</TotalPaymentsAmt>
+      <AmountOwedAmt>14055</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1408</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1408</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2163</InterestAmt>
+      <TotalInterestAmt>2163</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4660</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4660</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Beasley's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BEAS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>80400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>80400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2635</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>367</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1885</InsuranceAmt>
+      <OfficeExpensesAmt>1660</OfficeExpensesAmt>
+      <SuppliesAmt>1664</SuppliesAmt>
+      <UtilitiesAmt>1392</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18231</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>27834</TotalExpensesAmt>
+      <NetProfitOrLossAmt>52566</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>52566</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>52566</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>48545</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1408</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>704</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Derek Beasley</ChildFirstAndLastName>
+        <ChildSSN>863215919</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kelly Beasley</ChildFirstAndLastName>
+        <ChildSSN>743682474</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Bobby Beasley</ChildFirstAndLastName>
+        <ChildSSN>298419125</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>52566</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>52566</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10513</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>824321697</EmployeeSSN>
+      <EmployerEIN>612929699</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3129 Scott Port</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Steven Beasley</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3129 Scott Port</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>96600</WagesAmt>
+      <WithholdingAmt>15456</WithholdingAmt>
+      <SocialSecurityWagesAmt>96600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5989</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>96600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1401</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>696052088</EmployeeSSN>
+      <EmployerEIN>741230588</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7227 Luis Meadow</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gregory Beasley</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7227 Luis Meadow</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>151500</WagesAmt>
+      <WithholdingAmt>24240</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>151500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2197</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

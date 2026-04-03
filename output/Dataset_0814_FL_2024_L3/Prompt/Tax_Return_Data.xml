@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-08-16</PrimaryBirthDt>
+      <SpouseBirthDt>1972-04-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45267</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>27176</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>452677105</PrimarySSN>
+      <SpouseSSN>271768160</SpouseSSN>
+      <NameLine1Txt>Charles Smith</NameLine1Txt>
+      <SpouseNameLine1Txt>Megan Smith</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHAR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MEGA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6824 RANGEL TRAFFICWAY</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>271768160</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Randy</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>RAND</DependentNameControlTxt>
+        <DependentSSN>384801787</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tammy</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>TAMM</DependentNameControlTxt>
+        <DependentSSN>730501161</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Gabriella</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>GABR</DependentNameControlTxt>
+        <DependentSSN>805895441</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tanya</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>TANY</DependentNameControlTxt>
+        <DependentSSN>844918556</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">92900</WagesAmt>
+      <WagesSalariesAndTipsAmt>92900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1969</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1879</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">92369</BusinessIncomeAmt>
+      <TotalIncomeAmt>189117</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>183187</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18474</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>47674</TotalDeductionsAmt>
+      <TaxableIncomeAmt>135513</TaxableIncomeAmt>
+      <TaxAmt>19919</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19919</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11919</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">11861</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>11861</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23779</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14864</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14864</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14864</TotalPaymentsAmt>
+      <AmountOwedAmt>8915</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">11861</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>11861</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1969</InterestAmt>
+      <TotalInterestAmt>1969</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1879</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1879</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Smith's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SMIT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>130400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>130400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2095</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2960</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2426</InsuranceAmt>
+      <OfficeExpensesAmt>2194</OfficeExpensesAmt>
+      <SuppliesAmt>3896</SuppliesAmt>
+      <UtilitiesAmt>1723</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20337</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>35631</TotalExpensesAmt>
+      <NetProfitOrLossAmt>92369</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>92369</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>92369</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>85303</SEBaseAmt>
+      <SelfEmploymentTaxAmt>11861</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5930</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Randy Smith</ChildFirstAndLastName>
+        <ChildSSN>384801787</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tammy Smith</ChildFirstAndLastName>
+        <ChildSSN>730501161</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gabriella Smith</ChildFirstAndLastName>
+        <ChildSSN>805895441</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tanya Smith</ChildFirstAndLastName>
+        <ChildSSN>844918556</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>92369</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>92369</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18474</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Smith's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2400</DepreciationAmt>
+      <TotalDepreciationAmt>2400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>271768160</EmployeeSSN>
+      <EmployerEIN>655718097</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>924 Miller Port</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Megan Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>924 Miller Port</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>92900</WagesAmt>
+      <WithholdingAmt>14864</WithholdingAmt>
+      <SocialSecurityWagesAmt>92900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5760</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>92900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1347</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

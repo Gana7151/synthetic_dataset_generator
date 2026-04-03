@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-06-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>53771</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>537719327</PrimarySSN>
+      <NameLine1Txt>Annette Garza</NameLine1Txt>
+      <PrimaryNameControlTxt>ANNE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4881 ELIZABETH KEY</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Carrie</DependentFirstNm>
+        <DependentLastNm>Garza</DependentLastNm>
+        <DependentNameControlTxt>CARR</DependentNameControlTxt>
+        <DependentSSN>451235203</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kelly</DependentFirstNm>
+        <DependentLastNm>Garza</DependentLastNm>
+        <DependentNameControlTxt>KELL</DependentNameControlTxt>
+        <DependentSSN>834623623</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Allison</DependentFirstNm>
+        <DependentLastNm>Garza</DependentLastNm>
+        <DependentNameControlTxt>ALLI</DependentNameControlTxt>
+        <DependentSSN>497816321</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Garza</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>772620494</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">154000</WagesAmt>
+      <WagesSalariesAndTipsAmt>154000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2086</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">525</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">108986</BusinessIncomeAmt>
+      <TotalIncomeAmt>265596</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>263753</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">21797</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35647</TotalDeductionsAmt>
+      <TaxableIncomeAmt>228106</TaxableIncomeAmt>
+      <TaxAmt>51826</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4850</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4850</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>51826</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>46976</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3688</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3688</TotalOtherTaxesAmt>
+      <TotalTaxAmt>51155</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>24640</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>24640</WithholdingTaxAmt>
+      <TotalPaymentsAmt>24640</TotalPaymentsAmt>
+      <AmountOwedAmt>26515</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3688</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3688</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2086</InterestAmt>
+      <TotalInterestAmt>2086</TotalInterestAmt>
+      <OrdinaryDividendsAmt>525</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>525</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>140200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>140200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3129</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1960</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2032</InsuranceAmt>
+      <OfficeExpensesAmt>1925</OfficeExpensesAmt>
+      <SuppliesAmt>3668</SuppliesAmt>
+      <UtilitiesAmt>1384</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17116</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31214</TotalExpensesAmt>
+      <NetProfitOrLossAmt>108986</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>108986</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>108986</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>100649</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3688</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1844</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carrie Garza</ChildFirstAndLastName>
+        <ChildSSN>451235203</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kelly Garza</ChildFirstAndLastName>
+        <ChildSSN>834623623</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Allison Garza</ChildFirstAndLastName>
+        <ChildSSN>497816321</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Garza</ChildFirstAndLastName>
+        <ChildSSN>772620494</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4850</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4850</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>108986</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>108986</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>21797</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>537719327</EmployeeSSN>
+      <EmployerEIN>882286412</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5853 Wilson Summit</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Annette Garza</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5853 Wilson Summit</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>154000</WagesAmt>
+      <WithholdingAmt>24640</WithholdingAmt>
+      <SocialSecurityWagesAmt>154000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9548</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>154000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2233</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-07-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>43255</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>432554389</PrimarySSN>
+      <NameLine1Txt>Joshua Mcfarland</NameLine1Txt>
+      <PrimaryNameControlTxt>JOSH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4619 PAMELA ORCHARD</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Calvin</DependentFirstNm>
+        <DependentLastNm>Mcfarland</DependentLastNm>
+        <DependentNameControlTxt>CALV</DependentNameControlTxt>
+        <DependentSSN>434762467</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Mcfarland</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>730815963</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">69000</WagesAmt>
+      <WagesSalariesAndTipsAmt>69000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">730</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">314</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33052</BusinessIncomeAmt>
+      <TotalIncomeAmt>103097</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>100762</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6610</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22360</TotalDeductionsAmt>
+      <TaxableIncomeAmt>78402</TaxableIncomeAmt>
+      <TaxAmt>12162</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12162</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7762</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4670</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4670</TotalOtherTaxesAmt>
+      <TotalTaxAmt>12432</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8280</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8280</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8280</TotalPaymentsAmt>
+      <AmountOwedAmt>4152</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4670</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4670</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>730</InterestAmt>
+      <TotalInterestAmt>730</TotalInterestAmt>
+      <OrdinaryDividendsAmt>314</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>314</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>46200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>46200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1065</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1697</CarAndTruckExpensesAmt>
+      <InsuranceAmt>838</InsuranceAmt>
+      <OfficeExpensesAmt>556</OfficeExpensesAmt>
+      <SuppliesAmt>1553</SuppliesAmt>
+      <UtilitiesAmt>289</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7150</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13148</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33052</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33052</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33052</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30524</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4670</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2335</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Calvin Mcfarland</ChildFirstAndLastName>
+        <ChildSSN>434762467</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Mcfarland</ChildFirstAndLastName>
+        <ChildSSN>730815963</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33052</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33052</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6610</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>432554389</EmployeeSSN>
+      <EmployerEIN>836288729</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4324 Levy Meadow</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joshua Mcfarland</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4324 Levy Meadow</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>69000</WagesAmt>
+      <WithholdingAmt>8280</WithholdingAmt>
+      <SocialSecurityWagesAmt>69000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4278</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>69000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1000</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

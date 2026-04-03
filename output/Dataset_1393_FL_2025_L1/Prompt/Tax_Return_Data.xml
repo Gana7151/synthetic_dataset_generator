@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-09-20</PrimaryBirthDt>
+      <SpouseBirthDt>1979-07-28</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>88125</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>57390</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>881257925</PrimarySSN>
+      <SpouseSSN>573904833</SpouseSSN>
+      <NameLine1Txt>Melissa Alvarado</NameLine1Txt>
+      <SpouseNameLine1Txt>Kevin Alvarado</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MELI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KEVI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>387 BENJAMIN MEADOW</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>573904833</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">76000</WagesAmt>
+      <WagesSalariesAndTipsAmt>76000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>76000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>76000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>44500</TaxableIncomeAmt>
+      <TaxAmt>4863</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4863</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4863</TaxLessCreditsAmt>
+      <TotalTaxAmt>4863</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9120</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9120</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9120</TotalPaymentsAmt>
+      <OverpaidAmt>4257</OverpaidAmt>
+      <RefundAmt>4257</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>881257925</EmployeeSSN>
+      <EmployerEIN>455301413</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7414 Fitzpatrick Bridge</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melissa Alvarado</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7414 Fitzpatrick Bridge</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>76000</WagesAmt>
+      <WithholdingAmt>9120</WithholdingAmt>
+      <SocialSecurityWagesAmt>76000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4712</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>76000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1102</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

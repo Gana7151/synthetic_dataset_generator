@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-04-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>12186</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>121864510</PrimarySSN>
+      <NameLine1Txt>Olivia Patterson</NameLine1Txt>
+      <PrimaryNameControlTxt>OLIV</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3937 ANDREW TRACE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">157200</WagesAmt>
+      <WagesSalariesAndTipsAmt>157200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1648</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">356</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">43121</BusinessIncomeAmt>
+      <TotalIncomeAmt>202325</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>201748</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8624</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21024</TotalDeductionsAmt>
+      <TaxableIncomeAmt>180724</TaxableIncomeAmt>
+      <TaxAmt>38847</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>38847</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38847</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1155</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1155</TotalOtherTaxesAmt>
+      <TotalTaxAmt>40002</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>25152</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>25152</WithholdingTaxAmt>
+      <TotalPaymentsAmt>25152</TotalPaymentsAmt>
+      <AmountOwedAmt>14850</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1155</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1155</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1648</InterestAmt>
+      <TotalInterestAmt>1648</TotalInterestAmt>
+      <OrdinaryDividendsAmt>356</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>356</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2051</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>826</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1182</InsuranceAmt>
+      <OfficeExpensesAmt>905</OfficeExpensesAmt>
+      <SuppliesAmt>1000</SuppliesAmt>
+      <UtilitiesAmt>1030</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11385</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18379</TotalExpensesAmt>
+      <NetProfitOrLossAmt>43121</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>43121</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>43121</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39822</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1155</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>577</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>43121</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>43121</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8624</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1000</DepreciationAmt>
+      <TotalDepreciationAmt>1000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>121864510</EmployeeSSN>
+      <EmployerEIN>373225131</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4933 Ann Fall</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Olivia Patterson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4933 Ann Fall</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>157200</WagesAmt>
+      <WithholdingAmt>25152</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>157200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2279</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1352</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

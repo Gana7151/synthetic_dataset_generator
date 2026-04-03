@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-01-26</PrimaryBirthDt>
+      <SpouseBirthDt>1974-12-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>67837</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>26926</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>678379866</PrimarySSN>
+      <SpouseSSN>269267965</SpouseSSN>
+      <NameLine1Txt>Kevin Wilson</NameLine1Txt>
+      <SpouseNameLine1Txt>Wanda Wilson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KEVI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>WAND</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9307 SCOTT STREAM</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>269267965</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kiara</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>KIAR</DependentNameControlTxt>
+        <DependentSSN>233683525</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">137900</WagesAmt>
+      <WagesSalariesAndTipsAmt>137900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">650</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1306</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23188</BusinessIncomeAmt>
+      <TotalIncomeAmt>163044</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>161406</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4638</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36138</TotalDeductionsAmt>
+      <TaxableIncomeAmt>125268</TaxableIncomeAmt>
+      <TaxAmt>17387</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17387</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15187</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3276</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3276</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18463</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19360</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19360</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19360</TotalPaymentsAmt>
+      <OverpaidAmt>897</OverpaidAmt>
+      <RefundAmt>897</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3276</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3276</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>650</InterestAmt>
+      <TotalInterestAmt>650</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1306</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1306</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>32200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>32200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>730</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>942</CarAndTruckExpensesAmt>
+      <InsuranceAmt>468</InsuranceAmt>
+      <OfficeExpensesAmt>605</OfficeExpensesAmt>
+      <SuppliesAmt>442</SuppliesAmt>
+      <UtilitiesAmt>325</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3100</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6612</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23188</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23188</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23188</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>21414</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3276</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1638</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kiara Wilson</ChildFirstAndLastName>
+        <ChildSSN>233683525</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23188</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23188</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4638</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2400</DepreciationAmt>
+      <TotalDepreciationAmt>2400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>678379866</EmployeeSSN>
+      <EmployerEIN>271913256</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3044 George Stream</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kevin Wilson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3044 George Stream</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>33800</WagesAmt>
+      <WithholdingAmt>2704</WithholdingAmt>
+      <SocialSecurityWagesAmt>33800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2096</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>33800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>490</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>269267965</EmployeeSSN>
+      <EmployerEIN>655563282</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9247 Rubio Union</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Wanda Wilson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9247 Rubio Union</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>104100</WagesAmt>
+      <WithholdingAmt>16656</WithholdingAmt>
+      <SocialSecurityWagesAmt>104100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6454</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>104100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1509</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

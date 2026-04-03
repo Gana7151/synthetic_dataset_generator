@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-12-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>70322</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>703227338</PrimarySSN>
+      <NameLine1Txt>Sean Green</NameLine1Txt>
+      <PrimaryNameControlTxt>SEAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1709 HERRING CLIFFS</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Roger</DependentFirstNm>
+        <DependentLastNm>Green</DependentLastNm>
+        <DependentNameControlTxt>ROGE</DependentNameControlTxt>
+        <DependentSSN>118566568</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Green</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>632872593</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Green</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>756165555</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">178100</WagesAmt>
+      <WagesSalariesAndTipsAmt>178100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">725</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1986</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">26729</BusinessIncomeAmt>
+      <TotalIncomeAmt>207540</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>207182</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5346</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23996</TotalDeductionsAmt>
+      <TaxableIncomeAmt>183186</TaxableIncomeAmt>
+      <TaxAmt>38194</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5650</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5650</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>38194</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>32544</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">716</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>716</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33284</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>39182</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>39182</WithholdingTaxAmt>
+      <TotalPaymentsAmt>39182</TotalPaymentsAmt>
+      <OverpaidAmt>5898</OverpaidAmt>
+      <RefundAmt>5898</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">716</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>716</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>725</InterestAmt>
+      <TotalInterestAmt>725</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1986</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1986</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Green's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>GREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>46900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>46900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1650</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2254</CarAndTruckExpensesAmt>
+      <InsuranceAmt>943</InsuranceAmt>
+      <OfficeExpensesAmt>1546</OfficeExpensesAmt>
+      <SuppliesAmt>1435</SuppliesAmt>
+      <UtilitiesAmt>832</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7111</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15771</TotalExpensesAmt>
+      <NetProfitOrLossAmt>26729</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>26729</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>26729</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>24684</SEBaseAmt>
+      <SelfEmploymentTaxAmt>716</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>358</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Roger Green</ChildFirstAndLastName>
+        <ChildSSN>118566568</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Green</ChildFirstAndLastName>
+        <ChildSSN>632872593</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica Green</ChildFirstAndLastName>
+        <ChildSSN>756165555</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5650</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5650</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>26729</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>26729</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5346</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Green's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4400</DepreciationAmt>
+      <TotalDepreciationAmt>4400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>703227338</EmployeeSSN>
+      <EmployerEIN>308262513</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1801 Kendra Plaza</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sean Green</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1801 Kendra Plaza</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>178100</WagesAmt>
+      <WithholdingAmt>39182</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>178100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2582</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1352</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

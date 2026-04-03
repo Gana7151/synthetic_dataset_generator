@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-01-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81673</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>816732111</PrimarySSN>
+      <NameLine1Txt>Anthony Melendez</NameLine1Txt>
+      <PrimaryNameControlTxt>ANTH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9503 JONATHAN DIVIDE</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christine</DependentFirstNm>
+        <DependentLastNm>Melendez</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>655823343</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">78400</WagesAmt>
+      <WagesSalariesAndTipsAmt>78400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">305</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>78705</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>78705</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>66155</TaxableIncomeAmt>
+      <TaxAmt>10303</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2850</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2850</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10303</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7453</TaxLessCreditsAmt>
+      <TotalTaxAmt>7453</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9408</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9408</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9408</TotalPaymentsAmt>
+      <OverpaidAmt>1955</OverpaidAmt>
+      <RefundAmt>1955</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>305</InterestAmt>
+      <TotalInterestAmt>305</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christine Melendez</ChildFirstAndLastName>
+        <ChildSSN>655823343</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2850</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2850</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>816732111</EmployeeSSN>
+      <EmployerEIN>929721525</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>322 Koch Harbor</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Anthony Melendez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>322 Koch Harbor</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78400</WagesAmt>
+      <WithholdingAmt>9408</WithholdingAmt>
+      <SocialSecurityWagesAmt>78400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4861</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1137</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

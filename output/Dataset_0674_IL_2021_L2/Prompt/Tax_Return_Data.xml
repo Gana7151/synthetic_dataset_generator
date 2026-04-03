@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1950-08-01</PrimaryBirthDt>
+      <SpouseBirthDt>1988-03-17</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>19737</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13193</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>197377447</PrimarySSN>
+      <SpouseSSN>131938317</SpouseSSN>
+      <NameLine1Txt>Kevin Wilson</NameLine1Txt>
+      <SpouseNameLine1Txt>Billy Wilson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KEVI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>BILL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9655 EVAN RAMP</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>131938317</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Tom</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>TOM</DependentNameControlTxt>
+        <DependentSSN>123013354</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Katelyn</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>KATE</DependentNameControlTxt>
+        <DependentSSN>573357060</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Nicholas</DependentFirstNm>
+        <DependentLastNm>Wilson</DependentLastNm>
+        <DependentNameControlTxt>NICH</DependentNameControlTxt>
+        <DependentSSN>249639657</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">33500</WagesAmt>
+      <WagesSalariesAndTipsAmt>33500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">250</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1999</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">38957</BusinessIncomeAmt>
+      <TotalIncomeAmt>74706</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>71953</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7791</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32891</TotalDeductionsAmt>
+      <TaxableIncomeAmt>39062</TaxableIncomeAmt>
+      <TaxAmt>4289</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4289</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4289</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4289</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5504</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5504</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5504</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2680</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2680</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2680</TotalPaymentsAmt>
+      <AmountOwedAmt>2824</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5504</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5504</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>250</InterestAmt>
+      <TotalInterestAmt>250</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1999</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1999</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1218</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1613</CarAndTruckExpensesAmt>
+      <InsuranceAmt>633</InsuranceAmt>
+      <OfficeExpensesAmt>1610</OfficeExpensesAmt>
+      <SuppliesAmt>1604</SuppliesAmt>
+      <UtilitiesAmt>579</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12686</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>19943</TotalExpensesAmt>
+      <NetProfitOrLossAmt>38957</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>38957</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>38957</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>35977</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5504</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2752</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tom Wilson</ChildFirstAndLastName>
+        <ChildSSN>123013354</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Katelyn Wilson</ChildFirstAndLastName>
+        <ChildSSN>573357060</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicholas Wilson</ChildFirstAndLastName>
+        <ChildSSN>249639657</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4289</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4289</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>38957</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>38957</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7791</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>197377447</EmployeeSSN>
+      <EmployerEIN>131955299</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9885 Lynn Club</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kevin Wilson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9885 Lynn Club</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>33500</WagesAmt>
+      <WithholdingAmt>2680</WithholdingAmt>
+      <SocialSecurityWagesAmt>33500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2077</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>33500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>486</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

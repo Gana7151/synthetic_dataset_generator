@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-08-25</PrimaryBirthDt>
+      <SpouseBirthDt>1982-07-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72714</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>10633</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>727145653</PrimarySSN>
+      <SpouseSSN>106337366</SpouseSSN>
+      <NameLine1Txt>Maria Simpson</NameLine1Txt>
+      <SpouseNameLine1Txt>Cynthia Simpson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MARI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CYNT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2883 WRIGHT VILLE</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>106337366</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Simpson</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>709746533</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">114900</WagesAmt>
+      <WagesSalariesAndTipsAmt>114900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">782</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">330</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">48665</BusinessIncomeAmt>
+      <TotalIncomeAmt>164678</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>161240</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9733</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41233</TotalDeductionsAmt>
+      <TaxableIncomeAmt>120007</TaxableIncomeAmt>
+      <TaxAmt>16229</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>16229</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14029</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6876</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6876</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20906</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18384</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18384</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18384</TotalPaymentsAmt>
+      <AmountOwedAmt>2522</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6876</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6876</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>782</InterestAmt>
+      <TotalInterestAmt>782</TotalInterestAmt>
+      <OrdinaryDividendsAmt>330</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>330</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>74500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>74500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1509</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1851</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1118</InsuranceAmt>
+      <OfficeExpensesAmt>2021</OfficeExpensesAmt>
+      <SuppliesAmt>1637</SuppliesAmt>
+      <UtilitiesAmt>851</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15548</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24535</TotalExpensesAmt>
+      <NetProfitOrLossAmt>48665</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>48665</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>48665</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>44942</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6876</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3438</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Simpson</ChildFirstAndLastName>
+        <ChildSSN>709746533</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>48665</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>48665</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9733</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1300</DepreciationAmt>
+      <TotalDepreciationAmt>1300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>727145653</EmployeeSSN>
+      <EmployerEIN>561084470</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9284 Stein Terrace</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Maria Simpson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9284 Stein Terrace</AddressLine1Txt>
+        <CityNm>Naperville</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>114900</WagesAmt>
+      <WithholdingAmt>18384</WithholdingAmt>
+      <SocialSecurityWagesAmt>114900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7124</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>114900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1666</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

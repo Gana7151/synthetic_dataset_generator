@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2001-11-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29977</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>299771056</PrimarySSN>
+      <NameLine1Txt>Kimberly Carr</NameLine1Txt>
+      <PrimaryNameControlTxt>KIMB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5904 ALEXANDER ORCHARD</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Teresa</DependentFirstNm>
+        <DependentLastNm>Carr</DependentLastNm>
+        <DependentNameControlTxt>TERE</DependentNameControlTxt>
+        <DependentSSN>647974605</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">58200</WagesAmt>
+      <WagesSalariesAndTipsAmt>58200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">524</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>58724</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>58724</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>44874</TaxableIncomeAmt>
+      <TaxAmt>5180</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5180</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3180</TaxLessCreditsAmt>
+      <TotalTaxAmt>3180</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6984</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6984</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6984</TotalPaymentsAmt>
+      <OverpaidAmt>3804</OverpaidAmt>
+      <RefundAmt>3804</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>524</InterestAmt>
+      <TotalInterestAmt>524</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Teresa Carr</ChildFirstAndLastName>
+        <ChildSSN>647974605</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>299771056</EmployeeSSN>
+      <EmployerEIN>245251489</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2939 Reginald Locks</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kimberly Carr</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2939 Reginald Locks</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>58200</WagesAmt>
+      <WithholdingAmt>6984</WithholdingAmt>
+      <SocialSecurityWagesAmt>58200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3608</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>58200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>844</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

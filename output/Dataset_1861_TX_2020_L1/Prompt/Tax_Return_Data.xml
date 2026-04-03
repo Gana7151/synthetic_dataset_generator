@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-06-25</PrimaryBirthDt>
+      <SpouseBirthDt>1978-01-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45590</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>74725</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>455908648</PrimarySSN>
+      <SpouseSSN>747250099</SpouseSSN>
+      <NameLine1Txt>Ryan Wright</NameLine1Txt>
+      <SpouseNameLine1Txt>Lisa Wright</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RYAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LISA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5565 AMANDA SPRINGS</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>747250099</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">77100</WagesAmt>
+      <WagesSalariesAndTipsAmt>77100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>77100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>77100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>52300</TaxableIncomeAmt>
+      <TaxAmt>5881</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5881</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5881</TaxLessCreditsAmt>
+      <TotalTaxAmt>5881</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9252</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9252</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9252</TotalPaymentsAmt>
+      <OverpaidAmt>3371</OverpaidAmt>
+      <RefundAmt>3371</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>455908648</EmployeeSSN>
+      <EmployerEIN>542727224</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6103 Underwood Mountains</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Wright</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6103 Underwood Mountains</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>77100</WagesAmt>
+      <WithholdingAmt>9252</WithholdingAmt>
+      <SocialSecurityWagesAmt>77100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4780</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>77100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1118</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

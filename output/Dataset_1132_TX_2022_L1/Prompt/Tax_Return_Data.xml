@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-04-23</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24228</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>242287528</PrimarySSN>
+      <NameLine1Txt>Brandon Bradford</NameLine1Txt>
+      <PrimaryNameControlTxt>BRAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5479 WEBER RAPIDS</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">71500</WagesAmt>
+      <WagesSalariesAndTipsAmt>71500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>71500</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>71500</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>58550</TaxableIncomeAmt>
+      <TaxAmt>8498</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8498</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8498</TaxLessCreditsAmt>
+      <TotalTaxAmt>8498</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8580</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8580</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8580</TotalPaymentsAmt>
+      <OverpaidAmt>82</OverpaidAmt>
+      <RefundAmt>82</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>242287528</EmployeeSSN>
+      <EmployerEIN>887608586</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7971 Lisa Cape</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brandon Bradford</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7971 Lisa Cape</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71500</WagesAmt>
+      <WithholdingAmt>8580</WithholdingAmt>
+      <SocialSecurityWagesAmt>71500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4433</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1037</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

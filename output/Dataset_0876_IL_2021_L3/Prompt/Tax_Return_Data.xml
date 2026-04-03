@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-06-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56174</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>561747518</PrimarySSN>
+      <NameLine1Txt>Matthew Lee</NameLine1Txt>
+      <PrimaryNameControlTxt>MATT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6854 AMY GREEN</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Karen</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>KARE</DependentNameControlTxt>
+        <DependentSSN>522791105</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Scott</DependentFirstNm>
+        <DependentLastNm>Lee</DependentLastNm>
+        <DependentNameControlTxt>SCOT</DependentNameControlTxt>
+        <DependentSSN>520174385</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">176300</WagesAmt>
+      <WagesSalariesAndTipsAmt>176300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">991</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2663</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">63522</BusinessIncomeAmt>
+      <TotalIncomeAmt>243476</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>242625</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12704</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25254</TotalDeductionsAmt>
+      <TaxableIncomeAmt>217371</TaxableIncomeAmt>
+      <TaxAmt>50624</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>50624</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>50624</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1701</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1701</TotalOtherTaxesAmt>
+      <TotalTaxAmt>52640</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>38786</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>38786</WithholdingTaxAmt>
+      <TotalPaymentsAmt>38786</TotalPaymentsAmt>
+      <AmountOwedAmt>13854</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1701</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1701</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>991</InterestAmt>
+      <TotalInterestAmt>991</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2663</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2663</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>87000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>87000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1766</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2985</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1187</InsuranceAmt>
+      <OfficeExpensesAmt>1483</OfficeExpensesAmt>
+      <SuppliesAmt>2563</SuppliesAmt>
+      <UtilitiesAmt>1286</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10308</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>21578</TotalExpensesAmt>
+      <NetProfitOrLossAmt>63522</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>63522</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>63522</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58663</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1701</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>851</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>63522</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>63522</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12704</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1900</DepreciationAmt>
+      <TotalDepreciationAmt>1900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>561747518</EmployeeSSN>
+      <EmployerEIN>243919047</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9431 Watson Ville</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Matthew Lee</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9431 Watson Ville</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>176300</WagesAmt>
+      <WithholdingAmt>38786</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>176300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2556</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

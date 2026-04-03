@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-12-19</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>21937</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>219375335</PrimarySSN>
+      <NameLine1Txt>Michael Gomez</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5111 YANG BRANCH</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Vanessa</DependentFirstNm>
+        <DependentLastNm>Gomez</DependentLastNm>
+        <DependentNameControlTxt>VANE</DependentNameControlTxt>
+        <DependentSSN>591831299</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Gomez</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>846138091</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Gomez</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>788826546</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">147000</WagesAmt>
+      <WagesSalariesAndTipsAmt>147000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1027</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">636</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">72064</BusinessIncomeAmt>
+      <TotalIncomeAmt>220727</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>218423</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14413</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36313</TotalDeductionsAmt>
+      <TaxableIncomeAmt>182110</TaxableIncomeAmt>
+      <TaxAmt>35055</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5100</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5100</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>35055</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>29955</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4608</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4608</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34686</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23520</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23520</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23520</TotalPaymentsAmt>
+      <AmountOwedAmt>11166</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4608</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4608</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1027</InterestAmt>
+      <TotalInterestAmt>1027</TotalInterestAmt>
+      <OrdinaryDividendsAmt>636</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>636</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Gomez's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>GOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>93400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>93400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1406</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1069</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1649</InsuranceAmt>
+      <OfficeExpensesAmt>986</OfficeExpensesAmt>
+      <SuppliesAmt>1321</SuppliesAmt>
+      <UtilitiesAmt>961</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13944</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>21336</TotalExpensesAmt>
+      <NetProfitOrLossAmt>72064</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>72064</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>72064</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>66551</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4608</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2304</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Vanessa Gomez</ChildFirstAndLastName>
+        <ChildSSN>591831299</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Gomez</ChildFirstAndLastName>
+        <ChildSSN>846138091</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Gomez</ChildFirstAndLastName>
+        <ChildSSN>788826546</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5100</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5100</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>72064</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>72064</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14413</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>219375335</EmployeeSSN>
+      <EmployerEIN>771495353</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1509 Amanda View</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Gomez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1509 Amanda View</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>147000</WagesAmt>
+      <WithholdingAmt>23520</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>147000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2132</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

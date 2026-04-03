@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2002-10-04</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26603</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>266039653</PrimarySSN>
+      <NameLine1Txt>Rick Blake</NameLine1Txt>
+      <PrimaryNameControlTxt>RICK</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3690 JENNIFER MOUNTAINS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kyle</DependentFirstNm>
+        <DependentLastNm>Blake</DependentLastNm>
+        <DependentNameControlTxt>KYLE</DependentNameControlTxt>
+        <DependentSSN>382498696</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">115900</WagesAmt>
+      <WagesSalariesAndTipsAmt>115900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2706</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2116</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">61588</BusinessIncomeAmt>
+      <TotalIncomeAmt>182310</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>177959</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12318</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28068</TotalDeductionsAmt>
+      <TaxableIncomeAmt>149891</TaxableIncomeAmt>
+      <TaxAmt>28821</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>28821</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>26621</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8702</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8702</TotalOtherTaxesAmt>
+      <TotalTaxAmt>35323</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18544</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18544</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18544</TotalPaymentsAmt>
+      <AmountOwedAmt>16779</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8702</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8702</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2706</InterestAmt>
+      <TotalInterestAmt>2706</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2116</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2116</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>99000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>99000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3686</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4079</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1282</InsuranceAmt>
+      <OfficeExpensesAmt>2537</OfficeExpensesAmt>
+      <SuppliesAmt>1818</SuppliesAmt>
+      <UtilitiesAmt>1957</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18753</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34112</TotalExpensesAmt>
+      <NetProfitOrLossAmt>61588</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>61588</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>61588</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>56877</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8702</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4351</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kyle Blake</ChildFirstAndLastName>
+        <ChildSSN>382498696</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>61588</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>61588</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12318</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3300</DepreciationAmt>
+      <TotalDepreciationAmt>3300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>266039653</EmployeeSSN>
+      <EmployerEIN>552751502</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6979 Hogan Ridge</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rick Blake</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6979 Hogan Ridge</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>115900</WagesAmt>
+      <WithholdingAmt>18544</WithholdingAmt>
+      <SocialSecurityWagesAmt>115900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7186</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>115900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1681</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

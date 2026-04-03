@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-11-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62963</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>629638928</PrimarySSN>
+      <NameLine1Txt>Matthew Gardner</NameLine1Txt>
+      <PrimaryNameControlTxt>MATT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4831 NICOLE FLAT</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">41300</WagesAmt>
+      <WagesSalariesAndTipsAmt>41300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>41300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>41300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>28900</TaxableIncomeAmt>
+      <TaxAmt>3270</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3270</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3270</TaxLessCreditsAmt>
+      <TotalTaxAmt>3270</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>4956</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>4956</WithholdingTaxAmt>
+      <TotalPaymentsAmt>4956</TotalPaymentsAmt>
+      <OverpaidAmt>1686</OverpaidAmt>
+      <RefundAmt>1686</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>629638928</EmployeeSSN>
+      <EmployerEIN>344746524</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7046 Ellen Park</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Matthew Gardner</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7046 Ellen Park</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>41300</WagesAmt>
+      <WithholdingAmt>4956</WithholdingAmt>
+      <SocialSecurityWagesAmt>41300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2561</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>41300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>599</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

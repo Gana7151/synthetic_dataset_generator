@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-02-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26854</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>268548164</PrimarySSN>
+      <NameLine1Txt>Sandra Wise</NameLine1Txt>
+      <PrimaryNameControlTxt>SAND</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5085 HOWARD PLAINS</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Candice</DependentFirstNm>
+        <DependentLastNm>Wise</DependentLastNm>
+        <DependentNameControlTxt>CAND</DependentNameControlTxt>
+        <DependentSSN>890899244</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Alexandra</DependentFirstNm>
+        <DependentLastNm>Wise</DependentLastNm>
+        <DependentNameControlTxt>ALEX</DependentNameControlTxt>
+        <DependentSSN>629582755</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116200</WagesAmt>
+      <WagesSalariesAndTipsAmt>116200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">580</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1212</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">56252</BusinessIncomeAmt>
+      <TotalIncomeAmt>174244</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>171842</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11250</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>148042</TaxableIncomeAmt>
+      <TaxAmt>29551</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>29551</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>27751</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4805</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4805</TotalOtherTaxesAmt>
+      <TotalTaxAmt>32556</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18592</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18592</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18592</TotalPaymentsAmt>
+      <AmountOwedAmt>13964</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4805</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4805</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>580</InterestAmt>
+      <TotalInterestAmt>580</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1212</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1212</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>76200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>76200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2211</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1615</CarAndTruckExpensesAmt>
+      <InsuranceAmt>905</InsuranceAmt>
+      <OfficeExpensesAmt>1588</OfficeExpensesAmt>
+      <SuppliesAmt>2030</SuppliesAmt>
+      <UtilitiesAmt>709</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10890</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>19948</TotalExpensesAmt>
+      <NetProfitOrLossAmt>56252</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>56252</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>56252</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>51949</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4805</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2402</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Candice Wise</ChildFirstAndLastName>
+        <ChildSSN>890899244</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Alexandra Wise</ChildFirstAndLastName>
+        <ChildSSN>629582755</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>56252</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>56252</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11250</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>268548164</EmployeeSSN>
+      <EmployerEIN>831838900</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7333 Blake Inlet</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sandra Wise</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7333 Blake Inlet</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116200</WagesAmt>
+      <WithholdingAmt>18592</WithholdingAmt>
+      <SocialSecurityWagesAmt>116200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7204</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1685</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

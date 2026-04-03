@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-06-21</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>59745</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>597451948</PrimarySSN>
+      <NameLine1Txt>Rebecca Arroyo</NameLine1Txt>
+      <PrimaryNameControlTxt>REBE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6068 JOSHUA HAVEN</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">26400</WagesAmt>
+      <WagesSalariesAndTipsAmt>26400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>26400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>26400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>13450</TaxableIncomeAmt>
+      <TaxAmt>1408</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1408</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1408</TaxLessCreditsAmt>
+      <TotalTaxAmt>1408</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2112</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2112</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2112</TotalPaymentsAmt>
+      <OverpaidAmt>704</OverpaidAmt>
+      <RefundAmt>704</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>597451948</EmployeeSSN>
+      <EmployerEIN>941759265</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5750 David Street</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rebecca Arroyo</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5750 David Street</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>26400</WagesAmt>
+      <WithholdingAmt>2112</WithholdingAmt>
+      <SocialSecurityWagesAmt>26400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1637</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>26400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>383</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>290</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

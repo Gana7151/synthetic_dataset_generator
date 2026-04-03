@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-01-24</PrimaryBirthDt>
+      <SpouseBirthDt>1961-05-06</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>79663</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>86438</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>796630097</PrimarySSN>
+      <SpouseSSN>864382337</SpouseSSN>
+      <NameLine1Txt>Victor Alvarez</NameLine1Txt>
+      <SpouseNameLine1Txt>Henry Alvarez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>VICT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>HENR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6781 HARRISON CREEK</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>864382337</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Donald</DependentFirstNm>
+        <DependentLastNm>Alvarez</DependentLastNm>
+        <DependentNameControlTxt>DONA</DependentNameControlTxt>
+        <DependentSSN>699122560</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kelly</DependentFirstNm>
+        <DependentLastNm>Alvarez</DependentLastNm>
+        <DependentNameControlTxt>KELL</DependentNameControlTxt>
+        <DependentSSN>109249033</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Gregory</DependentFirstNm>
+        <DependentLastNm>Alvarez</DependentLastNm>
+        <DependentNameControlTxt>GREG</DependentNameControlTxt>
+        <DependentSSN>821084095</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">112600</WagesAmt>
+      <WagesSalariesAndTipsAmt>112600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">82</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">586</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33671</BusinessIncomeAmt>
+      <TotalIncomeAmt>146939</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>144560</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6734</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38234</TotalDeductionsAmt>
+      <TaxableIncomeAmt>106326</TaxableIncomeAmt>
+      <TaxAmt>13220</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13220</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6620</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4758</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4758</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11377</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18016</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18016</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18016</TotalPaymentsAmt>
+      <OverpaidAmt>6639</OverpaidAmt>
+      <RefundAmt>6639</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4758</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4758</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>82</InterestAmt>
+      <TotalInterestAmt>82</TotalInterestAmt>
+      <OrdinaryDividendsAmt>586</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>586</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>52000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>52000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1047</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1953</CarAndTruckExpensesAmt>
+      <InsuranceAmt>885</InsuranceAmt>
+      <OfficeExpensesAmt>1359</OfficeExpensesAmt>
+      <SuppliesAmt>1537</SuppliesAmt>
+      <UtilitiesAmt>734</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6314</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13829</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33671</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33671</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33671</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>31095</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4758</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2379</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Donald Alvarez</ChildFirstAndLastName>
+        <ChildSSN>699122560</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kelly Alvarez</ChildFirstAndLastName>
+        <ChildSSN>109249033</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gregory Alvarez</ChildFirstAndLastName>
+        <ChildSSN>821084095</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33671</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33671</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6734</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4500</DepreciationAmt>
+      <TotalDepreciationAmt>4500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>796630097</EmployeeSSN>
+      <EmployerEIN>546339266</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2278 Miller Street</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Victor Alvarez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2278 Miller Street</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>112600</WagesAmt>
+      <WithholdingAmt>18016</WithholdingAmt>
+      <SocialSecurityWagesAmt>112600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6981</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>112600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1633</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-03-28</PrimaryBirthDt>
+      <SpouseBirthDt>1965-09-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>41783</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>80043</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>417837304</PrimarySSN>
+      <SpouseSSN>800439717</SpouseSSN>
+      <NameLine1Txt>Gail Larson</NameLine1Txt>
+      <SpouseNameLine1Txt>Sabrina Larson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>GAIL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SABR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9007 RUSSELL GLENS</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>800439717</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Tiffany</DependentFirstNm>
+        <DependentLastNm>Larson</DependentLastNm>
+        <DependentNameControlTxt>TIFF</DependentNameControlTxt>
+        <DependentSSN>281132814</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">170600</WagesAmt>
+      <WagesSalariesAndTipsAmt>170600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1787</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1673</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">55844</BusinessIncomeAmt>
+      <TotalIncomeAmt>229904</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>229156</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11169</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36269</TotalDeductionsAmt>
+      <TaxableIncomeAmt>192887</TaxableIncomeAmt>
+      <TaxAmt>34335</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>34335</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>34335</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1496</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1496</TotalOtherTaxesAmt>
+      <TotalTaxAmt>35830</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>37532</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>37532</WithholdingTaxAmt>
+      <TotalPaymentsAmt>37532</TotalPaymentsAmt>
+      <OverpaidAmt>1702</OverpaidAmt>
+      <RefundAmt>1702</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1496</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1496</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1787</InterestAmt>
+      <TotalInterestAmt>1787</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1673</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1673</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Larson's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>LARS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>83900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>83900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2043</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3385</CarAndTruckExpensesAmt>
+      <InsuranceAmt>991</InsuranceAmt>
+      <OfficeExpensesAmt>1523</OfficeExpensesAmt>
+      <SuppliesAmt>1489</SuppliesAmt>
+      <UtilitiesAmt>1358</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17267</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28056</TotalExpensesAmt>
+      <NetProfitOrLossAmt>55844</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>55844</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>55844</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>51572</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1496</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>748</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>55844</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>55844</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11169</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>800439717</EmployeeSSN>
+      <EmployerEIN>435107557</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>705 Ford Avenue</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sabrina Larson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>705 Ford Avenue</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>170600</WagesAmt>
+      <WithholdingAmt>37532</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>170600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2474</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

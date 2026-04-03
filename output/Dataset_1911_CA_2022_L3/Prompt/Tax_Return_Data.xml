@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-07-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>39980</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>399805816</PrimarySSN>
+      <NameLine1Txt>Michael Torres</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5509 JENNIFER MANOR</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Steven</DependentFirstNm>
+        <DependentLastNm>Torres</DependentLastNm>
+        <DependentNameControlTxt>STEV</DependentNameControlTxt>
+        <DependentSSN>248607801</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joyce</DependentFirstNm>
+        <DependentLastNm>Torres</DependentLastNm>
+        <DependentNameControlTxt>JOYC</DependentNameControlTxt>
+        <DependentSSN>587505224</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">114100</WagesAmt>
+      <WagesSalariesAndTipsAmt>114100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">216</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2568</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85155</BusinessIncomeAmt>
+      <TotalIncomeAmt>202039</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>198859</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17031</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29981</TotalDeductionsAmt>
+      <TaxableIncomeAmt>168878</TaxableIncomeAmt>
+      <TaxAmt>34366</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>34366</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>30366</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6360</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6360</TotalOtherTaxesAmt>
+      <TotalTaxAmt>36726</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18256</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18256</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18256</TotalPaymentsAmt>
+      <AmountOwedAmt>18470</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6360</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6360</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>216</InterestAmt>
+      <TotalInterestAmt>216</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2568</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2568</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Torres's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TORR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>117000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>117000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2879</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2708</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1406</InsuranceAmt>
+      <OfficeExpensesAmt>2820</OfficeExpensesAmt>
+      <SuppliesAmt>3429</SuppliesAmt>
+      <UtilitiesAmt>1448</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15755</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30445</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85155</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85155</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85155</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78641</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6360</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3180</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Steven Torres</ChildFirstAndLastName>
+        <ChildSSN>248607801</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joyce Torres</ChildFirstAndLastName>
+        <ChildSSN>587505224</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85155</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85155</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17031</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Torres's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1400</DepreciationAmt>
+      <TotalDepreciationAmt>1400</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>399805816</EmployeeSSN>
+      <EmployerEIN>612961325</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7157 Duffy Overpass</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Torres</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7157 Duffy Overpass</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>114100</WagesAmt>
+      <WithholdingAmt>18256</WithholdingAmt>
+      <SocialSecurityWagesAmt>114100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7074</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>114100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1654</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1255</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

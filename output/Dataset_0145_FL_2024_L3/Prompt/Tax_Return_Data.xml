@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1996-07-21</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>79657</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>796570394</PrimarySSN>
+      <NameLine1Txt>James Castillo</NameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7105 ELIZABETH POINTS</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Frank</DependentFirstNm>
+        <DependentLastNm>Castillo</DependentLastNm>
+        <DependentNameControlTxt>FRAN</DependentNameControlTxt>
+        <DependentSSN>443322220</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Cassandra</DependentFirstNm>
+        <DependentLastNm>Castillo</DependentLastNm>
+        <DependentNameControlTxt>CASS</DependentNameControlTxt>
+        <DependentSSN>652469598</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Laura</DependentFirstNm>
+        <DependentLastNm>Castillo</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>751674661</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">75300</WagesAmt>
+      <WagesSalariesAndTipsAmt>75300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1547</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1746</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">70274</BusinessIncomeAmt>
+      <TotalIncomeAmt>148867</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>143902</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14055</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28655</TotalDeductionsAmt>
+      <TaxableIncomeAmt>115247</TaxableIncomeAmt>
+      <TaxAmt>20702</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20702</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14702</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9929</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9929</TotalOtherTaxesAmt>
+      <TotalTaxAmt>24631</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9036</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9036</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9036</TotalPaymentsAmt>
+      <AmountOwedAmt>15595</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9929</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9929</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1547</InterestAmt>
+      <TotalInterestAmt>1547</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1746</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1746</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>102700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>102700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3273</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>642</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1215</InsuranceAmt>
+      <OfficeExpensesAmt>2359</OfficeExpensesAmt>
+      <SuppliesAmt>1859</SuppliesAmt>
+      <UtilitiesAmt>876</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18602</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28826</TotalExpensesAmt>
+      <NetProfitOrLossAmt>70274</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>70274</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>70274</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64898</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9929</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4965</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Frank Castillo</ChildFirstAndLastName>
+        <ChildSSN>443322220</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cassandra Castillo</ChildFirstAndLastName>
+        <ChildSSN>652469598</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Laura Castillo</ChildFirstAndLastName>
+        <ChildSSN>751674661</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>70274</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>70274</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14055</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3600</DepreciationAmt>
+      <TotalDepreciationAmt>3600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>796570394</EmployeeSSN>
+      <EmployerEIN>235799407</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2594 Johnson Knoll</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Castillo</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2594 Johnson Knoll</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75300</WagesAmt>
+      <WithholdingAmt>9036</WithholdingAmt>
+      <SocialSecurityWagesAmt>75300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4669</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1092</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

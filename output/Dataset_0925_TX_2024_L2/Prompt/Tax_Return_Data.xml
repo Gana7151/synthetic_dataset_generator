@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-07-02</PrimaryBirthDt>
+      <SpouseBirthDt>1988-01-26</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86882</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>45370</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>868825354</PrimarySSN>
+      <SpouseSSN>453702679</SpouseSSN>
+      <NameLine1Txt>Jennifer Harris</NameLine1Txt>
+      <SpouseNameLine1Txt>Carmen Harris</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JENN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CARM</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9342 ALEXIS ROADS</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>453702679</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Thomas</DependentFirstNm>
+        <DependentLastNm>Harris</DependentLastNm>
+        <DependentNameControlTxt>THOM</DependentNameControlTxt>
+        <DependentSSN>177882144</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jenna</DependentFirstNm>
+        <DependentLastNm>Harris</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>554460872</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">37700</WagesAmt>
+      <WagesSalariesAndTipsAmt>37700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">781</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">143</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23394</BusinessIncomeAmt>
+      <TotalIncomeAmt>62018</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>60366</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4679</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>33879</TotalDeductionsAmt>
+      <TaxableIncomeAmt>26487</TaxableIncomeAmt>
+      <TaxAmt>2714</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2714</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2714</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2714</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3305</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3305</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3305</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3016</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3016</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3016</TotalPaymentsAmt>
+      <AmountOwedAmt>289</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3305</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3305</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>781</InterestAmt>
+      <TotalInterestAmt>781</TotalInterestAmt>
+      <OrdinaryDividendsAmt>143</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>143</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>37400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>37400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1347</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>416</CarAndTruckExpensesAmt>
+      <InsuranceAmt>426</InsuranceAmt>
+      <OfficeExpensesAmt>962</OfficeExpensesAmt>
+      <SuppliesAmt>1136</SuppliesAmt>
+      <UtilitiesAmt>458</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6561</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11306</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23394</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23394</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23394</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>21604</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3305</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1653</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Thomas Harris</ChildFirstAndLastName>
+        <ChildSSN>177882144</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jenna Harris</ChildFirstAndLastName>
+        <ChildSSN>554460872</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2714</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2714</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23394</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23394</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4679</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2700</DepreciationAmt>
+      <TotalDepreciationAmt>2700</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>868825354</EmployeeSSN>
+      <EmployerEIN>376589438</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5131 Brooks Grove</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jennifer Harris</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5131 Brooks Grove</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>37700</WagesAmt>
+      <WithholdingAmt>3016</WithholdingAmt>
+      <SocialSecurityWagesAmt>37700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2337</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>37700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>547</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

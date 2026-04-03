@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1954-09-23</PrimaryBirthDt>
+      <SpouseBirthDt>1982-05-07</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>65928</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>12493</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>659283971</PrimarySSN>
+      <SpouseSSN>124936052</SpouseSSN>
+      <NameLine1Txt>Stephanie Lopez</NameLine1Txt>
+      <SpouseNameLine1Txt>Gary Lopez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STEP</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>GARY</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7403 DAVID COURT</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>124936052</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Lopez</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>593245365</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">66932</WagesAmt>
+      <WagesSalariesAndTipsAmt>66932</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">147</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1774</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">29071</BusinessIncomeAmt>
+      <TotalIncomeAmt>97925</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>71939</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>33100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5814</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38914</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33025</TaxableIncomeAmt>
+      <TaxAmt>3486</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3486</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1286</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4108</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4108</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5394</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8032</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8032</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8032</TotalPaymentsAmt>
+      <OverpaidAmt>2638</OverpaidAmt>
+      <RefundAmt>2638</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4108</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4108</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>147</InterestAmt>
+      <TotalInterestAmt>147</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1774</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1774</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>17932</DeductionAmt>
+      </TipsDeduction>
+      <SeniorDeduction>
+        <DeductionAmt>6000</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>23932</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>940</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>602</CarAndTruckExpensesAmt>
+      <InsuranceAmt>375</InsuranceAmt>
+      <OfficeExpensesAmt>467</OfficeExpensesAmt>
+      <SuppliesAmt>664</SuppliesAmt>
+      <UtilitiesAmt>517</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5164</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>8729</TotalExpensesAmt>
+      <NetProfitOrLossAmt>29071</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>29071</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>29071</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26847</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4108</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2054</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Lopez</ChildFirstAndLastName>
+        <ChildSSN>593245365</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>29071</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>29071</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5814</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1200</DepreciationAmt>
+      <TotalDepreciationAmt>1200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>659283971</EmployeeSSN>
+      <EmployerEIN>617685853</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5806 Kim Estates</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephanie Lopez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5806 Kim Estates</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66932</WagesAmt>
+      <WithholdingAmt>8032</WithholdingAmt>
+      <SocialSecurityWagesAmt>66932</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4150</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66932</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>971</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>17932</SocialSecurityTipsAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

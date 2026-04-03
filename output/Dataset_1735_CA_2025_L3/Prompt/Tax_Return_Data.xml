@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-07-23</PrimaryBirthDt>
+      <SpouseBirthDt>1957-03-06</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87231</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>24658</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>872319504</PrimarySSN>
+      <SpouseSSN>246583054</SpouseSSN>
+      <NameLine1Txt>Bruce Gonzalez</NameLine1Txt>
+      <SpouseNameLine1Txt>Alice Gonzalez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BRUC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ALIC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7508 HALL SUMMIT</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>246583054</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Victoria</DependentFirstNm>
+        <DependentLastNm>Gonzalez</DependentLastNm>
+        <DependentNameControlTxt>VICT</DependentNameControlTxt>
+        <DependentSSN>631570478</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Eric</DependentFirstNm>
+        <DependentLastNm>Gonzalez</DependentLastNm>
+        <DependentNameControlTxt>ERIC</DependentNameControlTxt>
+        <DependentSSN>878644848</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ashley</DependentFirstNm>
+        <DependentLastNm>Gonzalez</DependentLastNm>
+        <DependentNameControlTxt>ASHL</DependentNameControlTxt>
+        <DependentSSN>600957813</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">242800</WagesAmt>
+      <WagesSalariesAndTipsAmt>242800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1669</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1982</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">69528</BusinessIncomeAmt>
+      <TotalIncomeAmt>315979</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>315048</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13906</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>45406</TotalDeductionsAmt>
+      <TaxableIncomeAmt>269642</TaxableIncomeAmt>
+      <TaxAmt>50408</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>50408</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>43808</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1862</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1862</TotalOtherTaxesAmt>
+      <TotalTaxAmt>46183</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>45926</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>45926</WithholdingTaxAmt>
+      <TotalPaymentsAmt>45926</TotalPaymentsAmt>
+      <AmountOwedAmt>257</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1862</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1862</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1669</InterestAmt>
+      <TotalInterestAmt>1669</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1982</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1982</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>105300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>105300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3577</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2949</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1684</InsuranceAmt>
+      <OfficeExpensesAmt>2002</OfficeExpensesAmt>
+      <SuppliesAmt>1554</SuppliesAmt>
+      <UtilitiesAmt>1484</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17722</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30972</TotalExpensesAmt>
+      <NetProfitOrLossAmt>69528</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>69528</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>69528</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64209</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1862</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>931</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Victoria Gonzalez</ChildFirstAndLastName>
+        <ChildSSN>631570478</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Eric Gonzalez</ChildFirstAndLastName>
+        <ChildSSN>878644848</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ashley Gonzalez</ChildFirstAndLastName>
+        <ChildSSN>600957813</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>69528</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>69528</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13906</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>872319504</EmployeeSSN>
+      <EmployerEIN>523657043</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4765 Jodi Hills</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Bruce Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4765 Jodi Hills</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74900</WagesAmt>
+      <WithholdingAmt>8988</WithholdingAmt>
+      <SocialSecurityWagesAmt>74900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4644</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1086</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>824</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>246583054</EmployeeSSN>
+      <EmployerEIN>242291000</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2578 Charles River</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alice Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2578 Charles River</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>167900</WagesAmt>
+      <WithholdingAmt>36938</WithholdingAmt>
+      <SocialSecurityWagesAmt>167900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10410</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>167900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2435</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1847</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

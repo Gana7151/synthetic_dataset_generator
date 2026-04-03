@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-05-25</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>22214</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>222146288</PrimarySSN>
+      <NameLine1Txt>Trevor Galvan</NameLine1Txt>
+      <PrimaryNameControlTxt>TREV</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3427 KRAMER PORT</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Valerie</DependentFirstNm>
+        <DependentLastNm>Galvan</DependentLastNm>
+        <DependentNameControlTxt>VALE</DependentNameControlTxt>
+        <DependentSSN>313768256</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Marcus</DependentFirstNm>
+        <DependentLastNm>Galvan</DependentLastNm>
+        <DependentNameControlTxt>MARC</DependentNameControlTxt>
+        <DependentSSN>661617262</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Deborah</DependentFirstNm>
+        <DependentLastNm>Galvan</DependentLastNm>
+        <DependentNameControlTxt>DEBO</DependentNameControlTxt>
+        <DependentSSN>849303514</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Richard</DependentFirstNm>
+        <DependentLastNm>Galvan</DependentLastNm>
+        <DependentNameControlTxt>RICH</DependentNameControlTxt>
+        <DependentSSN>114331545</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">139600</WagesAmt>
+      <WagesSalariesAndTipsAmt>139600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">593</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1121</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">110340</BusinessIncomeAmt>
+      <TotalIncomeAmt>251654</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>250176</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">22068</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>40718</TotalDeductionsAmt>
+      <TaxableIncomeAmt>209458</TaxableIncomeAmt>
+      <TaxAmt>46664</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5500</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5500</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>46664</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>41164</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2955</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2955</TotalOtherTaxesAmt>
+      <TotalTaxAmt>44492</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>22336</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>22336</WithholdingTaxAmt>
+      <TotalPaymentsAmt>22336</TotalPaymentsAmt>
+      <AmountOwedAmt>22156</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2955</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2955</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>593</InterestAmt>
+      <TotalInterestAmt>593</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1121</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1121</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Galvan's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>GALV</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>141600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>141600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3253</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3850</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1239</InsuranceAmt>
+      <OfficeExpensesAmt>1342</OfficeExpensesAmt>
+      <SuppliesAmt>1561</SuppliesAmt>
+      <UtilitiesAmt>1372</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17143</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>29760</TotalExpensesAmt>
+      <NetProfitOrLossAmt>110340</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>110340</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>110340</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>101899</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2955</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1478</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Valerie Galvan</ChildFirstAndLastName>
+        <ChildSSN>313768256</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Marcus Galvan</ChildFirstAndLastName>
+        <ChildSSN>661617262</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Deborah Galvan</ChildFirstAndLastName>
+        <ChildSSN>849303514</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Richard Galvan</ChildFirstAndLastName>
+        <ChildSSN>114331545</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5500</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5500</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>110340</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>110340</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>22068</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Galvan's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1500</DepreciationAmt>
+      <TotalDepreciationAmt>1500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>222146288</EmployeeSSN>
+      <EmployerEIN>379600857</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6967 Garcia Turnpike</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Trevor Galvan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6967 Garcia Turnpike</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>139600</WagesAmt>
+      <WithholdingAmt>22336</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>139600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2024</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1352</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

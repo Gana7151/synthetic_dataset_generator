@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-04-20</PrimaryBirthDt>
+      <SpouseBirthDt>1970-11-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38306</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>25777</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>383066204</PrimarySSN>
+      <SpouseSSN>257774219</SpouseSSN>
+      <NameLine1Txt>Brooke Fowler</NameLine1Txt>
+      <SpouseNameLine1Txt>Vickie Fowler</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BROO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>VICK</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1710 BRITTANY HARBOR</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>257774219</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">33700</WagesAmt>
+      <WagesSalariesAndTipsAmt>33700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>33700</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>33700</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>4500</TaxableIncomeAmt>
+      <TaxAmt>450</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>450</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>450</TaxLessCreditsAmt>
+      <TotalTaxAmt>450</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2696</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2696</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2696</TotalPaymentsAmt>
+      <OverpaidAmt>2246</OverpaidAmt>
+      <RefundAmt>2246</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>383066204</EmployeeSSN>
+      <EmployerEIN>201579459</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5002 Stewart Orchard</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brooke Fowler</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5002 Stewart Orchard</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>33700</WagesAmt>
+      <WithholdingAmt>2696</WithholdingAmt>
+      <SocialSecurityWagesAmt>33700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2089</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>33700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>489</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

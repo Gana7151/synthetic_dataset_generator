@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-07-03</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>32536</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>325369428</PrimarySSN>
+      <NameLine1Txt>Joe Chapman</NameLine1Txt>
+      <PrimaryNameControlTxt>JOE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5156 KATHLEEN GROVE</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Angela</DependentFirstNm>
+        <DependentLastNm>Chapman</DependentLastNm>
+        <DependentNameControlTxt>ANGE</DependentNameControlTxt>
+        <DependentSSN>358717397</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Chapman</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>583859604</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">74900</WagesAmt>
+      <WagesSalariesAndTipsAmt>74900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">712</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1807</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">21300</BusinessIncomeAmt>
+      <TotalIncomeAmt>98720</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>97215</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4260</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26160</TotalDeductionsAmt>
+      <TaxableIncomeAmt>71055</TaxableIncomeAmt>
+      <TaxAmt>8991</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8991</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4991</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3010</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3010</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8001</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8988</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8988</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8988</TotalPaymentsAmt>
+      <OverpaidAmt>987</OverpaidAmt>
+      <RefundAmt>987</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3010</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3010</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>712</InterestAmt>
+      <TotalInterestAmt>712</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1807</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1807</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Chapman's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CHAP</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>31600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>31600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>810</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>606</CarAndTruckExpensesAmt>
+      <InsuranceAmt>663</InsuranceAmt>
+      <OfficeExpensesAmt>735</OfficeExpensesAmt>
+      <SuppliesAmt>476</SuppliesAmt>
+      <UtilitiesAmt>404</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4606</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>8300</TotalExpensesAmt>
+      <NetProfitOrLossAmt>21300</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>21300</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>21300</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>19671</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3010</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1505</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Angela Chapman</ChildFirstAndLastName>
+        <ChildSSN>358717397</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Chapman</ChildFirstAndLastName>
+        <ChildSSN>583859604</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>21300</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>21300</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4260</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Chapman's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2000</DepreciationAmt>
+      <TotalDepreciationAmt>2000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>325369428</EmployeeSSN>
+      <EmployerEIN>457447922</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4606 Eric Burgs</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Joe Chapman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4606 Eric Burgs</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74900</WagesAmt>
+      <WithholdingAmt>8988</WithholdingAmt>
+      <SocialSecurityWagesAmt>74900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4644</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1086</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>824</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

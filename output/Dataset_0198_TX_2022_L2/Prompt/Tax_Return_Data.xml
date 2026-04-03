@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1975-09-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>75964</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>759640458</PrimarySSN>
+      <NameLine1Txt>Andrew Pope</NameLine1Txt>
+      <PrimaryNameControlTxt>ANDR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5014 KATHLEEN POINTS</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Megan</DependentFirstNm>
+        <DependentLastNm>Pope</DependentLastNm>
+        <DependentNameControlTxt>MEGA</DependentNameControlTxt>
+        <DependentSSN>494454850</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Maria</DependentFirstNm>
+        <DependentLastNm>Pope</DependentLastNm>
+        <DependentNameControlTxt>MARI</DependentNameControlTxt>
+        <DependentSSN>684266040</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">107900</WagesAmt>
+      <WagesSalariesAndTipsAmt>107900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">402</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">380</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33504</BusinessIncomeAmt>
+      <TotalIncomeAmt>142185</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>139818</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6701</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26101</TotalDeductionsAmt>
+      <TaxableIncomeAmt>113717</TaxableIncomeAmt>
+      <TaxAmt>19628</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19628</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15628</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4734</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4734</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20362</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>17264</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>17264</WithholdingTaxAmt>
+      <TotalPaymentsAmt>17264</TotalPaymentsAmt>
+      <AmountOwedAmt>3098</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4734</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4734</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>402</InterestAmt>
+      <TotalInterestAmt>402</TotalInterestAmt>
+      <OrdinaryDividendsAmt>380</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>380</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>47000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>47000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1448</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>831</CarAndTruckExpensesAmt>
+      <InsuranceAmt>918</InsuranceAmt>
+      <OfficeExpensesAmt>1332</OfficeExpensesAmt>
+      <SuppliesAmt>1459</SuppliesAmt>
+      <UtilitiesAmt>625</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6883</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13496</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33504</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33504</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33504</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30941</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4734</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2367</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Megan Pope</ChildFirstAndLastName>
+        <ChildSSN>494454850</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Maria Pope</ChildFirstAndLastName>
+        <ChildSSN>684266040</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33504</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33504</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6701</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>759640458</EmployeeSSN>
+      <EmployerEIN>437575957</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3047 Nelson Walks</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Andrew Pope</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3047 Nelson Walks</AddressLine1Txt>
+        <CityNm>Plano</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>107900</WagesAmt>
+      <WithholdingAmt>17264</WithholdingAmt>
+      <SocialSecurityWagesAmt>107900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6690</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>107900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1565</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

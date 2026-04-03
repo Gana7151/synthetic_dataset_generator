@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-07-13</PrimaryBirthDt>
+      <SpouseBirthDt>1991-04-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29595</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>45608</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>295951242</PrimarySSN>
+      <SpouseSSN>456084769</SpouseSSN>
+      <NameLine1Txt>Nicole Scott</NameLine1Txt>
+      <SpouseNameLine1Txt>Michele Scott</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>NICO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4863 WHITNEY SHOALS</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>456084769</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">51100</WagesAmt>
+      <WagesSalariesAndTipsAmt>51100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>51100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>51100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>21900</TaxableIncomeAmt>
+      <TaxAmt>2190</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2190</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2190</TaxLessCreditsAmt>
+      <TotalTaxAmt>2190</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6132</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6132</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6132</TotalPaymentsAmt>
+      <OverpaidAmt>3942</OverpaidAmt>
+      <RefundAmt>3942</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>456084769</EmployeeSSN>
+      <EmployerEIN>752801985</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7390 Jennifer Shores</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michele Scott</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7390 Jennifer Shores</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>51100</WagesAmt>
+      <WithholdingAmt>6132</WithholdingAmt>
+      <SocialSecurityWagesAmt>51100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3168</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>51100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>741</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

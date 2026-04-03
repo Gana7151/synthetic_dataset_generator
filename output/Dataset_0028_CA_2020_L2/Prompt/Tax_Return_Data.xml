@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1975-01-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>64639</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>646391991</PrimarySSN>
+      <NameLine1Txt>Kenneth Wise</NameLine1Txt>
+      <PrimaryNameControlTxt>KENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2481 GEOFFREY WAY</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jeffrey</DependentFirstNm>
+        <DependentLastNm>Wise</DependentLastNm>
+        <DependentNameControlTxt>JEFF</DependentNameControlTxt>
+        <DependentSSN>427200071</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Elaine</DependentFirstNm>
+        <DependentLastNm>Wise</DependentLastNm>
+        <DependentNameControlTxt>ELAI</DependentNameControlTxt>
+        <DependentSSN>585389400</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Franklin</DependentFirstNm>
+        <DependentLastNm>Wise</DependentLastNm>
+        <DependentNameControlTxt>FRAN</DependentNameControlTxt>
+        <DependentSSN>805157848</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">32200</WagesAmt>
+      <WagesSalariesAndTipsAmt>32200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">91</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1100</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24963</BusinessIncomeAmt>
+      <TotalIncomeAmt>58354</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>56591</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4993</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17393</TotalDeductionsAmt>
+      <TaxableIncomeAmt>39198</TaxableIncomeAmt>
+      <TaxAmt>4506</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4506</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4506</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4506</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3527</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3527</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3527</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2576</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2576</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2576</TotalPaymentsAmt>
+      <AmountOwedAmt>951</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3527</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3527</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>91</InterestAmt>
+      <TotalInterestAmt>91</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1100</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1100</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>31700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>31700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>737</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>684</CarAndTruckExpensesAmt>
+      <InsuranceAmt>525</InsuranceAmt>
+      <OfficeExpensesAmt>664</OfficeExpensesAmt>
+      <SuppliesAmt>523</SuppliesAmt>
+      <UtilitiesAmt>267</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>3337</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6737</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24963</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24963</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24963</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23053</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3527</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1764</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeffrey Wise</ChildFirstAndLastName>
+        <ChildSSN>427200071</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Elaine Wise</ChildFirstAndLastName>
+        <ChildSSN>585389400</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Franklin Wise</ChildFirstAndLastName>
+        <ChildSSN>805157848</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4506</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4506</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24963</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24963</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4993</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>646391991</EmployeeSSN>
+      <EmployerEIN>596996068</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1615 Suzanne Fords</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kenneth Wise</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1615 Suzanne Fords</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>32200</WagesAmt>
+      <WithholdingAmt>2576</WithholdingAmt>
+      <SocialSecurityWagesAmt>32200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1996</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>32200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>467</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>354</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

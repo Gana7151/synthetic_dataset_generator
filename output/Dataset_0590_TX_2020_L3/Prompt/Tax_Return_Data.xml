@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-03-12</PrimaryBirthDt>
+      <SpouseBirthDt>1975-01-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>76457</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>84453</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>764570638</PrimarySSN>
+      <SpouseSSN>844532868</SpouseSSN>
+      <NameLine1Txt>James White</NameLine1Txt>
+      <SpouseNameLine1Txt>John White</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOHN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6062 GROSS COVE</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>844532868</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Elizabeth</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>ELIZ</DependentNameControlTxt>
+        <DependentSSN>231820891</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Amy</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>AMY</DependentNameControlTxt>
+        <DependentSSN>158434504</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>425687604</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Frances</DependentFirstNm>
+        <DependentLastNm>White</DependentLastNm>
+        <DependentNameControlTxt>FRAN</DependentNameControlTxt>
+        <DependentSSN>154152135</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">52900</WagesAmt>
+      <WagesSalariesAndTipsAmt>52900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1674</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">862</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">100756</BusinessIncomeAmt>
+      <TotalIncomeAmt>156191</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>149585</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">20151</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44951</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104634</TaxableIncomeAmt>
+      <TaxAmt>14599</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>14599</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6599</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">13214</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>13214</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19813</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6348</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6348</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6348</TotalPaymentsAmt>
+      <AmountOwedAmt>13465</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">13214</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>13214</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1674</InterestAmt>
+      <TotalInterestAmt>1674</TotalInterestAmt>
+      <OrdinaryDividendsAmt>862</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>862</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>White's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WHIT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>142200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>142200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4241</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>558</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2426</InsuranceAmt>
+      <OfficeExpensesAmt>2515</OfficeExpensesAmt>
+      <SuppliesAmt>2025</SuppliesAmt>
+      <UtilitiesAmt>1349</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23730</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>36844</TotalExpensesAmt>
+      <NetProfitOrLossAmt>100756</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>100756</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>100756</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>93048</SEBaseAmt>
+      <SelfEmploymentTaxAmt>13214</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6607</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Elizabeth White</ChildFirstAndLastName>
+        <ChildSSN>231820891</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amy White</ChildFirstAndLastName>
+        <ChildSSN>158434504</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jessica White</ChildFirstAndLastName>
+        <ChildSSN>425687604</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Frances White</ChildFirstAndLastName>
+        <ChildSSN>154152135</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>100756</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>100756</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>20151</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>White's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4600</DepreciationAmt>
+      <TotalDepreciationAmt>4600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>844532868</EmployeeSSN>
+      <EmployerEIN>122025464</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5172 Obrien Rapid</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John White</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5172 Obrien Rapid</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>52900</WagesAmt>
+      <WithholdingAmt>6348</WithholdingAmt>
+      <SocialSecurityWagesAmt>52900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3280</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>52900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>767</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

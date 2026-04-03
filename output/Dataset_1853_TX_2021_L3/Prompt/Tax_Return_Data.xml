@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-08-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>61518</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>615180486</PrimarySSN>
+      <NameLine1Txt>Vanessa Moore</NameLine1Txt>
+      <PrimaryNameControlTxt>VANE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7526 MCCOY LAKES</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Steven</DependentFirstNm>
+        <DependentLastNm>Moore</DependentLastNm>
+        <DependentNameControlTxt>STEV</DependentNameControlTxt>
+        <DependentSSN>690432074</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Moore</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>148393912</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Gabrielle</DependentFirstNm>
+        <DependentLastNm>Moore</DependentLastNm>
+        <DependentNameControlTxt>GABR</DependentNameControlTxt>
+        <DependentSSN>234533428</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">112500</WagesAmt>
+      <WagesSalariesAndTipsAmt>112500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1902</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">526</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">30469</BusinessIncomeAmt>
+      <TotalIncomeAmt>145397</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>143244</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6094</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18644</TotalDeductionsAmt>
+      <TaxableIncomeAmt>124600</TaxableIncomeAmt>
+      <TaxAmt>23925</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>23925</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>16525</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4305</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4305</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20830</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18000</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18000</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18000</TotalPaymentsAmt>
+      <AmountOwedAmt>2830</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4305</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4305</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1902</InterestAmt>
+      <TotalInterestAmt>1902</TotalInterestAmt>
+      <OrdinaryDividendsAmt>526</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>526</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Moore's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOOR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>44500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>44500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>935</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1336</CarAndTruckExpensesAmt>
+      <InsuranceAmt>594</InsuranceAmt>
+      <OfficeExpensesAmt>1308</OfficeExpensesAmt>
+      <SuppliesAmt>935</SuppliesAmt>
+      <UtilitiesAmt>518</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8405</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14031</TotalExpensesAmt>
+      <NetProfitOrLossAmt>30469</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>30469</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>30469</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>28138</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4305</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2153</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Steven Moore</ChildFirstAndLastName>
+        <ChildSSN>690432074</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Moore</ChildFirstAndLastName>
+        <ChildSSN>148393912</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gabrielle Moore</ChildFirstAndLastName>
+        <ChildSSN>234533428</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>30469</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>30469</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6094</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>615180486</EmployeeSSN>
+      <EmployerEIN>915963786</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7559 Kristin Crossing</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Vanessa Moore</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7559 Kristin Crossing</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>112500</WagesAmt>
+      <WithholdingAmt>18000</WithholdingAmt>
+      <SocialSecurityWagesAmt>112500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6975</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>112500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1631</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

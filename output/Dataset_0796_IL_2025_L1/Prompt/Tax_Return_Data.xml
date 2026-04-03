@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-01-02</PrimaryBirthDt>
+      <SpouseBirthDt>1946-08-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10935</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>73425</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>109356910</PrimarySSN>
+      <SpouseSSN>734255589</SpouseSSN>
+      <NameLine1Txt>Hannah Blackburn</NameLine1Txt>
+      <SpouseNameLine1Txt>William Blackburn</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>HANN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>WILL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9630 SHAW STRAVENUE</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>734255589</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">50559</WagesAmt>
+      <WagesSalariesAndTipsAmt>50559</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>50559</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>16600</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>34700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>34700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>0</TaxableIncomeAmt>
+      <TaxAmt>0</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>0</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6067</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6067</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6067</TotalPaymentsAmt>
+      <OverpaidAmt>6067</OverpaidAmt>
+      <RefundAmt>6067</RefundAmt>
+    </IRS1040>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>9784</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>12175</DeductionAmt>
+      </OvertimeDeduction>
+      <SeniorDeduction>
+        <DeductionAmt>12000</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>33959</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>109356910</EmployeeSSN>
+      <EmployerEIN>131859373</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9336 Cody Trail</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Hannah Blackburn</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9336 Cody Trail</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>50559</WagesAmt>
+      <WithholdingAmt>6067</WithholdingAmt>
+      <SocialSecurityWagesAmt>50559</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3135</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>50559</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>733</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>9784</SocialSecurityTipsAmt>
+      <OvertimePayAmt>12175</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

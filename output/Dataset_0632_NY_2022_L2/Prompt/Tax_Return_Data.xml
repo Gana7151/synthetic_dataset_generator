@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1984-05-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>10828</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>108283001</PrimarySSN>
+      <NameLine1Txt>Katrina Hines</NameLine1Txt>
+      <PrimaryNameControlTxt>KATR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8024 SHERMAN LAKES</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Adam</DependentFirstNm>
+        <DependentLastNm>Hines</DependentLastNm>
+        <DependentNameControlTxt>ADAM</DependentNameControlTxt>
+        <DependentSSN>529248682</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Hines</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>418690332</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">38300</WagesAmt>
+      <WagesSalariesAndTipsAmt>38300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">454</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1687</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17968</BusinessIncomeAmt>
+      <TotalIncomeAmt>58409</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>57140</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3594</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22994</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34146</TaxableIncomeAmt>
+      <TaxAmt>3804</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3804</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3804</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3804</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2539</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2539</TotalOtherTaxesAmt>
+      <TotalTaxAmt>2539</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3064</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3064</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3064</TotalPaymentsAmt>
+      <OverpaidAmt>525</OverpaidAmt>
+      <RefundAmt>525</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2539</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2539</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>454</InterestAmt>
+      <TotalInterestAmt>454</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1687</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1687</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>30800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>30800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>929</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>762</CarAndTruckExpensesAmt>
+      <InsuranceAmt>272</InsuranceAmt>
+      <OfficeExpensesAmt>823</OfficeExpensesAmt>
+      <SuppliesAmt>795</SuppliesAmt>
+      <UtilitiesAmt>437</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4514</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>8532</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17968</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17968</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17968</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>16593</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2539</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1269</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Adam Hines</ChildFirstAndLastName>
+        <ChildSSN>529248682</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Hines</ChildFirstAndLastName>
+        <ChildSSN>418690332</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3804</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3804</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17968</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17968</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3594</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4300</DepreciationAmt>
+      <TotalDepreciationAmt>4300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>108283001</EmployeeSSN>
+      <EmployerEIN>633765537</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6785 Teresa Walk</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Katrina Hines</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6785 Teresa Walk</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>38300</WagesAmt>
+      <WithholdingAmt>3064</WithholdingAmt>
+      <SocialSecurityWagesAmt>38300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2375</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>38300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>555</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

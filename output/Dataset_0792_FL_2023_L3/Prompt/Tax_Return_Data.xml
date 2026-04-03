@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-12-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>19166</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>191665423</PrimarySSN>
+      <NameLine1Txt>Thomas Coleman</NameLine1Txt>
+      <PrimaryNameControlTxt>THOM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1896 PATRICK DALE</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">145400</WagesAmt>
+      <WagesSalariesAndTipsAmt>145400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1089</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1999</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85246</BusinessIncomeAmt>
+      <TotalIncomeAmt>233734</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>231675</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17049</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>30899</TotalDeductionsAmt>
+      <TaxableIncomeAmt>200776</TaxableIncomeAmt>
+      <TaxAmt>43080</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>43080</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>43080</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4118</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4118</TotalOtherTaxesAmt>
+      <TotalTaxAmt>47416</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23264</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23264</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23264</TotalPaymentsAmt>
+      <AmountOwedAmt>24152</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4118</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4118</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1089</InterestAmt>
+      <TotalInterestAmt>1089</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1999</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1999</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Coleman's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>COLE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>121600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>121600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3114</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4626</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1426</InsuranceAmt>
+      <OfficeExpensesAmt>2511</OfficeExpensesAmt>
+      <SuppliesAmt>2631</SuppliesAmt>
+      <UtilitiesAmt>1505</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20541</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>36354</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85246</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85246</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85246</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78725</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4118</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2059</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85246</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85246</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17049</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>191665423</EmployeeSSN>
+      <EmployerEIN>722641087</EmployerEIN>
+      <EmployerNameControlTxt>COAS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Coastal Tech Innovations</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4650 Regina Tunnel</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Thomas Coleman</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4650 Regina Tunnel</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>145400</WagesAmt>
+      <WithholdingAmt>23264</WithholdingAmt>
+      <SocialSecurityWagesAmt>145400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9015</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>145400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2108</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

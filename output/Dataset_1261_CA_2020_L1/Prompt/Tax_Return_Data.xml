@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-06-06</PrimaryBirthDt>
+      <SpouseBirthDt>1982-03-13</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81918</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>57384</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>819184001</PrimarySSN>
+      <SpouseSSN>573844072</SpouseSSN>
+      <NameLine1Txt>Rachel Davis</NameLine1Txt>
+      <SpouseNameLine1Txt>Pamela Davis</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RACH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>PAME</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3075 MORROW GLEN</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>573844072</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">37300</WagesAmt>
+      <WagesSalariesAndTipsAmt>37300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>37300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>37300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>12500</TaxableIncomeAmt>
+      <TaxAmt>1250</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1250</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1250</TaxLessCreditsAmt>
+      <TotalTaxAmt>1250</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2984</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2984</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2984</TotalPaymentsAmt>
+      <OverpaidAmt>1734</OverpaidAmt>
+      <RefundAmt>1734</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>819184001</EmployeeSSN>
+      <EmployerEIN>618467705</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5631 Lawson Road</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rachel Davis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5631 Lawson Road</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>37300</WagesAmt>
+      <WithholdingAmt>2984</WithholdingAmt>
+      <SocialSecurityWagesAmt>37300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2313</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>37300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>541</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>410</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1954-08-06</PrimaryBirthDt>
+      <SpouseBirthDt>1964-01-08</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>21790</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34499</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>217906998</PrimarySSN>
+      <SpouseSSN>344991321</SpouseSSN>
+      <NameLine1Txt>Brittany Taylor</NameLine1Txt>
+      <SpouseNameLine1Txt>James Taylor</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BRIT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JAME</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4572 CESAR INLET</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>344991321</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Lisa</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>LISA</DependentNameControlTxt>
+        <DependentSSN>284420501</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>John</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>448599128</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brenda</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>BREN</DependentNameControlTxt>
+        <DependentSSN>121847396</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Scott</DependentFirstNm>
+        <DependentLastNm>Taylor</DependentLastNm>
+        <DependentNameControlTxt>SCOT</DependentNameControlTxt>
+        <DependentSSN>340400737</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">65800</WagesAmt>
+      <WagesSalariesAndTipsAmt>65800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1554</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1021</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">83984</BusinessIncomeAmt>
+      <TotalIncomeAmt>152358</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>146460</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">16797</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41897</TotalDeductionsAmt>
+      <TaxableIncomeAmt>104563</TaxableIncomeAmt>
+      <TaxAmt>14501</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">12600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>12600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>14501</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1901</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">11797</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>11797</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13698</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7896</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7896</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7896</TotalPaymentsAmt>
+      <AmountOwedAmt>5802</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">11797</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>11797</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1554</InterestAmt>
+      <TotalInterestAmt>1554</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1021</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1021</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Taylor's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TAYL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>111600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>111600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1887</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1436</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1380</InsuranceAmt>
+      <OfficeExpensesAmt>1981</OfficeExpensesAmt>
+      <SuppliesAmt>1977</SuppliesAmt>
+      <UtilitiesAmt>1066</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12989</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22716</TotalExpensesAmt>
+      <NetProfitOrLossAmt>83984</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>83984</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>83984</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>77559</SEBaseAmt>
+      <SelfEmploymentTaxAmt>11797</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5899</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lisa Taylor</ChildFirstAndLastName>
+        <ChildSSN>284420501</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>John Taylor</ChildFirstAndLastName>
+        <ChildSSN>448599128</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brenda Taylor</ChildFirstAndLastName>
+        <ChildSSN>121847396</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Scott Taylor</ChildFirstAndLastName>
+        <ChildSSN>340400737</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>12600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>12600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>83984</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>83984</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>16797</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Taylor's Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4900</DepreciationAmt>
+      <TotalDepreciationAmt>4900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>217906998</EmployeeSSN>
+      <EmployerEIN>129817668</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>602 Mora Ridge</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brittany Taylor</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>602 Mora Ridge</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>65800</WagesAmt>
+      <WithholdingAmt>7896</WithholdingAmt>
+      <SocialSecurityWagesAmt>65800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4080</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>65800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>954</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

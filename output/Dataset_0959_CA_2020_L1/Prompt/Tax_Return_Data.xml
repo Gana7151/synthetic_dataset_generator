@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-02-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86301</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>863015683</PrimarySSN>
+      <NameLine1Txt>Gary Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>GARY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9464 ALLISON SHOALS</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">28800</WagesAmt>
+      <WagesSalariesAndTipsAmt>28800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>28800</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>28800</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>16400</TaxableIncomeAmt>
+      <TaxAmt>1770</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1770</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1770</TaxLessCreditsAmt>
+      <TotalTaxAmt>1770</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2304</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2304</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2304</TotalPaymentsAmt>
+      <OverpaidAmt>534</OverpaidAmt>
+      <RefundAmt>534</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>863015683</EmployeeSSN>
+      <EmployerEIN>228421432</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6080 Peters Extensions</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gary Keller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6080 Peters Extensions</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>28800</WagesAmt>
+      <WithholdingAmt>2304</WithholdingAmt>
+      <SocialSecurityWagesAmt>28800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1786</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>28800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>418</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>317</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

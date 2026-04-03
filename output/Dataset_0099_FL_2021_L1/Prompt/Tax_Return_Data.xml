@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-10-03</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51018</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>510185178</PrimarySSN>
+      <NameLine1Txt>Carol Moreno</NameLine1Txt>
+      <PrimaryNameControlTxt>CARO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>554 LOPEZ POINT</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jacob</DependentFirstNm>
+        <DependentLastNm>Moreno</DependentLastNm>
+        <DependentNameControlTxt>JACO</DependentNameControlTxt>
+        <DependentSSN>180234603</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">47400</WagesAmt>
+      <WagesSalariesAndTipsAmt>47400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>47400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>47400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12550</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34850</TaxableIncomeAmt>
+      <TaxAmt>3983</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3983</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>383</TaxLessCreditsAmt>
+      <TotalTaxAmt>383</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5688</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5688</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5688</TotalPaymentsAmt>
+      <OverpaidAmt>5305</OverpaidAmt>
+      <RefundAmt>5305</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jacob Moreno</ChildFirstAndLastName>
+        <ChildSSN>180234603</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>510185178</EmployeeSSN>
+      <EmployerEIN>925214454</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8839 Sandra Manor</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Carol Moreno</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8839 Sandra Manor</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>47400</WagesAmt>
+      <WithholdingAmt>5688</WithholdingAmt>
+      <SocialSecurityWagesAmt>47400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2939</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>47400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>687</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

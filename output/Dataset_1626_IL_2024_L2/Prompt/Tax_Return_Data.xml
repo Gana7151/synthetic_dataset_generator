@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-10-06</PrimaryBirthDt>
+      <SpouseBirthDt>1986-09-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>75610</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>53337</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>756106124</PrimarySSN>
+      <SpouseSSN>533370183</SpouseSSN>
+      <NameLine1Txt>Carla Olson</NameLine1Txt>
+      <SpouseNameLine1Txt>Caitlin Olson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CARL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CAIT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8017 SCOTT MOUNTAINS</AddressLine1Txt>
+        <CityNm>JOLIET</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>533370183</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Angela</DependentFirstNm>
+        <DependentLastNm>Olson</DependentLastNm>
+        <DependentNameControlTxt>ANGE</DependentNameControlTxt>
+        <DependentSSN>894790098</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sandra</DependentFirstNm>
+        <DependentLastNm>Olson</DependentLastNm>
+        <DependentNameControlTxt>SAND</DependentNameControlTxt>
+        <DependentSSN>146716112</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">137000</WagesAmt>
+      <WagesSalariesAndTipsAmt>137000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">494</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1284</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">26934</BusinessIncomeAmt>
+      <TotalIncomeAmt>165711</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>163808</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5387</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34587</TotalDeductionsAmt>
+      <TaxableIncomeAmt>129221</TaxableIncomeAmt>
+      <TaxAmt>18535</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18535</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14535</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3806</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3806</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18340</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16440</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16440</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16440</TotalPaymentsAmt>
+      <AmountOwedAmt>1900</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3806</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3806</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>494</InterestAmt>
+      <TotalInterestAmt>494</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1284</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1284</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>43400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>43400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1340</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1452</CarAndTruckExpensesAmt>
+      <InsuranceAmt>852</InsuranceAmt>
+      <OfficeExpensesAmt>992</OfficeExpensesAmt>
+      <SuppliesAmt>1267</SuppliesAmt>
+      <UtilitiesAmt>747</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7616</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14266</TotalExpensesAmt>
+      <NetProfitOrLossAmt>26934</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>26934</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>26934</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>24874</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3806</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1903</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Angela Olson</ChildFirstAndLastName>
+        <ChildSSN>894790098</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sandra Olson</ChildFirstAndLastName>
+        <ChildSSN>146716112</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>26934</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>26934</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5387</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2200</DepreciationAmt>
+      <TotalDepreciationAmt>2200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>756106124</EmployeeSSN>
+      <EmployerEIN>636708707</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3870 Kimberly Ferry</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Carla Olson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3870 Kimberly Ferry</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>59600</WagesAmt>
+      <WithholdingAmt>7152</WithholdingAmt>
+      <SocialSecurityWagesAmt>59600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3695</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>59600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>864</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>533370183</EmployeeSSN>
+      <EmployerEIN>475899580</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1371 Randy Place</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Caitlin Olson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1371 Randy Place</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>77400</WagesAmt>
+      <WithholdingAmt>9288</WithholdingAmt>
+      <SocialSecurityWagesAmt>77400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4799</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>77400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1122</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

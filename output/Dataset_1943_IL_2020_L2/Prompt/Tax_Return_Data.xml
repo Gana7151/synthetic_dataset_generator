@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-01-24</PrimaryBirthDt>
+      <SpouseBirthDt>1978-10-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11121</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>42799</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>111212814</PrimarySSN>
+      <SpouseSSN>427999420</SpouseSSN>
+      <NameLine1Txt>Sandra Santana</NameLine1Txt>
+      <SpouseNameLine1Txt>Hannah Santana</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SAND</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>HANN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7968 HUGHES CAPE</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>427999420</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Shane</DependentFirstNm>
+        <DependentLastNm>Santana</DependentLastNm>
+        <DependentNameControlTxt>SHAN</DependentNameControlTxt>
+        <DependentSSN>309804316</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Elizabeth</DependentFirstNm>
+        <DependentLastNm>Santana</DependentLastNm>
+        <DependentNameControlTxt>ELIZ</DependentNameControlTxt>
+        <DependentSSN>355069633</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Gregory</DependentFirstNm>
+        <DependentLastNm>Santana</DependentLastNm>
+        <DependentNameControlTxt>GREG</DependentNameControlTxt>
+        <DependentSSN>746191218</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">100400</WagesAmt>
+      <WagesSalariesAndTipsAmt>100400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">526</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1921</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24762</BusinessIncomeAmt>
+      <TotalIncomeAmt>127610</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>125860</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4952</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29752</TotalDeductionsAmt>
+      <TaxableIncomeAmt>96108</TaxableIncomeAmt>
+      <TaxAmt>12724</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12724</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6724</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3499</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3499</TotalOtherTaxesAmt>
+      <TotalTaxAmt>10223</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16064</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16064</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16064</TotalPaymentsAmt>
+      <OverpaidAmt>5841</OverpaidAmt>
+      <RefundAmt>5841</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3499</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3499</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>526</InterestAmt>
+      <TotalInterestAmt>526</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1921</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1921</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>34900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>34900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>792</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1389</CarAndTruckExpensesAmt>
+      <InsuranceAmt>659</InsuranceAmt>
+      <OfficeExpensesAmt>445</OfficeExpensesAmt>
+      <SuppliesAmt>759</SuppliesAmt>
+      <UtilitiesAmt>371</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5723</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>10138</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24762</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24762</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24762</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22868</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3499</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1749</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Shane Santana</ChildFirstAndLastName>
+        <ChildSSN>309804316</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Elizabeth Santana</ChildFirstAndLastName>
+        <ChildSSN>355069633</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gregory Santana</ChildFirstAndLastName>
+        <ChildSSN>746191218</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24762</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24762</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4952</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>427999420</EmployeeSSN>
+      <EmployerEIN>511841608</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1336 Holland Neck</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Hannah Santana</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1336 Holland Neck</AddressLine1Txt>
+        <CityNm>Joliet</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60431</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>100400</WagesAmt>
+      <WithholdingAmt>16064</WithholdingAmt>
+      <SocialSecurityWagesAmt>100400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6225</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>100400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1456</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

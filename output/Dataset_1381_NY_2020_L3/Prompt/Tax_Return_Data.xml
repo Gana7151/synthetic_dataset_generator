@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-09-01</PrimaryBirthDt>
+      <SpouseBirthDt>1987-01-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>40943</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>88005</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>409435642</PrimarySSN>
+      <SpouseSSN>880052210</SpouseSSN>
+      <NameLine1Txt>Taylor Thompson</NameLine1Txt>
+      <SpouseNameLine1Txt>Mary Thompson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TAYL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARY</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6012 BRYAN CAUSEWAY</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>880052210</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Timothy</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>TIMO</DependentNameControlTxt>
+        <DependentSSN>751277116</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Troy</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>TROY</DependentNameControlTxt>
+        <DependentSSN>150048894</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">217200</WagesAmt>
+      <WagesSalariesAndTipsAmt>217200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2703</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1038</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54704</BusinessIncomeAmt>
+      <TotalIncomeAmt>275645</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>274913</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10941</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35741</TotalDeductionsAmt>
+      <TaxableIncomeAmt>239172</TaxableIncomeAmt>
+      <TaxAmt>45560</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>45560</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>41560</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1465</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1465</TotalOtherTaxesAmt>
+      <TotalTaxAmt>43185</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>31948</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>31948</WithholdingTaxAmt>
+      <TotalPaymentsAmt>31948</TotalPaymentsAmt>
+      <AmountOwedAmt>11237</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1465</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1465</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2703</InterestAmt>
+      <TotalInterestAmt>2703</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1038</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1038</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Thompson's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>THOM</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>74600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>74600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1129</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1659</CarAndTruckExpensesAmt>
+      <InsuranceAmt>855</InsuranceAmt>
+      <OfficeExpensesAmt>852</OfficeExpensesAmt>
+      <SuppliesAmt>1806</SuppliesAmt>
+      <UtilitiesAmt>807</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11488</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18596</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54704</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54704</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54704</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>50519</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1465</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>733</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Timothy Thompson</ChildFirstAndLastName>
+        <ChildSSN>751277116</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Troy Thompson</ChildFirstAndLastName>
+        <ChildSSN>150048894</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54704</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54704</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10941</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Thompson's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1300</DepreciationAmt>
+      <TotalDepreciationAmt>1300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>409435642</EmployeeSSN>
+      <EmployerEIN>477893413</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7016 Nunez Motorway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Taylor Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7016 Nunez Motorway</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>147100</WagesAmt>
+      <WithholdingAmt>23536</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>147100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2133</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>880052210</EmployeeSSN>
+      <EmployerEIN>866950736</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1021 Brent Center</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mary Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1021 Brent Center</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>70100</WagesAmt>
+      <WithholdingAmt>8412</WithholdingAmt>
+      <SocialSecurityWagesAmt>70100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4346</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>70100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1016</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

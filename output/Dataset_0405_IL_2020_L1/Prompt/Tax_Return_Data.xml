@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-02-14</PrimaryBirthDt>
+      <SpouseBirthDt>1979-01-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24831</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13498</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>248316897</PrimarySSN>
+      <SpouseSSN>134981400</SpouseSSN>
+      <NameLine1Txt>Tammy Golden</NameLine1Txt>
+      <SpouseNameLine1Txt>Jessica Golden</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TAMM</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JESS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2529 ROBERT SPRINGS</AddressLine1Txt>
+        <CityNm>PEORIA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>134981400</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">67700</WagesAmt>
+      <WagesSalariesAndTipsAmt>67700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">618</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>68318</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>68318</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>43518</TaxableIncomeAmt>
+      <TaxAmt>4827</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4827</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4827</TaxLessCreditsAmt>
+      <TotalTaxAmt>4827</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8124</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8124</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8124</TotalPaymentsAmt>
+      <OverpaidAmt>3297</OverpaidAmt>
+      <RefundAmt>3297</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>618</InterestAmt>
+      <TotalInterestAmt>618</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>248316897</EmployeeSSN>
+      <EmployerEIN>302585504</EmployerEIN>
+      <EmployerNameControlTxt>MIDW</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Midwest Software Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>742 Mcmahon Track</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tammy Golden</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>742 Mcmahon Track</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>67700</WagesAmt>
+      <WithholdingAmt>8124</WithholdingAmt>
+      <SocialSecurityWagesAmt>67700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4197</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>67700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>982</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-09-05</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81584</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>815840639</PrimarySSN>
+      <NameLine1Txt>Norma Parker</NameLine1Txt>
+      <PrimaryNameControlTxt>NORM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1380 JEFFREY WALKS</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">27100</WagesAmt>
+      <WagesSalariesAndTipsAmt>27100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>27100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>27100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>14150</TaxableIncomeAmt>
+      <TaxAmt>1492</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1492</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1492</TaxLessCreditsAmt>
+      <TotalTaxAmt>1492</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2168</TotalPaymentsAmt>
+      <OverpaidAmt>676</OverpaidAmt>
+      <RefundAmt>676</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>815840639</EmployeeSSN>
+      <EmployerEIN>278814643</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1528 Tasha Mission</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Norma Parker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1528 Tasha Mission</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>27100</WagesAmt>
+      <WithholdingAmt>2168</WithholdingAmt>
+      <SocialSecurityWagesAmt>27100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1680</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>27100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>393</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

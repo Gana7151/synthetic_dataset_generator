@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-01-16</PrimaryBirthDt>
+      <SpouseBirthDt>1968-11-28</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>79950</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>27716</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>799509681</PrimarySSN>
+      <SpouseSSN>277162219</SpouseSSN>
+      <NameLine1Txt>Jonathan Wright</NameLine1Txt>
+      <SpouseNameLine1Txt>Sarah Wright</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JONA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SARA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2292 RODNEY CIRCLE</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>277162219</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sarah</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>802645753</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Johnathan</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>838475285</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>545379655</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">78000</WagesAmt>
+      <WagesSalariesAndTipsAmt>78000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">467</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">832</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">17124</BusinessIncomeAmt>
+      <TotalIncomeAmt>96424</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>95214</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3425</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32625</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62589</TaxableIncomeAmt>
+      <TaxAmt>7047</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7047</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1047</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2420</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2420</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3466</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9360</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9360</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9360</TotalPaymentsAmt>
+      <OverpaidAmt>5894</OverpaidAmt>
+      <RefundAmt>5894</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2420</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2420</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>467</InterestAmt>
+      <TotalInterestAmt>467</TotalInterestAmt>
+      <OrdinaryDividendsAmt>832</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>832</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>30600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>30600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1062</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>838</CarAndTruckExpensesAmt>
+      <InsuranceAmt>335</InsuranceAmt>
+      <OfficeExpensesAmt>1037</OfficeExpensesAmt>
+      <SuppliesAmt>1224</SuppliesAmt>
+      <UtilitiesAmt>477</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5503</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>10476</TotalExpensesAmt>
+      <NetProfitOrLossAmt>17124</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>17124</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>17124</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>15814</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2420</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1210</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sarah Wright</ChildFirstAndLastName>
+        <ChildSSN>802645753</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Johnathan Wright</ChildFirstAndLastName>
+        <ChildSSN>838475285</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Wright</ChildFirstAndLastName>
+        <ChildSSN>545379655</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>17124</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>17124</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3425</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3000</DepreciationAmt>
+      <TotalDepreciationAmt>3000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>277162219</EmployeeSSN>
+      <EmployerEIN>629592715</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4347 Reese Skyway</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sarah Wright</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4347 Reese Skyway</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78000</WagesAmt>
+      <WithholdingAmt>9360</WithholdingAmt>
+      <SocialSecurityWagesAmt>78000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4836</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1131</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1959-02-09</PrimaryBirthDt>
+      <SpouseBirthDt>1986-09-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20087</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>29032</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>200871847</PrimarySSN>
+      <SpouseSSN>290320940</SpouseSSN>
+      <NameLine1Txt>Adam Simon</NameLine1Txt>
+      <SpouseNameLine1Txt>Adam Simon</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ADAM</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ADAM</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7479 ELLISON TRAIL</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>290320940</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Dean</DependentFirstNm>
+        <DependentLastNm>Simon</DependentLastNm>
+        <DependentNameControlTxt>DEAN</DependentNameControlTxt>
+        <DependentSSN>886996225</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Charles</DependentFirstNm>
+        <DependentLastNm>Simon</DependentLastNm>
+        <DependentNameControlTxt>CHAR</DependentNameControlTxt>
+        <DependentSSN>509262030</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">259100</WagesAmt>
+      <WagesSalariesAndTipsAmt>259100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">845</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">866</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">42270</BusinessIncomeAmt>
+      <TotalIncomeAmt>303081</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>302515</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>33100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8454</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41554</TotalDeductionsAmt>
+      <TaxableIncomeAmt>260961</TaxableIncomeAmt>
+      <TaxAmt>48325</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>48325</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>43925</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1132</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1132</TotalOtherTaxesAmt>
+      <TotalTaxAmt>45490</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>49762</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>49762</WithholdingTaxAmt>
+      <TotalPaymentsAmt>49762</TotalPaymentsAmt>
+      <OverpaidAmt>4272</OverpaidAmt>
+      <RefundAmt>4272</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1132</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1132</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>845</InterestAmt>
+      <TotalInterestAmt>845</TotalInterestAmt>
+      <OrdinaryDividendsAmt>866</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>866</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>64300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>64300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1985</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>258</CarAndTruckExpensesAmt>
+      <InsuranceAmt>740</InsuranceAmt>
+      <OfficeExpensesAmt>978</OfficeExpensesAmt>
+      <SuppliesAmt>1126</SuppliesAmt>
+      <UtilitiesAmt>1274</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15669</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22030</TotalExpensesAmt>
+      <NetProfitOrLossAmt>42270</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>42270</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>42270</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39036</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1132</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>566</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dean Simon</ChildFirstAndLastName>
+        <ChildSSN>886996225</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Charles Simon</ChildFirstAndLastName>
+        <ChildSSN>509262030</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>42270</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>42270</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8454</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>200871847</EmployeeSSN>
+      <EmployerEIN>423212613</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2585 Laura Ferry</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adam Simon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2585 Laura Ferry</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>72400</WagesAmt>
+      <WithholdingAmt>8688</WithholdingAmt>
+      <SocialSecurityWagesAmt>72400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4489</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>72400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1050</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>290320940</EmployeeSSN>
+      <EmployerEIN>946183469</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>102 Nguyen Burg</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Adam Simon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>102 Nguyen Burg</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>186700</WagesAmt>
+      <WithholdingAmt>41074</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>186700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2707</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

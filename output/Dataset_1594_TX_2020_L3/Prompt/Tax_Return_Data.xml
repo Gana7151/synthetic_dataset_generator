@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1990-11-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>74375</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>743750249</PrimarySSN>
+      <NameLine1Txt>James Gonzalez</NameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3911 DANIELLE CANYON</AddressLine1Txt>
+        <CityNm>PLANO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75024</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">75900</WagesAmt>
+      <WagesSalariesAndTipsAmt>75900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1906</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1339</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">50143</BusinessIncomeAmt>
+      <TotalIncomeAmt>129288</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>125746</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10029</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22429</TotalDeductionsAmt>
+      <TaxableIncomeAmt>103317</TaxableIncomeAmt>
+      <TaxAmt>18876</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18876</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18876</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7085</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7085</TotalOtherTaxesAmt>
+      <TotalTaxAmt>25961</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9108</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9108</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9108</TotalPaymentsAmt>
+      <AmountOwedAmt>16853</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7085</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7085</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1906</InterestAmt>
+      <TotalInterestAmt>1906</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1339</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1339</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>66400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>66400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1775</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2092</CarAndTruckExpensesAmt>
+      <InsuranceAmt>959</InsuranceAmt>
+      <OfficeExpensesAmt>1141</OfficeExpensesAmt>
+      <SuppliesAmt>1078</SuppliesAmt>
+      <UtilitiesAmt>615</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7597</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15257</TotalExpensesAmt>
+      <NetProfitOrLossAmt>50143</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>50143</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>50143</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>46307</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7085</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3542</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>50143</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>50143</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10029</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1000</DepreciationAmt>
+      <TotalDepreciationAmt>1000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>743750249</EmployeeSSN>
+      <EmployerEIN>844727967</EmployerEIN>
+      <EmployerNameControlTxt>HOUS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Houston Freight Systems</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2368 Martinez Square</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2368 Martinez Square</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>75900</WagesAmt>
+      <WithholdingAmt>9108</WithholdingAmt>
+      <SocialSecurityWagesAmt>75900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4706</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>75900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1101</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

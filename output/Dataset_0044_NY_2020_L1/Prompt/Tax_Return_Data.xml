@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-10-27</PrimaryBirthDt>
+      <SpouseBirthDt>1953-06-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>63994</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>60113</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>639945023</PrimarySSN>
+      <SpouseSSN>601138667</SpouseSSN>
+      <NameLine1Txt>Julie Hicks</NameLine1Txt>
+      <SpouseNameLine1Txt>Jose Hicks</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JULI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOSE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9136 DAVID RANCH</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>601138667</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">61400</WagesAmt>
+      <WagesSalariesAndTipsAmt>61400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>61400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>36600</TaxableIncomeAmt>
+      <TaxAmt>3997</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3997</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3997</TaxLessCreditsAmt>
+      <TotalTaxAmt>3997</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7368</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7368</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7368</TotalPaymentsAmt>
+      <OverpaidAmt>3371</OverpaidAmt>
+      <RefundAmt>3371</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>601138667</EmployeeSSN>
+      <EmployerEIN>487535788</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3060 Sanders Crescent</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jose Hicks</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3060 Sanders Crescent</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>61400</WagesAmt>
+      <WithholdingAmt>7368</WithholdingAmt>
+      <SocialSecurityWagesAmt>61400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3807</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>61400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>890</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

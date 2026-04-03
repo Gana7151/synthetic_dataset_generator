@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-10-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81610</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>816106606</PrimarySSN>
+      <NameLine1Txt>Miranda Patterson</NameLine1Txt>
+      <PrimaryNameControlTxt>MIRA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1744 BAKER SQUARE</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">45200</WagesAmt>
+      <WagesSalariesAndTipsAmt>45200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">724</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>45924</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>45924</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>32074</TaxableIncomeAmt>
+      <TaxAmt>3629</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3629</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3629</TaxLessCreditsAmt>
+      <TotalTaxAmt>3629</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5424</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5424</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5424</TotalPaymentsAmt>
+      <OverpaidAmt>1795</OverpaidAmt>
+      <RefundAmt>1795</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>724</InterestAmt>
+      <TotalInterestAmt>724</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>816106606</EmployeeSSN>
+      <EmployerEIN>716360388</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6922 Manuel Plains</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Miranda Patterson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6922 Manuel Plains</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>45200</WagesAmt>
+      <WithholdingAmt>5424</WithholdingAmt>
+      <SocialSecurityWagesAmt>45200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2802</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>45200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>655</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>497</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

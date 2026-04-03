@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-05-21</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>34959</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>349596883</PrimarySSN>
+      <NameLine1Txt>Nancy Clayton</NameLine1Txt>
+      <PrimaryNameControlTxt>NANC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2769 BARNES COVE</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jessica</DependentFirstNm>
+        <DependentLastNm>Clayton</DependentLastNm>
+        <DependentNameControlTxt>JESS</DependentNameControlTxt>
+        <DependentSSN>379779772</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116300</WagesAmt>
+      <WagesSalariesAndTipsAmt>116300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">224</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1310</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">50838</BusinessIncomeAmt>
+      <TotalIncomeAmt>168673</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>166349</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10168</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22718</TotalDeductionsAmt>
+      <TaxableIncomeAmt>143631</TaxableIncomeAmt>
+      <TaxAmt>28492</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>28492</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>28492</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4648</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4648</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33140</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18608</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18608</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18608</TotalPaymentsAmt>
+      <AmountOwedAmt>14532</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4648</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4648</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>224</InterestAmt>
+      <TotalInterestAmt>224</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1310</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1310</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>68500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>68500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2038</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>831</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1327</InsuranceAmt>
+      <OfficeExpensesAmt>1225</OfficeExpensesAmt>
+      <SuppliesAmt>1664</SuppliesAmt>
+      <UtilitiesAmt>981</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9596</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17662</TotalExpensesAmt>
+      <NetProfitOrLossAmt>50838</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>50838</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>50838</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>46949</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4648</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2324</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>50838</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>50838</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10168</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>349596883</EmployeeSSN>
+      <EmployerEIN>389199019</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6529 Cline Route</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nancy Clayton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6529 Cline Route</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116300</WagesAmt>
+      <WithholdingAmt>18608</WithholdingAmt>
+      <SocialSecurityWagesAmt>116300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7211</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1686</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

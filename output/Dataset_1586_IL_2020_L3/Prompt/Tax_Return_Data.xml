@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1957-02-15</PrimaryBirthDt>
+      <SpouseBirthDt>1978-01-13</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73314</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>66772</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>733144006</PrimarySSN>
+      <SpouseSSN>667720024</SpouseSSN>
+      <NameLine1Txt>Tricia Miller</NameLine1Txt>
+      <SpouseNameLine1Txt>Kelly Miller</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TRIC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KELL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4271 BLAIR CLIFF</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>667720024</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">182700</WagesAmt>
+      <WagesSalariesAndTipsAmt>182700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">504</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">420</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">69633</BusinessIncomeAmt>
+      <TotalIncomeAmt>253257</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>252325</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13927</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38727</TotalDeductionsAmt>
+      <TaxableIncomeAmt>213598</TaxableIncomeAmt>
+      <TaxAmt>39422</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>39422</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>39422</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1865</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1865</TotalOtherTaxesAmt>
+      <TotalTaxAmt>41287</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>40194</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>40194</WithholdingTaxAmt>
+      <TotalPaymentsAmt>40194</TotalPaymentsAmt>
+      <AmountOwedAmt>1093</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1865</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1865</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>504</InterestAmt>
+      <TotalInterestAmt>504</TotalInterestAmt>
+      <OrdinaryDividendsAmt>420</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>420</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>93400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>93400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1856</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2018</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1874</InsuranceAmt>
+      <OfficeExpensesAmt>1621</OfficeExpensesAmt>
+      <SuppliesAmt>2517</SuppliesAmt>
+      <UtilitiesAmt>843</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13038</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>23767</TotalExpensesAmt>
+      <NetProfitOrLossAmt>69633</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>69633</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>69633</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64306</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1865</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>932</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>69633</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>69633</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13927</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>667720024</EmployeeSSN>
+      <EmployerEIN>277798395</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4801 Vang Inlet</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kelly Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4801 Vang Inlet</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>182700</WagesAmt>
+      <WithholdingAmt>40194</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>182700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2649</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

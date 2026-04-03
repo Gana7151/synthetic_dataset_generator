@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-04-02</PrimaryBirthDt>
+      <SpouseBirthDt>1976-06-21</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86426</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>32347</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>864265447</PrimarySSN>
+      <SpouseSSN>323474336</SpouseSSN>
+      <NameLine1Txt>Jessica Johnson</NameLine1Txt>
+      <SpouseNameLine1Txt>Jose Johnson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOSE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5001 NAVARRO PRAIRIE</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>323474336</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">66100</WagesAmt>
+      <WagesSalariesAndTipsAmt>66100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>66100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>66100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>36900</TaxableIncomeAmt>
+      <TaxAmt>3964</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3964</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3964</TaxLessCreditsAmt>
+      <TotalTaxAmt>3964</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7932</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7932</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7932</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>323474336</EmployeeSSN>
+      <EmployerEIN>303647039</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5348 Adam Roads</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jose Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5348 Adam Roads</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66100</WagesAmt>
+      <WithholdingAmt>7932</WithholdingAmt>
+      <SocialSecurityWagesAmt>66100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4098</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>958</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

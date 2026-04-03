@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-02-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>13750</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>137505495</PrimarySSN>
+      <NameLine1Txt>Michael Martin</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8252 KAITLIN GLENS</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Martin</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>858318637</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">86700</WagesAmt>
+      <WagesSalariesAndTipsAmt>86700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">410</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">934</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">28314</BusinessIncomeAmt>
+      <TotalIncomeAmt>116358</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>114358</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5663</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18063</TotalDeductionsAmt>
+      <TaxableIncomeAmt>96295</TaxableIncomeAmt>
+      <TaxAmt>17190</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17190</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15190</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4001</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4001</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19191</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13872</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13872</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13872</TotalPaymentsAmt>
+      <AmountOwedAmt>5319</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4001</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4001</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>410</InterestAmt>
+      <TotalInterestAmt>410</TotalInterestAmt>
+      <OrdinaryDividendsAmt>934</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>934</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Martin's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MART</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>49100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>49100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1574</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>42</CarAndTruckExpensesAmt>
+      <InsuranceAmt>999</InsuranceAmt>
+      <OfficeExpensesAmt>1148</OfficeExpensesAmt>
+      <SuppliesAmt>1290</SuppliesAmt>
+      <UtilitiesAmt>413</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11120</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16586</TotalExpensesAmt>
+      <NetProfitOrLossAmt>28314</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>28314</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>28314</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26148</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4001</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2000</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Martin</ChildFirstAndLastName>
+        <ChildSSN>858318637</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>28314</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>28314</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5663</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Martin's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4200</DepreciationAmt>
+      <TotalDepreciationAmt>4200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>137505495</EmployeeSSN>
+      <EmployerEIN>415184825</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6029 Clark Fork</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Martin</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6029 Clark Fork</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>86700</WagesAmt>
+      <WithholdingAmt>13872</WithholdingAmt>
+      <SocialSecurityWagesAmt>86700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5375</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>86700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1257</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

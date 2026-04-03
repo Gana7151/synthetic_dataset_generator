@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1964-04-08</PrimaryBirthDt>
+      <SpouseBirthDt>1993-09-21</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86667</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>79525</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>866674167</PrimarySSN>
+      <SpouseSSN>795255270</SpouseSSN>
+      <NameLine1Txt>Steven Robinson</NameLine1Txt>
+      <SpouseNameLine1Txt>Alyssa Robinson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STEV</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ALYS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1310 MATTHEWS FLAT</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="5">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>795255270</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Cassidy</DependentFirstNm>
+        <DependentLastNm>Robinson</DependentLastNm>
+        <DependentNameControlTxt>CASS</DependentNameControlTxt>
+        <DependentSSN>320627809</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">79870</WagesAmt>
+      <WagesSalariesAndTipsAmt>79870</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">552</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>80422</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>75052</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>43552</TaxableIncomeAmt>
+      <TaxAmt>4749</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4749</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2549</TaxLessCreditsAmt>
+      <TotalTaxAmt>2549</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9584</TotalPaymentsAmt>
+      <OverpaidAmt>7035</OverpaidAmt>
+      <RefundAmt>7035</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>552</InterestAmt>
+      <TotalInterestAmt>552</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>5370</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>5370</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cassidy Robinson</ChildFirstAndLastName>
+        <ChildSSN>320627809</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>866674167</EmployeeSSN>
+      <EmployerEIN>511393976</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7253 Colon Harbor</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Steven Robinson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7253 Colon Harbor</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>79870</WagesAmt>
+      <WithholdingAmt>9584</WithholdingAmt>
+      <SocialSecurityWagesAmt>79870</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4952</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>79870</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1158</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>5370</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

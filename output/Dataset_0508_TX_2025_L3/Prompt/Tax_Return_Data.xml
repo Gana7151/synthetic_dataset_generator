@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2003-04-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>15584</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>155847958</PrimarySSN>
+      <NameLine1Txt>Kathleen Rose</NameLine1Txt>
+      <PrimaryNameControlTxt>KATH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1291 TURNER EXTENSIONS</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78745</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Annette</DependentFirstNm>
+        <DependentLastNm>Rose</DependentLastNm>
+        <DependentNameControlTxt>ANNE</DependentNameControlTxt>
+        <DependentSSN>586638346</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Melissa</DependentFirstNm>
+        <DependentLastNm>Rose</DependentLastNm>
+        <DependentNameControlTxt>MELI</DependentNameControlTxt>
+        <DependentSSN>145909162</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ryan</DependentFirstNm>
+        <DependentLastNm>Rose</DependentLastNm>
+        <DependentNameControlTxt>RYAN</DependentNameControlTxt>
+        <DependentSSN>672571257</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">90397</WagesAmt>
+      <WagesSalariesAndTipsAmt>90397</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1712</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2483</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">95031</BusinessIncomeAmt>
+      <TotalIncomeAmt>189624</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>178203</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19006</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34756</TotalDeductionsAmt>
+      <TaxableIncomeAmt>143447</TaxableIncomeAmt>
+      <TaxAmt>27274</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>27274</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>20674</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">13172</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>13172</TotalOtherTaxesAmt>
+      <TotalTaxAmt>33847</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14464</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14464</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14464</TotalPaymentsAmt>
+      <AmountOwedAmt>19383</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">13172</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>13172</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1712</InterestAmt>
+      <TotalInterestAmt>1712</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2483</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2483</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>4835</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>4835</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Rose's Bookkeeping Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541219</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ROSE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Bookkeeping</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>134300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>134300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3954</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2068</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1840</InsuranceAmt>
+      <OfficeExpensesAmt>2244</OfficeExpensesAmt>
+      <SuppliesAmt>2644</SuppliesAmt>
+      <UtilitiesAmt>2241</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>24278</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>39269</TotalExpensesAmt>
+      <NetProfitOrLossAmt>95031</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>95031</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>95031</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>87761</SEBaseAmt>
+      <SelfEmploymentTaxAmt>13172</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6586</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Annette Rose</ChildFirstAndLastName>
+        <ChildSSN>586638346</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Melissa Rose</ChildFirstAndLastName>
+        <ChildSSN>145909162</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ryan Rose</ChildFirstAndLastName>
+        <ChildSSN>672571257</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>95031</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>95031</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19006</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>155847958</EmployeeSSN>
+      <EmployerEIN>382323351</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Land Development</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6373 Ruiz Creek</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kathleen Rose</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6373 Ruiz Creek</AddressLine1Txt>
+        <CityNm>Fort Worth</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>76102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>90397</WagesAmt>
+      <WithholdingAmt>14464</WithholdingAmt>
+      <SocialSecurityWagesAmt>90397</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5605</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>90397</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1311</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>8797</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

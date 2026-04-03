@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-09-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29607</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>296076720</PrimarySSN>
+      <NameLine1Txt>Dennis Bryan</NameLine1Txt>
+      <PrimaryNameControlTxt>DENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6029 BILLY ISLANDS</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">76500</WagesAmt>
+      <WagesSalariesAndTipsAmt>76500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>76500</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>76500</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62650</TaxableIncomeAmt>
+      <TaxAmt>9090</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9090</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9090</TaxLessCreditsAmt>
+      <TotalTaxAmt>9090</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9180</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9180</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9180</TotalPaymentsAmt>
+      <OverpaidAmt>90</OverpaidAmt>
+      <RefundAmt>90</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>296076720</EmployeeSSN>
+      <EmployerEIN>389594261</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7696 Schneider Coves</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Dennis Bryan</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7696 Schneider Coves</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>76500</WagesAmt>
+      <WithholdingAmt>9180</WithholdingAmt>
+      <SocialSecurityWagesAmt>76500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4743</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>76500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1109</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>842</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

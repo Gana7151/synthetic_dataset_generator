@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1996-10-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66014</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>660146533</PrimarySSN>
+      <NameLine1Txt>Caroline Rogers</NameLine1Txt>
+      <PrimaryNameControlTxt>CARO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5346 ALICIA PLAIN</AddressLine1Txt>
+        <CityNm>TAMPA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Christine</DependentFirstNm>
+        <DependentLastNm>Rogers</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>892232450</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">50300</WagesAmt>
+      <WagesSalariesAndTipsAmt>50300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">437</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">583</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40032</BusinessIncomeAmt>
+      <TotalIncomeAmt>91352</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>88524</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8006</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22606</TotalDeductionsAmt>
+      <TaxableIncomeAmt>65918</TaxableIncomeAmt>
+      <TaxAmt>9555</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9555</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7555</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5656</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5656</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13211</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6036</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6036</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6036</TotalPaymentsAmt>
+      <AmountOwedAmt>7175</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5656</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5656</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>437</InterestAmt>
+      <TotalInterestAmt>437</TotalInterestAmt>
+      <OrdinaryDividendsAmt>583</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>583</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>55700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>55700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1518</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2329</CarAndTruckExpensesAmt>
+      <InsuranceAmt>599</InsuranceAmt>
+      <OfficeExpensesAmt>1271</OfficeExpensesAmt>
+      <SuppliesAmt>993</SuppliesAmt>
+      <UtilitiesAmt>424</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8534</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15668</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40032</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40032</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40032</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>36970</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5656</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2828</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christine Rogers</ChildFirstAndLastName>
+        <ChildSSN>892232450</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40032</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40032</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8006</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>660146533</EmployeeSSN>
+      <EmployerEIN>452197959</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6521 Khan Crossroad</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Caroline Rogers</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6521 Khan Crossroad</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>50300</WagesAmt>
+      <WithholdingAmt>6036</WithholdingAmt>
+      <SocialSecurityWagesAmt>50300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3119</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>50300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>729</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

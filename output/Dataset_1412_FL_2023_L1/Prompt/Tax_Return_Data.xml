@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-07-22</PrimaryBirthDt>
+      <SpouseBirthDt>1976-02-18</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>61257</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>23166</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>612572260</PrimarySSN>
+      <SpouseSSN>231662116</SpouseSSN>
+      <NameLine1Txt>Stephen Ibarra</NameLine1Txt>
+      <SpouseNameLine1Txt>Mark Ibarra</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STEP</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARK</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2169 JANET FREEWAY</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>231662116</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">42100</WagesAmt>
+      <WagesSalariesAndTipsAmt>42100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>42100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>42100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>14400</TaxableIncomeAmt>
+      <TaxAmt>1440</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1440</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1440</TaxLessCreditsAmt>
+      <TotalTaxAmt>1440</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5052</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5052</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5052</TotalPaymentsAmt>
+      <OverpaidAmt>3612</OverpaidAmt>
+      <RefundAmt>3612</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>231662116</EmployeeSSN>
+      <EmployerEIN>532202772</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9416 Guerrero Lakes</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mark Ibarra</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9416 Guerrero Lakes</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>42100</WagesAmt>
+      <WithholdingAmt>5052</WithholdingAmt>
+      <SocialSecurityWagesAmt>42100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2610</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>42100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>610</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

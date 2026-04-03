@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-07-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66389</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>663894421</PrimarySSN>
+      <NameLine1Txt>Summer Smith</NameLine1Txt>
+      <PrimaryNameControlTxt>SUMM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7187 ROBERT CREST</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Victor</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>VICT</DependentNameControlTxt>
+        <DependentSSN>480828274</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Trevor</DependentFirstNm>
+        <DependentLastNm>Smith</DependentLastNm>
+        <DependentNameControlTxt>TREV</DependentNameControlTxt>
+        <DependentSSN>126186160</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">30800</WagesAmt>
+      <WagesSalariesAndTipsAmt>30800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">554</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1719</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">16011</BusinessIncomeAmt>
+      <TotalIncomeAmt>49084</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>47953</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3202</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17052</TotalDeductionsAmt>
+      <TaxableIncomeAmt>30901</TaxableIncomeAmt>
+      <TaxAmt>3488</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">3488</ChildTaxCreditAmt>
+      <TotalCreditsAmt>3488</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3488</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2262</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2262</TotalOtherTaxesAmt>
+      <TotalTaxAmt>2262</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2464</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2464</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2464</TotalPaymentsAmt>
+      <OverpaidAmt>202</OverpaidAmt>
+      <RefundAmt>202</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2262</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2262</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>554</InterestAmt>
+      <TotalInterestAmt>554</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1719</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1719</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Smith's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SMIT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>23700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>23700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>785</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>625</CarAndTruckExpensesAmt>
+      <InsuranceAmt>542</InsuranceAmt>
+      <OfficeExpensesAmt>308</OfficeExpensesAmt>
+      <SuppliesAmt>498</SuppliesAmt>
+      <UtilitiesAmt>418</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4513</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7689</TotalExpensesAmt>
+      <NetProfitOrLossAmt>16011</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>16011</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>16011</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>14786</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2262</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1131</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Victor Smith</ChildFirstAndLastName>
+        <ChildSSN>480828274</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Trevor Smith</ChildFirstAndLastName>
+        <ChildSSN>126186160</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>3488</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>3488</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>16011</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>16011</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3202</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>663894421</EmployeeSSN>
+      <EmployerEIN>544344072</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>297 Atkins Canyon</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Summer Smith</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>297 Atkins Canyon</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>30800</WagesAmt>
+      <WithholdingAmt>2464</WithholdingAmt>
+      <SocialSecurityWagesAmt>30800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1910</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>30800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>447</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

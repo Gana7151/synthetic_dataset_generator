@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1957-08-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>25914</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>259142694</PrimarySSN>
+      <NameLine1Txt>Melinda Evans</NameLine1Txt>
+      <PrimaryNameControlTxt>MELI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6760 MELISSA MANORS</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Evans</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>648463402</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">123429</WagesAmt>
+      <WagesSalariesAndTipsAmt>123429</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">161</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">853</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23190</BusinessIncomeAmt>
+      <TotalIncomeAmt>147633</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>131853</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>17750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4638</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22388</TotalDeductionsAmt>
+      <TaxableIncomeAmt>109465</TaxableIncomeAmt>
+      <TaxAmt>19119</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>19119</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>16919</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3277</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3277</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20195</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19749</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19749</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19749</TotalPaymentsAmt>
+      <AmountOwedAmt>446</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3277</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3277</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>161</InterestAmt>
+      <TotalInterestAmt>161</TotalInterestAmt>
+      <OrdinaryDividendsAmt>853</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>853</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>12500</DeductionAmt>
+      </OvertimeDeduction>
+      <SeniorDeduction>
+        <DeductionAmt>1642</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>14142</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Evans's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVAN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>35600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>35600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>648</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>753</CarAndTruckExpensesAmt>
+      <InsuranceAmt>653</InsuranceAmt>
+      <OfficeExpensesAmt>1053</OfficeExpensesAmt>
+      <SuppliesAmt>838</SuppliesAmt>
+      <UtilitiesAmt>478</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7987</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12410</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23190</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23190</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23190</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>21416</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3277</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1638</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Evans</ChildFirstAndLastName>
+        <ChildSSN>648463402</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23190</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23190</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4638</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>259142694</EmployeeSSN>
+      <EmployerEIN>471676621</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3622 Turner Crest</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Melinda Evans</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3622 Turner Crest</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>123429</WagesAmt>
+      <WithholdingAmt>19749</WithholdingAmt>
+      <SocialSecurityWagesAmt>123429</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7653</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>123429</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1790</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>16729</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

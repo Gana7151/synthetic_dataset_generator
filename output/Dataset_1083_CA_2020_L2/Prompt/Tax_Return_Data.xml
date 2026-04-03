@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1951-03-02</PrimaryBirthDt>
+      <SpouseBirthDt>1978-01-15</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81347</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>45608</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>813478569</PrimarySSN>
+      <SpouseSSN>456084948</SpouseSSN>
+      <NameLine1Txt>Charles Brooks</NameLine1Txt>
+      <SpouseNameLine1Txt>Kristina Brooks</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHAR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KRIS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4246 MATTHEW TERRACE</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>456084948</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patricia</DependentFirstNm>
+        <DependentLastNm>Brooks</DependentLastNm>
+        <DependentNameControlTxt>PATR</DependentNameControlTxt>
+        <DependentSSN>763807026</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Maureen</DependentFirstNm>
+        <DependentLastNm>Brooks</DependentLastNm>
+        <DependentNameControlTxt>MAUR</DependentNameControlTxt>
+        <DependentSSN>441497732</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">53200</WagesAmt>
+      <WagesSalariesAndTipsAmt>53200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">580</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1612</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">56058</BusinessIncomeAmt>
+      <TotalIncomeAmt>111450</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>107490</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11212</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36012</TotalDeductionsAmt>
+      <TaxableIncomeAmt>71478</TaxableIncomeAmt>
+      <TaxAmt>8182</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8182</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4182</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7921</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7921</TotalOtherTaxesAmt>
+      <TotalTaxAmt>12103</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6384</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6384</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6384</TotalPaymentsAmt>
+      <AmountOwedAmt>5719</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7921</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7921</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>580</InterestAmt>
+      <TotalInterestAmt>580</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1612</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1612</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Brooks's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BROO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>70600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>70600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1655</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>115</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1067</InsuranceAmt>
+      <OfficeExpensesAmt>780</OfficeExpensesAmt>
+      <SuppliesAmt>1603</SuppliesAmt>
+      <UtilitiesAmt>386</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8936</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14542</TotalExpensesAmt>
+      <NetProfitOrLossAmt>56058</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>56058</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>56058</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>51770</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7921</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3960</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patricia Brooks</ChildFirstAndLastName>
+        <ChildSSN>763807026</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Maureen Brooks</ChildFirstAndLastName>
+        <ChildSSN>441497732</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>56058</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>56058</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11212</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>813478569</EmployeeSSN>
+      <EmployerEIN>555159598</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9321 Acosta Mountains</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Charles Brooks</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9321 Acosta Mountains</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>53200</WagesAmt>
+      <WithholdingAmt>6384</WithholdingAmt>
+      <SocialSecurityWagesAmt>53200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3298</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>53200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>771</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>585</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

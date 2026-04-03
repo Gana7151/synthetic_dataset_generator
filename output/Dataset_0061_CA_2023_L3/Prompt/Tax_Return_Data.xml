@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-07-21</PrimaryBirthDt>
+      <SpouseBirthDt>1974-05-25</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85646</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>56095</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>856467355</PrimarySSN>
+      <SpouseSSN>560957139</SpouseSSN>
+      <NameLine1Txt>Jesse Edwards</NameLine1Txt>
+      <SpouseNameLine1Txt>Jeffrey Edwards</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JEFF</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3105 TAYLOR VILLE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>560957139</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">183300</WagesAmt>
+      <WagesSalariesAndTipsAmt>183300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1008</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">541</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">63638</BusinessIncomeAmt>
+      <TotalIncomeAmt>248487</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>247635</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12728</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>40428</TotalDeductionsAmt>
+      <TaxableIncomeAmt>207207</TaxableIncomeAmt>
+      <TaxAmt>36530</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>36530</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>36530</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1704</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1704</TotalOtherTaxesAmt>
+      <TotalTaxAmt>38234</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>40326</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>40326</WithholdingTaxAmt>
+      <TotalPaymentsAmt>40326</TotalPaymentsAmt>
+      <OverpaidAmt>2092</OverpaidAmt>
+      <RefundAmt>2092</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1704</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1704</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1008</InterestAmt>
+      <TotalInterestAmt>1008</TotalInterestAmt>
+      <OrdinaryDividendsAmt>541</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>541</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>102100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>102100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3095</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4325</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1754</InsuranceAmt>
+      <OfficeExpensesAmt>2028</OfficeExpensesAmt>
+      <SuppliesAmt>2470</SuppliesAmt>
+      <UtilitiesAmt>927</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19563</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34162</TotalExpensesAmt>
+      <NetProfitOrLossAmt>63638</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>63638</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>63638</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58770</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1704</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>852</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>63638</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>63638</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12728</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4300</DepreciationAmt>
+      <TotalDepreciationAmt>4300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>856467355</EmployeeSSN>
+      <EmployerEIN>538608923</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6315 Virginia Circle</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jesse Edwards</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6315 Virginia Circle</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>183300</WagesAmt>
+      <WithholdingAmt>40326</WithholdingAmt>
+      <SocialSecurityWagesAmt>160200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9932</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>183300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2658</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1685</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

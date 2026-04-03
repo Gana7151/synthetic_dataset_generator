@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-04-01</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>43760</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>437603205</PrimarySSN>
+      <NameLine1Txt>Emily Hopkins</NameLine1Txt>
+      <PrimaryNameControlTxt>EMIL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6595 DOUGLAS GREEN</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Patricia</DependentFirstNm>
+        <DependentLastNm>Hopkins</DependentLastNm>
+        <DependentNameControlTxt>PATR</DependentNameControlTxt>
+        <DependentSSN>495035946</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">87876</WagesAmt>
+      <WagesSalariesAndTipsAmt>87876</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">552</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">306</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">20783</BusinessIncomeAmt>
+      <TotalIncomeAmt>109517</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>80073</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4157</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19907</TotalDeductionsAmt>
+      <TaxableIncomeAmt>60166</TaxableIncomeAmt>
+      <TaxAmt>8150</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8150</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5950</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2937</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2937</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8887</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14060</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14060</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14060</TotalPaymentsAmt>
+      <OverpaidAmt>5173</OverpaidAmt>
+      <RefundAmt>5173</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2937</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2937</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>552</InterestAmt>
+      <TotalInterestAmt>552</TotalInterestAmt>
+      <OrdinaryDividendsAmt>306</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>306</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>21523</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>6454</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>27976</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hopkins's Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOPK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>29900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>29900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>680</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>144</CarAndTruckExpensesAmt>
+      <InsuranceAmt>502</InsuranceAmt>
+      <OfficeExpensesAmt>516</OfficeExpensesAmt>
+      <SuppliesAmt>640</SuppliesAmt>
+      <UtilitiesAmt>135</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4000</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>6617</TotalExpensesAmt>
+      <NetProfitOrLossAmt>20783</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>20783</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>20783</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>19193</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2937</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1468</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Patricia Hopkins</ChildFirstAndLastName>
+        <ChildSSN>495035946</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>20783</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>20783</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4157</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Hopkins's Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2500</DepreciationAmt>
+      <TotalDepreciationAmt>2500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>437603205</EmployeeSSN>
+      <EmployerEIN>647721594</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>781 Michele Brook</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Emily Hopkins</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>781 Michele Brook</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>87876</WagesAmt>
+      <WithholdingAmt>14060</WithholdingAmt>
+      <SocialSecurityWagesAmt>87876</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5448</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>87876</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1274</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>21523</SocialSecurityTipsAmt>
+      <OvertimePayAmt>6454</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

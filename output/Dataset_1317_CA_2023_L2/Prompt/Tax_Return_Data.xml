@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-09-25</PrimaryBirthDt>
+      <SpouseBirthDt>1990-02-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>73671</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>88044</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>736713588</PrimarySSN>
+      <SpouseSSN>880449216</SpouseSSN>
+      <NameLine1Txt>Valerie Castillo</NameLine1Txt>
+      <SpouseNameLine1Txt>Danny Castillo</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>VALE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DANN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1770 AMY BURGS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>880449216</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Julie</DependentFirstNm>
+        <DependentLastNm>Castillo</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>221251508</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">47800</WagesAmt>
+      <WagesSalariesAndTipsAmt>47800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">749</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">529</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23244</BusinessIncomeAmt>
+      <TotalIncomeAmt>72322</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>70680</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4649</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32349</TotalDeductionsAmt>
+      <TaxableIncomeAmt>38331</TaxableIncomeAmt>
+      <TaxAmt>4160</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4160</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2160</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3284</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3284</TotalOtherTaxesAmt>
+      <TotalTaxAmt>5444</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5736</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5736</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5736</TotalPaymentsAmt>
+      <OverpaidAmt>292</OverpaidAmt>
+      <RefundAmt>292</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3284</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3284</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>749</InterestAmt>
+      <TotalInterestAmt>749</TotalInterestAmt>
+      <OrdinaryDividendsAmt>529</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>529</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>733</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1442</CarAndTruckExpensesAmt>
+      <InsuranceAmt>869</InsuranceAmt>
+      <OfficeExpensesAmt>646</OfficeExpensesAmt>
+      <SuppliesAmt>943</SuppliesAmt>
+      <UtilitiesAmt>450</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8373</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13456</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23244</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23244</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23244</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>21466</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3284</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1642</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julie Castillo</ChildFirstAndLastName>
+        <ChildSSN>221251508</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23244</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23244</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4649</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2600</DepreciationAmt>
+      <TotalDepreciationAmt>2600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>736713588</EmployeeSSN>
+      <EmployerEIN>518484902</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2556 Destiny Fall</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Valerie Castillo</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2556 Destiny Fall</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>47800</WagesAmt>
+      <WithholdingAmt>5736</WithholdingAmt>
+      <SocialSecurityWagesAmt>47800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2964</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>47800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>693</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>526</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

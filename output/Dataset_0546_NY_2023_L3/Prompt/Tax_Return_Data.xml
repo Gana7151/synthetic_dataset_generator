@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2003-01-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56069</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>560696018</PrimarySSN>
+      <NameLine1Txt>Patricia Olson</NameLine1Txt>
+      <PrimaryNameControlTxt>PATR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6034 SULLIVAN VILLAGES</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Brad</DependentFirstNm>
+        <DependentLastNm>Olson</DependentLastNm>
+        <DependentNameControlTxt>BRAD</DependentNameControlTxt>
+        <DependentSSN>347325727</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">46600</WagesAmt>
+      <WagesSalariesAndTipsAmt>46600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1249</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3300</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">76717</BusinessIncomeAmt>
+      <TotalIncomeAmt>127866</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>122446</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">15343</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29193</TotalDeductionsAmt>
+      <TaxableIncomeAmt>93253</TaxableIncomeAmt>
+      <TaxAmt>15823</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>15823</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13823</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10840</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10840</TotalOtherTaxesAmt>
+      <TotalTaxAmt>24663</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5592</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5592</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5592</TotalPaymentsAmt>
+      <AmountOwedAmt>19071</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10840</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10840</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1249</InterestAmt>
+      <TotalInterestAmt>1249</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3300</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3300</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>101900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>101900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1607</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>519</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1128</InsuranceAmt>
+      <OfficeExpensesAmt>2196</OfficeExpensesAmt>
+      <SuppliesAmt>1419</SuppliesAmt>
+      <UtilitiesAmt>985</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14229</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22083</TotalExpensesAmt>
+      <NetProfitOrLossAmt>76717</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>76717</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>76717</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>70848</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10840</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5420</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brad Olson</ChildFirstAndLastName>
+        <ChildSSN>347325727</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>76717</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>76717</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>15343</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3100</DepreciationAmt>
+      <TotalDepreciationAmt>3100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>560696018</EmployeeSSN>
+      <EmployerEIN>836499169</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>671 White Knoll</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Patricia Olson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>671 White Knoll</AddressLine1Txt>
+        <CityNm>Syracuse</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>46600</WagesAmt>
+      <WithholdingAmt>5592</WithholdingAmt>
+      <SocialSecurityWagesAmt>46600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2889</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>46600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>676</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

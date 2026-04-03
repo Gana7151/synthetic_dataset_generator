@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1952-03-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>40794</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>407942256</PrimarySSN>
+      <NameLine1Txt>Scott Watson</NameLine1Txt>
+      <PrimaryNameControlTxt>SCOT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3899 KIARA BROOKS</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Mary</DependentFirstNm>
+        <DependentLastNm>Watson</DependentLastNm>
+        <DependentNameControlTxt>MARY</DependentNameControlTxt>
+        <DependentSSN>180751837</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">85000</WagesAmt>
+      <WagesSalariesAndTipsAmt>85000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">344</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1342</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">30680</BusinessIncomeAmt>
+      <TotalIncomeAmt>117366</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>115199</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6136</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18686</TotalDeductionsAmt>
+      <TaxableIncomeAmt>96513</TaxableIncomeAmt>
+      <TaxAmt>17184</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17184</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15584</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4335</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4335</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19919</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13600</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13600</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13600</TotalPaymentsAmt>
+      <AmountOwedAmt>6319</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4335</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4335</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>344</InterestAmt>
+      <TotalInterestAmt>344</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1342</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1342</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>678</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>352</CarAndTruckExpensesAmt>
+      <InsuranceAmt>372</InsuranceAmt>
+      <OfficeExpensesAmt>639</OfficeExpensesAmt>
+      <SuppliesAmt>519</SuppliesAmt>
+      <UtilitiesAmt>516</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6544</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9620</TotalExpensesAmt>
+      <NetProfitOrLossAmt>30680</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>30680</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>30680</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>28333</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4335</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2167</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mary Watson</ChildFirstAndLastName>
+        <ChildSSN>180751837</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>30680</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>30680</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6136</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1500</DepreciationAmt>
+      <TotalDepreciationAmt>1500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>407942256</EmployeeSSN>
+      <EmployerEIN>959310230</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6433 Elizabeth Terrace</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Scott Watson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6433 Elizabeth Terrace</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>85000</WagesAmt>
+      <WithholdingAmt>13600</WithholdingAmt>
+      <SocialSecurityWagesAmt>85000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5270</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>85000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1232</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-03-03</PrimaryBirthDt>
+      <SpouseBirthDt>1980-12-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81901</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>57003</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>819011637</PrimarySSN>
+      <SpouseSSN>570039595</SpouseSSN>
+      <NameLine1Txt>Matthew Chung</NameLine1Txt>
+      <SpouseNameLine1Txt>Nicole Chung</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MATT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>NICO</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5394 SEXTON PLAINS</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>570039595</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">29200</WagesAmt>
+      <WagesSalariesAndTipsAmt>29200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">377</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>29577</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>29577</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>27700</TotalDeductionsAmt>
+      <TaxableIncomeAmt>1877</TaxableIncomeAmt>
+      <TaxAmt>188</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>188</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>188</TaxLessCreditsAmt>
+      <TotalTaxAmt>188</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2336</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2336</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2336</TotalPaymentsAmt>
+      <OverpaidAmt>2148</OverpaidAmt>
+      <RefundAmt>2148</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>377</InterestAmt>
+      <TotalInterestAmt>377</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>570039595</EmployeeSSN>
+      <EmployerEIN>432913696</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1103 Lorraine Prairie</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Nicole Chung</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1103 Lorraine Prairie</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>29200</WagesAmt>
+      <WithholdingAmt>2336</WithholdingAmt>
+      <SocialSecurityWagesAmt>29200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1810</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>29200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>423</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>321</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

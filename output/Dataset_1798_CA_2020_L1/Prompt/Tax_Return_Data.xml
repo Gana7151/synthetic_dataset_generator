@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-11-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66461</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>664614771</PrimarySSN>
+      <NameLine1Txt>Andrew Gonzalez</NameLine1Txt>
+      <PrimaryNameControlTxt>ANDR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6269 TRACY ISLANDS</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">64300</WagesAmt>
+      <WagesSalariesAndTipsAmt>64300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>64300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>64300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>51900</TaxableIncomeAmt>
+      <TaxAmt>7208</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7208</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7208</TaxLessCreditsAmt>
+      <TotalTaxAmt>7208</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7716</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7716</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7716</TotalPaymentsAmt>
+      <OverpaidAmt>508</OverpaidAmt>
+      <RefundAmt>508</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>664614771</EmployeeSSN>
+      <EmployerEIN>326728098</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9453 Paul Court</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Andrew Gonzalez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9453 Paul Court</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>64300</WagesAmt>
+      <WithholdingAmt>7716</WithholdingAmt>
+      <SocialSecurityWagesAmt>64300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3987</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>64300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>932</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>707</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

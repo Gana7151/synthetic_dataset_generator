@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-09-20</PrimaryBirthDt>
+      <SpouseBirthDt>1979-01-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>23265</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>38614</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>232655451</PrimarySSN>
+      <SpouseSSN>386143514</SpouseSSN>
+      <NameLine1Txt>Joseph Peterson</NameLine1Txt>
+      <SpouseNameLine1Txt>Bryan Peterson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOSE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>BRYA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9936 GIBBS WELLS</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>386143514</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39300</WagesAmt>
+      <WagesSalariesAndTipsAmt>39300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>39300</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>39300</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>13400</TaxableIncomeAmt>
+      <TaxAmt>1340</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1340</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1340</TaxLessCreditsAmt>
+      <TotalTaxAmt>1340</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3144</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3144</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3144</TotalPaymentsAmt>
+      <OverpaidAmt>1804</OverpaidAmt>
+      <RefundAmt>1804</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>386143514</EmployeeSSN>
+      <EmployerEIN>425215518</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4201 Vaughn Ferry</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Bryan Peterson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4201 Vaughn Ferry</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39300</WagesAmt>
+      <WithholdingAmt>3144</WithholdingAmt>
+      <SocialSecurityWagesAmt>39300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2437</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>570</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-09-15</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>78819</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>788199154</PrimarySSN>
+      <NameLine1Txt>Michael Meza</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1409 CLARK UNIONS</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Benjamin</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>BENJ</DependentNameControlTxt>
+        <DependentSSN>175996495</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>163942706</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>260063418</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Bianca</DependentFirstNm>
+        <DependentLastNm>Meza</DependentLastNm>
+        <DependentNameControlTxt>BIAN</DependentNameControlTxt>
+        <DependentSSN>506452255</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">87333</WagesAmt>
+      <WagesSalariesAndTipsAmt>87333</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1648</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3956</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">63138</BusinessIncomeAmt>
+      <TotalIncomeAmt>156076</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>129997</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12628</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28378</TotalDeductionsAmt>
+      <TaxableIncomeAmt>101619</TaxableIncomeAmt>
+      <TaxAmt>17270</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17270</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8470</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8921</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8921</TotalOtherTaxesAmt>
+      <TotalTaxAmt>17391</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13973</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13973</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13973</TotalPaymentsAmt>
+      <AmountOwedAmt>3418</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8921</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8921</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1648</InterestAmt>
+      <TotalInterestAmt>1648</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3956</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3956</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <TipsDeduction>
+        <DeductionAmt>13563</DeductionAmt>
+      </TipsDeduction>
+      <OvertimeDeduction>
+        <DeductionAmt>8055</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>21618</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>81200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>81200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1181</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1290</CarAndTruckExpensesAmt>
+      <InsuranceAmt>937</InsuranceAmt>
+      <OfficeExpensesAmt>891</OfficeExpensesAmt>
+      <SuppliesAmt>992</SuppliesAmt>
+      <UtilitiesAmt>713</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10758</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16762</TotalExpensesAmt>
+      <NetProfitOrLossAmt>63138</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>63138</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>63138</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58308</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8921</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4461</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Benjamin Meza</ChildFirstAndLastName>
+        <ChildSSN>175996495</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Meza</ChildFirstAndLastName>
+        <ChildSSN>163942706</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Meza</ChildFirstAndLastName>
+        <ChildSSN>260063418</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Bianca Meza</ChildFirstAndLastName>
+        <ChildSSN>506452255</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>63138</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>63138</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12628</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1300</DepreciationAmt>
+      <TotalDepreciationAmt>1300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>788199154</EmployeeSSN>
+      <EmployerEIN>812787256</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9324 Brian Keys</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Meza</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9324 Brian Keys</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33139</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>87333</WagesAmt>
+      <WithholdingAmt>13973</WithholdingAmt>
+      <SocialSecurityWagesAmt>87333</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5415</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>87333</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1266</MedicareTaxWithheldAmt>
+      <SocialSecurityTipsAmt>14170</SocialSecurityTipsAmt>
+      <OvertimePayAmt>8663</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

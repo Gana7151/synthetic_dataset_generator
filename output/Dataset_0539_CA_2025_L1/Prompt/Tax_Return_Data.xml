@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1966-12-17</PrimaryBirthDt>
+      <SpouseBirthDt>1958-07-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>77195</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>28230</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>771954029</PrimarySSN>
+      <SpouseSSN>282302762</SpouseSSN>
+      <NameLine1Txt>Stephen Snyder</NameLine1Txt>
+      <SpouseNameLine1Txt>Michael Snyder</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>STEP</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9083 KIM STATION</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>282302762</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Nicole</DependentFirstNm>
+        <DependentLastNm>Snyder</DependentLastNm>
+        <DependentNameControlTxt>NICO</DependentNameControlTxt>
+        <DependentSSN>500261345</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">74400</WagesAmt>
+      <WagesSalariesAndTipsAmt>74400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>74400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>74400</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>42900</TaxableIncomeAmt>
+      <TaxAmt>4671</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4671</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2471</TaxLessCreditsAmt>
+      <TotalTaxAmt>2471</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8928</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8928</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8928</TotalPaymentsAmt>
+      <OverpaidAmt>6457</OverpaidAmt>
+      <RefundAmt>6457</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicole Snyder</ChildFirstAndLastName>
+        <ChildSSN>500261345</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>771954029</EmployeeSSN>
+      <EmployerEIN>615832683</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7188 Gary Garden</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephen Snyder</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7188 Gary Garden</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74400</WagesAmt>
+      <WithholdingAmt>8928</WithholdingAmt>
+      <SocialSecurityWagesAmt>74400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4613</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1079</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>818</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

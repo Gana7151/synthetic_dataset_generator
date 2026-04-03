@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-02-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>35505</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>355052866</PrimarySSN>
+      <NameLine1Txt>Terri Alexander</NameLine1Txt>
+      <PrimaryNameControlTxt>TERR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8073 THOMPSON LOOP</AddressLine1Txt>
+        <CityNm>ROCKFORD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Peggy</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>PEGG</DependentNameControlTxt>
+        <DependentSSN>517073908</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>843618538</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kristin</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>623645076</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>523894111</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">94200</WagesAmt>
+      <WagesSalariesAndTipsAmt>94200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1018</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1841</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40459</BusinessIncomeAmt>
+      <TotalIncomeAmt>137519</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>134661</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8092</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>21042</TotalDeductionsAmt>
+      <TaxableIncomeAmt>113619</TaxableIncomeAmt>
+      <TaxAmt>21104</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>21104</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>13104</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5717</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5717</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18821</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>15072</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>15072</WithholdingTaxAmt>
+      <TotalPaymentsAmt>15072</TotalPaymentsAmt>
+      <AmountOwedAmt>3749</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5717</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5717</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1018</InterestAmt>
+      <TotalInterestAmt>1018</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1841</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1841</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Alexander's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>ALEX</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>64400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>64400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1398</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1821</CarAndTruckExpensesAmt>
+      <InsuranceAmt>788</InsuranceAmt>
+      <OfficeExpensesAmt>1635</OfficeExpensesAmt>
+      <SuppliesAmt>1035</SuppliesAmt>
+      <UtilitiesAmt>809</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11655</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>19141</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40459</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40459</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40459</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>37364</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5717</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2858</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Peggy Alexander</ChildFirstAndLastName>
+        <ChildSSN>517073908</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Alexander</ChildFirstAndLastName>
+        <ChildSSN>843618538</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kristin Alexander</ChildFirstAndLastName>
+        <ChildSSN>623645076</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Alexander</ChildFirstAndLastName>
+        <ChildSSN>523894111</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40459</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40459</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8092</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Alexander's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>355052866</EmployeeSSN>
+      <EmployerEIN>722477673</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6939 Foster Mountain</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Terri Alexander</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6939 Foster Mountain</AddressLine1Txt>
+        <CityNm>Springfield</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>94200</WagesAmt>
+      <WithholdingAmt>15072</WithholdingAmt>
+      <SocialSecurityWagesAmt>94200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5840</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>94200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1366</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

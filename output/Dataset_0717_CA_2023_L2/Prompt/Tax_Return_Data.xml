@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>2001-07-27</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>60654</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>606543639</PrimarySSN>
+      <NameLine1Txt>Thomas Walker</NameLine1Txt>
+      <PrimaryNameControlTxt>THOM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7624 WILLIAMS VILLAGE</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>415319415</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">86500</WagesAmt>
+      <WagesSalariesAndTipsAmt>86500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">221</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1223</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">16146</BusinessIncomeAmt>
+      <TotalIncomeAmt>104090</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>102949</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">3229</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17079</TotalDeductionsAmt>
+      <TaxableIncomeAmt>85870</TaxableIncomeAmt>
+      <TaxAmt>14199</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>14199</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>12199</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2281</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2281</TotalOtherTaxesAmt>
+      <TotalTaxAmt>14480</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13840</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13840</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13840</TotalPaymentsAmt>
+      <AmountOwedAmt>640</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2281</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2281</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>221</InterestAmt>
+      <TotalInterestAmt>221</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1223</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1223</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>20200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>20200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>472</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>51</CarAndTruckExpensesAmt>
+      <InsuranceAmt>130</InsuranceAmt>
+      <OfficeExpensesAmt>258</OfficeExpensesAmt>
+      <SuppliesAmt>223</SuppliesAmt>
+      <UtilitiesAmt>110</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>2810</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>4054</TotalExpensesAmt>
+      <NetProfitOrLossAmt>16146</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>16146</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>16146</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>14911</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2281</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1141</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Walker</ChildFirstAndLastName>
+        <ChildSSN>415319415</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>16146</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>16146</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>3229</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>606543639</EmployeeSSN>
+      <EmployerEIN>713993634</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3234 Jackson Street</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Thomas Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3234 Jackson Street</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>86500</WagesAmt>
+      <WithholdingAmt>13840</WithholdingAmt>
+      <SocialSecurityWagesAmt>86500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5363</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>86500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1254</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>952</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

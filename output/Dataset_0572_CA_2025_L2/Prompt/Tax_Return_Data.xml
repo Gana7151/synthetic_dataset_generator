@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-02-03</PrimaryBirthDt>
+      <SpouseBirthDt>1981-11-21</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>39006</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>58033</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>390064150</PrimarySSN>
+      <SpouseSSN>580336078</SpouseSSN>
+      <NameLine1Txt>Patricia Silva</NameLine1Txt>
+      <SpouseNameLine1Txt>Jose Silva</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>PATR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JOSE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2474 MICHELLE HARBORS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>580336078</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Gloria</DependentFirstNm>
+        <DependentLastNm>Silva</DependentLastNm>
+        <DependentNameControlTxt>GLOR</DependentNameControlTxt>
+        <DependentSSN>583095085</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Elizabeth</DependentFirstNm>
+        <DependentLastNm>Silva</DependentLastNm>
+        <DependentNameControlTxt>ELIZ</DependentNameControlTxt>
+        <DependentSSN>839806310</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tammy</DependentFirstNm>
+        <DependentLastNm>Silva</DependentLastNm>
+        <DependentNameControlTxt>TAMM</DependentNameControlTxt>
+        <DependentSSN>790716239</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">52500</WagesAmt>
+      <WagesSalariesAndTipsAmt>52500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">388</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1963</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24759</BusinessIncomeAmt>
+      <TotalIncomeAmt>79610</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>77861</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4952</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36452</TotalDeductionsAmt>
+      <TaxableIncomeAmt>41409</TaxableIncomeAmt>
+      <TaxAmt>4492</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4492</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4492</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4492</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3498</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3498</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3498</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6300</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6300</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6300</TotalPaymentsAmt>
+      <OverpaidAmt>2802</OverpaidAmt>
+      <RefundAmt>2802</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3498</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3498</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>388</InterestAmt>
+      <TotalInterestAmt>388</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1963</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1963</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Silva's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SILV</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>32100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>32100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>765</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>16</CarAndTruckExpensesAmt>
+      <InsuranceAmt>351</InsuranceAmt>
+      <OfficeExpensesAmt>442</OfficeExpensesAmt>
+      <SuppliesAmt>412</SuppliesAmt>
+      <UtilitiesAmt>356</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4999</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7341</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24759</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24759</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24759</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22865</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3498</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1749</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Gloria Silva</ChildFirstAndLastName>
+        <ChildSSN>583095085</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Elizabeth Silva</ChildFirstAndLastName>
+        <ChildSSN>839806310</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tammy Silva</ChildFirstAndLastName>
+        <ChildSSN>790716239</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4492</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4492</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24759</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24759</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4952</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>580336078</EmployeeSSN>
+      <EmployerEIN>871652787</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>139 Evan Lights</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jose Silva</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>139 Evan Lights</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>52500</WagesAmt>
+      <WithholdingAmt>6300</WithholdingAmt>
+      <SocialSecurityWagesAmt>52500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3255</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>52500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>761</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>578</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

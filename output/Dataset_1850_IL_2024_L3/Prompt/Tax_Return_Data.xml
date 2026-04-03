@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1972-11-20</PrimaryBirthDt>
+      <SpouseBirthDt>1974-04-15</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>48322</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>53042</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>483226971</PrimarySSN>
+      <SpouseSSN>530422318</SpouseSSN>
+      <NameLine1Txt>Alicia Harrington</NameLine1Txt>
+      <SpouseNameLine1Txt>Sandra Harrington</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ALIC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SAND</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5081 JENNIFER FIELDS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>530422318</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ronald</DependentFirstNm>
+        <DependentLastNm>Harrington</DependentLastNm>
+        <DependentNameControlTxt>RONA</DependentNameControlTxt>
+        <DependentSSN>519093163</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Timothy</DependentFirstNm>
+        <DependentLastNm>Harrington</DependentLastNm>
+        <DependentNameControlTxt>TIMO</DependentNameControlTxt>
+        <DependentSSN>586915504</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Harrington</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>610058036</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Harrington</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>684650174</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">223200</WagesAmt>
+      <WagesSalariesAndTipsAmt>223200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2132</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3248</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">62994</BusinessIncomeAmt>
+      <TotalIncomeAmt>291574</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>290730</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12599</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41799</TotalDeductionsAmt>
+      <TaxableIncomeAmt>248931</TaxableIncomeAmt>
+      <TaxAmt>45829</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>45829</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>37829</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1687</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1687</TotalOtherTaxesAmt>
+      <TotalTaxAmt>39798</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>33084</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>33084</WithholdingTaxAmt>
+      <TotalPaymentsAmt>33084</TotalPaymentsAmt>
+      <AmountOwedAmt>6714</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1687</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1687</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2132</InterestAmt>
+      <TotalInterestAmt>2132</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3248</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3248</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>87200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>87200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2505</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>132</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1222</InsuranceAmt>
+      <OfficeExpensesAmt>1408</OfficeExpensesAmt>
+      <SuppliesAmt>2504</SuppliesAmt>
+      <UtilitiesAmt>1051</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15384</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24206</TotalExpensesAmt>
+      <NetProfitOrLossAmt>62994</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>62994</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>62994</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>58175</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1687</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>844</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ronald Harrington</ChildFirstAndLastName>
+        <ChildSSN>519093163</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Timothy Harrington</ChildFirstAndLastName>
+        <ChildSSN>586915504</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Harrington</ChildFirstAndLastName>
+        <ChildSSN>610058036</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Harrington</ChildFirstAndLastName>
+        <ChildSSN>684650174</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>62994</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>62994</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12599</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>483226971</EmployeeSSN>
+      <EmployerEIN>231263617</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9963 Luis Light</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alicia Harrington</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9963 Luis Light</AddressLine1Txt>
+        <CityNm>Peoria</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>65700</WagesAmt>
+      <WithholdingAmt>7884</WithholdingAmt>
+      <SocialSecurityWagesAmt>65700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4073</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>65700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>953</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>530422318</EmployeeSSN>
+      <EmployerEIN>277535444</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3973 Garcia View</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sandra Harrington</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3973 Garcia View</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60657</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>157500</WagesAmt>
+      <WithholdingAmt>25200</WithholdingAmt>
+      <SocialSecurityWagesAmt>157500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9765</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>157500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2284</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

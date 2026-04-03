@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1981-02-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37519</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>375195726</PrimarySSN>
+      <NameLine1Txt>Laura Porter</NameLine1Txt>
+      <PrimaryNameControlTxt>LAUR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6783 RICHARD PLAZA</AddressLine1Txt>
+        <CityNm>DALLAS</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ronald</DependentFirstNm>
+        <DependentLastNm>Porter</DependentLastNm>
+        <DependentNameControlTxt>RONA</DependentNameControlTxt>
+        <DependentSSN>483231505</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">44845</WagesAmt>
+      <WagesSalariesAndTipsAmt>44845</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1450</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4370</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">46824</BusinessIncomeAmt>
+      <TotalIncomeAmt>97490</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>90937</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>23625</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9365</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32990</TotalDeductionsAmt>
+      <TaxableIncomeAmt>57947</TaxableIncomeAmt>
+      <TaxAmt>6614</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6614</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4414</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6616</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6616</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11030</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5381</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5381</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5381</TotalPaymentsAmt>
+      <AmountOwedAmt>5649</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6616</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6616</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1450</InterestAmt>
+      <TotalInterestAmt>1450</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4370</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4370</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>3245</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>3245</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>63500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>63500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1907</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>141</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1277</InsuranceAmt>
+      <OfficeExpensesAmt>681</OfficeExpensesAmt>
+      <SuppliesAmt>1661</SuppliesAmt>
+      <UtilitiesAmt>709</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10300</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16676</TotalExpensesAmt>
+      <NetProfitOrLossAmt>46824</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>46824</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>46824</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>43242</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6616</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3308</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ronald Porter</ChildFirstAndLastName>
+        <ChildSSN>483231505</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>46824</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>46824</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9365</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>375195726</EmployeeSSN>
+      <EmployerEIN>123166166</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6528 Griffin Crest</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Laura Porter</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6528 Griffin Crest</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>44845</WagesAmt>
+      <WithholdingAmt>5381</WithholdingAmt>
+      <SocialSecurityWagesAmt>44845</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2780</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>44845</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>650</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>3245</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

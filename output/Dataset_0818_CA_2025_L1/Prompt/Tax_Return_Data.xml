@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1967-05-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>11866</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>118668134</PrimarySSN>
+      <NameLine1Txt>Monique Thomas</NameLine1Txt>
+      <PrimaryNameControlTxt>MONI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4984 BARKER PASSAGE</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">36200</WagesAmt>
+      <WagesSalariesAndTipsAmt>36200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>36200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>36200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>15750</TotalDeductionsAmt>
+      <TaxableIncomeAmt>20450</TaxableIncomeAmt>
+      <TaxAmt>2216</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2216</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2216</TaxLessCreditsAmt>
+      <TotalTaxAmt>2216</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2896</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2896</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2896</TotalPaymentsAmt>
+      <OverpaidAmt>680</OverpaidAmt>
+      <RefundAmt>680</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>118668134</EmployeeSSN>
+      <EmployerEIN>636114907</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7141 Stephanie Plains</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Monique Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7141 Stephanie Plains</AddressLine1Txt>
+        <CityNm>San Jose</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>36200</WagesAmt>
+      <WithholdingAmt>2896</WithholdingAmt>
+      <SocialSecurityWagesAmt>36200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2244</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>36200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>525</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>398</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

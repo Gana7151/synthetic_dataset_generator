@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-12-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>62012</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>620129545</PrimarySSN>
+      <NameLine1Txt>Kaitlyn Robertson</NameLine1Txt>
+      <PrimaryNameControlTxt>KAIT</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2314 KIM PORT</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Emily</DependentFirstNm>
+        <DependentLastNm>Robertson</DependentLastNm>
+        <DependentNameControlTxt>EMIL</DependentNameControlTxt>
+        <DependentSSN>782494348</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kristopher</DependentFirstNm>
+        <DependentLastNm>Robertson</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>286070882</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">157700</WagesAmt>
+      <WagesSalariesAndTipsAmt>157700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">850</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">571</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">92883</BusinessIncomeAmt>
+      <TotalIncomeAmt>252004</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>250760</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18577</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37977</TotalDeductionsAmt>
+      <TaxableIncomeAmt>212783</TaxableIncomeAmt>
+      <TaxAmt>46823</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1500</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1500</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>46823</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>45323</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2488</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2488</TotalOtherTaxesAmt>
+      <TotalTaxAmt>48202</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>25232</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>25232</WithholdingTaxAmt>
+      <TotalPaymentsAmt>25232</TotalPaymentsAmt>
+      <AmountOwedAmt>22970</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2488</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2488</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>850</InterestAmt>
+      <TotalInterestAmt>850</TotalInterestAmt>
+      <OrdinaryDividendsAmt>571</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>571</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>125900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>125900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2080</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4918</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2557</InsuranceAmt>
+      <OfficeExpensesAmt>2151</OfficeExpensesAmt>
+      <SuppliesAmt>3585</SuppliesAmt>
+      <UtilitiesAmt>806</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16920</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>33017</TotalExpensesAmt>
+      <NetProfitOrLossAmt>92883</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>92883</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>92883</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>85777</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2488</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1244</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emily Robertson</ChildFirstAndLastName>
+        <ChildSSN>782494348</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kristopher Robertson</ChildFirstAndLastName>
+        <ChildSSN>286070882</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1500</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1500</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>92883</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>92883</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18577</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>620129545</EmployeeSSN>
+      <EmployerEIN>279118816</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2822 Jacqueline Corner</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kaitlyn Robertson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2822 Jacqueline Corner</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>157700</WagesAmt>
+      <WithholdingAmt>25232</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>157700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2287</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

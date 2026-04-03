@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-03-26</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24368</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>243680107</PrimarySSN>
+      <NameLine1Txt>Noah Miller</NameLine1Txt>
+      <PrimaryNameControlTxt>NOAH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6699 TRICIA WELL</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Dwayne</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>DWAY</DependentNameControlTxt>
+        <DependentSSN>795500686</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ian</DependentFirstNm>
+        <DependentLastNm>Miller</DependentLastNm>
+        <DependentNameControlTxt>IAN</DependentNameControlTxt>
+        <DependentSSN>173696108</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">165900</WagesAmt>
+      <WagesSalariesAndTipsAmt>165900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2106</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">893</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">30744</BusinessIncomeAmt>
+      <TotalIncomeAmt>199643</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>199231</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6149</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19099</TotalDeductionsAmt>
+      <TaxableIncomeAmt>180132</TaxableIncomeAmt>
+      <TaxAmt>37874</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>37874</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>33874</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">823</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>823</TotalOtherTaxesAmt>
+      <TotalTaxAmt>34697</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>36498</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>36498</WithholdingTaxAmt>
+      <TotalPaymentsAmt>36498</TotalPaymentsAmt>
+      <OverpaidAmt>1801</OverpaidAmt>
+      <RefundAmt>1801</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">823</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>823</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2106</InterestAmt>
+      <TotalInterestAmt>2106</TotalInterestAmt>
+      <OrdinaryDividendsAmt>893</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>893</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>43100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>43100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1026</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1479</CarAndTruckExpensesAmt>
+      <InsuranceAmt>590</InsuranceAmt>
+      <OfficeExpensesAmt>601</OfficeExpensesAmt>
+      <SuppliesAmt>1097</SuppliesAmt>
+      <UtilitiesAmt>448</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7115</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12356</TotalExpensesAmt>
+      <NetProfitOrLossAmt>30744</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>30744</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>30744</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>28392</SEBaseAmt>
+      <SelfEmploymentTaxAmt>823</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>412</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dwayne Miller</ChildFirstAndLastName>
+        <ChildSSN>795500686</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ian Miller</ChildFirstAndLastName>
+        <ChildSSN>173696108</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>30744</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>30744</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6149</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>243680107</EmployeeSSN>
+      <EmployerEIN>645730731</EmployerEIN>
+      <EmployerNameControlTxt>LONE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lone Star Medical Center</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4074 Kathleen Row</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Noah Miller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4074 Kathleen Row</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75225</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>165900</WagesAmt>
+      <WithholdingAmt>36498</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>165900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2406</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

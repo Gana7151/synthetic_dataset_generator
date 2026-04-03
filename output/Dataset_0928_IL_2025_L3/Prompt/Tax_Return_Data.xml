@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1977-04-19</PrimaryBirthDt>
+      <SpouseBirthDt>1979-11-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>77381</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>48113</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>773812137</PrimarySSN>
+      <SpouseSSN>481138187</SpouseSSN>
+      <NameLine1Txt>Alyssa Zamora</NameLine1Txt>
+      <SpouseNameLine1Txt>David Zamora</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ALYS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DAVI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4840 MICHAEL CLIFF</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>481138187</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Steven</DependentFirstNm>
+        <DependentLastNm>Zamora</DependentLastNm>
+        <DependentNameControlTxt>STEV</DependentNameControlTxt>
+        <DependentSSN>813937150</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">90481</WagesAmt>
+      <WagesSalariesAndTipsAmt>90481</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">853</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1573</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54750</BusinessIncomeAmt>
+      <TotalIncomeAmt>147657</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>133108</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10950</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>42450</TotalDeductionsAmt>
+      <TaxableIncomeAmt>90658</TaxableIncomeAmt>
+      <TaxAmt>10402</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10402</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8202</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7736</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7736</TotalOtherTaxesAmt>
+      <TotalTaxAmt>15938</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14477</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14477</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14477</TotalPaymentsAmt>
+      <AmountOwedAmt>1461</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7736</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7736</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>853</InterestAmt>
+      <TotalInterestAmt>853</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1573</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1573</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>10681</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>10681</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>83100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>83100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3074</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3084</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2139</InsuranceAmt>
+      <OfficeExpensesAmt>1434</OfficeExpensesAmt>
+      <SuppliesAmt>2879</SuppliesAmt>
+      <UtilitiesAmt>1299</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14441</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28350</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54750</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54750</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54750</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>50562</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7736</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3868</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Steven Zamora</ChildFirstAndLastName>
+        <ChildSSN>813937150</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54750</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54750</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10950</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>773812137</EmployeeSSN>
+      <EmployerEIN>663627742</EmployerEIN>
+      <EmployerNameControlTxt>LAKE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lakeside Medical Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6362 Rodriguez Fords</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alyssa Zamora</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6362 Rodriguez Fords</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>90481</WagesAmt>
+      <WithholdingAmt>14477</WithholdingAmt>
+      <SocialSecurityWagesAmt>90481</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5610</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>90481</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1312</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>10681</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

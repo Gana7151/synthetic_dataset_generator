@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1975-11-14</PrimaryBirthDt>
+      <SpouseBirthDt>1974-03-17</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81837</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>22702</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>818371848</PrimarySSN>
+      <SpouseSSN>227025543</SpouseSSN>
+      <NameLine1Txt>Sara Thomas</NameLine1Txt>
+      <SpouseNameLine1Txt>Abigail Thomas</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SARA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ABIG</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>977 FRANCISCO SPURS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>227025543</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sherri</DependentFirstNm>
+        <DependentLastNm>Thomas</DependentLastNm>
+        <DependentNameControlTxt>SHER</DependentNameControlTxt>
+        <DependentSSN>754341184</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Thomas</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>263310540</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Adam</DependentFirstNm>
+        <DependentLastNm>Thomas</DependentLastNm>
+        <DependentNameControlTxt>ADAM</DependentNameControlTxt>
+        <DependentSSN>308026149</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sabrina</DependentFirstNm>
+        <DependentLastNm>Thomas</DependentLastNm>
+        <DependentNameControlTxt>SABR</DependentNameControlTxt>
+        <DependentSSN>285440572</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">264600</WagesAmt>
+      <WagesSalariesAndTipsAmt>264600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2547</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1605</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">87109</BusinessIncomeAmt>
+      <TotalIncomeAmt>355861</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>354695</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17422</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>43322</TotalDeductionsAmt>
+      <TaxableIncomeAmt>311373</TaxableIncomeAmt>
+      <TaxAmt>62400</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>62400</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>54400</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2333</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2333</TotalOtherTaxesAmt>
+      <TotalTaxAmt>57589</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>52686</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>52686</WithholdingTaxAmt>
+      <TotalPaymentsAmt>52686</TotalPaymentsAmt>
+      <AmountOwedAmt>4903</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2333</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2333</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2547</InterestAmt>
+      <TotalInterestAmt>2547</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1605</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1605</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Thomas's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>THOM</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>120400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>120400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3983</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2743</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1470</InsuranceAmt>
+      <OfficeExpensesAmt>3253</OfficeExpensesAmt>
+      <SuppliesAmt>2176</SuppliesAmt>
+      <UtilitiesAmt>1682</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17984</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>33291</TotalExpensesAmt>
+      <NetProfitOrLossAmt>87109</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>87109</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>87109</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>80445</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2333</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1166</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sherri Thomas</ChildFirstAndLastName>
+        <ChildSSN>754341184</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Thomas</ChildFirstAndLastName>
+        <ChildSSN>263310540</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Adam Thomas</ChildFirstAndLastName>
+        <ChildSSN>308026149</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sabrina Thomas</ChildFirstAndLastName>
+        <ChildSSN>285440572</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>87109</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>87109</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17422</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>818371848</EmployeeSSN>
+      <EmployerEIN>659818360</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6214 Kathleen Glen</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sara Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6214 Kathleen Glen</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>92100</WagesAmt>
+      <WithholdingAmt>14736</WithholdingAmt>
+      <SocialSecurityWagesAmt>92100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5710</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>92100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1335</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1013</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>227025543</EmployeeSSN>
+      <EmployerEIN>763511829</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2835 West Alley</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Abigail Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2835 West Alley</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>172500</WagesAmt>
+      <WithholdingAmt>37950</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>172500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2501</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1602</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

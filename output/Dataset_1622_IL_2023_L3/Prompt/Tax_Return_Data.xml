@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1994-07-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50492</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>504922208</PrimarySSN>
+      <NameLine1Txt>Michael Johnson</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2028 MILES VILLAGE</AddressLine1Txt>
+        <CityNm>ROCKFORD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Nicholas</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>NICH</DependentNameControlTxt>
+        <DependentSSN>551626287</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">76000</WagesAmt>
+      <WagesSalariesAndTipsAmt>76000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">585</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">232</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">71680</BusinessIncomeAmt>
+      <TotalIncomeAmt>148496</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>143432</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14336</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28186</TotalDeductionsAmt>
+      <TaxableIncomeAmt>115246</TaxableIncomeAmt>
+      <TaxAmt>21059</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>21059</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>19059</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10128</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10128</TotalOtherTaxesAmt>
+      <TotalTaxAmt>29187</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9120</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9120</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9120</TotalPaymentsAmt>
+      <AmountOwedAmt>20067</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10128</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10128</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>585</InterestAmt>
+      <TotalInterestAmt>585</TotalInterestAmt>
+      <OrdinaryDividendsAmt>232</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>232</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>92000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>92000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1290</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1665</CarAndTruckExpensesAmt>
+      <InsuranceAmt>825</InsuranceAmt>
+      <OfficeExpensesAmt>1356</OfficeExpensesAmt>
+      <SuppliesAmt>1137</SuppliesAmt>
+      <UtilitiesAmt>979</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13068</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>20320</TotalExpensesAmt>
+      <NetProfitOrLossAmt>71680</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>71680</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>71680</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>66196</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10128</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5064</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicholas Johnson</ChildFirstAndLastName>
+        <ChildSSN>551626287</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>71680</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>71680</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14336</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>504922208</EmployeeSSN>
+      <EmployerEIN>914675081</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3905 Cory Corner</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3905 Cory Corner</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>76000</WagesAmt>
+      <WithholdingAmt>9120</WithholdingAmt>
+      <SocialSecurityWagesAmt>76000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4712</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>76000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1102</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

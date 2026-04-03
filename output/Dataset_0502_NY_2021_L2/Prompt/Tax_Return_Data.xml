@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1963-11-13</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>31617</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>316176700</PrimarySSN>
+      <NameLine1Txt>Jacob Lewis</NameLine1Txt>
+      <PrimaryNameControlTxt>JACO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1060 AMY SUMMIT</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Melissa</DependentFirstNm>
+        <DependentLastNm>Lewis</DependentLastNm>
+        <DependentNameControlTxt>MELI</DependentNameControlTxt>
+        <DependentSSN>525205844</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dale</DependentFirstNm>
+        <DependentLastNm>Lewis</DependentLastNm>
+        <DependentNameControlTxt>DALE</DependentNameControlTxt>
+        <DependentSSN>232277817</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">58000</WagesAmt>
+      <WagesSalariesAndTipsAmt>58000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">120</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">649</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">61287</BusinessIncomeAmt>
+      <TotalIncomeAmt>120056</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>115726</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">12257</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24807</TotalDeductionsAmt>
+      <TaxableIncomeAmt>90919</TaxableIncomeAmt>
+      <TaxAmt>15842</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>15842</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11242</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">8660</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>8660</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19901</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6960</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6960</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6960</TotalPaymentsAmt>
+      <AmountOwedAmt>12941</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">8660</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>8660</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>120</InterestAmt>
+      <TotalInterestAmt>120</TotalInterestAmt>
+      <OrdinaryDividendsAmt>649</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>649</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>79200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>79200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>939</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>500</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1213</InsuranceAmt>
+      <OfficeExpensesAmt>1137</OfficeExpensesAmt>
+      <SuppliesAmt>1011</SuppliesAmt>
+      <UtilitiesAmt>581</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10932</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16313</TotalExpensesAmt>
+      <NetProfitOrLossAmt>61287</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>61287</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>61287</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>56599</SEBaseAmt>
+      <SelfEmploymentTaxAmt>8660</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4330</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Melissa Lewis</ChildFirstAndLastName>
+        <ChildSSN>525205844</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dale Lewis</ChildFirstAndLastName>
+        <ChildSSN>232277817</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>61287</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>61287</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>12257</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1600</DepreciationAmt>
+      <TotalDepreciationAmt>1600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>316176700</EmployeeSSN>
+      <EmployerEIN>655208251</EmployerEIN>
+      <EmployerNameControlTxt>LIBE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Liberty Transport Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5612 Deborah Union</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jacob Lewis</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5612 Deborah Union</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>58000</WagesAmt>
+      <WithholdingAmt>6960</WithholdingAmt>
+      <SocialSecurityWagesAmt>58000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3596</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>58000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>841</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

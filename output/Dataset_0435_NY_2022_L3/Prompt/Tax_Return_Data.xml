@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1995-08-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>13721</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>137216440</PrimarySSN>
+      <NameLine1Txt>Barbara Washington</NameLine1Txt>
+      <PrimaryNameControlTxt>BARB</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4841 AMY PARK</AddressLine1Txt>
+        <CityNm>WHITE PLAINS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Larry</DependentFirstNm>
+        <DependentLastNm>Washington</DependentLastNm>
+        <DependentNameControlTxt>LARR</DependentNameControlTxt>
+        <DependentSSN>171726977</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">180600</WagesAmt>
+      <WagesSalariesAndTipsAmt>180600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1763</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1199</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">102987</BusinessIncomeAmt>
+      <TotalIncomeAmt>286549</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>285170</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">20597</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>33547</TotalDeductionsAmt>
+      <TaxableIncomeAmt>251623</TaxableIncomeAmt>
+      <TaxAmt>61821</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>61821</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>61821</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2758</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2758</TotalOtherTaxesAmt>
+      <TotalTaxAmt>65261</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>39732</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>39732</WithholdingTaxAmt>
+      <TotalPaymentsAmt>39732</TotalPaymentsAmt>
+      <AmountOwedAmt>25529</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2758</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2758</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1763</InterestAmt>
+      <TotalInterestAmt>1763</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1199</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1199</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>140000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>140000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2369</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>806</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2070</InsuranceAmt>
+      <OfficeExpensesAmt>3475</OfficeExpensesAmt>
+      <SuppliesAmt>3565</SuppliesAmt>
+      <UtilitiesAmt>1639</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23089</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>37013</TotalExpensesAmt>
+      <NetProfitOrLossAmt>102987</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>102987</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>102987</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>95108</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2758</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1379</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>102987</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>102987</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>20597</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>137216440</EmployeeSSN>
+      <EmployerEIN>229706832</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2126 Leah Point</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Barbara Washington</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2126 Leah Point</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>180600</WagesAmt>
+      <WithholdingAmt>39732</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>180600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2619</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-10-25</PrimaryBirthDt>
+      <SpouseBirthDt>1979-08-15</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>33483</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>69953</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>334838423</PrimarySSN>
+      <SpouseSSN>699530662</SpouseSSN>
+      <NameLine1Txt>Jay Salas</NameLine1Txt>
+      <SpouseNameLine1Txt>Victoria Salas</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JAY</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>VICT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4762 HAYDEN MOTORWAY</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>699530662</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Rebecca</DependentFirstNm>
+        <DependentLastNm>Salas</DependentLastNm>
+        <DependentNameControlTxt>REBE</DependentNameControlTxt>
+        <DependentSSN>190354918</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Natalie</DependentFirstNm>
+        <DependentLastNm>Salas</DependentLastNm>
+        <DependentNameControlTxt>NATA</DependentNameControlTxt>
+        <DependentSSN>234126718</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Norma</DependentFirstNm>
+        <DependentLastNm>Salas</DependentLastNm>
+        <DependentNameControlTxt>NORM</DependentNameControlTxt>
+        <DependentSSN>425317534</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">95870</WagesAmt>
+      <WagesSalariesAndTipsAmt>95870</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">230</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1949</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">40633</BusinessIncomeAmt>
+      <TotalIncomeAmt>138681</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>122482</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8127</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>39627</TotalDeductionsAmt>
+      <TaxableIncomeAmt>82855</TaxableIncomeAmt>
+      <TaxAmt>9466</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9466</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2866</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5741</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5741</TotalOtherTaxesAmt>
+      <TotalTaxAmt>8607</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>15339</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>15339</WithholdingTaxAmt>
+      <TotalPaymentsAmt>15339</TotalPaymentsAmt>
+      <OverpaidAmt>6732</OverpaidAmt>
+      <RefundAmt>6732</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5741</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5741</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>230</InterestAmt>
+      <TotalInterestAmt>230</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1949</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1949</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>6870</DeductionAmt>
+      </OvertimeDeduction>
+      <CarLoanInterestDeduction>
+        <DeductionAmt>6459</DeductionAmt>
+        <VIN>5LABK49S4SB690041</VIN>
+      </CarLoanInterestDeduction>
+      <TotalSchedule1AAmt>13328</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>56900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>56900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>898</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1768</CarAndTruckExpensesAmt>
+      <InsuranceAmt>756</InsuranceAmt>
+      <OfficeExpensesAmt>1209</OfficeExpensesAmt>
+      <SuppliesAmt>965</SuppliesAmt>
+      <UtilitiesAmt>573</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5998</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12167</TotalExpensesAmt>
+      <NetProfitOrLossAmt>40633</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>40633</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>40633</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>37525</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5741</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2871</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Rebecca Salas</ChildFirstAndLastName>
+        <ChildSSN>190354918</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Natalie Salas</ChildFirstAndLastName>
+        <ChildSSN>234126718</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Norma Salas</ChildFirstAndLastName>
+        <ChildSSN>425317534</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>40633</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>40633</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8127</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4100</DepreciationAmt>
+      <TotalDepreciationAmt>4100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>334838423</EmployeeSSN>
+      <EmployerEIN>714814897</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3600 Williams Ford</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jay Salas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3600 Williams Ford</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>95870</WagesAmt>
+      <WithholdingAmt>15339</WithholdingAmt>
+      <SocialSecurityWagesAmt>95870</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5944</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>95870</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1390</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>6870</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

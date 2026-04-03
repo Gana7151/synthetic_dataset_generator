@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-07-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>26060</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>260604468</PrimarySSN>
+      <NameLine1Txt>Richard Patton</NameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4128 GUZMAN LOCKS</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">54400</WagesAmt>
+      <WagesSalariesAndTipsAmt>54400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1387</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1006</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">75688</BusinessIncomeAmt>
+      <TotalIncomeAmt>132481</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>127134</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">15138</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28088</TotalDeductionsAmt>
+      <TaxableIncomeAmt>99046</TaxableIncomeAmt>
+      <TaxAmt>17607</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17607</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>17607</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10694</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10694</TotalOtherTaxesAmt>
+      <TotalTaxAmt>28301</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6528</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6528</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6528</TotalPaymentsAmt>
+      <AmountOwedAmt>21773</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10694</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10694</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1387</InterestAmt>
+      <TotalInterestAmt>1387</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1006</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1006</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Patton's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PATT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>113900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>113900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2809</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1758</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2501</InsuranceAmt>
+      <OfficeExpensesAmt>3437</OfficeExpensesAmt>
+      <SuppliesAmt>3194</SuppliesAmt>
+      <UtilitiesAmt>761</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>20152</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34612</TotalExpensesAmt>
+      <NetProfitOrLossAmt>75688</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>75688</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>75688</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>69898</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10694</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5347</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>75688</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>75688</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>15138</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Patton's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3600</DepreciationAmt>
+      <TotalDepreciationAmt>3600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>260604468</EmployeeSSN>
+      <EmployerEIN>953895425</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8753 Rowe Station</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Patton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8753 Rowe Station</AddressLine1Txt>
+        <CityNm>Aurora</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>54400</WagesAmt>
+      <WithholdingAmt>6528</WithholdingAmt>
+      <SocialSecurityWagesAmt>54400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3373</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>54400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>789</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

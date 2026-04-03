@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-06-20</PrimaryBirthDt>
+      <SpouseBirthDt>1981-06-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85669</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>77869</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>856696045</PrimarySSN>
+      <SpouseSSN>778691450</SpouseSSN>
+      <NameLine1Txt>Susan Anderson</NameLine1Txt>
+      <SpouseNameLine1Txt>Ashley Anderson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SUSA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ASHL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1147 WASHINGTON SQUARES</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>778691450</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Richard</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>RICH</DependentNameControlTxt>
+        <DependentSSN>304360184</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">35800</WagesAmt>
+      <WagesSalariesAndTipsAmt>35800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">72</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>35872</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>35872</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>9972</TaxableIncomeAmt>
+      <TaxAmt>997</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">997</ChildTaxCreditAmt>
+      <TotalCreditsAmt>997</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>997</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2864</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2864</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2864</TotalPaymentsAmt>
+      <OverpaidAmt>2864</OverpaidAmt>
+      <RefundAmt>2864</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>72</InterestAmt>
+      <TotalInterestAmt>72</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Richard Anderson</ChildFirstAndLastName>
+        <ChildSSN>304360184</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>997</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>997</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>856696045</EmployeeSSN>
+      <EmployerEIN>647201652</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2636 Horne Curve</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Susan Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2636 Horne Curve</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>35800</WagesAmt>
+      <WithholdingAmt>2864</WithholdingAmt>
+      <SocialSecurityWagesAmt>35800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2220</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>35800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>519</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>394</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

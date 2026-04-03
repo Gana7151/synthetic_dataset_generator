@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1955-07-08</PrimaryBirthDt>
+      <SpouseBirthDt>1992-05-05</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>21026</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13235</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>210264625</PrimarySSN>
+      <SpouseSSN>132356227</SpouseSSN>
+      <NameLine1Txt>Christopher Lynch</NameLine1Txt>
+      <SpouseNameLine1Txt>Cindy Lynch</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHRI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CIND</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5844 GAY SPRING</AddressLine1Txt>
+        <CityNm>EVANSTON</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>132356227</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Whitney</DependentFirstNm>
+        <DependentLastNm>Lynch</DependentLastNm>
+        <DependentNameControlTxt>WHIT</DependentNameControlTxt>
+        <DependentSSN>479714637</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ann</DependentFirstNm>
+        <DependentLastNm>Lynch</DependentLastNm>
+        <DependentNameControlTxt>ANN</DependentNameControlTxt>
+        <DependentSSN>736093407</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">86100</WagesAmt>
+      <WagesSalariesAndTipsAmt>86100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">739</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">556</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">28376</BusinessIncomeAmt>
+      <TotalIncomeAmt>115772</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>113767</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5675</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34875</TotalDeductionsAmt>
+      <TaxableIncomeAmt>78892</TaxableIncomeAmt>
+      <TaxAmt>9003</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9003</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5003</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4009</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4009</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9012</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13776</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13776</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13776</TotalPaymentsAmt>
+      <OverpaidAmt>4764</OverpaidAmt>
+      <RefundAmt>4764</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4009</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4009</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>739</InterestAmt>
+      <TotalInterestAmt>739</TotalInterestAmt>
+      <OrdinaryDividendsAmt>556</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>556</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Lynch's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>LYNC</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>41100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>41100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1379</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>783</CarAndTruckExpensesAmt>
+      <InsuranceAmt>544</InsuranceAmt>
+      <OfficeExpensesAmt>923</OfficeExpensesAmt>
+      <SuppliesAmt>1039</SuppliesAmt>
+      <UtilitiesAmt>490</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7566</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12724</TotalExpensesAmt>
+      <NetProfitOrLossAmt>28376</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>28376</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>28376</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>26205</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4009</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2005</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Whitney Lynch</ChildFirstAndLastName>
+        <ChildSSN>479714637</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ann Lynch</ChildFirstAndLastName>
+        <ChildSSN>736093407</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>28376</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>28376</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5675</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>132356227</EmployeeSSN>
+      <EmployerEIN>137396034</EmployerEIN>
+      <EmployerNameControlTxt>PRAI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie Capital Advisors</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7128 Alexander Point</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Cindy Lynch</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7128 Alexander Point</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>86100</WagesAmt>
+      <WithholdingAmt>13776</WithholdingAmt>
+      <SocialSecurityWagesAmt>86100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5338</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>86100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1248</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

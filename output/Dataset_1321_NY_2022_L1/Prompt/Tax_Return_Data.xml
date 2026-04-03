@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-06-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>86965</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>869654623</PrimarySSN>
+      <NameLine1Txt>Mary Sawyer</NameLine1Txt>
+      <PrimaryNameControlTxt>MARY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9558 ROBERTSON TURNPIKE</AddressLine1Txt>
+        <CityNm>YONKERS</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">47100</WagesAmt>
+      <WagesSalariesAndTipsAmt>47100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>47100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>47100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12950</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>34150</TaxableIncomeAmt>
+      <TaxAmt>3892</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3892</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3892</TaxLessCreditsAmt>
+      <TotalTaxAmt>3892</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5652</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5652</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5652</TotalPaymentsAmt>
+      <OverpaidAmt>1760</OverpaidAmt>
+      <RefundAmt>1760</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>869654623</EmployeeSSN>
+      <EmployerEIN>247337340</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6063 Christopher Lakes</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mary Sawyer</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6063 Christopher Lakes</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>47100</WagesAmt>
+      <WithholdingAmt>5652</WithholdingAmt>
+      <SocialSecurityWagesAmt>47100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2920</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>47100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>683</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

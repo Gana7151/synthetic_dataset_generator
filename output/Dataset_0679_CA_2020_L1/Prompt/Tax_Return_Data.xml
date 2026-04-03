@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1967-11-27</PrimaryBirthDt>
+      <SpouseBirthDt>1973-01-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38869</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>80877</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>388699249</PrimarySSN>
+      <SpouseSSN>808770878</SpouseSSN>
+      <NameLine1Txt>Timothy Murphy</NameLine1Txt>
+      <SpouseNameLine1Txt>Julia Murphy</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TIMO</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JULI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4200 ANDREW SHOAL</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>808770878</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Murphy</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>591462964</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">42000</WagesAmt>
+      <WagesSalariesAndTipsAmt>42000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">477</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>42477</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>42477</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>17677</TaxableIncomeAmt>
+      <TaxAmt>1768</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">1768</ChildTaxCreditAmt>
+      <TotalCreditsAmt>1768</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1768</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5040</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5040</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5040</TotalPaymentsAmt>
+      <OverpaidAmt>5040</OverpaidAmt>
+      <RefundAmt>5040</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>477</InterestAmt>
+      <TotalInterestAmt>477</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Murphy</ChildFirstAndLastName>
+        <ChildSSN>591462964</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>1768</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>1768</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>808770878</EmployeeSSN>
+      <EmployerEIN>912707677</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5206 Joseph Burgs</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Julia Murphy</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5206 Joseph Burgs</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>42000</WagesAmt>
+      <WithholdingAmt>5040</WithholdingAmt>
+      <SocialSecurityWagesAmt>42000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2604</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>42000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>609</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>462</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

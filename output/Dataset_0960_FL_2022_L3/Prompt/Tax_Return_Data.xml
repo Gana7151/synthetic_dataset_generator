@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-02-11</PrimaryBirthDt>
+      <SpouseBirthDt>1958-12-07</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38664</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>40808</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>386641149</PrimarySSN>
+      <SpouseSSN>408082481</SpouseSSN>
+      <NameLine1Txt>Elizabeth Murphy</NameLine1Txt>
+      <SpouseNameLine1Txt>Chad Murphy</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ELIZ</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHAD</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6740 CONNIE VISTA</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>408082481</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Murphy</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>374994223</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Julie</DependentFirstNm>
+        <DependentLastNm>Murphy</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>211720413</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Carol</DependentFirstNm>
+        <DependentLastNm>Murphy</DependentLastNm>
+        <DependentNameControlTxt>CARO</DependentNameControlTxt>
+        <DependentSSN>253770805</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">291500</WagesAmt>
+      <WagesSalariesAndTipsAmt>291500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">559</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1413</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">94005</BusinessIncomeAmt>
+      <TotalIncomeAmt>387477</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>386218</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18801</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44701</TotalDeductionsAmt>
+      <TaxableIncomeAmt>341517</TaxableIncomeAmt>
+      <TaxAmt>69748</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>69748</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>63748</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2518</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2518</TotalOtherTaxesAmt>
+      <TotalTaxAmt>67421</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>57806</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>57806</WithholdingTaxAmt>
+      <TotalPaymentsAmt>57806</TotalPaymentsAmt>
+      <AmountOwedAmt>9615</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2518</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2518</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>559</InterestAmt>
+      <TotalInterestAmt>559</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1413</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1413</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>128300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>128300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3312</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4723</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1305</InsuranceAmt>
+      <OfficeExpensesAmt>1827</OfficeExpensesAmt>
+      <SuppliesAmt>1774</SuppliesAmt>
+      <UtilitiesAmt>913</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>19341</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>33195</TotalExpensesAmt>
+      <NetProfitOrLossAmt>94005</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>94005</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>94005</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>86814</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2518</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1259</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>William Murphy</ChildFirstAndLastName>
+        <ChildSSN>374994223</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julie Murphy</ChildFirstAndLastName>
+        <ChildSSN>211720413</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carol Murphy</ChildFirstAndLastName>
+        <ChildSSN>253770805</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>94005</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>94005</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18801</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1100</DepreciationAmt>
+      <TotalDepreciationAmt>1100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>386641149</EmployeeSSN>
+      <EmployerEIN>323149341</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9343 Burnett Expressway</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Elizabeth Murphy</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9343 Burnett Expressway</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>186100</WagesAmt>
+      <WithholdingAmt>40942</WithholdingAmt>
+      <SocialSecurityWagesAmt>147000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9114</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>186100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2698</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>408082481</EmployeeSSN>
+      <EmployerEIN>914393093</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>155 Olivia Shores</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Chad Murphy</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>155 Olivia Shores</AddressLine1Txt>
+        <CityNm>West Palm Beach</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>105400</WagesAmt>
+      <WithholdingAmt>16864</WithholdingAmt>
+      <SocialSecurityWagesAmt>105400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6535</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>105400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1528</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

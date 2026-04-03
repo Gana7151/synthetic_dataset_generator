@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-08-07</PrimaryBirthDt>
+      <SpouseBirthDt>1980-02-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50122</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>63875</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>501223904</PrimarySSN>
+      <SpouseSSN>638750306</SpouseSSN>
+      <NameLine1Txt>David Williams</NameLine1Txt>
+      <SpouseNameLine1Txt>Tyler Williams</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>DAVI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TYLE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7632 NANCY WELLS</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>638750306</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Daniel</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>DANI</DependentNameControlTxt>
+        <DependentSSN>468439830</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Aaron</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>AARO</DependentNameControlTxt>
+        <DependentSSN>424241415</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Mercedes</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>MERC</DependentNameControlTxt>
+        <DependentSSN>465788625</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">79000</WagesAmt>
+      <WagesSalariesAndTipsAmt>79000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">608</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1861</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">27972</BusinessIncomeAmt>
+      <TotalIncomeAmt>109441</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>107465</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5594</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>33294</TotalDeductionsAmt>
+      <TaxableIncomeAmt>74171</TaxableIncomeAmt>
+      <TaxAmt>8460</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8460</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2460</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3952</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3952</TotalOtherTaxesAmt>
+      <TotalTaxAmt>6413</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>9480</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>9480</WithholdingTaxAmt>
+      <TotalPaymentsAmt>9480</TotalPaymentsAmt>
+      <OverpaidAmt>3067</OverpaidAmt>
+      <RefundAmt>3067</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3952</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3952</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>608</InterestAmt>
+      <TotalInterestAmt>608</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1861</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1861</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Williams's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WILL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>991</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1135</CarAndTruckExpensesAmt>
+      <InsuranceAmt>364</InsuranceAmt>
+      <OfficeExpensesAmt>714</OfficeExpensesAmt>
+      <SuppliesAmt>509</SuppliesAmt>
+      <UtilitiesAmt>378</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>5137</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9228</TotalExpensesAmt>
+      <NetProfitOrLossAmt>27972</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>27972</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>27972</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>25832</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3952</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1976</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Daniel Williams</ChildFirstAndLastName>
+        <ChildSSN>468439830</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Aaron Williams</ChildFirstAndLastName>
+        <ChildSSN>424241415</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Mercedes Williams</ChildFirstAndLastName>
+        <ChildSSN>465788625</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>27972</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>27972</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5594</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Williams's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2500</DepreciationAmt>
+      <TotalDepreciationAmt>2500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>501223904</EmployeeSSN>
+      <EmployerEIN>243373500</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>466 Brian Manor</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>David Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>466 Brian Manor</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>79000</WagesAmt>
+      <WithholdingAmt>9480</WithholdingAmt>
+      <SocialSecurityWagesAmt>79000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4898</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>79000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1146</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

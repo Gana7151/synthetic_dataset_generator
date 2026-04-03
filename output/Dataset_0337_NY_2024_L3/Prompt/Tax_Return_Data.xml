@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-09-09</PrimaryBirthDt>
+      <SpouseBirthDt>1992-12-20</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>88436</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>87461</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>884363859</PrimarySSN>
+      <SpouseSSN>874610424</SpouseSSN>
+      <NameLine1Txt>Ryan Dixon</NameLine1Txt>
+      <SpouseNameLine1Txt>William Dixon</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RYAN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>WILL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9534 WILLIAM CLIFF</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>874610424</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Alison</DependentFirstNm>
+        <DependentLastNm>Dixon</DependentLastNm>
+        <DependentNameControlTxt>ALIS</DependentNameControlTxt>
+        <DependentSSN>762035938</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">348300</WagesAmt>
+      <WagesSalariesAndTipsAmt>348300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1691</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1030</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">99312</BusinessIncomeAmt>
+      <TotalIncomeAmt>450333</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>449003</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19862</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>49062</TotalDeductionsAmt>
+      <TaxableIncomeAmt>399941</TaxableIncomeAmt>
+      <TaxAmt>83354</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>83354</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>83354</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2660</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2660</TotalOtherTaxesAmt>
+      <TotalTaxAmt>87724</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>76626</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>76626</WithholdingTaxAmt>
+      <TotalPaymentsAmt>76626</TotalPaymentsAmt>
+      <AmountOwedAmt>11098</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2660</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2660</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1691</InterestAmt>
+      <TotalInterestAmt>1691</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1030</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1030</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Dixon's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIXO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>148100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>148100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>4514</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>5183</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3851</InsuranceAmt>
+      <OfficeExpensesAmt>4127</OfficeExpensesAmt>
+      <SuppliesAmt>2918</SuppliesAmt>
+      <UtilitiesAmt>2477</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>25718</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>48788</TotalExpensesAmt>
+      <NetProfitOrLossAmt>99312</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>99312</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>99312</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>91715</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2660</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1330</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>99312</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>99312</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19862</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>884363859</EmployeeSSN>
+      <EmployerEIN>813540061</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4095 Brad Ford</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ryan Dixon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4095 Brad Ford</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>177400</WagesAmt>
+      <WithholdingAmt>39028</WithholdingAmt>
+      <SocialSecurityWagesAmt>168600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10453</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>177400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2572</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>874610424</EmployeeSSN>
+      <EmployerEIN>306332319</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9644 Christine Fords</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>William Dixon</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9644 Christine Fords</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>170900</WagesAmt>
+      <WithholdingAmt>37598</WithholdingAmt>
+      <SocialSecurityWagesAmt>168600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10453</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>170900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2478</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

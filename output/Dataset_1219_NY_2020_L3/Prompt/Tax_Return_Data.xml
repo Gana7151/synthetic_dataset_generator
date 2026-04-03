@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1967-08-26</PrimaryBirthDt>
+      <SpouseBirthDt>1984-02-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29917</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>80487</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>299179155</PrimarySSN>
+      <SpouseSSN>804875975</SpouseSSN>
+      <NameLine1Txt>Jeremy Anderson</NameLine1Txt>
+      <SpouseNameLine1Txt>Jennifer Anderson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JERE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9321 BROWN PLAIN</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>804875975</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>818019160</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Nicholas</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>NICH</DependentNameControlTxt>
+        <DependentSSN>199192663</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dakota</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>DAKO</DependentNameControlTxt>
+        <DependentSSN>623888003</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Brett</DependentFirstNm>
+        <DependentLastNm>Anderson</DependentLastNm>
+        <DependentNameControlTxt>BRET</DependentNameControlTxt>
+        <DependentSSN>589862594</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">232100</WagesAmt>
+      <WagesSalariesAndTipsAmt>232100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2337</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">541</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85262</BusinessIncomeAmt>
+      <TotalIncomeAmt>320240</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>319098</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17052</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>41852</TotalDeductionsAmt>
+      <TaxableIncomeAmt>277246</TaxableIncomeAmt>
+      <TaxAmt>54698</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>54698</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>46698</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2283</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2283</TotalOtherTaxesAmt>
+      <TotalTaxAmt>49529</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>37136</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>37136</WithholdingTaxAmt>
+      <TotalPaymentsAmt>37136</TotalPaymentsAmt>
+      <AmountOwedAmt>12393</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2283</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2283</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2337</InterestAmt>
+      <TotalInterestAmt>2337</TotalInterestAmt>
+      <OrdinaryDividendsAmt>541</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>541</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>116100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>116100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3287</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1793</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1280</InsuranceAmt>
+      <OfficeExpensesAmt>2089</OfficeExpensesAmt>
+      <SuppliesAmt>2167</SuppliesAmt>
+      <UtilitiesAmt>912</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>17010</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28538</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85262</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85262</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85262</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>78739</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2283</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1142</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Anderson</ChildFirstAndLastName>
+        <ChildSSN>818019160</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicholas Anderson</ChildFirstAndLastName>
+        <ChildSSN>199192663</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dakota Anderson</ChildFirstAndLastName>
+        <ChildSSN>623888003</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brett Anderson</ChildFirstAndLastName>
+        <ChildSSN>589862594</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85262</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85262</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17052</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2300</DepreciationAmt>
+      <TotalDepreciationAmt>2300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>299179155</EmployeeSSN>
+      <EmployerEIN>102399902</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8243 Dawn Pines</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jeremy Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8243 Dawn Pines</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>150100</WagesAmt>
+      <WithholdingAmt>24016</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>150100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2176</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>804875975</EmployeeSSN>
+      <EmployerEIN>597994006</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7514 Joseph Hill</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jennifer Anderson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7514 Joseph Hill</AddressLine1Txt>
+        <CityNm>Brooklyn</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>82000</WagesAmt>
+      <WithholdingAmt>13120</WithholdingAmt>
+      <SocialSecurityWagesAmt>82000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5084</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>82000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1189</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

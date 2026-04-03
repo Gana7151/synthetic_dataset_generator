@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-12-08</PrimaryBirthDt>
+      <SpouseBirthDt>1972-06-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24418</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>22031</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>244186458</PrimarySSN>
+      <SpouseSSN>220313538</SpouseSSN>
+      <NameLine1Txt>Scott Walker</NameLine1Txt>
+      <SpouseNameLine1Txt>Crystal Walker</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>SCOT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CRYS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2933 JERRY REST</AddressLine1Txt>
+        <CityNm>ALBANY</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>220313538</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Sarah</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>SARA</DependentNameControlTxt>
+        <DependentSSN>704208775</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lauren</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>LAUR</DependentNameControlTxt>
+        <DependentSSN>535326501</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">129400</WagesAmt>
+      <WagesSalariesAndTipsAmt>129400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">206</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">372</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37952</BusinessIncomeAmt>
+      <TotalIncomeAmt>167930</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>165249</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7590</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36790</TotalDeductionsAmt>
+      <TaxableIncomeAmt>128459</TaxableIncomeAmt>
+      <TaxAmt>18367</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18367</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14367</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5362</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5362</TotalOtherTaxesAmt>
+      <TotalTaxAmt>19729</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19044</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19044</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19044</TotalPaymentsAmt>
+      <AmountOwedAmt>685</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5362</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5362</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>206</InterestAmt>
+      <TotalInterestAmt>206</TotalInterestAmt>
+      <OrdinaryDividendsAmt>372</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>372</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Walker's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WALK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>55900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>55900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1126</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1107</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1051</InsuranceAmt>
+      <OfficeExpensesAmt>986</OfficeExpensesAmt>
+      <SuppliesAmt>1756</SuppliesAmt>
+      <UtilitiesAmt>546</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11376</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17948</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37952</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37952</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37952</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>35049</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5362</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2681</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sarah Walker</ChildFirstAndLastName>
+        <ChildSSN>704208775</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lauren Walker</ChildFirstAndLastName>
+        <ChildSSN>535326501</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37952</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37952</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7590</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>244186458</EmployeeSSN>
+      <EmployerEIN>628474016</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2806 Hoffman Mews</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Scott Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2806 Hoffman Mews</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>87900</WagesAmt>
+      <WithholdingAmt>14064</WithholdingAmt>
+      <SocialSecurityWagesAmt>87900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5450</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>87900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1275</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>220313538</EmployeeSSN>
+      <EmployerEIN>534676156</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1717 Daniels Harbors</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Crystal Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1717 Daniels Harbors</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>41500</WagesAmt>
+      <WithholdingAmt>4980</WithholdingAmt>
+      <SocialSecurityWagesAmt>41500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2573</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>41500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>602</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

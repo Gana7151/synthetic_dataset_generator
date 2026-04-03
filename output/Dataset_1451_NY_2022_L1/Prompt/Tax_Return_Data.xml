@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1964-06-28</PrimaryBirthDt>
+      <SpouseBirthDt>1988-04-28</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>51447</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>49594</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>514471255</PrimarySSN>
+      <SpouseSSN>495944762</SpouseSSN>
+      <NameLine1Txt>Traci Ruiz</NameLine1Txt>
+      <SpouseNameLine1Txt>Leslie Ruiz</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TRAC</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LESL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8363 ZAMORA POINTS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>495944762</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">69100</WagesAmt>
+      <WagesSalariesAndTipsAmt>69100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>69100</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>69100</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25900</TotalDeductionsAmt>
+      <TaxableIncomeAmt>43200</TaxableIncomeAmt>
+      <TaxAmt>4773</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4773</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4773</TaxLessCreditsAmt>
+      <TotalTaxAmt>4773</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8292</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8292</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8292</TotalPaymentsAmt>
+      <OverpaidAmt>3519</OverpaidAmt>
+      <RefundAmt>3519</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>495944762</EmployeeSSN>
+      <EmployerEIN>846792585</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7272 Summer Ranch</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Leslie Ruiz</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7272 Summer Ranch</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>69100</WagesAmt>
+      <WithholdingAmt>8292</WithholdingAmt>
+      <SocialSecurityWagesAmt>69100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4284</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>69100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1002</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1995-04-24</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>72950</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>729509554</PrimarySSN>
+      <NameLine1Txt>Gary Moore</NameLine1Txt>
+      <PrimaryNameControlTxt>GARY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>624 HOWELL CRESCENT</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">51900</WagesAmt>
+      <WagesSalariesAndTipsAmt>51900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">300</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>52200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>52200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>37600</TaxableIncomeAmt>
+      <TaxAmt>4280</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4280</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4280</TaxLessCreditsAmt>
+      <TotalTaxAmt>4280</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6228</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6228</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6228</TotalPaymentsAmt>
+      <OverpaidAmt>1948</OverpaidAmt>
+      <RefundAmt>1948</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>300</InterestAmt>
+      <TotalInterestAmt>300</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>729509554</EmployeeSSN>
+      <EmployerEIN>108193166</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5521 Bennett Mountain</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Gary Moore</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5521 Bennett Mountain</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>51900</WagesAmt>
+      <WithholdingAmt>6228</WithholdingAmt>
+      <SocialSecurityWagesAmt>51900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3218</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>51900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>753</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>571</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

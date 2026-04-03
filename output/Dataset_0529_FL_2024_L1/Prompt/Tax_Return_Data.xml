@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1970-08-03</PrimaryBirthDt>
+      <SpouseBirthDt>1983-09-16</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>22851</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>18138</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>228516032</PrimarySSN>
+      <SpouseSSN>181381282</SpouseSSN>
+      <NameLine1Txt>Chad Salazar</NameLine1Txt>
+      <SpouseNameLine1Txt>Sheena Salazar</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHAD</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>SHEE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8205 LOWE RAPIDS</AddressLine1Txt>
+        <CityNm>JACKSONVILLE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>181381282</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">53000</WagesAmt>
+      <WagesSalariesAndTipsAmt>53000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>53000</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>53000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>23800</TaxableIncomeAmt>
+      <TaxAmt>2392</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>2392</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2392</TaxLessCreditsAmt>
+      <TotalTaxAmt>2392</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6360</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6360</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6360</TotalPaymentsAmt>
+      <OverpaidAmt>3968</OverpaidAmt>
+      <RefundAmt>3968</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>181381282</EmployeeSSN>
+      <EmployerEIN>546277548</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9605 Roth Fort</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Sheena Salazar</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9605 Roth Fort</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>53000</WagesAmt>
+      <WithholdingAmt>6360</WithholdingAmt>
+      <SocialSecurityWagesAmt>53000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3286</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>53000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>768</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

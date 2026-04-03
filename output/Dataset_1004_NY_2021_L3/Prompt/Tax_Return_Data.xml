@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-07-18</PrimaryBirthDt>
+      <SpouseBirthDt>1972-01-23</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>81961</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>84655</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>819610869</PrimarySSN>
+      <SpouseSSN>846556090</SpouseSSN>
+      <NameLine1Txt>Christine Reid</NameLine1Txt>
+      <SpouseNameLine1Txt>Michael Reid</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CHRI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1689 CLARK VIADUCT</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>846556090</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Reginald</DependentFirstNm>
+        <DependentLastNm>Reid</DependentLastNm>
+        <DependentNameControlTxt>REGI</DependentNameControlTxt>
+        <DependentSSN>223625235</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christina</DependentFirstNm>
+        <DependentLastNm>Reid</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>677880388</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">230600</WagesAmt>
+      <WagesSalariesAndTipsAmt>230600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">313</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1074</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">79014</BusinessIncomeAmt>
+      <TotalIncomeAmt>311001</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>309943</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">15803</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>40903</TotalDeductionsAmt>
+      <TaxableIncomeAmt>269040</TaxableIncomeAmt>
+      <TaxAmt>52612</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>52612</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>52612</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2116</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2116</TotalOtherTaxesAmt>
+      <TotalTaxAmt>55210</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>44022</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>44022</WithholdingTaxAmt>
+      <TotalPaymentsAmt>44022</TotalPaymentsAmt>
+      <AmountOwedAmt>11188</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2116</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2116</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>313</InterestAmt>
+      <TotalInterestAmt>313</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1074</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1074</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>101900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>101900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1449</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>52</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1172</InsuranceAmt>
+      <OfficeExpensesAmt>2107</OfficeExpensesAmt>
+      <SuppliesAmt>1540</SuppliesAmt>
+      <UtilitiesAmt>553</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16013</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22886</TotalExpensesAmt>
+      <NetProfitOrLossAmt>79014</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>79014</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>79014</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>72969</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2116</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1058</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>79014</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>79014</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>15803</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>819610869</EmployeeSSN>
+      <EmployerEIN>624056570</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4802 Dennis Alley</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Christine Reid</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4802 Dennis Alley</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>67100</WagesAmt>
+      <WithholdingAmt>8052</WithholdingAmt>
+      <SocialSecurityWagesAmt>67100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4160</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>67100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>973</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>846556090</EmployeeSSN>
+      <EmployerEIN>749977274</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9023 Matthew Roads</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Reid</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9023 Matthew Roads</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>163500</WagesAmt>
+      <WithholdingAmt>35970</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>163500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2371</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

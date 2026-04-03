@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1974-06-12</PrimaryBirthDt>
+      <SpouseBirthDt>1961-02-09</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>83426</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>13545</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>834267308</PrimarySSN>
+      <SpouseSSN>135457989</SpouseSSN>
+      <NameLine1Txt>James Brown</NameLine1Txt>
+      <SpouseNameLine1Txt>Charles Brown</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JAME</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHAR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4673 THOMPSON LOAF</AddressLine1Txt>
+        <CityNm>ROCKFORD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>135457989</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>368393888</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Brown</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>581101609</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">319813</WagesAmt>
+      <WagesSalariesAndTipsAmt>319813</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1520</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">626</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">108571</BusinessIncomeAmt>
+      <TotalIncomeAmt>430530</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>429077</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">21714</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>53214</TotalDeductionsAmt>
+      <TaxableIncomeAmt>375863</TaxableIncomeAmt>
+      <TaxAmt>75901</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2950</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2950</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>75901</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>72951</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2908</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2908</TotalOtherTaxesAmt>
+      <TotalTaxAmt>77389</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>62168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>62168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>62168</TotalPaymentsAmt>
+      <AmountOwedAmt>15221</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2908</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2908</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1520</InterestAmt>
+      <TotalInterestAmt>1520</TotalInterestAmt>
+      <OrdinaryDividendsAmt>626</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>626</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>149300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>149300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2134</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4382</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3053</InsuranceAmt>
+      <OfficeExpensesAmt>3592</OfficeExpensesAmt>
+      <SuppliesAmt>4488</SuppliesAmt>
+      <UtilitiesAmt>907</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>22173</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>40729</TotalExpensesAmt>
+      <NetProfitOrLossAmt>108571</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>108571</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>108571</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>100265</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2908</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1454</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Brown</ChildFirstAndLastName>
+        <ChildSSN>368393888</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Brown</ChildFirstAndLastName>
+        <ChildSSN>581101609</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2950</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2950</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>108571</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>108571</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>21714</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>834267308</EmployeeSSN>
+      <EmployerEIN>861095734</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9100 Estrada Burg</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>James Brown</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9100 Estrada Burg</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>136513</WagesAmt>
+      <WithholdingAmt>21842</WithholdingAmt>
+      <SocialSecurityWagesAmt>136513</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8464</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>136513</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1979</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>8713</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>135457989</EmployeeSSN>
+      <EmployerEIN>322296315</EmployerEIN>
+      <EmployerNameControlTxt>GREA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Great Plains School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4456 Shepherd Causeway</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Charles Brown</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4456 Shepherd Causeway</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>183300</WagesAmt>
+      <WithholdingAmt>40326</WithholdingAmt>
+      <SocialSecurityWagesAmt>176100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>10918</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>183300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2658</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

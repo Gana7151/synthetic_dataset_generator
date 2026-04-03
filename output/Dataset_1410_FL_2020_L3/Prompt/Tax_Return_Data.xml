@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1971-02-15</PrimaryBirthDt>
+      <SpouseBirthDt>1979-12-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>59530</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>77576</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>595303674</PrimarySSN>
+      <SpouseSSN>775764580</SpouseSSN>
+      <NameLine1Txt>Richard Hodges</NameLine1Txt>
+      <SpouseNameLine1Txt>Jacob Hodges</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JACO</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4583 RIOS HIGHWAY</AddressLine1Txt>
+        <CityNm>FORT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>775764580</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Carlos</DependentFirstNm>
+        <DependentLastNm>Hodges</DependentLastNm>
+        <DependentNameControlTxt>CARL</DependentNameControlTxt>
+        <DependentSSN>244631787</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kathy</DependentFirstNm>
+        <DependentLastNm>Hodges</DependentLastNm>
+        <DependentNameControlTxt>KATH</DependentNameControlTxt>
+        <DependentSSN>349574116</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">232300</WagesAmt>
+      <WagesSalariesAndTipsAmt>232300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">928</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1206</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">93681</BusinessIncomeAmt>
+      <TotalIncomeAmt>328115</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>326860</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18736</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>43536</TotalDeductionsAmt>
+      <TaxableIncomeAmt>283324</TaxableIncomeAmt>
+      <TaxAmt>56157</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>56157</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>52157</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2509</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2509</TotalOtherTaxesAmt>
+      <TotalTaxAmt>55285</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>37168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>37168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>37168</TotalPaymentsAmt>
+      <AmountOwedAmt>18117</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2509</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2509</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>928</InterestAmt>
+      <TotalInterestAmt>928</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1206</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1206</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>DIGI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>140900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>140900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3252</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1636</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3535</InsuranceAmt>
+      <OfficeExpensesAmt>2632</OfficeExpensesAmt>
+      <SuppliesAmt>5285</SuppliesAmt>
+      <UtilitiesAmt>998</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>29881</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>47219</TotalExpensesAmt>
+      <NetProfitOrLossAmt>93681</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>93681</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>93681</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>86514</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2509</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1254</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Carlos Hodges</ChildFirstAndLastName>
+        <ChildSSN>244631787</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kathy Hodges</ChildFirstAndLastName>
+        <ChildSSN>349574116</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>93681</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>93681</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18736</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>595303674</EmployeeSSN>
+      <EmployerEIN>887885863</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5591 Smith Turnpike</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Hodges</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5591 Smith Turnpike</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>145600</WagesAmt>
+      <WithholdingAmt>23296</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>145600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2111</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>775764580</EmployeeSSN>
+      <EmployerEIN>871968485</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5350 Hammond Place</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jacob Hodges</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5350 Hammond Place</AddressLine1Txt>
+        <CityNm>Jacksonville</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32202</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>86700</WagesAmt>
+      <WithholdingAmt>13872</WithholdingAmt>
+      <SocialSecurityWagesAmt>86700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5375</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>86700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1257</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

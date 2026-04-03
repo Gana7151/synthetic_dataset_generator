@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-10-28</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>71465</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>714650148</PrimarySSN>
+      <NameLine1Txt>Danielle Gould</NameLine1Txt>
+      <PrimaryNameControlTxt>DANI</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2276 BROOKS BURGS</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kristin</DependentFirstNm>
+        <DependentLastNm>Gould</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>388904420</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Chelsea</DependentFirstNm>
+        <DependentLastNm>Gould</DependentLastNm>
+        <DependentNameControlTxt>CHEL</DependentNameControlTxt>
+        <DependentSSN>830213605</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">153300</WagesAmt>
+      <WagesSalariesAndTipsAmt>153300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1825</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">794</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">95105</BusinessIncomeAmt>
+      <TotalIncomeAmt>251023</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>249750</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">19021</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37821</TotalDeductionsAmt>
+      <TaxableIncomeAmt>211929</TaxableIncomeAmt>
+      <TaxAmt>47270</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>47270</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>47270</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2547</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2547</TotalOtherTaxesAmt>
+      <TotalTaxAmt>50187</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>24528</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>24528</WithholdingTaxAmt>
+      <TotalPaymentsAmt>24528</TotalPaymentsAmt>
+      <AmountOwedAmt>25659</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2547</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2547</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1825</InterestAmt>
+      <TotalInterestAmt>1825</TotalInterestAmt>
+      <OrdinaryDividendsAmt>794</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>794</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>123300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>123300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1252</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1961</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1286</InsuranceAmt>
+      <OfficeExpensesAmt>2223</OfficeExpensesAmt>
+      <SuppliesAmt>2579</SuppliesAmt>
+      <UtilitiesAmt>594</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15100</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24995</TotalExpensesAmt>
+      <NetProfitOrLossAmt>95105</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>95105</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>95105</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>87829</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2547</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1274</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>95105</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>95105</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>19021</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3200</DepreciationAmt>
+      <TotalDepreciationAmt>3200</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>714650148</EmployeeSSN>
+      <EmployerEIN>724298331</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1223 Brianna Union</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Danielle Gould</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1223 Brianna Union</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>153300</WagesAmt>
+      <WithholdingAmt>24528</WithholdingAmt>
+      <SocialSecurityWagesAmt>142800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8854</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>153300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2223</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

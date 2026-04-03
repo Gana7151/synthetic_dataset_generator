@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-11-28</PrimaryBirthDt>
+      <SpouseBirthDt>1993-02-28</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>85456</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>66881</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>854565154</PrimarySSN>
+      <SpouseSSN>668812632</SpouseSSN>
+      <NameLine1Txt>Natalie Keller</NameLine1Txt>
+      <SpouseNameLine1Txt>Cindy Keller</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>NATA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CIND</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>893 CASTANEDA PIKE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>668812632</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Austin</DependentFirstNm>
+        <DependentLastNm>Keller</DependentLastNm>
+        <DependentNameControlTxt>AUST</DependentNameControlTxt>
+        <DependentSSN>530391582</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Keller</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>580225547</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">60400</WagesAmt>
+      <WagesSalariesAndTipsAmt>60400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">250</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">650</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">45116</BusinessIncomeAmt>
+      <TotalIncomeAmt>106416</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>103228</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9023</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>34123</TotalDeductionsAmt>
+      <TaxableIncomeAmt>69105</TaxableIncomeAmt>
+      <TaxAmt>7895</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7895</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>695</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6375</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6375</TotalOtherTaxesAmt>
+      <TotalTaxAmt>7069</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7248</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7248</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7248</TotalPaymentsAmt>
+      <OverpaidAmt>179</OverpaidAmt>
+      <RefundAmt>179</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6375</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6375</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>250</InterestAmt>
+      <TotalInterestAmt>250</TotalInterestAmt>
+      <OrdinaryDividendsAmt>650</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>650</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>63800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>63800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1924</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>836</CarAndTruckExpensesAmt>
+      <InsuranceAmt>837</InsuranceAmt>
+      <OfficeExpensesAmt>690</OfficeExpensesAmt>
+      <SuppliesAmt>845</SuppliesAmt>
+      <UtilitiesAmt>440</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10512</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>16084</TotalExpensesAmt>
+      <NetProfitOrLossAmt>45116</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>45116</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>45116</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>41665</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6375</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3187</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Austin Keller</ChildFirstAndLastName>
+        <ChildSSN>530391582</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Keller</ChildFirstAndLastName>
+        <ChildSSN>580225547</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>45116</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>45116</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9023</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2600</DepreciationAmt>
+      <TotalDepreciationAmt>2600</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>854565154</EmployeeSSN>
+      <EmployerEIN>618050938</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5066 Smith Harbor</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Natalie Keller</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5066 Smith Harbor</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>60400</WagesAmt>
+      <WithholdingAmt>7248</WithholdingAmt>
+      <SocialSecurityWagesAmt>60400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3745</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>60400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>876</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>664</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-01-18</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>12265</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>122659709</PrimarySSN>
+      <NameLine1Txt>Paul Wright</NameLine1Txt>
+      <PrimaryNameControlTxt>PAUL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5491 COOPER ESTATE</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Kristin</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>KRIS</DependentNameControlTxt>
+        <DependentSSN>388791799</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kimberly</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>KIMB</DependentNameControlTxt>
+        <DependentSSN>164984031</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Wright</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>184027927</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">66000</WagesAmt>
+      <WagesSalariesAndTipsAmt>66000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">457</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">539</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33478</BusinessIncomeAmt>
+      <TotalIncomeAmt>100474</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>98109</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6696</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>19096</TotalDeductionsAmt>
+      <TaxableIncomeAmt>79013</TaxableIncomeAmt>
+      <TaxAmt>13173</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13173</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7173</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4730</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4730</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11903</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>7920</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>7920</WithholdingTaxAmt>
+      <TotalPaymentsAmt>7920</TotalPaymentsAmt>
+      <AmountOwedAmt>3983</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4730</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4730</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>457</InterestAmt>
+      <TotalInterestAmt>457</TotalInterestAmt>
+      <OrdinaryDividendsAmt>539</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>539</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Wright's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WRIG</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>55300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>55300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1797</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1907</CarAndTruckExpensesAmt>
+      <InsuranceAmt>788</InsuranceAmt>
+      <OfficeExpensesAmt>969</OfficeExpensesAmt>
+      <SuppliesAmt>1329</SuppliesAmt>
+      <UtilitiesAmt>894</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9338</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17022</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33478</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33478</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33478</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30917</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4730</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2365</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kristin Wright</ChildFirstAndLastName>
+        <ChildSSN>388791799</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kimberly Wright</ChildFirstAndLastName>
+        <ChildSSN>164984031</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Wright</ChildFirstAndLastName>
+        <ChildSSN>184027927</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33478</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33478</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6696</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Wright's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4800</DepreciationAmt>
+      <TotalDepreciationAmt>4800</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>122659709</EmployeeSSN>
+      <EmployerEIN>586059018</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8058 Steven Spur</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Paul Wright</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8058 Steven Spur</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>66000</WagesAmt>
+      <WithholdingAmt>7920</WithholdingAmt>
+      <SocialSecurityWagesAmt>66000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4092</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>66000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>957</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>726</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

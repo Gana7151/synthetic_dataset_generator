@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1998-06-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>63943</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>639430152</PrimarySSN>
+      <NameLine1Txt>Michelle Alexander</NameLine1Txt>
+      <PrimaryNameControlTxt>MICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6017 CALHOUN MEWS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Michael</DependentFirstNm>
+        <DependentLastNm>Alexander</DependentLastNm>
+        <DependentNameControlTxt>MICH</DependentNameControlTxt>
+        <DependentSSN>658308058</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">104400</WagesAmt>
+      <WagesSalariesAndTipsAmt>104400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1186</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1171</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">35491</BusinessIncomeAmt>
+      <TotalIncomeAmt>142248</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>139741</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7098</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>28998</TotalDeductionsAmt>
+      <TaxableIncomeAmt>110743</TaxableIncomeAmt>
+      <TaxAmt>17927</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17927</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15927</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5015</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5015</TotalOtherTaxesAmt>
+      <TotalTaxAmt>20942</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16704</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16704</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16704</TotalPaymentsAmt>
+      <AmountOwedAmt>4238</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5015</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5015</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1186</InterestAmt>
+      <TotalInterestAmt>1186</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1171</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1171</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>50600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>50600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1079</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2200</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1193</InsuranceAmt>
+      <OfficeExpensesAmt>985</OfficeExpensesAmt>
+      <SuppliesAmt>1654</SuppliesAmt>
+      <UtilitiesAmt>551</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7447</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15109</TotalExpensesAmt>
+      <NetProfitOrLossAmt>35491</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>35491</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>35491</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>32776</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5015</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2507</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Michael Alexander</ChildFirstAndLastName>
+        <ChildSSN>658308058</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>35491</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>35491</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7098</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>639430152</EmployeeSSN>
+      <EmployerEIN>669837623</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8972 Tina Drive</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michelle Alexander</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8972 Tina Drive</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>104400</WagesAmt>
+      <WithholdingAmt>16704</WithholdingAmt>
+      <SocialSecurityWagesAmt>104400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6473</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>104400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1514</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1148</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

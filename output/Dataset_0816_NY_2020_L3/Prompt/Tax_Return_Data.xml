@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1985-02-22</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>48990</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>489906151</PrimarySSN>
+      <NameLine1Txt>Richard Williams</NameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6672 DARLENE SHOAL</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>397372716</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Adam</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>ADAM</DependentNameControlTxt>
+        <DependentSSN>353497383</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Olivia</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>OLIV</DependentNameControlTxt>
+        <DependentSSN>365088624</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Nicole</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>NICO</DependentNameControlTxt>
+        <DependentSSN>423985818</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">146900</WagesAmt>
+      <WagesSalariesAndTipsAmt>146900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2212</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1133</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">91625</BusinessIncomeAmt>
+      <TotalIncomeAmt>241870</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>240643</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18325</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36975</TotalDeductionsAmt>
+      <TaxableIncomeAmt>203668</TaxableIncomeAmt>
+      <TaxAmt>44748</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>44748</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38748</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2454</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2454</TotalOtherTaxesAmt>
+      <TotalTaxAmt>41485</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23504</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23504</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23504</TotalPaymentsAmt>
+      <AmountOwedAmt>17981</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2454</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2454</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2212</InterestAmt>
+      <TotalInterestAmt>2212</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1133</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1133</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>119700</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>119700</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2486</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4188</CarAndTruckExpensesAmt>
+      <InsuranceAmt>904</InsuranceAmt>
+      <OfficeExpensesAmt>2180</OfficeExpensesAmt>
+      <SuppliesAmt>2427</SuppliesAmt>
+      <UtilitiesAmt>810</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>15080</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>28075</TotalExpensesAmt>
+      <NetProfitOrLossAmt>91625</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>91625</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>91625</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>84616</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2454</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1227</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Williams</ChildFirstAndLastName>
+        <ChildSSN>397372716</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Adam Williams</ChildFirstAndLastName>
+        <ChildSSN>353497383</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Olivia Williams</ChildFirstAndLastName>
+        <ChildSSN>365088624</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Nicole Williams</ChildFirstAndLastName>
+        <ChildSSN>423985818</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>91625</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>91625</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18325</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>489906151</EmployeeSSN>
+      <EmployerEIN>771600767</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8930 Murray Lake</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8930 Murray Lake</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>146900</WagesAmt>
+      <WithholdingAmt>23504</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>146900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2130</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

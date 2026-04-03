@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-07-05</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>25326</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>253268493</PrimarySSN>
+      <NameLine1Txt>Suzanne Stewart</NameLine1Txt>
+      <PrimaryNameControlTxt>SUZA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3236 ARIANA PARKWAYS</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ashlee</DependentFirstNm>
+        <DependentLastNm>Stewart</DependentLastNm>
+        <DependentNameControlTxt>ASHL</DependentNameControlTxt>
+        <DependentSSN>699497332</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">103200</WagesAmt>
+      <WagesSalariesAndTipsAmt>103200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">168</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1847</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">47995</BusinessIncomeAmt>
+      <TotalIncomeAmt>153210</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>149819</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9599</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25349</TotalDeductionsAmt>
+      <TaxableIncomeAmt>124470</TaxableIncomeAmt>
+      <TaxAmt>22720</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>22720</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>20520</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6781</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6781</TotalOtherTaxesAmt>
+      <TotalTaxAmt>27301</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16512</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16512</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16512</TotalPaymentsAmt>
+      <AmountOwedAmt>10789</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6781</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6781</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>168</InterestAmt>
+      <TotalInterestAmt>168</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1847</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1847</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>61600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>61600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1255</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1229</CarAndTruckExpensesAmt>
+      <InsuranceAmt>880</InsuranceAmt>
+      <OfficeExpensesAmt>1124</OfficeExpensesAmt>
+      <SuppliesAmt>1350</SuppliesAmt>
+      <UtilitiesAmt>593</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7174</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13605</TotalExpensesAmt>
+      <NetProfitOrLossAmt>47995</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>47995</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>47995</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>44323</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6781</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3391</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ashlee Stewart</ChildFirstAndLastName>
+        <ChildSSN>699497332</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>47995</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>47995</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9599</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>253268493</EmployeeSSN>
+      <EmployerEIN>552732179</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2480 Bryan Turnpike</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Suzanne Stewart</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2480 Bryan Turnpike</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>103200</WagesAmt>
+      <WithholdingAmt>16512</WithholdingAmt>
+      <SocialSecurityWagesAmt>103200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6398</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>103200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1496</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1993-02-11</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>42788</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>427880996</PrimarySSN>
+      <NameLine1Txt>John Parker</NameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2229 WILLIAM SKYWAY</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Darlene</DependentFirstNm>
+        <DependentLastNm>Parker</DependentLastNm>
+        <DependentNameControlTxt>DARL</DependentNameControlTxt>
+        <DependentSSN>450704291</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Katherine</DependentFirstNm>
+        <DependentLastNm>Parker</DependentLastNm>
+        <DependentNameControlTxt>KATH</DependentNameControlTxt>
+        <DependentSSN>113385445</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Marissa</DependentFirstNm>
+        <DependentLastNm>Parker</DependentLastNm>
+        <DependentNameControlTxt>MARI</DependentNameControlTxt>
+        <DependentSSN>662094640</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Dustin</DependentFirstNm>
+        <DependentLastNm>Parker</DependentLastNm>
+        <DependentNameControlTxt>DUST</DependentNameControlTxt>
+        <DependentSSN>408797554</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">133100</WagesAmt>
+      <WagesSalariesAndTipsAmt>133100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">786</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">849</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">25699</BusinessIncomeAmt>
+      <TotalIncomeAmt>160435</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>159489</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5140</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17690</TotalDeductionsAmt>
+      <TaxableIncomeAmt>141799</TaxableIncomeAmt>
+      <TaxAmt>28053</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">7800</ChildTaxCreditAmt>
+      <TotalCreditsAmt>7800</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>28053</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>20253</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1891</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1891</TotalOtherTaxesAmt>
+      <TotalTaxAmt>22144</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21296</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21296</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21296</TotalPaymentsAmt>
+      <AmountOwedAmt>848</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1891</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1891</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>786</InterestAmt>
+      <TotalInterestAmt>786</TotalInterestAmt>
+      <OrdinaryDividendsAmt>849</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>849</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Parker's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PARK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>42300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>42300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>990</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>851</CarAndTruckExpensesAmt>
+      <InsuranceAmt>694</InsuranceAmt>
+      <OfficeExpensesAmt>648</OfficeExpensesAmt>
+      <SuppliesAmt>728</SuppliesAmt>
+      <UtilitiesAmt>741</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7849</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12501</TotalExpensesAmt>
+      <NetProfitOrLossAmt>25699</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>25699</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>25699</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23733</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1891</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>946</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Darlene Parker</ChildFirstAndLastName>
+        <ChildSSN>450704291</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Katherine Parker</ChildFirstAndLastName>
+        <ChildSSN>113385445</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Marissa Parker</ChildFirstAndLastName>
+        <ChildSSN>662094640</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Dustin Parker</ChildFirstAndLastName>
+        <ChildSSN>408797554</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>7800</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>7800</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>25699</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>25699</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5140</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Parker's Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4100</DepreciationAmt>
+      <TotalDepreciationAmt>4100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>427880996</EmployeeSSN>
+      <EmployerEIN>719610536</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1660 Megan Branch</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John Parker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1660 Megan Branch</AddressLine1Txt>
+        <CityNm>San Diego</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>133100</WagesAmt>
+      <WithholdingAmt>21296</WithholdingAmt>
+      <SocialSecurityWagesAmt>133100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8252</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>133100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1930</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1411</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

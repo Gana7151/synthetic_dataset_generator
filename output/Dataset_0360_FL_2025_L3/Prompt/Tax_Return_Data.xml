@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1962-01-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>24678</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>246780346</PrimarySSN>
+      <NameLine1Txt>Alan Frost</NameLine1Txt>
+      <PrimaryNameControlTxt>ALAN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1841 HERNANDEZ HEIGHTS</AddressLine1Txt>
+        <CityNm>SARASOTA</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Johnny</DependentFirstNm>
+        <DependentLastNm>Frost</DependentLastNm>
+        <DependentNameControlTxt>JOHN</DependentNameControlTxt>
+        <DependentSSN>327781488</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Whitney</DependentFirstNm>
+        <DependentLastNm>Frost</DependentLastNm>
+        <DependentNameControlTxt>WHIT</DependentNameControlTxt>
+        <DependentSSN>603456123</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Frost</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>173543522</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">84126</WagesAmt>
+      <WagesSalariesAndTipsAmt>84126</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">818</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3900</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">67062</BusinessIncomeAmt>
+      <TotalIncomeAmt>155906</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>145133</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13412</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>29162</TotalDeductionsAmt>
+      <TaxableIncomeAmt>115971</TaxableIncomeAmt>
+      <TaxAmt>20680</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6600</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6600</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>20680</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>14080</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">9476</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>9476</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23556</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13460</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13460</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13460</TotalPaymentsAmt>
+      <AmountOwedAmt>10096</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">9476</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>9476</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>818</InterestAmt>
+      <TotalInterestAmt>818</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3900</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3900</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>6035</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>6035</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Frost's Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FROS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>101400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>101400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1910</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4880</CarAndTruckExpensesAmt>
+      <InsuranceAmt>2151</InsuranceAmt>
+      <OfficeExpensesAmt>2571</OfficeExpensesAmt>
+      <SuppliesAmt>2503</SuppliesAmt>
+      <UtilitiesAmt>1395</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18928</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>34338</TotalExpensesAmt>
+      <NetProfitOrLossAmt>67062</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>67062</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>67062</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>61932</SEBaseAmt>
+      <SelfEmploymentTaxAmt>9476</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>4738</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Johnny Frost</ChildFirstAndLastName>
+        <ChildSSN>327781488</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Whitney Frost</ChildFirstAndLastName>
+        <ChildSSN>603456123</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Frost</ChildFirstAndLastName>
+        <ChildSSN>173543522</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6600</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6600</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>67062</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>67062</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13412</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>246780346</EmployeeSSN>
+      <EmployerEIN>439032352</EmployerEIN>
+      <EmployerNameControlTxt>SUNS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sunshine Health Partners</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5615 Young Isle</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alan Frost</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5615 Young Isle</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84126</WagesAmt>
+      <WithholdingAmt>13460</WithholdingAmt>
+      <SocialSecurityWagesAmt>84126</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5216</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84126</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1220</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>6626</OvertimePayAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

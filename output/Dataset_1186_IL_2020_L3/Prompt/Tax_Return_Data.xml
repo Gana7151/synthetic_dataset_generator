@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-03-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>54154</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>541545831</PrimarySSN>
+      <NameLine1Txt>Linda Martinez</NameLine1Txt>
+      <PrimaryNameControlTxt>LIND</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9269 PATRICK VISTA</AddressLine1Txt>
+        <CityNm>NAPERVILLE</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60540</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Brent</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>BREN</DependentNameControlTxt>
+        <DependentSSN>888438101</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Glenn</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>GLEN</DependentNameControlTxt>
+        <DependentSSN>225086435</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Cody</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>CODY</DependentNameControlTxt>
+        <DependentSSN>291311242</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>102480696</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">162200</WagesAmt>
+      <WagesSalariesAndTipsAmt>162200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1433</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">849</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">69311</BusinessIncomeAmt>
+      <TotalIncomeAmt>233793</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>232865</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13862</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>26262</TotalDeductionsAmt>
+      <TaxableIncomeAmt>206603</TaxableIncomeAmt>
+      <TaxAmt>47128</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>47128</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>40728</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1856</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1856</TotalOtherTaxesAmt>
+      <TotalTaxAmt>42821</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>35684</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>35684</WithholdingTaxAmt>
+      <TotalPaymentsAmt>35684</TotalPaymentsAmt>
+      <AmountOwedAmt>7137</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1856</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1856</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1433</InterestAmt>
+      <TotalInterestAmt>1433</TotalInterestAmt>
+      <OrdinaryDividendsAmt>849</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>849</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>90500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>90500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1464</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2142</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1679</InsuranceAmt>
+      <OfficeExpensesAmt>1169</OfficeExpensesAmt>
+      <SuppliesAmt>2128</SuppliesAmt>
+      <UtilitiesAmt>1186</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>11421</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>21189</TotalExpensesAmt>
+      <NetProfitOrLossAmt>69311</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>69311</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>69311</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>64009</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1856</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>928</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brent Martinez</ChildFirstAndLastName>
+        <ChildSSN>888438101</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Glenn Martinez</ChildFirstAndLastName>
+        <ChildSSN>225086435</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cody Martinez</ChildFirstAndLastName>
+        <ChildSSN>291311242</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Martinez</ChildFirstAndLastName>
+        <ChildSSN>102480696</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>69311</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>69311</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13862</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>541545831</EmployeeSSN>
+      <EmployerEIN>874572918</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5238 Kristy Falls</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Linda Martinez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5238 Kristy Falls</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>162200</WagesAmt>
+      <WithholdingAmt>35684</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>162200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2352</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

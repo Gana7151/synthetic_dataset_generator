@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-10-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37545</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>375454884</PrimarySSN>
+      <NameLine1Txt>Jo Macdonald</NameLine1Txt>
+      <PrimaryNameControlTxt>JO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4813 HEIDI PLAINS</AddressLine1Txt>
+        <CityNm>MIAMI</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Macdonald</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>126515890</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">139200</WagesAmt>
+      <WagesSalariesAndTipsAmt>139200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">874</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">3632</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">90286</BusinessIncomeAmt>
+      <TotalIncomeAmt>233991</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>232299</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18057</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37457</TotalDeductionsAmt>
+      <TaxableIncomeAmt>194842</TaxableIncomeAmt>
+      <TaxAmt>41081</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>41081</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>40681</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3385</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3385</TotalOtherTaxesAmt>
+      <TotalTaxAmt>44270</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>22272</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>22272</WithholdingTaxAmt>
+      <TotalPaymentsAmt>22272</TotalPaymentsAmt>
+      <AmountOwedAmt>21998</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3385</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3385</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>874</InterestAmt>
+      <TotalInterestAmt>874</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3632</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3632</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>236118</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>HOME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Residential Remodeling</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>133500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>133500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2609</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1928</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1712</InsuranceAmt>
+      <OfficeExpensesAmt>2483</OfficeExpensesAmt>
+      <SuppliesAmt>2409</SuppliesAmt>
+      <UtilitiesAmt>1104</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>25969</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>38214</TotalExpensesAmt>
+      <NetProfitOrLossAmt>90286</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>90286</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>90286</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>83379</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3385</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1693</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Macdonald</ChildFirstAndLastName>
+        <ChildSSN>126515890</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>90286</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>90286</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18057</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Home Repair &amp; Maintenance</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>5000</DepreciationAmt>
+      <TotalDepreciationAmt>5000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>375454884</EmployeeSSN>
+      <EmployerEIN>376199245</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9986 Lori Causeway</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jo Macdonald</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9986 Lori Causeway</AddressLine1Txt>
+        <CityNm>St. Petersburg</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>139200</WagesAmt>
+      <WithholdingAmt>22272</WithholdingAmt>
+      <SocialSecurityWagesAmt>139200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8630</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>139200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2018</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

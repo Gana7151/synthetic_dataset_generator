@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1963-08-20</PrimaryBirthDt>
+      <SpouseBirthDt>1979-02-16</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>75346</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>63325</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>753464215</PrimarySSN>
+      <SpouseSSN>633259327</SpouseSSN>
+      <NameLine1Txt>Paula Roberts</NameLine1Txt>
+      <SpouseNameLine1Txt>Kristopher Roberts</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>PAUL</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KRIS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4154 JOSEPH UNIONS</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>633259327</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Allison</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>ALLI</DependentNameControlTxt>
+        <DependentSSN>836072981</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Sydney</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>SYDN</DependentNameControlTxt>
+        <DependentSSN>244143472</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jimmy</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>JIMM</DependentNameControlTxt>
+        <DependentSSN>549173035</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Roberts</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>723053376</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">355000</WagesAmt>
+      <WagesSalariesAndTipsAmt>355000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1525</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2320</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">88339</BusinessIncomeAmt>
+      <TotalIncomeAmt>447183</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>446000</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17668</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>42468</TotalDeductionsAmt>
+      <TaxableIncomeAmt>403532</TaxableIncomeAmt>
+      <TaxAmt>91161</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5700</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5700</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>91161</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>85461</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2366</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2366</TotalOtherTaxesAmt>
+      <TotalTaxAmt>89506</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>68776</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>68776</WithholdingTaxAmt>
+      <TotalPaymentsAmt>68776</TotalPaymentsAmt>
+      <AmountOwedAmt>20730</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2366</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2366</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1525</InterestAmt>
+      <TotalInterestAmt>1525</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2320</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2320</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>121000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>121000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3224</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>150</CarAndTruckExpensesAmt>
+      <InsuranceAmt>954</InsuranceAmt>
+      <OfficeExpensesAmt>3026</OfficeExpensesAmt>
+      <SuppliesAmt>2431</SuppliesAmt>
+      <UtilitiesAmt>1783</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18793</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>30361</TotalExpensesAmt>
+      <NetProfitOrLossAmt>88339</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>88339</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>88339</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>81581</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2366</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1183</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Allison Roberts</ChildFirstAndLastName>
+        <ChildSSN>836072981</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Sydney Roberts</ChildFirstAndLastName>
+        <ChildSSN>244143472</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jimmy Roberts</ChildFirstAndLastName>
+        <ChildSSN>549173035</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Roberts</ChildFirstAndLastName>
+        <ChildSSN>723053376</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5700</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5700</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>88339</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>88339</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17668</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2300</DepreciationAmt>
+      <TotalDepreciationAmt>2300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>753464215</EmployeeSSN>
+      <EmployerEIN>342304130</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3754 Brewer Field</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Paula Roberts</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3754 Brewer Field</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>199600</WagesAmt>
+      <WithholdingAmt>43912</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>199600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2894</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>633259327</EmployeeSSN>
+      <EmployerEIN>429969300</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5968 Tina Creek</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kristopher Roberts</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5968 Tina Creek</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>155400</WagesAmt>
+      <WithholdingAmt>24864</WithholdingAmt>
+      <SocialSecurityWagesAmt>137700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>8537</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>155400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2253</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

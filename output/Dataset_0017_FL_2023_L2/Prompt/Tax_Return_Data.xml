@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1990-05-26</PrimaryBirthDt>
+      <SpouseBirthDt>1968-02-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>46665</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>80239</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>466651739</PrimarySSN>
+      <SpouseSSN>802399938</SpouseSSN>
+      <NameLine1Txt>Richard Lawson</NameLine1Txt>
+      <SpouseNameLine1Txt>Jessica Lawson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>RICH</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JESS</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6573 FREDERICK MEADOW</AddressLine1Txt>
+        <CityNm>ST. PETERSBURG</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>802399938</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Robert</DependentFirstNm>
+        <DependentLastNm>Lawson</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>585218741</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kevin</DependentFirstNm>
+        <DependentLastNm>Lawson</DependentLastNm>
+        <DependentNameControlTxt>KEVI</DependentNameControlTxt>
+        <DependentSSN>749194884</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Kaitlyn</DependentFirstNm>
+        <DependentLastNm>Lawson</DependentLastNm>
+        <DependentNameControlTxt>KAIT</DependentNameControlTxt>
+        <DependentSSN>666722317</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">181000</WagesAmt>
+      <WagesSalariesAndTipsAmt>181000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">171</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">318</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">43900</BusinessIncomeAmt>
+      <TotalIncomeAmt>225388</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>224801</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8780</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36480</TotalDeductionsAmt>
+      <TaxableIncomeAmt>188321</TaxableIncomeAmt>
+      <TaxAmt>32046</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>32046</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>26046</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1176</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1176</TotalOtherTaxesAmt>
+      <TotalTaxAmt>27221</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>28960</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>28960</WithholdingTaxAmt>
+      <TotalPaymentsAmt>28960</TotalPaymentsAmt>
+      <OverpaidAmt>1739</OverpaidAmt>
+      <RefundAmt>1739</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1176</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1176</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>171</InterestAmt>
+      <TotalInterestAmt>171</TotalInterestAmt>
+      <OrdinaryDividendsAmt>318</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>318</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>71100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>71100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2686</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3475</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1236</InsuranceAmt>
+      <OfficeExpensesAmt>1700</OfficeExpensesAmt>
+      <SuppliesAmt>1639</SuppliesAmt>
+      <UtilitiesAmt>529</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12035</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>23300</TotalExpensesAmt>
+      <NetProfitOrLossAmt>43900</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>43900</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>43900</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>40542</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1176</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>588</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robert Lawson</ChildFirstAndLastName>
+        <ChildSSN>585218741</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kevin Lawson</ChildFirstAndLastName>
+        <ChildSSN>749194884</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Kaitlyn Lawson</ChildFirstAndLastName>
+        <ChildSSN>666722317</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>43900</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>43900</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8780</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3900</DepreciationAmt>
+      <TotalDepreciationAmt>3900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>466651739</EmployeeSSN>
+      <EmployerEIN>236111869</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3541 Gonzalez Summit</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Richard Lawson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3541 Gonzalez Summit</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>83700</WagesAmt>
+      <WithholdingAmt>13392</WithholdingAmt>
+      <SocialSecurityWagesAmt>83700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5189</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>83700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1214</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>802399938</EmployeeSSN>
+      <EmployerEIN>387923193</EmployerEIN>
+      <EmployerNameControlTxt>KEY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Key West Shipping Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8497 Hunter Lake</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Lawson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8497 Hunter Lake</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>97300</WagesAmt>
+      <WithholdingAmt>15568</WithholdingAmt>
+      <SocialSecurityWagesAmt>97300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6033</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>97300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1411</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

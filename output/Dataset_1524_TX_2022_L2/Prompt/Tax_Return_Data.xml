@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1968-01-24</PrimaryBirthDt>
+      <SpouseBirthDt>1973-06-01</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>61016</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>74974</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>610161204</PrimarySSN>
+      <SpouseSSN>749740500</SpouseSSN>
+      <NameLine1Txt>Bonnie Jones</NameLine1Txt>
+      <SpouseNameLine1Txt>Michele Jones</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BONN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2206 BALDWIN PATH</AddressLine1Txt>
+        <CityNm>AUSTIN</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>749740500</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Jones</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>418733032</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tracy</DependentFirstNm>
+        <DependentLastNm>Jones</DependentLastNm>
+        <DependentNameControlTxt>TRAC</DependentNameControlTxt>
+        <DependentSSN>739654537</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jennifer</DependentFirstNm>
+        <DependentLastNm>Jones</DependentLastNm>
+        <DependentNameControlTxt>JENN</DependentNameControlTxt>
+        <DependentSSN>820540289</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">116300</WagesAmt>
+      <WagesSalariesAndTipsAmt>116300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">208</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1457</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">26006</BusinessIncomeAmt>
+      <TotalIncomeAmt>143971</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>142133</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5201</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31101</TotalDeductionsAmt>
+      <TaxableIncomeAmt>111032</TaxableIncomeAmt>
+      <TaxAmt>15661</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>15661</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9661</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3675</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3675</TotalOtherTaxesAmt>
+      <TotalTaxAmt>13336</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18608</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18608</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18608</TotalPaymentsAmt>
+      <OverpaidAmt>5272</OverpaidAmt>
+      <RefundAmt>5272</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3675</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3675</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>208</InterestAmt>
+      <TotalInterestAmt>208</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1457</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1457</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Jones's Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>JONE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>39200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>39200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1536</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1513</CarAndTruckExpensesAmt>
+      <InsuranceAmt>501</InsuranceAmt>
+      <OfficeExpensesAmt>862</OfficeExpensesAmt>
+      <SuppliesAmt>1374</SuppliesAmt>
+      <UtilitiesAmt>527</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6881</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>13194</TotalExpensesAmt>
+      <NetProfitOrLossAmt>26006</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>26006</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>26006</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>24017</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3675</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1837</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Jones</ChildFirstAndLastName>
+        <ChildSSN>418733032</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tracy Jones</ChildFirstAndLastName>
+        <ChildSSN>739654537</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jennifer Jones</ChildFirstAndLastName>
+        <ChildSSN>820540289</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>26006</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>26006</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5201</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>749740500</EmployeeSSN>
+      <EmployerEIN>861984964</EmployerEIN>
+      <EmployerNameControlTxt>BLUE</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bluebonnet School District</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>601 Teresa Hills</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michele Jones</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>601 Teresa Hills</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>116300</WagesAmt>
+      <WithholdingAmt>18608</WithholdingAmt>
+      <SocialSecurityWagesAmt>116300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7211</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>116300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1686</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

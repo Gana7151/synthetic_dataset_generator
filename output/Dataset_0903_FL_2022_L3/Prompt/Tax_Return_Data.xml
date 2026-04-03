@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-03-04</PrimaryBirthDt>
+      <SpouseBirthDt>1969-03-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>89530</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>30484</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>895301403</PrimarySSN>
+      <SpouseSSN>304846728</SpouseSSN>
+      <NameLine1Txt>Claire Baker</NameLine1Txt>
+      <SpouseNameLine1Txt>Michael Baker</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>CLAI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MICH</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9466 JEFF BRIDGE</AddressLine1Txt>
+        <CityNm>NAPLES</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>304846728</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">112700</WagesAmt>
+      <WagesSalariesAndTipsAmt>112700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1834</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">4010</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">85862</BusinessIncomeAmt>
+      <TotalIncomeAmt>204406</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>201130</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17172</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>43072</TotalDeductionsAmt>
+      <TaxableIncomeAmt>158058</TaxableIncomeAmt>
+      <TaxAmt>26007</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>26007</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>26007</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6553</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6553</TotalOtherTaxesAmt>
+      <TotalTaxAmt>32559</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>18032</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>18032</WithholdingTaxAmt>
+      <TotalPaymentsAmt>18032</TotalPaymentsAmt>
+      <AmountOwedAmt>14527</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6553</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6553</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1834</InterestAmt>
+      <TotalInterestAmt>1834</TotalInterestAmt>
+      <OrdinaryDividendsAmt>4010</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>4010</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Baker's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>BAKE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>133200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>133200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3095</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3352</CarAndTruckExpensesAmt>
+      <InsuranceAmt>3293</InsuranceAmt>
+      <OfficeExpensesAmt>3745</OfficeExpensesAmt>
+      <SuppliesAmt>5380</SuppliesAmt>
+      <UtilitiesAmt>2448</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>23925</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>45238</TotalExpensesAmt>
+      <NetProfitOrLossAmt>85862</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>85862</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>85862</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>79294</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6553</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3276</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>85862</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>85862</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17172</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Baker's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2100</DepreciationAmt>
+      <TotalDepreciationAmt>2100</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>304846728</EmployeeSSN>
+      <EmployerEIN>841676860</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Coast Academy</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2269 Perez Corners</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Michael Baker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2269 Perez Corners</AddressLine1Txt>
+        <CityNm>Fort Lauderdale</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33301</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>112700</WagesAmt>
+      <WithholdingAmt>18032</WithholdingAmt>
+      <SocialSecurityWagesAmt>112700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6987</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>112700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1634</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

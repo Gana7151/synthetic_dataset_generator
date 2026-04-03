@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1980-02-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>28555</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>285559443</PrimarySSN>
+      <NameLine1Txt>Raymond Barry</NameLine1Txt>
+      <PrimaryNameControlTxt>RAYM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8772 WILLIAMS PLAINS</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">84200</WagesAmt>
+      <WagesSalariesAndTipsAmt>84200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>84200</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>84200</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>14600</TotalDeductionsAmt>
+      <TaxableIncomeAmt>69600</TaxableIncomeAmt>
+      <TaxAmt>10365</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>10365</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>10365</TaxLessCreditsAmt>
+      <TotalTaxAmt>10365</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>13472</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>13472</WithholdingTaxAmt>
+      <TotalPaymentsAmt>13472</TotalPaymentsAmt>
+      <OverpaidAmt>3107</OverpaidAmt>
+      <RefundAmt>3107</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>285559443</EmployeeSSN>
+      <EmployerEIN>423879587</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2159 Kristopher Wall</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Raymond Barry</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2159 Kristopher Wall</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>84200</WagesAmt>
+      <WithholdingAmt>13472</WithholdingAmt>
+      <SocialSecurityWagesAmt>84200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5220</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>84200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1221</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>926</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

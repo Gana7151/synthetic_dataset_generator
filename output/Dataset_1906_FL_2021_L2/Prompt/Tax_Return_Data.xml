@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1957-02-10</PrimaryBirthDt>
+      <SpouseBirthDt>1968-02-25</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>84856</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>36989</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>848568269</PrimarySSN>
+      <SpouseSSN>369894729</SpouseSSN>
+      <NameLine1Txt>Alexander Lamb</NameLine1Txt>
+      <SpouseNameLine1Txt>William Lamb</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ALEX</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>WILL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8643 PARKS RIVER</AddressLine1Txt>
+        <CityNm>WEST PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33401</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>369894729</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Melissa</DependentFirstNm>
+        <DependentLastNm>Lamb</DependentLastNm>
+        <DependentNameControlTxt>MELI</DependentNameControlTxt>
+        <DependentSSN>461115097</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">204800</WagesAmt>
+      <WagesSalariesAndTipsAmt>204800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">361</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1151</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37990</BusinessIncomeAmt>
+      <TotalIncomeAmt>244302</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>243793</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7598</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32698</TotalDeductionsAmt>
+      <TaxableIncomeAmt>211095</TaxableIncomeAmt>
+      <TaxAmt>38705</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>38705</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>38705</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1017</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1017</TotalOtherTaxesAmt>
+      <TotalTaxAmt>39722</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>32768</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>32768</WithholdingTaxAmt>
+      <TotalPaymentsAmt>32768</TotalPaymentsAmt>
+      <AmountOwedAmt>6954</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1017</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1017</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>361</InterestAmt>
+      <TotalInterestAmt>361</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1151</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1151</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Event Planning Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>561920</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>EVEN</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Convention Planning</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>58200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>58200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2217</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1930</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1151</InsuranceAmt>
+      <OfficeExpensesAmt>886</OfficeExpensesAmt>
+      <SuppliesAmt>2167</SuppliesAmt>
+      <UtilitiesAmt>920</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10939</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>20210</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37990</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37990</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37990</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>35084</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1017</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>509</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37990</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37990</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7598</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>848568269</EmployeeSSN>
+      <EmployerEIN>379966734</EmployerEIN>
+      <EmployerNameControlTxt>ATLA</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlantic Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4282 Aaron Shore</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alexander Lamb</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4282 Aaron Shore</AddressLine1Txt>
+        <CityNm>Sarasota</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34236</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>103400</WagesAmt>
+      <WithholdingAmt>16544</WithholdingAmt>
+      <SocialSecurityWagesAmt>103400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6411</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>103400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1499</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>369894729</EmployeeSSN>
+      <EmployerEIN>469219065</EmployerEIN>
+      <EmployerNameControlTxt>PALM</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Palm Harbor Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4770 Christian Plain</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>William Lamb</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4770 Christian Plain</AddressLine1Txt>
+        <CityNm>Naples</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>34102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>101400</WagesAmt>
+      <WithholdingAmt>16224</WithholdingAmt>
+      <SocialSecurityWagesAmt>101400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6287</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>101400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1470</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

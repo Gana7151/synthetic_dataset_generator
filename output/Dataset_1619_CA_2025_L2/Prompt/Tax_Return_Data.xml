@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1996-06-20</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>46415</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>464159208</PrimarySSN>
+      <NameLine1Txt>Martha Clark</NameLine1Txt>
+      <PrimaryNameControlTxt>MART</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8422 WAGNER OVERPASS</AddressLine1Txt>
+        <CityNm>SAN JOSE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95112</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Roberto</DependentFirstNm>
+        <DependentLastNm>Clark</DependentLastNm>
+        <DependentNameControlTxt>ROBE</DependentNameControlTxt>
+        <DependentSSN>868878571</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Veronica</DependentFirstNm>
+        <DependentLastNm>Clark</DependentLastNm>
+        <DependentNameControlTxt>VERO</DependentNameControlTxt>
+        <DependentSSN>295642723</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">51339</WagesAmt>
+      <WagesSalariesAndTipsAmt>51339</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">601</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1168</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">49328</BusinessIncomeAmt>
+      <TotalIncomeAmt>102436</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>90213</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9866</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>25616</TotalDeductionsAmt>
+      <TaxableIncomeAmt>64597</TaxableIncomeAmt>
+      <TaxAmt>9125</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4400</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4400</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9125</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4725</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6970</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6970</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11695</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6161</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6161</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6161</TotalPaymentsAmt>
+      <AmountOwedAmt>5534</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6970</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6970</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>601</InterestAmt>
+      <TotalInterestAmt>601</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1168</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1168</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <OvertimeDeduction>
+        <DeductionAmt>8739</DeductionAmt>
+      </OvertimeDeduction>
+      <TotalSchedule1AAmt>8739</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Clark's Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CLAR</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>74600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>74600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1870</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>165</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1921</InsuranceAmt>
+      <OfficeExpensesAmt>2446</OfficeExpensesAmt>
+      <SuppliesAmt>1933</SuppliesAmt>
+      <UtilitiesAmt>599</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16338</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>25272</TotalExpensesAmt>
+      <NetProfitOrLossAmt>49328</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>49328</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>49328</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>45554</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6970</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3485</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Roberto Clark</ChildFirstAndLastName>
+        <ChildSSN>868878571</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Veronica Clark</ChildFirstAndLastName>
+        <ChildSSN>295642723</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4400</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4400</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>49328</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>49328</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9866</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>464159208</EmployeeSSN>
+      <EmployerEIN>372147201</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>464 Adams Extension</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Martha Clark</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>464 Adams Extension</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>51339</WagesAmt>
+      <WithholdingAmt>6161</WithholdingAmt>
+      <SocialSecurityWagesAmt>51339</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3183</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>51339</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>744</MedicareTaxWithheldAmt>
+      <OvertimePayAmt>8739</OvertimePayAmt>
+      <StateDisabilityInsuranceAmt>565</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-11-09</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>75993</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>759930495</PrimarySSN>
+      <NameLine1Txt>Alex Wiggins</NameLine1Txt>
+      <PrimaryNameControlTxt>ALEX</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4214 BROOKS LANDING</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Stephen</DependentFirstNm>
+        <DependentLastNm>Wiggins</DependentLastNm>
+        <DependentNameControlTxt>STEP</DependentNameControlTxt>
+        <DependentSSN>644887555</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Matthew</DependentFirstNm>
+        <DependentLastNm>Wiggins</DependentLastNm>
+        <DependentNameControlTxt>MATT</DependentNameControlTxt>
+        <DependentSSN>889439925</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">100600</WagesAmt>
+      <WagesSalariesAndTipsAmt>100600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">266</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1264</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">25470</BusinessIncomeAmt>
+      <TotalIncomeAmt>127600</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>125801</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>19400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">5094</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>24494</TotalDeductionsAmt>
+      <TaxableIncomeAmt>101307</TaxableIncomeAmt>
+      <TaxAmt>16650</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>16650</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>12650</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3599</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3599</TotalOtherTaxesAmt>
+      <TotalTaxAmt>16248</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>16096</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>16096</WithholdingTaxAmt>
+      <TotalPaymentsAmt>16096</TotalPaymentsAmt>
+      <AmountOwedAmt>152</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3599</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3599</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>266</InterestAmt>
+      <TotalInterestAmt>266</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1264</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1264</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Wiggins's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WIGG</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>42200</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>42200</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>864</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>135</CarAndTruckExpensesAmt>
+      <InsuranceAmt>822</InsuranceAmt>
+      <OfficeExpensesAmt>1084</OfficeExpensesAmt>
+      <SuppliesAmt>738</SuppliesAmt>
+      <UtilitiesAmt>670</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7517</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>11830</TotalExpensesAmt>
+      <NetProfitOrLossAmt>25470</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>25470</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>25470</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>23522</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3599</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1799</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Stephen Wiggins</ChildFirstAndLastName>
+        <ChildSSN>644887555</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Matthew Wiggins</ChildFirstAndLastName>
+        <ChildSSN>889439925</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>25470</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>25470</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>5094</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Wiggins's Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4900</DepreciationAmt>
+      <TotalDepreciationAmt>4900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>759930495</EmployeeSSN>
+      <EmployerEIN>612301643</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6043 Brent Way</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alex Wiggins</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6043 Brent Way</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>100600</WagesAmt>
+      <WithholdingAmt>16096</WithholdingAmt>
+      <SocialSecurityWagesAmt>100600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6237</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>100600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1459</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

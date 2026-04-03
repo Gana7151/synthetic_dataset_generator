@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1991-12-20</PrimaryBirthDt>
+      <SpouseBirthDt>1979-04-03</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>84718</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34881</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>847183444</PrimarySSN>
+      <SpouseSSN>348814604</SpouseSSN>
+      <NameLine1Txt>Alex Mcclain</NameLine1Txt>
+      <SpouseNameLine1Txt>Christine Mcclain</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>ALEX</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>CHRI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9469 FLORES VILLAGES</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>348814604</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Lisa</DependentFirstNm>
+        <DependentLastNm>Mcclain</DependentLastNm>
+        <DependentNameControlTxt>LISA</DependentNameControlTxt>
+        <DependentSSN>383193483</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Wanda</DependentFirstNm>
+        <DependentLastNm>Mcclain</DependentLastNm>
+        <DependentNameControlTxt>WAND</DependentNameControlTxt>
+        <DependentSSN>321993202</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Haley</DependentFirstNm>
+        <DependentLastNm>Mcclain</DependentLastNm>
+        <DependentNameControlTxt>HALE</DependentNameControlTxt>
+        <DependentSSN>423263090</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Steven</DependentFirstNm>
+        <DependentLastNm>Mcclain</DependentLastNm>
+        <DependentNameControlTxt>STEV</DependentNameControlTxt>
+        <DependentSSN>192139691</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">180800</WagesAmt>
+      <WagesSalariesAndTipsAmt>180800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">468</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1774</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">54587</BusinessIncomeAmt>
+      <TotalIncomeAmt>237629</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>236898</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10917</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36017</TotalDeductionsAmt>
+      <TaxableIncomeAmt>200881</TaxableIncomeAmt>
+      <TaxAmt>36254</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8900</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8900</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>36254</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>27354</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1462</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1462</TotalOtherTaxesAmt>
+      <TotalTaxAmt>28815</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>25804</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>25804</WithholdingTaxAmt>
+      <TotalPaymentsAmt>25804</TotalPaymentsAmt>
+      <AmountOwedAmt>3011</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1462</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1462</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>468</InterestAmt>
+      <TotalInterestAmt>468</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1774</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1774</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>82600</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>82600</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2387</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1904</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1254</InsuranceAmt>
+      <OfficeExpensesAmt>1045</OfficeExpensesAmt>
+      <SuppliesAmt>2544</SuppliesAmt>
+      <UtilitiesAmt>1035</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13844</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24013</TotalExpensesAmt>
+      <NetProfitOrLossAmt>54587</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>54587</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>54587</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>50411</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1462</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>731</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lisa Mcclain</ChildFirstAndLastName>
+        <ChildSSN>383193483</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Wanda Mcclain</ChildFirstAndLastName>
+        <ChildSSN>321993202</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Haley Mcclain</ChildFirstAndLastName>
+        <ChildSSN>423263090</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Steven Mcclain</ChildFirstAndLastName>
+        <ChildSSN>192139691</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8900</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8900</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>54587</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>54587</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10917</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4000</DepreciationAmt>
+      <TotalDepreciationAmt>4000</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>847183444</EmployeeSSN>
+      <EmployerEIN>813304609</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2928 Samantha Mill</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Alex Mcclain</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2928 Samantha Mill</AddressLine1Txt>
+        <CityNm>Yonkers</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10701</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>78100</WagesAmt>
+      <WithholdingAmt>9372</WithholdingAmt>
+      <SocialSecurityWagesAmt>78100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4842</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>78100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1132</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>348814604</EmployeeSSN>
+      <EmployerEIN>203100735</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>675 David Bridge</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Christine Mcclain</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>675 David Bridge</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>102700</WagesAmt>
+      <WithholdingAmt>16432</WithholdingAmt>
+      <SocialSecurityWagesAmt>102700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6367</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>102700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1489</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

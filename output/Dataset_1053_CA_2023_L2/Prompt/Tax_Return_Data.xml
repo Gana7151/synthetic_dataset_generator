@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-11-14</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>18803</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>188037198</PrimarySSN>
+      <NameLine1Txt>Tanya Hale</NameLine1Txt>
+      <PrimaryNameControlTxt>TANY</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1535 NANCY THROUGHWAY</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>David</DependentFirstNm>
+        <DependentLastNm>Hale</DependentLastNm>
+        <DependentNameControlTxt>DAVI</DependentNameControlTxt>
+        <DependentSSN>606213668</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">52300</WagesAmt>
+      <WagesSalariesAndTipsAmt>52300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">478</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1969</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">44891</BusinessIncomeAmt>
+      <TotalIncomeAmt>99638</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>96467</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8978</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22828</TotalDeductionsAmt>
+      <TaxableIncomeAmt>73639</TaxableIncomeAmt>
+      <TaxAmt>11508</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11508</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>9508</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6343</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6343</TotalOtherTaxesAmt>
+      <TotalTaxAmt>15851</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6276</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6276</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6276</TotalPaymentsAmt>
+      <AmountOwedAmt>9575</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6343</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6343</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>478</InterestAmt>
+      <TotalInterestAmt>478</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1969</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1969</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>62800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>62800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1346</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1226</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1090</InsuranceAmt>
+      <OfficeExpensesAmt>1438</OfficeExpensesAmt>
+      <SuppliesAmt>1368</SuppliesAmt>
+      <UtilitiesAmt>677</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>10764</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17909</TotalExpensesAmt>
+      <NetProfitOrLossAmt>44891</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>44891</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>44891</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>41457</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6343</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3171</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>David Hale</ChildFirstAndLastName>
+        <ChildSSN>606213668</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>44891</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>44891</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8978</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>188037198</EmployeeSSN>
+      <EmployerEIN>417860596</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>507 West Brooks</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tanya Hale</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>507 West Brooks</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>52300</WagesAmt>
+      <WithholdingAmt>6276</WithholdingAmt>
+      <SocialSecurityWagesAmt>52300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3243</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>52300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>758</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>575</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

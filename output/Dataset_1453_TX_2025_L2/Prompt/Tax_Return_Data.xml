@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1987-07-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>63466</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>634666811</PrimarySSN>
+      <NameLine1Txt>Emily Thompson</NameLine1Txt>
+      <PrimaryNameControlTxt>EMIL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6639 PAYNE ESTATE</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Jeffrey</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>JEFF</DependentNameControlTxt>
+        <DependentSSN>369651528</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">50400</WagesAmt>
+      <WagesSalariesAndTipsAmt>50400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">359</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">300</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">37304</BusinessIncomeAmt>
+      <TotalIncomeAmt>88363</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>85728</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7461</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>23211</TotalDeductionsAmt>
+      <TaxableIncomeAmt>62517</TaxableIncomeAmt>
+      <TaxAmt>8668</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>8668</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>6468</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5271</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5271</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11739</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6048</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6048</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6048</TotalPaymentsAmt>
+      <AmountOwedAmt>5691</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5271</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5271</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>359</InterestAmt>
+      <TotalInterestAmt>359</TotalInterestAmt>
+      <OrdinaryDividendsAmt>300</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>300</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>51800</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>51800</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1396</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1257</CarAndTruckExpensesAmt>
+      <InsuranceAmt>646</InsuranceAmt>
+      <OfficeExpensesAmt>797</OfficeExpensesAmt>
+      <SuppliesAmt>775</SuppliesAmt>
+      <UtilitiesAmt>441</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>9184</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>14496</TotalExpensesAmt>
+      <NetProfitOrLossAmt>37304</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>37304</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>37304</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>34450</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5271</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2635</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeffrey Thompson</ChildFirstAndLastName>
+        <ChildSSN>369651528</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>37304</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>37304</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7461</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>634666811</EmployeeSSN>
+      <EmployerEIN>726625793</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>543 Cristina Street</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Emily Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>543 Cristina Street</AddressLine1Txt>
+        <CityNm>San Antonio</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>50400</WagesAmt>
+      <WithholdingAmt>6048</WithholdingAmt>
+      <SocialSecurityWagesAmt>50400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3125</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>50400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>731</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

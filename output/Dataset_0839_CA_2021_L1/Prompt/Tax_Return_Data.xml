@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1982-06-03</PrimaryBirthDt>
+      <SpouseBirthDt>1988-02-07</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>80968</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>69194</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>809681744</PrimarySSN>
+      <SpouseSSN>691947102</SpouseSSN>
+      <NameLine1Txt>Patrick Nelson</NameLine1Txt>
+      <SpouseNameLine1Txt>Marie Nelson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>PATR</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MARI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4020 RUSSELL FIELDS</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>691947102</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">39600</WagesAmt>
+      <WagesSalariesAndTipsAmt>39600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">615</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>40215</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>40215</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>15115</TaxableIncomeAmt>
+      <TaxAmt>1512</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1512</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1512</TaxLessCreditsAmt>
+      <TotalTaxAmt>1512</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3168</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3168</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3168</TotalPaymentsAmt>
+      <OverpaidAmt>1656</OverpaidAmt>
+      <RefundAmt>1656</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>615</InterestAmt>
+      <TotalInterestAmt>615</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>691947102</EmployeeSSN>
+      <EmployerEIN>816372510</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4783 Jesse Walk</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Marie Nelson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4783 Jesse Walk</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39600</WagesAmt>
+      <WithholdingAmt>3168</WithholdingAmt>
+      <SocialSecurityWagesAmt>39600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2455</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>574</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>436</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1973-07-10</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>75618</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>756189603</PrimarySSN>
+      <NameLine1Txt>Jesse Thompson</NameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5353 ANGELA VILLAGE</AddressLine1Txt>
+        <CityNm>AURORA</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60505</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Stephen</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>STEP</DependentNameControlTxt>
+        <DependentSSN>172635960</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jean</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>JEAN</DependentNameControlTxt>
+        <DependentSSN>707728213</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Thomas</DependentFirstNm>
+        <DependentLastNm>Thompson</DependentLastNm>
+        <DependentNameControlTxt>THOM</DependentNameControlTxt>
+        <DependentSSN>406954520</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">36900</WagesAmt>
+      <WagesSalariesAndTipsAmt>36900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">496</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1326</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">24362</BusinessIncomeAmt>
+      <TotalIncomeAmt>63084</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61363</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4872</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>18722</TotalDeductionsAmt>
+      <TaxableIncomeAmt>42641</TaxableIncomeAmt>
+      <TaxAmt>4897</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4897</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4897</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4897</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3442</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3442</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3442</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2952</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2952</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2952</TotalPaymentsAmt>
+      <AmountOwedAmt>490</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3442</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3442</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>496</InterestAmt>
+      <TotalInterestAmt>496</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1326</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1326</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Thompson's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>THOM</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>36500</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>36500</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>810</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>160</CarAndTruckExpensesAmt>
+      <InsuranceAmt>388</InsuranceAmt>
+      <OfficeExpensesAmt>746</OfficeExpensesAmt>
+      <SuppliesAmt>490</SuppliesAmt>
+      <UtilitiesAmt>164</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4880</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7638</TotalExpensesAmt>
+      <NetProfitOrLossAmt>24362</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>24362</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>24362</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>22498</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3442</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1721</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Stephen Thompson</ChildFirstAndLastName>
+        <ChildSSN>172635960</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jean Thompson</ChildFirstAndLastName>
+        <ChildSSN>707728213</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Thomas Thompson</ChildFirstAndLastName>
+        <ChildSSN>406954520</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4897</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4897</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>24362</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>24362</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4872</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Thompson's Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>4500</DepreciationAmt>
+      <TotalDepreciationAmt>4500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>756189603</EmployeeSSN>
+      <EmployerEIN>531681025</EmployerEIN>
+      <EmployerNameControlTxt>WIND</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Windy City Logistics Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6885 Jessica Freeway</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jesse Thompson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6885 Jessica Freeway</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>36900</WagesAmt>
+      <WithholdingAmt>2952</WithholdingAmt>
+      <SocialSecurityWagesAmt>36900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2288</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>36900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>535</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

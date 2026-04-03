@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1952-03-22</PrimaryBirthDt>
+      <SpouseBirthDt>1971-03-18</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>35115</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>33762</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>351152529</PrimarySSN>
+      <SpouseSSN>337623162</SpouseSSN>
+      <NameLine1Txt>Teresa Beard</NameLine1Txt>
+      <SpouseNameLine1Txt>Haley Beard</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TERE</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>HALE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8022 TAYLOR OVERPASS</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>337623162</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">74200</WagesAmt>
+      <WagesSalariesAndTipsAmt>74200</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">485</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>74685</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>68685</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>33100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>33100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>35585</TaxableIncomeAmt>
+      <TaxAmt>3793</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3793</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3793</TaxLessCreditsAmt>
+      <TotalTaxAmt>3793</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8904</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8904</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8904</TotalPaymentsAmt>
+      <OverpaidAmt>5111</OverpaidAmt>
+      <RefundAmt>5111</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>485</InterestAmt>
+      <TotalInterestAmt>485</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <SeniorDeduction>
+        <DeductionAmt>6000</DeductionAmt>
+      </SeniorDeduction>
+      <TotalSchedule1AAmt>6000</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>337623162</EmployeeSSN>
+      <EmployerEIN>239453726</EmployerEIN>
+      <EmployerNameControlTxt>HEAR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Heartland Engineering Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2227 Carolyn Springs</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Haley Beard</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2227 Carolyn Springs</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74200</WagesAmt>
+      <WithholdingAmt>8904</WithholdingAmt>
+      <SocialSecurityWagesAmt>74200</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4600</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74200</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1076</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

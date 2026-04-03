@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-06-10</PrimaryBirthDt>
+      <SpouseBirthDt>1982-03-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>44338</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>67423</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>443385015</PrimarySSN>
+      <SpouseSSN>674230777</SpouseSSN>
+      <NameLine1Txt>Brian Long</NameLine1Txt>
+      <SpouseNameLine1Txt>Lisa Long</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>BRIA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>LISA</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7978 WATERS WALK</AddressLine1Txt>
+        <CityNm>ORLANDO</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>674230777</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">69800</WagesAmt>
+      <WagesSalariesAndTipsAmt>69800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">454</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>70254</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>70254</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>29200</TotalDeductionsAmt>
+      <TaxableIncomeAmt>41054</TaxableIncomeAmt>
+      <TaxAmt>4462</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4462</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4462</TaxLessCreditsAmt>
+      <TotalTaxAmt>4462</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8376</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8376</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8376</TotalPaymentsAmt>
+      <OverpaidAmt>3914</OverpaidAmt>
+      <RefundAmt>3914</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>454</InterestAmt>
+      <TotalInterestAmt>454</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>443385015</EmployeeSSN>
+      <EmployerEIN>136667663</EmployerEIN>
+      <EmployerNameControlTxt>EVER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Everglades Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9505 Johnson Views</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Brian Long</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9505 Johnson Views</AddressLine1Txt>
+        <CityNm>Miami</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33101</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>69800</WagesAmt>
+      <WithholdingAmt>8376</WithholdingAmt>
+      <SocialSecurityWagesAmt>69800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4328</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>69800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1012</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1989-12-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>28332</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>283327188</PrimarySSN>
+      <NameLine1Txt>Benjamin Potter</NameLine1Txt>
+      <PrimaryNameControlTxt>BENJ</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5616 KURT KEYS</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joy</DependentFirstNm>
+        <DependentLastNm>Potter</DependentLastNm>
+        <DependentNameControlTxt>JOY</DependentNameControlTxt>
+        <DependentSSN>623322480</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Tammie</DependentFirstNm>
+        <DependentLastNm>Potter</DependentLastNm>
+        <DependentNameControlTxt>TAMM</DependentNameControlTxt>
+        <DependentSSN>558896354</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">39100</WagesAmt>
+      <WagesSalariesAndTipsAmt>39100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">556</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1382</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33362</BusinessIncomeAmt>
+      <TotalIncomeAmt>74400</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>72043</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6672</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>20522</TotalDeductionsAmt>
+      <TaxableIncomeAmt>51521</TaxableIncomeAmt>
+      <TaxAmt>6642</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6642</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2642</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4714</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4714</TotalOtherTaxesAmt>
+      <TotalTaxAmt>7356</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>3128</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>3128</WithholdingTaxAmt>
+      <TotalPaymentsAmt>3128</TotalPaymentsAmt>
+      <AmountOwedAmt>4228</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4714</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4714</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>556</InterestAmt>
+      <TotalInterestAmt>556</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1382</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1382</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>42400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>42400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1057</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>160</CarAndTruckExpensesAmt>
+      <InsuranceAmt>289</InsuranceAmt>
+      <OfficeExpensesAmt>617</OfficeExpensesAmt>
+      <SuppliesAmt>633</SuppliesAmt>
+      <UtilitiesAmt>268</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6014</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>9038</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33362</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33362</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33362</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30810</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4714</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2357</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joy Potter</ChildFirstAndLastName>
+        <ChildSSN>623322480</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Tammie Potter</ChildFirstAndLastName>
+        <ChildSSN>558896354</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33362</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33362</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6672</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>283327188</EmployeeSSN>
+      <EmployerEIN>812156210</EmployerEIN>
+      <EmployerNameControlTxt>TEXT</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>TexTech Industries Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5231 Stacey Fall</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Benjamin Potter</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5231 Stacey Fall</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>39100</WagesAmt>
+      <WithholdingAmt>3128</WithholdingAmt>
+      <SocialSecurityWagesAmt>39100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2424</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>39100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>567</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

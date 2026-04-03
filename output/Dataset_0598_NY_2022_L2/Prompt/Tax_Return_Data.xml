@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1967-07-05</PrimaryBirthDt>
+      <SpouseBirthDt>1979-08-15</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>42826</PrimarySignaturePIN>
+    <PrimarySignatureDt>2023-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>25280</SpouseSignaturePIN>
+    <SpouseSignatureDt>2023-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>428263762</PrimarySSN>
+      <SpouseSSN>252807046</SpouseSSN>
+      <NameLine1Txt>Jessica Short</NameLine1Txt>
+      <SpouseNameLine1Txt>Andrew Short</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JESS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>ANDR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7252 MATHIS TURNPIKE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>252807046</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Whitney</DependentFirstNm>
+        <DependentLastNm>Short</DependentLastNm>
+        <DependentNameControlTxt>WHIT</DependentNameControlTxt>
+        <DependentSSN>850947853</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Anthony</DependentFirstNm>
+        <DependentLastNm>Short</DependentLastNm>
+        <DependentNameControlTxt>ANTH</DependentNameControlTxt>
+        <DependentSSN>826835623</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jeremy</DependentFirstNm>
+        <DependentLastNm>Short</DependentLastNm>
+        <DependentNameControlTxt>JERE</DependentNameControlTxt>
+        <DependentSSN>212928922</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">81000</WagesAmt>
+      <WagesSalariesAndTipsAmt>81000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">232</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">815</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">46832</BusinessIncomeAmt>
+      <TotalIncomeAmt>128879</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>125570</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">9366</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>35266</TotalDeductionsAmt>
+      <TaxableIncomeAmt>90304</TaxableIncomeAmt>
+      <TaxAmt>11101</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>11101</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5101</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6617</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6617</TotalOtherTaxesAmt>
+      <TotalTaxAmt>11718</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>12960</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>12960</WithholdingTaxAmt>
+      <TotalPaymentsAmt>12960</TotalPaymentsAmt>
+      <OverpaidAmt>1242</OverpaidAmt>
+      <RefundAmt>1242</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6617</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6617</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>232</InterestAmt>
+      <TotalInterestAmt>232</TotalInterestAmt>
+      <OrdinaryDividendsAmt>815</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>815</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>59300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>59300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1005</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>604</CarAndTruckExpensesAmt>
+      <InsuranceAmt>981</InsuranceAmt>
+      <OfficeExpensesAmt>1055</OfficeExpensesAmt>
+      <SuppliesAmt>807</SuppliesAmt>
+      <UtilitiesAmt>320</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>7696</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12468</TotalExpensesAmt>
+      <NetProfitOrLossAmt>46832</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>46832</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>46832</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>43249</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6617</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3309</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Whitney Short</ChildFirstAndLastName>
+        <ChildSSN>850947853</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Anthony Short</ChildFirstAndLastName>
+        <ChildSSN>826835623</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jeremy Short</ChildFirstAndLastName>
+        <ChildSSN>212928922</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>46832</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>46832</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>9366</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>428263762</EmployeeSSN>
+      <EmployerEIN>549281523</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7358 Nancy Summit</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jessica Short</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7358 Nancy Summit</AddressLine1Txt>
+        <CityNm>White Plains</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10601</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>81000</WagesAmt>
+      <WithholdingAmt>12960</WithholdingAmt>
+      <SocialSecurityWagesAmt>81000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5022</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>81000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1174</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-02-02</PrimaryBirthDt>
+      <SpouseBirthDt>1976-06-12</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>56705</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>89267</SpouseSignaturePIN>
+    <SpouseSignatureDt>2026-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>567058063</PrimarySSN>
+      <SpouseSSN>892676035</SpouseSSN>
+      <NameLine1Txt>Kevin Martinez</NameLine1Txt>
+      <SpouseNameLine1Txt>Steven Martinez</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KEVI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>STEV</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7699 ESPINOZA GLEN</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60601</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="5">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>892676035</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Brandon</DependentFirstNm>
+        <DependentLastNm>Martinez</DependentLastNm>
+        <DependentNameControlTxt>BRAN</DependentNameControlTxt>
+        <DependentSSN>292994789</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">74800</WagesAmt>
+      <WagesSalariesAndTipsAmt>74800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">130</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>74930</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>68518</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>31500</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>31500</TotalDeductionsAmt>
+      <TaxableIncomeAmt>37018</TaxableIncomeAmt>
+      <TaxAmt>3965</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3965</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1765</TaxLessCreditsAmt>
+      <TotalTaxAmt>1765</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8976</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8976</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8976</TotalPaymentsAmt>
+      <OverpaidAmt>7211</OverpaidAmt>
+      <RefundAmt>7211</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>130</InterestAmt>
+      <TotalInterestAmt>130</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <Schedule1A documentId="Schedule1A">
+      <CarLoanInterestDeduction>
+        <DeductionAmt>6412</DeductionAmt>
+        <VIN>5CSFG4S91RV622679</VIN>
+      </CarLoanInterestDeduction>
+      <TotalSchedule1AAmt>6412</TotalSchedule1AAmt>
+    </Schedule1A>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Brandon Martinez</ChildFirstAndLastName>
+        <ChildSSN>292994789</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>892676035</EmployeeSSN>
+      <EmployerEIN>644946198</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1606 David Ranch</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Steven Martinez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1606 David Ranch</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60614</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74800</WagesAmt>
+      <WithholdingAmt>8976</WithholdingAmt>
+      <SocialSecurityWagesAmt>74800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4638</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1085</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

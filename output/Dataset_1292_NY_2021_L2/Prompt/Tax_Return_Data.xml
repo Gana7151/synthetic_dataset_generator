@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-08-08</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>45044</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>450448402</PrimarySSN>
+      <NameLine1Txt>Paige Vasquez</NameLine1Txt>
+      <PrimaryNameControlTxt>PAIG</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2358 SPENCE PASSAGE</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>James</DependentFirstNm>
+        <DependentLastNm>Vasquez</DependentLastNm>
+        <DependentNameControlTxt>JAME</DependentNameControlTxt>
+        <DependentSSN>690844251</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Robin</DependentFirstNm>
+        <DependentLastNm>Vasquez</DependentLastNm>
+        <DependentNameControlTxt>ROBI</DependentNameControlTxt>
+        <DependentSSN>899641547</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">41600</WagesAmt>
+      <WagesSalariesAndTipsAmt>41600</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">472</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1590</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">23796</BusinessIncomeAmt>
+      <TotalIncomeAmt>67458</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>65777</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">4759</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>17309</TotalDeductionsAmt>
+      <TaxableIncomeAmt>48468</TaxableIncomeAmt>
+      <TaxAmt>6411</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6411</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6411</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6411</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3362</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3362</TotalOtherTaxesAmt>
+      <TotalTaxAmt>3362</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>4992</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>4992</WithholdingTaxAmt>
+      <TotalPaymentsAmt>4992</TotalPaymentsAmt>
+      <OverpaidAmt>1630</OverpaidAmt>
+      <RefundAmt>1630</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3362</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3362</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>472</InterestAmt>
+      <TotalInterestAmt>472</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1590</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1590</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PHOT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>36400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>36400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1374</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1686</CarAndTruckExpensesAmt>
+      <InsuranceAmt>557</InsuranceAmt>
+      <OfficeExpensesAmt>652</OfficeExpensesAmt>
+      <SuppliesAmt>1035</SuppliesAmt>
+      <UtilitiesAmt>509</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>6791</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>12604</TotalExpensesAmt>
+      <NetProfitOrLossAmt>23796</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>23796</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>23796</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>21976</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3362</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1681</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>James Vasquez</ChildFirstAndLastName>
+        <ChildSSN>690844251</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Robin Vasquez</ChildFirstAndLastName>
+        <ChildSSN>899641547</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6411</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6411</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>23796</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>23796</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>4759</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>450448402</EmployeeSSN>
+      <EmployerEIN>102444487</EmployerEIN>
+      <EmployerNameControlTxt>METR</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Metro Education Foundation</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5558 Gilbert Trail</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Paige Vasquez</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5558 Gilbert Trail</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>41600</WagesAmt>
+      <WithholdingAmt>4992</WithholdingAmt>
+      <SocialSecurityWagesAmt>41600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2579</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>41600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>603</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

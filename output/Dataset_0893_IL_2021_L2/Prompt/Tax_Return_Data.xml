@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1954-05-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>29249</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>292497274</PrimarySSN>
+      <NameLine1Txt>Crystal Garcia</NameLine1Txt>
+      <PrimaryNameControlTxt>CRYS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8664 MONTGOMERY VISTA</AddressLine1Txt>
+        <CityNm>SPRINGFIELD</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>62701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Crystal</DependentFirstNm>
+        <DependentLastNm>Garcia</DependentLastNm>
+        <DependentNameControlTxt>CRYS</DependentNameControlTxt>
+        <DependentSSN>599431449</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Erin</DependentFirstNm>
+        <DependentLastNm>Garcia</DependentLastNm>
+        <DependentNameControlTxt>ERIN</DependentNameControlTxt>
+        <DependentSSN>404799764</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">45800</WagesAmt>
+      <WagesSalariesAndTipsAmt>45800</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">778</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1546</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">13892</BusinessIncomeAmt>
+      <TotalIncomeAmt>62016</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>61034</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12550</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">2778</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>15328</TotalDeductionsAmt>
+      <TaxableIncomeAmt>45706</TaxableIncomeAmt>
+      <TaxAmt>5804</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">5804</ChildTaxCreditAmt>
+      <TotalCreditsAmt>5804</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>5804</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">1963</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>1963</TotalOtherTaxesAmt>
+      <TotalTaxAmt>1963</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5496</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5496</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5496</TotalPaymentsAmt>
+      <OverpaidAmt>3533</OverpaidAmt>
+      <RefundAmt>3533</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">1963</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>1963</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>778</InterestAmt>
+      <TotalInterestAmt>778</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1546</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1546</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>PERS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>25100</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>25100</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>608</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>747</CarAndTruckExpensesAmt>
+      <InsuranceAmt>402</InsuranceAmt>
+      <OfficeExpensesAmt>333</OfficeExpensesAmt>
+      <SuppliesAmt>405</SuppliesAmt>
+      <UtilitiesAmt>151</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>4662</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>7308</TotalExpensesAmt>
+      <NetProfitOrLossAmt>13892</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>13892</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>13892</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>12829</SEBaseAmt>
+      <SelfEmploymentTaxAmt>1963</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>981</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Crystal Garcia</ChildFirstAndLastName>
+        <ChildSSN>599431449</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Erin Garcia</ChildFirstAndLastName>
+        <ChildSSN>404799764</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>5804</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>5804</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>13892</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>13892</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>2778</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3900</DepreciationAmt>
+      <TotalDepreciationAmt>3900</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>292497274</EmployeeSSN>
+      <EmployerEIN>854208531</EmployerEIN>
+      <EmployerNameControlTxt>LINC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Lincoln Park Construction Co.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5868 Michael Rest</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Crystal Garcia</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5868 Michael Rest</AddressLine1Txt>
+        <CityNm>Evanston</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60201</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>45800</WagesAmt>
+      <WithholdingAmt>5496</WithholdingAmt>
+      <SocialSecurityWagesAmt>45800</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2840</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>45800</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>664</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

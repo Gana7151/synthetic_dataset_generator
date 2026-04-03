@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-01-17</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>18351</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>183518416</PrimarySSN>
+      <NameLine1Txt>Laura Williams</NameLine1Txt>
+      <PrimaryNameControlTxt>LAUR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5566 RANDY DRIVES</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Timothy</DependentFirstNm>
+        <DependentLastNm>Williams</DependentLastNm>
+        <DependentNameControlTxt>TIMO</DependentNameControlTxt>
+        <DependentSSN>829857893</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">37400</WagesAmt>
+      <WagesSalariesAndTipsAmt>37400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">213</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1004</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">51895</BusinessIncomeAmt>
+      <TotalIncomeAmt>90512</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>86846</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">10379</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22779</TotalDeductionsAmt>
+      <TaxableIncomeAmt>64067</TaxableIncomeAmt>
+      <TaxAmt>9885</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>9885</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>7885</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">7333</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>7333</TotalOtherTaxesAmt>
+      <TotalTaxAmt>15217</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2992</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2992</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2992</TotalPaymentsAmt>
+      <AmountOwedAmt>12225</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">7333</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>7333</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>213</InterestAmt>
+      <TotalInterestAmt>213</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1004</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1004</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Williams's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WILL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>72400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>72400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1035</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>473</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1173</InsuranceAmt>
+      <OfficeExpensesAmt>835</OfficeExpensesAmt>
+      <SuppliesAmt>1833</SuppliesAmt>
+      <UtilitiesAmt>1107</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>14049</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>20505</TotalExpensesAmt>
+      <NetProfitOrLossAmt>51895</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>51895</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>51895</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>47925</SEBaseAmt>
+      <SelfEmploymentTaxAmt>7333</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3666</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Timothy Williams</ChildFirstAndLastName>
+        <ChildSSN>829857893</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>51895</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>51895</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>10379</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>183518416</EmployeeSSN>
+      <EmployerEIN>686911217</EmployerEIN>
+      <EmployerNameControlTxt>SIER</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Sierra Construction LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>2301 Kelly Pines</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Laura Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>2301 Kelly Pines</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>37400</WagesAmt>
+      <WithholdingAmt>2992</WithholdingAmt>
+      <SocialSecurityWagesAmt>37400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2319</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>37400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>542</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>411</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

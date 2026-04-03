@@ -1,0 +1,551 @@
+Quantitative Architectures for High-Fidelity Synthetic Tax Microsimulation: Integrating Deep Generative Models and Legislative Logic under the OBBBA Framework
+
+The evolution of tax policy analysis has reached a critical juncture where traditional anonymization techniques for administrative data are increasingly vulnerable to re-identification through advanced computational attacks.1 As researchers and policymakers navigate the complexities of the U.S. federal tax code, the demand for high-fidelity synthetic datasets that preserve both the statistical properties and the logical integrity of the original records has never been higher.1 The challenge is compounded by the transition from the Tax Cuts and Jobs Act (TCJA) to the One Big Beautiful Bill Act (OBBBA), which introduces a suite of new above-the-line deductions and significant modifications to the Alternative Minimum Tax (AMT) structure.4 To meet these demands, quantitative models—ranging from deep generative adversarial networks to copula-based multivariate coupling—offer a transformative pathway to improve the accuracy, privacy, and utility of synthetic tax populations.3
+
+Theoretical Frameworks for Synthetic Data Generation in the Tax Domain
+
+The fundamental objective of synthetic data generation in the tax sector is to create a representative population of taxpayers whose individual records are entirely artificial, yet whose aggregate behavior and multivariate relationships mirror those found in confidential Internal Revenue Service (IRS) Statistics of Income (SOI) files.8 This transition from "partially synthetic" to "fully synthetic" data is motivated by the fact that even masked or blurred datasets can leak information when combined with external data sources.2 A fully synthetic public use file (PUF) is conceptualized as a random sample drawn from a statistical process that approximates the confidential administrative data generation process.2
+
+Deep Generative Architectures: CTGAN and TVAE
+
+Traditional synthetic reconstruction methods often relied on iterative proportional fitting (IPF) or simple parametric models, which frequently failed to capture the non-linear, multi-modal dependencies inherent in financial data.11 Modern quantitative improvements are centered on deep learning architectures designed specifically for tabular data, such as the Conditional Tabular Generative Adversarial Network (CTGAN).6 CTGAN addresses two primary hurdles in tabular synthesis: the presence of mixed data types (continuous income vs. discrete filing status) and the highly skewed, long-tailed distributions typical of high-net-worth individuals.13
+
+By employing a "conditional generator" and "mode-specific normalization," CTGAN allows for the effective sampling of rare categories, such as Married Filing Separately (MFS) status or specific high-bracket income ranges, which are often "washed out" in standard statistical samplers.6 This is critical for tax revenue modeling, where the top 1% of earners contribute a disproportionate share of total revenue.4 The architecture uses a conditional vector to represent discrete features, ensuring that the generator can be trained to produce samples that follow the imbalanced distributions found in real-world tax filings.13
+
+Complementary to GANs, Tabular Variational Autoencoders (TVAE) utilize a probabilistic encoder-decoder structure to learn a latent representation of the data.6 While TVAE is often praised for its training stability, it may occasionally produce smoother distributions that underestimate the extreme tail events—such as concentrated capital gains—that are vital for estimating the revenue impact of rate changes in the 37% bracket.17 The choice between CTGAN and TVAE often hinges on the specific analytical goals, with GANs generally preferred for high-fidelity realism in the tails and VAEs for overall distributional stability.17
+
+Copula Theory and Multivariate Dependency Modeling
+
+The core of any tax dataset is the complex web of dependencies between variables like wages, capital gains, age, and itemized deductions.8 Copula theory provides a mathematically rigorous framework for modeling these dependencies by decoupling the learning of marginal distributions from the joint probability structure.7 According to Sklar’s Theorem, any multivariate distribution can be represented by its marginals and a copula function that "couples" them together.20
+
+In a tax context, where income components are rarely independent, the Gaussian copula has emerged as a powerful baseline model.7 It assumes that the underlying dependency structure can be mapped to a multivariate normal distribution, even if the marginals are highly skewed.7 For more complex scenarios involving non-linear or fat-tailed relationships—common in the transition between middle-income earners and ultra-high-net-worth personas—empirical copulas offer a non-parametric alternative that makes fewer assumptions about the functional form of the data.19
+
+Quantitative Model
+
+Primary Mechanism
+
+Best Use Case in Tax Data
+
+CTGAN
+
+Adversarial training with conditional vectors
+
+Modeling rare modes and skewed distributions
+
+TVAE
+
+Probabilistic autoencoding with latent space
+
+Stable generation of core middle-income populations
+
+Gaussian Copula
+
+Parametric dependency coupling
+
+Maintaining linear correlations (e.g., Wages vs. FICA)
+
+Empirical Copula
+
+Non-parametric dependency coupling
+
+Preserving complex, non-linear relationships in itemized deductions
+
+DPCopula
+
+Differentially private copula estimation
+
+Generating privacy-guaranteed datasets for public release
+
+6
+
+Legislative Transition: Modeling OBBBA Parameters
+
+The introduction of the One Big Beautiful Bill Act (OBBBA) necessitates a wholesale update of the quantitative parameters used in synthetic tax engines.4 The legislation introduces novel "above-the-line" deductions, significantly Alters the Alternative Minimum Tax (AMT) landscape, and modifies state conformity requirements.4
+
+Above-the-Line Deductions and AGI Integrity
+
+One of the most frequent errors in early synthetic tax specifications (v1 through v3) was the misclassification of OBBBA deductions as "below-the-line" itemized expenses.4 Corrective engineering (v4.0) identifies these as adjustments to gross income that flow through Schedule 1 Part II to Form 1040 Line 10.4 This distinction is mathematically significant because above-the-line deductions reduce Adjusted Gross Income (AGI), which in turn influences the phase-out of various credits and the calculation of state tax liabilities in non-conforming jurisdictions.4
+
+OBBBA Schedule 1-A Above-the-Line Deduction Parameters
+
+Deduction Category
+
+Maximum Claim
+
+Phase-Out Start (Single / MFJ)
+
+Phase-Out End (Single / MFJ)
+
+Routing
+
+Tip Income
+
+$25,000
+
+$150,000 / $300,000
+
+$400,000 / $550,000
+
+Sch 1-A  Sch 1 Pt II  1040 Line 10
+
+Overtime Pay
+
+$12,500 (S) / $25,000 (M)
+
+$150,000 / $300,000
+
+$400,000 / $550,000
+
+Sch 1-A  Sch 1 Pt II  1040 Line 10
+
+Car Loan Interest
+
+$10,000
+
+$100,000 / $200,000
+
+$149,000 / $249,000
+
+Sch 1-A  Sch 1 Pt II  1040 Line 10
+
+Senior Deduction (65+)
+
+$6,000 / person
+
+$75,000 / $150,000
+
+$175,000 / $250,000
+
+Sch 1-A  Sch 1 Pt II  1040 Line 10
+
+4
+
+Quantitative models must account for the specific eligibility criteria, such as the VIN position-1 constraint for car loan interest—which requires vehicles to be U.S.-assembled (VIN starting with '1', '4', or '5')—and the FLSA premium portion logic for overtime deductions.4 A failure to enforce these logic-based constraints leads to "synthetic hallucinations" where a persona might claim a deduction for a foreign-made vehicle, violating the explicit intent of the OBBBA.4
+
+The Reversion of the Alternative Minimum Tax (AMT)
+
+The OBBBA effectively ends the "taxpayer-friendly" AMT era of the TCJA.5 While the exemption amounts for 2026 are largely indexed for inflation, the income levels at which these exemptions begin to phase out have been drastically lowered to 2018 levels.26 Furthermore, the phase-out rate has doubled from 25 cents per dollar to 50 cents per dollar.4
+
+For a single filer in 2026, the phase-out now starts at $500,000.4 A persona with an AMT income of $600,000, who would have faced no phase-out in 2025, now sees their $90,100 exemption reduced by $50,000 ($100k excess  0.50 rate), leaving only $40,100 exempt.4 This quantitative shift dramatically expands AMT exposure for earners in the $500,000 to $680,000 range.4 Synthetic datasets must capture this expansion to avoid systematically understating the tax liability of high-income personas.4
+
+Quantitative Validation: KS Tests and Mahalanobis Distances
+
+To improve the "work" of synthetic data generation, researchers must implement a multi-layered validation framework that measures fidelity, utility, and privacy.27 Statistical fidelity refers to the degree to which the synthetic data mimics the marginal and joint distributions of the original dataset.27
+
+One-Dimensional Fidelity: The Kolmogorov-Smirnov Test
+
+The Kolmogorov-Smirnov (KS) test is the primary tool for evaluating marginal distributions.30 It quantifies the distance between the cumulative distribution functions (CDFs) of two samples.30 The KS statistic is defined as the supremum of the absolute differences between the eCDFs:
+
+In machine learning production, the KS complement () is often used as a score where 1.0 indicates identical distributions.32 For tax data, a high KS score on variables like total wages or adjusted gross income is a prerequisite for analytical validity.32 However, the KS test is sensitive to sample size and can be overly conservative for very large datasets, sometimes flagging minor "drift" as statistically significant even when the economic impact is negligible.31
+
+Multivariate Outlier Detection: Mahalanobis Distance
+
+Because tax returns are inherently multivariate, an outlier might not be visible in any single dimension.34 For example, a taxpayer earning $50,000 who claims $40,000 in charitable contributions might appear normal in each individual column but is an anomaly in their joint distribution.34
+
+The Mahalanobis distance measures the distance of a point from a distribution's center while accounting for the covariance matrix.37 This transforms correlated features into uncorrelated, standardized variables before calculating Euclidean distance.37 The formula is:
+
+where  is the mean vector and  is the covariance matrix.38 For tax return validation, the squared Mahalanobis distance typically follows a chi-square () distribution with degrees of freedom equal to the number of variables.39 This allows for the establishment of a robust threshold (cut-off value) for identifying synthetic "hallucinations" that do not follow established financial patterns.39
+
+Comparative Metrics for Generative Performance
+
+Metric
+
+Dimension
+
+Threshold / Interpretation
+
+Utility in Tax Synthesis
+
+KS Complement
+
+1D (Marginal)
+
+> 0.90 is generally high fidelity
+
+Validating income bracket densities
+
+Mahalanobis Distance
+
+Multivariate
+
+ p-value < 0.01 indicates outlier
+
+Identifying illogical deduction-income pairings
+
+Maximum Mean Discrepancy (MMD)
+
+Latent (Kernel)
+
+Lower values indicate better matching
+
+Evaluating the global similarity of latent embeddings
+
+pMSE (Propensity Score)
+
+Global
+
+Near zero indicates indistinguishable data
+
+Measuring overall disclosure risk and fidelity
+
+Mutual Information
+
+Bivariate
+
+Higher values show preserved correlations
+
+Ensuring Salary  FICA relationships hold
+
+9
+
+Microsimulation Integration: Tax-Calculator and TAXSIM
+
+The ultimate test of synthetic tax data is its utility in downstream policy analysis.18 A synthetic dataset that passes all statistical tests but fails to accurately predict the revenue impact of a 1% rate hike is of limited value.28 To improve this "work," generators should integrate with established microsimulation models like the Policy Simulation Library (PSL) Tax-Calculator.44
+
+The Role of Tax-Calculator in Automated Validation
+
+The Tax-Calculator is an open-source model designed for federal individual income and payroll tax analysis.46 It permits the simulation of thousands of tax reforms by parameterizing policy variables (over 200 parameters).46 A robust synthetic pipeline can use the Tax-Calculator to perform record-by-record validation: the tax liability generated for a synthetic persona during the synthesis phase must match the liability calculated by the Tax-Calculator when the same record is treated as "new" data.46
+
+This process mirrors the cross-model validation effort between the PSL Tax-Calculator and NBER's TAXSIM-35 model.48 By running 100,000 randomly generated units through both systems and ensuring the results differ by no more than one cent, researchers establish a rigorous baseline for what constitutes a "valid" tax record.48 Synthetic datasets can leverage this by using the Tax-Calculator's CLI tool (tc) or Python API to certify that their generated records are legally and mathematically sound.47
+
+Data Preparation and "Aging" for Future Years
+
+Synthetic populations often need to represent future tax years where administrative data does not yet exist.8 The Tax Policy Center (TPC) uses a "Look-Alike Public Use File" (LAPUF) process to "age" their data.49 This involves inflating dollar amounts by forecasted per capita growth rates (e.g., from the Congressional Budget Office) and using a constrained optimization algorithm to re-weight records to match future macro targets for return counts and AGI classes.25
+
+Procedure
+
+Tool / Method
+
+Source
+
+Demographic Imputation
+
+Raking algorithm for age and filing status
+
+SOI Cross-tabulations 49
+
+Wealth Imputation
+
+Statistical match with Survey of Consumer Finances
+
+SCF / March CPS 49
+
+Future Year Projections
+
+CBO Growth Factors + TMD TMD TMD
+
+CBO Forecasts 47
+
+Re-weighting
+
+Parametric regression (Schirm & Zaslavsky)
+
+National / State Targets 25
+
+25
+
+Constraint-Augmented Generation (CAG) for Tabular Finance
+
+While deep learning models are proficient at learning distributions, they are famously poor at learning exact linear constraints—such as .51 To improve synthetic data, quantitative researchers must employ Constraint-Augmented Generation (CAG).51
+
+Enforcing Accounting Identities
+
+The Synthetic Data Vault (SDV) library allows for the explicit declaration of business rules through its "Constraints" API.51 These rules ensure that synthetic data meets deterministic requirements 100% of the time.51 In the tax domain, this is essential for maintaining the integrity of the 1040 form hierarchy.
+
+Inequality Constraints: Enforcing that Itemized_Deductions > Standard_Deduction for any record flagged as an "itemizer".51
+
+Fixed Combinations: Ensuring that State = 'TX' never occurs with a non-zero State_Income_Tax.4
+
+Logical Coherence: Using constraint programming to prevent "employed infants" or "retired children" from being synthesized, which preserves the semantic validity of demographic variables.29
+
+Integrating Hard Linear Constraints into GANs
+
+Advanced frameworks like the Sobolev Wasserstein GAN (SWGAN) use the Inequality Constraint Augmented Lagrangian Method to build constraints directly into the adversarial training objective.56 By penalizing the generator when it produces records that violate accounting identities, the model learns the "feasible region" of the tax code.56 This prevents "mode collapse" where the model might otherwise ignore rare but legally required combinations of attributes.52
+
+Multi-State Jurisdictional Nuance and Non-Conformity
+
+The quantitative improvement of synthetic tax datasets must also address the "multi-state problem"—the reality that state tax codes frequently diverge from federal law, particularly during major legislative shifts like the OBBBA.4
+
+California: The Addition-Back Requirement
+
+California (CA) generally does not conform to the new above-the-line OBBBA deductions.4 For a synthetic dataset to be "CA-valid," the generator must calculate a CA-specific AGI that adds back any federal deductions taken for tips, overtime, car loans, or senior status.4 Furthermore, CA has unique income tables for its Earned Income Tax Credit (CalEITC), which maximizes around $30,931 of earned income for the 2025 tax year.4 A quantitative model that simply replicates the federal EITC logic for CA personas would fail a basic accuracy audit.4
+
+New York: The Itemization Threshold Shift
+
+In New York (NY), the OBBBA increase of the SALT cap to $40,000 (up from $10,000) significantly changes the "itemization flip" threshold.4 Because NY requires taxpayers to itemize at the state level if they itemize federally, the synthetic generator must detect when a persona crosses this new federal threshold and automatically generate a corresponding NY Schedule A.4 For high-income personas (Level 3), the model must also generate IT-2105 estimated tax vouchers, which are required in NY if projected tax exceeds withholding by more than $300.4
+
+Illinois: Longitudinal EITC Fluctuations
+
+Illinois (IL) presents a specific longitudinal challenge for synthetic datasets spanning multiple years (2020–2025).4 The IL EITC is calculated as a percentage of the federal credit, but this percentage has increased over time: 18% in 2020, 20% from 2021–2023, 30% in 2024, and 40% in 2025.4 A quantitative engine that applies a flat 40% rate across all years would introduce significant error into longitudinal studies of poverty impact.4
+
+State
+
+OBBBA Conformity
+
+Key Multi-State Logic
+
+Target Document
+
+California
+
+Non-Conforming
+
+AGI Add-backs for OBBBA; CalEITC Tables
+
+Schedule CA (540)
+
+New York
+
+Conformity (SALT)
+
+SALT Itemization Flip; Estimated Tax Vouchers
+
+Form IT-201-ATT / IT-2105
+
+Illinois
+
+Non-Conforming
+
+Year-specific EITC rates (18%  40%); Child age < 12
+
+Schedule IL-E/EITC
+
+Texas
+
+N/A (No Income Tax)
+
+Homestead Exemption; Property Tax $40k SALT Cap
+
+Form 50-114
+
+Florida
+
+N/A (No Income Tax)
+
+Save Our Homes (3% cap); $25k+$25k Exemption
+
+TRIM Notice / DR-501
+
+4
+
+Privacy-Preserving Frameworks and Differential Privacy
+
+As researchers seek to release synthetic datasets to the broader public, the integration of Differential Privacy (DP) becomes a critical quantitative improvement.1 DP provides a mathematical guarantee that the risk of identifying any individual in the dataset is bounded by a privacy parameter, .59
+
+DPCopula: Maintaining Utility under Privacy Constraints
+
+The DPCopula method addresses the challenge of synthesizing high-dimensional tabular data with DP guarantees.7 It estimates the parameters of a copula function (such as the Gaussian correlation matrix) using differentially private Maximum Likelihood Estimation (MLE) or Kendall’s .7 By adding noise to the dependency structure rather than to each individual point, DPCopula maintains better utility for complex multivariate queries than simple cell-level perturbation.7
+
+The Validation Server Model
+
+The Urban Institute’s "validation server" provides a secure environment for testing synthetic utility.1 This infrastructure allows external users to:
+
+Develop: Build models and analytical pipelines on synthetic datasets that mirror the structure and statistical properties of administrative files.1
+
+Submit: Upload their code to an automated prototype server.1
+
+Execute: Run the code on real administrative tax data without ever seeing the sensitive records.1
+
+Review: Receive results that have been vetted for disclosure risk, ensuring that no individual data is leaked in the aggregate output.1
+
+This architecture effectively resolves the "utility-privacy" trade-off by allowing researchers to get "real" results while only ever touching "synthetic" data.1
+
+Technical Implementation Pipeline for Synthetic Tax Data
+
+To improve the existing work, the implementation of a synthetic tax engine should follow a modular, phase-based approach that prioritizes mathematical consistency and legislative compliance.4
+
+Phase 1: The Tax Parameter Foundation (tax_tables.py)
+
+The first and most critical step is the creation of a centralized repository for tax parameters.4 This module must be year-specific, accounting for inflation adjustments, bracket shifts, and legislative effective dates.4 For the OBBBA era, it must include phase-out tables for tip income, overtime, car loans, and senior deductions, as well as the reverted 2026 AMT start thresholds and doubled rates.4
+
+Phase 2: Profile Generation and Semantic Mapping (profile_generator.py)
+
+Profiles should be generated using probabilistic models (like Copulas) to ensure realistic pairings of age, filing status, and income sources.52 This module must include Boolean flags for OBBBA eligibility—such as is_tipped_worker or overtime_eligible—to drive the subsequent calculation logic.4 A specialized vin_generator.py should be used to ensure that car-loan personas have valid, U.S.-assembled VINs that pass cryptographic mod-11 check-digit tests.4
+
+Phase 3: The Calculation Engine (federal_calculator.py)
+
+The calculation logic must follow a rigorous sequence to maintain AGI integrity.4
+
+Income Aggregation: Summing all 1040 income sources (W-2, 1099-NEC, Schedule B/D/E).4
+
+Adjustments: Applying Schedule 1 adjustments, specifically the OBBBA deductions from Schedule 1-A, to arrive at AGI.4
+
+Deductions: Calculating the maximum of standard or itemized deductions, applying the OBBBA-compliant SALT cap ($40,000 for 2025; $40,400 for 2026).4
+
+QBI and Taxable Income: Applying the QBI deduction with year-specific phase-in ranges ($150,000 MFJ width for 2026).4
+
+Shadow Tax Checks: Computing the AMT with the reverted 50-cent phase-out rate and the 2/37 rule for high-earning itemizers.4
+
+Phase 4: Validation and Quality Assurance (validation.py)
+
+Every generated dataset must be passed through a 15-rule validation engine.4 If a record fails any rule—such as W-2 Box 3 exceeding the Social Security wage base or Schedule C gross receipts not matching the sum of 1099-NEC inputs—it must be discarded and re-seeded.4 This ensures that the final 2,000-dataset corpus is free of the "math errors" that plagued previous non-quant versions.4
+
+Rule ID
+
+Quantitative Check
+
+Purpose
+
+V-02
+
+Validating Social Security withholding caps
+
+V-04
+
+Enforcing mortgage interest deduction limits
+
+V-08
+
+Reconciling the interest income document chain
+
+V-11
+
+Applying year-specific credit amounts ()
+
+V-14
+
+ and 
+
+Verifying OBBBA car-loan vehicle eligibility
+
+V-15
+
+all_files_exist(dataset_folder)
+
+Catching partial generation or pipeline failures
+
+4
+
+Conclusions
+
+Quantitative models provide the necessary sophistication to transform synthetic tax data from a mere curiosity into a professional-grade tool for policy analysis.1 By integrating deep generative architectures like CTGAN for distributional fidelity, Copula theory for multivariate coupling, and Constraint-Augmented Generation for accounting integrity, researchers can significantly improve the accuracy and privacy of their work.6
+
+The transition to the OBBBA legislative framework serves as a critical test of these quantitative systems.4 Accurate modeling of the reverted AMT phase-outs, the new 2/37 benefit cap, and the complex AGI-driven interactions between federal and state tax bases is essential for maintaining the analytical utility of synthetic datasets in the 2025–2028 window.4 Ultimately, the use of automated validation engines—incorporating metrics like Mahalanobis distance and KS tests, and benchmarking against industry standards like the PSL Tax-Calculator—ensures that synthetic tax populations are representative of the true filing population and legally compliant across all 50 states.4 This methodological rigor not only protects individual privacy but also democratizes access to high-quality tax data, enabling more transparent and data-driven public policy.1
+
+Works cited
+
+Safe Data Technologies | Urban Institute, accessed on April 4, 2026, https://www.urban.org/projects/safe-data-technologies
+
+Safely Expanding Research Access to Administrative Tax Data: - IRS, accessed on April 4, 2026, https://www.irs.gov/pub/irs-soi/18resconburman.pdf
+
+Synthesis of Tabular Data in Finance using Generative Algorithms - Medium, accessed on April 4, 2026, https://medium.com/data-science/synthesis-of-tabular-financial-data-using-generative-algorithms-e90415f889ba
+
+synthetic_tax_report_v4.docx
+
+Tax Reduction Letter - How the OBBBA Impacts Your AMT Risk Starting in 2026, accessed on April 4, 2026, https://bradfordtaxinstitute.com/Content/How-the-OBBBA-Impacts-Your-AMT-Risk-Starting-in-2026.aspx
+
+Synthetic Financial Data Techniques - Emergent Mind, accessed on April 4, 2026, https://www.emergentmind.com/topics/synthetic-financial-data
+
+Differentially Private Synthesization of Multi-Dimensional Data using Copula Functions, accessed on April 4, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC4232968/
+
+Creating Homogeneous Synthetic Individual Tax Files for ... - IRS, accessed on April 4, 2026, https://www.irs.gov/pub/irs-soi/18rpsynthindtaxfiles.pdf
+
+A SYNTHETIC SUPPLEMENTAL PUBLIC-USE FILE OF LOW- INCOME INFORMATION RETURN DATA: METHODOLOGY, UTILITY, AND PRIVACY IMPLICATIONS - Bureau of Economic Analysis, accessed on April 4, 2026, https://www.bea.gov/sites/default/files/2021-02/a-synthetic-supplemental-public-use-file-of-low-income-information-return-data.pdf
+
+A Synthetic Supplemental Public-Use File Of Low-Income Information Return Data: Methodology, Utility, And Privacy Implications - Urban Institute, accessed on April 4, 2026, https://www.urban.org/sites/default/files/publication/102547/a-synthetic-supplemental-public-use-file-of-low-income-information-return-data_3.pdf
+
+A National Synthetic Populations Dataset for the United States - PMC, accessed on April 4, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC11762717/
+
+Population Synthesis Based on Joint Distribution Inference Without Disaggregate Samples, accessed on April 4, 2026, https://www.jasss.org/20/4/16.html
+
+CTGAN - Synthesize tabular data - YData-Synthetic, accessed on April 4, 2026, https://docs.synthetic.ydata.ai/1.3/synthetic_data/single_table/ctgan_example/
+
+TAEGAN: Revisit GANs for Tabular Data Generation - arXiv, accessed on April 4, 2026, https://arxiv.org/html/2410.01933v2
+
+Carving Holes and Shrinking the Base: How OBBBA Weakens the Tax System, accessed on April 4, 2026, https://taxlawcenter.org/files/The-Tax-Law-Center-How-OBBBA-Weakens-the-Tax-System.pdf
+
+GitHub - sdv-dev/CTGAN: Conditional GAN for generating synthetic tabular data., accessed on April 4, 2026, https://github.com/sdv-dev/CTGAN
+
+Targeted synthetic data generation for tabular data via hardness characterization - arXiv, accessed on April 4, 2026, https://arxiv.org/html/2410.00759v1
+
+(PDF) Synthetic Financial Data Generation for Enhanced Financial Modelling, accessed on April 4, 2026, https://www.researchgate.net/publication/399135718_Synthetic_Financial_Data_Generation_for_Enhanced_Financial_Modelling
+
+Empirical copula-based data augmentation for mixed-type datasets: a robust approach for synthetic data generation - PeerJ, accessed on April 4, 2026, https://peerj.com/articles/cs-3228/
+
+Generating Synthetic Multivariate Data with Copulas - Towards Data Science, accessed on April 4, 2026, https://towardsdatascience.com/generating-synthetic-multivariate-data-with-copulas-edd1c4afa1bb/
+
+(PDF) Copula-based synthetic population generation - ResearchGate, accessed on April 4, 2026, https://www.researchgate.net/publication/368665035_Copula-based_synthetic_population_generation
+
+How to Create and Validate Synthetic Financial Data in Python, accessed on April 4, 2026, https://datasense.to/2025/09/13/synthetic-financial-data-python-guide/
+
+Generation and Simulation of Synthetic Datasets with Copulas - arXiv, accessed on April 4, 2026, https://arxiv.org/pdf/2203.17250
+
+Nonparametric Generation of Synthetic Data Using Copulas - MDPI, accessed on April 4, 2026, https://www.mdpi.com/2079-9292/12/7/1601
+
+incorporating state analysis into the tax policy center's microsimulation model - Urban Institute, accessed on April 4, 2026, https://www.urban.org/sites/default/files/publication/79096/2000697-Incorporating-State-Analysis-into-the-TPCs-Microsimulation-Model.pdf
+
+Alternative Minimum Tax After OBBBA | Mercer Advisors, accessed on April 4, 2026, https://www.merceradvisors.com/insights/taxes/alternative-minimum-tax-after-obbba/
+
+Evaluating the Quality of Synthetic Data | by Sulbha Jain - Medium, accessed on April 4, 2026, https://medium.com/@sulbha.jindal/evaluating-the-quality-of-synthetic-data-efe4ad11f8d7
+
+Comparative analysis of synthetic data vault (SDV) and privacy-preserving graphical models with latent variables - IET Digital Library, accessed on April 4, 2026, https://digital-library.theiet.org/doi/pdf/10.1049/icp.2024.2523?download=true
+
+ONS methodology working paper series number 16 - Synthetic data pilot, accessed on April 4, 2026, https://www.ons.gov.uk/methodology/methodologicalpublications/generalmethodology/onsworkingpaperseries/onsmethodologyworkingpaperseriesnumber16syntheticdatapilot
+
+Kolmogorov–Smirnov test - Wikipedia, accessed on April 4, 2026, https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test
+
+Kolmogorov Smirnov Test for AI: When and Where To Use It - Arize AI, accessed on April 4, 2026, https://arize.com/blog-course/kolmogorov-smirnov-test/
+
+KSComplement | SDMetrics - Synthetic Data Vault, accessed on April 4, 2026, https://docs.sdv.dev/sdmetrics/data-metrics/quality/kscomplement
+
+Which test is the best? We compared 5 methods to detect data drift on large datasets, accessed on April 4, 2026, https://www.evidentlyai.com/blog/data-drift-detection-large-datasets
+
+The BACON-EEM algorithm for multivariate outlier detection in incomplete survey data, accessed on April 4, 2026, https://www150.statcan.gc.ca/n1/pub/12-001-x/2008001/article/10616-eng.pdf
+
+Nonparametric Depth-Based Multivariate Outlier Identifiers, and Masking Robustness Properties - Ole Miss, accessed on April 4, 2026, https://home.olemiss.edu/~xdang/papers/MBP09.pdf
+
+A Multi-Module Machine Learning Approach to Detect Tax Fraud - Tech Science Press, accessed on April 4, 2026, https://www.techscience.com/csse/v46n1/51311/html
+
+Mahalanobis Distance - Understanding the math with examples (python), accessed on April 4, 2026, https://machinelearningplus.com/statistics/mahalanobis-distance/
+
+Demystifying Mahalanobis Distance: The Secret Weapon for Data Outliers | by KoshurAI, accessed on April 4, 2026, https://koshurai.medium.com/demystifying-mahalanobis-distance-the-secret-weapon-for-data-outliers-9cc58e87cdf8
+
+Mahalanobis Distance & Multivariate Outlier Detection in R | Built In, accessed on April 4, 2026, https://builtin.com/data-science/mahalanobis-distance
+
+Multivariate Outlier Detection Using Robust Mahalanobis Distances - Hydrogen Epoch of Reionization Array, accessed on April 4, 2026, http://reionization.org/manual_uploads/HERA110_Multivariate_Outlier_Detection_Using_Robust_Mahalanobis_Distances.pdf
+
+Mahalanobis distance distribution of multivariate normally distributed points, accessed on April 4, 2026, https://stats.stackexchange.com/questions/28593/mahalanobis-distance-distribution-of-multivariate-normally-distributed-points
+
+How to evaluate the quality of the synthetic data – measuring from the perspective of fidelity, utility, and privacy | Artificial Intelligence - AWS, accessed on April 4, 2026, https://aws.amazon.com/blogs/machine-learning/how-to-evaluate-the-quality-of-the-synthetic-data-measuring-from-the-perspective-of-fidelity-utility-and-privacy/
+
+Dataset Condensation with Latent Quantile Matching - CVF Open Access, accessed on April 4, 2026, https://openaccess.thecvf.com/content/CVPR2024W/DDCV/papers/Wei_Dataset_Condensation_with_Latent_Quantile_Matching_CVPRW_2024_paper.pdf
+
+TaxModels - Open Source Policy Center, accessed on April 4, 2026, https://www.ospc.org/taxmodels/
+
+PSLmodels/Tax-Calculator: USA Federal Individual Income and Payroll Tax Microsimulation Model - GitHub, accessed on April 4, 2026, https://github.com/pslmodels/tax-calculator
+
+Tax-Calculator — Tax-Calculator, accessed on April 4, 2026, http://taxcalc.pslmodels.org/
+
+Data for Tax-Calculator, accessed on April 4, 2026, https://taxcalc.pslmodels.org/usage/data.html
+
+Tax-Calculator/taxcalc/validation/taxsim35/README.md at master - GitHub, accessed on April 4, 2026, https://github.com/PSLmodels/Tax-Calculator/blob/master/taxcalc/validation/taxsim35/README.md
+
+Microsimulation Model FAQ - Tax Policy Center, accessed on April 4, 2026, https://taxpolicycenter.org/resources/tax-model-resources/tpcs-microsimulation-model-faq
+
+Brief Description of the Tax Model | Tax Policy Center, accessed on April 4, 2026, https://taxpolicycenter.org/resources/brief-description-tax-model
+
+Constraints - Synthetic Data Vault, accessed on April 4, 2026, https://docs.sdv.dev/sdv/single-table-data/modeling/customizations/constraints
+
+The Guide: Building a Synthetic Data Engine with LLMs and SDV - Dev Genius, accessed on April 4, 2026, https://blog.devgenius.io/the-guide-building-a-synthetic-data-engine-with-llms-and-sdv-f4c7aeab8d18
+
+Welcome to the SDV! - Synthetic Data Vault, accessed on April 4, 2026, https://docs.sdv.dev/sdv
+
+In‑Depth Guide: Building a High‑Fidelity Synthetic Data Pipeline with CTGAN and SDV, accessed on April 4, 2026, https://ubos.tech/news/in%E2%80%91depth-guide-building-a-high%E2%80%91fidelity-synthetic-data-pipeline-with-ctgan-and-sdv/
+
+Exact Synthetic Populations for Scalable Societal and Market Modeling - arXiv, accessed on April 4, 2026, https://arxiv.org/html/2512.07306v1
+
+A Survey on Optimal Transport for Machine Learning: Theory and Applications - IEEE Xplore, accessed on April 4, 2026, https://ieeexplore.ieee.org/iel8/6287639/10820123/10877795.pdf
+
+On Almost Surely Safe Alignment of Large Language Models at Inference-Time - OpenReview, accessed on April 4, 2026, https://openreview.net/pdf?id=FlnokjaSEu
+
+(PDF) A National Synthetic Populations Dataset for the United States - ResearchGate, accessed on April 4, 2026, https://www.researchgate.net/publication/388386983_A_National_Synthetic_Populations_Dataset_for_the_United_States
+
+How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy - arXiv, accessed on April 4, 2026, https://arxiv.org/html/2512.03238v1
+
+SynC: A Unified Framework for Generating Synthetic Population with Gaussian Copula, accessed on April 4, 2026, https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_10.pdf
+
+Copula-based synthetic population generation - ResearchGate, accessed on April 4, 2026, https://www.researchgate.net/profile/Fabian-Bastin/publication/368665035_Copula-based_synthetic_population_generation/links/640745ed0d98a97717e7f337/Copula-based-synthetic-population-generation.pdf
+
+Income tax calculator for SOI-IRS individual Data - NBER, accessed on April 4, 2026, https://www.nber.org/research/data/income-tax-calculator-soi-irs-individual-data
+
+Do existing tax rules weaken OBBBA's pro-investment incentives? - Brookings Institution, accessed on April 4, 2026, https://www.brookings.edu/articles/do-existing-tax-rules-weaken-obbbas-pro-investment-incentives/

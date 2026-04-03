@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1965-10-12</PrimaryBirthDt>
+      <SpouseBirthDt>1976-12-11</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>87009</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>32845</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>870097099</PrimarySSN>
+      <SpouseSSN>328459832</SpouseSSN>
+      <NameLine1Txt>Heidi Walker</NameLine1Txt>
+      <SpouseNameLine1Txt>Kevin Walker</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>HEID</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KEVI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9113 DURHAM PLACE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>328459832</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>6</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>767875271</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Jason</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>JASO</DependentNameControlTxt>
+        <DependentSSN>167711472</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Ann</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>ANN</DependentNameControlTxt>
+        <DependentSSN>355991037</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Christopher</DependentFirstNm>
+        <DependentLastNm>Walker</DependentLastNm>
+        <DependentNameControlTxt>CHRI</DependentNameControlTxt>
+        <DependentSSN>344276941</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">147100</WagesAmt>
+      <WagesSalariesAndTipsAmt>147100</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">2490</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1709</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">58051</BusinessIncomeAmt>
+      <TotalIncomeAmt>209350</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>207761</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">11610</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>39310</TotalDeductionsAmt>
+      <TaxableIncomeAmt>168451</TaxableIncomeAmt>
+      <TaxAmt>27674</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">8000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>8000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>27674</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>19674</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3179</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3179</TotalOtherTaxesAmt>
+      <TotalTaxAmt>22853</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23536</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23536</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23536</TotalPaymentsAmt>
+      <OverpaidAmt>683</OverpaidAmt>
+      <RefundAmt>683</RefundAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3179</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3179</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2490</InterestAmt>
+      <TotalInterestAmt>2490</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1709</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1709</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Walker's Personal Training</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>812990</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>WALK</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Personal Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>80400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>80400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1527</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2254</CarAndTruckExpensesAmt>
+      <InsuranceAmt>995</InsuranceAmt>
+      <OfficeExpensesAmt>1699</OfficeExpensesAmt>
+      <SuppliesAmt>1544</SuppliesAmt>
+      <UtilitiesAmt>527</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13803</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22349</TotalExpensesAmt>
+      <NetProfitOrLossAmt>58051</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>58051</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>58051</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>53610</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3179</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1590</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Walker</ChildFirstAndLastName>
+        <ChildSSN>767875271</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Jason Walker</ChildFirstAndLastName>
+        <ChildSSN>167711472</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ann Walker</ChildFirstAndLastName>
+        <ChildSSN>355991037</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Christopher Walker</ChildFirstAndLastName>
+        <ChildSSN>344276941</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>8000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>8000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>58051</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>58051</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>11610</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>328459832</EmployeeSSN>
+      <EmployerEIN>737534867</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1771 Shannon Motorway</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Kevin Walker</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>1771 Shannon Motorway</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>147100</WagesAmt>
+      <WithholdingAmt>23536</WithholdingAmt>
+      <SocialSecurityWagesAmt>147100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9120</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>147100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2133</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

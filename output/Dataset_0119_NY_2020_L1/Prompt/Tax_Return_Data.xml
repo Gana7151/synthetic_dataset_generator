@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-03-05</PrimaryBirthDt>
+      <SpouseBirthDt>1967-04-10</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>67962</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>34041</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>679624938</PrimarySSN>
+      <SpouseSSN>340414455</SpouseSSN>
+      <NameLine1Txt>Tina Williams</NameLine1Txt>
+      <SpouseNameLine1Txt>Derek Williams</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>TINA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>DERE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>6969 EDWARDS SQUARES</AddressLine1Txt>
+        <CityNm>BUFFALO</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>340414455</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">57900</WagesAmt>
+      <WagesSalariesAndTipsAmt>57900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>57900</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>57900</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
+      <TaxableIncomeAmt>33100</TaxableIncomeAmt>
+      <TaxAmt>3577</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>3577</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>3577</TaxLessCreditsAmt>
+      <TotalTaxAmt>3577</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6948</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6948</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6948</TotalPaymentsAmt>
+      <OverpaidAmt>3371</OverpaidAmt>
+      <RefundAmt>3371</RefundAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>340414455</EmployeeSSN>
+      <EmployerEIN>236641815</EmployerEIN>
+      <EmployerNameControlTxt>EMPI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Empire State Health Network</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7191 Phillip Haven</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Derek Williams</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7191 Phillip Haven</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>57900</WagesAmt>
+      <WithholdingAmt>6948</WithholdingAmt>
+      <SocialSecurityWagesAmt>57900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3590</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>57900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>840</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1958-07-26</PrimaryBirthDt>
+      <SpouseBirthDt>1973-10-18</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>76118</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>71969</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>761188880</PrimarySSN>
+      <SpouseSSN>719696478</SpouseSSN>
+      <NameLine1Txt>Krista Cameron</NameLine1Txt>
+      <SpouseNameLine1Txt>Monica Cameron</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>KRIS</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>MONI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9805 JONES MOUNTAIN</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>719696478</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>5</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Keith</DependentFirstNm>
+        <DependentLastNm>Cameron</DependentLastNm>
+        <DependentNameControlTxt>KEIT</DependentNameControlTxt>
+        <DependentSSN>466466824</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Amber</DependentFirstNm>
+        <DependentLastNm>Cameron</DependentLastNm>
+        <DependentNameControlTxt>AMBE</DependentNameControlTxt>
+        <DependentSSN>147426081</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Cameron</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>467277698</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">97500</WagesAmt>
+      <WagesSalariesAndTipsAmt>97500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1087</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1341</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">75079</BusinessIncomeAmt>
+      <TotalIncomeAmt>175007</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>169703</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">15016</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44216</TotalDeductionsAmt>
+      <TaxableIncomeAmt>125487</TaxableIncomeAmt>
+      <TaxAmt>17713</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>17713</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11713</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">10608</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>10608</TotalOtherTaxesAmt>
+      <TotalTaxAmt>22321</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>15600</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>15600</WithholdingTaxAmt>
+      <TotalPaymentsAmt>15600</TotalPaymentsAmt>
+      <AmountOwedAmt>6721</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">10608</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>10608</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1087</InterestAmt>
+      <TotalInterestAmt>1087</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1341</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1341</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Cameron's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541921</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CAME</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Photography</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>108300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>108300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2256</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>3645</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1763</InsuranceAmt>
+      <OfficeExpensesAmt>1966</OfficeExpensesAmt>
+      <SuppliesAmt>3049</SuppliesAmt>
+      <UtilitiesAmt>706</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>18536</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>31921</TotalExpensesAmt>
+      <NetProfitOrLossAmt>75079</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>75079</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>75079</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>69335</SEBaseAmt>
+      <SelfEmploymentTaxAmt>10608</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>5304</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Keith Cameron</ChildFirstAndLastName>
+        <ChildSSN>466466824</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Amber Cameron</ChildFirstAndLastName>
+        <ChildSSN>147426081</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Cameron</ChildFirstAndLastName>
+        <ChildSSN>467277698</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>75079</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>75079</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>15016</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Cameron's Photography Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1300</DepreciationAmt>
+      <TotalDepreciationAmt>1300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>719696478</EmployeeSSN>
+      <EmployerEIN>389818006</EmployerEIN>
+      <EmployerNameControlTxt>HUDS</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Hudson Valley Capital Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>373 Becker Isle</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Monica Cameron</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>373 Becker Isle</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>97500</WagesAmt>
+      <WithholdingAmt>15600</WithholdingAmt>
+      <SocialSecurityWagesAmt>97500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>6045</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>97500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1414</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

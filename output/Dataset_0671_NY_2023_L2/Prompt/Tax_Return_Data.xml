@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1979-10-15</PrimaryBirthDt>
+      <SpouseBirthDt>1978-05-14</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>39637</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>51201</SpouseSignaturePIN>
+    <SpouseSignatureDt>2024-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>396372692</PrimarySSN>
+      <SpouseSSN>512013502</SpouseSSN>
+      <NameLine1Txt>John Eaton</NameLine1Txt>
+      <SpouseNameLine1Txt>Julie Eaton</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>JULI</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8289 WEBB FORK</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10019</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>512013502</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Cynthia</DependentFirstNm>
+        <DependentLastNm>Eaton</DependentLastNm>
+        <DependentNameControlTxt>CYNT</DependentNameControlTxt>
+        <DependentSSN>656523359</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Samantha</DependentFirstNm>
+        <DependentLastNm>Eaton</DependentLastNm>
+        <DependentNameControlTxt>SAMA</DependentNameControlTxt>
+        <DependentSSN>766543326</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">149700</WagesAmt>
+      <WagesSalariesAndTipsAmt>149700</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">185</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1857</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">44512</BusinessIncomeAmt>
+      <TotalIncomeAmt>196254</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>195007</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>27700</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8902</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>36602</TotalDeductionsAmt>
+      <TaxableIncomeAmt>158405</TaxableIncomeAmt>
+      <TaxAmt>25464</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>25464</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>21464</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2494</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2494</TotalOtherTaxesAmt>
+      <TotalTaxAmt>23958</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>21368</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>21368</WithholdingTaxAmt>
+      <TotalPaymentsAmt>21368</TotalPaymentsAmt>
+      <AmountOwedAmt>2590</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2494</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2494</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>185</InterestAmt>
+      <TotalInterestAmt>185</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1857</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1857</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>722320</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CATE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Catering</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>65300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>65300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>960</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>383</CarAndTruckExpensesAmt>
+      <InsuranceAmt>553</InsuranceAmt>
+      <OfficeExpensesAmt>1597</OfficeExpensesAmt>
+      <SuppliesAmt>1164</SuppliesAmt>
+      <UtilitiesAmt>536</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>12295</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17488</TotalExpensesAmt>
+      <NetProfitOrLossAmt>44512</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>44512</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>44512</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>41107</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2494</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1247</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Cynthia Eaton</ChildFirstAndLastName>
+        <ChildSSN>656523359</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Samantha Eaton</ChildFirstAndLastName>
+        <ChildSSN>766543326</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>44512</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>44512</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8902</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Catering Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>3300</DepreciationAmt>
+      <TotalDepreciationAmt>3300</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>396372692</EmployeeSSN>
+      <EmployerEIN>472302242</EmployerEIN>
+      <EmployerNameControlTxt>MANH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Manhattan Digital Labs Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8635 Pierce Ville</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>John Eaton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8635 Pierce Ville</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>85100</WagesAmt>
+      <WithholdingAmt>13616</WithholdingAmt>
+      <SocialSecurityWagesAmt>85100</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5276</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>85100</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1234</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>512013502</EmployeeSSN>
+      <EmployerEIN>929084686</EmployerEIN>
+      <EmployerNameControlTxt>GOTH</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gotham Engineering Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6316 Gavin Harbors</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Julie Eaton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6316 Gavin Harbors</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10001</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>64600</WagesAmt>
+      <WithholdingAmt>7752</WithholdingAmt>
+      <SocialSecurityWagesAmt>64600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4005</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>64600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>937</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

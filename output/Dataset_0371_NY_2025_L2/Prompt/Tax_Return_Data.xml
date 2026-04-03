@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1992-12-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>25334</PrimarySignaturePIN>
+    <PrimarySignatureDt>2026-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>253342540</PrimarySSN>
+      <NameLine1Txt>Shawn Cole</NameLine1Txt>
+      <PrimaryNameControlTxt>SHAW</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1069 BEARD UNION</AddressLine1Txt>
+        <CityNm>SYRACUSE</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Julia</DependentFirstNm>
+        <DependentLastNm>Cole</DependentLastNm>
+        <DependentNameControlTxt>JULI</DependentNameControlTxt>
+        <DependentSSN>541479318</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">73000</WagesAmt>
+      <WagesSalariesAndTipsAmt>73000</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">501</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1517</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">34905</BusinessIncomeAmt>
+      <TotalIncomeAmt>109923</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>107457</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>15750</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6981</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>22731</TotalDeductionsAmt>
+      <TaxableIncomeAmt>84726</TaxableIncomeAmt>
+      <TaxAmt>13554</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2200</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2200</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>13554</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>11354</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4932</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4932</TotalOtherTaxesAmt>
+      <TotalTaxAmt>16286</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8760</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8760</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8760</TotalPaymentsAmt>
+      <AmountOwedAmt>7526</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4932</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4932</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>501</InterestAmt>
+      <TotalInterestAmt>501</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1517</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1517</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Cole's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>COLE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>52300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>52300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1974</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2340</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1295</InsuranceAmt>
+      <OfficeExpensesAmt>768</OfficeExpensesAmt>
+      <SuppliesAmt>1402</SuppliesAmt>
+      <UtilitiesAmt>984</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8632</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>17395</TotalExpensesAmt>
+      <NetProfitOrLossAmt>34905</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>34905</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>34905</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>32235</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4932</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2466</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Julia Cole</ChildFirstAndLastName>
+        <ChildSSN>541479318</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2200</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2200</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>34905</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>34905</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6981</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>253342540</EmployeeSSN>
+      <EmployerEIN>889044304</EmployerEIN>
+      <EmployerNameControlTxt>BROO</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Brooklyn Bridge Builders LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9525 Webster Rapids</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Shawn Cole</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9525 Webster Rapids</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10028</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>73000</WagesAmt>
+      <WithholdingAmt>8760</WithholdingAmt>
+      <SocialSecurityWagesAmt>73000</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4526</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>73000</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1058</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

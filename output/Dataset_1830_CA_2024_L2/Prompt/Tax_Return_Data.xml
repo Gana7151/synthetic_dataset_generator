@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-08-16</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>38916</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>389165531</PrimarySSN>
+      <NameLine1Txt>Ashley Burgess</NameLine1Txt>
+      <PrimaryNameControlTxt>ASHL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>7762 SHAWN SUMMIT</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Alexander</DependentFirstNm>
+        <DependentLastNm>Burgess</DependentLastNm>
+        <DependentNameControlTxt>ALEX</DependentNameControlTxt>
+        <DependentSSN>618441025</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Lisa</DependentFirstNm>
+        <DependentLastNm>Burgess</DependentLastNm>
+        <DependentNameControlTxt>LISA</DependentNameControlTxt>
+        <DependentSSN>305012533</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">74300</WagesAmt>
+      <WagesSalariesAndTipsAmt>74300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">457</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1881</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">42563</BusinessIncomeAmt>
+      <TotalIncomeAmt>119201</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>116194</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>21900</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8513</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>30413</TotalDeductionsAmt>
+      <TaxableIncomeAmt>85781</TaxableIncomeAmt>
+      <TaxAmt>12231</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>12231</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>8231</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6014</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6014</TotalOtherTaxesAmt>
+      <TotalTaxAmt>14245</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8916</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8916</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8916</TotalPaymentsAmt>
+      <AmountOwedAmt>5329</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6014</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6014</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>457</InterestAmt>
+      <TotalInterestAmt>457</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1881</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1881</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>57900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>57900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1448</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1597</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1007</InsuranceAmt>
+      <OfficeExpensesAmt>849</OfficeExpensesAmt>
+      <SuppliesAmt>1073</SuppliesAmt>
+      <UtilitiesAmt>696</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>8667</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>15337</TotalExpensesAmt>
+      <NetProfitOrLossAmt>42563</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>42563</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>42563</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>39307</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6014</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3007</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Alexander Burgess</ChildFirstAndLastName>
+        <ChildSSN>618441025</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Lisa Burgess</ChildFirstAndLastName>
+        <ChildSSN>305012533</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>42563</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>42563</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8513</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>389165531</EmployeeSSN>
+      <EmployerEIN>536823733</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>9493 Anderson Passage</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Ashley Burgess</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>9493 Anderson Passage</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>74300</WagesAmt>
+      <WithholdingAmt>8916</WithholdingAmt>
+      <SocialSecurityWagesAmt>74300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4607</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>74300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1077</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>817</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

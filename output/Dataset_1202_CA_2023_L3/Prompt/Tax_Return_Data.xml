@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-07-07</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>37255</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>372555014</PrimarySSN>
+      <NameLine1Txt>Wesley Browning</NameLine1Txt>
+      <PrimaryNameControlTxt>WESL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3774 JAMES MISSION</AddressLine1Txt>
+        <CityNm>OAKLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">55500</WagesAmt>
+      <WagesSalariesAndTipsAmt>55500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">286</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">546</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">87425</BusinessIncomeAmt>
+      <TotalIncomeAmt>143757</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>137581</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">17485</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31335</TotalDeductionsAmt>
+      <TaxableIncomeAmt>106246</TaxableIncomeAmt>
+      <TaxAmt>18899</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>18899</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>18899</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">12353</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>12353</TotalOtherTaxesAmt>
+      <TotalTaxAmt>31252</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6660</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6660</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6660</TotalPaymentsAmt>
+      <AmountOwedAmt>24592</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">12353</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>12353</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>286</InterestAmt>
+      <TotalInterestAmt>286</TotalInterestAmt>
+      <OrdinaryDividendsAmt>546</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>546</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Consulting Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541611</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONS</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Management Consulting</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>132400</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>132400</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3616</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>4505</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1521</InsuranceAmt>
+      <OfficeExpensesAmt>3044</OfficeExpensesAmt>
+      <SuppliesAmt>3084</SuppliesAmt>
+      <UtilitiesAmt>1599</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>27606</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>44975</TotalExpensesAmt>
+      <NetProfitOrLossAmt>87425</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>87425</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>87425</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>80737</SEBaseAmt>
+      <SelfEmploymentTaxAmt>12353</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>6176</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>87425</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>87425</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>17485</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>372555014</EmployeeSSN>
+      <EmployerEIN>727661276</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3167 Rogers Lane</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Wesley Browning</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3167 Rogers Lane</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>55500</WagesAmt>
+      <WithholdingAmt>6660</WithholdingAmt>
+      <SocialSecurityWagesAmt>55500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3441</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>55500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>805</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>610</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

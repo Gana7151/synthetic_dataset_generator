@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1978-02-18</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>20223</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>202234820</PrimarySSN>
+      <NameLine1Txt>Rodney Thomas</NameLine1Txt>
+      <PrimaryNameControlTxt>RODN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>2859 ZACHARY LOCKS</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">147400</WagesAmt>
+      <WagesSalariesAndTipsAmt>147400</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">486</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">940</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">91008</BusinessIncomeAmt>
+      <TotalIncomeAmt>239834</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>237301</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>14600</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">18202</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>32802</TotalDeductionsAmt>
+      <TaxableIncomeAmt>204499</TaxableIncomeAmt>
+      <TaxAmt>43126</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>43126</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>43126</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">5066</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>5066</TotalOtherTaxesAmt>
+      <TotalTaxAmt>48475</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>23584</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>23584</WithholdingTaxAmt>
+      <TotalPaymentsAmt>23584</TotalPaymentsAmt>
+      <AmountOwedAmt>24891</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">5066</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>5066</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>486</InterestAmt>
+      <TotalInterestAmt>486</TotalInterestAmt>
+      <OrdinaryDividendsAmt>940</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>940</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Content Creation &amp; Writing</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>711510</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>CONT</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Independent Writers</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>129300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>129300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>3835</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>5152</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1897</InsuranceAmt>
+      <OfficeExpensesAmt>2240</OfficeExpensesAmt>
+      <SuppliesAmt>2055</SuppliesAmt>
+      <UtilitiesAmt>773</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>22340</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>38292</TotalExpensesAmt>
+      <NetProfitOrLossAmt>91008</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>91008</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>91008</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>84046</SEBaseAmt>
+      <SelfEmploymentTaxAmt>5066</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2533</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>91008</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>91008</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>18202</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>202234820</EmployeeSSN>
+      <EmployerEIN>328393014</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5966 Spencer Square</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rodney Thomas</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5966 Spencer Square</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94102</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>147400</WagesAmt>
+      <WithholdingAmt>23584</WithholdingAmt>
+      <SocialSecurityWagesAmt>147400</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>9139</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>147400</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>2137</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1621</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

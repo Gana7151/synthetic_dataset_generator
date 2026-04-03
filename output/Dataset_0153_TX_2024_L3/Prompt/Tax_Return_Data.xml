@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1986-06-14</PrimaryBirthDt>
+      <SpouseBirthDt>1987-01-24</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>50085</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>79464</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>500859791</PrimarySSN>
+      <SpouseSSN>794644190</SpouseSSN>
+      <NameLine1Txt>Lisa Valentine</NameLine1Txt>
+      <SpouseNameLine1Txt>Amanda Valentine</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>LISA</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>AMAN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8176 ANGELA WAY</AddressLine1Txt>
+        <CityNm>EL PASO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>794644190</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Olivia</DependentFirstNm>
+        <DependentLastNm>Valentine</DependentLastNm>
+        <DependentNameControlTxt>OLIV</DependentNameControlTxt>
+        <DependentSSN>470834980</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joseph</DependentFirstNm>
+        <DependentLastNm>Valentine</DependentLastNm>
+        <DependentNameControlTxt>JOSE</DependentNameControlTxt>
+        <DependentSSN>438931075</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">168300</WagesAmt>
+      <WagesSalariesAndTipsAmt>168300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1194</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">2870</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">74027</BusinessIncomeAmt>
+      <TotalIncomeAmt>246391</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>245381</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">14805</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>44005</TotalDeductionsAmt>
+      <TaxableIncomeAmt>201376</TaxableIncomeAmt>
+      <TaxAmt>34415</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>34415</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>30415</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">2020</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>2020</TotalOtherTaxesAmt>
+      <TotalTaxAmt>32435</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>24060</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>24060</WithholdingTaxAmt>
+      <TotalPaymentsAmt>24060</TotalPaymentsAmt>
+      <AmountOwedAmt>8375</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">2020</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>2020</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1194</InterestAmt>
+      <TotalInterestAmt>1194</TotalInterestAmt>
+      <OrdinaryDividendsAmt>2870</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>2870</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Valentine's Digital Marketing Solutions</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541810</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>VALE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Advertising Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>96900</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>96900</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1191</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>2275</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1213</InsuranceAmt>
+      <OfficeExpensesAmt>1416</OfficeExpensesAmt>
+      <SuppliesAmt>1898</SuppliesAmt>
+      <UtilitiesAmt>1303</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>13577</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>22873</TotalExpensesAmt>
+      <NetProfitOrLossAmt>74027</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>74027</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>74027</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>68364</SEBaseAmt>
+      <SelfEmploymentTaxAmt>2020</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1010</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Olivia Valentine</ChildFirstAndLastName>
+        <ChildSSN>470834980</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joseph Valentine</ChildFirstAndLastName>
+        <ChildSSN>438931075</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>74027</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>74027</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>14805</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>500859791</EmployeeSSN>
+      <EmployerEIN>375490723</EmployerEIN>
+      <EmployerNameControlTxt>RIO </EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Rio Grande Engineering</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>8401 Janice Stravenue</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Lisa Valentine</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>8401 Janice Stravenue</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>96600</WagesAmt>
+      <WithholdingAmt>15456</WithholdingAmt>
+      <SocialSecurityWagesAmt>96600</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>5989</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>96600</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1401</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>794644190</EmployeeSSN>
+      <EmployerEIN>854835957</EmployerEIN>
+      <EmployerNameControlTxt>GULF</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Gulf Energy Partners LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>5886 Warner Oval</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Amanda Valentine</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>5886 Warner Oval</AddressLine1Txt>
+        <CityNm>El Paso</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79901</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>71700</WagesAmt>
+      <WithholdingAmt>8604</WithholdingAmt>
+      <SocialSecurityWagesAmt>71700</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4445</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>71700</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1040</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

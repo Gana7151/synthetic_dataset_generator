@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1969-04-06</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>15099</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>150998471</PrimarySSN>
+      <NameLine1Txt>Jasmine Trevino</NameLine1Txt>
+      <PrimaryNameControlTxt>JASM</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>8819 ADAMS GLEN</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Joel</DependentFirstNm>
+        <DependentLastNm>Trevino</DependentLastNm>
+        <DependentNameControlTxt>JOEL</DependentNameControlTxt>
+        <DependentSSN>830395229</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Vanessa</DependentFirstNm>
+        <DependentLastNm>Trevino</DependentLastNm>
+        <DependentNameControlTxt>VANE</DependentNameControlTxt>
+        <DependentSSN>565637143</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">123300</WagesAmt>
+      <WagesSalariesAndTipsAmt>123300</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">1923</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">1687</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">67471</BusinessIncomeAmt>
+      <TotalIncomeAmt>194381</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>191190</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">13494</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>27344</TotalDeductionsAmt>
+      <TaxableIncomeAmt>163846</TaxableIncomeAmt>
+      <TaxAmt>32723</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>32723</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>28723</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6383</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6383</TotalOtherTaxesAmt>
+      <TotalTaxAmt>35106</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>19728</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>19728</WithholdingTaxAmt>
+      <TotalPaymentsAmt>19728</TotalPaymentsAmt>
+      <AmountOwedAmt>15378</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6383</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6383</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1923</InterestAmt>
+      <TotalInterestAmt>1923</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1687</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1687</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>92300</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>92300</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1496</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>61</CarAndTruckExpensesAmt>
+      <InsuranceAmt>1186</InsuranceAmt>
+      <OfficeExpensesAmt>1718</OfficeExpensesAmt>
+      <SuppliesAmt>2417</SuppliesAmt>
+      <UtilitiesAmt>1480</UtilitiesAmt>
+      <OtherBusinessExpensesAmt>16471</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>24829</TotalExpensesAmt>
+      <NetProfitOrLossAmt>67471</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>67471</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>67471</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>62309</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6383</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3191</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joel Trevino</ChildFirstAndLastName>
+        <ChildSSN>830395229</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Vanessa Trevino</ChildFirstAndLastName>
+        <ChildSSN>565637143</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>67471</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>67471</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>13494</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>150998471</EmployeeSSN>
+      <EmployerEIN>231851618</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6291 Kathleen Ville</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Jasmine Trevino</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6291 Kathleen Ville</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94110</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>123300</WagesAmt>
+      <WithholdingAmt>19728</WithholdingAmt>
+      <SocialSecurityWagesAmt>123300</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>7645</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>123300</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>1788</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>1356</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1961-03-12</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>27148</PrimarySignaturePIN>
+    <PrimarySignatureDt>2024-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>271480960</PrimarySSN>
+      <NameLine1Txt>Isaac Brady</NameLine1Txt>
+      <PrimaryNameControlTxt>ISAA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>4322 RICHARDSON DAM</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">26500</WagesAmt>
+      <WagesSalariesAndTipsAmt>26500</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">391</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>26891</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>26891</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>13850</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>13850</TotalDeductionsAmt>
+      <TaxableIncomeAmt>13041</TaxableIncomeAmt>
+      <TaxAmt>1345</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>1345</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>1345</TaxLessCreditsAmt>
+      <TotalTaxAmt>1345</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>2120</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>2120</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2120</TotalPaymentsAmt>
+      <OverpaidAmt>775</OverpaidAmt>
+      <RefundAmt>775</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>391</InterestAmt>
+      <TotalInterestAmt>391</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>271480960</EmployeeSSN>
+      <EmployerEIN>518954210</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>6619 Villarreal Island</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Isaac Brady</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>6619 Villarreal Island</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>26500</WagesAmt>
+      <WithholdingAmt>2120</WithholdingAmt>
+      <SocialSecurityWagesAmt>26500</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>1643</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>26500</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>384</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>292</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>
