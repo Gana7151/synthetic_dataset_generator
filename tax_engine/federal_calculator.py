@@ -20,7 +20,7 @@ from tax_engine.tax_tables import (
     SE_TAX_RATE, SE_INCOME_FACTOR, SS_TAX_RATE, MEDICARE_TAX_RATE,
     QBI_DEDUCTION_RATE, QBI_TAXABLE_INCOME_THRESHOLD,
     OBBBA_DEDUCTIONS, MEDICARE_SURTAX, ADDITIONAL_STD_DEDUCTION,
-    AMT_PARAMS,
+    AMT_PARAMS, LTCG_BRACKETS, SALT_CAP,
     get_ctc_per_child, CTC_PHASEOUT,
     compute_tax_from_brackets,
 )
@@ -196,12 +196,17 @@ def compute_federal_tax(profile) -> dict:
     results["ordinary_dividends"] = round(total_ordinary_div, 2)
     results["qualified_dividends"] = round(total_qualified_div, 2)
 
+    total_short_term = sum(cg.short_term_gains for cg in getattr(profile, 'capital_gains', []))
+    total_long_term = sum(cg.long_term_gains for cg in getattr(profile, 'capital_gains', []))
+    results["short_term_gains"] = round(total_short_term, 2)
+    results["long_term_gains"] = round(total_long_term, 2)
+
     business_net = 0.0
     if profile.business_income:
         business_net = profile.business_income.net_profit
     results["business_income"] = round(business_net, 2)
 
-    total_income = total_wages + total_interest + total_ordinary_div + business_net
+    total_income = total_wages + total_interest + total_ordinary_div + total_short_term + total_long_term + business_net
     results["total_income"] = round(total_income, 2)
 
     # ------------------------------------------------------------------
@@ -257,9 +262,41 @@ def compute_federal_tax(profile) -> dict:
             additional_std = add_ded.get("single_or_mfs", 0)
 
     total_std_ded = std_ded + additional_std
+
+    # Itemized Deductions
+    itemized = 0.0
+    state_taxes_paid = sum(w.state_withheld for w in profile.w2_incomes)
+    salt_cap_limit = SALT_CAP.get(year, 10000)
+    salt_deduction = min(state_taxes_paid, salt_cap_limit)
+    itemized += salt_deduction
+
+    mortgage_interest_deduction = 0.0
+    for m in getattr(profile, 'mortgage_interests', []):
+        if year >= 2018:
+            if m.principal > 750000:
+                mortgage_interest_deduction += m.interest_paid * (750000 / m.principal)
+            else:
+                mortgage_interest_deduction += m.interest_paid
+        else:
+            mortgage_interest_deduction += m.interest_paid
+            
+    mortgage_interest_deduction = round(mortgage_interest_deduction, 2)
+    itemized += mortgage_interest_deduction
+    
+    results["salt_deduction"] = round(salt_deduction, 2)
+    results["mortgage_interest_deduction"] = mortgage_interest_deduction
+    results["itemized_deductions"] = round(itemized, 2)
+
+    if itemized > total_std_ded:
+        deduction_to_use = round(itemized, 2)
+        results["deduction_type"] = "itemized"
+    else:
+        deduction_to_use = round(total_std_ded, 2)
+        results["deduction_type"] = "standard"
+
     results["standard_deduction"] = std_ded
     results["additional_std_deduction"] = additional_std
-    results["deduction_used"] = total_std_ded
+    results["deduction_used"] = deduction_to_use
 
     # ------------------------------------------------------------------
     # Step 5 — QBI Deduction (Form 1040 Line 13)
@@ -268,7 +305,7 @@ def compute_federal_tax(profile) -> dict:
     if business_net > 0:
         status_key = status if status != "hoh" else "single"
         qbi_threshold = QBI_TAXABLE_INCOME_THRESHOLD[year].get(status_key, 200000)
-        taxable_before_qbi = agi - total_std_ded
+        taxable_before_qbi = agi - deduction_to_use
         if taxable_before_qbi > 0:
             qbi_deduction = round(min(
                 business_net * QBI_DEDUCTION_RATE,
@@ -276,7 +313,7 @@ def compute_federal_tax(profile) -> dict:
             ))
     results["qbi_deduction"] = round(qbi_deduction, 2)
 
-    total_deductions = total_std_ded + qbi_deduction
+    total_deductions = deduction_to_use + qbi_deduction
     results["total_deductions"] = round(total_deductions, 2)
 
     # ------------------------------------------------------------------
@@ -291,7 +328,29 @@ def compute_federal_tax(profile) -> dict:
     # ------------------------------------------------------------------
     # Step 7 — Income Tax (Form 1040 Line 16)
     # ------------------------------------------------------------------
-    income_tax = compute_tax_from_brackets(taxable_income, brackets)
+    preferred_income = total_qualified_div + total_long_term
+    ordinary_taxable = max(0, taxable_income - preferred_income)
+
+    ordinary_tax = compute_tax_from_brackets(ordinary_taxable, brackets)
+    preferred_tax = 0.0
+
+    if preferred_income > 0:
+        ltcg_brackets = LTCG_BRACKETS.get(year, LTCG_BRACKETS[list(LTCG_BRACKETS.keys())[-1]])
+        status_key = status if status in ltcg_brackets else "single"
+        b_0, b_15 = ltcg_brackets[status_key]
+
+        cap_0 = max(0, b_0 - ordinary_taxable)
+        in_0 = min(preferred_income, cap_0)
+
+        rem = preferred_income - in_0
+        cap_15 = max(0, b_15 - (ordinary_taxable + in_0))
+        in_15 = min(rem, cap_15)
+
+        in_20 = rem - in_15
+
+        preferred_tax = (in_0 * 0.0) + (in_15 * 0.15) + (in_20 * 0.20)
+
+    income_tax = ordinary_tax + preferred_tax
     results["income_tax"] = round(income_tax, 2)
 
     # ------------------------------------------------------------------

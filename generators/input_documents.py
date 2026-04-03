@@ -49,6 +49,16 @@ def generate_all_input_documents(profile, output_dir: str):
         _generate_1099_div_pdf(div, profile,
                                os.path.join(output_dir, f"1099-DIV{suffix}.pdf"))
 
+    # 1098 PDFs
+    for i, m in enumerate(getattr(profile, 'mortgage_interests', [])):
+        suffix = f"_{i+1}" if len(getattr(profile, 'mortgage_interests', [])) > 1 else ""
+        _generate_1098_pdf(m, profile, os.path.join(output_dir, f"1098{suffix}.pdf"))
+
+    # 1099-B PDFs
+    for i, cg in enumerate(getattr(profile, 'capital_gains', [])):
+        suffix = f"_{i+1}" if len(getattr(profile, 'capital_gains', [])) > 1 else ""
+        _generate_1099_b_pdf(cg, profile, os.path.join(output_dir, f"1099-B{suffix}.pdf"))
+
     # Bank Statement (if business income exists)
     if profile.business_income:
         _generate_bank_statement_xlsx(profile,
@@ -337,6 +347,164 @@ def _generate_1099_div_pdf(div, profile, output_path: str):
         ("1b  Qualified dividends", format_currency(div.qualified_dividends)),
         ("2a  Total capital gain distr.", format_currency(0)),
         ("3  Nondividend distributions", format_currency(0)),
+        ("4  Federal income tax withheld", format_currency(0)),
+    ]
+
+    for label, val in boxes:
+        c.setStrokeColor(BORDER_COLOR)
+        c.rect(left, y, w - 1.0*inch, box_h, stroke=1, fill=0)
+        c.setFillColor(MEDIUM_GRAY)
+        c.setFont("Helvetica", 7)
+        c.drawString(left + 4, y + box_h - 10, label)
+        c.setFillColor(BLACK)
+        c.setFont("Helvetica-Bold", 12)
+        c.drawString(left + 4, y + 8, val)
+        y -= box_h + 0.05*inch
+
+    c.save()
+
+
+# ===========================================================================
+# 1098 PDF Generator
+# ===========================================================================
+
+def _generate_1098_pdf(mortgage, profile, output_path: str):
+    """Generate a 1098 form PDF."""
+    c = canvas.Canvas(output_path, pagesize=letter)
+    w, h = letter
+
+    # Title
+    c.setFillColor(DARK_BLUE)
+    c.rect(0.5*inch, h - 1.0*inch, w - 1.0*inch, 0.4*inch, fill=1, stroke=0)
+    c.setFillColor(WHITE)
+    c.setFont("Helvetica-Bold", 13)
+    c.drawCentredString(w/2, h - 0.82*inch,
+                        f"Form 1098  —  Mortgage Interest Statement  ({profile.tax_year})")
+
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 8)
+    c.drawCentredString(w/2, h - 1.15*inch,
+                        "Department of the Treasury — Internal Revenue Service")
+
+    y = h - 1.6*inch
+    left = 0.5 * inch
+    box_h = 0.55 * inch
+
+    # Payer info
+    c.setStrokeColor(BORDER_COLOR)
+    c.rect(left, y, w - 1.0*inch, 0.8*inch, stroke=1, fill=0)
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 6)
+    c.drawString(left + 4, y + 0.8*inch - 8, "LENDER'S name, address, and TIN")
+    c.setFillColor(BLACK)
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(left + 4, y + 0.8*inch - 24, mortgage.lender_name)
+    c.setFont("Helvetica", 8)
+    c.drawString(left + 4, y + 0.8*inch - 38, f"EIN: {format_ein(mortgage.lender_ein)}")
+    y -= 0.9*inch
+
+    # Recipient info
+    c.setStrokeColor(BORDER_COLOR)
+    c.rect(left, y, w - 1.0*inch, 0.8*inch, stroke=1, fill=0)
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 6)
+    c.drawString(left + 4, y + 0.8*inch - 8, "PAYER'S/BORROWER'S name, address, and TIN")
+    c.setFillColor(BLACK)
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(left + 4, y + 0.8*inch - 24, f"{profile.primary_first} {profile.primary_last}")
+    c.setFont("Helvetica", 8)
+    c.drawString(left + 4, y + 0.8*inch - 38, f"SSN: {format_ssn(profile.primary_ssn)}")
+    c.drawString(left + 4, y + 0.8*inch - 50, f"{profile.address}, {profile.city}, {profile.state} {profile.zip_code}")
+    y -= 0.9*inch
+
+    # Boxes
+    boxes = [
+        ("1  Mortgage interest received", format_currency(mortgage.interest_paid)),
+        ("2  Outstanding mortgage principal", format_currency(mortgage.principal)),
+        ("3  Mortgage origination date", "01/15/2015"),
+        ("4  Refund of overpaid interest", format_currency(0)),
+        ("5  Mortgage insurance premiums", format_currency(0)),
+    ]
+
+    for label, val in boxes:
+        c.setStrokeColor(BORDER_COLOR)
+        c.rect(left, y, w - 1.0*inch, box_h, stroke=1, fill=0)
+        c.setFillColor(MEDIUM_GRAY)
+        c.setFont("Helvetica", 7)
+        c.drawString(left + 4, y + box_h - 10, label)
+        c.setFillColor(BLACK)
+        c.setFont("Helvetica-Bold", 12)
+        c.drawString(left + 4, y + 8, val)
+        y -= box_h + 0.05*inch
+
+    c.save()
+
+
+# ===========================================================================
+# 1099-B PDF Generator
+# ===========================================================================
+
+def _generate_1099_b_pdf(cg, profile, output_path: str):
+    """Generate a 1099-B form PDF."""
+    c = canvas.Canvas(output_path, pagesize=letter)
+    w, h = letter
+
+    # Title
+    c.setFillColor(DARK_BLUE)
+    c.rect(0.5*inch, h - 1.0*inch, w - 1.0*inch, 0.4*inch, fill=1, stroke=0)
+    c.setFillColor(WHITE)
+    c.setFont("Helvetica-Bold", 13)
+    c.drawCentredString(w/2, h - 0.82*inch,
+                        f"Form 1099-B  —  Proceeds From Broker  ({profile.tax_year})")
+
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 8)
+    c.drawCentredString(w/2, h - 1.15*inch,
+                        "Department of the Treasury — Internal Revenue Service")
+
+    y = h - 1.6*inch
+    left = 0.5 * inch
+    box_h = 0.55 * inch
+
+    # Payer info
+    c.setStrokeColor(BORDER_COLOR)
+    c.rect(left, y, w - 1.0*inch, 0.8*inch, stroke=1, fill=0)
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 6)
+    c.drawString(left + 4, y + 0.8*inch - 8, "PAYER'S name, address, and TIN")
+    c.setFillColor(BLACK)
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(left + 4, y + 0.8*inch - 24, cg.payer_name)
+    c.setFont("Helvetica", 8)
+    c.drawString(left + 4, y + 0.8*inch - 38, f"EIN: {format_ein(cg.payer_ein)}")
+    y -= 0.9*inch
+
+    # Recipient info
+    c.setStrokeColor(BORDER_COLOR)
+    c.rect(left, y, w - 1.0*inch, 0.8*inch, stroke=1, fill=0)
+    c.setFillColor(MEDIUM_GRAY)
+    c.setFont("Helvetica", 6)
+    c.drawString(left + 4, y + 0.8*inch - 8, "RECIPIENT'S name, address, and TIN")
+    c.setFillColor(BLACK)
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(left + 4, y + 0.8*inch - 24, f"{profile.primary_first} {profile.primary_last}")
+    c.setFont("Helvetica", 8)
+    c.drawString(left + 4, y + 0.8*inch - 38, f"SSN: {format_ssn(profile.primary_ssn)}")
+    c.drawString(left + 4, y + 0.8*inch - 50, f"{profile.address}, {profile.city}, {profile.state} {profile.zip_code}")
+    y -= 0.9*inch
+
+    # Boxes (assuming 20% gain margin for proceeds)
+    st_proceeds = cg.short_term_gains * 5 if cg.short_term_gains > 0 else 0
+    st_cost = st_proceeds - cg.short_term_gains
+
+    lt_proceeds = cg.long_term_gains * 5 if cg.long_term_gains > 0 else 0
+    lt_cost = lt_proceeds - cg.long_term_gains
+
+    boxes = [
+        ("1d  Proceeds (Short-Term)", format_currency(st_proceeds)),
+        ("1e  Cost or other basis (Short-Term)", format_currency(st_cost)),
+        ("1d  Proceeds (Long-Term)", format_currency(lt_proceeds)),
+        ("1e  Cost or other basis (Long-Term)", format_currency(lt_cost)),
         ("4  Federal income tax withheld", format_currency(0)),
     ]
 
@@ -710,6 +878,18 @@ def _generate_attachments_summary(profile, output_dir):
         data.append([str(doc_num), "Form 1099-DIV",
                      f"Dividends: {format_currency_int(di.ordinary_dividends)}",
                      di.payer_name])
+        doc_num += 1
+
+    for m in getattr(profile, 'mortgage_interests', []):
+        data.append([str(doc_num), "Form 1098",
+                     f"Mortgage Int: {format_currency_int(m.interest_paid)}",
+                     m.lender_name])
+        doc_num += 1
+
+    for cg in getattr(profile, 'capital_gains', []):
+        data.append([str(doc_num), "Form 1099-B",
+                     f"Capital Gains",
+                     cg.payer_name])
         doc_num += 1
 
     if profile.business_income:

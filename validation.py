@@ -142,8 +142,15 @@ class ValidationEngine:
         Guide V-04: mortgage_interest_deduction ≤ ($750K if year ≥ 2018
         else $1M) × 0.08.
         """
-        # Current generator doesn't produce mortgage data — always passes
-        # When mortgage is added, enforce: max deduction = $750K × 0.08 = $60K
+        fed = profile.federal_results
+        mortgage_deduction = fed.get("mortgage_interest_deduction", 0)
+        
+        cap_principal = 750000 if profile.tax_year >= 2018 else 1000000
+        max_rate = 0.08
+        max_deduction = cap_principal * max_rate
+        
+        if mortgage_deduction > max_deduction + 0.01:
+            return False, f"Mortgage interest deduction {mortgage_deduction} exceeds cap {max_deduction}"
         return True, ""
 
     # -----------------------------------------------------------------------

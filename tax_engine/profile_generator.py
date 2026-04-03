@@ -97,6 +97,22 @@ class DividendIncome:
 
 
 @dataclass
+class MortgageInterest:
+    lender_name: str
+    lender_ein: str
+    principal: float
+    interest_paid: float
+
+
+@dataclass
+class CapitalGainsIncome:
+    payer_name: str
+    payer_ein: str
+    short_term_gains: float
+    long_term_gains: float
+
+
+@dataclass
 class BusinessExpenses:
     advertising: float = 0.0
     car_and_truck: float = 0.0
@@ -173,6 +189,8 @@ class TaxProfile:
     w2_incomes: List[W2Income] = field(default_factory=list)
     interest_incomes: List[InterestIncome] = field(default_factory=list)
     dividend_incomes: List[DividendIncome] = field(default_factory=list)
+    capital_gains: List[CapitalGainsIncome] = field(default_factory=list)
+    mortgage_interests: List[MortgageInterest] = field(default_factory=list)
     business_income: Optional[BusinessIncome] = None
 
     # OBBBA flags (2025+ only)
@@ -679,4 +697,34 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int,
             payer_name=random.choice(BANKS),
             payer_ein=_generate_ein(),
             amount=round(random.uniform(100, 2000), 2),
+        ))
+
+    # --- Mortgage Interest (Level 2+) ---
+    if level >= 2 and random.random() < 0.4:
+        # Occasionally generate principal > $750k to trigger V-04 limit
+        if random.random() < 0.2:
+            principal = round(random.uniform(800000, 1500000) / 1000) * 1000
+        else:
+            principal = round(random.uniform(150000, 600000) / 1000) * 1000
+            
+        rate = random.uniform(0.03, 0.07)
+        interest_paid = round(principal * rate, 2)
+        bank = random.choice(BANKS)
+        profile.mortgage_interests.append(MortgageInterest(
+            lender_name=bank,
+            lender_ein=_generate_ein(),
+            principal=principal,
+            interest_paid=interest_paid,
+        ))
+
+    # --- Capital Gains (Level 2+) ---
+    if level >= 2 and random.random() < 0.3:
+        brokerage = random.choice(BROKERAGES)
+        short_term = round(random.uniform(0, 5000), 2) if random.random() < 0.5 else 0.0
+        long_term = round(random.uniform(500, 20000), 2)
+        profile.capital_gains.append(CapitalGainsIncome(
+            payer_name=brokerage[0],
+            payer_ein=brokerage[1],
+            short_term_gains=short_term,
+            long_term_gains=long_term,
         ))

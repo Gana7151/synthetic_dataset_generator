@@ -34,8 +34,13 @@ def generate_tax_forms(profile, output_path: str):
     # Form 1040
     _add_form_1040_page(story, profile, styles)
 
-    # Schedule B (if interest/dividends)
+    # Schedule A (Itemized Deductions)
     fed = profile.federal_results
+    if fed.get("deduction_type") == "itemized":
+        story.append(PageBreak())
+        _add_schedule_a_page(story, profile, styles)
+
+    # Schedule B (if interest/dividends)
     if fed.get("taxable_interest", 0) > 0 or fed.get("ordinary_dividends", 0) > 0:
         story.append(PageBreak())
         _add_schedule_b_page(story, profile, styles)
@@ -163,7 +168,9 @@ def _add_form_1040_page(story, profile, styles):
                               fed["se_tax_deduction"]))
 
     rows.append(_line_row("11", "Adjusted Gross Income (AGI)", fed["agi"]))
-    rows.append(_line_row("12", "Standard deduction", fed["deduction_used"]))
+    
+    deduction_label = "Itemized deductions (from Schedule A)" if fed.get("deduction_type") == "itemized" else "Standard deduction"
+    rows.append(_line_row("12", deduction_label, fed["deduction_used"]))
 
     if fed.get("qbi_deduction", 0) > 0:
         rows.append(_line_row("13", "Qualified business income deduction",
@@ -200,6 +207,27 @@ def _add_form_1040_page(story, profile, styles):
         rows2.append(_line_row("37", "Amount you owe", fed["amount_owed"]))
 
     story.append(_build_line_table(rows2, styles))
+
+
+# ===========================================================================
+# Schedule A
+# ===========================================================================
+
+def _add_schedule_a_page(story, profile, styles):
+    fed = profile.federal_results
+    _form_header(story, styles, "Schedule A — Itemized Deductions",
+                 "Form 1040  |  Department of the Treasury — IRS",
+                 profile.tax_year, profile)
+
+    rows = [["Line", "Description", "Amount"]]
+    
+    rows.append(_line_row("5", "State and local taxes (subject to cap limit)", fed.get("salt_deduction", 0)))
+    rows.append(_line_row("8", "Home mortgage interest and points", fed.get("mortgage_interest_deduction", 0)))
+    
+    rows.append(_line_row("17", "Total itemized deductions", fed.get("itemized_deductions", 0)))
+
+    story.append(_build_line_table(rows, styles))
+    story.append(Spacer(1, 12))
 
 
 # ===========================================================================
