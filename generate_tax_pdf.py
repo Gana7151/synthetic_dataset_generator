@@ -44,12 +44,30 @@ def load_xml(path: str) -> etree._Element:
     return tree.getroot()
 
 
-def xget(root: etree._Element, xpath: str, default: str = "") -> str:
+IRS_NS = ""   # IRS MeF XML has no namespace prefix
+
+def xget(root, xpath, default=""):
     """Return text of first matching element, or default."""
     nodes = root.xpath(xpath)
     if nodes:
         return (nodes[0].text or "").strip()
     return default
+
+def s(root, xpath, val):
+    """Set the text of the first matching node, create if absent."""
+    nodes = root.xpath(xpath)
+    if nodes:
+        nodes[0].text = str(max(0, int(val)))
+    else:
+        parts = xpath.rsplit("/", 1)
+        if len(parts) == 2:
+            parent_xpath, tag = parts
+            parents = root.xpath(parent_xpath)
+            if parents:
+                from lxml import etree
+                new_el = etree.SubElement(parents[0], tag)
+                new_el.text = str(max(0, int(val)))
+
 
 
 def fmt_money(val: str) -> str:
@@ -88,243 +106,272 @@ def top_to_y(top: float, font_size: float = 9) -> float:
 FIELD_DEFINITIONS = [
 
     # ── PAGE 1 — Form 1040 ──────────────────────────────────────────────────
-    # Header / Filer info
-    (1, "//Taxpayer/Primary/FirstName",          39.1,  93.5,  9,  None),
-    (1, "//Taxpayer/Primary/LastName",           247.9, 93.5,  9,  None),
-    (1, "//Taxpayer/Primary/SSN",                478.3, 93.5,  9,  fmt_ssn),
-    (1, "//Taxpayer/Spouse/FirstName",           39.5,  117.5, 9,  None),
-    (1, "//Taxpayer/Spouse/LastName",            247.9, 117.5, 9,  None),
-    (1, "//Taxpayer/Spouse/SSN",                 478.3, 117.5, 9,  fmt_ssn),
-    (1, "//Taxpayer/Address/Street",             39.5,  143.5, 9,  None),
-    (1, "//Taxpayer/Address/City",               39.5,  166.5, 9,  None),
-    (1, "//Taxpayer/Address/State",              206.0, 166.5, 9,  None),
-    (1, "//Taxpayer/Address/ZIP",                260.0, 166.5, 9,  None),
-
+    (1, "//Return/ReturnHeader/Filer/NameLine1Txt",                          39.1,  93.5,  9,  None),
+    (1, "//Return/ReturnHeader/Filer/PrimarySSN",                           478.3,  93.5,  9,  fmt_ssn),
+    (1, "//Return/ReturnHeader/Filer/SpouseNameLine1Txt",                    39.5, 117.5,  9,  None),
+    (1, "//Return/ReturnHeader/Filer/SpouseSSN",                            478.3, 117.5,  9,  fmt_ssn),
+    (1, "//Return/ReturnHeader/Filer/USAddress/AddressLine1Txt",             39.5, 143.5,  9,  None),
+    (1, "//Return/ReturnHeader/Filer/USAddress/CityNm",                      39.5, 166.5,  9,  None),
+    (1, "//Return/ReturnHeader/Filer/USAddress/StateAbbreviationCd",        206.0, 166.5,  9,  None),
+    (1, "//Return/ReturnHeader/Filer/USAddress/ZIPCd",                      260.0, 166.5,  9,  None),
     # Dependents
-    (1, "//Taxpayer/Dependents/Dependent[@seq='1']/FirstName",  96.7,  381.5, 8, None),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='1']/LastName",   160.0, 381.5, 8, None),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='1']/SSN",        290.0, 381.5, 8, fmt_ssn),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='1']/Relationship", 400.0, 381.5, 8, None),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='2']/FirstName",  96.7,  393.5, 8, None),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='2']/LastName",   160.0, 393.5, 8, None),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='2']/SSN",        290.0, 393.5, 8, fmt_ssn),
-    (1, "//Taxpayer/Dependents/Dependent[@seq='2']/Relationship", 400.0, 393.5, 8, None),
-
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",   96.7, 381.5,  8,  None),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentLastNm",   160.0, 381.5,  8,  None),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentSSN",      290.0, 381.5,  8,  fmt_ssn),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentRelationshipCd", 400.0, 381.5, 8, None),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[2]/DependentFirstNm",   96.7, 393.5,  8,  None),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[2]/DependentLastNm",   160.0, 393.5,  8,  None),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[2]/DependentSSN",      290.0, 393.5,  8,  fmt_ssn),
+    (1, "//Return/ReturnData/IRS1040/DependentDetail[2]/DependentRelationshipCd", 400.0, 393.5, 8, None),
     # Income lines
-    (1, "//Form1040/Income/L1a_WagesW2",              547.1, 429.5, 9, fmt_money),
-    (1, "//Form1040/Income/L1z_TotalWages",           547.1, 537.5, 9, fmt_money),
-    (1, "//Form1040/Income/L2b_TaxableInterest",      547.1, 549.5, 9, fmt_money),
-    (1, "//Form1040/Income/L3b_OrdinaryDividends",    547.1, 561.5, 9, fmt_money),
-    (1, "//Form1040/Income/L8_AdditionalIncomeSchedule1", 547.1, 633.5, 9, fmt_money),
-    (1, "//Form1040/Income/L9_TotalIncome",           547.1, 645.5, 9, fmt_money),
-    (1, "//Form1040/AGI/L10_AdjustmentsSchedule1",    552.7, 657.5, 9, fmt_money),
-    (1, "//Form1040/AGI/L11_AdjustedGrossIncome",     547.1, 669.5, 9, fmt_money),
-    (1, "//Form1040/TaxableIncome/L12_StandardOrItemizedDeduction", 547.1, 681.5, 9, fmt_money),
-    (1, "//Form1040/TaxableIncome/L13_QBIDeductionForm8995",  547.1, 693.5, 9, fmt_money),
-    (1, "//Form1040/TaxableIncome/L15_TaxableIncome",         547.1, 717.5, 9, fmt_money),
+    (1, "//Return/ReturnData/IRS1040/WagesAmt",                            547.1, 429.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/WagesSalariesAndTipsAmt",             547.1, 537.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TaxableInterestAmt",                  547.1, 549.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/OrdinaryDividendsAmt",                547.1, 561.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/BusinessIncomeAmt",                   547.1, 633.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TotalIncomeAmt",                      547.1, 645.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/AdjustmentsToIncomeAmt",              552.7, 657.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/AdjustedGrossIncomeAmt",              547.1, 669.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TotalItemizedOrStandardDedAmt",       547.1, 681.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/QualifiedBusinessIncomeDedAmt",       547.1, 693.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TotalDeductionsAmt",                  547.1, 705.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                    547.1, 717.5,  9,  fmt_money),
 
     # ── PAGE 2 — Form 1040 (Tax, Credits, Payments) ─────────────────────────
-    (2, "//Taxpayer/Primary/FirstName",           39.5,  27.5,  8, None),   # header name repeat
-    (2, "//Taxpayer/Primary/SSN",                474.7,  27.5,  8, fmt_ssn),
-    (2, "//Form1040/TaxAndCredits/L16_Tax",              552.7, 39.5,  9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L18_TotalTax",         552.7, 63.5,  9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L19_ChildTaxCreditSchedule8812", 552.1, 75.5, 9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L21_TotalCredits",     552.1, 99.5,  9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L22_TaxAfterCredits",  552.7, 111.5, 9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L23_OtherTaxesSchedule2", 552.7, 123.5, 9, fmt_money),
-    (2, "//Form1040/TaxAndCredits/L24_TotalTax",         552.7, 135.5, 9, fmt_money),
-    (2, "//Form1040/Payments/L25a_FederalWithheldW2",    455.5, 159.5, 9, fmt_money),
-    (2, "//Form1040/Payments/L25d_TotalFederalWithheld", 552.1, 195.5, 9, fmt_money),
-    (2, "//Form1040/Payments/L33_TotalPayments",         552.1, 291.5, 9, fmt_money),
-    (2, "//Form1040/RefundOrOwed/L34_Overpaid",          575.1, 303.5, 9, fmt_money),
-    (2, "//Form1040/RefundOrOwed/L35a_RefundAmount",     574.5, 315.5, 9, fmt_money),
-    (2, "//Form1040/RefundOrOwed/L37_AmountOwed",        552.1, 375.5, 9, fmt_money),
-    (2, "//Taxpayer/Primary/Occupation",                 290.0, 555.5, 9, None),
-    (2, "//Taxpayer/Spouse/Occupation",                  290.0, 569.5, 9, None),
-    (2, "//Taxpayer/Primary/Phone",                      39.5,  583.5, 9, None),
-    (2, "//Taxpayer/Primary/Email",                      200.0, 583.5, 9, None),
+    (2, "//Return/ReturnHeader/Filer/NameLine1Txt",                         39.5,  27.5,  8,  None),
+    (2, "//Return/ReturnHeader/Filer/PrimarySSN",                          474.7,  27.5,  8,  fmt_ssn),
+    (2, "//Return/ReturnData/IRS1040/TaxAmt",                              552.7,  39.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalTaxBeforeCrAndOthTaxesAmt",      552.7,  63.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/ChildTaxCreditAmt",                   552.1,  75.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalCreditsAmt",                     552.1,  99.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TaxLessCreditsAmt",                   552.7, 111.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/OtherTaxesAmt",                       552.7, 123.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalTaxAmt",                         552.7, 135.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt",                455.5, 159.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/WithholdingTaxAmt",                   552.1, 195.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalPaymentsAmt",                    552.1, 291.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/OverpaidAmt",                         575.1, 303.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/RefundAmt",                           574.5, 315.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/AmountOwedAmt",                       552.1, 375.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRSW2/EmployeeOccupation",                    290.0, 555.5,  9,  None),
+    (2, "//Return/ReturnData/IRSW2/SpouseOccupation",                      290.0, 569.5,  9,  None),
+    (2, "//Return/ReturnHeader/Filer/PhoneNum",                             39.5, 583.5,  9,  None),
+    (2, "//Return/ReturnHeader/Filer/EmailAddressTxt",                     200.0, 583.5,  9,  None),
 
     # ── PAGE 3 — Schedule 1 Part I ──────────────────────────────────────────
-    (3, "//Taxpayer/Primary/SSN",                       478.3, 99.5,  9, fmt_ssn),
-    (3, "//Schedule1/Part1_AdditionalIncome/L3_BusinessIncomeScheduleC", 547.0, 277.5, 9, fmt_money),
-    (3, "//Schedule1/Part1_AdditionalIncome/L10_TotalAdditionalIncome",  547.0, 501.5, 9, fmt_money),
+    (3, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (3, "//Return/ReturnData/IRS1040ScheduleC/NetProfitOrLossAmt",         547.0, 277.5,  9,  fmt_money),
+    (3, "//Return/ReturnData/IRS1040/BusinessIncomeAmt",                   547.0, 501.5,  9,  fmt_money),
 
     # ── PAGE 4 — Schedule 1 Part II ─────────────────────────────────────────
-    (4, "//Schedule1/Part2_AdjustmentsToIncome/L15_SelfEmploymentTaxDeduction", 547.0, 218.5, 9, fmt_money),
-    (4, "//Schedule1/Part2_AdjustmentsToIncome/L26_TotalAdjustments",           547.0, 598.5, 9, fmt_money),
+    (4, "//Return/ReturnData/IRS1040ScheduleSE/DeductibleSelfEmploymentTaxAmt", 547.0, 218.5, 9, fmt_money),
+    (4, "//Return/ReturnData/IRS1040/AdjustmentsToIncomeAmt",              547.0, 598.5,  9,  fmt_money),
 
     # ── PAGE 5 — Schedule 2 Part I ──────────────────────────────────────────
-    (5, "//Taxpayer/Primary/SSN",                478.3, 99.5,  9, fmt_ssn),
-    (5, "//Schedule2/Part1_Tax/L1z_TotalAdditions",     547.0, 268.5, 9, fmt_money),
-    (5, "//Schedule2/Part1_Tax/L2_AlternativeMinimumTax", 547.0, 282.5, 9, fmt_money),
-    (5, "//Schedule2/Part1_Tax/L3_TotalTaxPart1",        547.0, 296.5, 9, fmt_money),
-    (5, "//Schedule2/Part2_OtherTaxes/L4_SelfEmploymentTax", 547.0, 324.5, 9, fmt_money),
+    (5, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (5, "//Return/ReturnData/IRS1040Schedule2/AlternativeMinimumTaxAmt",   547.0, 282.5,  9,  fmt_money),
+    (5, "//Return/ReturnData/IRS1040Schedule2/TotalAdditionalTaxAmt",      547.0, 296.5,  9,  fmt_money),
+    (5, "//Return/ReturnData/IRS1040Schedule2/SelfEmploymentTaxAmt",       547.0, 324.5,  9,  fmt_money),
 
-    # ── PAGE 6 — Schedule 2 Part II (continued) ─────────────────────────────
-    (6, "//Schedule2/Part2_OtherTaxes/L21_TotalOtherTaxes", 547.0, 720.5, 9, fmt_money),
+    # ── PAGE 6 — Schedule 2 Part II ─────────────────────────────────────────
+    (6, "//Return/ReturnData/IRS1040Schedule2/TotalOtherTaxesAmt",         547.0, 720.5,  9,  fmt_money),
 
-    # ── PAGE 7 — Schedule B ─────────────────────────────────────────────────
-    (7, "//Taxpayer/Primary/SSN",                 478.3, 99.5, 9, fmt_ssn),
-    (7, "//ScheduleB/Part1_Interest/InterestItems/Item[@seq='1']/Payer",   43.0, 148.5, 9, None),
-    (7, "//ScheduleB/Part1_Interest/InterestItems/Item[@seq='1']/Amount",  547.0, 148.5, 9, fmt_money),
-    (7, "//ScheduleB/Part1_Interest/L2_TotalInterest",                     547.0, 220.5, 9, fmt_money),
-    (7, "//ScheduleB/Part1_Interest/L4_TaxableInterest",                   547.0, 248.5, 9, fmt_money),
-    (7, "//ScheduleB/Part2_OrdinaryDividends/DividendItems/Item[@seq='1']/Payer",  43.0, 330.5, 9, None),
-    (7, "//ScheduleB/Part2_OrdinaryDividends/DividendItems/Item[@seq='1']/Amount", 547.0, 330.5, 9, fmt_money),
-    (7, "//ScheduleB/Part2_OrdinaryDividends/L6_TotalOrdinaryDividends",           547.0, 388.5, 9, fmt_money),
+    # ── PAGE 7 — Schedule B ──────────────────────────────────────────────────
+    (7, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/InterestPayerName",           43.0, 148.5,  9,  None),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/InterestAmt",                547.0, 148.5,  9,  fmt_money),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/TotalInterestAmt",           547.0, 220.5,  9,  fmt_money),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/TotalInterestAmt",           547.0, 248.5,  9,  fmt_money),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/DividendPayerName",           43.0, 330.5,  9,  None),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/OrdinaryDividendsAmt",       547.0, 330.5,  9,  fmt_money),
+    (7, "//Return/ReturnData/IRS1040ScheduleB/TotalOrdinaryDividendsAmt",  547.0, 388.5,  9,  fmt_money),
 
-    # ── PAGE 8 — Schedule C Part I & II ─────────────────────────────────────
-    (8, "//ScheduleC/Header/ProprietorName",         43.0,  99.5, 9, None),
-    (8, "//ScheduleC/Header/ProprietorSSN",         478.3,  99.5, 9, fmt_ssn),
-    (8, "//ScheduleC/Header/BusinessDescription",    43.0, 118.5, 9, None),
-    (8, "//ScheduleC/Header/PrincipalBusinessCode", 440.0, 118.5, 9, None),
-    (8, "//ScheduleC/Header/BusinessName",           43.0, 130.5, 9, None),
-    (8, "//ScheduleC/Header/BusinessAddress",        43.0, 142.5, 9, None),
-    (8, "//ScheduleC/Part1_Income/L1_GrossReceipts", 547.0, 204.5, 9, fmt_money),
-    (8, "//ScheduleC/Part1_Income/L7_GrossIncome",   547.0, 256.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L8_Advertising",      267.0, 280.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L13_DepreciationSection179",  267.0, 340.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L18_OfficeExpense",           488.0, 280.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L20b_RentLeaseOtherProperty", 488.0, 304.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L22_Supplies",                267.0, 352.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L23_TaxesLicenses",           267.0, 364.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L24b_DeductibleMeals",        488.0, 328.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L27a_OtherExpenses_Total",    267.0, 400.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L28_TotalExpensesBeforeHome", 547.0, 412.5, 9, fmt_money),
-    (8, "//ScheduleC/Part2_Expenses/L31_NetProfitLoss",           547.0, 448.5, 9, fmt_money),
+    # ── PAGE 8 — Schedule C ──────────────────────────────────────────────────
+    (8, "//Return/ReturnData/IRS1040ScheduleC/ProprietorNm",                43.0,  99.5,  9,  None),
+    (8, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityDesc", 43.0, 118.5, 9, None),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityCd", 440.0, 118.5, 9, None),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/BusinessName/BusinessNameLine1Txt", 43.0, 130.5, 9, None),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/BusinessAddressTxt",          43.0, 142.5,  9,  None),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/GrossReceiptsOrSalesAmt",    547.0, 204.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/TotalGrossReceiptsAmt",      547.0, 256.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/AdvertisingAmt",             267.0, 280.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/DepreciationAmt",            267.0, 340.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/OfficeExpensesAmt",          488.0, 280.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/RentLeaseAmt",               488.0, 304.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/SuppliesAmt",                267.0, 352.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/TaxesAndLicensesAmt",        267.0, 364.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/MealsAmt",                   488.0, 328.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/OtherBusinessExpensesAmt",   267.0, 400.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/TotalExpensesAmt",           547.0, 412.5,  9,  fmt_money),
+    (8, "//Return/ReturnData/IRS1040ScheduleC/NetProfitOrLossAmt",         547.0, 448.5,  9,  fmt_money),
 
-    # ── PAGE 9 — Schedule C Part V (Other Expenses) ──────────────────────────
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='1']/Description",  43.0, 466.5, 9, None),
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='1']/Amount",      488.0, 466.5, 9, fmt_money),
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='2']/Description",  43.0, 478.5, 9, None),
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='2']/Amount",      488.0, 478.5, 9, fmt_money),
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='3']/Description",  43.0, 490.5, 9, None),
-    (9, "//ScheduleC/Part5_OtherExpenses/Item[@seq='3']/Amount",      488.0, 490.5, 9, fmt_money),
-    (9, "//ScheduleC/Part5_OtherExpenses/L48_TotalOtherExpenses",     488.0, 550.5, 9, fmt_money),
+    # ── PAGE 9 — Schedule C Part V ───────────────────────────────────────────
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='1']/Description", 43.0, 466.5, 9, None),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='1']/Amount",     488.0, 466.5, 9, fmt_money),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='2']/Description", 43.0, 478.5, 9, None),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='2']/Amount",     488.0, 478.5, 9, fmt_money),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='3']/Description", 43.0, 490.5, 9, None),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/Item[@seq='3']/Amount",     488.0, 490.5, 9, fmt_money),
+    (9, "//Return/ReturnData/IRS1040ScheduleC/Part5_OtherExpenses/L48_TotalOtherExpenses",   488.0, 550.5, 9, fmt_money),
 
     # ── PAGE 10 — Schedule SE ────────────────────────────────────────────────
-    (10, "//ScheduleSE/PersonName",                     43.0,  99.5, 9, None),
-    (10, "//ScheduleSE/PersonSSN",                     478.3,  99.5, 9, fmt_ssn),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L2_NetProfitScheduleC", 547.0, 196.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L3_CombinedLines",      547.0, 208.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L4a_Multiply_9235",     547.0, 222.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L4c_Combined",          547.0, 238.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L6_AddLines4c5b",       547.0, 280.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L9_Subtract8dFrom7",    547.0, 406.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L10_Multiply_124",      547.0, 418.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L11_Multiply_029",      547.0, 430.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L12_SelfEmploymentTax", 547.0, 444.5, 9, fmt_money),
-    (10, "//ScheduleSE/Part1_SelfEmploymentTax/L13_DeductionHalfSETax",547.0, 460.5, 9, fmt_money),
+    (10, "//Return/ReturnHeader/Filer/NameLine1Txt",                         43.0,  99.5,  9,  None),
+    (10, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/NetProfitOrLossAmt",        547.0, 196.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/SETotalNetEarningsOrLossAmt", 547.0, 208.5, 9, fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L4a_Multiply_9235",         547.0, 222.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L4c_Combined",              547.0, 238.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L6_AddLines4c5b",           547.0, 280.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L9_Subtract8dFrom7",        547.0, 406.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L10_Multiply_124",          547.0, 418.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/L11_Multiply_029",          547.0, 430.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/SelfEmploymentTaxAmt",      547.0, 444.5,  9,  fmt_money),
+    (10, "//Return/ReturnData/IRS1040ScheduleSE/DeductibleSelfEmploymentTaxAmt", 547.0, 460.5, 9, fmt_money),
 
     # ── PAGE 11 — Schedule 8812 ──────────────────────────────────────────────
-    (11, "//Taxpayer/Primary/SSN",                 478.3,  99.5, 9, fmt_ssn),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L1_AGI",                 547.0, 174.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L3_AddLines1_2d",        547.0, 210.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L4_QualifyingChildrenUnder17", 300.0, 228.5, 9, None),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L5_Multiply2000",        547.0, 228.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L6_OtherDependents",     300.0, 248.5, 9, None),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L7_Multiply500",         547.0, 248.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L8_AddLines5_7",         547.0, 264.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L12_CreditAfterPhaseout",547.0, 336.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L13_CreditLimitWorksheetA",547.0, 348.5, 9, fmt_money),
-    (11, "//Schedule8812/Part1_ChildTaxCredit/L14_ChildTaxCredit",     547.0, 360.5, 9, fmt_money),
+    (11, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L1_AGI",                  547.0, 174.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L3_AddLines1_2d",         547.0, 210.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L4_QualifyingChildrenUnder17", 300.0, 228.5, 9, None),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L5_Multiply2000",         547.0, 228.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L6_OtherDependents",      300.0, 248.5,  9,  None),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L7_Multiply500",          547.0, 248.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L8_AddLines5_7",          547.0, 264.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L12_CreditAfterPhaseout", 547.0, 336.5,  9,  fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/L13_CreditLimitWorksheetA", 547.0, 348.5, 9, fmt_money),
+    (11, "//Return/ReturnData/IRS1040Schedule8812/ChildTaxCreditAmt",       547.0, 360.5,  9,  fmt_money),
 
     # ── PAGE 13 — Form 8995 ──────────────────────────────────────────────────
-    (13, "//Taxpayer/Primary/SSN",                  478.3,  99.5, 9, fmt_ssn),
-    (13, "//Form8995/QBITrades/Trade[@seq='1']/n",     43.0, 145.5, 8, None),
-    (13, "//Form8995/QBITrades/Trade[@seq='1']/TaxpayerID", 350.0, 145.5, 8, fmt_ssn),
-    (13, "//Form8995/QBITrades/Trade[@seq='1']/QBIAmount",  488.0, 145.5, 8, fmt_money),
-    (13, "//Form8995/L2_TotalQBI",           488.0, 187.5, 9, fmt_money),
-    (13, "//Form8995/L4_TotalQBIAfterCarryforward", 488.0, 211.5, 9, fmt_money),
-    (13, "//Form8995/L5_QBIComponent_20pct", 488.0, 225.5, 9, fmt_money),
-    (13, "//Form8995/L10_QBIDeductionBeforeLimit",  488.0, 309.5, 9, fmt_money),
-    (13, "//Form8995/L11_TaxableIncomeBeforeQBI",   488.0, 321.5, 9, fmt_money),
-    (13, "//Form8995/L13_L11MinusL12",       488.0, 345.5, 9, fmt_money),
-    (13, "//Form8995/L14_IncomeLimitation",  488.0, 357.5, 9, fmt_money),
-    (13, "//Form8995/L15_QBIDeduction",      488.0, 371.5, 9, fmt_money),
+    (13, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (13, "//Return/ReturnData/IRS8995/QBITrades/Trade[@seq='1']/n",          43.0, 145.5,  8,  None),
+    (13, "//Return/ReturnData/IRS8995/QBITrades/Trade[@seq='1']/TaxpayerID", 350.0, 145.5, 8,  fmt_ssn),
+    (13, "//Return/ReturnData/IRS8995/QBITrades/Trade[@seq='1']/QBIAmount",  488.0, 145.5, 8,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L2_TotalQBI",                         488.0, 187.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L4_TotalQBIAfterCarryforward",        488.0, 211.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L5_QBIComponent_20pct",               488.0, 225.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L10_QBIDeductionBeforeLimit",         488.0, 309.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L11_TaxableIncomeBeforeQBI",          488.0, 321.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L13_L11MinusL12",                     488.0, 345.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L14_IncomeLimitation",                488.0, 357.5,  9,  fmt_money),
+    (13, "//Return/ReturnData/IRS8995/L15_QBIDeduction",                    488.0, 371.5,  9,  fmt_money),
 
     # ── PAGE 16 — Form 4562 ──────────────────────────────────────────────────
-    (16, "//Taxpayer/Primary/SSN",               478.3,  99.5, 9, fmt_ssn),
-    (16, "//Form4562/Part1_Section179/L1_MaxAmount",         488.0, 148.5, 9, fmt_money),
-    (16, "//Form4562/Part1_Section179/L2_TotalCostSection179", 488.0, 160.5, 9, fmt_money),
-    (16, "//Form4562/Part4_Summary/L22_TotalDepreciation",   488.0, 612.5, 9, fmt_money),
+    (16, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (16, "//Return/ReturnData/IRS4562/Section179ExpenseAmt",                488.0, 148.5,  9,  fmt_money),
+    (16, "//Return/ReturnData/IRS4562/DepreciationAmt",                     488.0, 160.5,  9,  fmt_money),
+    (16, "//Return/ReturnData/IRS4562/TotalDepreciationAmt",                488.0, 612.5,  9,  fmt_money),
 
     # ── PAGE 18 — Form 1040-V ────────────────────────────────────────────────
-    (18, "//Form1040V/PrimarySSN",           43.0,  280.5, 10, fmt_ssn),
-    (18, "//Form1040V/SpouseSSN",           200.0,  280.5, 10, fmt_ssn),
-    (18, "//Form1040V/PaymentAmount",       400.0,  280.5, 10, fmt_money),
-    (18, "//Form1040V/TaxpayerName",         43.0,  350.5, 10, None),
-    (18, "//Taxpayer/Address/Street",        43.0,  365.5, 10, None),
-    (18, "//Taxpayer/Address/City",          43.0,  380.5, 10, None),
+    (18, "//Return/ReturnData/Form1040V/PrimarySSN",                         43.0, 280.5, 10,  fmt_ssn),
+    (18, "//Return/ReturnData/Form1040V/SpouseSSN",                         200.0, 280.5, 10,  fmt_ssn),
+    (18, "//Return/ReturnData/Form1040V/PaymentAmount",                     400.0, 280.5, 10,  fmt_money),
+    (18, "//Return/ReturnData/Form1040V/TaxpayerName",                       43.0, 350.5, 10,  None),
+    (18, "//Return/ReturnData/Form1040V/Address",                            43.0, 365.5, 10,  None),
+    (18, "//Return/ReturnData/Form1040V/City",                               43.0, 380.5, 10,  None),
 
-    # ── PAGES 19-22 — Form 1040-ES Vouchers ─────────────────────────────────
-    (19, "//Form1040ES/Voucher[@seq='1']/Amount",   400.0, 280.5, 10, fmt_money),
-    (19, "//Form1040ES/TaxpayerName",                43.0, 350.5, 10, None),
-    (20, "//Form1040ES/Voucher[@seq='2']/Amount",   400.0, 280.5, 10, fmt_money),
-    (20, "//Form1040ES/TaxpayerName",                43.0, 350.5, 10, None),
-    (21, "//Form1040ES/Voucher[@seq='3']/Amount",   400.0, 280.5, 10, fmt_money),
-    (21, "//Form1040ES/TaxpayerName",                43.0, 350.5, 10, None),
-    (22, "//Form1040ES/Voucher[@seq='4']/Amount",   400.0, 280.5, 10, fmt_money),
-    (22, "//Form1040ES/TaxpayerName",                43.0, 350.5, 10, None),
+    # ── PAGES 19–22 — Form 1040-ES Vouchers ─────────────────────────────────
+    (19, "//Return/ReturnData/Form1040ES/Voucher[@seq='1']/Amount",         400.0, 280.5, 10,  fmt_money),
+    (19, "//Return/ReturnData/Form1040ES/TaxpayerName",                      43.0, 350.5, 10,  None),
+    (20, "//Return/ReturnData/Form1040ES/Voucher[@seq='2']/Amount",         400.0, 280.5, 10,  fmt_money),
+    (20, "//Return/ReturnData/Form1040ES/TaxpayerName",                      43.0, 350.5, 10,  None),
+    (21, "//Return/ReturnData/Form1040ES/Voucher[@seq='3']/Amount",         400.0, 280.5, 10,  fmt_money),
+    (21, "//Return/ReturnData/Form1040ES/TaxpayerName",                      43.0, 350.5, 10,  None),
+    (22, "//Return/ReturnData/Form1040ES/Voucher[@seq='4']/Amount",         400.0, 280.5, 10,  fmt_money),
+    (22, "//Return/ReturnData/Form1040ES/TaxpayerName",                      43.0, 350.5, 10,  None),
 
     # ── PAGE 23 — CA 540 Page 1 ──────────────────────────────────────────────
-    (23, "//CA540/Header/PrimarySSN",          350.0, 99.5,  9, fmt_ssn),
-    (23, "//CA540/Header/SpouseSSN",           440.0, 99.5,  9, fmt_ssn),
-    (23, "//CA540/Header/PrimaryFirstName",     43.0, 118.5, 9, None),
-    (23, "//CA540/Header/PrimaryLastName",     200.0, 118.5, 9, None),
-    (23, "//CA540/Header/SpouseFirstName",      43.0, 130.5, 9, None),
-    (23, "//CA540/Header/SpouseLastName",      200.0, 130.5, 9, None),
-    (23, "//CA540/Header/Address",              43.0, 148.5, 9, None),
-    (23, "//CA540/Header/City",                 43.0, 162.5, 9, None),
-    (23, "//CA540/Header/State",               290.0, 162.5, 9, None),
-    (23, "//CA540/Header/ZIP",                 310.0, 162.5, 9, None),
-    (23, "//CA540/Exemptions/L7_PersonalExemption_Amount", 488.0, 376.5, 9, fmt_money),
+    (23, "//Return/ReturnData/CA540/Header/PrimarySSN",                     350.0,  99.5,  9,  fmt_ssn),
+    (23, "//Return/ReturnData/CA540/Header/SpouseSSN",                      440.0,  99.5,  9,  fmt_ssn),
+    (23, "//Return/ReturnData/CA540/Header/PrimaryFirstName",                43.0, 118.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/PrimaryLastName",                200.0, 118.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/SpouseFirstName",                 43.0, 130.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/SpouseLastName",                 200.0, 130.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/Address",                         43.0, 148.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/City",                            43.0, 162.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/State",                          290.0, 162.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Header/ZIP",                            310.0, 162.5,  9,  None),
+    (23, "//Return/ReturnData/CA540/Exemptions/L7_PersonalExemption_Amount", 488.0, 376.5, 9, fmt_money),
 
     # ── PAGE 24 — CA 540 Page 2 ──────────────────────────────────────────────
-    (24, "//Taxpayer/Primary/SSN",              478.3,  27.5, 9, fmt_ssn),
-    (24, "//CA540/Dependents/Dependent[@seq='1']/FirstName",  43.0, 76.5, 8, None),
-    (24, "//CA540/Dependents/Dependent[@seq='1']/LastName",  120.0, 76.5, 8, None),
-    (24, "//CA540/Dependents/Dependent[@seq='1']/SSN",       220.0, 76.5, 8, fmt_ssn),
-    (24, "//CA540/Dependents/Dependent[@seq='2']/FirstName",  43.0, 89.5, 8, None),
-    (24, "//CA540/Dependents/Dependent[@seq='2']/LastName",  120.0, 89.5, 8, None),
-    (24, "//CA540/Dependents/Dependent[@seq='2']/SSN",       220.0, 89.5, 8, fmt_ssn),
-    (24, "//CA540/Dependents/L10_DependentExemption_Amount", 488.0, 115.5, 9, fmt_money),
-    (24, "//CA540/L11_TotalExemptionCredits",                488.0, 133.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L12_StateWages",             488.0, 152.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L13_FederalAGI",             488.0, 164.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L15_AfterSubtractions",      488.0, 188.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L16_CAAdditions",            488.0, 200.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L17_CAAdjustedGrossIncome",  488.0, 212.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L18_Deduction",              488.0, 234.5, 9, fmt_money),
-    (24, "//CA540/TaxableIncome/L19_TaxableIncome",          488.0, 248.5, 9, fmt_money),
-    (24, "//CA540/Tax/L31_TaxFromTable",                     488.0, 312.5, 9, fmt_money),
-    (24, "//CA540/Tax/L32_ExemptionCredits",                 488.0, 324.5, 9, fmt_money),
-    (24, "//CA540/Tax/L33_TaxAfterExemptionCredits",         488.0, 336.5, 9, fmt_money),
-    (24, "//CA540/Tax/L35_TotalTax",                         488.0, 354.5, 9, fmt_money),
+    (24, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/FirstName", 43.0, 76.5, 8, None),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/LastName",  120.0, 76.5, 8, None),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/SSN",       220.0, 76.5, 8, fmt_ssn),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='2']/FirstName", 43.0, 89.5, 8, None),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='2']/LastName",  120.0, 89.5, 8, None),
+    (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='2']/SSN",       220.0, 89.5, 8, fmt_ssn),
+    (24, "//Return/ReturnData/CA540/L11_TotalExemptionCredits",             488.0, 133.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L12_StateWages",          488.0, 152.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L13_FederalAGI",          488.0, 164.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L15_AfterSubtractions",   488.0, 188.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L16_CAAdditions",         488.0, 200.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L17_CAAdjustedGrossIncome", 488.0, 212.5, 9, fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L18_Deduction",           488.0, 234.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/TaxableIncome/L19_TaxableIncome",       488.0, 248.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/Tax/L31_TaxFromTable",                  488.0, 312.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/Tax/L32_ExemptionCredits",              488.0, 324.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/Tax/L33_TaxAfterExemptionCredits",      488.0, 336.5,  9,  fmt_money),
+    (24, "//Return/ReturnData/CA540/Tax/L35_TotalTax",                      488.0, 354.5,  9,  fmt_money),
 
     # ── PAGE 25 — CA 540 Page 3 ──────────────────────────────────────────────
-    (25, "//Taxpayer/Primary/SSN",              478.3,  27.5, 9, fmt_ssn),
-    (25, "//CA540/SpecialCredits/L48_TaxAfterCredits",    488.0, 108.5, 9, fmt_money),
-    (25, "//CA540/OtherTaxes/L64_TotalTax",               488.0, 192.5, 9, fmt_money),
-    (25, "//CA540/Payments/L71_CAWithheld",               488.0, 218.5, 9, fmt_money),
-    (25, "//CA540/Payments/L78_TotalPayments",            488.0, 290.5, 9, fmt_money),
-    (25, "//CA540/UseAndPenalty/L93_PaymentsAfterISR",    488.0, 378.5, 9, fmt_money),
-    (25, "//CA540/UseAndPenalty/L95_PaymentsBalance",     488.0, 404.5, 9, fmt_money),
-    (25, "//CA540/RefundOrOwed/L96_OverpaidTax",          488.0, 430.5, 9, fmt_money),
+    (25, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (25, "//Return/ReturnData/CA540/SpecialCredits/L48_TaxAfterCredits",    488.0, 108.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/OtherTaxes/L64_TotalTax",               488.0, 192.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/Payments/L71_CAWithheld",               488.0, 218.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/Payments/L78_TotalPayments",            488.0, 290.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/UseAndPenalty/L93_PaymentsAfterISR",    488.0, 378.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/UseAndPenalty/L95_PaymentsBalance",     488.0, 404.5,  9,  fmt_money),
+    (25, "//Return/ReturnData/CA540/RefundOrOwed/L96_OverpaidTax",          488.0, 430.5,  9,  fmt_money),
 
     # ── PAGE 26 — CA 540 Page 4 ──────────────────────────────────────────────
-    (26, "//Taxpayer/Primary/SSN",              478.3,  27.5, 9, fmt_ssn),
-    (26, "//CA540/RefundOrOwed/L97_OverpaidTaxAvailable", 488.0,  80.5, 9, fmt_money),
-    (26, "//CA540/RefundOrOwed/L99_RefundAvailable",      488.0, 104.5, 9, fmt_money),
+    (26, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (26, "//Return/ReturnData/CA540/RefundOrOwed/L97_OverpaidTaxAvailable", 488.0,  80.5,  9,  fmt_money),
+    (26, "//Return/ReturnData/CA540/RefundOrOwed/L99_RefundAvailable",      488.0, 104.5,  9,  fmt_money),
 
     # ── PAGE 27 — CA 540 Page 5 ──────────────────────────────────────────────
-    (27, "//Taxpayer/Primary/SSN",              478.3,  27.5, 9, fmt_ssn),
-    (27, "//CA540/AmountOwedOrRefund/L115_Refund",        488.0, 200.5, 9, fmt_money),
+    (27, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (27, "//Return/ReturnData/CA540/AmountOwedOrRefund/L115_Refund",        488.0, 200.5,  9,  fmt_money),
 
     # ── PAGE 28 — CA 540 Page 6 ──────────────────────────────────────────────
-    (28, "//Taxpayer/Primary/SSN",              478.3,  27.5, 9, fmt_ssn),
-    (28, "//Taxpayer/Primary/Email",             43.0, 490.5, 9, None),
-    (28, "//Taxpayer/Primary/Phone",            290.0, 490.5, 9, None),
+    (28, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (28, "//Return/ReturnHeader/Filer/EmailAddressTxt",                      43.0, 490.5,  9,  None),
+    (28, "//Return/ReturnHeader/Filer/PhoneNum",                            290.0, 490.5,  9,  None),
+
+    # ── PAGE 12 — Schedule 8812 Part II-A (ACTC) ────────────────────────────
+    (12, "//Return/ReturnHeader/Filer/NameLine1Txt",                            154.3,  37.7,  9,  None),
+    (12, "//Return/ReturnHeader/Filer/PrimarySSN",                              478.3,  37.7,  9,  fmt_ssn),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L16a_NumKidsX1700",           575.1,  97.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L16b_EarnedIncome",           575.1, 133.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L17_SmallerOf16a16b",         575.1, 157.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L18a_EarnedIncome",           480.0, 169.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L19_Subtract2500",            575.1, 217.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L20_Multiply15pct",           575.1, 229.7,  9,  fmt_money),
+    (12, "//Return/ReturnData/IRS1040Schedule8812/L27_AdditionalChildTaxCredit",575.1, 493.7,  9,  fmt_money),
+
+    # ── PAGE 14 — Form 8867 Page 1 (Paid Preparer Due Diligence) ────────────
+    (14, "//Return/ReturnHeader/Filer/NameLine1Txt",                             46.3, 109.7,  9,  None),
+    (14, "//Return/ReturnHeader/Filer/PrimarySSN",                              442.3, 109.7,  9,  fmt_ssn),
+    (14, "//Return/ReturnData/PreparedBy/PreparerName",                          46.3, 133.7,  9,  None),
+    (14, "//Return/ReturnData/PreparedBy/PreparerPTIN",                         442.2, 133.7,  9,  None),
+    (14, "//Return/ReturnData/PreparedBy/DocumentsReliedOn",                     67.9, 487.7,  9,  None),
+
+    # ── PAGE 15 — Form 8867 Page 2 ──────────────────────────────────────────
+    (15, "//Return/ReturnHeader/Filer/NameLine1Txt",                            125.5,  37.7,  9,  None),
+    (15, "//Return/ReturnHeader/Filer/PrimarySSN",                              442.3,  37.7,  9,  fmt_ssn),
+
+    # ── PAGE 17 — Form 4562 Page 2 (Vehicle Depreciation) ───────────────────
+    (17, "//Return/ReturnHeader/Filer/NameLine1Txt",                            118.3,  25.7,  9,  None),
+    (17, "//Return/ReturnHeader/Filer/PrimarySSN",                              435.1,  25.7,  9,  fmt_ssn),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description",            46.3, 181.7,  8,  None),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/BusinessUsePct",        192.7, 181.7,  8,  None),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/DepreciationAllowed",   467.3, 181.7,  8,  fmt_money),
+    (17, "//Return/ReturnData/IRS4562/L28_TotalListedPropDep",                  442.1, 264.7,  9,  fmt_money),
+    (17, "//Return/ReturnData/IRS4562/Section179ExpenseAmt",                    499.7, 276.7,  9,  fmt_money),
+    (17, "//Return/ReturnData/IRS4562/L30_BusinessMiles",                       261.5, 349.7,  9,  None),
+    (17, "//Return/ReturnData/IRS4562/L31_CommutingMiles",                      261.5, 361.7,  9,  None),
+    (17, "//Return/ReturnData/IRS4562/L32_OtherPersonalMiles",                  261.5, 373.7,  9,  None),
+    (17, "//Return/ReturnData/IRS4562/L33_TotalMiles",                          261.5, 409.7,  9,  None),
 ]
 
 
@@ -333,11 +380,25 @@ FIELD_DEFINITIONS = [
 # (page, xpath_returns_true_if_checked, x, top_coord)
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKBOX_DEFINITIONS = [
-    # Form 1040 page 1 - Filing status MFJ box
-    (1, "//Form1040/FilingStatus/Status[text()='MFJ']", 43.0, 248.5),
-    # Digital assets = No
-    (1, "//Form1040/DigitalAssets[text()='false']",     300.0, 204.5),
+    (14, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  377.5, 169.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.5, 193.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 241.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 313.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 349.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 463.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 559.7),
+    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 571.7),
+    (14, "//Return/ReturnData/IRS1040ScheduleC/NetProfitOrLossAmt",          503.4, 619.7),
+    (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 181.7),
+    (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 217.7),
+    (15, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 613.7),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 312.7,  97.7),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 521.5,  97.7),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 262.3, 433.7),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 233.5, 457.7),
+    (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 233.5, 469.7),
 ]
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -497,95 +558,599 @@ def generate_ca_withholding(w2_wages: int, rng: random.Random) -> int:
     rate = rng.uniform(0.06, 0.09)
     return int(w2_wages * rate)
 
-def recompute_derived_fields(root):
+def inject_ca540_nodes(root, ca_data: dict):
     """
-    Enforce IRS arithmetic identities across the XML tree.
-    Call this after perturbing any leaf values.
+    Create <CA540> element under <ReturnData> with all fields
+    needed for pages 23-28 of the PDF overlay.
+    ca_data keys match the XPaths used in FIELD_DEFINITIONS.
     """
+    from lxml import etree
+
+    rd = root.xpath("//Return/ReturnData")
+    if not rd:
+        return root
+    rd = rd[0]
+
+    # Remove existing CA540 if present (idempotent)
+    for old in rd.xpath("CA540"):
+        rd.remove(old)
+
+    ca = etree.SubElement(rd, "CA540")
+
+    def add(parent_el, tag, value):
+        el = etree.SubElement(parent_el, tag)
+        el.text = str(value)
+        return el
+
+    # Header — pulled from federal filer info
+    hdr = etree.SubElement(ca, "Header")
+    primary_ssn  = xget(root, "//Return/ReturnHeader/Filer/PrimarySSN")
+    spouse_ssn   = xget(root, "//Return/ReturnHeader/Filer/SpouseSSN")
+    name_line    = xget(root, "//Return/ReturnHeader/Filer/NameLine1Txt")
+    spouse_name  = xget(root, "//Return/ReturnHeader/Filer/SpouseNameLine1Txt")
+    # Split "First Last" into parts (best-effort)
+    p_parts = name_line.split(" ", 1)
+    s_parts = spouse_name.split(" ", 1)
+    add(hdr, "PrimarySSN",    primary_ssn)
+    add(hdr, "SpouseSSN",     spouse_ssn)
+    add(hdr, "PrimaryFirstName",  p_parts[0] if p_parts else "")
+    add(hdr, "PrimaryLastName",   p_parts[1] if len(p_parts) > 1 else "")
+    add(hdr, "SpouseFirstName",   s_parts[0] if s_parts else "")
+    add(hdr, "SpouseLastName",    s_parts[1] if len(s_parts) > 1 else "")
+    add(hdr, "Address",   xget(root, "//Return/ReturnHeader/Filer/USAddress/AddressLine1Txt"))
+    add(hdr, "City",      xget(root, "//Return/ReturnHeader/Filer/USAddress/CityNm"))
+    add(hdr, "State",     xget(root, "//Return/ReturnHeader/Filer/USAddress/StateAbbreviationCd"))
+    add(hdr, "ZIP",       xget(root, "//Return/ReturnHeader/Filer/USAddress/ZIPCd"))
+
+    # Exemption credits (2024 FTB: $144 per person/spouse + $433 per dependent)
+    dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
+    num_deps   = len(dep_nodes)
+    personal_exempt  = 144 * 2        # MFJ: taxpayer + spouse
+    dependent_exempt = 433 * num_deps
+    total_exempt     = personal_exempt + dependent_exempt
+
+    exm = etree.SubElement(ca, "Exemptions")
+    add(exm, "L7_PersonalExemption_Amount", personal_exempt)
+
+    deps_el = etree.SubElement(ca, "Dependents")
+    for i, dep in enumerate(dep_nodes[:2], start=1):
+        d = etree.SubElement(deps_el, "Dependent")
+        d.set("seq", str(i))
+        add(d, "FirstName",  (dep.findtext("DependentFirstNm") or ""))
+        add(d, "LastName",   (dep.findtext("DependentLastNm") or ""))
+        add(d, "SSN",        (dep.findtext("DependentSSN") or ""))
+
+    add(ca, "L11_TotalExemptionCredits", total_exempt)
+
+    # Populate computed values from ca_data dict
+    ti_el  = etree.SubElement(ca, "TaxableIncome")
+    tax_el = etree.SubElement(ca, "Tax")
+    sc_el  = etree.SubElement(ca, "SpecialCredits")
+    ot_el  = etree.SubElement(ca, "OtherTaxes")
+    pay_el = etree.SubElement(ca, "Payments")
+    up_el  = etree.SubElement(ca, "UseAndPenalty")
+    ro_el  = etree.SubElement(ca, "RefundOrOwed")
+    ao_el  = etree.SubElement(ca, "AmountOwedOrRefund")
+
+    add(ti_el,  "L12_StateWages",            ca_data.get("state_wages", 0))
+    add(ti_el,  "L13_FederalAGI",            ca_data.get("ca_agi", 0))
+    add(ti_el,  "L15_AfterSubtractions",     ca_data.get("ca_agi", 0))
+    add(ti_el,  "L16_CAAdditions",           0)
+    add(ti_el,  "L17_CAAdjustedGrossIncome", ca_data.get("ca_agi", 0))
+    add(ti_el,  "L18_Deduction",             ca_data.get("ca_std", 11080))
+    add(ti_el,  "L19_TaxableIncome",         ca_data.get("ca_ti", 0))
+    add(tax_el, "L31_TaxFromTable",          ca_data.get("ca_tax", 0))
+    add(tax_el, "L32_ExemptionCredits",      total_exempt)
+    add(tax_el, "L33_TaxAfterExemptionCredits", ca_data.get("ca_tax_after", 0))
+    add(tax_el, "L35_TotalTax",              ca_data.get("ca_tax_after", 0))
+    add(sc_el,  "L48_TaxAfterCredits",       ca_data.get("ca_tax_after", 0))
+    add(ot_el,  "L64_TotalTax",              ca_data.get("ca_tax_after", 0))
+    add(pay_el, "L71_CAWithheld",            ca_data.get("ca_withheld", 0))
+    add(pay_el, "L78_TotalPayments",         ca_data.get("ca_withheld", 0))
+    add(up_el,  "L93_PaymentsAfterISR",      ca_data.get("ca_withheld", 0))
+    add(up_el,  "L95_PaymentsBalance",       ca_data.get("ca_withheld", 0))
+    add(ro_el,  "L96_OverpaidTax",           ca_data.get("ca_refund", 0))
+    add(ro_el,  "L97_OverpaidTaxAvailable",  ca_data.get("ca_refund", 0))
+    add(ro_el,  "L99_RefundAvailable",       ca_data.get("ca_refund", 0))
+    add(ro_el,  "L100_TaxDue",              ca_data.get("ca_owed", 0))
+    add(ao_el,  "L115_Refund",              ca_data.get("ca_refund", 0))
+
+    return root
+
+def inject_voucher_nodes(root, p_name: str, s_name: str,
+                          p_ssn: str, s_ssn: str,
+                          owed: int, quarterly_payment: int,
+                          address: str, city: str):
+    """Inject Form1040V and Form1040ES nodes into XML."""
+    from lxml import etree
+    rd = root.xpath("//Return/ReturnData")[0]
+
+    # --- 1040-V ---
+    for old in rd.xpath("Form1040V"):
+        rd.remove(old)
+    v = etree.SubElement(rd, "Form1040V")
+    def add(p, t, v_): el = etree.SubElement(p, t); el.text = str(v_); return el
+    add(v, "PrimarySSN",    p_ssn)
+    add(v, "SpouseSSN",     s_ssn)
+    add(v, "PaymentAmount", owed)
+    add(v, "TaxpayerName",  f"{p_name} & {s_name}")
+    add(v, "Address",       address)
+    add(v, "City",          city)
+
+    # --- 1040-ES (4 quarterly vouchers) ---
+    for old in rd.xpath("Form1040ES"):
+        rd.remove(old)
+    es = etree.SubElement(rd, "Form1040ES")
+    add(es, "TaxpayerName", f"{p_name} & {s_name}")
+    for i in range(1, 5):
+        vch = etree.SubElement(es, "Voucher")
+        vch.set("seq", str(i))
+        amt = etree.SubElement(vch, "Amount")
+        amt.text = str(quarterly_payment)
+
+    return root
+
+def inject_schedule_c_detail(root, gross_rev: int, expenses: dict):
+    """
+    Adds missing detail lines to IRS1040ScheduleC.
+    expenses = output of generate_schedule_c_expenses()
+    """
+    from lxml import etree
+    sc = root.xpath("//Return/ReturnData/IRS1040ScheduleC")
+    if not sc:
+        return root
+    sc = sc[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(int(value))
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(int(value))
+
+    set_or_add(sc, "GrossReceiptsOrSalesAmt",    gross_rev)
+    set_or_add(sc, "TotalGrossReceiptsAmt",       gross_rev)
+    set_or_add(sc, "AdvertisingAmt",              expenses.get("L8_Advertising", 0))
+    set_or_add(sc, "DepreciationAmt",             expenses.get("L13_DepreciationSection179", 0))
+    set_or_add(sc, "OfficeExpensesAmt",           expenses.get("L18_OfficeExpense", 0))
+    set_or_add(sc, "RentLeaseAmt",                expenses.get("L20b_RentLeaseOtherProperty", 0))
+    set_or_add(sc, "SuppliesAmt",                 expenses.get("L22_Supplies", 0))
+    set_or_add(sc, "TaxesAndLicensesAmt",         expenses.get("L23_TaxesLicenses", 0))
+    set_or_add(sc, "MealsAmt",                    expenses.get("L24b_DeductibleMeals", 0))
+    set_or_add(sc, "OtherBusinessExpensesAmt",    expenses.get("L27a_OtherExpenses_Total", 0))
+    set_or_add(sc, "TotalExpensesAmt",            expenses.get("L28_TotalExpensesBeforeHome", 0))
+    set_or_add(sc, "NetProfitOrLossAmt",          expenses.get("L31_NetProfitLoss", 0))
+
+    # Part V — Other Expenses detail (page 9)
+    other_items = [
+        ("Software Subscriptions", int(expenses.get("L27a_OtherExpenses_Total", 0) * 0.40)),
+        ("Professional Development", int(expenses.get("L27a_OtherExpenses_Total", 0) * 0.35)),
+        ("Bank Charges",            int(expenses.get("L27a_OtherExpenses_Total", 0) * 0.25)),
+    ]
+    for old in sc.xpath("Part5_OtherExpenses"):
+        sc.remove(old)
+    p5 = etree.SubElement(sc, "Part5_OtherExpenses")
+    for i, (desc, amt) in enumerate(other_items, start=1):
+        item = etree.SubElement(p5, "Item")
+        item.set("seq", str(i))
+        d = etree.SubElement(item, "Description"); d.text = desc
+        a = etree.SubElement(item, "Amount");      a.text = str(amt)
+    total_other = etree.SubElement(p5, "L48_TotalOtherExpenses")
+    total_other.text = str(expenses.get("L27a_OtherExpenses_Total", 0))
+
+    return root
+
+def inject_schedule_se_detail(root, se_net, se_taxable, se_ss_tax, se_med_tax, se_total, se_deduction):
+    from lxml import etree
+    se = root.xpath("//Return/ReturnData/IRS1040ScheduleSE")
+    if not se:
+        return root
+    se = se[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(int(max(0, value)))
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(int(max(0, value)))
+
+    set_or_add(se, "NetProfitOrLossAmt",             se_net)
+    set_or_add(se, "SETotalNetEarningsOrLossAmt",     se_net)
+    set_or_add(se, "SEBaseAmt",                       se_taxable)
+    set_or_add(se, "MinimumProfitForSETaxAmt",        se_taxable)
+    set_or_add(se, "L4a_Multiply_9235",               se_taxable)
+    set_or_add(se, "L4c_Combined",                    se_taxable)
+    set_or_add(se, "L6_AddLines4c5b",                 se_taxable)
+    set_or_add(se, "L9_Subtract8dFrom7",              se_taxable)
+    set_or_add(se, "L10_Multiply_124",                se_ss_tax)
+    set_or_add(se, "L11_Multiply_029",                se_med_tax)
+    set_or_add(se, "SelfEmploymentTaxAmt",            se_total)
+    set_or_add(se, "DeductibleSelfEmploymentTaxAmt",  se_deduction)
+
+    return root
+
+def inject_form8995_detail(root, qbi_income, qbi_component, l11, taxable_b4_qbi, income_limit, qbi_deduction):
+    from lxml import etree
+    f8995 = root.xpath("//Return/ReturnData/IRS8995")
+    if not f8995:
+        rd = root.xpath("//Return/ReturnData")[0]
+        f8995_el = etree.SubElement(rd, "IRS8995")
+    else:
+        f8995_el = f8995[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(int(max(0, value)))
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(int(max(0, value)))
+
+    # Business name for Trade entry (page 13 header row)
+    biz_name = xget(root, "//Return/ReturnData/IRS1040ScheduleC/BusinessName/BusinessNameLine1Txt")
+    biz_ein  = xget(root, "//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityCd")
+
+    # Trade entry (seq=1)
+    for old in f8995_el.xpath("QBITrades"):
+        f8995_el.remove(old)
+    trades = etree.SubElement(f8995_el, "QBITrades")
+    trade  = etree.SubElement(trades, "Trade")
+    trade.set("seq", "1")
+    n  = etree.SubElement(trade, "n");            n.text  = biz_name
+    tid= etree.SubElement(trade, "TaxpayerID");   tid.text= biz_ein
+    qa = etree.SubElement(trade, "QBIAmount");    qa.text = str(qbi_income)
+
+    set_or_add(f8995_el, "QualifiedBusinessIncomeAmt",    qbi_income)
+    set_or_add(f8995_el, "L2_TotalQBI",                   qbi_income)
+    set_or_add(f8995_el, "L4_TotalQBIAfterCarryforward",  qbi_income)
+    set_or_add(f8995_el, "L5_QBIComponent_20pct",         qbi_component)
+    set_or_add(f8995_el, "TotalQualifiedBusinessIncomeAmt", qbi_income)
+    set_or_add(f8995_el, "L10_QBIDeductionBeforeLimit",   qbi_component)
+    set_or_add(f8995_el, "L11_TaxableIncomeBeforeQBI",    l11)
+    set_or_add(f8995_el, "L13_L11MinusL12",               taxable_b4_qbi)
+    set_or_add(f8995_el, "L14_IncomeLimitation",          income_limit)
+    set_or_add(f8995_el, "L15_QBIDeduction",              qbi_deduction)
+    set_or_add(f8995_el, "QualifiedBusinessIncomeDedAmt", qbi_deduction)
+
+    return root
+
+def inject_schedule8812_detail(root, num_kids, num_other, l11, ctc_raw, ctc, ctc_used, l18):
+    from lxml import etree
+    rd  = root.xpath("//Return/ReturnData")[0]
+    s8812 = root.xpath("//Return/ReturnData/IRS1040Schedule8812")
+    if not s8812:
+        s8812 = etree.SubElement(rd, "IRS1040Schedule8812")
+    else:
+        s8812 = s8812[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(value)
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(value)
+
+    # Part I detail (page 11)
+    set_or_add(s8812, "L1_AGI",                       l11)
+    set_or_add(s8812, "L3_AddLines1_2d",               l11)
+    set_or_add(s8812, "L4_QualifyingChildrenUnder17",  num_kids)
+    set_or_add(s8812, "L5_Multiply2000",               num_kids * 2000)
+    set_or_add(s8812, "L6_OtherDependents",            num_other)
+    set_or_add(s8812, "L7_Multiply500",                num_other * 500)
+    set_or_add(s8812, "L8_AddLines5_7",                ctc_raw)
+    set_or_add(s8812, "L12_CreditAfterPhaseout",       ctc)
+    set_or_add(s8812, "L13_CreditLimitWorksheetA",     l18)
+    set_or_add(s8812, "L14_ChildTaxCredit",            ctc_used)
+    set_or_add(s8812, "ChildTaxCreditAmt",             ctc_used)
+    set_or_add(s8812, "TotalChildTaxCreditAmt",        ctc_used)
+    return root
+
+def compute_actc(num_kids: int, w2: int, se_net: int,
+                 ctc_used: int, l18: int) -> dict:
+    """
+    Compute Additional Child Tax Credit (Schedule 8812 Part II-A).
+    Only applicable when CTC is not fully absorbed by tax liability.
+    
+    num_kids    — qualifying children under 17
+    w2          — W-2 wages
+    se_net      — net self-employment profit
+    ctc_used    — non-refundable CTC used (from page 11 calculation)
+    l18         — total tax before credits (Form 1040 line 18)
+    
+    Returns dict of all Part II line values.
+    """
+    # Non-refundable CTC already absorbed. ACTC is the leftover.
+    ctc_raw      = num_kids * 2000   # base credit before phaseout
+    # Remaining credit after non-refundable absorption
+    ctc_remaining = max(0, ctc_raw - ctc_used)
+
+    # Part II-A: Earned income method (for most filers)
+    earned_income = w2 + max(0, se_net)   # W-2 + SE profit (not investment)
+
+    # L16a: num_kids × $1,700 (2024 ACTC cap per child)
+    l16a = num_kids * 1700
+
+    # L16b: earned income (used to compare against l16a cap)
+    l16b = earned_income
+
+    # L17: smaller of l16a and l16b — max potential ACTC
+    l17 = min(l16a, l16b)
+
+    if l17 == 0 or ctc_remaining == 0:
+        # No ACTC possible — all lines zero
+        return {k: 0 for k in [
+            "l16a","l16b","l17","l18a","l18b","l19","l20","l27"]}
+
+    # L18a: earned income (same as l16b for wage+SE earners)
+    l18a = earned_income
+    l18b = 0   # nontaxable combat pay — $0 for civilians
+
+    # L19: subtract $2,500 threshold from earned income
+    l19 = max(0, l18a - 2500)
+
+    # L20: 15% of l19
+    l20 = int(l19 * 0.15)
+
+    # Part II-B (3+ children) is more complex — skip for ≤2 children
+    # For ≤2 children: ACTC = min(l17, l20)
+    if num_kids <= 2:
+        actc = min(l17, l20)
+    else:
+        # Part II-B: also consider SS/Medicare taxes paid on SE income
+        # (simplified — only use earned income method result)
+        actc = min(l17, l20)
+
+    # Cap ACTC at the remaining credit
+    actc = min(actc, ctc_remaining)
+
+    return {
+        "l16a": l16a,
+        "l16b": l16b,
+        "l17":  l17,
+        "l18a": l18a,
+        "l18b": l18b,
+        "l19":  l19,
+        "l20":  l20,
+        "l27":  actc,
+    }
+
+def inject_schedule8812_part2(root, actc_vals: dict):
+    """
+    Inject Schedule 8812 Part II (ACTC) values.
+    actc_vals = output of compute_actc()
+    Also updates Form 1040 line 28 and recalculates refund/owed.
+    """
+    from lxml import etree
+    rd = root.xpath("//Return/ReturnData")[0]
+    s8812 = root.xpath("//Return/ReturnData/IRS1040Schedule8812")
+    if not s8812:
+        s8812 = etree.SubElement(rd, "IRS1040Schedule8812")
+    else:
+        s8812 = s8812[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(int(max(0, value)))
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(int(max(0, value)))
+
+    set_or_add(s8812, "L16a_NumKidsX1700",         actc_vals["l16a"])
+    set_or_add(s8812, "L16b_EarnedIncome",          actc_vals["l16b"])
+    set_or_add(s8812, "L17_SmallerOf16a16b",        actc_vals["l17"])
+    set_or_add(s8812, "L18a_EarnedIncome",          actc_vals["l18a"])
+    set_or_add(s8812, "L19_Subtract2500",           actc_vals["l19"])
+    set_or_add(s8812, "L20_Multiply15pct",          actc_vals["l20"])
+    set_or_add(s8812, "L27_AdditionalChildTaxCredit", actc_vals["l27"])
+
+    # Update Form 1040 line 28 (ACTC) and recalculate payments/refund
+    actc = actc_vals["l27"]
+    if actc > 0:
+        def g(xpath):
+            nodes = root.xpath(xpath)
+            return int((nodes[0].text or "0").replace(",","")) if nodes and nodes[0].text else 0
+
+        withheld = g("//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt")
+        l24      = g("//Return/ReturnData/IRS1040/TotalTaxAmt")
+
+        # ACTC is a refundable credit — adds to payments
+        set_or_add(root.xpath("//Return/ReturnData/IRS1040")[0],
+                   "AdditionalChildTaxCreditAmt", actc)
+        total_payments = withheld + actc
+        set_or_add(root.xpath("//Return/ReturnData/IRS1040")[0],
+                   "TotalPaymentsAmt", total_payments)
+
+        refund = max(0, total_payments - l24)
+        owed   = max(0, l24 - total_payments)
+        set_or_add(root.xpath("//Return/ReturnData/IRS1040")[0], "OverpaidAmt", refund)
+        set_or_add(root.xpath("//Return/ReturnData/IRS1040")[0], "RefundAmt", refund)
+        set_or_add(root.xpath("//Return/ReturnData/IRS1040")[0], "AmountOwedAmt", owed)
+
+    return root
+
+PREPARER_NAMES = [
+    ("Sarah Mitchell", "P87654321"), ("David Chen", "P23456789"),
+    ("Rachel Torres", "P34567890"), ("Kevin O'Brien", "P45678901"),
+    ("Lisa Patel",    "P56789012"), ("Mark Johnson",  "P67890123"),
+    ("Anne Williams", "P78901234"), ("James Rodriguez","P89012345"),
+    ("Karen Thompson","P90123456"), ("Robert Kim",    "P01234567"),
+]
+
+def inject_preparer_node(root, rng):
+    """Inject synthetic preparer identity into XML."""
+    from lxml import etree
+    rd = root.xpath("//Return/ReturnData")[0]
+    for old in rd.xpath("PreparedBy"):
+        rd.remove(old)
+    prep = etree.SubElement(rd, "PreparedBy")
+    name, ptin = rng.choice(PREPARER_NAMES)
+    def add(p, t, v): el = etree.SubElement(p, t); el.text = v; return el
+    add(prep, "PreparerName", name)
+    add(prep, "PreparerPTIN", ptin)
+    # Documents the preparer says they relied on (for line 5 document list)
+    docs = rng.choice([
+        "W-2, Social Security records",
+        "Birth certificates, school records",
+        "Childcare records, receipts",
+        "Custody agreement, birth records",
+    ])
+    add(prep, "DocumentsReliedOn", docs)
+    return root
+
+VEHICLE_POOL = [
+    ("2021 Toyota Camry",  "01-15-2021", 28000, 4),
+    ("2022 Honda Accord",  "03-01-2022", 32000, 3),
+    ("2023 Ford F-150",    "06-01-2023", 45000, 2),
+    ("2022 Chevrolet Equi","01-01-2022", 35000, 3),
+    ("2021 Nissan Sentra", "07-01-2021", 22000, 4),
+    ("2023 Tesla Model 3", "02-15-2023", 40000, 2),
+    ("2022 Hyundai Elantra","05-01-2022", 24000, 3),
+    ("2021 Kia Sorento",   "04-01-2021", 29000, 4),
+]
+
+LUXURY_AUTO_CAPS = {1: 12400, 2: 19800, 3: 11900, 4: 7160}  # 2024 caps
+
+def generate_vehicle_depreciation(rng) -> dict:
+    """Generate realistic business vehicle depreciation for Schedule C filer."""
+    desc, placed_in_service, cost, year_num = rng.choice(VEHICLE_POOL)
+    business_pct = rng.choice([100, 95, 90, 85, 80])  # % business use
+
+    # 5-year MACRS 200DB rate for year_num
+    macrs_rates  = {1: 0.20, 2: 0.32, 3: 0.192, 4: 0.1152, 5: 0.1152}
+    macrs_rate   = macrs_rates.get(year_num, 0.0576)
+
+    # Business cost basis
+    business_basis = int(cost * business_pct / 100)
+
+    # Depreciation before luxury limit
+    dep_before_limit = int(business_basis * macrs_rate)
+
+    # Apply luxury auto cap
+    luxury_cap = LUXURY_AUTO_CAPS.get(year_num, 7160)
+    dep_allowed = min(dep_before_limit, luxury_cap)
+
+    # Business miles (realistic for full-time business use)
+    business_miles   = rng.randint(8000, 22000)
+    commute_miles    = 0     # self-employed: no commuting miles
+    personal_miles   = int(business_miles * (100 - business_pct) / business_pct) if business_pct < 100 else 0
+    total_miles      = business_miles + commute_miles + personal_miles
+
+    return {
+        "description":       f"{desc}  {placed_in_service}",
+        "business_pct":      str(float(business_pct)),
+        "dep_allowed":       dep_allowed,
+        "business_miles":    business_miles,
+        "commute_miles":     commute_miles,
+        "personal_miles":    personal_miles,
+        "total_miles":       total_miles,
+        "cost":              cost,
+        "business_basis":    business_basis,
+    }
+
+def inject_form4562_detail(root, vehicle: dict, section179: int, total_dep: int):
+    """
+    Inject Form 4562 page 2 vehicle and depreciation detail into XML.
+    vehicle   = output of generate_vehicle_depreciation()
+    section179= from IRS4562/Section179ExpenseAmt (already in XML)
+    total_dep = IRS4562/TotalDepreciationAmt (already in XML)
+    """
+    from lxml import etree
+    f4562 = root.xpath("//Return/ReturnData/IRS4562")
+    if not f4562:
+        rd = root.xpath("//Return/ReturnData")[0]
+        f4562 = etree.SubElement(rd, "IRS4562")
+    else:
+        f4562 = f4562[0]
+
+    def set_or_add(parent, tag, value):
+        existing = parent.xpath(tag)
+        if existing:
+            existing[0].text = str(value)
+        else:
+            el = etree.SubElement(parent, tag)
+            el.text = str(value)
+
+    # Vehicle section (Section A, lines 25/26 area)
+    veh = etree.SubElement(f4562, "Vehicle")
+    veh.set("seq", "1")
+    def add(p, t, v): el = etree.SubElement(p, t); el.text = str(v); return el
+    add(veh, "Description",       vehicle["description"])
+    add(veh, "BusinessUsePct",    vehicle["business_pct"])
+    add(veh, "DepreciationAllowed", vehicle["dep_allowed"])
+
+    # Section B — vehicle usage statistics
+    set_or_add(f4562, "L30_BusinessMiles",      vehicle["business_miles"])
+    set_or_add(f4562, "L31_CommutingMiles",     vehicle["commute_miles"])
+    set_or_add(f4562, "L32_OtherPersonalMiles", vehicle["personal_miles"])
+    set_or_add(f4562, "L33_TotalMiles",         vehicle["total_miles"])
+
+    # Line 28 = total listed property depreciation (sum of vehicle dep)
+    set_or_add(f4562, "L28_TotalListedPropDep", vehicle["dep_allowed"])
+    set_or_add(f4562, "DepreciationAmt",         vehicle["dep_allowed"])
+    set_or_add(f4562, "TotalDepreciationAmt",    vehicle["dep_allowed"])
+
+    return root
+
+def recompute_derived_fields(root, ca_withheld=0):
     def g(xpath):
         nodes = root.xpath(xpath)
         return int((nodes[0].text or "0").replace(",", "")) if nodes and nodes[0].text else 0
 
-    def s(xpath, val):
-        nodes = root.xpath(xpath)
-        if nodes:
-            nodes[0].text = str(max(0, val))
-
-    # ── Form 1040 Income ──────────────────────────────────────
-    w2         = g("//Form1040/Income/L1a_WagesW2")
-    interest   = g("//Form1040/Income/L2b_TaxableInterest")
-    dividends  = g("//Form1040/Income/L3b_OrdinaryDividends")
-    biz_income = g("//Schedule1/Part1_AdditionalIncome/L3_BusinessIncomeScheduleC")
-    cap_gain   = g("//Form1040/Income/L7_CapitalGainLoss")
+    w2         = g("//Return/ReturnData/IRS1040/WagesAmt")
+    interest   = g("//Return/ReturnData/IRS1040/TaxableInterestAmt")
+    dividends  = g("//Return/ReturnData/IRS1040/OrdinaryDividendsAmt")
+    biz_income = g("//Return/ReturnData/IRS1040ScheduleC/GrossReceiptsOrSalesAmt") - g("//Return/ReturnData/IRS1040ScheduleC/TotalExpensesAmt")
+    cap_gain   = g("//Return/ReturnData/IRS1040/CapitalGainLossAmt")
 
     l1z  = w2
     l8   = biz_income
     l9   = l1z + interest + dividends + l8 + cap_gain
 
-    s("//Form1040/Income/L1z_TotalWages",              l1z)
-    s("//Form1040/Income/L8_AdditionalIncomeSchedule1", l8)
-    s("//Form1040/Income/L9_TotalIncome",               l9)
-    s("//Schedule1/Part1_AdditionalIncome/L10_TotalAdditionalIncome", l8)
+    s(root, "//Return/ReturnData/IRS1040/WagesSalariesAndTipsAmt", l1z)
+    s(root, "//Return/ReturnData/IRS1040/BusinessIncomeAmt", l8)
+    s(root, "//Return/ReturnData/IRS1040/TotalIncomeAmt", l9)
 
-    # ── Self-Employment Tax (Schedule SE) ─────────────────────
-    se_net       = biz_income
+    se_net       = max(0, biz_income)
     se_taxable   = int(se_net * 0.9235)
     se_ss_tax    = int(min(se_taxable, 168600) * 0.124)
     se_med_tax   = int(se_taxable * 0.029)
     se_total     = se_ss_tax + se_med_tax
+    
+    adt_medicare_threshold = 250000
+    if se_taxable > adt_medicare_threshold:
+        adt_medicare = int((se_taxable - adt_medicare_threshold) * 0.009)
+    else:
+        adt_medicare = 0
+    se_total += adt_medicare
+    
     se_deduction = int(se_total * 0.50)
 
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L2_NetProfitScheduleC",   se_net)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L3_CombinedLines",        se_net)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L4a_Multiply_9235",       se_taxable)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L4c_Combined",            se_taxable)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L6_AddLines4c5b",         se_taxable)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L9_Subtract8dFrom7",      se_taxable)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L10_Multiply_124",        se_ss_tax)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L11_Multiply_029",        se_med_tax)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L12_SelfEmploymentTax",   se_total)
-    s("//ScheduleSE/Part1_SelfEmploymentTax/L13_DeductionHalfSETax",  se_deduction)
-    s("//Schedule2/Part2_OtherTaxes/L4_SelfEmploymentTax",            se_total)
-    s("//Schedule2/Part2_OtherTaxes/L21_TotalOtherTaxes",             se_total)
-    s("//Schedule1/Part2_AdjustmentsToIncome/L15_SelfEmploymentTaxDeduction", se_deduction)
-    s("//Schedule1/Part2_AdjustmentsToIncome/L26_TotalAdjustments",   se_deduction)
-
-    # ── AGI ───────────────────────────────────────────────────
     l10 = se_deduction
     l11 = max(0, l9 - l10)
-    s("//Form1040/AGI/L10_AdjustmentsSchedule1",    l10)
-    s("//Form1040/AGI/L11_AdjustedGrossIncome",     l11)
+    s(root, "//Return/ReturnData/IRS1040/AdjustmentsToIncomeAmt", l10)
+    s(root, "//Return/ReturnData/IRS1040/AdjustedGrossIncomeAmt", l11)
 
-    # ── QBI Deduction (Form 8995) ─────────────────────────────
-    qbi_income      = int(biz_income * (se_taxable / se_net)) if se_net else 0
-    qbi_component   = int(qbi_income * 0.20)
-    standard_ded    = 29200  # MFJ 2024
-    taxable_b4_qbi  = max(0, l11 - standard_ded)
-    income_limit    = int(taxable_b4_qbi * 0.20)
-    qbi_deduction   = min(qbi_component, income_limit)
+    qbi_income     = int(se_net * 0.9235)
+    qbi_component  = int(qbi_income * 0.20)
+    standard_ded   = 29200
+    taxable_b4_qbi = max(0, l11 - standard_ded)
+    income_limit   = int(taxable_b4_qbi * 0.20)
+    qbi_deduction  = min(qbi_component, income_limit)
 
-    s("//Form8995/QBITrades/Trade[@seq='1']/QBIAmount",       qbi_income)
-    s("//Form8995/L2_TotalQBI",                               qbi_income)
-    s("//Form8995/L4_TotalQBIAfterCarryforward",              qbi_income)
-    s("//Form8995/L5_QBIComponent_20pct",                     qbi_component)
-    s("//Form8995/L10_QBIDeductionBeforeLimit",               qbi_component)
-    s("//Form8995/L11_TaxableIncomeBeforeQBI",                l11)
-    s("//Form8995/L13_L11MinusL12",                           taxable_b4_qbi)
-    s("//Form8995/L14_IncomeLimitation",                      income_limit)
-    s("//Form8995/L15_QBIDeduction",                          qbi_deduction)
-    s("//Form1040/TaxableIncome/L13_QBIDeductionForm8995",    qbi_deduction)
-
-    # ── Taxable Income ────────────────────────────────────────
     l12  = standard_ded
     l13  = qbi_deduction
     l14  = l12 + l13
     l15  = max(0, l11 - l14)
 
-    s("//Form1040/TaxableIncome/L12_StandardOrItemizedDeduction", l12)
-    s("//Form1040/TaxableIncome/L14_TotalDeductions",             l14)
-    s("//Form1040/TaxableIncome/L15_TaxableIncome",               l15)
+    s(root, "//Return/ReturnData/IRS1040/TotalItemizedOrStandardDedAmt", l12)
+    s(root, "//Return/ReturnData/IRS1040/QualifiedBusinessIncomeDedAmt", l13)
+    s(root, "//Return/ReturnData/IRS1040/TotalDeductionsAmt", l14)
+    s(root, "//Return/ReturnData/IRS1040/TaxableIncomeAmt", l15)
 
-    # ── Federal Income Tax (2024 MFJ brackets) ───────────────
     def tax_mfj_2024(income: int) -> int:
         brackets = [
             (23200,   0.10),
@@ -606,36 +1171,20 @@ def recompute_derived_fields(root):
         return tax
 
     l16  = tax_mfj_2024(l15)
-    l17  = 0  # Schedule 2 Part I (AMT etc.) — 0 for most filers
+    l17  = 0
     l18  = l16 + l17
 
-    # CTC: $2,000 per qualifying child under 17, phaseout above $400,000 MFJ
-    num_kids     = int(g("//Schedule8812/Part1_ChildTaxCredit/L4_QualifyingChildrenUnder17") or 0)
-    num_other    = int(g("//Schedule8812/Part1_ChildTaxCredit/L6_OtherDependents") or 0)
-    ctc_raw      = num_kids * 2000 + num_other * 500
+    dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
+    num_kids  = sum(1 for d in dep_nodes if (d.findtext("EligibleForChildTaxCreditInd") or "").strip().upper() in ("X", "TRUE", "1"))
+    num_other = max(0, len(dep_nodes) - num_kids)
+    ctc_raw   = num_kids * 2000 + num_other * 500
     phaseout_exc = max(0, l11 - 400000)
-    phaseout_red = int(((phaseout_exc + 999) // 1000) * 1000 * 0.05)
+    phaseout_red = int(((phaseout_exc + 999) // 1000) * 1000 * 0.05) if phaseout_exc > 0 else 0
     ctc          = max(0, ctc_raw - phaseout_red)
     ctc_used     = min(ctc, l18)
 
-    s("//Schedule8812/Part1_ChildTaxCredit/L5_Multiply2000",          num_kids * 2000)
-    s("//Schedule8812/Part1_ChildTaxCredit/L7_Multiply500",           num_other * 500)
-    s("//Schedule8812/Part1_ChildTaxCredit/L8_AddLines5_7",           ctc_raw)
-    s("//Schedule8812/Part1_ChildTaxCredit/L12_CreditAfterPhaseout",  ctc)
-    s("//Schedule8812/Part1_ChildTaxCredit/L14_ChildTaxCredit",       ctc_used)
-    s("//Form1040/TaxAndCredits/L16_Tax",                             l16)
-    s("//Form1040/TaxAndCredits/L18_TotalTax",                        l18)
-    s("//Form1040/TaxAndCredits/L19_ChildTaxCreditSchedule8812",      ctc_used)
-    s("//Form1040/TaxAndCredits/L21_TotalCredits",                    ctc_used)
-    s("//Form1040/TaxAndCredits/L22_TaxAfterCredits",                 max(0, l18 - ctc_used))
-    s("//Form1040/TaxAndCredits/L23_OtherTaxesSchedule2",             se_total)
     l24 = max(0, l18 - ctc_used) + se_total
-    s("//Form1040/TaxAndCredits/L24_TotalTax",                        l24)
-
-    # ── Payments & Refund ─────────────────────────────────────
-    withheld = g("//Form1040/Payments/L25a_FederalWithheldW2")
-    s("//Form1040/Payments/L25d_TotalFederalWithheld", withheld)
-    s("//Form1040/Payments/L33_TotalPayments",         withheld)
+    withheld = g("//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt")
 
     if withheld >= l24:
         refund = withheld - l24
@@ -644,23 +1193,25 @@ def recompute_derived_fields(root):
         refund = 0
         owed   = l24 - withheld
 
-    s("//Form1040/RefundOrOwed/L34_Overpaid",    refund)
-    s("//Form1040/RefundOrOwed/L35a_RefundAmount", refund)
-    s("//Form1040/RefundOrOwed/L37_AmountOwed",  owed)
+    s(root, "//Return/ReturnData/IRS1040/TaxAmt", l16)
+    s(root, "//Return/ReturnData/IRS1040/TotalTaxBeforeCrAndOthTaxesAmt", l18)
+    s(root, "//Return/ReturnData/IRS1040/ChildTaxCreditAmt", ctc_used)
+    s(root, "//Return/ReturnData/IRS1040/TotalCreditsAmt", ctc_used)
+    s(root, "//Return/ReturnData/IRS1040/TaxLessCreditsAmt", max(0, l18 - ctc_used))
+    s(root, "//Return/ReturnData/IRS1040/OtherTaxesAmt", se_total)
+    s(root, "//Return/ReturnData/IRS1040/TotalTaxAmt", l24)
+    s(root, "//Return/ReturnData/IRS1040/TotalPaymentsAmt", withheld)
+    s(root, "//Return/ReturnData/IRS1040/OverpaidAmt", refund)
+    s(root, "//Return/ReturnData/IRS1040/RefundAmt", refund)
+    s(root, "//Return/ReturnData/IRS1040/AmountOwedAmt", owed)
 
-    # ── 1040-V Payment Voucher ────────────────────────────────
-    s("//Form1040V/PaymentAmount", owed)
-
-    # ── CA 540 (simplified — real CA tax uses FTB tables) ────
-    # CA standard deduction: MFJ = $11,080 (2024)
     ca_std  = 11080
     ca_agi  = l11
     ca_ti   = max(0, ca_agi - ca_std)
-    # Rough CA tax (rate schedule, simplified):
     ca_brackets = [
         (20824,   0.01), (49368,   0.02), (77918,   0.04),
         (108162,  0.06), (136700,  0.08), (698274,  0.093),
-        (float("inf"), 0.103),
+        (1000000, 0.103), (float("inf"), 0.123),
     ]
     ca_tax, prev = 0, 0
     for limit, rate in ca_brackets:
@@ -669,35 +1220,39 @@ def recompute_derived_fields(root):
         ca_tax += int(seg * rate)
         prev = limit
 
-    ca_exempt = g("//CA540/L11_TotalExemptionCredits") or 1220
+    ca_exempt = (144 * 2) + (433 * len(dep_nodes))
     ca_tax_after = max(0, ca_tax - ca_exempt)
-    ca_withheld  = g("//CA540/Payments/L71_CAWithheld")
     ca_refund    = max(0, ca_withheld - ca_tax_after)
     ca_owed      = max(0, ca_tax_after - ca_withheld)
 
-    s("//CA540/TaxableIncome/L13_FederalAGI",             ca_agi)
-    s("//CA540/TaxableIncome/L15_AfterSubtractions",      ca_agi)
-    s("//CA540/TaxableIncome/L17_CAAdjustedGrossIncome",  ca_agi)
-    s("//CA540/TaxableIncome/L18_Deduction",              ca_std)
-    s("//CA540/TaxableIncome/L19_TaxableIncome",          ca_ti)
-    s("//CA540/Tax/L31_TaxFromTable",                     ca_tax)
-    s("//CA540/Tax/L33_TaxAfterExemptionCredits",         ca_tax_after)
-    s("//CA540/Tax/L35_TotalTax",                         ca_tax_after)
-    s("//CA540/SpecialCredits/L48_TaxAfterCredits",       ca_tax_after)
-    s("//CA540/OtherTaxes/L64_TotalTax",                  ca_tax_after)
-    s("//CA540/Payments/L78_TotalPayments",               ca_withheld)
-    s("//CA540/UseAndPenalty/L93_PaymentsAfterISR",       ca_withheld)
-    s("//CA540/UseAndPenalty/L95_PaymentsBalance",        ca_withheld)
-    s("//CA540/RefundOrOwed/L96_OverpaidTax",             ca_refund)
-    s("//CA540/RefundOrOwed/L97_OverpaidTaxAvailable",    ca_refund)
-    s("//CA540/RefundOrOwed/L99_RefundAvailable",         ca_refund)
-    s("//CA540/AmountOwedOrRefund/L115_Refund",           ca_refund)
-    s("//CA540/RefundOrOwed/L100_TaxDue",                 ca_owed)
+    ca_data = {
+        "state_wages":   w2,
+        "ca_agi":        ca_agi,
+        "ca_std":        ca_std,
+        "ca_ti":         ca_ti,
+        "ca_tax":        ca_tax,
+        "ca_tax_after":  ca_tax_after,
+        "ca_withheld":   ca_withheld,
+        "ca_refund":     ca_refund,
+        "ca_owed":       ca_owed,
+    }
 
-    return root
+    computed = {
+        "se_vals": (se_net, se_taxable, se_ss_tax, se_med_tax, se_total, se_deduction),
+        "qbi_vals": (qbi_income, qbi_component, l11, taxable_b4_qbi, income_limit, qbi_deduction),
+        "ctc_vals": (l11, ctc_raw, ctc, ctc_used, l18),
+        "ca_data": ca_data,
+        "owed": owed,
+        "l24": l24,
+        "l18": l18,
+        "ctc_used": ctc_used,
+        "quarterly": int(l24/4),
+    }
+
+    return root, computed
+
 
 def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: int):
-    """Generate a randomised synthetic variant from the base XML using the Quant Model."""
     rng = random.Random(seed)
     root = load_xml(xml_path)
 
@@ -705,66 +1260,88 @@ def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: i
         nodes = root.xpath(xpath)
         if nodes:
             nodes[0].text = str(value)
+        else:
+            parts = xpath.rsplit("/", 1)
+            if len(parts) == 2:
+                parent_xpath, tag = parts
+                parents = root.xpath(parent_xpath)
+                if parents:
+                    from lxml import etree
+                    new_el = etree.SubElement(parents[0], tag)
+                    new_el.text = str(value)
 
-    # 1. Randomise identities
     p_first = rng.choice(FIRST_NAMES)
     p_last  = rng.choice(LAST_NAMES)
     s_first = rng.choice(FIRST_NAMES)
-    s_last  = p_last  # spouse takes same last name
+    s_last  = p_last
+    p_ssn   = random_ssn(rng).replace("-", "")
+    s_ssn   = random_ssn(rng).replace("-", "")
     city, state, zipcode = rng.choice(CITIES)
     street_num = rng.randint(100, 9999)
     street_names = ["Main St", "Oak Ave", "Maple Dr", "Cedar Ln", "Pine Rd",
                     "Elm St", "Washington Blvd", "Park Ave"]
+    street = f"{street_num} {rng.choice(street_names)}"
 
-    set_text("//Taxpayer/Primary/FirstName", p_first)
-    set_text("//Taxpayer/Primary/LastName",  p_last)
-    set_text("//Taxpayer/Primary/SSN",       random_ssn(rng))
-    set_text("//Taxpayer/Primary/Email",     f"{p_first.lower()}.{p_last.lower()}@gmail.com")
-    set_text("//Taxpayer/Primary/Occupation", rng.choice(OCCUPATIONS_P))
+    set_text("//Return/ReturnHeader/Filer/NameLine1Txt", f"{p_first} {p_last}")
+    set_text("//Return/ReturnHeader/Filer/PrimarySSN", p_ssn)
+    set_text("//Return/ReturnHeader/Filer/SpouseNameLine1Txt", f"{s_first} {s_last}")
+    set_text("//Return/ReturnHeader/Filer/SpouseSSN", s_ssn)
+    set_text("//Return/ReturnHeader/Filer/USAddress/AddressLine1Txt", street)
+    set_text("//Return/ReturnHeader/Filer/USAddress/CityNm", city)
+    set_text("//Return/ReturnHeader/Filer/USAddress/StateAbbreviationCd", state)
+    set_text("//Return/ReturnHeader/Filer/USAddress/ZIPCd", zipcode)
+    
+    set_text("//Return/ReturnHeader/Filer/EmailAddressTxt", f"{p_first.lower()}.{p_last.lower()}@gmail.com")
+    set_text("//Return/ReturnData/IRSW2/EmployeeOccupation", rng.choice(OCCUPATIONS_P))
+    set_text("//Return/ReturnData/IRSW2/SpouseOccupation", rng.choice(OCCUPATIONS_S))
 
-    set_text("//Taxpayer/Spouse/FirstName", s_first)
-    set_text("//Taxpayer/Spouse/LastName",  s_last)
-    set_text("//Taxpayer/Spouse/SSN",       random_ssn(rng))
-    set_text("//Taxpayer/Spouse/Occupation", rng.choice(OCCUPATIONS_S))
-
-    set_text("//Taxpayer/Address/Street",
-             f"{street_num} {rng.choice(street_names)}")
-    set_text("//Taxpayer/Address/City",  city)
-    set_text("//Taxpayer/Address/State", state)
-    set_text("//Taxpayer/Address/ZIP",   zipcode)
-
-    # 2. Generate correlated leaf inputs
     w2        = rng.randint(30000, 150000)
     gross_rev = rng.randint(30000, 200000)
     
-    set_text("//Form1040/Income/L1a_WagesW2", w2)
-    set_text("//ScheduleC/Part1_Income/L1_GrossReceipts", gross_rev)
-    set_text("//ScheduleC/Part1_Income/L7_GrossIncome", gross_rev)
+    set_text("//Return/ReturnData/IRS1040/WagesAmt", w2)
+    set_text("//Return/ReturnData/IRS1040/WagesSalariesAndTipsAmt", w2)
+    set_text("//Return/ReturnData/IRSW2/WagesAmt", w2)
+    set_text("//Return/ReturnData/IRS1040ScheduleC/GrossReceiptsOrSalesAmt", gross_rev)
+    set_text("//Return/ReturnData/IRS1040ScheduleC/TotalGrossReceiptsAmt", gross_rev)
 
-    # Generate business expenses derived from gross revenue
     expenses = generate_schedule_c_expenses(gross_rev, rng)
-    for field, amount in expenses.items():
-        set_text(f"//ScheduleC/Part2_Expenses/{field}", amount)
-        
-    set_text("//Schedule1/Part1_AdditionalIncome/L3_BusinessIncomeScheduleC", expenses["L31_NetProfitLoss"])
+    vehicle = generate_vehicle_depreciation(rng)
+    expenses["L13_DepreciationSection179"] = vehicle["dep_allowed"]
 
-    # Rough estimate of AGI temporarily for investment correlation
-    estimated_agi = w2 + expenses["L31_NetProfitLoss"]
-    inv_income = generate_investment_income(estimated_agi, rng)
-    for field, amount in inv_income.items():
-        set_text(f"//Form1040/Income/{field}", amount)
+    inv = generate_investment_income(w2 + expenses["L31_NetProfitLoss"], rng)
+    set_text("//Return/ReturnData/IRS1040/TaxableInterestAmt", inv["L2b_TaxableInterest"])
+    set_text("//Return/ReturnData/IRS1040/OrdinaryDividendsAmt", inv["L3b_OrdinaryDividends"])
 
-    # Withholdings
-    fed_withholding = generate_withholding(w2, rng)
-    ca_withholding = generate_ca_withholding(w2, rng)
+    fed_wh = generate_withholding(w2, rng)
+    ca_wh  = generate_ca_withholding(w2, rng)
     
-    set_text("//Form1040/Payments/L25a_FederalWithheldW2", fed_withholding)
-    set_text("//CA540/Payments/L71_CAWithheld", ca_withholding)
+    set_text("//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt", fed_wh)
+    set_text("//Return/ReturnData/IRSW2/WithholdingAmt", fed_wh)
 
-    # 3. Recompute ALL derived fields using tax math
-    root = recompute_derived_fields(root)
+    root, computed = recompute_derived_fields(root, ca_wh)
 
-    # 4. Write modified XML to temp file, then generate PDF
+    dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
+    num_kids  = sum(1 for d in dep_nodes if (d.findtext("EligibleForChildTaxCreditInd") or "").strip().upper() in ("X", "TRUE", "1"))
+    num_other = max(0, len(dep_nodes) - num_kids)
+
+    actc_vals = compute_actc(
+        num_kids=num_kids, w2=w2,
+        se_net=expenses["L31_NetProfitLoss"],
+        ctc_used=computed["ctc_used"], l18=computed["l18"]
+    )
+
+    root = inject_schedule_c_detail(root, gross_rev, expenses)
+    root = inject_schedule_se_detail(root, *computed["se_vals"])
+    root = inject_form8995_detail(root, *computed["qbi_vals"])
+    root = inject_schedule8812_detail(root, num_kids, num_other, *computed["ctc_vals"])
+    root = inject_schedule8812_part2(root, actc_vals)
+    root = inject_ca540_nodes(root, computed["ca_data"])
+    root = inject_voucher_nodes(root, p_first, s_first, p_ssn, s_ssn,
+                                computed["owed"], computed["quarterly"],
+                                street, f"{city}, {state} {zipcode}")
+    root = inject_form4562_detail(root, vehicle, section179=vehicle["dep_allowed"], total_dep=vehicle["dep_allowed"])
+    root = inject_preparer_node(root, rng)
+
     import tempfile, os
     with tempfile.NamedTemporaryFile(suffix=".xml", delete=False, mode="wb") as tmp:
         tree = root.getroottree()
@@ -775,6 +1352,7 @@ def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: i
         generate_pdf(tmp_path, source_pdf, output_path)
     finally:
         os.unlink(tmp_path)
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
