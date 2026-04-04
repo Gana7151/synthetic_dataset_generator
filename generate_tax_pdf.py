@@ -913,11 +913,17 @@ def inject_ca540_nodes(root, ca_data: dict):
 
     deps_el = etree.SubElement(ca, "Dependents")
     for i, dep in enumerate(dep_nodes[:2], start=1):
+        # Bug 4 fix: skip unpopulated template slots (both names empty)
+        first = dep.findtext("DependentFirstNm") or ""
+        last  = dep.findtext("DependentLastNm")  or ""
+        ssn   = dep.findtext("DependentSSN")     or ""
+        if not first and not last:
+            continue    # blank template stub — not a real dependent
         d = etree.SubElement(deps_el, "Dependent")
         d.set("seq", str(i))
-        add(d, "FirstName",  (dep.findtext("DependentFirstNm") or ""))
-        add(d, "LastName",   (dep.findtext("DependentLastNm") or ""))
-        add(d, "SSN",        (dep.findtext("DependentSSN") or ""))
+        add(d, "FirstName", first)
+        add(d, "LastName",  last)
+        add(d, "SSN",       ssn)
 
     add(ca, "L11_TotalExemptionCredits", total_exempt)
 
@@ -1353,9 +1359,7 @@ def generate_vehicle_depreciation(rng) -> dict:
 def inject_form4562_detail(root, vehicle: dict, section179: int, total_dep: int):
     """
     Inject Form 4562 page 2 vehicle and depreciation detail into XML.
-    vehicle   = output of generate_vehicle_depreciation()
-    section179= from IRS4562/Section179ExpenseAmt (already in XML)
-    total_dep = IRS4562/TotalDepreciationAmt (already in XML)
+    Bug 2 fix: find-or-create Vehicle[@seq='1'] — never duplicate.
     """
     from lxml import etree
     f4562 = root.xpath("//Return/ReturnData/IRS4562")
@@ -1373,21 +1377,29 @@ def inject_form4562_detail(root, vehicle: dict, section179: int, total_dep: int)
             el = etree.SubElement(parent, tag)
             el.text = str(value)
 
-    # Vehicle section (Section A, lines 25/26 area)
-    veh = etree.SubElement(f4562, "Vehicle")
-    veh.set("seq", "1")
-    def add(p, t, v): el = etree.SubElement(p, t); el.text = str(v); return el
-    add(veh, "Description",       vehicle["description"])
-    add(veh, "BusinessUsePct",    vehicle["business_pct"])
-    add(veh, "DepreciationAllowed", vehicle["dep_allowed"])
+    # Bug 2 fix: find existing Vehicle[@seq='1'] or create it — never duplicate
+    existing_veh = f4562.xpath("Vehicle[@seq='1']")
+    if existing_veh:
+        veh = existing_veh[0]
+    else:
+        veh = etree.SubElement(f4562, "Vehicle")
+        veh.set("seq", "1")
+
+    def _veh_set(tag, val):
+        el = veh.find(tag)
+        if el is None:
+            el = etree.SubElement(veh, tag)
+        el.text = str(val)
+
+    _veh_set("Description",        vehicle["description"])
+    _veh_set("BusinessUsePct",     vehicle["business_pct"])
+    _veh_set("DepreciationAllowed", vehicle["dep_allowed"])
 
     # Section B — vehicle usage statistics
     set_or_add(f4562, "L30_BusinessMiles",      vehicle["business_miles"])
     set_or_add(f4562, "L31_CommutingMiles",     vehicle["commute_miles"])
     set_or_add(f4562, "L32_OtherPersonalMiles", vehicle["personal_miles"])
     set_or_add(f4562, "L33_TotalMiles",         vehicle["total_miles"])
-
-    # Line 28 = total listed property depreciation (sum of vehicle dep)
     set_or_add(f4562, "L28_TotalListedPropDep", vehicle["dep_allowed"])
     set_or_add(f4562, "DepreciationAmt",         vehicle["dep_allowed"])
     set_or_add(f4562, "TotalDepreciationAmt",    vehicle["dep_allowed"])
@@ -1435,7 +1447,24 @@ def recompute_derived_fields(root, ca_withheld=0):
 
     qbi_income     = int(se_net * 0.9235)
     qbi_component  = int(qbi_income * 0.20)
-    standard_ded   = 29200
+    # Bug 6 fix: parameterise by filing status and tax year
+    year       = int(xget(root, "//Return/ReturnHeader/TaxYr") or "2024")
+    filing_cd  = xget(root, "//Return/ReturnData/IRS1040/IndividualReturnFilingStatusCd") or "2"
+    filing_key = {"1": "single", "2": "mfj", "4": "hoh"}.get(str(filing_cd), "mfj")
+    _TAX_PARAMS = {
+        2024: {
+            "mfj":    {"std_ded": 29200, "brackets": [(23200,0.10),(94300,0.12),(201050,0.22),(383900,0.24),(487450,0.32),(731200,0.35),(float("inf"),0.37)]},
+            "single": {"std_ded": 14600, "brackets": [(11600,0.10),(47150,0.12),(100525,0.22),(191950,0.24),(243725,0.32),(609350,0.35),(float("inf"),0.37)]},
+            "hoh":    {"std_ded": 21900, "brackets": [(16550,0.10),(63100,0.12),(100500,0.22),(191950,0.24),(243700,0.32),(609350,0.35),(float("inf"),0.37)]},
+        },
+        2023: {
+            "mfj":    {"std_ded": 27700, "brackets": [(22000,0.10),(89075,0.12),(190750,0.22),(364200,0.24),(462500,0.32),(693750,0.35),(float("inf"),0.37)]},
+            "single": {"std_ded": 13850, "brackets": [(11000,0.10),(44725,0.12),(95375,0.22),(182050,0.24),(231250,0.32),(578125,0.35),(float("inf"),0.37)]},
+            "hoh":    {"std_ded": 20800, "brackets": [(15700,0.10),(59850,0.12),(95350,0.22),(182050,0.24),(231250,0.32),(578100,0.35),(float("inf"),0.37)]},
+        },
+    }
+    params       = _TAX_PARAMS.get(year, _TAX_PARAMS[2024]).get(filing_key, _TAX_PARAMS[2024]["mfj"])
+    standard_ded = params["std_ded"]
     taxable_b4_qbi = max(0, l11 - standard_ded)
     income_limit   = int(taxable_b4_qbi * 0.20)
     qbi_deduction  = min(qbi_component, income_limit)
@@ -1450,26 +1479,16 @@ def recompute_derived_fields(root, ca_withheld=0):
     s(root, "//Return/ReturnData/IRS1040/TotalDeductionsAmt", l14)
     s(root, "//Return/ReturnData/IRS1040/TaxableIncomeAmt", l15)
 
-    def tax_mfj_2024(income: int) -> int:
-        brackets = [
-            (23200,   0.10),
-            (94300,   0.12),
-            (201050,  0.22),
-            (383900,  0.24),
-            (487450,  0.32),
-            (731200,  0.35),
-            (float("inf"), 0.37),
-        ]
+    def _apply_brackets(income, brackets):
         tax, prev = 0, 0
         for limit, rate in brackets:
-            taxable_in_bracket = min(income, limit) - prev
-            if taxable_in_bracket <= 0:
-                break
-            tax += int(taxable_in_bracket * rate)
+            seg = min(income, limit) - prev
+            if seg <= 0: break
+            tax += int(seg * rate)
             prev = limit
         return tax
 
-    l16  = tax_mfj_2024(l15)
+    l16  = _apply_brackets(l15, params["brackets"])
     l17  = 0
     l18  = l16 + l17
 
@@ -1596,27 +1615,31 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
     set_text("//Return/ReturnHeader/Filer/USAddress/ZIPCd", zipcode)
     
     set_text("//Return/ReturnHeader/Filer/EmailAddressTxt", f"{p_first.lower()}.{p_last.lower()}@gmail.com")
+    # Bug 3 fix: add missing PhoneNum
+    phone = f"({rng.randint(200,999)}){rng.randint(200,999)}-{rng.randint(1000,9999)}"
+    set_text("//Return/ReturnHeader/Filer/PhoneNum", phone)
     set_text("//Return/ReturnData/IRSW2/EmployeeOccupation", rng.choice(OCCUPATIONS_P))
     set_text("//Return/ReturnData/IRSW2/SpouseOccupation", rng.choice(OCCUPATIONS_S))
 
-    # --- MISSING IDENTITY INJECTIONS ---
-    # W-2 Form Properties
+    # W-2 identity
     set_text("//Return/ReturnData/IRSW2/EmployeeNm", f"{p_first} {p_last}")
     set_text("//Return/ReturnData/IRSW2/EmployeeSSN", p_ssn)
     set_text("//Return/ReturnData/IRSW2/EmployerEIN", f"{rng.randint(10,99)}-{rng.randint(1000000,9999999)}")
     set_text("//Return/ReturnData/IRSW2/EmployerName/BusinessNameLine1Txt", f"{p_last} {rng.choice(['Enterprises', 'Corp', 'Solutions', 'LLC'])}")
-    
-    # Schedule B
+
+    # Schedule B payer names (Bug 3: must run before inject)
     set_text("//Return/ReturnData/IRS1040ScheduleB/InterestPayerName", rng.choice(["Wells Fargo", "Bank of America", "Chase Bank", "Ally Bank"]))
     set_text("//Return/ReturnData/IRS1040ScheduleB/DividendPayerName", rng.choice(["Charles Schwab", "Fidelity", "Vanguard", "E-Trade"]))
-    
-    # Schedule C
+
+    # Schedule C identity fields (Bug 3: must run before inject_schedule_c_detail)
+    biz_types = ["Professional Services", "Consulting", "Retail", "Management", "Freelance Design", "IT Support"]
+    biz_name_suffix = rng.choice(["Consulting Services", "Solutions", "Group", "Associates", "Enterprises"])
     set_text("//Return/ReturnData/IRS1040ScheduleC/ProprietorNm", f"{p_first} {p_last}")
-    set_text("//Return/ReturnData/IRS1040ScheduleC/BusinessName/BusinessNameLine1Txt", f"{p_last} Consulting Services")
-    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityDesc", rng.choice(["Professional Services", "Consulting", "Retail", "Management"]))
-    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityCd", "541990")
+    set_text("//Return/ReturnData/IRS1040ScheduleC/BusinessName/BusinessNameLine1Txt", f"{p_last} {biz_name_suffix}")
+    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityDesc", rng.choice(biz_types))
+    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityCd", rng.choice(["541990", "541510", "722511", "811192"]))
     set_text("//Return/ReturnData/IRS1040ScheduleC/BusinessAddressTxt", street)
-    
+
     # CA-540 Headers
     set_text("//Return/ReturnData/CA540/Header/PrimaryFirstName", p_first)
     set_text("//Return/ReturnData/CA540/Header/PrimaryLastName", p_last)
@@ -1627,14 +1650,13 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
     set_text("//Return/ReturnData/CA540/Header/State", state)
     set_text("//Return/ReturnData/CA540/Header/ZIP", zipcode)
 
-    # Preparer block
+    # Preparer block set_text (overridden later by inject_preparer_node)
     set_text("//Return/ReturnData/PreparedBy/PreparerName", f"{rng.choice(FIRST_NAMES)} {rng.choice(LAST_NAMES)}")
     set_text("//Return/ReturnData/PreparedBy/PreparerPTIN", f"P{rng.randint(10000000,99999999)}")
 
-
     w2        = rng.randint(30000, 150000)
     gross_rev = rng.randint(30000, 200000)
-    
+
     set_text("//Return/ReturnData/IRS1040/WagesAmt", w2)
     set_text("//Return/ReturnData/IRS1040/WagesSalariesAndTipsAmt", w2)
     set_text("//Return/ReturnData/IRSW2/WagesAmt", w2)
@@ -1642,10 +1664,9 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
     set_text("//Return/ReturnData/IRS1040ScheduleC/TotalGrossReceiptsAmt", gross_rev)
 
     expenses = generate_schedule_c_expenses(gross_rev, rng)
-    vehicle = generate_vehicle_depreciation(rng)
+    vehicle  = generate_vehicle_depreciation(rng)
     if "description" not in vehicle:
         vehicle["description"] = f"20{rng.randint(18,24)} {rng.choice(['Honda', 'Toyota', 'Ford'])}"
-
     expenses["L13_DepreciationSection179"] = vehicle["dep_allowed"]
 
     inv = generate_investment_income(w2 + expenses["L31_NetProfitLoss"], rng)
@@ -1654,38 +1675,33 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
 
     fed_wh = generate_withholding(w2, rng)
     ca_wh  = generate_ca_withholding(w2, rng)
-    
     set_text("//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt", fed_wh)
     set_text("//Return/ReturnData/IRSW2/WithholdingAmt", fed_wh)
 
-    root, computed = recompute_derived_fields(root, ca_wh)
-
-    
-    # Populate Dependents
+    # Bug 1 fix: populate dependents BEFORE recompute so CTC is computed correctly
     target_kids = rng.choice([0, 1, 2])
-    dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
+    dep_nodes   = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
     for i in range(min(target_kids, len(dep_nodes))):
         c_first = rng.choice(FIRST_NAMES)
         c_ssn   = random_ssn(rng).replace("-", "")
-        # Populate elements
-        dep_el = dep_nodes[i]
-        
-        # Helper to set or create
-        def _set_sub(tag, val):
-            el = dep_el.find(tag)
+        dep_el  = dep_nodes[i]
+        def _set_sub(tag, val, _el=dep_el):
+            el = _el.find(tag)
             if el is None:
                 from lxml import etree
-                el = etree.SubElement(dep_el, tag)
+                el = etree.SubElement(_el, tag)
             el.text = str(val)
-            
-        _set_sub("DependentFirstNm", c_first)
-        _set_sub("DependentLastNm", p_last)
-        _set_sub("DependentSSN", c_ssn)
-        _set_sub("DependentRelationshipCd", rng.choice(["DAUGHTER", "SON"]))
+        _set_sub("DependentFirstNm",             c_first)
+        _set_sub("DependentLastNm",              p_last)
+        _set_sub("DependentSSN",                 c_ssn)
+        _set_sub("DependentRelationshipCd",      rng.choice(["DAUGHTER", "SON"]))
         _set_sub("EligibleForChildTaxCreditInd", "X")
-
-    num_kids = target_kids
+    num_kids  = target_kids
     num_other = max(0, len(dep_nodes) - num_kids)
+
+    # Now recompute — will see correct dependent data (Bug 1 resolved)
+    root, computed = recompute_derived_fields(root, ca_wh)
+
 
     actc_vals = compute_actc(
         num_kids=num_kids, w2=w2,
@@ -1705,7 +1721,8 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
     root = inject_form4562_detail(root, vehicle, section179=vehicle["dep_allowed"], total_dep=vehicle["dep_allowed"])
     root = inject_preparer_node(root, rng)
 
-    import tempfile, os
+    import tempfile, os, shutil
+    from pathlib import Path as _Path
     with tempfile.NamedTemporaryFile(suffix=".xml", delete=False, mode="wb") as tmp:
         tree = root.getroottree()
         tree.write(tmp, xml_declaration=True, encoding="UTF-8", pretty_print=True)
@@ -1715,6 +1732,15 @@ def generate_variation(source_pdf: str, output_path: str, seed: int):
         generate_pdf(tmp_path, source_pdf, output_path)
     finally:
         os.unlink(tmp_path)
+
+    # Bug 5 fix: save copies to pdfs_only/ and completed_form/
+    filename = _Path(output_path).name
+    for dest_dir in ["pdfs_only", "completed_form"]:
+        os.makedirs(dest_dir, exist_ok=True)
+        dest = os.path.join(dest_dir, filename)
+        shutil.copy2(output_path, dest)
+    print(f"  → pdfs_only/{filename}")
+    print(f"  → completed_form/{filename}")
 
 
 

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 output/batch/*.pdf
 blank_form.pdf
+
+pdfs_only/
+completed_form/
