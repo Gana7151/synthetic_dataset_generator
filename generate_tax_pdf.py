@@ -418,153 +418,159 @@ CHECKBOX_DEFINITIONS = [
 
 def generate_blank_form(source_pdf: str, output_path: str):
     """
-    Creates a blank form PDF by white-boxing every data field position
-    defined in FIELD_DEFINITIONS plus supplemental zones from DEFINITIVE_FIX.md.
-    Run this ONCE to produce blank_form.pdf.
+    Creates blank_form.pdf by permanently redacting all Johnson data
+    from the source PDF using PyMuPDF content-stream redaction.
+    PyMuPDF's apply_redactions() physically removes text — not just covers it.
+    Run once. The output blank_form.pdf should be committed to the repo.
     """
-    reader = PdfReader(source_pdf)
-    writer = PdfWriter()
+    import fitz  # PyMuPDF
 
-    blank_zones: dict = {}
-
-    # 1. Every field in FIELD_DEFINITIONS gets a white-out box
-    for (page, xpath, x, top, font_size, formatter) in FIELD_DEFINITIONS:
-        pad = 2
-        box = (x - pad, top - pad, x + 160, top + font_size + pad)
-        blank_zones.setdefault(page, []).append(box)
-
-    # 2. Supplemental zones covering headers, address blocks, preparer info
-    ADDITIONAL_BLANK_ZONES = {
+    FULL_CLEAR_ZONES = {
         1: [
-            (36.0,  80.0, 475.0, 104.0),   # primary name row (full width)
-            (36.0, 104.0, 475.0, 130.0),   # spouse name row (full width)
-            (36.0, 130.0, 580.0, 150.0),   # address
-            (36.0, 150.0, 430.0, 174.0),   # city/state/zip
-            (36.0, 370.0, 520.0, 410.0),   # dependents rows 1 & 2 (names + SSNs)
-            (440.0, 725.0, 590.0, 748.0),  # filing status
+            (35,  85, 475, 105),   # primary name
+            (465, 85, 612, 105),   # primary SSN
+            (35, 109, 475, 128),   # spouse name
+            (465,109, 612, 128),   # spouse SSN
+            (35, 133, 612, 153),   # address
+            (35, 157, 612, 177),   # city/state/zip
+            (85, 373, 520, 410),   # dependents rows
+            (530,296, 580, 313),   # digital assets checkbox
+            (455,373, 480, 410),   # dependent CTC checkboxes
+            (530,373, 580, 410),   # dependent credit X
+            (535,420, 612, 730),   # all right-column income amounts
         ],
         2: [
-            (36.0,  22.0, 580.0,  42.0),
-            (285.0, 549.0, 580.0, 563.0),
-            (285.0, 563.0, 580.0, 577.0),
-            (36.0,  577.0, 580.0, 592.0),
-            (36.0,  668.0, 580.0, 780.0),
+            (110, 20, 475,  40),   # name header
+            (465, 20, 612,  40),   # SSN header
+            (450,154, 490, 174),   # withholding amount (line 25a)
+            (535, 30, 612, 400),   # all tax/payment amounts
+            (130,520, 445, 540),   # phone + email
+            (285,547, 580, 592),   # occupation fields
+            (35, 592, 612, 792),   # preparer block + signature
         ],
-        7: [
-            (36.0,  70.0, 545.0,  85.0),
-            (36.0, 142.0, 580.0, 162.0),
-            (36.0, 324.0, 580.0, 344.0),
+        3: [
+            (35,  90, 612, 112),   # name header
+            (535, 210, 612, 235),  # business income line
+            (535, 655, 612, 680),  # total additional income
         ],
-        8: [
-            (36.0,  94.0, 545.0, 110.0),
-            (36.0, 112.0, 545.0, 126.0),
-            (36.0, 124.0, 545.0, 136.0),
-            (36.0, 136.0, 545.0, 150.0),
+        4:  [(535, 205, 612, 615)],
+        5:  [
+            (35,  82, 612, 102),   # name header
+            (540, 270, 612, 345),  # SE tax amounts
+            (540, 442, 590, 462),  # 6,034 line
         ],
-        9:  [(36.0, 460.0, 580.0, 510.0)],
-        10: [(36.0,  94.0, 558.0, 108.0)],
-        11: [(36.0, 105.0, 540.0, 120.0)],
-        12: [(150.0, 35.0, 545.0,  52.0)],
+        6:  [
+            (540, 568, 590, 588),  # 6,034
+            (535, 710, 612, 732),  # total other taxes
+        ],
+        7:  [
+            (35,  67, 612,  88),   # name/SSN header
+            (35, 138, 612, 162),   # interest payer name
+            (35, 320, 612, 344),   # dividend payer name
+            (535,138, 612, 410),   # amounts
+        ],
+        8:  [
+            (35,  90, 612, 108),   # proprietor name + SSN
+            (35, 108, 612, 125),   # business description
+            (35, 123, 612, 138),   # business name
+            (35, 137, 612, 152),   # address
+            (255,192, 612, 460),   # all income/expense amounts
+            (535,550, 590, 570),   # net profit line
+            (535,646, 590, 666),   # another amount line
+        ],
+        9:  [
+            (35,  46, 612,  66),   # name/SSN header (Schedule C p2)
+            (35, 456, 612, 560),   # Part V other expenses
+        ],
+        10: [
+            (35,  90, 612, 112),   # name header
+            (535, 183, 612, 475),  # SE calculation amounts
+            (540, 526, 590, 546),  # deductible SE tax
+        ],
+        11: [
+            (35, 100, 612, 125),   # name header + L1_AGI
+            (535, 130, 590, 150),  # 94,803
+            (535, 160, 612, 375),  # CTC calculation amounts
+            (540, 394, 590, 414),  # 2,500
+            (540, 442, 590, 475),  # 6,313 + 2,500
+        ],
+        12: [
+            (145, 28, 612, 55),    # header
+            (565, 85, 612, 510),   # ACTC amounts
+        ],
         13: [
-            (36.0,  94.0, 545.0, 108.0),
-            (36.0, 140.0, 545.0, 156.0),
+            (35,  90, 612, 112),   # name header
+            (68, 106, 560, 126),   # EMILY JOHNSON + SSN
+            (405,226, 485, 246),   # SSN in formula area
+            (35, 135, 612, 160),   # business name row
+            (475,135, 612, 380),   # QBI amounts
+            (530,382, 585, 397),
+            (530,478, 585, 498),
+            (530,562, 585, 582),
+            (418,658, 475, 678),
         ],
         14: [
-            (36.0, 106.0, 510.0, 120.0),
-            (36.0, 126.0, 510.0, 140.0),
-            (60.0, 480.0, 580.0, 495.0),
+            (35, 100, 612, 120),   # taxpayer name
+            (35, 120, 612, 145),   # preparer name/PTIN
+            (55, 475, 612, 500),   # documents relied on
         ],
-        15: [(120.0, 35.0, 510.0, 52.0)],
+        15: [(115, 30, 612, 55)],
         16: [
-            (36.0,  88.0, 545.0, 103.0),
-            (36.0, 103.0, 545.0, 118.0),
+            (35,  85, 612, 120),   # name/SSN header + business name
+            (475,135, 612, 175),   # depreciation amounts
         ],
         17: [
-            (36.0,  22.0, 502.0,  42.0),
-            (36.0, 175.0, 580.0, 195.0),
+            (110, 20, 612,  42),   # name/SSN header
+            (35, 170, 612, 200),   # vehicle info row
+            (255,335, 612, 430),   # mileage section
         ],
-        18: [(36.0, 55.0, 580.0, 780.0)],
-        19: [(36.0, 55.0, 580.0, 780.0)],
-        20: [(36.0, 55.0, 580.0, 780.0)],
-        21: [(36.0, 55.0, 580.0, 780.0)],
-        22: [(36.0, 55.0, 580.0, 780.0)],
+        18: [(35, 50, 612, 792)],
+        19: [(35, 50, 612, 792)],
+        20: [(35, 50, 612, 792)],
+        21: [(35, 50, 612, 792)],
+        22: [(35, 50, 612, 792)],
         23: [
-            (33.0,  88.0, 500.0, 106.0),
-            (33.0, 104.0, 580.0, 180.0),
+            (35,  85, 330, 108),   # primary name
+            (330, 85, 612, 108),   # SSNs
+            (35, 108, 612, 182),   # address block
         ],
-        24: [(36.0, 43.0, 580.0, 135.0)],
-        25: [(36.0, 43.0, 580.0,  72.0)],
-        26: [(36.0, 43.0, 580.0,  72.0)],
-        27: [(36.0, 43.0, 580.0,  72.0)],
-        28: [(36.0, 43.0, 580.0, 210.0)],
+        24: [
+            (35,  40, 612, 135),   # header + dependent rows
+            (475,145, 612, 365),   # CA income/tax amounts
+        ],
+        25: [
+            (35,  40, 612,  72),   # header
+            (475, 95, 612, 445),   # CA tax/payment amounts
+        ],
+        26: [
+            (35,  40, 612,  72),   # header
+            (475, 70, 612, 115),   # refund amounts
+        ],
+        27: [
+            (35,  40, 612,  72),   # header
+            (475,185, 612, 215),   # refund line
+        ],
+        28: [
+            (35,  40, 612, 215),   # header + signature block
+            (35, 480, 612, 510),   # phone/email
+        ],
     }
 
-    for page_num, zones in ADDITIONAL_BLANK_ZONES.items():
-        blank_zones.setdefault(page_num, []).extend(zones)
-
-    for i, source_page in enumerate(reader.pages):
+    doc = fitz.open(source_pdf)
+    for i in range(len(doc)):
         page_num = i + 1
-        pw = float(source_page.mediabox.width)
-        ph = float(source_page.mediabox.height)
-
-        zones = blank_zones.get(page_num, [])
+        page = doc[i]
+        zones = FULL_CLEAR_ZONES.get(page_num, [])
+        for (x0, top, x1, bot) in zones:
+            page.add_redact_annot(fitz.Rect(x0, top, x1, bot), fill=(1, 1, 1))
         if zones:
-            # Build white-box overlay PDF
-            buf = io.BytesIO()
-            c = canvas.Canvas(buf, pagesize=(pw, ph))
-            c.setFillColorRGB(1, 1, 1)
-            for (x0, top, x1, bot) in zones:
-                rl_y = ph - bot
-                c.rect(x0, rl_y, x1 - x0, bot - top, fill=1, stroke=0)
-            c.save()
-            buf.seek(0)
+            page.apply_redactions()
 
-            # Get the white-box page content bytes from the overlay PDF
-            white_reader = PdfReader(buf)
-            white_page   = white_reader.pages[0]
+    doc.save(output_path)
+    print(f"Blank form written: {output_path}  ({len(doc)} pages)")
 
-            # Prepend the white-box stream BEFORE the source page stream
-            # so it renders first (underneath form labels, but erasing Johnson data)
-            from pypdf.generic import ArrayObject, ByteStringObject, DecodedStreamObject
 
-            def _get_stream_bytes(page_obj):
-                """Extract raw decoded content bytes from a page."""
-                if "/Contents" not in page_obj:
-                    return b""
-                try:
-                    contents = page_obj["/Contents"]
-                    # Could be a list or single object
-                    if isinstance(contents, ArrayObject):
-                        parts = []
-                        for ref in contents:
-                            obj = ref.get_object()
-                            parts.append(obj.get_data() if hasattr(obj, "get_data") else b"")
-                        return b"\n".join(parts)
-                    else:
-                        obj = contents.get_object()
-                        return obj.get_data() if hasattr(obj, "get_data") else b""
-                except Exception:
-                    return b""
 
-            white_stream  = _get_stream_bytes(white_page)
-            source_stream = _get_stream_bytes(source_page)
-
-            # Combine: white boxes first, then the original form structure
-            combined = white_stream + b"\n" + source_stream
-
-            # Build new DecodedStreamObject and attach it
-            new_stream = DecodedStreamObject()
-            new_stream.set_data(combined)
-
-            from pypdf.generic import IndirectObject
-            writer_page_obj = source_page
-            writer_page_obj["/Contents"] = writer.add_object(new_stream)
-
-        writer.add_page(source_page)
-
-    with open(output_path, "wb") as f:
-        writer.write(f)
-    print(f"Blank form written: {output_path}  ({len(reader.pages)} pages)")
 
 
 def build_overlay_page(fields_for_page: list, page_width: float, page_height: float) -> bytes:
@@ -574,16 +580,12 @@ def build_overlay_page(fields_for_page: list, page_width: float, page_height: fl
     """
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(page_width, page_height))
-
     c.setFont("Helvetica", 9)
-    c.setFillColorRGB(0, 0, 0)  # black ink
+    c.setFillColorRGB(0, 0, 0)
 
     for (x, top, font_size, text, is_checkbox) in fields_for_page:
-        # Convert top (y from top) → ReportLab y (y from bottom)
         y = page_height - top - font_size
-
         if is_checkbox:
-            # Draw X for checked checkboxes
             c.setFont("Helvetica-Bold", 10)
             c.drawString(x, y, "X")
             c.setFont("Helvetica", 9)
@@ -604,143 +606,6 @@ def overlay_on_page(source_page, overlay_bytes):
     source_page.merge_page(overlay_page)
     return source_page
 
-
-def generate_blank_form(source_pdf: str, output_path: str):
-    """
-    Creates a blank form PDF by white-boxing every data field position
-    defined in FIELD_DEFINITIONS and CHECKBOX_DEFINITIONS.
-    Run this ONCE to produce blank_form.pdf.
-    """
-    from pypdf import PdfReader, PdfWriter
-    import io
-    from reportlab.pdfgen import canvas
-
-    reader = PdfReader(source_pdf)
-    writer = PdfWriter()
-
-    # Build page → list of (x0, top, x1, bottom) white-out boxes
-    # Derived from FIELD_DEFINITIONS + ADDITIONAL_BLANK_ZONES
-    blank_zones: dict[int, list] = {}
-
-    # 1. Every field in FIELD_DEFINITIONS gets a white-out box
-    #    Box = 4pt wider than font_size tall, 150pt wide right-aligned from x
-    for (page, xpath, x, top, font_size, formatter) in FIELD_DEFINITIONS:
-        pad = 2
-        box = (x - pad, top - pad, x + 150, top + font_size + pad)
-        blank_zones.setdefault(page, []).append(box)
-
-    # 2. Additional zones not in FIELD_DEFINITIONS:
-    #    Header name/SSN rows, address blocks, preparer info, checkboxes
-    ADDITIONAL_BLANK_ZONES = {
-        # Page 1 — filer name/SSN header + address block + dependents
-        1: [
-            (36.0,  88.0, 470.0, 102.0),   # primary name
-            (36.0, 112.0, 470.0, 126.0),   # spouse name
-            (36.0, 137.0, 580.0, 150.0),   # address
-            (36.0, 160.0, 430.0, 174.0),   # city/state/zip
-            (87.0, 375.0, 510.0, 405.0),   # dependents row 1 + 2
-            (440.0, 730.0, 590.0, 744.0),  # filing status area
-        ],
-        # Page 2 — name/SSN header + occupation + email/phone + preparer block
-        2: [
-            (115.0, 22.0, 470.0, 40.0),    # name + SSN in header
-            (285.0, 549.0, 580.0, 563.0),  # occupation fields
-            (285.0, 563.0, 580.0, 577.0),  # spouse occupation
-            (36.0,  577.0, 580.0, 592.0),  # phone + email
-            (36.0,  668.0, 580.0, 780.0),  # preparer block
-        ],
-        # Page 7 — Schedule B name/SSN row + payer names/amounts
-        7: [
-            (36.0,  70.0, 545.0,  85.0),   # name + SSN
-            (36.0, 142.0, 580.0, 162.0),   # interest payer name
-            (36.0, 324.0, 580.0, 344.0),   # dividend payer name
-        ],
-        # Page 8 — Schedule C header (name, SSN, business info)
-        8: [
-            (36.0,  94.0, 545.0, 110.0),   # proprietor name + SSN
-            (36.0, 112.0, 545.0, 126.0),   # business description
-            (36.0, 124.0, 545.0, 136.0),   # business name
-            (36.0, 136.0, 545.0, 150.0),   # business address
-        ],
-        # Page 9 — Schedule C Part V other expenses descriptions
-        9: [
-            (36.0, 460.0, 580.0, 510.0),   # expense description rows
-        ],
-        # Page 10 — Schedule SE name/SSN
-        10: [(36.0, 94.0, 558.0, 108.0)],
-        # Page 11 — Schedule 8812 name/SSN
-        11: [(36.0, 105.0, 540.0, 120.0)],
-        # Page 12 — Schedule 8812 p2 header
-        12: [(150.0, 35.0, 545.0, 52.0)],
-        # Page 13 — Form 8995 taxpayer name + business name row
-        13: [
-            (36.0, 94.0, 545.0, 108.0),
-            (36.0, 140.0, 545.0, 156.0),
-        ],
-        # Page 14 — Form 8867 name/SSN + preparer
-        14: [
-            (36.0, 106.0, 510.0, 120.0),
-            (36.0, 126.0, 510.0, 140.0),
-            (60.0, 480.0, 580.0, 495.0),
-        ],
-        # Page 15 — Form 8867 p2 header
-        15: [(120.0, 35.0, 510.0, 52.0)],
-        # Page 16 — Form 4562 name/SSN + business name
-        16: [
-            (36.0, 88.0, 545.0, 103.0),
-            (36.0, 103.0, 545.0, 118.0),
-        ],
-        # Page 17 — Form 4562 p2 header + vehicle info
-        17: [
-            (115.0, 22.0, 502.0, 40.0),
-            (36.0, 175.0, 580.0, 195.0),
-        ],
-        # Pages 18–22 — 1040-V and 1040-ES vouchers: full data block
-        18: [(36.0, 55.0, 580.0, 780.0)],
-        19: [(36.0, 55.0, 580.0, 780.0)],
-        20: [(36.0, 55.0, 580.0, 780.0)],
-        21: [(36.0, 55.0, 580.0, 780.0)],
-        22: [(36.0, 55.0, 580.0, 780.0)],
-        # Page 23 — CA 540 p1 header + address block + exemption checkboxes
-        23: [
-            (33.0,  91.0, 500.0, 106.0),
-            (33.0, 104.0, 580.0, 175.0),
-        ],
-        # Pages 24–28 — CA 540 continuation headers
-        24: [(36.0, 43.0, 580.0, 135.0)],
-        25: [(36.0, 43.0, 580.0,  70.0)],
-        26: [(36.0, 43.0, 580.0,  70.0)],
-        27: [(36.0, 43.0, 580.0,  70.0)],
-        28: [(36.0, 43.0, 580.0, 200.0)],
-    }
-
-    for page_num, zones in ADDITIONAL_BLANK_ZONES.items():
-        blank_zones.setdefault(page_num, []).extend(zones)
-
-    for i, source_page in enumerate(reader.pages):
-        page_num = i + 1
-        pw = float(source_page.mediabox.width)
-        ph = float(source_page.mediabox.height)
-
-        zones = blank_zones.get(page_num, [])
-        if zones:
-            buf = io.BytesIO()
-            c = canvas.Canvas(buf, pagesize=(pw, ph))
-            c.setFillColorRGB(1, 1, 1)
-            for (x0, top, x1, bot) in zones:
-                rl_y = ph - bot
-                c.rect(x0, rl_y, x1 - x0, bot - top, fill=1, stroke=0)
-            c.save()
-            buf.seek(0)
-            from pypdf import PdfReader as _R
-            overlay = _R(buf).pages[0]
-            source_page.merge_page(overlay)
-
-        writer.add_page(source_page)
-
-    with open(output_path, "wb") as f:
-        writer.write(f)
-    print(f"Blank form written: {output_path}")
 
 def generate_pdf(xml_path: str, source_pdf: str, output_path: str):
     """Main generation function. Reads XML, overlays fields onto source PDF."""
