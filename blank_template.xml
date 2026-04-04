@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v1.0">
+
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt></PrimaryBirthDt>
+      <SpouseBirthDt></SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+
+    <Filer>
+      <PrimarySSN></PrimarySSN>
+      <SpouseSSN></SpouseSSN>
+      <NameLine1Txt></NameLine1Txt>
+      <SpouseNameLine1Txt></SpouseNameLine1Txt>
+      <PhoneNum></PhoneNum>
+      <EmailAddressTxt></EmailAddressTxt>
+      <USAddress>
+        <AddressLine1Txt></AddressLine1Txt>
+        <CityNm></CityNm>
+        <StateAbbreviationCd></StateAbbreviationCd>
+        <ZIPCd></ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+
+  <ReturnData documentCnt="10">
+
+    <!-- Form 1040 -->
+    <IRS1040 documentId="IRS1040-1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+
+      <!-- Dependents -->
+      <DependentDetail>
+        <DependentFirstNm></DependentFirstNm>
+        <DependentLastNm></DependentLastNm>
+        <DependentSSN></DependentSSN>
+        <DependentRelationshipCd></DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd></EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm></DependentFirstNm>
+        <DependentLastNm></DependentLastNm>
+        <DependentSSN></DependentSSN>
+        <DependentRelationshipCd></DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd></EligibleForChildTaxCreditInd>
+      </DependentDetail>
+
+      <!-- Income -->
+      <WagesAmt>0</WagesAmt>
+      <WagesSalariesAndTipsAmt>0</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt>0</TaxExemptInterestAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <QualifiedDividendsAmt>0</QualifiedDividendsAmt>
+      <BusinessIncomeAmt>0</BusinessIncomeAmt>
+      <TotalIncomeAmt>0</TotalIncomeAmt>
+      <AdjustmentsToIncomeAmt>0</AdjustmentsToIncomeAmt>
+      <AdjustedGrossIncomeAmt>0</AdjustedGrossIncomeAmt>
+
+      <!-- Deductions -->
+      <TotalItemizedOrStandardDedAmt>0</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt>0</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>0</TotalDeductionsAmt>
+      <TaxableIncomeAmt>0</TaxableIncomeAmt>
+
+      <!-- Tax and Credits -->
+      <TaxAmt>0</TaxAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>0</TotalTaxBeforeCrAndOthTaxesAmt>
+      <ChildTaxCreditAmt>0</ChildTaxCreditAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <OtherTaxesAmt>0</OtherTaxesAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+
+      <!-- Payments -->
+      <FormW2WithheldTaxAmt>0</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>0</WithholdingTaxAmt>
+      <TotalPaymentsAmt>0</TotalPaymentsAmt>
+      <OverpaidAmt>0</OverpaidAmt>
+      <RefundAmt>0</RefundAmt>
+      <AmountOwedAmt>0</AmountOwedAmt>
+    </IRS1040>
+
+    <!-- W-2 -->
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN></EmployeeSSN>
+      <EmployerEIN></EmployerEIN>
+      <EmployerName><BusinessNameLine1Txt></BusinessNameLine1Txt></EmployerName>
+      <EmployeeNm></EmployeeNm>
+      <WagesAmt>0</WagesAmt>
+      <WithholdingAmt>0</WithholdingAmt>
+      <SocialSecurityWagesAmt>0</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>0</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>0</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>0</MedicareTaxWithheldAmt>
+      <EmployeeOccupation></EmployeeOccupation>
+      <SpouseOccupation></SpouseOccupation>
+    </IRSW2>
+
+    <!-- Schedule 1 -->
+    <IRS1040Schedule1 documentId="Sch1-1">
+      <AdditionalIncomeAmt>0</AdditionalIncomeAmt>
+      <AdjustmentsToIncomeAmt>0</AdjustmentsToIncomeAmt>
+    </IRS1040Schedule1>
+
+    <!-- Schedule 2 -->
+    <IRS1040Schedule2 documentId="Sch2-1">
+      <AlternativeMinimumTaxAmt>0</AlternativeMinimumTaxAmt>
+      <TotalAdditionalTaxAmt>0</TotalAdditionalTaxAmt>
+      <SelfEmploymentTaxAmt>0</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>0</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+
+    <!-- Schedule B -->
+    <IRS1040ScheduleB documentId="SchB-1">
+      <InterestPayerName></InterestPayerName>
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <DividendPayerName></DividendPayerName>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+
+    <!-- Schedule C -->
+    <IRS1040ScheduleC documentId="SchC-1">
+      <ProprietorNm></ProprietorNm>
+      <PrincipalBusinessActivityDesc></PrincipalBusinessActivityDesc>
+      <PrincipalBusinessActivityCd></PrincipalBusinessActivityCd>
+      <BusinessName><BusinessNameLine1Txt></BusinessNameLine1Txt></BusinessName>
+      <BusinessAddressTxt></BusinessAddressTxt>
+      <GrossReceiptsOrSalesAmt>0</GrossReceiptsOrSalesAmt>
+      <TotalGrossReceiptsAmt>0</TotalGrossReceiptsAmt>
+      <AdvertisingAmt>0</AdvertisingAmt>
+      <DepreciationAmt>0</DepreciationAmt>
+      <OfficeExpensesAmt>0</OfficeExpensesAmt>
+      <RentLeaseAmt>0</RentLeaseAmt>
+      <SuppliesAmt>0</SuppliesAmt>
+      <TaxesAndLicensesAmt>0</TaxesAndLicensesAmt>
+      <MealsAmt>0</MealsAmt>
+      <OtherBusinessExpensesAmt>0</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>0</TotalExpensesAmt>
+      <NetProfitOrLossAmt>0</NetProfitOrLossAmt>
+      <Part5_OtherExpenses>
+        <Item seq="1"><Description></Description><Amount>0</Amount></Item>
+        <Item seq="2"><Description></Description><Amount>0</Amount></Item>
+        <Item seq="3"><Description></Description><Amount>0</Amount></Item>
+        <L48_TotalOtherExpenses>0</L48_TotalOtherExpenses>
+      </Part5_OtherExpenses>
+    </IRS1040ScheduleC>
+
+    <!-- Schedule SE -->
+    <IRS1040ScheduleSE documentId="SchSE-1">
+      <NetProfitOrLossAmt>0</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>0</SETotalNetEarningsOrLossAmt>
+      <L4a_Multiply_9235>0</L4a_Multiply_9235>
+      <L4c_Combined>0</L4c_Combined>
+      <L6_AddLines4c5b>0</L6_AddLines4c5b>
+      <L9_Subtract8dFrom7>0</L9_Subtract8dFrom7>
+      <L10_Multiply_124>0</L10_Multiply_124>
+      <L11_Multiply_029>0</L11_Multiply_029>
+      <SelfEmploymentTaxAmt>0</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>0</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+
+    <!-- Schedule 8812 -->
+    <IRS1040Schedule8812 documentId="Sch8812-1">
+      <L1_AGI>0</L1_AGI>
+      <L3_AddLines1_2d>0</L3_AddLines1_2d>
+      <L4_QualifyingChildrenUnder17>0</L4_QualifyingChildrenUnder17>
+      <L5_Multiply2000>0</L5_Multiply2000>
+      <L6_OtherDependents>0</L6_OtherDependents>
+      <L7_Multiply500>0</L7_Multiply500>
+      <L8_AddLines5_7>0</L8_AddLines5_7>
+      <L12_CreditAfterPhaseout>0</L12_CreditAfterPhaseout>
+      <L13_CreditLimitWorksheetA>0</L13_CreditLimitWorksheetA>
+      <ChildTaxCreditAmt>0</ChildTaxCreditAmt>
+      <L16a_NumKidsX1700>0</L16a_NumKidsX1700>
+      <L16b_EarnedIncome>0</L16b_EarnedIncome>
+      <L17_SmallerOf16a16b>0</L17_SmallerOf16a16b>
+      <L18a_EarnedIncome>0</L18a_EarnedIncome>
+      <L19_Subtract2500>0</L19_Subtract2500>
+      <L20_Multiply15pct>0</L20_Multiply15pct>
+      <L27_AdditionalChildTaxCredit>0</L27_AdditionalChildTaxCredit>
+    </IRS1040Schedule8812>
+
+    <!-- Form 8995 -->
+    <IRS8995 documentId="8995-1">
+      <QBITrades>
+        <Trade seq="1">
+          <n></n>
+          <TaxpayerID></TaxpayerID>
+          <QBIAmount>0</QBIAmount>
+        </Trade>
+      </QBITrades>
+      <L2_TotalQBI>0</L2_TotalQBI>
+      <L4_TotalQBIAfterCarryforward>0</L4_TotalQBIAfterCarryforward>
+      <L5_QBIComponent_20pct>0</L5_QBIComponent_20pct>
+      <L10_QBIDeductionBeforeLimit>0</L10_QBIDeductionBeforeLimit>
+      <L11_TaxableIncomeBeforeQBI>0</L11_TaxableIncomeBeforeQBI>
+      <L13_L11MinusL12>0</L13_L11MinusL12>
+      <L14_IncomeLimitation>0</L14_IncomeLimitation>
+      <L15_QBIDeduction>0</L15_QBIDeduction>
+    </IRS8995>
+
+    <!-- Form 4562 -->
+    <IRS4562 documentId="4562-1">
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>0</DepreciationAmt>
+      <TotalDepreciationAmt>0</TotalDepreciationAmt>
+      <L28_TotalListedPropDep>0</L28_TotalListedPropDep>
+      <L30_BusinessMiles>0</L30_BusinessMiles>
+      <L31_CommutingMiles>0</L31_CommutingMiles>
+      <L32_OtherPersonalMiles>0</L32_OtherPersonalMiles>
+      <L33_TotalMiles>0</L33_TotalMiles>
+      <Vehicle seq="1">
+        <Description></Description>
+        <DatePlacedInService></DatePlacedInService>
+        <BusinessUsePct></BusinessUsePct>
+        <DepreciationAllowed>0</DepreciationAllowed>
+      </Vehicle>
+    </IRS4562>
+
+    <!-- Preparer Info -->
+    <PreparedBy documentId="Prep-1">
+      <PreparerName></PreparerName>
+      <PreparerPTIN></PreparerPTIN>
+      <DocumentsReliedOn></DocumentsReliedOn>
+    </PreparedBy>
+
+    <!-- Form 1040-V -->
+    <Form1040V documentId="1040V-1">
+      <PrimarySSN></PrimarySSN>
+      <SpouseSSN></SpouseSSN>
+      <PaymentAmount>0</PaymentAmount>
+      <TaxpayerName></TaxpayerName>
+      <Address></Address>
+      <City></City>
+    </Form1040V>
+
+    <!-- Form 1040-ES Vouchers -->
+    <Form1040ES documentId="1040ES-1">
+      <TaxpayerName></TaxpayerName>
+      <Voucher seq="1"><Amount>0</Amount></Voucher>
+      <Voucher seq="2"><Amount>0</Amount></Voucher>
+      <Voucher seq="3"><Amount>0</Amount></Voucher>
+      <Voucher seq="4"><Amount>0</Amount></Voucher>
+    </Form1040ES>
+
+    <!-- CA 540 -->
+    <CA540 documentId="CA540-1">
+      <Header>
+        <PrimarySSN></PrimarySSN>
+        <SpouseSSN></SpouseSSN>
+        <PrimaryFirstName></PrimaryFirstName>
+        <PrimaryLastName></PrimaryLastName>
+        <SpouseFirstName></SpouseFirstName>
+        <SpouseLastName></SpouseLastName>
+        <Address></Address>
+        <City></City>
+        <State></State>
+        <ZIP></ZIP>
+      </Header>
+      <Exemptions>
+        <L7_PersonalExemption_Amount>0</L7_PersonalExemption_Amount>
+      </Exemptions>
+      <Dependents>
+        <Dependent seq="1">
+          <FirstName></FirstName>
+          <LastName></LastName>
+          <SSN></SSN>
+        </Dependent>
+        <Dependent seq="2">
+          <FirstName></FirstName>
+          <LastName></LastName>
+          <SSN></SSN>
+        </Dependent>
+      </Dependents>
+      <L11_TotalExemptionCredits>0</L11_TotalExemptionCredits>
+      <TaxableIncome>
+        <L12_StateWages>0</L12_StateWages>
+        <L13_FederalAGI>0</L13_FederalAGI>
+        <L15_AfterSubtractions>0</L15_AfterSubtractions>
+        <L16_CAAdditions>0</L16_CAAdditions>
+        <L17_CAAdjustedGrossIncome>0</L17_CAAdjustedGrossIncome>
+        <L18_Deduction>0</L18_Deduction>
+        <L19_TaxableIncome>0</L19_TaxableIncome>
+      </TaxableIncome>
+      <Tax>
+        <L31_TaxFromTable>0</L31_TaxFromTable>
+        <L32_ExemptionCredits>0</L32_ExemptionCredits>
+        <L33_TaxAfterExemptionCredits>0</L33_TaxAfterExemptionCredits>
+        <L35_TotalTax>0</L35_TotalTax>
+      </Tax>
+      <SpecialCredits>
+        <L48_TaxAfterCredits>0</L48_TaxAfterCredits>
+      </SpecialCredits>
+      <OtherTaxes>
+        <L64_TotalTax>0</L64_TotalTax>
+      </OtherTaxes>
+      <Payments>
+        <L71_CAWithheld>0</L71_CAWithheld>
+        <L78_TotalPayments>0</L78_TotalPayments>
+      </Payments>
+      <UseAndPenalty>
+        <L93_PaymentsAfterISR>0</L93_PaymentsAfterISR>
+        <L95_PaymentsBalance>0</L95_PaymentsBalance>
+      </UseAndPenalty>
+      <RefundOrOwed>
+        <L96_OverpaidTax>0</L96_OverpaidTax>
+        <L97_OverpaidTaxAvailable>0</L97_OverpaidTaxAvailable>
+        <L99_RefundAvailable>0</L99_RefundAvailable>
+      </RefundOrOwed>
+      <AmountOwedOrRefund>
+        <L115_Refund>0</L115_Refund>
+      </AmountOwedOrRefund>
+    </CA540>
+
+  </ReturnData>
+</Return>

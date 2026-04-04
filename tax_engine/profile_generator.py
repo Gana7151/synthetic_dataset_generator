@@ -418,6 +418,105 @@ def _generate_ptin() -> str:
 # Profile Generator
 # ---------------------------------------------------------------------------
 
+
+
+# --- QUANTITATIVE MODELS ---
+
+def sample_agi(filing_status: str, rng: np.random.Generator) -> int:
+    MFS_PENALTY = 0.72
+    HOH_PREMIUM = 0.85
+    if rng.random() < 0.80:
+        agi = rng.lognormal(mean=10.5, sigma=0.85)
+    else:
+        agi = rng.lognormal(mean=11.8, sigma=1.2)
+    fs_upper = filing_status.upper()
+    if fs_upper == "MFJ":
+        agi *= 1.65
+    elif fs_upper == "MFS":
+        agi *= MFS_PENALTY
+    elif fs_upper == "HOH":
+        agi *= HOH_PREMIUM
+    floor = {"S": 13_850, "MFJ": 27_700, "MFS": 5, "HOH": 20_800}.get(fs_upper, 13_850)
+    return max(int(agi), floor)
+
+def generate_income_split(agi: int, rng: np.random.Generator) -> dict:
+    income_type = rng.choice(["wages_only", "mixed", "self_emp_only"], p=[0.68, 0.24, 0.08])
+    if income_type == "wages_only":
+        wages = int(agi * rng.uniform(0.88, 1.02))
+        return {"wages": wages, "schedule_c": 0, "interest": int(agi * rng.beta(1.5, 20)), "dividends": int(agi * rng.beta(1.2, 25))}
+    elif income_type == "self_emp_only":
+        gross_revenue = int(agi * rng.uniform(1.3, 2.1))
+        return {"wages": 0, "schedule_c": agi, "gross_revenue": gross_revenue, "interest": int(agi * rng.beta(1.0, 30)), "dividends": 0}
+    else:
+        wage_share = rng.beta(4, 3)
+        return {"wages": int(agi * wage_share), "schedule_c": int(agi * (1 - wage_share) * rng.uniform(0.6, 1.0)), "interest": int(agi * rng.beta(1.2, 18)), "dividends": int(agi * rng.beta(1.0, 22)), "gross_revenue": int(agi * (1 - wage_share) * rng.uniform(1.3, 2.1))}
+
+def generate_schedule_c_expenses(gross_revenue: int, industry_code: str, rng: np.random.Generator) -> dict:
+    g = gross_revenue
+    margins = {"541": (0.35, 0.60), "722": (0.05, 0.15), "621": (0.25, 0.50), "81": (0.20, 0.40)}
+    prefix = industry_code[:3] if len(industry_code) >= 3 else "541"
+    margin_range = margins.get(prefix, (0.25, 0.55))
+    target_margin = rng.uniform(*margin_range)
+    expenses = {
+        "advertising": int(g * rng.uniform(0.005, 0.040)),
+        "depreciation": int(g * rng.uniform(0.010, 0.080)),
+        "office_expenses": int(g * rng.uniform(0.003, 0.025)),
+        "rent_lease": int(g * rng.uniform(0.020, 0.120)),
+        "supplies": int(g * rng.uniform(0.005, 0.050)),
+        "taxes_licenses": int(g * rng.uniform(0.005, 0.030)),
+        "meals": int(g * rng.uniform(0.002, 0.020)),
+    }
+    total_non_other = sum(expenses.values())
+    target_total_expenses = int(g * (1 - target_margin))
+    other_expenses = max(0, target_total_expenses - total_non_other)
+    expenses["other_expenses"] = other_expenses
+    expenses["total_expenses"] = sum(expenses.values())
+    expenses["net_profit"] = g - expenses["total_expenses"]
+    return expenses
+
+def compute_se_tax(net_self_employment: int) -> dict:
+    if net_self_employment <= 400: return {"se_tax": 0, "deductible_se_tax": 0, "se_taxable_income": 0}
+    se_taxable = int(net_self_employment * 0.9235)
+    ss_base = 168_600
+    ss_portion = min(se_taxable, ss_base)
+    medicare_portion = se_taxable
+    se_tax = int(ss_portion * 0.124 + medicare_portion * 0.029)
+    deductible_se_tax = se_tax // 2
+    return {"se_tax": se_tax, "deductible_se_tax": deductible_se_tax, "se_taxable_income": se_taxable}
+
+def validate_and_enforce_constraints(profile: dict) -> dict:
+    agi = profile.get("agi", 0)
+    wages = profile.get("wages", 0)
+    sched_c = profile.get("schedule_c_net", 0)
+    interest = profile.get("interest", 0)
+    dividends = profile.get("dividends", 0)
+    income_sum = wages + sched_c + interest + dividends
+    if abs(income_sum - agi) > 500:
+        scale = agi / income_sum if income_sum > 0 else 1
+        profile["wages"] = int(wages * scale)
+        profile["interest"] = int(interest * scale)
+        profile["dividends"] = int(dividends * scale)
+    if sched_c > 400 and profile.get("se_tax", 0) == 0:
+        se = compute_se_tax(sched_c)
+        profile.update(se)
+    elif sched_c <= 400:
+        profile["se_tax"] = 0
+        profile["deductible_se_tax"] = 0
+    tax_liability = profile.get("gross_tax", 0)
+    ctc = profile.get("ctc", 0)
+    if ctc > tax_liability:
+        profile["ctc"] = tax_liability
+        profile["actc"] = max(0, ctc - tax_liability)
+    if agi > 1_000_000 and profile.get("state") == "CA":
+        if profile.get("ca_net_tax", 0) < int((agi - 1_000_000) * 0.01):
+            profile["flag_high_income_ca"] = True
+    gross_rev = profile.get("gross_revenue", 0)
+    total_exp = profile.get("total_expenses", 0)
+    if gross_rev > 0 and total_exp > gross_rev:
+        profile["total_expenses"] = int(gross_rev * 0.98)
+        profile["net_profit"] = gross_rev - profile["total_expenses"]
+    return profile
+
 def _generate_age_for_status(filing_status: str, tax_year: int,
                               force_senior: bool = False) -> int:
     """Generate age using triangular distribution per filing status.
@@ -437,8 +536,7 @@ def _generate_age_for_status(filing_status: str, tax_year: int,
         return int(np.random.triangular(30, 50, 80))
 
 
-def generate_profile(dataset_id: str, state: str, tax_year: int,
-                     level: int) -> TaxProfile:
+def generate_profile(dataset_id: str, state: str, tax_year: int, level: int, seed: int = None) -> TaxProfile:
     """Generate a complete, internally-consistent taxpayer profile.
 
     v5.0 — Guide v2.0 compliant:
@@ -446,6 +544,11 @@ def generate_profile(dataset_id: str, state: str, tax_year: int,
       - Triangular age distributions
       - Calibrated OBBBA flag probabilities
     """
+
+    if seed is None:
+        seed = hash(dataset_id) & 0xFFFFFFFF
+    rng = np.random.default_rng(seed)
+    random.seed(seed)
     profile = TaxProfile(
         dataset_id=dataset_id,
         tax_year=tax_year,
@@ -559,7 +662,18 @@ def generate_profile(dataset_id: str, state: str, tax_year: int,
         )
 
     # --- Income generation ---
-    _generate_income(profile, state, tax_year, level)
+    
+    # QUANT MODELS
+    agi = sample_agi(profile.filing_status, rng)
+    income_dict = generate_income_split(agi, rng)
+    profile.federal_results["wages"] = income_dict["wages"]
+    profile.federal_results["schedule_c_net"] = income_dict.get("schedule_c", 0)
+    profile.federal_results["interest"] = income_dict.get("interest", 0)
+    profile.federal_results["dividends"] = income_dict.get("dividends", 0)
+    profile.federal_results["agi"] = agi
+    profile.federal_results["gross_revenue"] = income_dict.get("gross_revenue", 0)
+
+    _generate_income(profile, state, tax_year, level, income_dict, rng)
 
     profile.preparer = PrepNotes(
         name=fake.name(),
@@ -576,8 +690,7 @@ def generate_profile(dataset_id: str, state: str, tax_year: int,
     return profile
 
 
-def _generate_income(profile: TaxProfile, state: str, tax_year: int,
-                     level: int):
+def _generate_income(profile: TaxProfile, state: str, tax_year: int, level: int, income_dict: dict, rng: np.random.Generator):
     """Generate income sources appropriate for the complexity level."""
     ss_base = SS_WAGE_BASE[tax_year]
 
@@ -601,7 +714,13 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int,
         w2_recipients = ["primary"]
 
     for recipient in w2_recipients:
-        wages = round(random.uniform(*wage_range) / 100) * 100
+        
+        if income_dict["wages"] > 0:
+            wages = income_dict["wages"]
+        else:
+            wages = 0
+            continue # skip if no wages 
+
         employer_info = random.choice(EMPLOYERS[state])
         emp_city, emp_zip = random.choice(STATE_CITIES[state])
 
@@ -694,31 +813,28 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int,
 
     # --- Self-employment / Schedule C (Level 2+) ---
     if level >= 2:
+        
         biz_name, biz_code, biz_desc = random.choice(BUSINESS_TYPES)
-
-        if level == 2:
+        gross = income_dict.get("gross_revenue", 0)
+        if gross == 0:
             gross = round(random.uniform(20000, 80000) / 100) * 100
-        else:
-            gross = round(random.uniform(40000, 150000) / 100) * 100
 
-        expense_pct = random.uniform(0.20, 0.35)
-        total_expenses = round(gross * expense_pct)
+        expense_data = generate_schedule_c_expenses(gross, biz_code, rng)
+        total_expenses = expense_data["total_expenses"]
 
         expenses = BusinessExpenses(
-            advertising=round(total_expenses * random.uniform(0.05, 0.12)),
-            car_and_truck=round(total_expenses * random.uniform(0.0, 0.15)),
-            insurance=round(total_expenses * random.uniform(0.03, 0.08)),
-            office_expense=round(total_expenses * random.uniform(0.04, 0.10)),
-            supplies=round(total_expenses * random.uniform(0.05, 0.12)),
-            utilities=round(total_expenses * random.uniform(0.02, 0.06)),
+            advertising=expense_data["advertising"],
+            car_and_truck=expense_data["depreciation"],
+            office_expense=expense_data["office_expenses"],
+            rent_lease=expense_data["rent_lease"],
+            supplies=expense_data["supplies"],
+            utilities=expense_data["taxes_licenses"],
+            other=expense_data["other_expenses"],
         )
-        accounted = (expenses.advertising + expenses.car_and_truck +
-                     expenses.insurance + expenses.office_expense +
-                     expenses.supplies + expenses.utilities)
-        expenses.other = max(0, total_expenses - int(accounted))
 
-        depreciation = round(random.uniform(1000, 5000) / 100) * 100 if random.random() < 0.5 else 0
-        net = round(gross - expenses.total - depreciation, 2)
+        depreciation = expense_data["depreciation"]
+        net = expense_data["net_profit"]
+
 
         if random.random() < 0.3:
             biz_name = f"{profile.primary_last}'s {biz_name}"

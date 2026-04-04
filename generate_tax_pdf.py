@@ -71,9 +71,11 @@ def s(root, xpath, val):
 
 
 def fmt_money(val: str) -> str:
-    """Format raw integer string as comma-separated dollars, no dollar sign."""
     try:
-        return f"{int(val):,}"
+        n = int(val)
+        if n == 0:
+            return ""          # don't render zero-value fields
+        return f"{n:,}"
     except (ValueError, TypeError):
         return val
 
@@ -138,7 +140,7 @@ FIELD_DEFINITIONS = [
     (1, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                    547.1, 717.5,  9,  fmt_money),
 
     # ── PAGE 2 — Form 1040 (Tax, Credits, Payments) ─────────────────────────
-    (2, "//Return/ReturnHeader/Filer/NameLine1Txt",                         39.5,  27.5,  8,  None),
+    (2, "//Return/ReturnHeader/Filer/NameLine1Txt",                        118.3,  27.5,  8,  None),
     (2, "//Return/ReturnHeader/Filer/PrimarySSN",                          474.7,  27.5,  8,  fmt_ssn),
     (2, "//Return/ReturnData/IRS1040/TaxAmt",                              552.7,  39.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/TotalTaxBeforeCrAndOthTaxesAmt",      552.7,  63.5,  9,  fmt_money),
@@ -177,7 +179,8 @@ FIELD_DEFINITIONS = [
     (6, "//Return/ReturnData/IRS1040Schedule2/TotalOtherTaxesAmt",         547.0, 720.5,  9,  fmt_money),
 
     # ── PAGE 7 — Schedule B ──────────────────────────────────────────────────
-    (7, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  99.5,  9,  fmt_ssn),
+    (7, "//Return/ReturnHeader/Filer/NameLine1Txt", 39.1, 75.5, 9, None),
+    (7, "//Return/ReturnHeader/Filer/PrimarySSN", 478.3, 75.5, 9, fmt_ssn),
     (7, "//Return/ReturnData/IRS1040ScheduleB/InterestPayerName",           43.0, 148.5,  9,  None),
     (7, "//Return/ReturnData/IRS1040ScheduleB/InterestAmt",                547.0, 148.5,  9,  fmt_money),
     (7, "//Return/ReturnData/IRS1040ScheduleB/TotalInterestAmt",           547.0, 220.5,  9,  fmt_money),
@@ -294,7 +297,8 @@ FIELD_DEFINITIONS = [
     (23, "//Return/ReturnData/CA540/Exemptions/L7_PersonalExemption_Amount", 488.0, 376.5, 9, fmt_money),
 
     # ── PAGE 24 — CA 540 Page 2 ──────────────────────────────────────────────
-    (24, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (24, "//Return/ReturnHeader/Filer/NameLine1Txt", 90.0, 49.1, 9, None),
+    (24, "//Return/ReturnHeader/Filer/PrimarySSN", 306.0, 49.1, 9, fmt_ssn),
     (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/FirstName", 43.0, 76.5, 8, None),
     (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/LastName",  120.0, 76.5, 8, None),
     (24, "//Return/ReturnData/CA540/Dependents/Dependent[@seq='1']/SSN",       220.0, 76.5, 8, fmt_ssn),
@@ -315,7 +319,8 @@ FIELD_DEFINITIONS = [
     (24, "//Return/ReturnData/CA540/Tax/L35_TotalTax",                      488.0, 354.5,  9,  fmt_money),
 
     # ── PAGE 25 — CA 540 Page 3 ──────────────────────────────────────────────
-    (25, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (25, "//Return/ReturnHeader/Filer/NameLine1Txt", 90.0, 49.1, 9, None),
+    (25, "//Return/ReturnHeader/Filer/PrimarySSN", 306.0, 49.1, 9, fmt_ssn),
     (25, "//Return/ReturnData/CA540/SpecialCredits/L48_TaxAfterCredits",    488.0, 108.5,  9,  fmt_money),
     (25, "//Return/ReturnData/CA540/OtherTaxes/L64_TotalTax",               488.0, 192.5,  9,  fmt_money),
     (25, "//Return/ReturnData/CA540/Payments/L71_CAWithheld",               488.0, 218.5,  9,  fmt_money),
@@ -325,22 +330,25 @@ FIELD_DEFINITIONS = [
     (25, "//Return/ReturnData/CA540/RefundOrOwed/L96_OverpaidTax",          488.0, 430.5,  9,  fmt_money),
 
     # ── PAGE 26 — CA 540 Page 4 ──────────────────────────────────────────────
-    (26, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (26, "//Return/ReturnHeader/Filer/NameLine1Txt", 90.0, 49.1, 9, None),
+    (26, "//Return/ReturnHeader/Filer/PrimarySSN", 306.0, 49.1, 9, fmt_ssn),
     (26, "//Return/ReturnData/CA540/RefundOrOwed/L97_OverpaidTaxAvailable", 488.0,  80.5,  9,  fmt_money),
     (26, "//Return/ReturnData/CA540/RefundOrOwed/L99_RefundAvailable",      488.0, 104.5,  9,  fmt_money),
 
     # ── PAGE 27 — CA 540 Page 5 ──────────────────────────────────────────────
-    (27, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (27, "//Return/ReturnHeader/Filer/NameLine1Txt", 90.0, 49.1, 9, None),
+    (27, "//Return/ReturnHeader/Filer/PrimarySSN", 306.0, 49.1, 9, fmt_ssn),
     (27, "//Return/ReturnData/CA540/AmountOwedOrRefund/L115_Refund",        488.0, 200.5,  9,  fmt_money),
 
     # ── PAGE 28 — CA 540 Page 6 ──────────────────────────────────────────────
-    (28, "//Return/ReturnHeader/Filer/PrimarySSN",                          478.3,  27.5,  9,  fmt_ssn),
+    (28, "//Return/ReturnHeader/Filer/NameLine1Txt", 93.6, 49.1, 9, None),
+    (28, "//Return/ReturnHeader/Filer/PrimarySSN", 306.0, 49.1, 9, fmt_ssn),
     (28, "//Return/ReturnHeader/Filer/EmailAddressTxt",                      43.0, 490.5,  9,  None),
     (28, "//Return/ReturnHeader/Filer/PhoneNum",                            290.0, 490.5,  9,  None),
 
     # ── PAGE 12 — Schedule 8812 Part II-A (ACTC) ────────────────────────────
-    (12, "//Return/ReturnHeader/Filer/NameLine1Txt",                            154.3,  37.7,  9,  None),
-    (12, "//Return/ReturnHeader/Filer/PrimarySSN",                              478.3,  37.7,  9,  fmt_ssn),
+    (12, "//Return/ReturnHeader/Filer/NameLine1Txt", 154.3, 39.5,  9,  None),
+    (12, "//Return/ReturnHeader/Filer/PrimarySSN", 478.3, 39.5,  9,  fmt_ssn),
     (12, "//Return/ReturnData/IRS1040Schedule8812/L16a_NumKidsX1700",           575.1,  97.7,  9,  fmt_money),
     (12, "//Return/ReturnData/IRS1040Schedule8812/L16b_EarnedIncome",           575.1, 133.7,  9,  fmt_money),
     (12, "//Return/ReturnData/IRS1040Schedule8812/L17_SmallerOf16a16b",         575.1, 157.7,  9,  fmt_money),
@@ -350,19 +358,19 @@ FIELD_DEFINITIONS = [
     (12, "//Return/ReturnData/IRS1040Schedule8812/L27_AdditionalChildTaxCredit",575.1, 493.7,  9,  fmt_money),
 
     # ── PAGE 14 — Form 8867 Page 1 (Paid Preparer Due Diligence) ────────────
-    (14, "//Return/ReturnHeader/Filer/NameLine1Txt",                             46.3, 109.7,  9,  None),
-    (14, "//Return/ReturnHeader/Filer/PrimarySSN",                              442.3, 109.7,  9,  fmt_ssn),
+    (14, "//Return/ReturnHeader/Filer/NameLine1Txt", 46.3, 111.5,  9,  None),
+    (14, "//Return/ReturnHeader/Filer/PrimarySSN", 442.3, 111.5,  9,  fmt_ssn),
     (14, "//Return/ReturnData/PreparedBy/PreparerName",                          46.3, 133.7,  9,  None),
     (14, "//Return/ReturnData/PreparedBy/PreparerPTIN",                         442.2, 133.7,  9,  None),
     (14, "//Return/ReturnData/PreparedBy/DocumentsReliedOn",                     67.9, 487.7,  9,  None),
 
     # ── PAGE 15 — Form 8867 Page 2 ──────────────────────────────────────────
-    (15, "//Return/ReturnHeader/Filer/NameLine1Txt",                            125.5,  37.7,  9,  None),
-    (15, "//Return/ReturnHeader/Filer/PrimarySSN",                              442.3,  37.7,  9,  fmt_ssn),
+    (15, "//Return/ReturnHeader/Filer/NameLine1Txt", 125.5, 39.5,  9,  None),
+    (15, "//Return/ReturnHeader/Filer/PrimarySSN", 442.3, 39.5,  9,  fmt_ssn),
 
     # ── PAGE 17 — Form 4562 Page 2 (Vehicle Depreciation) ───────────────────
-    (17, "//Return/ReturnHeader/Filer/NameLine1Txt",                            118.3,  25.7,  9,  None),
-    (17, "//Return/ReturnHeader/Filer/PrimarySSN",                              435.1,  25.7,  9,  fmt_ssn),
+    (17, "//Return/ReturnHeader/Filer/NameLine1Txt", 118.3, 27.5,  9,  None),
+    (17, "//Return/ReturnHeader/Filer/PrimarySSN", 435.1, 27.5,  9,  fmt_ssn),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description",            46.3, 181.7,  8,  None),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/BusinessUsePct",        192.7, 181.7,  8,  None),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/DepreciationAllowed",   467.3, 181.7,  8,  fmt_money),
@@ -381,17 +389,17 @@ FIELD_DEFINITIONS = [
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKBOX_DEFINITIONS = [
     (14, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  377.5, 169.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.5, 193.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 241.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 313.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 349.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 463.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 559.7),
-    (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 571.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.5, 193.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 241.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 313.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 349.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 463.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 559.7),
+    # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 571.7),
     (14, "//Return/ReturnData/IRS1040ScheduleC/NetProfitOrLossAmt",          503.4, 619.7),
     (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 181.7),
     (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 217.7),
-    (15, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 613.7),
+    # (15, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 613.7),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 312.7,  97.7),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 521.5,  97.7),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 262.3, 433.7),
@@ -404,6 +412,160 @@ CHECKBOX_DEFINITIONS = [
 # ─────────────────────────────────────────────────────────────────────────────
 # OVERLAY ENGINE
 # ─────────────────────────────────────────────────────────────────────────────
+
+
+
+
+def generate_blank_form(source_pdf: str, output_path: str):
+    """
+    Creates a blank form PDF by white-boxing every data field position
+    defined in FIELD_DEFINITIONS plus supplemental zones from DEFINITIVE_FIX.md.
+    Run this ONCE to produce blank_form.pdf.
+    """
+    reader = PdfReader(source_pdf)
+    writer = PdfWriter()
+
+    blank_zones: dict = {}
+
+    # 1. Every field in FIELD_DEFINITIONS gets a white-out box
+    for (page, xpath, x, top, font_size, formatter) in FIELD_DEFINITIONS:
+        pad = 2
+        box = (x - pad, top - pad, x + 160, top + font_size + pad)
+        blank_zones.setdefault(page, []).append(box)
+
+    # 2. Supplemental zones covering headers, address blocks, preparer info
+    ADDITIONAL_BLANK_ZONES = {
+        1: [
+            (36.0,  80.0, 475.0, 104.0),   # primary name row (full width)
+            (36.0, 104.0, 475.0, 130.0),   # spouse name row (full width)
+            (36.0, 130.0, 580.0, 150.0),   # address
+            (36.0, 150.0, 430.0, 174.0),   # city/state/zip
+            (36.0, 370.0, 520.0, 410.0),   # dependents rows 1 & 2 (names + SSNs)
+            (440.0, 725.0, 590.0, 748.0),  # filing status
+        ],
+        2: [
+            (36.0,  22.0, 580.0,  42.0),
+            (285.0, 549.0, 580.0, 563.0),
+            (285.0, 563.0, 580.0, 577.0),
+            (36.0,  577.0, 580.0, 592.0),
+            (36.0,  668.0, 580.0, 780.0),
+        ],
+        7: [
+            (36.0,  70.0, 545.0,  85.0),
+            (36.0, 142.0, 580.0, 162.0),
+            (36.0, 324.0, 580.0, 344.0),
+        ],
+        8: [
+            (36.0,  94.0, 545.0, 110.0),
+            (36.0, 112.0, 545.0, 126.0),
+            (36.0, 124.0, 545.0, 136.0),
+            (36.0, 136.0, 545.0, 150.0),
+        ],
+        9:  [(36.0, 460.0, 580.0, 510.0)],
+        10: [(36.0,  94.0, 558.0, 108.0)],
+        11: [(36.0, 105.0, 540.0, 120.0)],
+        12: [(150.0, 35.0, 545.0,  52.0)],
+        13: [
+            (36.0,  94.0, 545.0, 108.0),
+            (36.0, 140.0, 545.0, 156.0),
+        ],
+        14: [
+            (36.0, 106.0, 510.0, 120.0),
+            (36.0, 126.0, 510.0, 140.0),
+            (60.0, 480.0, 580.0, 495.0),
+        ],
+        15: [(120.0, 35.0, 510.0, 52.0)],
+        16: [
+            (36.0,  88.0, 545.0, 103.0),
+            (36.0, 103.0, 545.0, 118.0),
+        ],
+        17: [
+            (36.0,  22.0, 502.0,  42.0),
+            (36.0, 175.0, 580.0, 195.0),
+        ],
+        18: [(36.0, 55.0, 580.0, 780.0)],
+        19: [(36.0, 55.0, 580.0, 780.0)],
+        20: [(36.0, 55.0, 580.0, 780.0)],
+        21: [(36.0, 55.0, 580.0, 780.0)],
+        22: [(36.0, 55.0, 580.0, 780.0)],
+        23: [
+            (33.0,  88.0, 500.0, 106.0),
+            (33.0, 104.0, 580.0, 180.0),
+        ],
+        24: [(36.0, 43.0, 580.0, 135.0)],
+        25: [(36.0, 43.0, 580.0,  72.0)],
+        26: [(36.0, 43.0, 580.0,  72.0)],
+        27: [(36.0, 43.0, 580.0,  72.0)],
+        28: [(36.0, 43.0, 580.0, 210.0)],
+    }
+
+    for page_num, zones in ADDITIONAL_BLANK_ZONES.items():
+        blank_zones.setdefault(page_num, []).extend(zones)
+
+    for i, source_page in enumerate(reader.pages):
+        page_num = i + 1
+        pw = float(source_page.mediabox.width)
+        ph = float(source_page.mediabox.height)
+
+        zones = blank_zones.get(page_num, [])
+        if zones:
+            # Build white-box overlay PDF
+            buf = io.BytesIO()
+            c = canvas.Canvas(buf, pagesize=(pw, ph))
+            c.setFillColorRGB(1, 1, 1)
+            for (x0, top, x1, bot) in zones:
+                rl_y = ph - bot
+                c.rect(x0, rl_y, x1 - x0, bot - top, fill=1, stroke=0)
+            c.save()
+            buf.seek(0)
+
+            # Get the white-box page content bytes from the overlay PDF
+            white_reader = PdfReader(buf)
+            white_page   = white_reader.pages[0]
+
+            # Prepend the white-box stream BEFORE the source page stream
+            # so it renders first (underneath form labels, but erasing Johnson data)
+            from pypdf.generic import ArrayObject, ByteStringObject, DecodedStreamObject
+
+            def _get_stream_bytes(page_obj):
+                """Extract raw decoded content bytes from a page."""
+                if "/Contents" not in page_obj:
+                    return b""
+                try:
+                    contents = page_obj["/Contents"]
+                    # Could be a list or single object
+                    if isinstance(contents, ArrayObject):
+                        parts = []
+                        for ref in contents:
+                            obj = ref.get_object()
+                            parts.append(obj.get_data() if hasattr(obj, "get_data") else b"")
+                        return b"\n".join(parts)
+                    else:
+                        obj = contents.get_object()
+                        return obj.get_data() if hasattr(obj, "get_data") else b""
+                except Exception:
+                    return b""
+
+            white_stream  = _get_stream_bytes(white_page)
+            source_stream = _get_stream_bytes(source_page)
+
+            # Combine: white boxes first, then the original form structure
+            combined = white_stream + b"\n" + source_stream
+
+            # Build new DecodedStreamObject and attach it
+            new_stream = DecodedStreamObject()
+            new_stream.set_data(combined)
+
+            from pypdf.generic import IndirectObject
+            writer_page_obj = source_page
+            writer_page_obj["/Contents"] = writer.add_object(new_stream)
+
+        writer.add_page(source_page)
+
+    with open(output_path, "wb") as f:
+        writer.write(f)
+    print(f"Blank form written: {output_path}  ({len(reader.pages)} pages)")
+
 
 def build_overlay_page(fields_for_page: list, page_width: float, page_height: float) -> bytes:
     """
@@ -442,6 +604,143 @@ def overlay_on_page(source_page, overlay_bytes):
     source_page.merge_page(overlay_page)
     return source_page
 
+
+def generate_blank_form(source_pdf: str, output_path: str):
+    """
+    Creates a blank form PDF by white-boxing every data field position
+    defined in FIELD_DEFINITIONS and CHECKBOX_DEFINITIONS.
+    Run this ONCE to produce blank_form.pdf.
+    """
+    from pypdf import PdfReader, PdfWriter
+    import io
+    from reportlab.pdfgen import canvas
+
+    reader = PdfReader(source_pdf)
+    writer = PdfWriter()
+
+    # Build page → list of (x0, top, x1, bottom) white-out boxes
+    # Derived from FIELD_DEFINITIONS + ADDITIONAL_BLANK_ZONES
+    blank_zones: dict[int, list] = {}
+
+    # 1. Every field in FIELD_DEFINITIONS gets a white-out box
+    #    Box = 4pt wider than font_size tall, 150pt wide right-aligned from x
+    for (page, xpath, x, top, font_size, formatter) in FIELD_DEFINITIONS:
+        pad = 2
+        box = (x - pad, top - pad, x + 150, top + font_size + pad)
+        blank_zones.setdefault(page, []).append(box)
+
+    # 2. Additional zones not in FIELD_DEFINITIONS:
+    #    Header name/SSN rows, address blocks, preparer info, checkboxes
+    ADDITIONAL_BLANK_ZONES = {
+        # Page 1 — filer name/SSN header + address block + dependents
+        1: [
+            (36.0,  88.0, 470.0, 102.0),   # primary name
+            (36.0, 112.0, 470.0, 126.0),   # spouse name
+            (36.0, 137.0, 580.0, 150.0),   # address
+            (36.0, 160.0, 430.0, 174.0),   # city/state/zip
+            (87.0, 375.0, 510.0, 405.0),   # dependents row 1 + 2
+            (440.0, 730.0, 590.0, 744.0),  # filing status area
+        ],
+        # Page 2 — name/SSN header + occupation + email/phone + preparer block
+        2: [
+            (115.0, 22.0, 470.0, 40.0),    # name + SSN in header
+            (285.0, 549.0, 580.0, 563.0),  # occupation fields
+            (285.0, 563.0, 580.0, 577.0),  # spouse occupation
+            (36.0,  577.0, 580.0, 592.0),  # phone + email
+            (36.0,  668.0, 580.0, 780.0),  # preparer block
+        ],
+        # Page 7 — Schedule B name/SSN row + payer names/amounts
+        7: [
+            (36.0,  70.0, 545.0,  85.0),   # name + SSN
+            (36.0, 142.0, 580.0, 162.0),   # interest payer name
+            (36.0, 324.0, 580.0, 344.0),   # dividend payer name
+        ],
+        # Page 8 — Schedule C header (name, SSN, business info)
+        8: [
+            (36.0,  94.0, 545.0, 110.0),   # proprietor name + SSN
+            (36.0, 112.0, 545.0, 126.0),   # business description
+            (36.0, 124.0, 545.0, 136.0),   # business name
+            (36.0, 136.0, 545.0, 150.0),   # business address
+        ],
+        # Page 9 — Schedule C Part V other expenses descriptions
+        9: [
+            (36.0, 460.0, 580.0, 510.0),   # expense description rows
+        ],
+        # Page 10 — Schedule SE name/SSN
+        10: [(36.0, 94.0, 558.0, 108.0)],
+        # Page 11 — Schedule 8812 name/SSN
+        11: [(36.0, 105.0, 540.0, 120.0)],
+        # Page 12 — Schedule 8812 p2 header
+        12: [(150.0, 35.0, 545.0, 52.0)],
+        # Page 13 — Form 8995 taxpayer name + business name row
+        13: [
+            (36.0, 94.0, 545.0, 108.0),
+            (36.0, 140.0, 545.0, 156.0),
+        ],
+        # Page 14 — Form 8867 name/SSN + preparer
+        14: [
+            (36.0, 106.0, 510.0, 120.0),
+            (36.0, 126.0, 510.0, 140.0),
+            (60.0, 480.0, 580.0, 495.0),
+        ],
+        # Page 15 — Form 8867 p2 header
+        15: [(120.0, 35.0, 510.0, 52.0)],
+        # Page 16 — Form 4562 name/SSN + business name
+        16: [
+            (36.0, 88.0, 545.0, 103.0),
+            (36.0, 103.0, 545.0, 118.0),
+        ],
+        # Page 17 — Form 4562 p2 header + vehicle info
+        17: [
+            (115.0, 22.0, 502.0, 40.0),
+            (36.0, 175.0, 580.0, 195.0),
+        ],
+        # Pages 18–22 — 1040-V and 1040-ES vouchers: full data block
+        18: [(36.0, 55.0, 580.0, 780.0)],
+        19: [(36.0, 55.0, 580.0, 780.0)],
+        20: [(36.0, 55.0, 580.0, 780.0)],
+        21: [(36.0, 55.0, 580.0, 780.0)],
+        22: [(36.0, 55.0, 580.0, 780.0)],
+        # Page 23 — CA 540 p1 header + address block + exemption checkboxes
+        23: [
+            (33.0,  91.0, 500.0, 106.0),
+            (33.0, 104.0, 580.0, 175.0),
+        ],
+        # Pages 24–28 — CA 540 continuation headers
+        24: [(36.0, 43.0, 580.0, 135.0)],
+        25: [(36.0, 43.0, 580.0,  70.0)],
+        26: [(36.0, 43.0, 580.0,  70.0)],
+        27: [(36.0, 43.0, 580.0,  70.0)],
+        28: [(36.0, 43.0, 580.0, 200.0)],
+    }
+
+    for page_num, zones in ADDITIONAL_BLANK_ZONES.items():
+        blank_zones.setdefault(page_num, []).extend(zones)
+
+    for i, source_page in enumerate(reader.pages):
+        page_num = i + 1
+        pw = float(source_page.mediabox.width)
+        ph = float(source_page.mediabox.height)
+
+        zones = blank_zones.get(page_num, [])
+        if zones:
+            buf = io.BytesIO()
+            c = canvas.Canvas(buf, pagesize=(pw, ph))
+            c.setFillColorRGB(1, 1, 1)
+            for (x0, top, x1, bot) in zones:
+                rl_y = ph - bot
+                c.rect(x0, rl_y, x1 - x0, bot - top, fill=1, stroke=0)
+            c.save()
+            buf.seek(0)
+            from pypdf import PdfReader as _R
+            overlay = _R(buf).pages[0]
+            source_page.merge_page(overlay)
+
+        writer.add_page(source_page)
+
+    with open(output_path, "wb") as f:
+        writer.write(f)
+    print(f"Blank form written: {output_path}")
 
 def generate_pdf(xml_path: str, source_pdf: str, output_path: str):
     """Main generation function. Reads XML, overlays fields onto source PDF."""
@@ -1174,8 +1473,10 @@ def recompute_derived_fields(root, ca_withheld=0):
     l17  = 0
     l18  = l16 + l17
 
+
     dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
-    num_kids  = sum(1 for d in dep_nodes if (d.findtext("EligibleForChildTaxCreditInd") or "").strip().upper() in ("X", "TRUE", "1"))
+    num_kids  = sum(1 for d in dep_nodes
+                    if (d.findtext("EligibleForChildTaxCreditInd") or "").strip().upper() in ("X", "TRUE", "1"))
     num_other = max(0, len(dep_nodes) - num_kids)
     ctc_raw   = num_kids * 2000 + num_other * 500
     phaseout_exc = max(0, l11 - 400000)
@@ -1252,9 +1553,12 @@ def recompute_derived_fields(root, ca_withheld=0):
     return root, computed
 
 
-def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: int):
+BLANK_TEMPLATE_PATH = Path(__file__).parent / "blank_template.xml"
+
+def generate_variation(source_pdf: str, output_path: str, seed: int):
+    root = load_xml(str(BLANK_TEMPLATE_PATH))
+    import random
     rng = random.Random(seed)
-    root = load_xml(xml_path)
 
     def set_text(xpath: str, value: Any):
         nodes = root.xpath(xpath)
@@ -1295,6 +1599,39 @@ def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: i
     set_text("//Return/ReturnData/IRSW2/EmployeeOccupation", rng.choice(OCCUPATIONS_P))
     set_text("//Return/ReturnData/IRSW2/SpouseOccupation", rng.choice(OCCUPATIONS_S))
 
+    # --- MISSING IDENTITY INJECTIONS ---
+    # W-2 Form Properties
+    set_text("//Return/ReturnData/IRSW2/EmployeeNm", f"{p_first} {p_last}")
+    set_text("//Return/ReturnData/IRSW2/EmployeeSSN", p_ssn)
+    set_text("//Return/ReturnData/IRSW2/EmployerEIN", f"{rng.randint(10,99)}-{rng.randint(1000000,9999999)}")
+    set_text("//Return/ReturnData/IRSW2/EmployerName/BusinessNameLine1Txt", f"{p_last} {rng.choice(['Enterprises', 'Corp', 'Solutions', 'LLC'])}")
+    
+    # Schedule B
+    set_text("//Return/ReturnData/IRS1040ScheduleB/InterestPayerName", rng.choice(["Wells Fargo", "Bank of America", "Chase Bank", "Ally Bank"]))
+    set_text("//Return/ReturnData/IRS1040ScheduleB/DividendPayerName", rng.choice(["Charles Schwab", "Fidelity", "Vanguard", "E-Trade"]))
+    
+    # Schedule C
+    set_text("//Return/ReturnData/IRS1040ScheduleC/ProprietorNm", f"{p_first} {p_last}")
+    set_text("//Return/ReturnData/IRS1040ScheduleC/BusinessName/BusinessNameLine1Txt", f"{p_last} Consulting Services")
+    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityDesc", rng.choice(["Professional Services", "Consulting", "Retail", "Management"]))
+    set_text("//Return/ReturnData/IRS1040ScheduleC/PrincipalBusinessActivityCd", "541990")
+    set_text("//Return/ReturnData/IRS1040ScheduleC/BusinessAddressTxt", street)
+    
+    # CA-540 Headers
+    set_text("//Return/ReturnData/CA540/Header/PrimaryFirstName", p_first)
+    set_text("//Return/ReturnData/CA540/Header/PrimaryLastName", p_last)
+    set_text("//Return/ReturnData/CA540/Header/SpouseFirstName", s_first)
+    set_text("//Return/ReturnData/CA540/Header/SpouseLastName", s_last)
+    set_text("//Return/ReturnData/CA540/Header/Address", street)
+    set_text("//Return/ReturnData/CA540/Header/City", city)
+    set_text("//Return/ReturnData/CA540/Header/State", state)
+    set_text("//Return/ReturnData/CA540/Header/ZIP", zipcode)
+
+    # Preparer block
+    set_text("//Return/ReturnData/PreparedBy/PreparerName", f"{rng.choice(FIRST_NAMES)} {rng.choice(LAST_NAMES)}")
+    set_text("//Return/ReturnData/PreparedBy/PreparerPTIN", f"P{rng.randint(10000000,99999999)}")
+
+
     w2        = rng.randint(30000, 150000)
     gross_rev = rng.randint(30000, 200000)
     
@@ -1306,6 +1643,9 @@ def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: i
 
     expenses = generate_schedule_c_expenses(gross_rev, rng)
     vehicle = generate_vehicle_depreciation(rng)
+    if "description" not in vehicle:
+        vehicle["description"] = f"20{rng.randint(18,24)} {rng.choice(['Honda', 'Toyota', 'Ford'])}"
+
     expenses["L13_DepreciationSection179"] = vehicle["dep_allowed"]
 
     inv = generate_investment_income(w2 + expenses["L31_NetProfitLoss"], rng)
@@ -1320,8 +1660,31 @@ def generate_variation(xml_path: str, source_pdf: str, output_path: str, seed: i
 
     root, computed = recompute_derived_fields(root, ca_wh)
 
+    
+    # Populate Dependents
+    target_kids = rng.choice([0, 1, 2])
     dep_nodes = root.xpath("//Return/ReturnData/IRS1040/DependentDetail")
-    num_kids  = sum(1 for d in dep_nodes if (d.findtext("EligibleForChildTaxCreditInd") or "").strip().upper() in ("X", "TRUE", "1"))
+    for i in range(min(target_kids, len(dep_nodes))):
+        c_first = rng.choice(FIRST_NAMES)
+        c_ssn   = random_ssn(rng).replace("-", "")
+        # Populate elements
+        dep_el = dep_nodes[i]
+        
+        # Helper to set or create
+        def _set_sub(tag, val):
+            el = dep_el.find(tag)
+            if el is None:
+                from lxml import etree
+                el = etree.SubElement(dep_el, tag)
+            el.text = str(val)
+            
+        _set_sub("DependentFirstNm", c_first)
+        _set_sub("DependentLastNm", p_last)
+        _set_sub("DependentSSN", c_ssn)
+        _set_sub("DependentRelationshipCd", rng.choice(["DAUGHTER", "SON"]))
+        _set_sub("EligibleForChildTaxCreditInd", "X")
+
+    num_kids = target_kids
     num_other = max(0, len(dep_nodes) - num_kids)
 
     actc_vals = compute_actc(
@@ -1366,24 +1729,28 @@ def main():
     parser.add_argument("--xml",    required=True,  help="Path to tax return XML file")
     parser.add_argument("--source", required=True,  help="Path to original/blank PDF (layout template)")
     parser.add_argument("--out",    required=True,  help="Output PDF path")
+    parser.add_argument("--make-blank", action="store_true",
+                        help="Generate blank_form.pdf from source PDF and exit")
     parser.add_argument("--variations", type=int, default=0,
                         help="If > 0, generate N synthetic variants instead of exact reproduction")
     parser.add_argument("--seed",   type=int, default=42,
                         help="Base random seed for synthetic variants")
     args = parser.parse_args()
 
+    if args.make_blank:
+        generate_blank_form(args.source, "blank_form.pdf")
+        import sys
+        sys.exit(0)
+
     if args.variations > 0:
         out_path = Path(args.out)
-        stem = out_path.stem
-        suffix = out_path.suffix
-        parent = out_path.parent
+        out_path.mkdir(parents=True, exist_ok=True)
         for i in range(args.variations):
-            variant_path = str(parent / f"{stem}_variant_{i+1:03d}{suffix}")
-            print(f"\n═══ Variant {i+1}/{args.variations} → {variant_path} ═══")
-            generate_variation(args.xml, args.source, variant_path, seed=args.seed + i)
+            variant_path = out_path / f"test_output_variant_{i+1:03d}.pdf"
+            print(f"\n═══ Variant {i+1}/{args.variations} → {variant_path.name} ═══")
+            generate_variation(args.source, str(variant_path), seed=args.seed + i)
     else:
-        generate_pdf(args.xml, args.source, args.out)
-
+        generate_pdf(str(BLANK_TEMPLATE_PATH), args.source, args.out)
 
 if __name__ == "__main__":
     main()
