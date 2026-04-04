@@ -1,0 +1,2 @@
+dataset_id,folder,state,tax_year,level,filing_status,primary_name,spouse_name,dependents,total_income,agi,taxable_income,total_tax,refund,amount_owed,state_tax,effective_rate,obbba_total,medicare_surtax,is_tipped,has_car_loan,is_senior
+DS_0001,Dataset_0001_CA_2020_L1,CA,2020,1,mfj,Bryan Diaz,Alyssa Diaz,0,52800.0,52800.0,28000.0,2965.0,3371.0,0.0,494.64,5.62,0,0.0,False,False,False

@@ -257,28 +257,28 @@ OBBBA_DEDUCTIONS = {
     "tips": {
         "max": 25000,
         "phaseout_start": {"single": 150000, "hoh": 150000, "mfj": 300000},
-        "phaseout_end":   {"single": 400000, "hoh": 400000, "mfj": 550000},
+        "phaseout_end":   {"single": 400000, "hoh": 400000, "mfj": 700000},
         "slope_per_1k": 100,       # $100 reduction per $1,000 over start
         "valid_years": range(2025, 2029),
     },
     "overtime": {
         "max": {"single": 12500, "hoh": 12500, "mfj": 25000},
         "phaseout_start": {"single": 150000, "hoh": 150000, "mfj": 300000},
-        "phaseout_end":   {"single": 400000, "hoh": 400000, "mfj": 550000},
+        "phaseout_end":   {"single": 275000, "hoh": 275000, "mfj": 550000},
         "slope_per_1k": 100,
         "valid_years": range(2025, 2029),
     },
     "car_loan_interest": {
         "max": 10000,              # all filing statuses
         "phaseout_start": {"single": 100000, "hoh": 100000, "mfj": 200000},
-        "phaseout_end":   {"single": 149000, "hoh": 149000, "mfj": 249000},
+        "phaseout_end":   {"single": 150000, "hoh": 150000, "mfj": 250000},
         "slope_per_1k": 200,       # DOUBLE the tips/overtime slope (E-04)
         "valid_years": range(2025, 2029),
     },
     "senior": {
         "max": {"single": 6000, "hoh": 6000, "mfj_both": 12000},  # $6K/person
         "phaseout_start": {"single": 75000,  "hoh": 75000,  "mfj": 150000},
-        "phaseout_end":   {"single": 175000, "hoh": 175000, "mfj": 250000},
+        "phaseout_end":   {"single": 175000, "hoh": 175000, "mfj": 350000},
         "slope_type": "proportional",    # ratio over range, NOT per-$1K step
         "valid_years": range(2025, 2029),
     },
@@ -459,3 +459,64 @@ def compute_tax_from_brackets(taxable_income, brackets):
         tax += taxable_in_bracket * rate
         prev_upper = upper
     return round(tax, 2)
+
+
+# ─── Bonus Depreciation Rate ───────────────────────────────────────────────
+BONUS_DEPRECIATION_RATE = {
+    2020: 1.00, 2021: 1.00, 2022: 1.00,
+    2023: 0.80, 2024: 0.60,
+    2025: 1.00,   # ★ OBBBA restored
+    2026: 1.00, 2027: 1.00, 2028: 1.00,
+}
+
+# ─── Section 179 Max & Phase-Out ───────────────────────────────────────────
+SECTION_179_MAX = {
+    2020: 1_040_000, 2021: 1_050_000, 2022: 1_080_000,
+    2023: 1_160_000, 2024: 1_220_000,
+    2025: 2_500_000,  # ★ OBBBA
+    2026: 2_500_000,
+}
+SECTION_179_PHASEOUT_START = {
+    2020: 2_590_000, 2021: 2_620_000, 2022: 2_700_000,
+    2023: 2_890_000, 2024: 3_050_000,
+    2025: 4_000_000,  # ★ OBBBA
+    2026: 4_000_000,
+}
+
+# ─── Standard Mileage Rate ($/mile) ────────────────────────────────────────
+STANDARD_MILEAGE_RATE = {
+    2020: 0.575, 2021: 0.560, 2022: 0.585,
+    2023: 0.655, 2024: 0.670, 2025: 0.700,
+}
+
+# ─── Home Office Simplified Rate ($/sqft) ──────────────────────────────────
+HOME_OFFICE_RATE = {
+    2020: 5.00, 2021: 5.00, 2022: 5.00,
+    2023: 5.00, 2024: 5.00, 2025: 6.00,  # ★ OBBBA
+}
+HOME_OFFICE_MAX_SQFT = 300   # cap: 300 sqft
+
+# ─── MACRS GDS Half-Year Convention Tables ─────────────────────────────────
+# Percentage of cost deducted each year (200DB, HY convention)
+# Index = year of recovery (1-based)
+MACRS_GDS_HY = {
+    "5-year":  [20.00, 32.00, 19.20, 11.52, 11.52, 5.76],
+    "7-year":  [14.29, 24.49, 17.49, 12.49, 8.93, 8.92, 8.93, 4.46],
+    "15-year": [5.00, 9.50, 8.55, 7.70, 6.93, 6.23, 5.90,
+                5.90, 5.91, 5.90, 5.91, 5.90, 5.91, 5.90, 5.91, 2.95],
+}
+
+# ─── SALT Cap helper ───────────────────────────────────────────────────────
+def get_salt_cap(tax_year: int, filing_status: str, agi: float) -> float:
+    """Return the applicable SALT cap for the year and AGI.
+
+    2025+: OBBBA raised cap to $40K; phases out above $500K AGI ($50 per $1K),
+    flooring at $10K.
+    """
+    if tax_year < 2025:
+        return 10_000.0
+    base = 40_000.0
+    if agi > 500_000:
+        reduction = ((agi - 500_000) / 1000) * 50
+        base = max(10_000.0, base - reduction)
+    return base

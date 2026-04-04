@@ -139,6 +139,36 @@ class BusinessIncome:
     expenses: BusinessExpenses
     net_profit: float = 0.0
     depreciation: float = 0.0
+    rent_expense: float = 0.0
+    deductible_meals: float = 0.0
+    wages_paid: float = 0.0
+    other_expense_items: List[tuple] = field(default_factory=list)
+    material_participation: bool = True
+    made_1099_payments: bool = False
+    will_file_1099: bool = False
+    vehicle: Optional[dict] = None
+    depreciable_assets: List["DepreciableAsset"] = field(default_factory=list)
+
+@dataclass
+class PrepNotes:
+    name: str = ""
+    ptin: str = ""          # Format: P + 8 digits
+    firm_name: str = ""
+    firm_address: str = ""
+    firm_ein: str = ""
+    self_employed: bool = False
+
+@dataclass
+class DepreciableAsset:
+    description: str = ""
+    placed_in_service: str = ""
+    cost: float = 0.0
+    recovery_period: int = 5
+    method: str = "200DB"
+    convention: str = "HY"
+    depreciation_this_year: float = 0.0
+    section_179_elected: float = 0.0
+    prior_depreciation: float = 0.0
 
 
 @dataclass
@@ -166,6 +196,12 @@ class TaxProfile:
     primary_ssn: str = ""
     primary_dob: str = ""
     primary_occupation: str = ""
+    phone: str = ""
+    email: str = ""
+    preparer: Optional[PrepNotes] = None
+    has_home_office: bool = False
+    home_office_sqft: int = 0
+    home_office_deduction: float = 0.0
 
     # Spouse (None fields if single/HoH)
     spouse_first: Optional[str] = None
@@ -374,6 +410,9 @@ def reset_ssn_pool():
     global _used_ssns
     _used_ssns = set()
 
+def _generate_ptin() -> str:
+    return f"P{random.randint(10000000, 99999999)}"
+
 
 # ---------------------------------------------------------------------------
 # Profile Generator
@@ -521,6 +560,18 @@ def generate_profile(dataset_id: str, state: str, tax_year: int,
 
     # --- Income generation ---
     _generate_income(profile, state, tax_year, level)
+
+    profile.preparer = PrepNotes(
+        name=fake.name(),
+        ptin=_generate_ptin(),
+        firm_name=f"{fake.last_name()} Tax Services LLC",
+        firm_address=f"{random.randint(100,9999)} {fake.street_name()}, "
+                     f"{fake.city()}, {fake.state_abbr()} {fake.zipcode()}",
+        firm_ein=_generate_ein(),
+        self_employed=False,
+    )
+    profile.phone = fake.phone_number()
+    profile.email = fake.email()
 
     return profile
 
@@ -672,7 +723,7 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int,
         if random.random() < 0.3:
             biz_name = f"{profile.primary_last}'s {biz_name}"
 
-        profile.business_income = BusinessIncome(
+        biz_income = BusinessIncome(
             business_name=biz_name,
             activity_code=biz_code,
             activity_desc=biz_desc,
@@ -681,6 +732,76 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int,
             net_profit=net,
             depreciation=depreciation,
         )
+
+        if random.random() < 0.40:
+            monthly = random.choice([800, 900, 1000, 1200, 1500, 1800, 2000, 2500])
+            annual_rent = monthly * random.randint(6, 12)
+            biz_income.rent_expense = float(annual_rent)
+            biz_income.net_profit -= biz_income.rent_expense
+            
+        if level == 3 and random.random() < 0.30:
+            total_meals = round(random.uniform(1000, 4000), 0)
+            biz_income.deductible_meals = round(total_meals * 0.50)
+            biz_income.expenses.other += round(random.uniform(500, 3000), 0) # travel in other
+            biz_income.net_profit -= biz_income.deductible_meals
+
+        if level == 3 and random.random() < 0.10:
+            biz_income.wages_paid = round(random.uniform(15000, 50000), 0)
+            biz_income.net_profit -= biz_income.wages_paid
+
+        n = random.randint(2, 4)
+        cat_options = ["Software subscriptions", "Professional memberships & dues", "Bank charges", "Postage & shipping", "Cloud storage & hosting", "Professional development", "Client entertainment", "Business insurance riders"]
+        cats = random.sample(cat_options, n)
+        rem = expenses.other
+        items = []
+        for i, cat in enumerate(cats):
+            if i < n - 1:
+                amt = round(rem * random.uniform(0.20, 0.60))
+                rem -= amt
+            else:
+                amt = round(rem)
+            if amt > 0:
+                items.append((cat, amt))
+        biz_income.other_expense_items = items
+
+        if biz_income.depreciation > 0:
+            cost = round(biz_income.depreciation / 0.20)
+            asset = DepreciableAsset(
+                description="Computer Equipment",
+                placed_in_service=f"01/15/{tax_year}",
+                cost=cost,
+                recovery_period=5,
+                convention="HY",
+                method="200DB",
+                depreciation_this_year=biz_income.depreciation,
+            )
+            biz_income.depreciable_assets.append(asset)
+
+        if biz_income.expenses.car_and_truck > 0:
+            total_business_miles = round(biz_income.expenses.car_and_truck / 0.67)
+            total_miles = round(total_business_miles / random.uniform(0.60, 0.85))
+            personal_miles = total_miles - total_business_miles
+            vehicle_year = tax_year - random.randint(1, 4)
+            vehicle_makes = ["Honda Civic", "Toyota Camry", "Ford F-150", "Chevrolet Malibu", "Nissan Altima"]
+            biz_income.vehicle = {
+                "description": f"{vehicle_year} {random.choice(vehicle_makes)}",
+                "placed_in_service": f"01/01/{tax_year - random.randint(1,3)}",
+                "total_miles": total_miles,
+                "business_miles": total_business_miles,
+                "commuting_miles": 0,
+                "other_miles": personal_miles,
+                "available_personal": True,
+                "another_vehicle": True,
+                "written_evidence": True,
+            }
+
+        profile.business_income = biz_income
+        
+        if random.random() < 0.35:
+            profile.has_home_office = True
+            profile.home_office_sqft = random.randint(80, 300)
+            rate = 6 if tax_year >= 2025 else 5
+            profile.home_office_deduction = round(min(profile.home_office_sqft, 300) * rate, 2)
 
     # --- Additional Level 3 income ---
     if level == 3 and random.random() < 0.5:

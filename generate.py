@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Synthetic Tax Dataset Generator — v4.0 Spec Compliant
+Synthetic Tax Dataset Generator — v5.0 Guide v2.0 Compliant
 
 Generates complete synthetic tax datasets with all required documents:
   1. Client Summary (PDF)
@@ -8,7 +8,7 @@ Generates complete synthetic tax datasets with all required documents:
   3. Completed Tax Forms (Form 1040 + schedules — PDF)
   4. Executive Summary (PDF)
   5. XML data file (IRS MeF format)
-  6. Validation (15-rule engine, discard + re-seed on failure)
+  6. Validation (22-rule engine, discard + re-seed on failure)
 
 Usage:
     python generate.py --count 20 --output ./output
@@ -175,14 +175,14 @@ def main():
     levels = [int(l.strip()) for l in args.levels.split(",")]
 
     print(f"\n{'='*60}")
-    print(f"  Synthetic Tax Dataset Generator v4.0")
+    print(f"  Synthetic Tax Dataset Generator v5.0")
     print(f"{'='*60}")
     print(f"  Datasets to generate : {args.count}")
     print(f"  States               : {', '.join(states)}")
     print(f"  Tax Years            : {', '.join(map(str, years))}")
     print(f"  Complexity Levels    : {', '.join(map(str, levels))}")
     print(f"  Output Directory     : {args.output}")
-    print(f"  Validation           : {'Enabled (15 rules)' if args.validate else 'Disabled'}")
+    print(f"  Validation           : {'Enabled (22 rules)' if args.validate else 'Disabled'}")
     print(f"{'='*60}\n")
 
     assignments = distribute_datasets(args.count, states, years, levels)
@@ -263,7 +263,7 @@ def main():
 
     elapsed = time.time() - start_time
     print(f"\n{'='*60}")
-    print(f"  ✅ COMPLETE (v4.0 Spec)")
+    print(f"  ✅ COMPLETE (v5.0 Spec)")
     print(f"  Generated: {len(index_rows)}/{args.count} datasets")
     if total_discarded > 0:
         print(f"  Discarded: {total_discarded} (after {MAX_RETRIES} retries each)")
