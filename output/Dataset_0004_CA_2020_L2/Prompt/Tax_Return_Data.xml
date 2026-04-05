@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1976-08-06</PrimaryBirthDt>
+      <SpouseBirthDt>1948-12-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>66377</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>45934</SpouseSignaturePIN>
+    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>663776894</PrimarySSN>
+      <SpouseSSN>459340212</SpouseSSN>
+      <NameLine1Txt>Marissa Hughes</NameLine1Txt>
+      <SpouseNameLine1Txt>Tyler Hughes</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MARI</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>TYLE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9406 HALL MALL</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>459340212</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>3</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Keith</DependentFirstNm>
+        <DependentLastNm>Hughes</DependentLastNm>
+        <DependentNameControlTxt>KEIT</DependentNameControlTxt>
+        <DependentSSN>579279232</DependentSSN>
+        <DependentRelationshipCd>Daughter</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">68648</WagesAmt>
+      <WagesSalariesAndTipsAmt>68648</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">188</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">114</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">33558</BusinessIncomeAmt>
+      <TotalIncomeAmt>102509</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>100138</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">6237</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>31037</TotalDeductionsAmt>
+      <TaxableIncomeAmt>69101</TaxableIncomeAmt>
+      <TaxAmt>7886</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">2000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>2000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>7886</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>5886</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">4742</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>4742</TotalOtherTaxesAmt>
+      <TotalTaxAmt>10628</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>8238</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>8238</WithholdingTaxAmt>
+      <TotalPaymentsAmt>8238</TotalPaymentsAmt>
+      <AmountOwedAmt>2390</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">4742</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>4742</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>188</InterestAmt>
+      <TotalInterestAmt>188</TotalInterestAmt>
+      <OrdinaryDividendsAmt>114</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>114</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>611691</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>TUTO</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Tutoring</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>78395</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>78395</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2971</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>1944</CarAndTruckExpensesAmt>
+      <OfficeExpensesAmt>1458</OfficeExpensesAmt>
+      <SuppliesAmt>2521</SuppliesAmt>
+      <OtherBusinessExpensesAmt>24107</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>43319</TotalExpensesAmt>
+      <NetProfitOrLossAmt>33558</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>33558</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>33558</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>30991</SEBaseAmt>
+      <SelfEmploymentTaxAmt>4742</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>2371</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Keith Hughes</ChildFirstAndLastName>
+        <ChildSSN>579279232</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>2000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>2000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>33558</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>33558</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>6237</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Tutoring &amp; Education Services</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>1944</DepreciationAmt>
+      <TotalDepreciationAmt>1944</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>459340212</EmployeeSSN>
+      <EmployerEIN>935772039</EmployerEIN>
+      <EmployerNameControlTxt>GOLD</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Golden State Tech Solutions</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>342 Jessica Summit</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Tyler Hughes</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>342 Jessica Summit</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>68648</WagesAmt>
+      <WithholdingAmt>8238</WithholdingAmt>
+      <SocialSecurityWagesAmt>68648</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>4256</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>68648</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>995</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>755</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

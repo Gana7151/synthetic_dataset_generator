@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1964-11-05</PrimaryBirthDt>
+      <SpouseBirthDt>1965-09-22</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>48607</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>36704</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>486075519</PrimarySSN>
+      <SpouseSSN>367048720</SpouseSSN>
+      <NameLine1Txt>Matthew Patterson</NameLine1Txt>
+      <SpouseNameLine1Txt>Kaitlyn Patterson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MATT</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>KAIT</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>3440 PHILLIPS SPRING</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="1">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>367048720</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">0</WagesAmt>
+      <WagesSalariesAndTipsAmt>0</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
+      <TotalIncomeAmt>0</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>0</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>25100</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>25100</TotalDeductionsAmt>
+      <TaxableIncomeAmt>0</TaxableIncomeAmt>
+      <TaxAmt>0</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>0</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>0</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>0</WithholdingTaxAmt>
+      <TotalPaymentsAmt>0</TotalPaymentsAmt>
+    </IRS1040>
+  </ReturnData>
+</Return>

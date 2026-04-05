@@ -1,8 +1,8 @@
 {
-  "total_generated": 1,
+  "total_generated": 5,
   "total_discarded": 0,
   "total_retries": 0,
   "discard_rate": "0.00%",
   "rule_failure_breakdown": {},
-  "ssn_pool_size": 2
+  "ssn_pool_size": 16
 }

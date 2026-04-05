@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1988-09-02</PrimaryBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>48443</PrimarySignaturePIN>
+    <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>484438928</PrimarySSN>
+      <NameLine1Txt>Rebekah Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>REBE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5195 MARTIN SHOAL</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90045</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="5">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>2</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>William</DependentFirstNm>
+        <DependentLastNm>Navarro</DependentLastNm>
+        <DependentNameControlTxt>WILL</DependentNameControlTxt>
+        <DependentSSN>277206725</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">14916</WagesAmt>
+      <WagesSalariesAndTipsAmt>14916</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">201</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">384</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">-1438</BusinessIncomeAmt>
+      <TotalIncomeAmt>14063</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>14063</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>18650</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>18650</TotalDeductionsAmt>
+      <TaxableIncomeAmt>0</TaxableIncomeAmt>
+      <TaxAmt>0</TaxAmt>
+      <TotalCreditsAmt>0</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>0</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>0</TaxLessCreditsAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>746</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>746</WithholdingTaxAmt>
+      <TotalPaymentsAmt>2346</TotalPaymentsAmt>
+      <OverpaidAmt>2346</OverpaidAmt>
+      <RefundAmt>2346</RefundAmt>
+    </IRS1040>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>201</InterestAmt>
+      <TotalInterestAmt>201</TotalInterestAmt>
+      <OrdinaryDividendsAmt>384</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>384</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>MOBI</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>9510</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>9510</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>94</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>367</CarAndTruckExpensesAmt>
+      <OfficeExpensesAmt>154</OfficeExpensesAmt>
+      <SuppliesAmt>370</SuppliesAmt>
+      <OtherBusinessExpensesAmt>3761</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>5989</TotalExpensesAmt>
+      <NetProfitOrLossAmt>-1438</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>367</DepreciationAmt>
+      <TotalDepreciationAmt>367</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>484438928</EmployeeSSN>
+      <EmployerEIN>825472166</EmployerEIN>
+      <EmployerNameControlTxt>CALC</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>CalCoast Logistics Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>3549 Mitchell Parks</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Rebekah Navarro</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>3549 Mitchell Parks</AddressLine1Txt>
+        <CityNm>Los Angeles</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90012</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>14916</WagesAmt>
+      <WithholdingAmt>746</WithholdingAmt>
+      <SocialSecurityWagesAmt>14916</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>925</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>14916</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>216</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>164</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

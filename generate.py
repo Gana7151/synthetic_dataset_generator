@@ -32,6 +32,7 @@ from generators.input_documents import generate_all_input_documents
 from generators.tax_forms import generate_tax_forms
 from generators.executive_summary import generate_executive_summary
 from validation import ValidationEngine
+from pathlib import Path
 
 MAX_RETRIES = 3
 
@@ -125,6 +126,22 @@ def generate_single_dataset(dataset_id, state, year, level, output_dir,
     generate_xml(
         profile,
         os.path.join(dirs["prompt"], "Tax_Return_Data.xml"))
+
+    # 4b. Generate 28-page overlay PDF (realistic IRS form layout)
+    blank_form_pdf = Path(__file__).parent / "blank_form.pdf"
+    if blank_form_pdf.exists():
+        from generate_tax_pdf import generate_variation
+        overlay_pdf_path = os.path.join(
+            dirs["forms"],
+            f"Completed_Tax_Return_{year}_{profile.primary_last.upper()}.pdf"
+        )
+        try:
+            generate_variation(
+                str(blank_form_pdf), overlay_pdf_path,
+                seed=hash(ds_id) & 0xFFFFFFFF
+            )
+        except Exception as e:
+            print(f"    [WARN] Overlay PDF failed: {e}")
 
     # 5. Validate (if validator provided)
     if validator:
@@ -263,7 +280,7 @@ def main():
 
     elapsed = time.time() - start_time
     print(f"\n{'='*60}")
-    print(f"  ✅ COMPLETE (v5.0 Spec)")
+    print(f"  [OK] COMPLETE (v5.0 Spec)")
     print(f"  Generated: {len(index_rows)}/{args.count} datasets")
     if total_discarded > 0:
         print(f"  Discarded: {total_discarded} (after {MAX_RETRIES} retries each)")

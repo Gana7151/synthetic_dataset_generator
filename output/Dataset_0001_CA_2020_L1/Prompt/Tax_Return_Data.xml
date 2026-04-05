@@ -6,26 +6,19 @@
     <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
     <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
     <SelfSelectPINGrp>
-      <PrimaryBirthDt>1983-06-27</PrimaryBirthDt>
-      <SpouseBirthDt>1949-12-13</SpouseBirthDt>
+      <PrimaryBirthDt>1988-04-22</PrimaryBirthDt>
       <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
     </SelfSelectPINGrp>
     <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
-    <PrimarySignaturePIN>47448</PrimarySignaturePIN>
+    <PrimarySignaturePIN>66735</PrimarySignaturePIN>
     <PrimarySignatureDt>2021-04-15</PrimarySignatureDt>
-    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
-    <SpouseSignaturePIN>72274</SpouseSignaturePIN>
-    <SpouseSignatureDt>2021-04-15</SpouseSignatureDt>
     <ReturnTypeCd>1040</ReturnTypeCd>
     <Filer>
-      <PrimarySSN>474483833</PrimarySSN>
-      <SpouseSSN>722749818</SpouseSSN>
-      <NameLine1Txt>Bryan Diaz</NameLine1Txt>
-      <SpouseNameLine1Txt>Alyssa Diaz</SpouseNameLine1Txt>
-      <PrimaryNameControlTxt>BRYA</PrimaryNameControlTxt>
-      <SpouseNameControlTxt>ALYS</SpouseNameControlTxt>
+      <PrimarySSN>667351154</PrimarySSN>
+      <NameLine1Txt>Elizabeth Davenport</NameLine1Txt>
+      <PrimaryNameControlTxt>ELIZ</PrimaryNameControlTxt>
       <USAddress>
-        <AddressLine1Txt>9793 JOHN SUMMIT</AddressLine1Txt>
+        <AddressLine1Txt>1075 DANIEL SHORES</AddressLine1Txt>
         <CityNm>OAKLAND</CityNm>
         <StateAbbreviationCd>CA</StateAbbreviationCd>
         <ZIPCd>94612</ZIPCd>
@@ -34,59 +27,58 @@
   </ReturnHeader>
   <ReturnData documentCnt="2">
     <IRS1040 documentId="1">
-      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
-      <SpouseSSN>722749818</SpouseSSN>
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
       <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
-      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
-      <TotalExemptionsCnt>2</TotalExemptionsCnt>
-      <WagesAmt referenceDocumentId="IRSW2-0">52800</WagesAmt>
-      <WagesSalariesAndTipsAmt>52800</WagesSalariesAndTipsAmt>
+      <TotalExemptPrimaryAndSpouseCnt>1</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>1</TotalExemptionsCnt>
+      <WagesAmt referenceDocumentId="IRSW2-0">49095</WagesAmt>
+      <WagesSalariesAndTipsAmt>49095</WagesSalariesAndTipsAmt>
       <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
       <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxableInterestAmt>
       <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">0</OrdinaryDividendsAmt>
-      <TotalIncomeAmt>52800</TotalIncomeAmt>
-      <AdjustedGrossIncomeAmt>52800</AdjustedGrossIncomeAmt>
-      <TotalItemizedOrStandardDedAmt>24800</TotalItemizedOrStandardDedAmt>
-      <TotalDeductionsAmt>24800</TotalDeductionsAmt>
-      <TaxableIncomeAmt>28000</TaxableIncomeAmt>
-      <TaxAmt>2965</TaxAmt>
+      <TotalIncomeAmt>49095</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>49095</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>12400</TotalItemizedOrStandardDedAmt>
+      <TotalDeductionsAmt>12400</TotalDeductionsAmt>
+      <TaxableIncomeAmt>36695</TaxableIncomeAmt>
+      <TaxAmt>4206</TaxAmt>
       <TotalCreditsAmt>0</TotalCreditsAmt>
-      <TotalTaxBeforeCrAndOthTaxesAmt>2965</TotalTaxBeforeCrAndOthTaxesAmt>
-      <TaxLessCreditsAmt>2965</TaxLessCreditsAmt>
-      <TotalTaxAmt>2965</TotalTaxAmt>
-      <FormW2WithheldTaxAmt>6336</FormW2WithheldTaxAmt>
-      <WithholdingTaxAmt>6336</WithholdingTaxAmt>
-      <TotalPaymentsAmt>6336</TotalPaymentsAmt>
-      <OverpaidAmt>3371</OverpaidAmt>
-      <RefundAmt>3371</RefundAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>4206</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>4206</TaxLessCreditsAmt>
+      <TotalTaxAmt>4206</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>5891</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>5891</WithholdingTaxAmt>
+      <TotalPaymentsAmt>5891</TotalPaymentsAmt>
+      <OverpaidAmt>1685</OverpaidAmt>
+      <RefundAmt>1685</RefundAmt>
     </IRS1040>
     <IRSW2 documentId="IRSW2-0">
-      <EmployeeSSN>722749818</EmployeeSSN>
-      <EmployerEIN>323616120</EmployerEIN>
-      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployeeSSN>667351154</EmployeeSSN>
+      <EmployerEIN>455075435</EmployerEIN>
+      <EmployerNameControlTxt>BAY </EmployerNameControlTxt>
       <EmployerName>
-        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+        <BusinessNameLine1Txt>Bay Area Financial Group</BusinessNameLine1Txt>
       </EmployerName>
       <EmployerUSAddress>
-        <AddressLine1Txt>9389 Jasmine Islands</AddressLine1Txt>
-        <CityNm>Los Angeles</CityNm>
+        <AddressLine1Txt>4428 Gregory Estate</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
         <StateAbbreviationCd>CA</StateAbbreviationCd>
-        <ZIPCd>90012</ZIPCd>
+        <ZIPCd>95816</ZIPCd>
       </EmployerUSAddress>
-      <EmployeeNm>Alyssa Diaz</EmployeeNm>
+      <EmployeeNm>Elizabeth Davenport</EmployeeNm>
       <EmployeeUSAddress>
-        <AddressLine1Txt>9389 Jasmine Islands</AddressLine1Txt>
-        <CityNm>Los Angeles</CityNm>
+        <AddressLine1Txt>4428 Gregory Estate</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
         <StateAbbreviationCd>CA</StateAbbreviationCd>
-        <ZIPCd>90012</ZIPCd>
+        <ZIPCd>95816</ZIPCd>
       </EmployeeUSAddress>
-      <WagesAmt>52800</WagesAmt>
-      <WithholdingAmt>6336</WithholdingAmt>
-      <SocialSecurityWagesAmt>52800</SocialSecurityWagesAmt>
-      <SocialSecurityTaxAmt>3274</SocialSecurityTaxAmt>
-      <MedicareWagesAndTipsAmt>52800</MedicareWagesAndTipsAmt>
-      <MedicareTaxWithheldAmt>766</MedicareTaxWithheldAmt>
-      <StateDisabilityInsuranceAmt>581</StateDisabilityInsuranceAmt>
+      <WagesAmt>49095</WagesAmt>
+      <WithholdingAmt>5891</WithholdingAmt>
+      <SocialSecurityWagesAmt>49095</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3044</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>49095</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>712</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>540</StateDisabilityInsuranceAmt>
       <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
     </IRSW2>
   </ReturnData>

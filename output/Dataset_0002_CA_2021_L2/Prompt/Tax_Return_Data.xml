@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-04-15T00:00:00Z</ReturnTs>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1951-09-07</PrimaryBirthDt>
+      <SpouseBirthDt>1946-07-27</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>28890</PrimarySignaturePIN>
+    <PrimarySignatureDt>2022-04-15</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>25408</SpouseSignaturePIN>
+    <SpouseSignatureDt>2022-04-15</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>288903389</PrimarySSN>
+      <SpouseSSN>254089032</SpouseSSN>
+      <NameLine1Txt>Mark Shelton</NameLine1Txt>
+      <SpouseNameLine1Txt>Stephanie Shelton</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>MARK</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>STEP</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>5091 CODY EXTENSION</AddressLine1Txt>
+        <CityNm>FRESNO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>254089032</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Karen</DependentFirstNm>
+        <DependentLastNm>Shelton</DependentLastNm>
+        <DependentNameControlTxt>KARE</DependentNameControlTxt>
+        <DependentSSN>207873784</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Joshua</DependentFirstNm>
+        <DependentLastNm>Shelton</DependentLastNm>
+        <DependentNameControlTxt>JOSH</DependentNameControlTxt>
+        <DependentSSN>191418554</DependentSSN>
+        <DependentRelationshipCd>Son</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">124404</WagesAmt>
+      <WagesSalariesAndTipsAmt>124404</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">66</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">751</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">42100</BusinessIncomeAmt>
+      <TotalIncomeAmt>176531</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>174826</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>30871</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">8079</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>38950</TotalDeductionsAmt>
+      <TaxableIncomeAmt>135877</TaxableIncomeAmt>
+      <TaxAmt>21021</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">6000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>6000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>21021</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>15021</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">3409</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>3409</TotalOtherTaxesAmt>
+      <TotalTaxAmt>18430</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>14928</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>14928</WithholdingTaxAmt>
+      <TotalPaymentsAmt>14928</TotalPaymentsAmt>
+      <AmountOwedAmt>3502</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">3409</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>3409</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>66</InterestAmt>
+      <TotalInterestAmt>66</TotalInterestAmt>
+      <OrdinaryDividendsAmt>751</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>751</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Shelton's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>511210</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>SHEL</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Software Publishing</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>111233</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>111233</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>2183</AdvertisingAmt>
+      <CarAndTruckExpensesAmt>8829</CarAndTruckExpensesAmt>
+      <OfficeExpensesAmt>2277</OfficeExpensesAmt>
+      <SuppliesAmt>2522</SuppliesAmt>
+      <OtherBusinessExpensesAmt>44902</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>68565</TotalExpensesAmt>
+      <NetProfitOrLossAmt>42100</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>42100</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>42100</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>38879</SEBaseAmt>
+      <SelfEmploymentTaxAmt>3409</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>1704</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Karen Shelton</ChildFirstAndLastName>
+        <ChildSSN>207873784</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Joshua Shelton</ChildFirstAndLastName>
+        <ChildSSN>191418554</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>6000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>6000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>42100</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>42100</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>8079</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Shelton's Mobile App Development</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>8829</DepreciationAmt>
+      <TotalDepreciationAmt>8829</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>288903389</EmployeeSSN>
+      <EmployerEIN>847815140</EmployerEIN>
+      <EmployerNameControlTxt>SUNV</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>SunView Engineering Corp.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>7400 Goodwin Fields</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Mark Shelton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>7400 Goodwin Fields</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62202</WagesAmt>
+      <WithholdingAmt>7464</WithholdingAmt>
+      <SocialSecurityWagesAmt>62202</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3857</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62202</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>902</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>684</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+    <IRSW2 documentId="IRSW2-1">
+      <EmployeeSSN>254089032</EmployeeSSN>
+      <EmployerEIN>959427037</EmployerEIN>
+      <EmployerNameControlTxt>VALL</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Valley Education Services</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>4451 Graves Knolls</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Stephanie Shelton</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>4451 Graves Knolls</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>62202</WagesAmt>
+      <WithholdingAmt>7464</WithholdingAmt>
+      <SocialSecurityWagesAmt>62202</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>3857</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>62202</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>902</MedicareTaxWithheldAmt>
+      <StateDisabilityInsuranceAmt>684</StateDisabilityInsuranceAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

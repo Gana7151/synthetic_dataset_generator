@@ -118,7 +118,9 @@ class BusinessExpenses:
     car_and_truck: float = 0.0
     insurance: float = 0.0
     office_expense: float = 0.0
+    rent_lease: float = 0.0
     supplies: float = 0.0
+    taxes_licenses: float = 0.0
     utilities: float = 0.0
     other: float = 0.0
 
@@ -126,7 +128,8 @@ class BusinessExpenses:
     def total(self):
         return round(sum([
             self.advertising, self.car_and_truck, self.insurance,
-            self.office_expense, self.supplies, self.utilities, self.other
+            self.office_expense, self.rent_lease, self.supplies,
+            self.taxes_licenses, self.utilities, self.other
         ]), 2)
 
 
@@ -828,7 +831,7 @@ def _generate_income(profile: TaxProfile, state: str, tax_year: int, level: int,
             office_expense=expense_data["office_expenses"],
             rent_lease=expense_data["rent_lease"],
             supplies=expense_data["supplies"],
-            utilities=expense_data["taxes_licenses"],
+            taxes_licenses=expense_data["taxes_licenses"],
             other=expense_data["other_expenses"],
         )
 

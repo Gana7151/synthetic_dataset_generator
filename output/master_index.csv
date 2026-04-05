@@ -1,2 +1,6 @@
 dataset_id,folder,state,tax_year,level,filing_status,primary_name,spouse_name,dependents,total_income,agi,taxable_income,total_tax,refund,amount_owed,state_tax,effective_rate,obbba_total,medicare_surtax,is_tipped,has_car_loan,is_senior
-DS_0001,Dataset_0001_CA_2020_L1,CA,2020,1,mfj,Bryan Diaz,Alyssa Diaz,0,52800.0,52800.0,28000.0,2965.0,3371.0,0.0,494.64,5.62,0,0.0,False,False,False
+DS_0001,Dataset_0001_CA_2020_L1,CA,2020,1,single,Elizabeth Davenport,N/A,0,49095.0,49095.0,36695.0,4205.9,1685.1,0.0,1167.68,8.57,0,0.0,False,False,False
+DS_0002,Dataset_0002_CA_2021_L1,CA,2021,1,mfj,Susan Deleon,Daniel Deleon,1,160975.0,160975.0,135875.0,18389.5,17024.5,0.0,7152.1,11.42,0,0.0,False,False,False
+DS_0003,Dataset_0003_CA_2021_L2,CA,2021,2,mfj,Jennifer Smith,Stephen Smith,2,74382.38,74128.54,48360.54,507.67,8464.14,0.0,0,0.68,0,0.0,False,False,False
+DS_0004,Dataset_0004_CA_2020_L3,CA,2020,3,mfj,Karina Carter,James Carter,4,137632.43,136820.9,102133.05,7549.37,12095.63,0.0,4957.43,5.52,0,0.0,False,False,False
+DS_0005,Dataset_0005_CA_2020_L2,CA,2020,2,hoh,Rebekah Navarro,N/A,1,14063.36,14063.36,0,0.0,2346.0,0.0,0,0.0,0,0.0,False,False,False

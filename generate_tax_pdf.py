@@ -25,6 +25,7 @@ import json
 import random
 import string
 import sys
+import warnings
 from pathlib import Path
 from typing import Any
 
@@ -54,10 +55,14 @@ def xget(root, xpath, default=""):
     return default
 
 def s(root, xpath, val):
-    """Set the text of the first matching node, create if absent."""
+    """Set the text of the first matching node, create if absent.
+
+    Negative values are preserved.  Use s_nonneg() for lines that are
+    legally required to be >= 0 (tax amounts, credits, payments).
+    """
     nodes = root.xpath(xpath)
     if nodes:
-        nodes[0].text = str(max(0, int(val)))
+        nodes[0].text = str(int(val))
     else:
         parts = xpath.rsplit("/", 1)
         if len(parts) == 2:
@@ -66,7 +71,17 @@ def s(root, xpath, val):
             if parents:
                 from lxml import etree
                 new_el = etree.SubElement(parents[0], tag)
-                new_el.text = str(max(0, int(val)))
+                new_el.text = str(int(val))
+
+
+def s_nonneg(root, xpath, val):
+    """Like s(), but clamps to >= 0.
+
+    Use for IRS lines that are defined as non-negative:
+    TaxAmt, TotalTaxAmt, TotalCreditsAmt, TotalPaymentsAmt, RefundAmt,
+    AmountOwedAmt, ChildTaxCreditAmt, and all payment/withholding lines.
+    """
+    s(root, xpath, max(0, int(val)))
 
 
 
@@ -76,6 +91,17 @@ def fmt_money(val: str) -> str:
         if n == 0:
             return ""          # don't render zero-value fields
         return f"{n:,}"
+    except (ValueError, TypeError):
+        return val
+
+
+def fmt_money_required(val: str) -> str:
+    """Like fmt_money but always renders, even for zero.
+    Use on mandatory total/summary lines (AGI, TaxableIncome, TotalTax, etc.).
+    """
+    try:
+        n = int(val)
+        return f"{n:,}" if n != 0 else "0"
     except (ValueError, TypeError):
         return val
 
@@ -96,11 +122,19 @@ def fmt_ssn(val: str) -> str:
 # referencing known values against their bounding boxes.
 # ─────────────────────────────────────────────────────────────────────────────
 
-PAGE_H = 792.0  # All pages are US Letter
+def top_to_y(top: float, page_h: float, font_size: float = 9) -> float:
+    """Convert PDF 'top' coordinate (y from top) to ReportLab y (from bottom).
 
-def top_to_y(top: float, font_size: float = 9) -> float:
-    """Convert PDF 'top' coordinate (y from top) to ReportLab y (from bottom)."""
-    return PAGE_H - top - font_size
+    Args:
+        top:       y-distance from page top in PDF points (from form_structure.json).
+        page_h:    Actual page height in points, read from source_page.mediabox.height.
+        font_size: Nominal font size in points.
+
+    Returns:
+        ReportLab y-coordinate (distance from page bottom).
+    """
+    CAP_HEIGHT_RATIO = 0.72   # Helvetica cap-height ~72% of the em square
+    return page_h - top - (font_size * CAP_HEIGHT_RATIO)
 
 
 # Each entry: (page, xml_xpath, x, top_coord, font_size, formatter)
@@ -131,13 +165,13 @@ FIELD_DEFINITIONS = [
     (1, "//Return/ReturnData/IRS1040/TaxableInterestAmt",                  547.1, 549.5,  9,  fmt_money),
     (1, "//Return/ReturnData/IRS1040/OrdinaryDividendsAmt",                547.1, 561.5,  9,  fmt_money),
     (1, "//Return/ReturnData/IRS1040/BusinessIncomeAmt",                   547.1, 633.5,  9,  fmt_money),
-    (1, "//Return/ReturnData/IRS1040/TotalIncomeAmt",                      547.1, 645.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TotalIncomeAmt",                      547.1, 645.5,  9,  fmt_money_required),
     (1, "//Return/ReturnData/IRS1040/AdjustmentsToIncomeAmt",              552.7, 657.5,  9,  fmt_money),
-    (1, "//Return/ReturnData/IRS1040/AdjustedGrossIncomeAmt",              547.1, 669.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/AdjustedGrossIncomeAmt",              547.1, 669.5,  9,  fmt_money_required),
     (1, "//Return/ReturnData/IRS1040/TotalItemizedOrStandardDedAmt",       547.1, 681.5,  9,  fmt_money),
     (1, "//Return/ReturnData/IRS1040/QualifiedBusinessIncomeDedAmt",       547.1, 693.5,  9,  fmt_money),
     (1, "//Return/ReturnData/IRS1040/TotalDeductionsAmt",                  547.1, 705.5,  9,  fmt_money),
-    (1, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                    547.1, 717.5,  9,  fmt_money),
+    (1, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                    547.1, 717.5,  9,  fmt_money_required),
 
     # ── PAGE 2 — Form 1040 (Tax, Credits, Payments) ─────────────────────────
     (2, "//Return/ReturnHeader/Filer/NameLine1Txt",                        118.3,  27.5,  8,  None),
@@ -148,10 +182,10 @@ FIELD_DEFINITIONS = [
     (2, "//Return/ReturnData/IRS1040/TotalCreditsAmt",                     552.1,  99.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/TaxLessCreditsAmt",                   552.7, 111.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/OtherTaxesAmt",                       552.7, 123.5,  9,  fmt_money),
-    (2, "//Return/ReturnData/IRS1040/TotalTaxAmt",                         552.7, 135.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalTaxAmt",                         552.7, 135.5,  9,  fmt_money_required),
     (2, "//Return/ReturnData/IRS1040/FormW2WithheldTaxAmt",                455.5, 159.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/WithholdingTaxAmt",                   552.1, 195.5,  9,  fmt_money),
-    (2, "//Return/ReturnData/IRS1040/TotalPaymentsAmt",                    552.1, 291.5,  9,  fmt_money),
+    (2, "//Return/ReturnData/IRS1040/TotalPaymentsAmt",                    552.1, 291.5,  9,  fmt_money_required),
     (2, "//Return/ReturnData/IRS1040/OverpaidAmt",                         575.1, 303.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/RefundAmt",                           574.5, 315.5,  9,  fmt_money),
     (2, "//Return/ReturnData/IRS1040/AmountOwedAmt",                       552.1, 375.5,  9,  fmt_money),
@@ -388,7 +422,8 @@ FIELD_DEFINITIONS = [
 # (page, xpath_returns_true_if_checked, x, top_coord)
 # ─────────────────────────────────────────────────────────────────────────────
 CHECKBOX_DEFINITIONS = [
-    (14, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  377.5, 169.7),
+    # Form 8867 page 1 — EIC checkbox: only tick if EIC was actually claimed
+    (14, "//Return/ReturnData/IRS1040/EarnedIncomeCreditAmt",                377.5, 169.7),
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.5, 193.7),
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 241.7),
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.6, 313.7),
@@ -396,9 +431,12 @@ CHECKBOX_DEFINITIONS = [
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 463.7),
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 559.7),
     # (14, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     503.4, 571.7),
-    (14, "//Return/ReturnData/IRS1040ScheduleC/NetProfitOrLossAmt",          503.4, 619.7),
-    (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 181.7),
-    (15, "//Return/ReturnData/IRS1040/DependentDetail[1]/DependentFirstNm",  503.5, 217.7),
+    # Form 8867 page 1 — Schedule C profit: check only if Schedule C filed
+    (14, "//Return/ReturnData/IRS1040ScheduleC/GrossReceiptsOrSalesAmt",     503.4, 619.7),
+    # Form 8867 page 2 — CTC checkbox: only tick if CTC was claimed
+    (15, "//Return/ReturnData/IRS1040/ChildTaxCreditAmt",                    503.5, 181.7),
+    # Form 8867 page 2 — ACTC checkbox: only tick if ACTC was claimed
+    (15, "//Return/ReturnData/IRS1040Schedule8812/L27_AdditionalChildTaxCredit", 503.5, 217.7),
     # (15, "//Return/ReturnData/IRS1040/TaxableIncomeAmt",                     532.4, 613.7),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 312.7,  97.7),
     (17, "//Return/ReturnData/IRS4562/Vehicle[@seq='1']/Description", 521.5,  97.7),
@@ -584,7 +622,7 @@ def build_overlay_page(fields_for_page: list, page_width: float, page_height: fl
     c.setFillColorRGB(0, 0, 0)
 
     for (x, top, font_size, text, is_checkbox) in fields_for_page:
-        y = page_height - top - font_size
+        y = top_to_y(top, page_height, font_size)
         if is_checkbox:
             c.setFont("Helvetica-Bold", 10)
             c.drawString(x, y, "X")
@@ -616,6 +654,18 @@ def generate_pdf(xml_path: str, source_pdf: str, output_path: str):
     reader = PdfReader(source_pdf)
     writer = PdfWriter()
 
+    # Warn early if FIELD_DEFINITIONS references pages the source PDF doesn't have
+    defined_pages = {p for p, *_ in FIELD_DEFINITIONS}
+    source_page_count = len(reader.pages)
+    extra_pages = {p for p in defined_pages if p > source_page_count}
+    if extra_pages:
+        warnings.warn(
+            f"FIELD_DEFINITIONS references pages {sorted(extra_pages)} but "
+            f"source PDF only has {source_page_count} pages. "
+            "Those fields will be silently skipped.",
+            stacklevel=2,
+        )
+
     # Build a lookup: page_number → list of (x, top, font_size, text, is_checkbox)
     page_fields: dict[int, list] = {}
 
@@ -640,6 +690,11 @@ def generate_pdf(xml_path: str, source_pdf: str, output_path: str):
         page_num = i + 1
         pw = float(source_page.mediabox.width)
         ph = float(source_page.mediabox.height)
+
+        # Skip overlay for pages beyond the source PDF (already warned above)
+        if page_num > source_page_count:
+            writer.add_page(source_page)
+            continue
 
         if page_num in page_fields:
             overlay_bytes = build_overlay_page(page_fields[page_num], pw, ph)
@@ -921,10 +976,10 @@ def inject_schedule_se_detail(root, se_net, se_taxable, se_ss_tax, se_med_tax, s
     def set_or_add(parent, tag, value):
         existing = parent.xpath(tag)
         if existing:
-            existing[0].text = str(int(max(0, value)))
+            existing[0].text = str(int(value))   # callers clamp where needed
         else:
             el = etree.SubElement(parent, tag)
-            el.text = str(int(max(0, value)))
+            el.text = str(int(value))
 
     set_or_add(se, "NetProfitOrLossAmt",             se_net)
     set_or_add(se, "SETotalNetEarningsOrLossAmt",     se_net)
@@ -1104,10 +1159,10 @@ def inject_schedule8812_part2(root, actc_vals: dict):
     def set_or_add(parent, tag, value):
         existing = parent.xpath(tag)
         if existing:
-            existing[0].text = str(int(max(0, value)))
+            existing[0].text = str(int(value))   # callers clamp where needed
         else:
             el = etree.SubElement(parent, tag)
-            el.text = str(int(max(0, value)))
+            el.text = str(int(value))
 
     set_or_add(s8812, "L16a_NumKidsX1700",         actc_vals["l16a"])
     set_or_add(s8812, "L16b_EarnedIncome",          actc_vals["l16b"])
@@ -1378,17 +1433,17 @@ def recompute_derived_fields(root, ca_withheld=0):
         refund = 0
         owed   = l24 - withheld
 
-    s(root, "//Return/ReturnData/IRS1040/TaxAmt", l16)
-    s(root, "//Return/ReturnData/IRS1040/TotalTaxBeforeCrAndOthTaxesAmt", l18)
-    s(root, "//Return/ReturnData/IRS1040/ChildTaxCreditAmt", ctc_used)
-    s(root, "//Return/ReturnData/IRS1040/TotalCreditsAmt", ctc_used)
-    s(root, "//Return/ReturnData/IRS1040/TaxLessCreditsAmt", max(0, l18 - ctc_used))
-    s(root, "//Return/ReturnData/IRS1040/OtherTaxesAmt", se_total)
-    s(root, "//Return/ReturnData/IRS1040/TotalTaxAmt", l24)
-    s(root, "//Return/ReturnData/IRS1040/TotalPaymentsAmt", withheld)
-    s(root, "//Return/ReturnData/IRS1040/OverpaidAmt", refund)
-    s(root, "//Return/ReturnData/IRS1040/RefundAmt", refund)
-    s(root, "//Return/ReturnData/IRS1040/AmountOwedAmt", owed)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TaxAmt",                     l16)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TotalTaxBeforeCrAndOthTaxesAmt", l18)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/ChildTaxCreditAmt",           ctc_used)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TotalCreditsAmt",             ctc_used)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TaxLessCreditsAmt",           max(0, l18 - ctc_used))
+    s_nonneg(root, "//Return/ReturnData/IRS1040/OtherTaxesAmt",               se_total)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TotalTaxAmt",                 l24)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/TotalPaymentsAmt",            withheld)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/OverpaidAmt",                 refund)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/RefundAmt",                   refund)
+    s_nonneg(root, "//Return/ReturnData/IRS1040/AmountOwedAmt",               owed)
 
     ca_std  = 11080
     ca_agi  = l11
